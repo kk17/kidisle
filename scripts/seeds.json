@@ -1,7 +1,7 @@
 {
   "delay_seconds": 2.0,
   "curated_files": [
-    "/tmp/kidisle-research/smoke-bv.txt"
+    "data/curated/bv-links-2026-11-06.md"
   ],
   "seed_users": [],
   "search_queries": [],
