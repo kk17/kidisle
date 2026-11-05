@@ -11,7 +11,6 @@ export function getStaticPaths() {
 }
 const { video: v } = Astro.props;
 import { base } from '../../lib/base.ts';
-const kikireelBase = siteConfig.kikireel_web_base;
 const ageLabel = Object.fromEntries(taxonomy.age_bands.map((t) => [t.id, t.label]));
 const langLabel = Object.fromEntries(taxonomy.languages.map((t) => [t.id, t.label]));
 const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]));
@@ -20,6 +19,10 @@ const embedUrl = embedBase + '1';
 const pages = (v.pages ?? []) as { page: number; part: string; duration: number }[];
 const totalPages = v.total_pages || pages.length;
 const bilibiliUrl = `https://www.bilibili.com/video/${v.bvid}`;
+const kikireelTemplate = siteConfig.kikireel_url_template || '';
+const kikireelHref = kikireelTemplate
+	? kikireelTemplate.replace('{url}', encodeURIComponent(bilibiliUrl)).replace('{source}', 'bilibili')
+	: '';
 const blogger = bloggers.bloggers.find((b) => b.up === v.up);
 
 // 相关推荐：同博主优先，再按共享主题补足
@@ -97,8 +100,8 @@ const mins = v.duration_seconds > 0 ? Math.round(v.duration_seconds / 60) : 0;
 
 			<div class="actions">
 				<button class="copy" data-url={bilibiliUrl}>🔗 复制链接</button>
-				{kikireelBase && (
-					<a class="kiki" href={`${kikireelBase}${encodeURIComponent(bilibiliUrl)}`} target="_blank" rel="noopener">
+				{kikireelHref && (
+					<a class="kiki" href={kikireelHref} target="_blank" rel="noopener">
 						⭐ 收藏到 KikiReel
 					</a>
 				)}

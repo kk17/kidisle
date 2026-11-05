@@ -1,4 +1,4 @@
 {
-  "kikireel_web_base": "",
-  "_comment": "KikiReel web 端收藏页基址（以 = 结尾的 query 前缀，如 https://kikireel.example/search?url=）。为空时站点隐藏「收藏到 KikiReel」按钮。"
+  "kikireel_url_template": "https://play.kk17.net/family/video-search/?keyword={url}&source={source}#/search",
+  "_comment": "KikiReel 收藏落地链接模板。{url} = encodeURIComponent(视频原链)，{source} = bilibili / youtube。格式由家长 2026-11-06 提供（RIGE-703 线程留档）。留空字符串则隐藏按钮。"
 }
