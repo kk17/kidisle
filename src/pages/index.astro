@@ -1,14 +1,20 @@
 ---
 import taxonomy from '../data/taxonomy.json';
 import videos from '../data/videos.json';
+import siteConfig from '../data/site-config.json';
 
-const ageLabel = Object.fromEntries(taxonomy.age_bands.map((t) => [t.id, t.label]));
-const langLabel = Object.fromEntries(taxonomy.languages.map((t) => [t.id, t.label]));
-const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]));
+const kikireelBase = siteConfig.kikireel_web_base;
+
+const ageBands = taxonomy.age_bands;
+const languages = taxonomy.languages;
+const themes = taxonomy.themes;
+const ageLabel = Object.fromEntries(ageBands.map((t) => [t.id, t.label]));
+const langLabel = Object.fromEntries(languages.map((t) => [t.id, t.label]));
+const themeLabel = Object.fromEntries(themes.map((t) => [t.id, t.label]));
 
 const bilibiliUrl = (bvid: string) => `https://www.bilibili.com/video/${bvid}`;
 const embedUrl = (bvid: string) =>
-	`https://player.bilibili.com/player.html?bvid=${bvid}&autoplay=0&high_quality=1`;
+	`https://player.bilibili.com/player.html?bvid=${bvid}&autoplay=1&high_quality=1`;
 ---
 
 <html lang="zh-CN">
@@ -18,15 +24,23 @@ const embedUrl = (bvid: string) =>
 		<link rel="icon" href="/favicon.ico" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="generator" content={Astro.generator} />
-		<meta name="description" content="童心岛：为小朋友精选的中文视频片单，按年龄段、语言、主题筛选，B 站官方播放。" />
+		<meta
+			name="description"
+			content="童心岛：为小朋友精选的中文视频片单，按年龄段、语言、主题筛选，B 站官方播放。"
+		/>
 		<title>童心岛 · 为孩子精选的中文视频片单</title>
 		<style>
 			:root {
 				--ink: #1f2937;
 				--muted: #6b7280;
-				--sea: #0ea5e9;
+				--sea: #0284c7;
+				--sea-soft: #e0f2fe;
 				--card: #ffffff;
 				--bg: #f0f9ff;
+				--line: #bae6fd;
+			}
+			* {
+				box-sizing: border-box;
 			}
 			body {
 				margin: 0;
@@ -35,25 +49,83 @@ const embedUrl = (bvid: string) =>
 				color: var(--ink);
 			}
 			header {
-				padding: 2.5rem 1rem 1.5rem;
+				padding: 2rem 1rem 1rem;
 				text-align: center;
 			}
 			header h1 {
 				margin: 0;
-				font-size: 1.9rem;
+				font-size: 1.8rem;
 			}
 			header p {
 				margin: 0.5rem auto 0;
 				max-width: 34em;
 				color: var(--muted);
+				font-size: 0.95rem;
 			}
-			.grid {
-				display: grid;
-				grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-				gap: 1rem;
+			/* ---- 筛选区 ---- */
+			.filters {
+				position: sticky;
+				top: 0;
+				z-index: 10;
+				background: rgba(240, 249, 255, 0.92);
+				backdrop-filter: blur(6px);
+				border-bottom: 1px solid var(--line);
+				padding: 0.75rem 1rem;
+				display: flex;
+				flex-direction: column;
+				gap: 0.5rem;
 				max-width: 72rem;
 				margin: 0 auto;
-				padding: 0 1rem 3rem;
+			}
+			.filter-row {
+				display: flex;
+				align-items: center;
+				gap: 0.4rem;
+				flex-wrap: wrap;
+			}
+			.filter-row .dim {
+				font-size: 0.78rem;
+				color: var(--muted);
+				width: 3.2em;
+				flex-shrink: 0;
+			}
+			.chip {
+				font-size: 0.82rem;
+				padding: 0.28rem 0.8rem;
+				border-radius: 999px;
+				border: 1px solid var(--line);
+				background: var(--card);
+				color: var(--ink);
+				cursor: pointer;
+				user-select: none;
+			}
+			.chip[aria-pressed='true'] {
+				background: var(--sea);
+				border-color: var(--sea);
+				color: #fff;
+			}
+			.chip-clear {
+				font-size: 0.78rem;
+				color: var(--sea);
+				background: none;
+				border: none;
+				cursor: pointer;
+				text-decoration: underline;
+			}
+			.count {
+				font-size: 0.8rem;
+				color: var(--muted);
+				margin-left: auto;
+			}
+			/* ---- 卡片区 ---- */
+			.grid {
+				list-style: none;
+				margin: 0 auto;
+				padding: 1rem 1rem 3rem;
+				max-width: 72rem;
+				display: grid;
+				grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+				gap: 1rem;
 			}
 			.card {
 				background: var(--card);
@@ -63,52 +135,100 @@ const embedUrl = (bvid: string) =>
 				display: flex;
 				flex-direction: column;
 			}
-			.card iframe {
-				width: 100%;
+			.cover {
+				position: relative;
 				aspect-ratio: 16 / 9;
+				background: #e2e8f0;
+				border: 0;
+				padding: 0;
+				cursor: pointer;
+				width: 100%;
+			}
+			.cover img {
+				position: absolute;
+				inset: 0;
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+			.cover .play {
+				position: absolute;
+				inset: 0;
+				display: grid;
+				place-items: center;
+				font-size: 2.6rem;
+				color: #fff;
+				background: rgba(0, 0, 0, 0.18);
+			}
+			.cover iframe {
+				position: absolute;
+				inset: 0;
+				width: 100%;
+				height: 100%;
 				border: 0;
 			}
 			.card-body {
-				padding: 0.75rem 1rem 1rem;
+				padding: 0.7rem 0.9rem 0.9rem;
 				display: flex;
 				flex-direction: column;
-				gap: 0.5rem;
+				gap: 0.45rem;
+				flex: 1;
 			}
 			.card-body h2 {
 				margin: 0;
-				font-size: 1rem;
+				font-size: 0.95rem;
 				line-height: 1.4;
+				display: -webkit-box;
+				-webkit-line-clamp: 2;
+				-webkit-box-orient: vertical;
+				overflow: hidden;
 			}
 			.card-meta {
-				font-size: 0.8rem;
+				font-size: 0.78rem;
 				color: var(--muted);
 			}
 			.tagrow {
 				display: flex;
 				flex-wrap: wrap;
-				gap: 0.35rem;
+				gap: 0.3rem;
 			}
 			.tag {
-				font-size: 0.72rem;
-				padding: 0.1rem 0.5rem;
+				font-size: 0.7rem;
+				padding: 0.08rem 0.5rem;
 				border-radius: 999px;
-				background: #e0f2fe;
+				background: var(--sea-soft);
 				color: #0369a1;
 			}
-			.copy {
+			.actions {
 				margin-top: auto;
-				align-self: flex-start;
-				font-size: 0.85rem;
-				padding: 0.4rem 0.9rem;
-				border: 1px solid var(--sea);
+				display: flex;
+				gap: 0.5rem;
+			}
+			.actions button {
+				flex: 1;
+				font-size: 0.82rem;
+				padding: 0.4rem 0.5rem;
 				border-radius: 8px;
+				cursor: pointer;
+			}
+			.copy {
+				border: 1px solid var(--sea);
 				background: transparent;
 				color: var(--sea);
-				cursor: pointer;
 			}
 			.copy:active {
 				background: var(--sea);
 				color: #fff;
+			}
+			.kiki {
+				border: 1px solid #f59e0b;
+				background: transparent;
+				color: #b45309;
+			}
+			.empty {
+				text-align: center;
+				color: var(--muted);
+				padding: 3rem 1rem;
 			}
 			footer {
 				text-align: center;
@@ -116,31 +236,66 @@ const embedUrl = (bvid: string) =>
 				font-size: 0.8rem;
 				padding: 1rem 0 2rem;
 			}
+			footer a {
+				color: var(--sea);
+			}
 		</style>
 	</head>
 	<body>
 		<header>
 			<h1>🏝️ 童心岛</h1>
-			<p>视频的汪洋里，为孩子圈出一座安全的小岛。所有视频均来自 B 站官方播放器，点「复制链接」即可收藏。</p>
+			<p>视频的汪洋里，为孩子圈出一座安全的小岛。选好片 → 点封面播放 → 一键收藏。</p>
 		</header>
 
+		<section class="filters" id="filters">
+			<div class="filter-row">
+				<span class="dim">年龄段</span>
+				{ageBands.map((t) => <button class="chip" data-dim="age" data-v={t.id} aria-pressed="false">{t.label}</button>)}
+				<button class="chip-clear" data-clear="age">清空</button>
+				<span class="count" id="count"></span>
+			</div>
+			<div class="filter-row">
+				<span class="dim">语言</span>
+				{languages.map((t) => <button class="chip" data-dim="language" data-v={t.id} aria-pressed="false">{t.label}</button>)}
+				<button class="chip-clear" data-clear="language">清空</button>
+			</div>
+			<div class="filter-row">
+				<span class="dim">主题</span>
+				{themes.map((t) => <button class="chip" data-dim="theme" data-v={t.id} aria-pressed="false">{t.label}</button>)}
+				<button class="chip-clear" data-clear="theme">清空</button>
+			</div>
+		</section>
+
 		<main>
-			<ul class="grid" style="list-style: none; margin: 0; padding: 0 1rem 3rem;">
+			<ul class="grid" id="grid">
 				{
 					videos.videos.map((v) => (
-						<li class="card">
-							<iframe
-								src={embedUrl(v.bvid)}
-								loading="lazy"
-								allowfullscreen
-								scrolling="no"
-								frameborder="0"
-								title={v.title}
-							/>
+						<li
+							class="card"
+							data-age={JSON.stringify(v.tags.age)}
+							data-language={JSON.stringify(v.tags.language)}
+							data-theme={JSON.stringify(v.tags.theme)}
+						>
+							<button
+								class="cover"
+								data-embed={embedUrl(v.bvid)}
+								aria-label={`播放 ${v.title}`}
+							>
+								{v.cover && (
+									<img
+										src={v.cover}
+										loading="lazy"
+										referrerpolicy="no-referrer"
+										alt=""
+									/>
+								)}
+								<span class="play">▶</span>
+							</button>
 							<div class="card-body">
 								<h2>{v.title}</h2>
 								<div class="card-meta">
-									{v.up} · {Math.round(v.duration_seconds / 60)} 分钟
+									{v.up}
+									{v.duration_seconds > 0 && ` · ${Math.round(v.duration_seconds / 60)} 分钟`}
 								</div>
 								<div class="tagrow">
 									{v.tags.age.map((a) => (
@@ -153,12 +308,28 @@ const embedUrl = (bvid: string) =>
 										<span class="tag">{themeLabel[t] ?? t}</span>
 									))}
 								</div>
-								<button class="copy" data-url={bilibiliUrl(v.bvid)}>🔗 复制链接</button>
+								<div class="actions">
+									<button class="copy" data-url={bilibiliUrl(v.bvid)}>
+										🔗 复制链接
+									</button>
+									{kikireelBase && (
+										<a
+											class="kiki"
+											href={`${kikireelBase}${encodeURIComponent(bilibiliUrl(v.bvid))}`}
+											target="_blank"
+											rel="noopener"
+											style="text-decoration:none;text-align:center;padding:0.4rem 0.5rem;"
+										>
+											⭐ 收藏到 KikiReel
+										</a>
+									)}
+								</div>
 							</div>
 						</li>
 					))
 				}
 			</ul>
+			<div class="empty" id="empty" hidden>这个组合下暂时没有视频，换个筛选试试～</div>
 		</main>
 
 		<footer>
@@ -166,6 +337,74 @@ const embedUrl = (bvid: string) =>
 		</footer>
 
 		<script>
+			// ---- 筛选：组内 OR、组间 AND ----
+			const state: Record<string, Set<string>> = { age: new Set(), language: new Set(), theme: new Set() };
+			const cards = Array.from(document.querySelectorAll<HTMLLIElement>('#grid .card'));
+			const countEl = document.getElementById('count')!;
+			const emptyEl = document.getElementById('empty')!;
+
+			function apply() {
+				let shown = 0;
+				for (const card of cards) {
+					const ok = (['age', 'language', 'theme'] as const).every((dim) => {
+						if (state[dim].size === 0) return true;
+						const vals: string[] = JSON.parse(card.dataset[dim] || '[]');
+						return vals.some((v) => state[dim].has(v));
+					});
+					card.style.display = ok ? '' : 'none';
+					if (ok) shown++;
+				}
+				countEl.textContent = `${shown} / ${cards.length}`;
+				emptyEl.hidden = shown > 0;
+			}
+
+			document.querySelectorAll<HTMLButtonElement>('.chip').forEach((chip) => {
+				chip.addEventListener('click', () => {
+					const dim = chip.dataset.dim!;
+					const set = state[dim];
+					const v = chip.dataset.v!;
+					if (set.has(v)) {
+						set.delete(v);
+						chip.setAttribute('aria-pressed', 'false');
+					} else {
+						set.add(v);
+						chip.setAttribute('aria-pressed', 'true');
+					}
+					apply();
+				});
+			});
+			document.querySelectorAll<HTMLButtonElement>('.chip-clear').forEach((btn) => {
+				btn.addEventListener('click', () => {
+					state[btn.dataset.clear!].clear();
+					document
+						.querySelectorAll<HTMLButtonElement>(`.chip[data-dim="${btn.dataset.clear}"]`)
+						.forEach((c) => c.setAttribute('aria-pressed', 'false'));
+					apply();
+				});
+			});
+			apply();
+
+			// ---- 封面门面：点击才注入 iframe，避免首屏几百个播放器 ----
+			document.querySelectorAll<HTMLButtonElement>('.cover').forEach((btn) => {
+				btn.addEventListener('click', () => {
+					if (btn.dataset.embed && !btn.querySelector('iframe')) {
+						const iframe = document.createElement('iframe');
+						iframe.src = btn.dataset.embed;
+						iframe.allowFullscreen = true;
+						iframe.scrolling = 'no';
+						iframe.title = '视频播放器';
+						btn.appendChild(iframe);
+						btn.querySelector('.play')?.remove();
+					}
+				});
+			});
+
+			// ---- 复制链接（剪贴板 API + execCommand 兜底）----
+			function flash(btn: HTMLElement, text: string) {
+				const original = btn.textContent;
+				btn.textContent = text;
+				setTimeout(() => (btn.textContent = original), 1500);
+			}
 			document.querySelectorAll<HTMLButtonElement>('.copy').forEach((btn) => {
 				btn.addEventListener('click', async () => {
 					const url = btn.dataset.url;
@@ -173,7 +412,6 @@ const embedUrl = (bvid: string) =>
 					try {
 						await navigator.clipboard.writeText(url);
 					} catch {
-						// 剪贴板 API 不可用时的兜底：选中可编辑元素走 execCommand
 						const ta = document.createElement('textarea');
 						ta.value = url;
 						document.body.appendChild(ta);
@@ -181,9 +419,7 @@ const embedUrl = (bvid: string) =>
 						document.execCommand('copy');
 						ta.remove();
 					}
-					const original = btn.textContent;
-					btn.textContent = '✅ 已复制';
-					setTimeout(() => (btn.textContent = original), 1500);
+					flash(btn, '✅ 已复制');
 				});
 			});
 		</script>

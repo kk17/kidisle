@@ -1,0 +1,4 @@
+{
+  "kikireel_web_base": "",
+  "_comment": "KikiReel web 端收藏页基址（以 = 结尾的 query 前缀，如 https://kikireel.example/search?url=）。为空时站点隐藏「收藏到 KikiReel」按钮。"
+}
