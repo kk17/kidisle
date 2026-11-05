@@ -18,6 +18,11 @@ from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+# 已知精选来源的原文链接（调研报告 docs/data-sources.md）
+SOURCE_URLS = {
+    "小花生宝藏UP主盘点": "https://www.163.com/dy/article/HIJ32IVO05268AGI.html",
+    "外滩教育推荐": "https://www.thepaper.cn/newsDetail_forward_19093414",
+}
 
 
 def main():
@@ -89,6 +94,10 @@ def main():
         themes = [t for v in vids for t in v["tags"]["theme"]]
         top_themes = [theme_labels[t] for t, _ in Counter(themes).most_common(2)]
         info = overlay.get(up, {})
+        mid = next((pool[v["bvid"]].get("mid") for v in vids
+                    if pool.get(v["bvid"], {}).get("mid")), None)
+        source_name = info.get("source") or "社区精选"
+        source_url = info.get("source_url") or SOURCE_URLS.get(source_name, "")
         reason = info.get("reason") or (
             f"收录 {len(vids)} 条视频，主打{'、'.join(top_themes)}" if top_themes
             else f"收录 {len(vids)} 条视频"
@@ -99,7 +108,9 @@ def main():
             "video_count": len(vids),
             "themes": [t for t, _ in Counter(themes).most_common(3)],
             "reason": reason,
-            "source": info.get("source") or "社区精选",
+            "source": source_name,
+            "source_url": source_url,
+            "mid": mid,
         })
     bloggers.sort(key=lambda b: -b["video_count"])
     bloggers_out = ROOT / "src/data/bloggers.json"

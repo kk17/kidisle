@@ -21,23 +21,29 @@ const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]
 						class="bcell"
 						data-themes={JSON.stringify(b.themes ?? [])}
 					>
-						<a class="bcard" href={`${base}blogger/${encodeURIComponent(b.up)}/`}>
-							<span class="btop">
-								<span class="bavatar">
-									{b.avatar && <img src={b.avatar} loading="lazy" referrerpolicy="no-referrer" alt="" />}
-									{!b.avatar && b.up.slice(0, 1)}
+						<div class="bcard">
+							<a class="bmain" href={`${base}blogger/${encodeURIComponent(b.up)}/`} aria-label={`查看 ${b.up} 的视频`}>
+								<span class="btop">
+									<span class="bavatar">
+										{b.avatar && <img src={b.avatar} loading="lazy" referrerpolicy="no-referrer" alt="" />}
+										{!b.avatar && b.up.slice(0, 1)}
+									</span>
+									<span>
+										<span class="bname">{b.up}</span>
+										<span class="bcount">{b.video_count} 条视频</span>
+									</span>
 								</span>
-								<span>
-									<span class="bname">{b.up}</span>
-									<span class="bcount">{b.video_count} 条视频</span>
+								<span class="breason">{b.reason}</span>
+								<span class="tagrow">
+									{(b.themes ?? []).map((t) => <span class="tag">{themeLabel[t] ?? t}</span>)}
 								</span>
-							</span>
-							<span class="breason">{b.reason}</span>
-							<span class="tagrow">
-								{(b.themes ?? []).map((t) => <span class="tag">{themeLabel[t] ?? t}</span>)}
-							</span>
-							<span class="bsrc">📎 {b.source}</span>
-						</a>
+							</a>
+							{b.source_url ? (
+								<a class="bsrc" href={b.source_url} target="_blank" rel="noopener">📎 {b.source} ↗</a>
+							) : (
+								<span class="bsrc">📎 {b.source}</span>
+							)}
+						</div>
 					</li>
 				))
 			}
@@ -71,11 +77,14 @@ const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]
 		display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 0.9rem;
 	}
 	.bcard {
+		position: relative;
 		display: flex; flex-direction: column; gap: 0.5rem; height: 100%;
 		background: var(--card); border-radius: 12px; padding: 1rem;
 		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-		text-decoration: none; color: inherit;
 	}
+	/* 拉伸链接：主链接铺满卡片，来源徽章独立可点 */
+	.bmain { text-decoration: none; color: inherit; display: flex; flex-direction: column; gap: 0.5rem; }
+	.bmain::after { content: ''; position: absolute; inset: 0; }
 	.bcard:hover { outline: 2px solid var(--sea); }
 	.btop { display: flex; align-items: center; gap: 0.6rem; }
 	.bavatar {
@@ -89,9 +98,11 @@ const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]
 	.breason { font-size: 0.8rem; color: var(--muted); line-height: 1.45; }
 	.tagrow { display: flex; flex-wrap: wrap; gap: 0.28rem; }
 	.bsrc {
+		position: relative; z-index: 1;
 		align-self: flex-start; font-size: 0.68rem; padding: 0.06rem 0.5rem; border-radius: 999px;
-		background: #fef3c7; color: #92400e;
+		background: #fef3c7; color: #92400e; text-decoration: none;
 	}
+	a.bsrc:hover { text-decoration: underline; }
 	.empty { text-align: center; color: var(--muted); padding: 3rem 1rem; }
 </style>
 
