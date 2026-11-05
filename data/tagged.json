@@ -1,0 +1,451 @@
+{
+  "schema_version": 1,
+  "count": 31,
+  "videos": [
+    {
+      "bvid": "BV11341157Wz",
+      "suitable": true,
+      "note": "吴姥姥物理演示,讲解类科普给大童档",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "BV114411Q7Y4",
+      "suitable": false,
+      "note": "初一教材同步应试课,超龄且超长搬运",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "BV12b411k7b9",
+      "suitable": false,
+      "note": "初中化学应试,超龄,含APP推广与教辅带货",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "BV13u411Z79C",
+      "suitable": true,
+      "note": "诗词感悟短片,健康,人文类暂归story",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV16M4y1G72B",
+      "suitable": true,
+      "note": "视觉错觉物理科普短片,内容健康",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "BV17b4y1g7br",
+      "suitable": true,
+      "note": "脑波仿生手科技演示,健康",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "BV19T4y1E7VN",
+      "suitable": true,
+      "note": "频道宣传短片,无实质内容,待人工复核",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Bb411L7qi",
+      "suitable": false,
+      "note": "初二物理同步讲解,受众超龄",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "BV1DJ411w7Th",
+      "suitable": false,
+      "note": "初二教材同步应试课,超龄且超长搬运",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "BV1FP411s7Ew",
+      "suitable": true,
+      "note": "用概率讲葫芦娃救爷爷策略,趣味数学",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "math"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1H34y1E7YU",
+      "suitable": true,
+      "note": "公众科学日宣传片,健康但非教学内容,待复核",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1HJ411t7Ku",
+      "suitable": false,
+      "note": "初中竞赛应试解题,受众超龄,不收录",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "BV1LE411e7jx",
+      "suitable": false,
+      "note": "中考真题应试讲解,受众超龄",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "BV1Mh41147ty",
+      "suitable": true,
+      "note": "唐诗细读讲解,古诗词讲解属9-12档",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1PBkdYCEWt",
+      "suitable": true,
+      "note": "速算技巧讲解,简短健康",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "math"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1SA411P7re",
+      "suitable": true,
+      "note": "纳兰词讲解,健康,人文类暂归story",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1TP4y147Z4",
+      "suitable": true,
+      "note": "人工引雷实验纪实短片,科普健康",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1U7oQYrEkR",
+      "suitable": true,
+      "note": "辣椒驯化史讲解,健康,片长约35分钟偏长",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "nature"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1YL411s7Yn",
+      "suitable": true,
+      "note": "诗词情感解读,健康,建议增设人文主题",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Ys411k7yQ",
+      "suitable": false,
+      "note": "线性代数为大学内容,超出0-12适龄范围",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "BV1gP411z7kE",
+      "suitable": true,
+      "note": "实验原理演示,提醒勿模仿,内容健康",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1gx411Q7Ze",
+      "suitable": true,
+      "note": "化学沉淀反应实拍,画面优美,含高中化学",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1ib411t7YR",
+      "suitable": false,
+      "note": "大学线代合集超龄,且为转载搬运",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "BV1pp411Z7ap",
+      "suitable": false,
+      "note": "简介含APP推广加微信领资料,明显引流",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "BV1qE411H7Uv",
+      "suitable": false,
+      "note": "中考应试复习,超龄,简介含公众号小程序引流",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "BV1qxBiBRENm",
+      "suitable": true,
+      "note": "生物化学深度讲解,语言偏成人,9-12档",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1tE41187pY",
+      "suitable": true,
+      "note": "幽默科普,口播风格略成人化,给大童档",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1vF4m1T7PE",
+      "suitable": true,
+      "note": "火柴人动画讲物理,健康有趣,大童适看",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1wb41127jT",
+      "suitable": true,
+      "note": "古生物深度讲解,9-12档",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "nature"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1xE411B7V4",
+      "suitable": true,
+      "note": "经济学诺奖解读,健康;枚举缺经济主题,待复核",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1zx411V7Wu",
+      "suitable": false,
+      "note": "初中物理应试,超龄,含APP推广与教辅带货",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    }
+  ]
+}
