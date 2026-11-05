@@ -1,0 +1,191 @@
+---
+import taxonomy from '../data/taxonomy.json';
+import videos from '../data/videos.json';
+
+const ageLabel = Object.fromEntries(taxonomy.age_bands.map((t) => [t.id, t.label]));
+const langLabel = Object.fromEntries(taxonomy.languages.map((t) => [t.id, t.label]));
+const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]));
+
+const bilibiliUrl = (bvid: string) => `https://www.bilibili.com/video/${bvid}`;
+const embedUrl = (bvid: string) =>
+	`https://player.bilibili.com/player.html?bvid=${bvid}&autoplay=0&high_quality=1`;
+---
+
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="generator" content={Astro.generator} />
+		<meta name="description" content="童心岛：为小朋友精选的中文视频片单，按年龄段、语言、主题筛选，B 站官方播放。" />
+		<title>童心岛 · 为孩子精选的中文视频片单</title>
+		<style>
+			:root {
+				--ink: #1f2937;
+				--muted: #6b7280;
+				--sea: #0ea5e9;
+				--card: #ffffff;
+				--bg: #f0f9ff;
+			}
+			body {
+				margin: 0;
+				font-family: system-ui, -apple-system, 'PingFang SC', 'Noto Sans SC', sans-serif;
+				background: var(--bg);
+				color: var(--ink);
+			}
+			header {
+				padding: 2.5rem 1rem 1.5rem;
+				text-align: center;
+			}
+			header h1 {
+				margin: 0;
+				font-size: 1.9rem;
+			}
+			header p {
+				margin: 0.5rem auto 0;
+				max-width: 34em;
+				color: var(--muted);
+			}
+			.grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+				gap: 1rem;
+				max-width: 72rem;
+				margin: 0 auto;
+				padding: 0 1rem 3rem;
+			}
+			.card {
+				background: var(--card);
+				border-radius: 12px;
+				overflow: hidden;
+				box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+				display: flex;
+				flex-direction: column;
+			}
+			.card iframe {
+				width: 100%;
+				aspect-ratio: 16 / 9;
+				border: 0;
+			}
+			.card-body {
+				padding: 0.75rem 1rem 1rem;
+				display: flex;
+				flex-direction: column;
+				gap: 0.5rem;
+			}
+			.card-body h2 {
+				margin: 0;
+				font-size: 1rem;
+				line-height: 1.4;
+			}
+			.card-meta {
+				font-size: 0.8rem;
+				color: var(--muted);
+			}
+			.tagrow {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 0.35rem;
+			}
+			.tag {
+				font-size: 0.72rem;
+				padding: 0.1rem 0.5rem;
+				border-radius: 999px;
+				background: #e0f2fe;
+				color: #0369a1;
+			}
+			.copy {
+				margin-top: auto;
+				align-self: flex-start;
+				font-size: 0.85rem;
+				padding: 0.4rem 0.9rem;
+				border: 1px solid var(--sea);
+				border-radius: 8px;
+				background: transparent;
+				color: var(--sea);
+				cursor: pointer;
+			}
+			.copy:active {
+				background: var(--sea);
+				color: #fff;
+			}
+			footer {
+				text-align: center;
+				color: var(--muted);
+				font-size: 0.8rem;
+				padding: 1rem 0 2rem;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>🏝️ 童心岛</h1>
+			<p>视频的汪洋里，为孩子圈出一座安全的小岛。所有视频均来自 B 站官方播放器，点「复制链接」即可收藏。</p>
+		</header>
+
+		<main>
+			<ul class="grid" style="list-style: none; margin: 0; padding: 0 1rem 3rem;">
+				{
+					videos.videos.map((v) => (
+						<li class="card">
+							<iframe
+								src={embedUrl(v.bvid)}
+								loading="lazy"
+								allowfullscreen
+								scrolling="no"
+								frameborder="0"
+								title={v.title}
+							/>
+							<div class="card-body">
+								<h2>{v.title}</h2>
+								<div class="card-meta">
+									{v.up} · {Math.round(v.duration_seconds / 60)} 分钟
+								</div>
+								<div class="tagrow">
+									{v.tags.age.map((a) => (
+										<span class="tag">{ageLabel[a] ?? a}</span>
+									))}
+									{v.tags.language.map((l) => (
+										<span class="tag">{langLabel[l] ?? l}</span>
+									))}
+									{v.tags.theme.map((t) => (
+										<span class="tag">{themeLabel[t] ?? t}</span>
+									))}
+								</div>
+								<button class="copy" data-url={bilibiliUrl(v.bvid)}>🔗 复制链接</button>
+							</div>
+						</li>
+					))
+				}
+			</ul>
+		</main>
+
+		<footer>
+			童心岛 (kidisle) · 独立开源项目 · <a href="https://github.com/kk17/kidisle">GitHub</a> · MIT
+		</footer>
+
+		<script>
+			document.querySelectorAll<HTMLButtonElement>('.copy').forEach((btn) => {
+				btn.addEventListener('click', async () => {
+					const url = btn.dataset.url;
+					if (!url) return;
+					try {
+						await navigator.clipboard.writeText(url);
+					} catch {
+						// 剪贴板 API 不可用时的兜底：选中可编辑元素走 execCommand
+						const ta = document.createElement('textarea');
+						ta.value = url;
+						document.body.appendChild(ta);
+						ta.select();
+						document.execCommand('copy');
+						ta.remove();
+					}
+					const original = btn.textContent;
+					btn.textContent = '✅ 已复制';
+					setTimeout(() => (btn.textContent = original), 1500);
+				});
+			});
+		</script>
+	</body>
+</html>

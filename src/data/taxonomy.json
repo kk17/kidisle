@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "age_bands": [
+    { "id": "0-3", "label": "0–3 岁" },
+    { "id": "3-6", "label": "3–6 岁" },
+    { "id": "6-9", "label": "6–9 岁" },
+    { "id": "9-12", "label": "9–12 岁" }
+  ],
+  "languages": [
+    { "id": "zh", "label": "中文" },
+    { "id": "en", "label": "英文" },
+    { "id": "bilingual", "label": "双语" }
+  ],
+  "themes": [
+    { "id": "science", "label": "科普" },
+    { "id": "animation", "label": "动画" },
+    { "id": "story", "label": "绘本故事" },
+    { "id": "music", "label": "音乐" },
+    { "id": "math", "label": "数学思维" },
+    { "id": "english", "label": "英语启蒙" },
+    { "id": "nature", "label": "自然" },
+    { "id": "life", "label": "生活习惯" },
+    { "id": "social", "label": "情感与社交" },
+    { "id": "craft", "label": "手工" }
+  ]
+}

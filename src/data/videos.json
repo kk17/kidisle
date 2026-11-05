@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "note": "占位数据：bvid 均为 schema 演示用的假 ID，stage 2 采集管线接入后由真实条目替换。",
+  "videos": [
+    {
+      "id": "seed-0001",
+      "source": "bilibili",
+      "bvid": "BV1xx411c7mD",
+      "title": "[占位] 趣味科学小实验：为什么天空是蓝色的",
+      "up": "示例UP主",
+      "duration_seconds": 315,
+      "tags": { "age": ["6-9"], "language": ["zh"], "theme": ["science"] },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "seed-0002",
+      "source": "bilibili",
+      "bvid": "BV1yy411c8mE",
+      "title": "[占位] 英文儿歌精选：Five Little Ducks",
+      "up": "示例UP主",
+      "duration_seconds": 180,
+      "tags": { "age": ["0-3", "3-6"], "language": ["en"], "theme": ["music", "english"] },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "seed-0003",
+      "source": "bilibili",
+      "bvid": "BV1zz411c9mF",
+      "title": "[占位] 绘本动画：猜猜我有多爱你",
+      "up": "示例UP主",
+      "duration_seconds": 540,
+      "tags": { "age": ["3-6"], "language": ["zh"], "theme": ["story", "social"] },
+      "added_at": "2026-11-06"
+    }
+  ]
+}
