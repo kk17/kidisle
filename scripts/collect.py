@@ -19,6 +19,8 @@ import argparse
 import hashlib
 import json
 import os
+import urllib.error
+import re
 import sys
 import time
 import urllib.parse
@@ -50,9 +52,26 @@ def http_get_json(url: str, params: dict = None, cookies: str = "", allow_codes=
     global _req_count
     if params:
         url = url + "?" + urllib.parse.urlencode(params)
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Cookie": cookies})
-    with urllib.request.urlopen(req, timeout=15) as resp:
-        payload = json.loads(resp.read().decode("utf-8"))
+    payload = None
+    for attempt in range(3):
+        req = urllib.request.Request(
+            url,
+            headers={
+                "User-Agent": UA,
+                "Cookie": cookies,
+                "Referer": "https://www.bilibili.com/",
+                "Accept": "application/json",
+            },
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                payload = json.loads(resp.read().decode("utf-8"))
+            break
+        except urllib.error.HTTPError as e:
+            if e.code in (412, 429) and attempt < 2:
+                time.sleep(4 * (attempt + 1))  # 风控抖动，退避重试
+                continue
+            raise RuntimeError(f"HTTP {e.code} url={url}") from e
     _req_count += 1
     if payload.get("code") not in allow_codes:
         raise RuntimeError(f"API code={payload.get('code')} msg={payload.get('message')!r} url={url}")
@@ -142,7 +161,7 @@ class BilibiliClient:
                     ),
                     cookies=self.cookies,
                 )
-            except RuntimeError as e:  # 空间接口对未登录风控较严，失败不致命
+            except Exception as e:  # 空间接口对未登录风控较严，失败不致命
                 print(f"  ! 空间接口失败 mid={mid} page={page}: {e}", file=sys.stderr)
                 break
             vlist = (data.get("list") or {}).get("vlist") or []
@@ -168,7 +187,7 @@ class BilibiliClient:
         self._throttle()
         try:
             data = http_get_json(VIEW_URL, {"bvid": bvid})
-        except RuntimeError as e:
+        except Exception as e:
             print(f"  ! 详情失败 {bvid}: {e}", file=sys.stderr)
             return None
         return {
@@ -182,8 +201,6 @@ class BilibiliClient:
 
     @staticmethod
     def _search_row(r: dict, source: str) -> dict:
-        import re
-
         return {
             "bvid": r.get("bvid"),
             "title": re.sub(r"</?em[^>]*>", "", r.get("title") or ""),

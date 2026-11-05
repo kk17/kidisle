@@ -1,0 +1,11 @@
+{
+  "delay_seconds": 2.0,
+  "curated_files": [
+    "/tmp/kidisle-research/smoke-bv.txt"
+  ],
+  "seed_users": [],
+  "search_queries": [],
+  "user_pages": 2,
+  "search_pages": 1,
+  "_comment": "curated_files: 调研产出的 BV 链接文本（collect.py 自动提取 BV 号）；seed_users/search_queries 需要 BILIBILI_SESSDATA 环境变量（匿名接口被风控）。"
+}
