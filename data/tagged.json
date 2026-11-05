@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 31,
+  "count": 123,
   "videos": [
     {
       "bvid": "BV11341157Wz",
@@ -40,9 +40,102 @@
       }
     },
     {
+      "bvid": "BV13E411x7i8",
+      "suitable": true,
+      "note": "美式英语启蒙动画，情景对话儿歌教学",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "BV13W411B7Ps",
+      "suitable": true,
+      "note": "央视国宝纪录片,人文历史归story,建议增设人文主题",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV13a4y1V7tr",
+      "suitable": true,
+      "note": "名著人物解读健康，建议增设人文主题",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV13u41117r8",
+      "suitable": true,
+      "note": "历史讲解单集未超45分钟，内容健康",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
       "bvid": "BV13u411Z79C",
       "suitable": true,
       "note": "诗词感悟短片,健康,人文类暂归story",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV14y4y1i7CA",
+      "suitable": false,
+      "note": "华中师大古代文学慕课搬运，受众成人大学生，超适龄",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "BV16A411H7Cj",
+      "suitable": true,
+      "note": "汉字文化设计科普,人文类归story,建议增设人文主题",
       "tags": {
         "age": [
           "9-12"
@@ -73,6 +166,33 @@
       }
     },
     {
+      "bvid": "BV16T4y1j7wG",
+      "suitable": true,
+      "note": "高频词发音教学，内容健康",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV16b4y1B7oj",
+      "suitable": false,
+      "note": "43秒片单引流剪辑,搬运低质,非正片内容",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
       "bvid": "BV17b4y1g7br",
       "suitable": true,
       "note": "脑波仿生手科技演示,健康",
@@ -86,6 +206,49 @@
         ],
         "theme": [
           "science"
+        ]
+      }
+    },
+    {
+      "bvid": "BV17m22YnEDp",
+      "suitable": false,
+      "note": "豆瓣榜单统计剪辑,面向家长选片,非儿童内容",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "BV1844y1v7ws",
+      "suitable": true,
+      "note": "折纸教程健康，需一定动手能力",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      }
+    },
+    {
+      "bvid": "BV18m42137hN",
+      "suitable": true,
+      "note": "BBC科普纪录片英文原声中英字幕,无中文讲解",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science",
+          "english"
         ]
       }
     },
@@ -107,6 +270,32 @@
       }
     },
     {
+      "bvid": "BV19f4y1A7zg",
+      "suitable": true,
+      "note": "文学讲解健康，语言偏成人待人工复核",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1AQ4y1K7Up",
+      "suitable": false,
+      "note": "大学诗词文公开课搬运，受众为成人，非儿童内容",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
       "bvid": "BV1Bb411L7qi",
       "suitable": false,
       "note": "初二物理同步讲解,受众超龄",
@@ -117,6 +306,24 @@
       }
     },
     {
+      "bvid": "BV1Bg411Z7yC",
+      "suitable": true,
+      "note": "幼儿手指游戏歌谣，英语语感启蒙",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
       "bvid": "BV1DJ411w7Th",
       "suitable": false,
       "note": "初二教材同步应试课,超龄且超长搬运",
@@ -124,6 +331,74 @@
         "age": [],
         "language": [],
         "theme": []
+      }
+    },
+    {
+      "bvid": "BV1Db411C7bB",
+      "suitable": true,
+      "note": "古琴鼓乐演奏，音乐内容健康",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1DdiRBFESV",
+      "suitable": true,
+      "note": "碰碰狐体操儿歌,中文版语言待人工复核",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Dh411B7Pe",
+      "suitable": true,
+      "note": "故宫陶瓷馆云看展,亲子共看,人文归story",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1FNVqzQEVq",
+      "suitable": true,
+      "note": "微观小世界无对白自然动画,语言待人工复核",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "nature",
+          "animation"
+        ]
       }
     },
     {
@@ -140,6 +415,22 @@
         ],
         "theme": [
           "math"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1GJ411X7hu",
+      "suitable": true,
+      "note": "BBC英式发音教程，内容健康，大童适用",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english"
         ]
       }
     },
@@ -171,6 +462,82 @@
       }
     },
     {
+      "bvid": "BV1J4411Q7v9",
+      "suitable": true,
+      "note": "全球流行儿歌，低幼英语兴趣启蒙",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Ji4y187tR",
+      "suitable": true,
+      "note": "硬笔书法教学合集，素质教育内容",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1K4411e7Vr",
+      "suitable": false,
+      "note": "标题关键词堆砌，低质剪辑搬运号",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "BV1KF411M77B",
+      "suitable": true,
+      "note": "感恩母亲情感教育，适合亲子共看",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "social"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1L54y1s7pD",
+      "suitable": true,
+      "note": "创意手工制作展示，无广告内容健康",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      }
+    },
+    {
       "bvid": "BV1LE411e7jx",
       "suitable": false,
       "note": "中考真题应试讲解,受众超龄",
@@ -178,6 +545,74 @@
         "age": [],
         "language": [],
         "theme": []
+      }
+    },
+    {
+      "bvid": "BV1LV411b79S",
+      "suitable": true,
+      "note": "Baby Shark英文原声儿歌,无讲解",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Lt411j7Gs",
+      "suitable": true,
+      "note": "经典乒乓球教学合集,内容健康,建议增设体育主题",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Lxe8z2Eg6",
+      "suitable": true,
+      "note": "碰碰狐交通安全儿歌,早教认知",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1MN4dewEQZ",
+      "suitable": true,
+      "note": "初级英语播客磨耳朵听力素材",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english"
+        ]
       }
     },
     {
@@ -193,6 +628,91 @@
         ],
         "theme": [
           "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Nb4y197iN",
+      "suitable": true,
+      "note": "贝乐虎音乐剧,含汽车与安全认知",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "animation",
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Ni4y1k7sm",
+      "suitable": true,
+      "note": "日常场景英语跟读训练，基础表达",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Ns411k7To",
+      "suitable": true,
+      "note": "游泳技能教学,内容健康,枚举无体育归life",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Nt411u7jh",
+      "suitable": true,
+      "note": "乒乓球入门教学,内容健康,建议增设体育主题",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Nx41187xQ",
+      "suitable": true,
+      "note": "折纸教程健康，需一定动手能力",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
         ]
       }
     },
@@ -214,6 +734,74 @@
       }
     },
     {
+      "bvid": "BV1PKdFByE2P",
+      "suitable": true,
+      "note": "SSS英文儿歌原声,零基础启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Q5iwB7Evd",
+      "suitable": true,
+      "note": "SSS英文儿歌合集,纯英文磨耳朵",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1RJ411S7bA",
+      "suitable": true,
+      "note": "贝乐虎低幼儿歌动画合集,内容健康",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1RQ4y167oD",
+      "suitable": true,
+      "note": "名著导读课合集，内容健康适合大童",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
       "bvid": "BV1SA411P7re",
       "suitable": true,
       "note": "纳兰词讲解,健康,人文类暂归story",
@@ -226,6 +814,34 @@
         ],
         "theme": [
           "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1SY411T7qG",
+      "suitable": false,
+      "note": "涉风月性暗示解读，成人向文学内容",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "BV1Ss411j7Fo",
+      "suitable": true,
+      "note": "经典英语儿歌，磨耳朵数数启蒙",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
         ]
       }
     },
@@ -264,6 +880,118 @@
       }
     },
     {
+      "bvid": "BV1UE411r79X",
+      "suitable": true,
+      "note": "鲁迅散文导读，建议增设人文主题",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1W441127UG",
+      "suitable": true,
+      "note": "国乐演奏仅34秒疑为预告，待人工复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1WW41147bm",
+      "suitable": true,
+      "note": "英语连读规则讲解，内容健康，大童适用",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Wp4y1q7MM",
+      "suitable": true,
+      "note": "美式发音教学，内容健康，大童适用",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1X7411Z7Ae",
+      "suitable": true,
+      "note": "改编自儿童节目啊设计的浓缩设计课",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1XY411J7aG",
+      "suitable": true,
+      "note": "系统英语语法讲解，内容健康，适合大童及以上",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Xa411w7HU",
+      "suitable": true,
+      "note": "中文字体设计科普,人文类归story,建议增设人文主题",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
       "bvid": "BV1YL411s7Yn",
       "suitable": true,
       "note": "诗词情感解读,健康,建议增设人文主题",
@@ -280,6 +1008,22 @@
       }
     },
     {
+      "bvid": "BV1Yr8FzJEyJ",
+      "suitable": true,
+      "note": "纪录片二创,含动物死亡悲伤内容,待人工复核",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "nature"
+        ]
+      }
+    },
+    {
       "bvid": "BV1Ys411k7yQ",
       "suitable": false,
       "note": "线性代数为大学内容,超出0-12适龄范围",
@@ -287,6 +1031,314 @@
         "age": [],
         "language": [],
         "theme": []
+      }
+    },
+    {
+      "bvid": "BV1Yx411i73J",
+      "suitable": true,
+      "note": "少儿美术公开课，官方定位4-8岁",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Yx42117WR",
+      "suitable": true,
+      "note": "刷牙歌，边唱边培养生活习惯",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english",
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Zm4y1t7AX",
+      "suitable": true,
+      "note": "童话原著文学解读，内容健康",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1aD4y1D7iY",
+      "suitable": true,
+      "note": "敦煌艺术趣味讲解，表达适合儿童",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft",
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1aD4y1d7r8",
+      "suitable": false,
+      "note": "简介明示品牌推广，属软广带货",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "BV1ah411o7GN",
+      "suitable": true,
+      "note": "BBC经典语言启蒙动画，趣味学英语",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1ao4y1F7mK",
+      "suitable": true,
+      "note": "英语启蒙动画儿歌,配套双语互动教学",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "music",
+          "english",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1b64y1x77x",
+      "suitable": true,
+      "note": "MC二创还原数学动画,内容健康,待人工复核",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "math",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1b7vPe6E5E",
+      "suitable": true,
+      "note": "SSS形状歌,英语+形状认知启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english",
+          "math"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1bR4y1V7QJ",
+      "suitable": true,
+      "note": "趣味生物鉴定科普，语言偏成人但健康",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "nature"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1bt411P7Ft",
+      "suitable": true,
+      "note": "国乐器翻奏曲目，音乐内容健康",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1bx411L7sA",
+      "suitable": true,
+      "note": "游泳技能教学，体育暂归life主题",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1c64y1k7N6",
+      "suitable": true,
+      "note": "语文人文解读，建议增设人文主题",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1cs41197ZH",
+      "suitable": true,
+      "note": "折纸教程健康，需一定动手能力",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1eb41137qz",
+      "suitable": false,
+      "note": "YouTube搬运低质号，标题关键词堆砌",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "BV1ep4y1n7Tx",
+      "suitable": true,
+      "note": "学前写字启蒙，官方定位5岁以上",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1f64y1C715",
+      "suitable": true,
+      "note": "趣味生物鉴定科普，语言偏成人但健康",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "nature"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1fV411H7VK",
+      "suitable": true,
+      "note": "长征历史沙盘合集，健康历史科普",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1fV4y1p7Ex",
+      "suitable": true,
+      "note": "48音标口型示范训练，英语发音基础",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "english"
+        ]
       }
     },
     {
@@ -303,6 +1355,23 @@
         ],
         "theme": [
           "science"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1gx411B7kJ",
+      "suitable": true,
+      "note": "经典科普动画英文原声，科学启蒙",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science",
+          "animation"
         ]
       }
     },
@@ -325,6 +1394,49 @@
       }
     },
     {
+      "bvid": "BV1hm421g74F",
+      "suitable": true,
+      "note": "疑似Numberblocks二创非官方,待人工复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "math"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1hp4y1t7zq",
+      "suitable": false,
+      "note": "大学公开课搬运，面向成人大学生，深度人文内容超儿童适龄",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "BV1iV411z7Nj",
+      "suitable": true,
+      "note": "系统音标教学，内容健康，适合大童英语学习",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "english"
+        ]
+      }
+    },
+    {
       "bvid": "BV1ib411t7YR",
       "suitable": false,
       "note": "大学线代合集超龄,且为转载搬运",
@@ -335,6 +1447,190 @@
       }
     },
     {
+      "bvid": "BV1jP4y177RF",
+      "suitable": true,
+      "note": "军事历史科普，内容健康适合大童",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1jZ4y1x79g",
+      "suitable": true,
+      "note": "改编自儿童节目啊设计的浓缩设计课",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1m7411e7ta",
+      "suitable": true,
+      "note": "自然拼读字母歌，趣味拼读启蒙",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "music"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1mK4y1A7Qa",
+      "suitable": true,
+      "note": "艺术鉴赏内容健康，美术暂归craft",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1mZ4y1d7C6",
+      "suitable": true,
+      "note": "历史讲史内容健康，适合大童亲子共看",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1mt4y1X7Mx",
+      "suitable": true,
+      "note": "古诗词讲解内容健康，建议增设人文主题",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1n7411P7wV",
+      "suitable": true,
+      "note": "歌曲故事学英语对话，带字幕启蒙",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "story",
+          "music"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1nknZ6pEpk",
+      "suitable": true,
+      "note": "BBC数字积木数学启蒙动画,纯英文原声",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "math",
+          "animation",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1oY4y197W9",
+      "suitable": true,
+      "note": "BBC少儿科普,英文原声,需一定英语基础",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1oi4y1F76r",
+      "suitable": true,
+      "note": "学术词汇跟读挑战，偏进阶，适合大童",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1pL41137rQ",
+      "suitable": true,
+      "note": "故宫人物画云看展,亲子共看,人文归story",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
       "bvid": "BV1pp411Z7ap",
       "suitable": false,
       "note": "简介含APP推广加微信领资料,明显引流",
@@ -342,6 +1638,24 @@
         "age": [],
         "language": [],
         "theme": []
+      }
+    },
+    {
+      "bvid": "BV1prsnzGEeY",
+      "suitable": true,
+      "note": "经典英文儿歌大合集，磨耳朵启蒙",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
       }
     },
     {
@@ -371,6 +1685,40 @@
       }
     },
     {
+      "bvid": "BV1r54y1m7gd",
+      "suitable": true,
+      "note": "语法体系框架讲解，内容健康，大童适用",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1rV41157nj",
+      "suitable": true,
+      "note": "趣味生物鉴定科普，语言偏成人但健康",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "nature"
+        ]
+      }
+    },
+    {
       "bvid": "BV1tE41187pY",
       "suitable": true,
       "note": "幽默科普,口播风格略成人化,给大童档",
@@ -383,6 +1731,40 @@
         ],
         "theme": [
           "science"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1tt411w72A",
+      "suitable": true,
+      "note": "剑桥初级语法讲解，内容健康，大童适用",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1uTSiYUECe",
+      "suitable": true,
+      "note": "微观小世界昆虫动画,无对白,语言待人工复核",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "nature",
+          "animation"
         ]
       }
     },
@@ -405,6 +1787,56 @@
       }
     },
     {
+      "bvid": "BV1vJc7z4E8s",
+      "suitable": true,
+      "note": "SSS慢速儿歌，低幼英语磨耳朵首选",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1vb4y177NX",
+      "suitable": true,
+      "note": "历史讲史内容健康，适合大童亲子共看",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1ve4y1b7BV",
+      "suitable": true,
+      "note": "贝乐虎经典儿歌单集,低幼适宜",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
+      }
+    },
+    {
       "bvid": "BV1wb41127jT",
       "suitable": true,
       "note": "古生物深度讲解,9-12档",
@@ -422,6 +1854,41 @@
       }
     },
     {
+      "bvid": "BV1wx411i7ya",
+      "suitable": true,
+      "note": "少儿美术公开课，官方定位4-8岁",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1x7411j7ER",
+      "suitable": true,
+      "note": "美音中小学教材朗读，学科英语磨耳朵",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "science"
+        ]
+      }
+    },
+    {
       "bvid": "BV1xE411B7V4",
       "suitable": true,
       "note": "经济学诺奖解读,健康;枚举缺经济主题,待复核",
@@ -434,6 +1901,22 @@
         ],
         "theme": [
           "science"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1zv411z73y",
+      "suitable": true,
+      "note": "口语听力训练课程，内容健康，大童适用",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english"
         ]
       }
     },

@@ -1,35 +1,2352 @@
 {
   "schema_version": 1,
-  "note": "占位数据：bvid 均为 schema 演示用的假 ID，stage 2 采集管线接入后由真实条目替换。",
+  "note": "由 scripts/build_data.py 从采集/打标管线生成，请勿手工编辑。",
+  "updated_at": "2026-11-06",
   "videos": [
     {
-      "id": "seed-0001",
+      "id": "bv-11341157wz",
       "source": "bilibili",
-      "bvid": "BV1xx411c7mD",
-      "title": "[占位] 趣味科学小实验：为什么天空是蓝色的",
-      "up": "示例UP主",
-      "duration_seconds": 315,
-      "tags": { "age": ["6-9"], "language": ["zh"], "theme": ["science"] },
+      "bvid": "BV11341157Wz",
+      "title": "在镜子面前演示宇称不守恒",
+      "up": "不刷题的吴姥姥",
+      "duration_seconds": 134,
+      "cover": "http://i1.hdslb.com/bfs/archive/2764452b07eff048e0ea2a19d62906472abc1cae.jpg",
+      "note": "吴姥姥物理演示,讲解类科普给大童档",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      },
       "added_at": "2026-11-06"
     },
     {
-      "id": "seed-0002",
+      "id": "bv-13e411x7i8",
       "source": "bilibili",
-      "bvid": "BV1yy411c8mE",
-      "title": "[占位] 英文儿歌精选：Five Little Ducks",
-      "up": "示例UP主",
-      "duration_seconds": 180,
-      "tags": { "age": ["0-3", "3-6"], "language": ["en"], "theme": ["music", "english"] },
+      "bvid": "BV13E411x7i8",
+      "title": "【1000集全】原汁原味 美国儿童启蒙教育英语学习动画系列",
+      "up": "Mmxgxg",
+      "duration_seconds": 458726,
+      "cover": "http://i0.hdslb.com/bfs/archive/107f69e224a50a131d6d034fb2709efa852e074b.jpg",
+      "note": "美式英语启蒙动画，情景对话儿歌教学",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "animation"
+        ]
+      },
       "added_at": "2026-11-06"
     },
     {
-      "id": "seed-0003",
+      "id": "bv-13w411b7ps",
       "source": "bilibili",
-      "bvid": "BV1zz411c9mF",
-      "title": "[占位] 绘本动画：猜猜我有多爱你",
-      "up": "示例UP主",
-      "duration_seconds": 540,
-      "tags": { "age": ["3-6"], "language": ["zh"], "theme": ["story", "social"] },
+      "bvid": "BV13W411B7Ps",
+      "title": "【央视/纪录片】《如果国宝会说话》正片未收录纯享版合集",
+      "up": "央视纪录",
+      "duration_seconds": 1820,
+      "cover": "http://i1.hdslb.com/bfs/archive/5e2e224c4c8eba24cee5baa875c5f44b3503b352.jpg",
+      "note": "央视国宝纪录片,人文历史归story,建议增设人文主题",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-13a4y1v7tr",
+      "source": "bilibili",
+      "bvid": "BV13a4y1V7tr",
+      "title": "《红楼梦》里绕不开的贾母，到底代表了什么？【马瑞芳】",
+      "up": "马瑞芳",
+      "duration_seconds": 749,
+      "cover": "http://i2.hdslb.com/bfs/archive/8e89375a3ce639112ec05ee68d9082a11e7ef2f5.jpg",
+      "note": "名著人物解读健康，建议增设人文主题",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-13u41117r8",
+      "source": "bilibili",
+      "bvid": "BV13u41117r8",
+      "title": "老四胤禛：九子夺嫡胜利者，雍正到底是怎么赢的？逆风翻盘的一生。【雍正王朝】",
+      "up": "正直讲史-李正Str",
+      "duration_seconds": 2279,
+      "cover": "http://i1.hdslb.com/bfs/archive/da9392558ca45f438814c2bb55468ae8a64c87a6.jpg",
+      "note": "历史讲解单集未超45分钟，内容健康",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-13u411z79c",
+      "source": "bilibili",
+      "bvid": "BV13u411Z79C",
+      "title": "“在这个薄情的世界做一个深情的人，你就已经活成了一首诗”",
+      "up": "高盛元",
+      "duration_seconds": 287,
+      "cover": "http://i1.hdslb.com/bfs/archive/7ced8bcb00f5793e8a97ac7d9995b16dce6a51fc.jpg",
+      "note": "诗词感悟短片,健康,人文类暂归story",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-16a411h7cj",
+      "source": "bilibili",
+      "bvid": "BV16A411H7Cj",
+      "title": "把所有汉字叠在一起，会看到什么？ - oooooohmygosh",
+      "up": "oooooohmygosh",
+      "duration_seconds": 428,
+      "cover": "http://i1.hdslb.com/bfs/archive/2b8fe9013d9b100ad7506866319665b5339b3b1a.jpg",
+      "note": "汉字文化设计科普,人文类归story,建议增设人文主题",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-16m4y1g72b",
+      "source": "bilibili",
+      "bvid": "BV16M4y1G72B",
+      "title": "水流不动？！时间静止？！",
+      "up": "二次元的中科院物理所",
+      "duration_seconds": 89,
+      "cover": "http://i2.hdslb.com/bfs/archive/1f6e6aead697e28d79c307c5d6c603dbbc18bda6.jpg",
+      "note": "视觉错觉物理科普短片,内容健康",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-16t4y1j7wg",
+      "source": "bilibili",
+      "bvid": "BV16T4y1j7wG",
+      "title": "【瑞秋英语】十个最重要的英语词汇发音指导（美式英语）",
+      "up": "瑞秋英语Rachel",
+      "duration_seconds": 881,
+      "cover": "http://i1.hdslb.com/bfs/archive/9bc94be92572307a34d583cb6dfad7f253e12689.jpg",
+      "note": "高频词发音教学，内容健康",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-17b4y1g7br",
+      "source": "bilibili",
+      "bvid": "BV17b4y1g7br",
+      "title": "握手~🤝脑波控制的仿生手",
+      "up": "不刷题的吴姥姥",
+      "duration_seconds": 49,
+      "cover": "http://i1.hdslb.com/bfs/archive/ccfe521ac04bfae51669a838246e059aaf145ce5.jpg",
+      "note": "脑波仿生手科技演示,健康",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1844y1v7ws",
+      "source": "bilibili",
+      "bvid": "BV1844y1v7ws",
+      "title": "【折纸-教程】两年后，重制一下这款小狐狸",
+      "up": "折纸的白叔",
+      "duration_seconds": 858,
+      "cover": "http://i2.hdslb.com/bfs/archive/c2dec959cc3df062058826b7fa275a46fd46818c.jpg",
+      "note": "折纸教程健康，需一定动手能力",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-18m42137hn",
+      "source": "bilibili",
+      "bvid": "BV18m42137hN",
+      "title": "BBC儿童科普纪录片《Do You Know你知道吗》中英字幕英文科普",
+      "up": "伊达嘛嘛资源站",
+      "duration_seconds": 31062,
+      "cover": "http://i2.hdslb.com/bfs/archive/07f056fa7827ef93840aa29526781824ec2f51f8.png",
+      "note": "BBC科普纪录片英文原声中英字幕,无中文讲解",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science",
+          "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-19t4y1e7vn",
+      "source": "bilibili",
+      "bvid": "BV19T4y1E7VN",
+      "title": "科代表前来报到！听说你想学习了？【中科院中国科普博览】",
+      "up": "中国科普博览",
+      "duration_seconds": 69,
+      "cover": "http://i2.hdslb.com/bfs/archive/31b2b9c00d0f78ae5a16a145c8aa679120ec7811.jpg",
+      "note": "频道宣传短片,无实质内容,待人工复核",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-19f4y1a7zg",
+      "source": "bilibili",
+      "bvid": "BV19f4y1A7zg",
+      "title": "【许子东】万万没想到，鲁迅没法说出的真话是这些",
+      "up": "许子东讲文学",
+      "duration_seconds": 646,
+      "cover": "http://i2.hdslb.com/bfs/archive/fbb4113d63009954f76c0dc338252319cc604dff.jpg",
+      "note": "文学讲解健康，语言偏成人待人工复核",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1bg411z7yc",
+      "source": "bilibili",
+      "bvid": "BV1Bg411Z7yC",
+      "title": "【120集全】清华幼儿英语语感启蒙 适合零基础宝宝的慢速磨耳朵英语动画片",
+      "up": "安妈百宝箱",
+      "duration_seconds": 21921,
+      "cover": "http://i0.hdslb.com/bfs/archive/37cb982dd54f0d0a25b8a9c70ce8248f1e1aca2f.png",
+      "note": "幼儿手指游戏歌谣，英语语感启蒙",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1db411c7bb",
+      "source": "bilibili",
+      "bvid": "BV1Db411C7bB",
+      "title": "【古琴X中国鼓】《权御天下》弹到手抽筋！唐代复原装束 「白无瑕X陈曦演奏」",
+      "up": "古琴诊所",
+      "duration_seconds": 201,
+      "cover": "http://i2.hdslb.com/bfs/archive/ba18d9aa5c41a8c20ac48e77e010ae8735a9df2f.jpg",
+      "note": "古琴鼓乐演奏，音乐内容健康",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1ddirbfesv",
+      "source": "bilibili",
+      "bvid": "BV1DdiRBFESV",
+      "title": "25分钟开心体操儿歌合集｜連續播放｜碰碰狐pinkfong ｜ 寶寶兒歌",
+      "up": "不鸡娃的VAVA",
+      "duration_seconds": 1487,
+      "cover": "http://i0.hdslb.com/bfs/archive/aeb41fe514d235aac798e4696152ccf04601202d.jpg",
+      "note": "碰碰狐体操儿歌,中文版语言待人工复核",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1dh411b7pe",
+      "source": "bilibili",
+      "bvid": "BV1Dh411B7Pe",
+      "title": "【故宫邀你云看展】埏埴之美——走进故宫博物院陶瓷馆",
+      "up": "故宫博物院",
+      "duration_seconds": 1523,
+      "cover": "http://i1.hdslb.com/bfs/archive/80eb7aaf351a70b20c9499ddd88da29bb187a0b7.jpg",
+      "note": "故宫陶瓷馆云看展,亲子共看,人文归story",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1fnvqzqevq",
+      "source": "bilibili",
+      "bvid": "BV1FNVqzQEVq",
+      "title": "【微观小世界】合集~儿童必看自然科普动画纪录片，满足孩子的好奇心，",
+      "up": "安妮学习馆",
+      "duration_seconds": 3272,
+      "cover": "http://i0.hdslb.com/bfs/archive/5b4f69b76f9ffe78c6d4dac45c4fb7bd96dc311d.jpg",
+      "note": "微观小世界无对白自然动画,语言待人工复核",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "nature",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1fp411s7ew",
+      "source": "bilibili",
+      "bvid": "BV1FP411s7Ew",
+      "title": "葫芦娃救爷爷为啥一个一个上？童年最大疑惑被李永乐老师解开了！",
+      "up": "李永乐老师官方",
+      "duration_seconds": 618,
+      "cover": "http://i0.hdslb.com/bfs/archive/7565d8cbce4203fd304dde9a01c1e8f6e10c0b40.jpg",
+      "note": "用概率讲葫芦娃救爷爷策略,趣味数学",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "math"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1gj411x7hu",
+      "source": "bilibili",
+      "bvid": "BV1GJ411X7hu",
+      "title": "【纯正英式发音】这是BBC出品的到现在为止最棒的英语发音教程（完整版）",
+      "up": "YouTube口语精选",
+      "duration_seconds": 4991,
+      "cover": "http://i2.hdslb.com/bfs/archive/ca080ba398729c51a5ad863606c4be974144a0d1.jpg",
+      "note": "BBC英式发音教程，内容健康，大童适用",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1h34y1e7yu",
+      "source": "bilibili",
+      "bvid": "BV1H34y1E7YU",
+      "title": "【4K】你就是答案！中科院向你发出邀请",
+      "up": "中科院格致论道",
+      "duration_seconds": 260,
+      "cover": "http://i0.hdslb.com/bfs/archive/43d26709ad38841828bfb63f2ee96336fa401eef.jpg",
+      "note": "公众科学日宣传片,健康但非教学内容,待复核",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1j4411q7v9",
+      "source": "bilibili",
+      "bvid": "BV1J4411Q7v9",
+      "title": "小朋友喜欢看的鲨鱼宝宝 Baby Shark Dance",
+      "up": "Pat字幕组",
+      "duration_seconds": 92,
+      "cover": "http://i0.hdslb.com/bfs/archive/b3801971b9147555fcfaa28de02b34cc6cc6e5f1.jpg",
+      "note": "全球流行儿歌，低幼英语兴趣启蒙",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1ji4y187tr",
+      "source": "bilibili",
+      "bvid": "BV1Ji4y187tR",
+      "title": "【硬笔书法】笔画教程",
+      "up": "写字王老师",
+      "duration_seconds": 17421,
+      "cover": "http://i2.hdslb.com/bfs/archive/ea787cf0f4e1e85fb8259c670743c250fbc565b7.jpg",
+      "note": "硬笔书法教学合集，素质教育内容",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1kf411m77b",
+      "source": "bilibili",
+      "bvid": "BV1KF411M77B",
+      "title": "只要5分钟，请为你的妈妈看完这个视频吧",
+      "up": "二二酸酸",
+      "duration_seconds": 321,
+      "cover": "http://i0.hdslb.com/bfs/archive/53cfb670cafcadb125e8bcc758d7e13baede189b.jpg",
+      "note": "感恩母亲情感教育，适合亲子共看",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "social"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1l54y1s7pd",
+      "source": "bilibili",
+      "bvid": "BV1L54y1s7pD",
+      "title": "耗时45天，UP主用3000颗坚果壳制作黄金盔甲三千昼",
+      "up": "雁鸿Aimee",
+      "duration_seconds": 600,
+      "cover": "http://i2.hdslb.com/bfs/archive/3766d7d0b28a25b03ff21f44c9f0a93927c93d23.jpg",
+      "note": "创意手工制作展示，无广告内容健康",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1lv411b79s",
+      "source": "bilibili",
+      "bvid": "BV1LV411b79S",
+      "title": "『经典英文儿歌』鲨鱼宝宝家族人员又壮大了 Baby Shark More and More by Pinkfong",
+      "up": "MissArch",
+      "duration_seconds": 86,
+      "cover": "http://i0.hdslb.com/bfs/archive/9343e94e1839f3130245044b86000a98a65d1213.jpg",
+      "note": "Baby Shark英文原声儿歌,无讲解",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1lt411j7gs",
+      "source": "bilibili",
+      "bvid": "BV1Lt411j7Gs",
+      "title": "最经典乒乓球教学--《打好乒乓球》非常适合自学和提高|50集（全）",
+      "up": "pp乒乓酱",
+      "duration_seconds": 58836,
+      "cover": "http://i0.hdslb.com/bfs/archive/1fd0a53250e8813c02510729bfb81c32fd6b7b5d.jpg",
+      "note": "经典乒乓球教学合集,内容健康,建议增设体育主题",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1lxe8z2eg6",
+      "source": "bilibili",
+      "bvid": "BV1Lxe8z2Eg6",
+      "title": "【交通汽车安全合集】碰碰狐早教儿歌_认识汽车，和孩子一起学交通安全小知识",
+      "up": "杉百益智动画王国",
+      "duration_seconds": 377,
+      "cover": "http://i1.hdslb.com/bfs/archive/5629559df9c45a4423619e5eede263ed0742ba78.jpg",
+      "note": "碰碰狐交通安全儿歌,早教认知",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1mn4deweqz",
+      "source": "bilibili",
+      "bvid": "BV1MN4dewEQZ",
+      "title": "【YouTube最好的英语播客】初级版 | 适合每天磨耳朵，绝佳的英语听力素材",
+      "up": "YouTube口语精选",
+      "duration_seconds": 27426,
+      "cover": "http://i2.hdslb.com/bfs/archive/8d4cddb13d579592486c98bcd9d14a52d449942c.jpg",
+      "note": "初级英语播客磨耳朵听力素材",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1mh41147ty",
+      "source": "bilibili",
+      "bvid": "BV1Mh41147ty",
+      "title": "细读《江南逢李龟年》",
+      "up": "高盛元",
+      "duration_seconds": 664,
+      "cover": "http://i0.hdslb.com/bfs/archive/65b247885ed563fe29a8a73408fad8c6948363ef.jpg",
+      "note": "唐诗细读讲解,古诗词讲解属9-12档",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1nb4y197in",
+      "source": "bilibili",
+      "bvid": "BV1Nb4y197iN",
+      "title": "贝乐虎儿童音乐剧之超级汽车 合集",
+      "up": "贝乐虎",
+      "duration_seconds": 4249,
+      "cover": "http://i0.hdslb.com/bfs/archive/364bc65ae0729514aa7ed3a20db69b04f78be2f5.png",
+      "note": "贝乐虎音乐剧,含汽车与安全认知",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "animation",
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1ni4y1k7sm",
+      "source": "bilibili",
+      "bvid": "BV1Ni4y1k7sm",
+      "title": "坚持1个月·场景跟读丨习得·地道口语☆朗文场景英语·61集(全)丨Everyday Activity English【场景·跟读】",
+      "up": "惊叹号的英语世界",
+      "duration_seconds": 8401,
+      "cover": "http://i0.hdslb.com/bfs/archive/9146900e192616972a57be276a88bcf42d290b0b.jpg",
+      "note": "日常场景英语跟读训练，基础表达",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1ns411k7to",
+      "source": "bilibili",
+      "bvid": "BV1Ns411k7To",
+      "title": "梦觉教游泳.蛙泳入门",
+      "up": "梦觉教游泳",
+      "duration_seconds": 2760,
+      "cover": "http://i0.hdslb.com/bfs/archive/182be8793a0e7aa27631962ae68a2f371f2b86f0.jpg",
+      "note": "游泳技能教学,内容健康,枚举无体育归life",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1nt411u7jh",
+      "source": "bilibili",
+      "bvid": "BV1Nt411u7jh",
+      "title": "唐建军：乒乓球教学|讲解细致到位|适合入门自学",
+      "up": "pp乒乓酱",
+      "duration_seconds": 14218,
+      "cover": "http://i0.hdslb.com/bfs/archive/a0499cc3a188fc2902d90a55173eebe8b0ca31c4.jpg",
+      "note": "乒乓球入门教学,内容健康,建议增设体育主题",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1nx41187xq",
+      "source": "bilibili",
+      "bvid": "BV1Nx41187xQ",
+      "title": "【折纸-教程】七夕又到了，你压力大吗？来折亚力山大凤蝶吧",
+      "up": "折纸的白叔",
+      "duration_seconds": 589,
+      "cover": "http://i2.hdslb.com/bfs/archive/11da3ae2b27e40abda45a7dc7fb1b18e0b979ca8.jpg",
+      "note": "折纸教程健康，需一定动手能力",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1pbkdycewt",
+      "source": "bilibili",
+      "bvid": "BV1PBkdYCEWt",
+      "title": "如何快速计算97x96？",
+      "up": "李永乐老师官方",
+      "duration_seconds": 64,
+      "cover": "http://i0.hdslb.com/bfs/archive/2877163df6b200ca3e38756aa9a9746ee9660403.jpg",
+      "note": "速算技巧讲解,简短健康",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "math"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1pkdfbye2p",
+      "source": "bilibili",
+      "bvid": "BV1PKdFByE2P",
+      "title": "英文儿歌 Hello Hello｜幼儿英语启蒙 宝宝磨耳朵#英语启蒙#磨耳朵英语#",
+      "up": "英语启蒙小站",
+      "duration_seconds": 72,
+      "cover": "http://i2.hdslb.com/bfs/archive/02cf003b99dd77c5336ac2d2217f9ca4e640ae53.jpg",
+      "note": "SSS英文儿歌原声,零基础启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1q5iwb7evd",
+      "source": "bilibili",
+      "bvid": "BV1Q5iwB7Evd",
+      "title": "【全142集】英语启蒙天花板 Super Simple Songs经典儿歌 韵律拉满 娃听完彻底爱上英语",
+      "up": "YouTube知识宝藏区",
+      "duration_seconds": 6974,
+      "cover": "http://i1.hdslb.com/bfs/archive/dda3d6680068a8deb89110d8b4ad08e4f6731fe9.jpg",
+      "note": "SSS英文儿歌合集,纯英文磨耳朵",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1rj411s7ba",
+      "source": "bilibili",
+      "bvid": "BV1RJ411S7bA",
+      "title": "贝乐虎早教儿歌动画合集",
+      "up": "贝乐虎",
+      "duration_seconds": 11536,
+      "cover": "http://i1.hdslb.com/bfs/archive/f4ee15e6d286b2f53a9cab155abd7ea50f0cad21.jpg",
+      "note": "贝乐虎低幼儿歌动画合集,内容健康",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1rq4y167od",
+      "source": "bilibili",
+      "bvid": "BV1RQ4y167oD",
+      "title": "已完结！《西游记》整本书阅读（一百章回概括导读）（全章回）",
+      "up": "我就是皮皮儿",
+      "duration_seconds": 57847,
+      "cover": "http://i2.hdslb.com/bfs/archive/b3e0ddcb1cf9ff6ba9ec76c6aada8f5372b8c0c2.png",
+      "note": "名著导读课合集，内容健康适合大童",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1sa411p7re",
+      "source": "bilibili",
+      "bvid": "BV1SA411P7re",
+      "title": "【戴建业】纳兰性德一句“当时只道是寻常”，如何让无数人泪目？",
+      "up": "戴建业老师",
+      "duration_seconds": 917,
+      "cover": "http://i1.hdslb.com/bfs/archive/7e1fd9e13f88cffc2b6a005f5c677c5666afe08f.jpg",
+      "note": "纳兰词讲解,健康,人文类暂归story",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1ss411j7fo",
+      "source": "bilibili",
+      "bvid": "BV1Ss411j7Fo",
+      "title": "好玩的英语儿歌-Five Little Ducks",
+      "up": "Pat字幕组",
+      "duration_seconds": 170,
+      "cover": "http://i2.hdslb.com/bfs/archive/c36a8a4faefdc83a97506a97d643fc23ff716110.jpg",
+      "note": "经典英语儿歌，磨耳朵数数启蒙",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1tp4y147z4",
+      "source": "bilibili",
+      "bvid": "BV1TP4y147Z4",
+      "title": "我 兄 弟 昨 天 被 雷 劈 了",
+      "up": "二次元的中科院物理所",
+      "duration_seconds": 39,
+      "cover": "http://i1.hdslb.com/bfs/archive/3900f3c9c2f76f53a45f052790bfeab9a0716407.jpg",
+      "note": "人工引雷实验纪实短片,科普健康",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1u7oqyrekr",
+      "source": "bilibili",
+      "bvid": "BV1U7oQYrEkR",
+      "title": "【鬼谷闲谈】辣椒：一种“不存在”的痛快滋味",
+      "up": "芳斯塔芙",
+      "duration_seconds": 2106,
+      "cover": "http://i0.hdslb.com/bfs/archive/0cf63b9f47b6769dc2469b18fbab84c036d17c36.jpg",
+      "note": "辣椒驯化史讲解,健康,片长约35分钟偏长",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "nature"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1ue411r79x",
+      "source": "bilibili",
+      "bvid": "BV1UE411r79X",
+      "title": "皮皮老师名著导读 |《朝花夕拾》导读（一）：《狗·猫·鼠》",
+      "up": "我就是皮皮儿",
+      "duration_seconds": 850,
+      "cover": "http://i0.hdslb.com/bfs/archive/1cd43af44cc1ef712392d1a7d0426f6a62c26062.jpg",
+      "note": "鲁迅散文导读，建议增设人文主题",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1w441127ug",
+      "source": "bilibili",
+      "bvid": "BV1W441127UG",
+      "title": "【古琴X筝X琵琶X笛箫X鼓】《长安十二时辰幻想曲》清平乐魔改 唐代装束X铠甲复原",
+      "up": "古琴诊所",
+      "duration_seconds": 34,
+      "cover": "http://i2.hdslb.com/bfs/archive/4559c1946f55bcbba566691d52b419faedccf93f.jpg",
+      "note": "国乐演奏仅34秒疑为预告，待人工复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1ww41147bm",
+      "source": "bilibili",
+      "bvid": "BV1WW41147bm",
+      "title": "【合集完结】【最全英语连读规则】英语听力口语发音提高秘诀",
+      "up": "昂克英文君",
+      "duration_seconds": 6383,
+      "cover": "http://i2.hdslb.com/bfs/archive/64e5f63c31a8f2f04bb6749bd3e1395869b31be7.jpg",
+      "note": "英语连读规则讲解，内容健康，大童适用",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1wp4y1q7mm",
+      "source": "bilibili",
+      "bvid": "BV1Wp4y1q7MM",
+      "title": "瑞秋英语入驻B站！教你纯正的美式英语发音~",
+      "up": "瑞秋英语Rachel",
+      "duration_seconds": 174,
+      "cover": "http://i1.hdslb.com/bfs/archive/769c8aab305f0f7ddbc42cc3ecc45a190fd9aeab.jpg",
+      "note": "美式发音教学，内容健康，大童适用",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1x7411z7ae",
+      "source": "bilibili",
+      "bvid": "BV1X7411Z7Ae",
+      "title": "《啊！设计》一分钟设计课之02：设计的思考",
+      "up": "和光自习馆",
+      "duration_seconds": 56,
+      "cover": "http://i2.hdslb.com/bfs/archive/0dc13d754c8c87fbba6ed99e4fc3e19aa4a5cb1d.jpg",
+      "note": "改编自儿童节目啊设计的浓缩设计课",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1xy411j7ag",
+      "source": "bilibili",
+      "bvid": "BV1XY411J7aG",
+      "title": "英语语法精讲合集 (全面, 通俗, 有趣 | 从零打造系统语法体系)",
+      "up": "英语兔",
+      "duration_seconds": 31909,
+      "cover": "http://i2.hdslb.com/bfs/archive/2f68c61bb7c4a05dc707e41c1c97560594a5a53a.jpg",
+      "note": "系统英语语法讲解，内容健康，适合大童及以上",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1xa411w7hu",
+      "source": "bilibili",
+      "bvid": "BV1Xa411w7HU",
+      "title": "被忽视的设计：中文字体 - oooooohmygosh",
+      "up": "oooooohmygosh",
+      "duration_seconds": 361,
+      "cover": "http://i2.hdslb.com/bfs/archive/196f8af38d548837126822fbcacaefe0d2d405f9.jpg",
+      "note": "中文字体设计科普,人文类归story,建议增设人文主题",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1yl411s7yn",
+      "source": "bilibili",
+      "bvid": "BV1YL411s7Yn",
+      "title": "“爱在很多时候，是一种未完成的状态”",
+      "up": "高盛元",
+      "duration_seconds": 282,
+      "cover": "http://i2.hdslb.com/bfs/archive/58fc1f0cdec968cc28b208a26e8e4bc94dd0bf48.jpg",
+      "note": "诗词情感解读,健康,建议增设人文主题",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1yr8fzjeyj",
+      "source": "bilibili",
+      "bvid": "BV1Yr8FzJEyJ",
+      "title": "“冰消崖陡，海象坠处是哀歌”",
+      "up": "秦淮以南_",
+      "duration_seconds": 351,
+      "cover": "http://i0.hdslb.com/bfs/archive/242b2ac787e7f8cf27a243b506cc24630d61594d.jpg",
+      "note": "纪录片二创,含动物死亡悲伤内容,待人工复核",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "nature"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1yx411i73j",
+      "source": "bilibili",
+      "bvid": "BV1Yx411i73J",
+      "title": "有趣的倒影-趣迷少儿美术创意公开课",
+      "up": "趣迷少儿美术",
+      "duration_seconds": 234,
+      "cover": "http://i0.hdslb.com/bfs/archive/fe2d5fa599c846bc9c7c3759da8bac34f9228bab.jpg",
+      "note": "少儿美术公开课，官方定位4-8岁",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1yx42117wr",
+      "source": "bilibili",
+      "bvid": "BV1Yx42117WR",
+      "title": "DBillions魔性刷牙歌 Brush your teeth",
+      "up": "Pat字幕组",
+      "duration_seconds": 166,
+      "cover": "http://i0.hdslb.com/bfs/archive/aa7207d8fb6358ab684477bf75c1e39f1187f96b.jpg",
+      "note": "刷牙歌，边唱边培养生活习惯",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english",
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1zm4y1t7ax",
+      "source": "bilibili",
+      "bvid": "BV1Zm4y1t7AX",
+      "title": "被广泛误读的《海的女儿》原版到底有多震撼？大量隐藏原文！真正的结局将颠覆你的童年记忆…",
+      "up": "二二酸酸",
+      "duration_seconds": 477,
+      "cover": "http://i2.hdslb.com/bfs/archive/a074ca3aa06e4f38631c16f9670ff0958ce69635.jpg",
+      "note": "童话原著文学解读，内容健康",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1ad4y1d7iy",
+      "source": "bilibili",
+      "bvid": "BV1aD4y1D7iY",
+      "title": "【艺术很难吗】敦煌壁画，其实就是一部连载千年的国漫！",
+      "up": "意外艺术",
+      "duration_seconds": 628,
+      "cover": "http://i0.hdslb.com/bfs/archive/82f472f989faf206ef441d80b776e8178686466f.jpg",
+      "note": "敦煌艺术趣味讲解，表达适合儿童",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft",
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1ah411o7gn",
+      "source": "bilibili",
+      "bvid": "BV1ah411o7GN",
+      "title": "【48集全】英语幼儿启蒙 动画 Big Muzzy",
+      "up": "Mmxgxg",
+      "duration_seconds": 45004,
+      "cover": "http://i2.hdslb.com/bfs/archive/ff8a7a74b123d871f24360f1b2bc74220e4ed8ce.jpg",
+      "note": "BBC经典语言启蒙动画，趣味学英语",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1ao4y1f7mk",
+      "source": "bilibili",
+      "bvid": "BV1ao4y1F7mK",
+      "title": "Papa Joel第29集儿歌 Daddy I'm scared song 旋律超好听的哄睡儿歌",
+      "up": "PapaJoel",
+      "duration_seconds": 127,
+      "cover": "http://i0.hdslb.com/bfs/archive/daf280f76da50ae7fdd209e0f3e0dde5b4a910dc.jpg",
+      "note": "英语启蒙动画儿歌,配套双语互动教学",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "music",
+          "english",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1b64y1x77x",
+      "source": "bilibili",
+      "bvid": "BV1b64y1x77x",
+      "title": "【Numberblocks数字积木】用Minecraft还原Numberland",
+      "up": "热爱698开氏度的荆哲",
+      "duration_seconds": 97,
+      "cover": "http://i0.hdslb.com/bfs/archive/1b91cfc735ee43acadbf9451402a1a28934871f3.png",
+      "note": "MC二创还原数学动画,内容健康,待人工复核",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "math",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1b7vpe6e5e",
+      "source": "bilibili",
+      "bvid": "BV1b7vPe6E5E",
+      "title": "The Shape Song #1 _ Super Simple Songs",
+      "up": "Eva益雅yo",
+      "duration_seconds": 251,
+      "cover": "http://i1.hdslb.com/bfs/archive/f0b625721692615e1ba76ac174bd4d7564978074.jpg",
+      "note": "SSS形状歌,英语+形状认知启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english",
+          "math"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1br4y1v7qj",
+      "source": "bilibili",
+      "bvid": "BV1bR4y1V7QJ",
+      "title": "【亮记生物鉴定】网络热传生物鉴定38",
+      "up": "无穷小亮的科普日常",
+      "duration_seconds": 509,
+      "cover": "http://i1.hdslb.com/bfs/archive/7965a00e7277812239d7d675ccada6552af1886e.jpg",
+      "note": "趣味生物鉴定科普，语言偏成人但健康",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "nature"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1bt411p7ft",
+      "source": "bilibili",
+      "bvid": "BV1bt411P7Ft",
+      "title": "【古琴X竹笛】《无羁》琴笛共鸣 忘羡此生——陈情令主题曲「屠化冰X白无瑕演奏」",
+      "up": "古琴诊所",
+      "duration_seconds": 206,
+      "cover": "http://i1.hdslb.com/bfs/archive/bdef764152e61cd64702f3eaaa91ce86f4eba58f.jpg",
+      "note": "国乐器翻奏曲目，音乐内容健康",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1bx411l7sa",
+      "source": "bilibili",
+      "bvid": "BV1bx411L7sA",
+      "title": "【合集】自由泳入门（第二版）｜梦觉教游泳",
+      "up": "梦觉教游泳",
+      "duration_seconds": 16875,
+      "cover": "http://i0.hdslb.com/bfs/archive/d6b47eb18fd5db8c32c3e08c13e9b998897b3dab.jpg",
+      "note": "游泳技能教学，体育暂归life主题",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1c64y1k7n6",
+      "source": "bilibili",
+      "bvid": "BV1c64y1k7N6",
+      "title": "语文课本里那些“已删节”的原文到底有多厉害？",
+      "up": "二二酸酸",
+      "duration_seconds": 572,
+      "cover": "http://i1.hdslb.com/bfs/archive/a2987728bc8c0f3bc2b94e126b82b5de79e4e6c3.jpg",
+      "note": "语文人文解读，建议增设人文主题",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1cs41197zh",
+      "source": "bilibili",
+      "bvid": "BV1cs41197ZH",
+      "title": "【折纸-教程】情人节福利！强迫症UP主教你折“原版川崎玫瑰”（2P更新纸巾川崎玫瑰）",
+      "up": "折纸的白叔",
+      "duration_seconds": 1020,
+      "cover": "http://i1.hdslb.com/bfs/archive/34c5ee3030337ba4e56cfb0f52a3451782780150.jpg",
+      "note": "折纸教程健康，需一定动手能力",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1ep4y1n7tx",
+      "source": "bilibili",
+      "bvid": "BV1ep4y1n7Tx",
+      "title": "写字启蒙教程（学前儿童）",
+      "up": "写字王老师",
+      "duration_seconds": 6499,
+      "cover": "http://i1.hdslb.com/bfs/archive/3417a5d48a5a59e1a625e711de142c0fc8053784.jpg",
+      "note": "学前写字启蒙，官方定位5岁以上",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1f64y1c715",
+      "source": "bilibili",
+      "bvid": "BV1f64y1C715",
+      "title": "【亮记生物鉴定】网络热传生物鉴定29",
+      "up": "无穷小亮的科普日常",
+      "duration_seconds": 375,
+      "cover": "http://i1.hdslb.com/bfs/archive/922bab6eabf63897ea12a239d1609162ecf3ec23.jpg",
+      "note": "趣味生物鉴定科普，语言偏成人但健康",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "nature"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1fv411h7vk",
+      "source": "bilibili",
+      "bvid": "BV1fV411H7VK",
+      "title": "沙盘推演：再现中国工农红军史诗般的长征全历程（合集）",
+      "up": "沙盘上的战争",
+      "duration_seconds": 25433,
+      "cover": "http://i0.hdslb.com/bfs/archive/099009fc13b9e64b1c26cd9dbe1661f481e6f461.jpg",
+      "note": "长征历史沙盘合集，健康历史科普",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1fv4y1p7ex",
+      "source": "bilibili",
+      "bvid": "BV1fV4y1p7Ex",
+      "title": "【发音·系统训练】一个视频☆掌握48个地道音标·对着镜子大声练起来丨真人+口型+发音",
+      "up": "惊叹号的英语世界",
+      "duration_seconds": 518,
+      "cover": "http://i2.hdslb.com/bfs/archive/5a8b164edf07af472703a336afa75bf49b00bd8d.jpg",
+      "note": "48音标口型示范训练，英语发音基础",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1gp411z7ke",
+      "source": "bilibili",
+      "bvid": "BV1gP411z7kE",
+      "title": "这个不要试原理懂了就行~ 痛！",
+      "up": "不刷题的吴姥姥",
+      "duration_seconds": 89,
+      "cover": "http://i0.hdslb.com/bfs/archive/e365b364376b4fca9c1ef7ec197eae4f69d9f9ab.jpg",
+      "note": "实验原理演示,提醒勿模仿,内容健康",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1gx411b7kj",
+      "source": "bilibili",
+      "bvid": "BV1gx411B7kJ",
+      "title": "经典认知动漫！神奇校车英文版（Magic School Bus）-52集（全）【英文字幕版】【动漫】",
+      "up": "惊叹号的英语世界",
+      "duration_seconds": 77583,
+      "cover": "http://i0.hdslb.com/bfs/archive/e8ceda5087073bdabc2ea9c5d05edeb055481597.png",
+      "note": "经典科普动画英文原声，科学启蒙",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1gx411q7ze",
+      "source": "bilibili",
+      "bvid": "BV1gx411Q7Ze",
+      "title": "报告老师！你可能给我们做了假实验",
+      "up": "美丽科学BOS",
+      "duration_seconds": 223,
+      "cover": "http://i1.hdslb.com/bfs/archive/b7492bebf4754ae6e6ad292fc99e69edd99ae87d.jpg",
+      "note": "化学沉淀反应实拍,画面优美,含高中化学",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1hm421g74f",
+      "source": "bilibili",
+      "bvid": "BV1hm421g74F",
+      "title": "数字方块变成胖子 数字块胖歌 Numberblocks Fat Song",
+      "up": "橘多贝子",
+      "duration_seconds": 38,
+      "cover": "http://i1.hdslb.com/bfs/archive/e209d8218d9830f44e8d89e70e44b83f872ba673.jpg",
+      "note": "疑似Numberblocks二创非官方,待人工复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "math"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1iv411z7nj",
+      "source": "bilibili",
+      "bvid": "BV1iV411z7Nj",
+      "title": "全网最适合中国人的免费音标课(纯干货, 超详细!)",
+      "up": "英语兔",
+      "duration_seconds": 13695,
+      "cover": "http://i2.hdslb.com/bfs/archive/580ac5793b817e07114492e909261653df5645c7.jpg",
+      "note": "系统音标教学，内容健康，适合大童英语学习",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1jp4y177rf",
+      "source": "bilibili",
+      "bvid": "BV1jP4y177RF",
+      "title": "海湾战争 第一场现代化战争",
+      "up": "沙盘上的战争",
+      "duration_seconds": 1050,
+      "cover": "http://i1.hdslb.com/bfs/archive/40f47ac959e21b5b606e983bf1d7a3341a536f5a.jpg",
+      "note": "军事历史科普，内容健康适合大童",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1jz4y1x79g",
+      "source": "bilibili",
+      "bvid": "BV1jZ4y1x79g",
+      "title": "《啊！设计》一分钟设计课之05：设计的观察（字幕版）",
+      "up": "和光自习馆",
+      "duration_seconds": 62,
+      "cover": "http://i2.hdslb.com/bfs/archive/9b70b424f492b5c961a9debb62de9540408dfabb.jpg",
+      "note": "改编自儿童节目啊设计的浓缩设计课",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1m7411e7ta",
+      "source": "bilibili",
+      "bvid": "BV1m7411e7ta",
+      "title": "【高清】自然拼读字母歌 Phonics Word Song",
+      "up": "敏而巧学",
+      "duration_seconds": 6432,
+      "cover": "http://i0.hdslb.com/bfs/archive/d969ebeff532847c601ce9149f60e6a14f10a591.jpg",
+      "note": "自然拼读字母歌，趣味拼读启蒙",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "music"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1mk4y1a7qa",
+      "source": "bilibili",
+      "bvid": "BV1mK4y1A7Qa",
+      "title": "把人看哭的艺术品《哀悼基督》",
+      "up": "意外艺术",
+      "duration_seconds": 138,
+      "cover": "http://i2.hdslb.com/bfs/archive/ff4d54ba982b51e5424766705f2c85eba52d12af.jpg",
+      "note": "艺术鉴赏内容健康，美术暂归craft",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1mz4y1d7c6",
+      "source": "bilibili",
+      "bvid": "BV1mZ4y1d7C6",
+      "title": "看戏皇子：康熙朝九子夺嫡，其他阿哥在干嘛？【雍正王朝】",
+      "up": "正直讲史-李正Str",
+      "duration_seconds": 1154,
+      "cover": "http://i1.hdslb.com/bfs/archive/cc05f6d577a063762c6d486f9f49678a5b8b1dcb.jpg",
+      "note": "历史讲史内容健康，适合大童亲子共看",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1mt4y1x7mx",
+      "source": "bilibili",
+      "bvid": "BV1mt4y1X7Mx",
+      "title": "【戴建业】苏轼悼亡妻《江城子》，我每次读都很难受",
+      "up": "戴建业老师",
+      "duration_seconds": 286,
+      "cover": "http://i1.hdslb.com/bfs/archive/dec9d18a4cd709b114199b98a9867703544c734b.jpg",
+      "note": "古诗词讲解内容健康，建议增设人文主题",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1n7411p7wv",
+      "source": "bilibili",
+      "bvid": "BV1n7411P7wV",
+      "title": "【高清】儿童英语对话入门 - 通过歌曲和故事学习英语对话(带字幕) - ESL Song & Story - Learning English for Kids",
+      "up": "敏而巧学",
+      "duration_seconds": 13682,
+      "cover": "http://i2.hdslb.com/bfs/archive/dcfb7077349ea775cd2f15ad0f09e9d7578dd9fc.jpg",
+      "note": "歌曲故事学英语对话，带字幕启蒙",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "story",
+          "music"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1nknz6pepk",
+      "source": "bilibili",
+      "bvid": "BV1nknZ6pEpk",
+      "title": "【Numberblocks 数字积木】1-8 季【全 176 集】3–8 岁幼小衔接数学，和字母积木配套启蒙",
+      "up": "爱学习的萌萌63",
+      "duration_seconds": 56,
+      "cover": "http://i2.hdslb.com/bfs/archive/b3ba03be137d4689e4d4fa34481775f724ed6ef1.jpg",
+      "note": "BBC数字积木数学启蒙动画,纯英文原声",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "math",
+          "animation",
+          "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1oy4y197w9",
+      "source": "bilibili",
+      "bvid": "BV1oY4y197W9",
+      "title": "95集英文版  BBC少儿科普启蒙纪录片  DO  YOU  KNOW  你知道吗",
+      "up": "铃噹麻麻",
+      "duration_seconds": 1673,
+      "cover": "http://i2.hdslb.com/bfs/archive/bed8ae648ede7b8ff51957af32f3d0f55e3214cc.png",
+      "note": "BBC少儿科普,英文原声,需一定英语基础",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science",
+          "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1oi4y1f76r",
+      "source": "bilibili",
+      "bvid": "BV1oi4y1F76r",
+      "title": "【瑞秋英语】30天单词大挑战-第1天（美式英语）",
+      "up": "瑞秋英语Rachel",
+      "duration_seconds": 752,
+      "cover": "http://i0.hdslb.com/bfs/archive/3099bc56001960d26f58414be5b418a76331439b.jpg",
+      "note": "学术词汇跟读挑战，偏进阶，适合大童",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1pl41137rq",
+      "source": "bilibili",
+      "bvid": "BV1pL41137rQ",
+      "title": "【故宫邀你云看展】林下风雅-故宫博物院藏历代人物画展第二期",
+      "up": "故宫博物院",
+      "duration_seconds": 2572,
+      "cover": "http://i0.hdslb.com/bfs/archive/78b652cccc86448ac3d141116af5108d371a7032.jpg",
+      "note": "故宫人物画云看展,亲子共看,人文归story",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1prsnzgeey",
+      "source": "bilibili",
+      "bvid": "BV1prsnzGEeY",
+      "title": "全400集+【最好的英语启蒙儿歌】磨耳朵经典英文儿歌，韵律感十足，看完从此爱上英语!",
+      "up": "尖子生动画站",
+      "duration_seconds": 123338,
+      "cover": "http://i2.hdslb.com/bfs/archive/a2a2d4b70618802bcf23a997f332f7932ff41197.jpg",
+      "note": "经典英文儿歌大合集，磨耳朵启蒙",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1qxbibrenm",
+      "source": "bilibili",
+      "bvid": "BV1qxBiBRENm",
+      "title": "铁：我们细胞里的远祖残躯",
+      "up": "芳斯塔芙",
+      "duration_seconds": 1132,
+      "cover": "http://i0.hdslb.com/bfs/archive/e833369e4dddaea61156acb479fc46e9daba314a.jpg",
+      "note": "生物化学深度讲解,语言偏成人,9-12档",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1r54y1m7gd",
+      "source": "bilibili",
+      "bvid": "BV1r54y1m7gd",
+      "title": "一个视频说清整个英语语法体系(重塑你的语法认知框架)",
+      "up": "英语兔",
+      "duration_seconds": 1627,
+      "cover": "http://i0.hdslb.com/bfs/archive/e2bdfb3bb92dbe9a310855d17c25cf5667abcbfc.jpg",
+      "note": "语法体系框架讲解，内容健康，大童适用",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1rv41157nj",
+      "source": "bilibili",
+      "bvid": "BV1rV41157nj",
+      "title": "网络热门生物鉴定49",
+      "up": "无穷小亮的科普日常",
+      "duration_seconds": 620,
+      "cover": "http://i0.hdslb.com/bfs/archive/bb84784e48d4fa283a772e4b755134181949e961.jpg",
+      "note": "趣味生物鉴定科普，语言偏成人但健康",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "nature"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1te41187py",
+      "source": "bilibili",
+      "bvid": "BV1tE41187pY",
+      "title": "薯片掉地上到底能不能吃了？这次我打脸我自己！",
+      "up": "毕导",
+      "duration_seconds": 420,
+      "cover": "http://i2.hdslb.com/bfs/archive/890410eccb347756410f57c5a7328cf4db355f95.jpg",
+      "note": "幽默科普,口播风格略成人化,给大童档",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1tt411w72a",
+      "source": "bilibili",
+      "bvid": "BV1tt411w72A",
+      "title": "【完结】【Grammar in Use 全网首套视频教程】剑桥语法在用初级 手把手讲解 英语语法",
+      "up": "昂克英文君",
+      "duration_seconds": 59546,
+      "cover": "http://i2.hdslb.com/bfs/archive/7cee66d24fdbf475c228c04deb5dfd1ebc4e8daa.jpg",
+      "note": "剑桥初级语法讲解，内容健康，大童适用",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1utsiyuece",
+      "source": "bilibili",
+      "bvid": "BV1uTSiYUECe",
+      "title": "158集全【微观小世界，昆虫总动员】趣味十足儿童自然启蒙动画片，Minuscule-让孩子爱上大自然里的小昆虫，满足孩子的好奇心",
+      "up": "学霸老师资料库",
+      "duration_seconds": 13106,
+      "cover": "http://i2.hdslb.com/bfs/archive/796a56513ce0e2b8191c133ee75220097dc7f4ef.jpg",
+      "note": "微观小世界昆虫动画,无对白,语言待人工复核",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "nature",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1vf4m1t7pe",
+      "source": "bilibili",
+      "bvid": "BV1vF4m1T7PE",
+      "title": "火柴人vs物理，知识卡点进入脑子里",
+      "up": "二次元的中科院物理所",
+      "duration_seconds": 200,
+      "cover": "http://i0.hdslb.com/bfs/archive/47a13308ad5a86a3d353bc4b3f8a7884a7eb814e.jpg",
+      "note": "火柴人动画讲物理,健康有趣,大童适看",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1vjc7z4e8s",
+      "source": "bilibili",
+      "bvid": "BV1vJc7z4E8s",
+      "title": "全465集【英语启蒙SSS儿歌必刷 】慢速英文儿歌 看动画学英语 适合2-8岁唱歌学英语磨耳朵英语（中英文字幕）",
+      "up": "清北精英研究所",
+      "duration_seconds": 4599,
+      "cover": "http://i0.hdslb.com/bfs/archive/676c43086b2a635d6ccb3f208d769ef4e45960ac.jpg",
+      "note": "SSS慢速儿歌，低幼英语磨耳朵首选",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1vb4y177nx",
+      "source": "bilibili",
+      "bvid": "BV1vb4y177NX",
+      "title": "吃瓜皇子2：哥哥们夺嫡，其他弟弟在干嘛？【雍正王朝】",
+      "up": "正直讲史-李正Str",
+      "duration_seconds": 1283,
+      "cover": "http://i0.hdslb.com/bfs/archive/67bd7773b280959a19005564f7e7e0232266fb9b.jpg",
+      "note": "历史讲史内容健康，适合大童亲子共看",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1ve4y1b7bv",
+      "source": "bilibili",
+      "bvid": "BV1ve4y1b7BV",
+      "title": "宝宝爱听的热门儿歌精选《贝乐虎儿歌》：小兔子乖乖",
+      "up": "贝乐虎儿歌",
+      "duration_seconds": 131,
+      "cover": "http://i2.hdslb.com/bfs/archive/5dcc474bdb1cb7384c3f6ceaccebecb989b10717.jpg",
+      "note": "贝乐虎经典儿歌单集,低幼适宜",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1wb41127jt",
+      "source": "bilibili",
+      "bvid": "BV1wb41127jT",
+      "title": "【鬼谷说】奇虾：初代霸主的故事",
+      "up": "芳斯塔芙",
+      "duration_seconds": 814,
+      "cover": "http://i0.hdslb.com/bfs/archive/c854cca10a79fcf2e778fcb7403d64fe797cbf81.jpg",
+      "note": "古生物深度讲解,9-12档",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "nature"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1wx411i7ya",
+      "source": "bilibili",
+      "bvid": "BV1wx411i7ya",
+      "title": "神奇的投影-趣迷少儿美术创意免费公开课",
+      "up": "趣迷少儿美术",
+      "duration_seconds": 282,
+      "cover": "http://i1.hdslb.com/bfs/archive/e534ab259ff90a50aa45a36df21ee7e29b710692.jpg",
+      "note": "少儿美术公开课，官方定位4-8岁",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1x7411j7er",
+      "source": "bilibili",
+      "bvid": "BV1x7411j7ER",
+      "title": "【700集全】经典美音 美中小学教学原版教材精讲",
+      "up": "Mmxgxg",
+      "duration_seconds": 376965,
+      "cover": "http://i0.hdslb.com/bfs/archive/9cc443a73f63548c060b6e1e328f9ac589c881a8.jpg",
+      "note": "美音中小学教材朗读，学科英语磨耳朵",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1xe411b7v4",
+      "source": "bilibili",
+      "bvid": "BV1xE411B7V4",
+      "title": "如何才能摆脱贫穷？穷人和富人有什么差别？【诺贝尔经济学奖解读】",
+      "up": "李永乐老师官方",
+      "duration_seconds": 1620,
+      "cover": "http://i0.hdslb.com/bfs/archive/43671ee265d797d43dfbdd6188e34033962ee5ea.jpg",
+      "note": "经济学诺奖解读,健康;枚举缺经济主题,待复核",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1zv411z73y",
+      "source": "bilibili",
+      "bvid": "BV1zv411z73y",
+      "title": "【YouTube最好的英语训练课程】1个月提升口语听力n个level (63集完整版)",
+      "up": "YouTube口语精选",
+      "duration_seconds": 76884,
+      "cover": "http://i2.hdslb.com/bfs/archive/a1840225825ecb951d414590546af5afa948c95d.jpg",
+      "note": "口语听力训练课程，内容健康，大童适用",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english"
+        ]
+      },
       "added_at": "2026-11-06"
     }
   ]

@@ -16,6 +16,7 @@
 """
 
 import argparse
+import gzip
 import hashlib
 import json
 import os
@@ -199,6 +200,51 @@ class BilibiliClient:
             "like": (data.get("stat") or {}).get("like"),
         }
 
+    def enrich_html(self, bvid: str):
+        """降级通道：抓视频页 HTML 的 __INITIAL_STATE__（api 被风控时用）。"""
+        self._throttle()
+        url = f"https://www.bilibili.com/video/{bvid}"
+        try:
+            req = urllib.request.Request(
+                url,
+                headers={
+                    "User-Agent": UA,
+                    "Accept-Encoding": "gzip",
+                    "Accept-Language": "zh-CN,zh;q=0.9",
+                    "Referer": "https://www.bilibili.com/",
+                },
+            )
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                data = resp.read()
+            if data[:2] == b"\x1f\x8b":
+                data = gzip.decompress(data)
+            html = data.decode("utf-8", "ignore")
+            m = re.search(
+                r"window\.__INITIAL_STATE__\s*=\s*(\{.*?\});\s*</script>", html, re.S
+            ) or re.search(
+                r"window\.__INITIAL_STATE__\s*=\s*(\{.*?\});\s*\(function", html, re.S
+            )
+            if not m:
+                print(f"  ! HTML 无 INITIAL_STATE {bvid}", file=sys.stderr)
+                return None
+            v = json.loads(m.group(1)).get("videoData") or {}
+            if not v.get("title"):
+                return None
+            return {
+                "title": v.get("title"),
+                "desc": (v.get("desc") or "")[:500],
+                "up": (v.get("owner") or {}).get("name"),
+                "mid": (v.get("owner") or {}).get("mid"),
+                "duration_seconds": v.get("duration"),
+                "cover": v.get("pic"),
+                "pubdate": v.get("pubdate"),
+                "view": (v.get("stat") or {}).get("view"),
+                "like": (v.get("stat") or {}).get("like"),
+            }
+        except Exception as e:
+            print(f"  ! HTML 详情失败 {bvid}: {e}", file=sys.stderr)
+            return None
+
     @staticmethod
     def _search_row(r: dict, source: str) -> dict:
         return {
@@ -225,7 +271,7 @@ def parse_duration(text):
     return seconds
 
 
-def collect(config_path, out_path, max_per_source, enrich_limit):
+def collect(config_path, out_path, max_per_source, enrich_limit, via="api"):
     cfg = json.loads(config_path.read_text(encoding="utf-8"))
     client = BilibiliClient(
         delay=cfg.get("delay_seconds", 2.0), sessdata=os.environ.get("BILIBILI_SESSDATA", "")
@@ -291,10 +337,11 @@ def collect(config_path, out_path, max_per_source, enrich_limit):
 
     # 5) 富化（详情含 desc，LLM 打标需要）；view 接口匿名可用
     enriched = 0
+    enrich_fn = client.enrich_html if via == "html" else client.enrich
     for bvid, item in pool.items():
         if enriched >= enrich_limit:
             break
-        detail = client.enrich(bvid)
+        detail = enrich_fn(bvid)
         if detail:
             item.update(detail)
             enriched += 1
@@ -322,6 +369,7 @@ def main():
     c.add_argument("--out", type=Path, default=Path("data/candidates.json"))
     c.add_argument("--max-per-source", type=int, default=60)
     c.add_argument("--enrich-limit", type=int, default=300)
+    c.add_argument("--via", choices=["api", "html"], default="api", help="富化通道：api=view 接口，html=视频页解析（风控降级用）")
 
     s = sub.add_parser("search", help="单次搜索调试（需 BILIBILI_SESSDATA）")
     s.add_argument("--keyword", required=True)
@@ -333,7 +381,7 @@ def main():
     args = ap.parse_args()
     sessdata = os.environ.get("BILIBILI_SESSDATA", "")
     if args.cmd == "collect":
-        collect(args.config, args.out, args.max_per_source, args.enrich_limit)
+        collect(args.config, args.out, args.max_per_source, args.enrich_limit, args.via)
     elif args.cmd == "search":
         client = BilibiliClient(sessdata=sessdata)
         rows = client.search_videos(args.keyword, pages=args.pages)
