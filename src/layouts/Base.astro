@@ -1,11 +1,12 @@
 ---
-// 共用页面外壳：头部导航 + 页脚 + 设计变量
+// 共用页面外壳：头部导航 + 页脚 + 设计变量 + 中英切换
 interface Props {
 	title?: string;
 	description?: string;
 }
-const { title = '童心岛 · 为孩子精选的中文视频片单', description = '童心岛：为小朋友精选的中文视频片单，按年龄段、语言、主题筛选，B 站官方播放。' } = Astro.props;
 import { base } from '../lib/base.ts';
+import taxonomy from '../data/taxonomy.json';
+const { title = '童心岛 · 为孩子精选的中文视频片单', description = '童心岛：为小朋友精选的中文视频片单，按年龄段、语言、主题筛选，B 站官方播放。' } = Astro.props;
 ---
 <!doctype html>
 <html lang="zh-CN">
@@ -40,12 +41,16 @@ import { base } from '../lib/base.ts';
 				display: flex; align-items: center; gap: 1rem;
 			}
 			.logo { font-size: 1.15rem; font-weight: 700; text-decoration: none; color: var(--ink); white-space: nowrap; }
-			.navtabs { display: flex; gap: 0.25rem; }
+			.navtabs { display: flex; gap: 0.25rem; flex: 1; }
 			.navtabs a {
 				font-size: 0.9rem; padding: 0.35rem 0.9rem; border-radius: 999px;
 				text-decoration: none; color: var(--muted);
 			}
 			.navtabs a[aria-current='page'] { background: var(--sea); color: #fff; }
+			.langtoggle {
+				font-size: 0.8rem; font-weight: 600; padding: 0.3rem 0.8rem; border-radius: 999px;
+				border: 1px solid var(--line); background: var(--card); color: var(--sea); cursor: pointer;
+			}
 			.site-footer { text-align: center; color: var(--muted); font-size: 0.8rem; padding: 1.5rem 0 2rem; }
 			.tag {
 				font-size: 0.7rem; padding: 0.08rem 0.5rem; border-radius: 999px;
@@ -58,14 +63,57 @@ import { base } from '../lib/base.ts';
 			<div class="site-header-inner">
 				<a class="logo" href={base}>🏝️ 童心岛</a>
 				<nav class="navtabs">
-					<a href={base} aria-current={Astro.url.pathname === base || Astro.url.pathname === `${base}index.html` ? 'page' : undefined}>视频</a>
-					<a href={`${base}bloggers/`} aria-current={Astro.url.pathname.startsWith(`${base}bloggers`) || Astro.url.pathname.startsWith(`${base}blogger/`) ? 'page' : undefined}>博主</a>
+					<a href={base} aria-current={Astro.url.pathname === base || Astro.url.pathname === `${base}index.html` ? 'page' : undefined}>
+						<span data-i18n="nav_videos">视频</span>
+					</a>
+					<a href={`${base}bloggers/`} aria-current={Astro.url.pathname.startsWith(`${base}bloggers`) || Astro.url.pathname.startsWith(`${base}blogger/`) ? 'page' : undefined}>
+						<span data-i18n="nav_creators">博主</span>
+					</a>
 				</nav>
+				<button class="langtoggle" id="lang-toggle" aria-label="切换语言 / Switch language">EN</button>
 			</div>
 		</header>
 		<slot />
 		<footer class="site-footer">
-			童心岛 (kidisle) · 独立开源项目 · <a href="https://github.com/kk17/kidisle">GitHub</a> · MIT · 视频版权归原 UP 主所有
+			童心岛 (kidisle) · 独立开源项目 · <a href="https://github.com/kk17/kidisle">GitHub</a> · MIT · <span data-i18n="footer_rights">视频版权归原 UP 主所有</span>
 		</footer>
+
+		<!-- 标签双语字典（taxonomy），供全局切换脚本使用 -->
+		<script is:inline type="application/json" id="tag-i18n" set:html={JSON.stringify({
+			age: Object.fromEntries(taxonomy.age_bands.map((t) => [t.id, { zh: t.label, en: t.label_en }])),
+			language: Object.fromEntries(taxonomy.languages.map((t) => [t.id, { zh: t.label, en: t.label_en }])),
+			theme: Object.fromEntries(taxonomy.themes.map((t) => [t.id, { zh: t.label, en: t.label_en }])),
+		})} />
+
+		<script>
+			import { getLang, setLang, t } from '../lib/i18n.ts';
+
+			function apply(lang: 'zh' | 'en') {
+				document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+				document.querySelectorAll<HTMLElement>('[data-i18n]').forEach((el) => {
+					let text = t(el.dataset.i18n!, lang);
+					for (const [k, v] of Object.entries(el.dataset)) {
+						if (k.startsWith('i18nVar')) text = text.replace(`{${k.slice(7).toLowerCase()}}`, v);
+					}
+					el.textContent = text;
+				});
+				// 标签（年龄段/语言/主题 chip 与卡片上的 tag）
+				const tags = JSON.parse(document.getElementById('tag-i18n')!.textContent || '{}');
+				document.querySelectorAll<HTMLElement>('[data-tag]').forEach((el) => {
+					const entry = tags[el.dataset.tagDim!]?.[el.dataset.tag!];
+					if (entry) el.textContent = entry[lang] ?? entry.zh;
+				});
+				const toggle = document.getElementById('lang-toggle');
+				if (toggle) toggle.textContent = lang === 'zh' ? 'EN' : '中文';
+				window.dispatchEvent(new CustomEvent('kidisle:langchange', { detail: { lang } }));
+			}
+
+			document.getElementById('lang-toggle')?.addEventListener('click', () => {
+				const next = getLang() === 'zh' ? 'en' : 'zh';
+				setLang(next);
+				apply(next);
+			});
+			apply(getLang());
+		</script>
 	</body>
 </html>

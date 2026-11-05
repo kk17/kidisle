@@ -11,20 +11,20 @@ const themes = taxonomy.themes;
 <Base>
 	<section class="filters" id="filters">
 		<div class="filter-row">
-			<span class="dim">年龄段</span>
-			{ageBands.map((t) => <button class="chip" data-dim="age" data-v={t.id} aria-pressed="false">{t.label}</button>)}
-			<button class="chip-clear" data-clear="age">清空</button>
+			<span class="dim" data-i18n="filter_age">年龄段</span>
+			{ageBands.map((t) => <button class="chip" data-dim="age" data-v={t.id} data-tag={t.id} data-tag-dim="age" aria-pressed="false">{t.label}</button>)}
+			<button class="chip-clear" data-clear="age" data-i18n="clear">清空</button>
 			<span class="count" id="count"></span>
 		</div>
 		<div class="filter-row">
-			<span class="dim">语言</span>
-			{languages.map((t) => <button class="chip" data-dim="language" data-v={t.id} aria-pressed="false">{t.label}</button>)}
-			<button class="chip-clear" data-clear="language">清空</button>
+			<span class="dim" data-i18n="filter_language">语言</span>
+			{languages.map((t) => <button class="chip" data-dim="language" data-v={t.id} data-tag={t.id} data-tag-dim="language" aria-pressed="false">{t.label}</button>)}
+			<button class="chip-clear" data-clear="language" data-i18n="clear">清空</button>
 		</div>
 		<div class="filter-row">
-			<span class="dim">主题</span>
-			{themes.map((t) => <button class="chip" data-dim="theme" data-v={t.id} aria-pressed="false">{t.label}</button>)}
-			<button class="chip-clear" data-clear="theme">清空</button>
+			<span class="dim" data-i18n="filter_theme">主题</span>
+			{themes.map((t) => <button class="chip" data-dim="theme" data-v={t.id} data-tag={t.id} data-tag-dim="theme" aria-pressed="false">{t.label}</button>)}
+			<button class="chip-clear" data-clear="theme" data-i18n="clear">清空</button>
 		</div>
 	</section>
 
@@ -43,7 +43,7 @@ const themes = taxonomy.themes;
 				))
 			}
 		</ul>
-		<div class="empty" id="empty" hidden>这个组合下暂时没有视频，换个筛选试试～</div>
+		<div class="empty" id="empty" hidden data-i18n="empty_home">这个组合下暂时没有视频，换个筛选试试～</div>
 	</main>
 </Base>
 

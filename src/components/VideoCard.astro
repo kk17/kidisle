@@ -11,7 +11,7 @@ interface Props {
 }
 const { video: v, compact = false } = Astro.props;
 import { base } from '../lib/base.ts';
-const href = `${base}video/${v.bvid}/`;
+const href = `${base}video/${v.source === 'youtube' ? v.vid : v.bvid}/`;
 const pad = (n: number) => String(n).padStart(2, '0');
 const dur = v.duration_seconds > 0
 	? v.duration_seconds >= 3600
@@ -28,9 +28,9 @@ const dur = v.duration_seconds > 0
 		<span class="vtitle">{v.title}</span>
 		{!compact && <span class="vup">{v.up}</span>}
 		<span class="vtagrow">
-			{v.tags.age.map((a) => <span class="tag">{ageLabel[a] ?? a}</span>)}
-			{v.tags.language.map((l) => <span class="tag">{langLabel[l] ?? l}</span>)}
-			{v.tags.theme.map((t) => <span class="tag">{themeLabel[t] ?? t}</span>)}
+			{v.tags.age.map((a) => <span class="tag" data-tag={a} data-tag-dim="age">{ageLabel[a] ?? a}</span>)}
+			{v.tags.language.map((l) => <span class="tag" data-tag={l} data-tag-dim="language">{langLabel[l] ?? l}</span>)}
+			{v.tags.theme.map((t) => <span class="tag" data-tag={t} data-tag-dim="theme">{themeLabel[t] ?? t}</span>)}
 		</span>
 	</span>
 </a>

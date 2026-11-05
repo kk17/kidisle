@@ -1,26 +1,95 @@
 {
   "schema_version": 1,
   "age_bands": [
-    { "id": "0-3", "label": "0–3 岁" },
-    { "id": "3-6", "label": "3–6 岁" },
-    { "id": "6-9", "label": "6–9 岁" },
-    { "id": "9-12", "label": "9–12 岁" }
+    {
+      "id": "0-3",
+      "label": "0–3 岁",
+      "label_en": "0–3 yrs"
+    },
+    {
+      "id": "3-6",
+      "label": "3–6 岁",
+      "label_en": "3–6 yrs"
+    },
+    {
+      "id": "6-9",
+      "label": "6–9 岁",
+      "label_en": "6–9 yrs"
+    },
+    {
+      "id": "9-12",
+      "label": "9–12 岁",
+      "label_en": "9–12 yrs"
+    }
   ],
   "languages": [
-    { "id": "zh", "label": "中文" },
-    { "id": "en", "label": "英文" },
-    { "id": "bilingual", "label": "双语" }
+    {
+      "id": "zh",
+      "label": "中文",
+      "label_en": "Chinese"
+    },
+    {
+      "id": "en",
+      "label": "英文",
+      "label_en": "English"
+    },
+    {
+      "id": "bilingual",
+      "label": "双语",
+      "label_en": "Bilingual"
+    }
   ],
   "themes": [
-    { "id": "science", "label": "科普" },
-    { "id": "animation", "label": "动画" },
-    { "id": "story", "label": "绘本故事" },
-    { "id": "music", "label": "音乐" },
-    { "id": "math", "label": "数学思维" },
-    { "id": "english", "label": "英语启蒙" },
-    { "id": "nature", "label": "自然" },
-    { "id": "life", "label": "生活习惯" },
-    { "id": "social", "label": "情感与社交" },
-    { "id": "craft", "label": "手工" }
-  ]
+    {
+      "id": "science",
+      "label": "科普",
+      "label_en": "Science"
+    },
+    {
+      "id": "animation",
+      "label": "动画",
+      "label_en": "Animation"
+    },
+    {
+      "id": "story",
+      "label": "绘本故事",
+      "label_en": "Stories"
+    },
+    {
+      "id": "music",
+      "label": "音乐",
+      "label_en": "Music"
+    },
+    {
+      "id": "math",
+      "label": "数学思维",
+      "label_en": "Math"
+    },
+    {
+      "id": "english",
+      "label": "英语启蒙",
+      "label_en": "English Learning"
+    },
+    {
+      "id": "nature",
+      "label": "自然",
+      "label_en": "Nature"
+    },
+    {
+      "id": "life",
+      "label": "生活习惯",
+      "label_en": "Life Skills"
+    },
+    {
+      "id": "social",
+      "label": "情感与社交",
+      "label_en": "Social-Emotional"
+    },
+    {
+      "id": "craft",
+      "label": "手工",
+      "label_en": "Crafts"
+    }
+  ],
+  "ui_note": "label=中文展示，label_en=英文展示（i18n 用）"
 }

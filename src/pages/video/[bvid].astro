@@ -7,33 +7,45 @@ import bloggers from '../../data/bloggers.json';
 import siteConfig from '../../data/site-config.json';
 
 export function getStaticPaths() {
-	return videos.videos.map((v) => ({ params: { bvid: v.bvid }, props: { video: v } }));
+	// params.bvid 是通用视频键：B站=bvid，YouTube=vid
+	return videos.videos.map((v) => ({
+		params: { bvid: v.source === 'youtube' ? v.vid : v.bvid },
+		props: { video: v },
+	}));
 }
 const { video: v } = Astro.props;
+const isYouTube = v.source === 'youtube';
+const videoKey = isYouTube ? v.vid : v.bvid;
 import { base } from '../../lib/base.ts';
+import { t, getLang } from '../../lib/i18n.ts';
 const ageLabel = Object.fromEntries(taxonomy.age_bands.map((t) => [t.id, t.label]));
 const langLabel = Object.fromEntries(taxonomy.languages.map((t) => [t.id, t.label]));
 const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]));
-const embedBase = `https://player.bilibili.com/player.html?bvid=${v.bvid}&autoplay=0&high_quality=1&danmaku=0&page=`;
-const embedUrl = embedBase + '1';
 const pages = (v.pages ?? []) as { page: number; part: string; duration: number }[];
 const totalPages = v.total_pages || pages.length;
-const bilibiliUrl = `https://www.bilibili.com/video/${v.bvid}`;
+const embedBase = isYouTube
+	? `https://www.youtube-nocookie.com/embed/${v.vid}?rel=0`
+	: `https://player.bilibili.com/player.html?bvid=${v.bvid}&autoplay=0&high_quality=1&danmaku=0&page=`;
+const embedUrl = isYouTube ? embedBase : embedBase + '1';
+const originalUrl = isYouTube
+	? `https://www.youtube.com/watch?v=${v.vid}`
+	: `https://www.bilibili.com/video/${v.bvid}`;
 const kikireelTemplate = siteConfig.kikireel_url_template || '';
 const kikireelHref = kikireelTemplate
-	? kikireelTemplate.replace('{url}', encodeURIComponent(bilibiliUrl)).replace('{source}', 'bilibili')
+	? kikireelTemplate.replace('{url}', encodeURIComponent(originalUrl)).replace('{source}', isYouTube ? 'youtube' : 'bilibili')
 	: '';
 const blogger = bloggers.bloggers.find((b) => b.up === v.up);
+const biliPlayerId = isYouTube ? 'yt-player' : 'bili-player';
 
 // 相关推荐：同博主优先，再按共享主题补足
 const related = (() => {
-	const sameUp = videos.videos.filter((x) => x.bvid !== v.bvid && x.up === v.up);
+	const sameUp = videos.videos.filter((x) => x !== v && x.up === v.up);
 	const sameTheme = videos.videos.filter(
-		(x) => x.bvid !== v.bvid && x.up !== v.up && x.tags.theme.some((t) => v.tags.theme.includes(t))
+		(x) => x !== v && x.up !== v.up && x.tags.theme.some((t) => v.tags.theme.includes(t))
 	);
 	return [...sameUp, ...sameTheme].slice(0, 12);
 })();
-const mins = v.duration_seconds > 0 ? Math.round(v.duration_seconds / 60) : 0;
+
 ---
 <Base title={`${v.title} · 童心岛`} description={`${v.title} — 童心岛精选儿童视频，UP主：${v.up}`}>
 	<main class="watch">
@@ -53,12 +65,10 @@ const mins = v.duration_seconds > 0 ? Math.round(v.duration_seconds / 60) : 0;
 				pages.length > 1 && (
 					<div class="episodes" id="episodes">
 						<div class="ep-head">
-							<h2>选集</h2>
-							<span class="meta">
-								共 {totalPages} 集{totalPages > pages.length && `，显示前 ${pages.length} 集`}
-							</span>
+							<h2 data-i18n="episodes">选集</h2>
+							<span class="meta" data-i18n="episodes_total" data-i18n-var-n={String(totalPages)}>共 {totalPages} 集</span>
 							{totalPages > pages.length && (
-								<a href={bilibiliUrl} target="_blank" rel="noopener">在 B 站看全部 ↗</a>
+								<a href={originalUrl} target="_blank" rel="noopener">在 B 站看全部 ↗</a>
 							)}
 						</div>
 						<ul class="ep-list" style="list-style:none">
@@ -82,7 +92,13 @@ const mins = v.duration_seconds > 0 ? Math.round(v.duration_seconds / 60) : 0;
 				{v.tags.age.map((a) => <span class="tag">{ageLabel[a] ?? a}</span>)}
 				{v.tags.language.map((l) => <span class="tag">{langLabel[l] ?? l}</span>)}
 				{v.tags.theme.map((t) => <span class="tag">{themeLabel[t] ?? t}</span>)}
-				{mins > 0 && <span class="meta">{Math.floor(mins / 60) > 0 ? `${Math.floor(mins / 60)} 分 ${mins % 60} 秒` : `${mins} 分钟`}</span>}
+				{v.duration_seconds > 0 && (
+					<span class="meta">
+						{Math.floor(v.duration_seconds / 60) > 0
+							? `${Math.floor(v.duration_seconds / 60)} 分 ${v.duration_seconds % 60} 秒`
+							: `${v.duration_seconds} 秒`}
+					</span>
+				)}
 			</div>
 
 			<div class="upcard">
@@ -99,19 +115,27 @@ const mins = v.duration_seconds > 0 ? Math.round(v.duration_seconds / 60) : 0;
 			</div>
 
 			<div class="actions">
-				<button class="copy" data-url={bilibiliUrl}>🔗 复制链接</button>
+				<button class="copy" data-url={originalUrl} data-i18n="copy_link">🔗 复制链接</button>
 				{kikireelHref && (
 					<a class="kiki" href={kikireelHref} target="_blank" rel="noopener">
 						⭐ 收藏到 KikiReel
 					</a>
 				)}
-				<a class="bili" href={bilibiliUrl} target="_blank" rel="noopener">↗ 在 B 站打开</a>
+				<a class="bili" href={originalUrl} target="_blank" rel="noopener">
+						<span data-i18n={isYouTube ? 'open_youtube' : 'open_bilibili'}>{isYouTube ? '↗ 在 YouTube 打开' : '↗ 在 B 站打开'}</span>
+					</a>
 			</div>
-			<p class="tip">视频通过 B 站官方播放器播放，版权归原 UP 主所有。</p>
+			<p class="tip">
+				<span data-i18n={isYouTube ? 'tip_youtube' : 'tip_bili'}>
+					{isYouTube
+						? 'Video plays via the official YouTube embed. Rights belong to the original creator.'
+						: '视频通过 B 站官方播放器播放，版权归原 UP 主所有。'}
+				</span>
+			</p>
 		</div>
 
 		<aside class="related">
-			<h2>相关推荐</h2>
+			<h2 data-i18n="related">相关推荐</h2>
 			<ul style="list-style:none">
 				{related.map((r) => (
 					<li><VideoCard video={r} compact /></li>
@@ -189,7 +213,7 @@ const mins = v.duration_seconds > 0 ? Math.round(v.duration_seconds / 60) : 0;
 
 <script>
 	// 选集切换：重载播放器 iframe 到对应分 P
-	const player = document.getElementById('bili-player');
+		const player = document.getElementById('bili-player') || document.getElementById('yt-player');
 	document.getElementById('episodes')?.addEventListener('click', (e) => {
 		const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('.ep');
 		if (!btn || !player) return;
@@ -199,7 +223,13 @@ const mins = v.duration_seconds > 0 ? Math.round(v.duration_seconds / 60) : 0;
 		btn.scrollIntoView({ block: 'nearest' });
 	});
 
-	document.querySelectorAll<HTMLButtonElement>('.copy').forEach((btn) => {
+	function flash(btn, text) {
+		const original = btn.textContent;
+		btn.textContent = text;
+		setTimeout(() => (btn.textContent = original), 1500);
+	}
+
+	document.querySelectorAll('.copy').forEach((btn) => {
 		btn.addEventListener('click', async () => {
 			const url = btn.dataset.url;
 			if (!url) return;
@@ -213,9 +243,7 @@ const mins = v.duration_seconds > 0 ? Math.round(v.duration_seconds / 60) : 0;
 				document.execCommand('copy');
 				ta.remove();
 			}
-			const original = btn.textContent;
-			btn.textContent = '✅ 已复制';
-			setTimeout(() => (btn.textContent = original), 1500);
+			flash(btn, t('copied', getLang()));
 		});
 	});
 </script>
