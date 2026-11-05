@@ -36,11 +36,15 @@ def main():
     suitable = [t for t in tagged if t.get("suitable")]
     print(f"打标 {len(tagged)} 条，适宜 {len(suitable)} 条")
 
-    # 合并全部候选池（多批次采集），供元数据回填
+    # 合并全部候选池（多批次采集，含 YouTube），供元数据回填
+    # key：B站=bvid，YouTube=vid（统一"视频键"）
     pool = {}
     for p in sorted((ROOT / "data").glob("candidates*.json")):
         for v in json.loads(p.read_text(encoding="utf-8"))["videos"]:
-            pool.setdefault(v["bvid"], v)
+            key = v.get("bvid") or v.get("vid")
+            if key:
+                v["_key"] = key
+                pool.setdefault(key, v)
 
     videos = []
     for t in suitable:
@@ -49,11 +53,13 @@ def main():
             print(f"  ! 候选池缺元数据，跳过 {t['bvid']}")
             continue
         langs = t["tags"]["language"] or ["zh"]
-        videos.append(
-            {
-                "id": "bv-" + t["bvid"].lower()[2:],
-                "source": "bilibili",
-                "bvid": t["bvid"],
+        is_yt = cand.get("_platform") == "youtube" or cand.get("source") == "youtube"
+        entry_id = ("yt-" + t["bvid"]) if is_yt else ("bv-" + t["bvid"].lower()[2:])
+        entry = {
+                "id": entry_id,
+                "source": "youtube" if is_yt else "bilibili",
+                "bvid": None if is_yt else t["bvid"],
+                "vid": t["bvid"] if is_yt else None,
                 "title": cand.get("title") or t["bvid"],
                 "up": cand.get("up") or "",
                 "duration_seconds": cand.get("duration_seconds") or 0,
@@ -67,8 +73,8 @@ def main():
                     "theme": t["tags"]["theme"],
                 },
                 "added_at": time.strftime("%Y-%m-%d"),
-            }
-        )
+        }
+        videos.append(entry)
 
     videos.sort(key=lambda v: v["added_at"], reverse=True)
     print(f"待写入 {len(videos)} 条")
@@ -91,13 +97,15 @@ def main():
         by_up.setdefault(v["up"] or "未知UP主", []).append(v)
     bloggers = []
     for up, vids in by_up.items():
-        face = next((pool[v["bvid"]].get("up_face") for v in vids
-                     if pool.get(v["bvid"], {}).get("up_face")), "")
+        def _vidkey(x):
+            return x.get("bvid") or x.get("vid")
+        face = next((pool.get(_vidkey(v), {}).get("up_face") for v in vids
+                     if pool.get(_vidkey(v), {}).get("up_face")), "")
+        mid = next((pool.get(_vidkey(v), {}).get("mid") for v in vids
+                    if pool.get(_vidkey(v), {}).get("mid")), None)
         themes = [t for v in vids for t in v["tags"]["theme"]]
         top_themes = [theme_labels[t] for t, _ in Counter(themes).most_common(2)]
         info = overlay.get(up, {})
-        mid = next((pool[v["bvid"]].get("mid") for v in vids
-                    if pool.get(v["bvid"], {}).get("mid")), None)
         source_name = info.get("source") or "社区精选"
         source_url = info.get("source_url") or SOURCE_URLS.get(source_name, "")
         reason = info.get("reason") or (

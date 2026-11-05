@@ -1,0 +1,837 @@
+{
+  "schema_version": 1,
+  "collected_at": "2026-11-06T07:55:05+0800",
+  "count": 83,
+  "videos": [
+    {
+      "vid": "02E1468SdHg",
+      "source": "youtube",
+      "title": "Minecraft | A Cosmic Kids Yoga Adventure! ⛏🧱 - Minecraft Videos for Kids",
+      "up": "Cosmic Kids Yoga",
+      "cover": "https://i.ytimg.com/vi/02E1468SdHg/hqdefault.jpg",
+      "desc": "[topic hint: life]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "0n_J2z-ILXo",
+      "source": "youtube",
+      "title": "Humpty Dumpty | + More Kids Songs | Super Simple Songs",
+      "up": "Super Simple Songs - Kids Songs",
+      "cover": "https://i.ytimg.com/vi/0n_J2z-ILXo/hqdefault.jpg",
+      "desc": "[topic hint: english]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "1DXQgrH8hOc",
+      "source": "youtube",
+      "title": "Alphabet Animals + More Alphabet Songs - Learn ABCs with the Alphabet Series - Kids Songs",
+      "up": "Bounce Patrol - Kids Songs",
+      "cover": "https://i.ytimg.com/vi/1DXQgrH8hOc/hqdefault.jpg",
+      "desc": "[topic hint: english]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "1Wqv-kUX8ao",
+      "source": "youtube",
+      "title": "A Trip to the Dentist | Sesame Street Full Episode",
+      "up": "Sesame Street",
+      "cover": "https://i.ytimg.com/vi/1Wqv-kUX8ao/hqdefault.jpg",
+      "desc": "[topic hint: life]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "1xgb2fcMWP0",
+      "source": "youtube",
+      "title": "Alphabet Picnic with the Alphablocks | Learning & fun in the great outdoors | @officialalphablocks",
+      "up": "Alphablocks",
+      "cover": "https://i.ytimg.com/vi/1xgb2fcMWP0/hqdefault.jpg",
+      "desc": "[topic hint: english]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "3Zc1UJ68wSQ",
+      "source": "youtube",
+      "title": "How To Draw A Spring Duckling",
+      "up": "Art for Kids Hub",
+      "cover": "https://i.ytimg.com/vi/3Zc1UJ68wSQ/hqdefault.jpg",
+      "desc": "[topic hint: craft]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "5ISKUMy1980",
+      "source": "youtube",
+      "title": "'Too Much Glue' read by Nicole Byer",
+      "up": "StorylineOnline",
+      "cover": "https://i.ytimg.com/vi/5ISKUMy1980/hqdefault.jpg",
+      "desc": "[topic hint: story]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "6FB0rDsR_rc",
+      "source": "youtube",
+      "title": "Here Comes the Sun: Crash Course Kids #5.1",
+      "up": "Crash Course Kids",
+      "cover": "https://i.ytimg.com/vi/6FB0rDsR_rc/hqdefault.jpg",
+      "desc": "[topic hint: science]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "7CghDWUJRI0",
+      "source": "youtube",
+      "title": "Underwater Animal Adventures! 🌊 | America's National Parks Full Episode (4K) | Nat Geo Kids",
+      "up": "Nat Geo Kids",
+      "cover": "https://i.ytimg.com/vi/7CghDWUJRI0/hqdefault.jpg",
+      "desc": "[topic hint: nature]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "8a4sYTueSJE",
+      "source": "youtube",
+      "title": "Numberblocks - Patterns and Shapes ⏰🔮 | Full Episodes | Learn to count | Alphablocks",
+      "up": "Numberblocks",
+      "cover": "https://i.ytimg.com/vi/8a4sYTueSJE/hqdefault.jpg",
+      "desc": "[topic hint: animation]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "96IRzYOGtps",
+      "source": "youtube",
+      "title": "Can You Find the Yummy Fruit? 🍉",
+      "up": "Bounce Patrol - Kids Songs",
+      "cover": "https://i.ytimg.com/vi/96IRzYOGtps/hqdefault.jpg",
+      "desc": "[topic hint: english]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "9XQSFLMpn_c",
+      "source": "youtube",
+      "title": "10 Little Dinosaurs + More | Kids Songs | Super Simple Songs",
+      "up": "Super Simple Songs - Kids Songs",
+      "cover": "https://i.ytimg.com/vi/9XQSFLMpn_c/hqdefault.jpg",
+      "desc": "[topic hint: english]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "9m1Ui-3Nt_4",
+      "source": "youtube",
+      "title": "'The Rooster Who Would Not Be Quiet!' read by Anna Sawai",
+      "up": "StorylineOnline",
+      "cover": "https://i.ytimg.com/vi/9m1Ui-3Nt_4/hqdefault.jpg",
+      "desc": "[topic hint: story]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "9x9SCgFSmaY",
+      "source": "youtube",
+      "title": "Encanto 🦋✨🌈 A Cosmic Kids Yoga Adventure!",
+      "up": "Cosmic Kids Yoga",
+      "cover": "https://i.ytimg.com/vi/9x9SCgFSmaY/hqdefault.jpg",
+      "desc": "[topic hint: life]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "A7LU5Wxc_0Y",
+      "source": "youtube",
+      "title": "Blobfish: The World's Ugliest Animal | Biology for Kids | SciShow Kids",
+      "up": "SciShow Kids",
+      "cover": "https://i.ytimg.com/vi/A7LU5Wxc_0Y/hqdefault.jpg",
+      "desc": "[topic hint: science]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "AOvcW8l3RzE",
+      "source": "youtube",
+      "title": "Reduce Reuse Recycle Song for Kids |  Earth Day Songs for Children | The Kiboomers",
+      "up": "The Kiboomers - Kids Music Channel",
+      "cover": "https://i.ytimg.com/vi/AOvcW8l3RzE/hqdefault.jpg",
+      "desc": "[topic hint: life]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "C3c8fzbsfOE",
+      "source": "youtube",
+      "title": "Clap Your Hands - THE KIBOOMERS Preschool Songs for Circle Time",
+      "up": "The Kiboomers - Kids Music Channel",
+      "cover": "https://i.ytimg.com/vi/C3c8fzbsfOE/hqdefault.jpg",
+      "desc": "[topic hint: english]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "C4CaR0syf1g",
+      "source": "youtube",
+      "title": "Yoga Time! Jungle Safari: Kids Yoga and Nursery Rhymes | Cosmic Kids",
+      "up": "Cosmic Kids Yoga",
+      "cover": "https://i.ytimg.com/vi/C4CaR0syf1g/hqdefault.jpg",
+      "desc": "[topic hint: life]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "CZhE2p46vJk",
+      "source": "youtube",
+      "title": "Food Chains Compilation: Crash Course Kids",
+      "up": "Crash Course Kids",
+      "cover": "https://i.ytimg.com/vi/CZhE2p46vJk/hqdefault.jpg",
+      "desc": "[topic hint: science]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "DEHBrmZxAf8",
+      "source": "youtube",
+      "title": "Zoom Zoom Zoom We're Going to The Moon - The Kiboomers Preschool Songs For Circle Time",
+      "up": "The Kiboomers - Kids Music Channel",
+      "cover": "https://i.ytimg.com/vi/DEHBrmZxAf8/hqdefault.jpg",
+      "desc": "[topic hint: english]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "DS_PQYIGrTc",
+      "source": "youtube",
+      "title": "How To Draw The Pusheen Cat",
+      "up": "Art for Kids Hub",
+      "cover": "https://i.ytimg.com/vi/DS_PQYIGrTc/hqdefault.jpg",
+      "desc": "[topic hint: craft]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "DpedQ_vbI18",
+      "source": "youtube",
+      "title": "Elmo and Friends Go Camping! ⛺💫| Sesame Street Full Episode",
+      "up": "Sesame Street",
+      "cover": "https://i.ytimg.com/vi/DpedQ_vbI18/hqdefault.jpg",
+      "desc": "[topic hint: life]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "EwY6p-r_hyU",
+      "source": "youtube",
+      "title": "Gravity Compilation: Crash Course Kids",
+      "up": "Crash Course Kids",
+      "cover": "https://i.ytimg.com/vi/EwY6p-r_hyU/hqdefault.jpg",
+      "desc": "[topic hint: science]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "GHj-C7TfgkE",
+      "source": "youtube",
+      "title": "I Love The Mountains | + More Kids Songs | Super Simple Songs",
+      "up": "Super Simple Songs - Kids Songs",
+      "cover": "https://i.ytimg.com/vi/GHj-C7TfgkE/hqdefault.jpg",
+      "desc": "[topic hint: english]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "HWfl_jXJg74",
+      "source": "youtube",
+      "title": "The A to Z Alphabet Song and More! 🎶 | Phonics Fun | Learn to Spell with ABC | @officialalphablocks",
+      "up": "Alphablocks",
+      "cover": "https://i.ytimg.com/vi/HWfl_jXJg74/hqdefault.jpg",
+      "desc": "[topic hint: english]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "ImUgAzHSyIc",
+      "source": "youtube",
+      "title": "Cobra 🐍 | Amazing Animals | Nat Geo Kids",
+      "up": "Nat Geo Kids",
+      "cover": "https://i.ytimg.com/vi/ImUgAzHSyIc/hqdefault.jpg",
+      "desc": "[topic hint: nature]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "KAT5NiWHFIU",
+      "source": "youtube",
+      "title": "We're Going on a Bear Hunt | A Cosmic Kids Yoga Adventure!",
+      "up": "Cosmic Kids Yoga",
+      "cover": "https://i.ytimg.com/vi/KAT5NiWHFIU/hqdefault.jpg",
+      "desc": "[topic hint: life]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "LPNetMgYeJU",
+      "source": "youtube",
+      "title": "The Animal Sounds Song - Bounce Patrol",
+      "up": "Bounce Patrol - Kids Songs",
+      "cover": "https://i.ytimg.com/vi/LPNetMgYeJU/hqdefault.jpg",
+      "desc": "[topic hint: english]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "LhYtcadR9nw",
+      "source": "youtube",
+      "title": "Squish the Fish | Yoga for Kids! A Cosmic Kids Yoga Adventure",
+      "up": "Cosmic Kids Yoga",
+      "cover": "https://i.ytimg.com/vi/LhYtcadR9nw/hqdefault.jpg",
+      "desc": "[topic hint: life]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "LrAtBtQnvCE",
+      "source": "youtube",
+      "title": "Five Little Ducks + More | Kids Songs and Nursery Rhymes | Super Simple Songs",
+      "up": "Super Simple Songs - Kids Songs",
+      "cover": "https://i.ytimg.com/vi/LrAtBtQnvCE/hqdefault.jpg",
+      "desc": "[topic hint: english]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "Mbxq29__WAU",
+      "source": "youtube",
+      "title": "Things You Wanna Know 🐊 | 20 Minutes | Nat Geo Kids Compilation | @natgeokids",
+      "up": "Nat Geo Kids",
+      "cover": "https://i.ytimg.com/vi/Mbxq29__WAU/hqdefault.jpg",
+      "desc": "[topic hint: nature]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "N2s7KjzcoKg",
+      "source": "youtube",
+      "title": "Sea Monsters Of The Past | SciShow Kids",
+      "up": "SciShow Kids",
+      "cover": "https://i.ytimg.com/vi/N2s7KjzcoKg/hqdefault.jpg",
+      "desc": "[topic hint: science]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "Qe350nm_odA",
+      "source": "youtube",
+      "title": "Why Do Floods Happen? | Weather Science | SciShow Kids",
+      "up": "SciShow Kids",
+      "cover": "https://i.ytimg.com/vi/Qe350nm_odA/hqdefault.jpg",
+      "desc": "[topic hint: science]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "RE29EUeJAb0",
+      "source": "youtube",
+      "title": "My Happy Song | + More Kids Songs | Super Simple Songs",
+      "up": "Super Simple Songs - Kids Songs",
+      "cover": "https://i.ytimg.com/vi/RE29EUeJAb0/hqdefault.jpg",
+      "desc": "[topic hint: english]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "Stj804acO_Y",
+      "source": "youtube",
+      "title": "Elmo Learns to Wait His Turn! | Sesame Street Full Episode",
+      "up": "Sesame Street",
+      "cover": "https://i.ytimg.com/vi/Stj804acO_Y/hqdefault.jpg",
+      "desc": "[topic hint: life]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "T18NCobS43c",
+      "source": "youtube",
+      "title": "'Library Lion' read by Mindy Sterling",
+      "up": "StorylineOnline",
+      "cover": "https://i.ytimg.com/vi/T18NCobS43c/hqdefault.jpg",
+      "desc": "[topic hint: story]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "Td_A9H69eE8",
+      "source": "youtube",
+      "title": "Space Compilation: Crash Course Kids",
+      "up": "Crash Course Kids",
+      "cover": "https://i.ytimg.com/vi/Td_A9H69eE8/hqdefault.jpg",
+      "desc": "[topic hint: science]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "TzifMl12ahk",
+      "source": "youtube",
+      "title": "How To Draw An Ice Dragon - Advanced",
+      "up": "Art for Kids Hub",
+      "cover": "https://i.ytimg.com/vi/TzifMl12ahk/hqdefault.jpg",
+      "desc": "[topic hint: craft]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "UW6H5dAPuhY",
+      "source": "youtube",
+      "title": "How To Draw A Cute Ice Cream Cone",
+      "up": "Art for Kids Hub",
+      "cover": "https://i.ytimg.com/vi/UW6H5dAPuhY/hqdefault.jpg",
+      "desc": "[topic hint: craft]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "VFrgWPn_Sk4",
+      "source": "youtube",
+      "title": "Carnival Special! | Numberblocks Full Episode | Learn to Count 123 | Cartoons for Kids @Numberblocks",
+      "up": "Numberblocks",
+      "cover": "https://i.ytimg.com/vi/VFrgWPn_Sk4/hqdefault.jpg",
+      "desc": "[topic hint: animation]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "VLpSxHwfU04",
+      "source": "youtube",
+      "title": "How Airplanes Fly! | Airplane Science | SciShow Kids",
+      "up": "SciShow Kids",
+      "cover": "https://i.ytimg.com/vi/VLpSxHwfU04/hqdefault.jpg",
+      "desc": "[topic hint: science]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "VTmmoaO2M_U",
+      "source": "youtube",
+      "title": "Five Little Monkeys | + More Super Simple Songs & Nursery Rhymes",
+      "up": "Super Simple Songs - Kids Songs",
+      "cover": "https://i.ytimg.com/vi/VTmmoaO2M_U/hqdefault.jpg",
+      "desc": "[topic hint: english]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "WLZWyasxaI8",
+      "source": "youtube",
+      "title": "'How I Met My Monster' read by Nancy Cartwright",
+      "up": "StorylineOnline",
+      "cover": "https://i.ytimg.com/vi/WLZWyasxaI8/hqdefault.jpg",
+      "desc": "[topic hint: story]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "WX_E1CAZjaQ",
+      "source": "youtube",
+      "title": "KABOOM! All About Volcanoes! | SciShow Kids Compilation",
+      "up": "SciShow Kids",
+      "cover": "https://i.ytimg.com/vi/WX_E1CAZjaQ/hqdefault.jpg",
+      "desc": "[topic hint: science]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "XtSq1wcFSEI",
+      "source": "youtube",
+      "title": "Your Body's Senses | SciShow Kids Compilation",
+      "up": "SciShow Kids",
+      "cover": "https://i.ytimg.com/vi/XtSq1wcFSEI/hqdefault.jpg",
+      "desc": "[topic hint: science]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "YAdHHRNmACc",
+      "source": "youtube",
+      "title": "Wheels on the Bus (Extended!) - Nursery Rhymes with Bounce Patrol",
+      "up": "Bounce Patrol - Kids Songs",
+      "cover": "https://i.ytimg.com/vi/YAdHHRNmACc/hqdefault.jpg",
+      "desc": "[topic hint: english]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "YSlX8W9vW5w",
+      "source": "youtube",
+      "title": "Fishy Fishy Turtle 🐟🐢 Circle Time Songs - Learn to Wash Your Hands",
+      "up": "Bounce Patrol - Kids Songs",
+      "cover": "https://i.ytimg.com/vi/YSlX8W9vW5w/hqdefault.jpg",
+      "desc": "[topic hint: life]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "ZFk0xhqT5fQ",
+      "source": "youtube",
+      "title": "Super Sharks! | Amazing Animals! | SciShow Kids",
+      "up": "SciShow Kids",
+      "cover": "https://i.ytimg.com/vi/ZFk0xhqT5fQ/hqdefault.jpg",
+      "desc": "[topic hint: science]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "aVmlAbhZ0Po",
+      "source": "youtube",
+      "title": "How To Draw A Spring Tree House for Kids and Beginners",
+      "up": "Art for Kids Hub",
+      "cover": "https://i.ytimg.com/vi/aVmlAbhZ0Po/hqdefault.jpg",
+      "desc": "[topic hint: craft]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "b3aut0dYw54",
+      "source": "youtube",
+      "title": "Preschool Learning Songs for Kids | ABCs, Counting, Colors & More | The Kiboomers",
+      "up": "The Kiboomers - Kids Music Channel",
+      "cover": "https://i.ytimg.com/vi/b3aut0dYw54/hqdefault.jpg",
+      "desc": "[topic hint: english]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "b8qe06QXi1Q",
+      "source": "youtube",
+      "title": "The Team Factor 🏃| Full Episode - S5 E13 | Learn to Count - Numberblocks",
+      "up": "Numberblocks",
+      "cover": "https://i.ytimg.com/vi/b8qe06QXi1Q/hqdefault.jpg",
+      "desc": "[topic hint: animation]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "bY4FWXqxTlc",
+      "source": "youtube",
+      "title": "'The Three Little Pigs and the Somewhat Bad Wolf' read by Kaia Gerber",
+      "up": "StorylineOnline",
+      "cover": "https://i.ytimg.com/vi/bY4FWXqxTlc/hqdefault.jpg",
+      "desc": "[topic hint: story]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "cfANfhjHc6Y",
+      "source": "youtube",
+      "title": "Let's Get Sporty! ⚽️ 🏆 | Phonics For Kids - Learn To Read | Alphablocks",
+      "up": "Alphablocks",
+      "cover": "https://i.ytimg.com/vi/cfANfhjHc6Y/hqdefault.jpg",
+      "desc": "[topic hint: english]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "cutROw_NJvE",
+      "source": "youtube",
+      "title": "'A Tale of Two Beasts' read by Sarah Silverman",
+      "up": "StorylineOnline",
+      "cover": "https://i.ytimg.com/vi/cutROw_NJvE/hqdefault.jpg",
+      "desc": "[topic hint: story]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "eBVqcTEC3zQ",
+      "source": "youtube",
+      "title": "One Little Finger featuring @NoodleAndPals | Kids Song | Super Simple Songs",
+      "up": "Super Simple Songs - Kids Songs",
+      "cover": "https://i.ytimg.com/vi/eBVqcTEC3zQ/hqdefault.jpg",
+      "desc": "[topic hint: english]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "eT89nvkYNDM",
+      "source": "youtube",
+      "title": "Scorpion | Amazing Animals | Nat Geo Kids",
+      "up": "Nat Geo Kids",
+      "cover": "https://i.ytimg.com/vi/eT89nvkYNDM/hqdefault.jpg",
+      "desc": "[topic hint: nature]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "fkiPxXjalqs",
+      "source": "youtube",
+      "title": "George is TOO SMALL for Ride at Cheeseworld 😭 BRAND NEW Peppa Pig Tales | 20 Minutes",
+      "up": "Peppa Pig - Official Channel",
+      "cover": "https://i.ytimg.com/vi/fkiPxXjalqs/hqdefault.jpg",
+      "desc": "[topic hint: animation]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "gA2UtJJ9y50",
+      "source": "youtube",
+      "title": "How To Draw A Funny iPhone",
+      "up": "Art for Kids Hub",
+      "cover": "https://i.ytimg.com/vi/gA2UtJJ9y50/hqdefault.jpg",
+      "desc": "[topic hint: craft]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "ganqsmwN8tw",
+      "source": "youtube",
+      "title": "The NEW Blue Car 🚗 🐽 Peppa Pig and Friends Full Episodes",
+      "up": "Peppa Pig and Friends",
+      "cover": "https://i.ytimg.com/vi/ganqsmwN8tw/hqdefault.jpg",
+      "desc": "[topic hint: animation]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "h51XRnmHxR4",
+      "source": "youtube",
+      "title": "Wild Babies of America's National Parks! | Full Episode | Nat Geo Kids",
+      "up": "Nat Geo Kids",
+      "cover": "https://i.ytimg.com/vi/h51XRnmHxR4/hqdefault.jpg",
+      "desc": "[topic hint: nature]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "iqhBuvcQ1A8",
+      "source": "youtube",
+      "title": "'Ricky, the Rock That Couldn't Roll' read by Marissa Bode",
+      "up": "StorylineOnline",
+      "cover": "https://i.ytimg.com/vi/iqhBuvcQ1A8/hqdefault.jpg",
+      "desc": "[topic hint: story]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "jtMYD2gqlNA",
+      "source": "youtube",
+      "title": "Counting Fruit! 🍎 🍊 🍐 | Patterns and Combinations | Counting for Kids | @Numberblocks",
+      "up": "Numberblocks",
+      "cover": "https://i.ytimg.com/vi/jtMYD2gqlNA/hqdefault.jpg",
+      "desc": "[topic hint: animation]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "jyYrHQvvqy8",
+      "source": "youtube",
+      "title": "Make Your Own Rock Candy! | The Science of Cooking! | SciShow Kids",
+      "up": "SciShow Kids",
+      "cover": "https://i.ytimg.com/vi/jyYrHQvvqy8/hqdefault.jpg",
+      "desc": "[topic hint: science]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "ljIFmU1QRGY",
+      "source": "youtube",
+      "title": "'I'm Not Scared, YOU'RE Scared!' read by Seth Meyers",
+      "up": "StorylineOnline",
+      "cover": "https://i.ytimg.com/vi/ljIFmU1QRGY/hqdefault.jpg",
+      "desc": "[topic hint: story]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "myDRecuhRgk",
+      "source": "youtube",
+      "title": "Block Star! 🌟 | Full Episode - S3 E25 | Learn to Count - Numberblocks",
+      "up": "Numberblocks",
+      "cover": "https://i.ytimg.com/vi/myDRecuhRgk/hqdefault.jpg",
+      "desc": "[topic hint: animation]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "nv8eR3zHQG4",
+      "source": "youtube",
+      "title": "Explore Nature with Elmo & Friends! 🍃💦 | FOUR Sesame Street Full Episodes",
+      "up": "Sesame Street",
+      "cover": "https://i.ytimg.com/vi/nv8eR3zHQG4/hqdefault.jpg",
+      "desc": "[topic hint: nature]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "oVOnRPefcno",
+      "source": "youtube",
+      "title": "What Makes Bridges So Strong? | Engineering for Kids | STEAM | SciShow Kids",
+      "up": "SciShow Kids",
+      "cover": "https://i.ytimg.com/vi/oVOnRPefcno/hqdefault.jpg",
+      "desc": "[topic hint: science]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "qDcMq1SjR_I",
+      "source": "youtube",
+      "title": "Engineering Compilation: Crash Course Kids",
+      "up": "Crash Course Kids",
+      "cover": "https://i.ytimg.com/vi/qDcMq1SjR_I/hqdefault.jpg",
+      "desc": "[topic hint: science]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "qXYbLIEspqE",
+      "source": "youtube",
+      "title": "Meet the Ocean's Wildest Animals! 🌊 | Super Animals Full Episode | 20 Minutes | Nat Geo Kids",
+      "up": "Nat Geo Kids",
+      "cover": "https://i.ytimg.com/vi/qXYbLIEspqE/hqdefault.jpg",
+      "desc": "[topic hint: nature]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "r5VhH5fhPLE",
+      "source": "youtube",
+      "title": "Relax with Cute Ocean Animals! 🌊 | 4K | 40 Minutes | Penguins, Polar Bears, & Crabs | Nat Geo Kids",
+      "up": "Nat Geo Kids",
+      "cover": "https://i.ytimg.com/vi/r5VhH5fhPLE/hqdefault.jpg",
+      "desc": "[topic hint: nature]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "rHhSCO5-3Pg",
+      "source": "youtube",
+      "title": "Gorilla | Amazing Animals",
+      "up": "Nat Geo Kids",
+      "cover": "https://i.ytimg.com/vi/rHhSCO5-3Pg/hqdefault.jpg",
+      "desc": "[topic hint: nature]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "t1zgGJTBups",
+      "source": "youtube",
+      "title": "Get your Kids Moving with The Kiboomers' Exercise Song  - Preschool Movement Songs",
+      "up": "The Kiboomers - Kids Music Channel",
+      "cover": "https://i.ytimg.com/vi/t1zgGJTBups/hqdefault.jpg",
+      "desc": "[topic hint: life]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "tXmC3UnVT-E",
+      "source": "youtube",
+      "title": "Learn Counting 🐤 Bounce Patrol Birdhouse | Full Episode",
+      "up": "Bounce Patrol - Kids Songs",
+      "cover": "https://i.ytimg.com/vi/tXmC3UnVT-E/hqdefault.jpg",
+      "desc": "[topic hint: english]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "tlanNyZCsR0",
+      "source": "youtube",
+      "title": "How To Draw Dogs (Our Top 10 Favorite Dog Lessons)",
+      "up": "Art for Kids Hub",
+      "cover": "https://i.ytimg.com/vi/tlanNyZCsR0/hqdefault.jpg",
+      "desc": "[topic hint: craft]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "wyRy8kowyM8",
+      "source": "youtube",
+      "title": "Matter Compilation: Crash Course Kids",
+      "up": "Crash Course Kids",
+      "cover": "https://i.ytimg.com/vi/wyRy8kowyM8/hqdefault.jpg",
+      "desc": "[topic hint: science]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "xV91t6dXp38",
+      "source": "youtube",
+      "title": "Peppa Pig Travels to America 🌎 | Full Episodes | Flying to Hollywood | Holiday Mini Movie 18 Minutes",
+      "up": "Peppa Pig's Big Adventures",
+      "cover": "https://i.ytimg.com/vi/xV91t6dXp38/hqdefault.jpg",
+      "desc": "[topic hint: animation]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "xlg052EKMtk",
+      "source": "youtube",
+      "title": "Frozen ❄️ | A Cosmic Kids Yoga Adventure! Frozen Videos for Kids",
+      "up": "Cosmic Kids Yoga",
+      "cover": "https://i.ytimg.com/vi/xlg052EKMtk/hqdefault.jpg",
+      "desc": "[topic hint: life]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "xoiS5ZFtqVg",
+      "source": "youtube",
+      "title": "'Quackenstein Hatches a Family' read by Kristen Bell",
+      "up": "StorylineOnline",
+      "cover": "https://i.ytimg.com/vi/xoiS5ZFtqVg/hqdefault.jpg",
+      "desc": "[topic hint: story]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "yJ9JrA3n0sY",
+      "source": "youtube",
+      "title": "Jump, Freeze, and Count! | Number Songs for Toddlers | The Kiboomers",
+      "up": "The Kiboomers - Kids Music Channel",
+      "cover": "https://i.ytimg.com/vi/yJ9JrA3n0sY/hqdefault.jpg",
+      "desc": "[topic hint: life]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "yU8OJWAZmZo",
+      "source": "youtube",
+      "title": "'Snappsy The Alligator (Did Not Ask to Be in This Book)' read by David Harbour",
+      "up": "StorylineOnline",
+      "cover": "https://i.ytimg.com/vi/yU8OJWAZmZo/hqdefault.jpg",
+      "desc": "[topic hint: story]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "yj5p0-uGR5U",
+      "source": "youtube",
+      "title": "Number Adventures | Full Episodes | Maths for Kids | @Numberblocks",
+      "up": "Numberblocks",
+      "cover": "https://i.ytimg.com/vi/yj5p0-uGR5U/hqdefault.jpg",
+      "desc": "[topic hint: animation]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "zRoUe9tMEIo",
+      "source": "youtube",
+      "title": "Ink | Alphablocks Full Episode - S3 E25 | Learn to Read | @officialalphablocks",
+      "up": "Alphablocks",
+      "cover": "https://i.ytimg.com/vi/zRoUe9tMEIo/hqdefault.jpg",
+      "desc": "[topic hint: english]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    },
+    {
+      "vid": "zk5HGN8JXXk",
+      "source": "youtube",
+      "title": "Here Comes The Fire Truck | + More Kids Songs | Super Simple Songs",
+      "up": "Super Simple Songs - Kids Songs",
+      "cover": "https://i.ytimg.com/vi/zk5HGN8JXXk/hqdefault.jpg",
+      "desc": "[topic hint: english]",
+      "duration_seconds": 0,
+      "source_ref": "yt-links-2026-11-06.md"
+    }
+  ]
+}
