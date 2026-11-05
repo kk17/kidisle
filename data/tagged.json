@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 123,
+  "count": 153,
   "videos": [
     {
       "bvid": "BV11341157Wz",
@@ -27,6 +27,39 @@
         "age": [],
         "language": [],
         "theme": []
+      }
+    },
+    {
+      "bvid": "BV128411L7oA",
+      "suitable": true,
+      "note": "饮食健康习惯启蒙动画，内容健康",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "BV12W5x6XEX7",
+      "suitable": true,
+      "note": "菲菲生气了绘本，教孩子接纳与疏导情绪",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
       }
     },
     {
@@ -123,6 +156,24 @@
       }
     },
     {
+      "bvid": "BV14w8AzCEUd",
+      "suitable": true,
+      "note": "霸王龙恐龙科普动画，童趣健康",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "nature",
+          "science"
+        ]
+      }
+    },
+    {
       "bvid": "BV14y4y1i7CA",
       "suitable": false,
       "note": "华中师大古代文学慕课搬运，受众成人大学生，超适龄",
@@ -145,6 +196,23 @@
         ],
         "theme": [
           "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV16Fub6ME5j",
+      "suitable": true,
+      "note": "分享主题绘本，温暖引导孩子学会分享",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
         ]
       }
     },
@@ -190,6 +258,56 @@
         "age": [],
         "language": [],
         "theme": []
+      }
+    },
+    {
+      "bvid": "BV16b4y1G7sY",
+      "suitable": true,
+      "note": "地球磁场科普动画，内容健康",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "BV17PD5YNEE6",
+      "suitable": true,
+      "note": "工程车主题睡前绘本故事，小车迷友好",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV17W411a7RC",
+      "suitable": true,
+      "note": "宫西达也绘本动画，暖心友情故事",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "animation"
+        ]
       }
     },
     {
@@ -334,6 +452,24 @@
       }
     },
     {
+      "bvid": "BV1DYtWe1Evj",
+      "suitable": true,
+      "note": "牙齿构造与护牙科普动画；出品方为斑马品牌",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "life"
+        ]
+      }
+    },
+    {
       "bvid": "BV1Db411C7bB",
       "suitable": true,
       "note": "古琴鼓乐演奏，音乐内容健康",
@@ -368,12 +504,44 @@
       }
     },
     {
+      "bvid": "BV1Dg4y1A7we",
+      "suitable": true,
+      "note": "宫西达也暖心恐龙故事，国粤字幕均为中文",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
       "bvid": "BV1Dh411B7Pe",
       "suitable": true,
       "note": "故宫陶瓷馆云看展,亲子共看,人文归story",
       "tags": {
         "age": [
           "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1EW4y167bV",
+      "suitable": true,
+      "note": "宫西达也神奇种子店绘本故事，健康童趣",
+      "tags": {
+        "age": [
+          "3-6"
         ],
         "language": [
           "zh"
@@ -452,6 +620,23 @@
       }
     },
     {
+      "bvid": "BV1HD4y147x1",
+      "suitable": true,
+      "note": "海底世界有声绘本，认识海洋动物",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "nature"
+        ]
+      }
+    },
+    {
       "bvid": "BV1HJ411t7Ku",
       "suitable": false,
       "note": "初中竞赛应试解题,受众超龄,不收录",
@@ -459,6 +644,23 @@
         "age": [],
         "language": [],
         "theme": []
+      }
+    },
+    {
+      "bvid": "BV1J14y1Q7ZD",
+      "suitable": true,
+      "note": "绘本亲子阅读，讲消化系统与饮食习惯",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "life"
+        ]
       }
     },
     {
@@ -503,6 +705,22 @@
         "age": [],
         "language": [],
         "theme": []
+      }
+    },
+    {
+      "bvid": "BV1K6JqzJE5k",
+      "suitable": true,
+      "note": "憋尿与膀胱科普动画，内容健康略夸张",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
       }
     },
     {
@@ -632,6 +850,24 @@
       }
     },
     {
+      "bvid": "BV1NBiSBMEjG",
+      "suitable": true,
+      "note": "经典低幼动画绘本，高清流畅，内容健康",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV1Nb4y197iN",
       "suitable": true,
       "note": "贝乐虎音乐剧,含汽车与安全认知",
@@ -663,6 +899,24 @@
         ],
         "theme": [
           "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Np42127uz",
+      "suitable": true,
+      "note": "泥盆纪邓氏鱼古生物科普动画",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "nature",
+          "science"
         ]
       }
     },
@@ -764,6 +1018,23 @@
         "theme": [
           "music",
           "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1QN411U7ti",
+      "suitable": true,
+      "note": "粤语绘本引导刷牙习惯，健康有趣",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "life"
         ]
       }
     },
@@ -896,6 +1167,38 @@
       }
     },
     {
+      "bvid": "BV1UG411M7j6",
+      "suitable": true,
+      "note": "安全坐电梯习惯启蒙动画，内容健康",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1UK4y1r7ob",
+      "suitable": true,
+      "note": "宫西达也爸爸超人绘本，亲子温情",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
       "bvid": "BV1W441127UG",
       "suitable": true,
       "note": "国乐演奏仅34秒疑为预告，待人工复核",
@@ -908,6 +1211,24 @@
         ],
         "theme": [
           "music"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1W6XnBcEiY",
+      "suitable": true,
+      "note": "龋齿成因与预防科普；出品方为斑马品牌",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "life"
         ]
       }
     },
@@ -1110,6 +1431,39 @@
         "age": [],
         "language": [],
         "theme": []
+      }
+    },
+    {
+      "bvid": "BV1aRzaBVENH",
+      "suitable": true,
+      "note": "长度单位科普动画，属数学度量启蒙",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "math"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1ab6GBpEgr",
+      "suitable": true,
+      "note": "宫西达也小卡车系列绘本动画，健康童趣",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "animation"
+        ]
       }
     },
     {
@@ -1394,6 +1748,22 @@
       }
     },
     {
+      "bvid": "BV1gxvpBqEBd",
+      "suitable": true,
+      "note": "天花疫苗原理科普动画，内容健康",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
       "bvid": "BV1hm421g74F",
       "suitable": true,
       "note": "疑似Numberblocks二创非官方,待人工复核",
@@ -1418,6 +1788,23 @@
         "age": [],
         "language": [],
         "theme": []
+      }
+    },
+    {
+      "bvid": "BV1hrnPzYEXj",
+      "suitable": true,
+      "note": "低幼趣味绘本，纯粹快乐阅读体验",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
       }
     },
     {
@@ -1459,6 +1846,23 @@
         ],
         "theme": [
           "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1jS8i66E39",
+      "suitable": true,
+      "note": "20集情商启蒙动画合集，每集短小；简介含求赞话术待复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "social",
+          "animation"
         ]
       }
     },
@@ -1659,6 +2063,23 @@
       }
     },
     {
+      "bvid": "BV1pz4y1n7YH",
+      "suitable": true,
+      "note": "粤语讲卫生习惯绘本，童趣健康；语言为粤语",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "life"
+        ]
+      }
+    },
+    {
       "bvid": "BV1qE411H7Uv",
       "suitable": false,
       "note": "中考应试复习,超龄,简介含公众号小程序引流",
@@ -1769,6 +2190,23 @@
       }
     },
     {
+      "bvid": "BV1uv4y1k7XZ",
+      "suitable": true,
+      "note": "精读毛毛虫，含生命成长科普，适2-5岁",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
       "bvid": "BV1vF4m1T7PE",
       "suitable": true,
       "note": "火柴人动画讲物理,健康有趣,大童适看",
@@ -1805,6 +2243,22 @@
       }
     },
     {
+      "bvid": "BV1vK7G6BEXN",
+      "suitable": true,
+      "note": "中文经典绘本合集，亲子共读向，内容健康",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
       "bvid": "BV1vb4y177NX",
       "suitable": true,
       "note": "历史讲史内容健康，适合大童亲子共看",
@@ -1833,6 +2287,23 @@
         ],
         "theme": [
           "music"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1wZXKBpEvx",
+      "suitable": true,
+      "note": "情绪小怪兽绘本，情绪管理启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
         ]
       }
     },
@@ -1901,6 +2372,40 @@
         ],
         "theme": [
           "science"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1y14y1E7Hy",
+      "suitable": true,
+      "note": "经典绘本改编早教动画短片，童趣健康",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1zAPpzWE21",
+      "suitable": true,
+      "note": "毛毡动画讲消化与饮食好习惯，健康有趣",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "life"
         ]
       }
     },
