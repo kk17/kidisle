@@ -1,31 +1,48 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { base } from '../../lib/base.ts';
+import taxonomy from '../../data/taxonomy.json';
 import bloggers from '../../data/bloggers.json';
+
+const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]));
 ---
-<Base title="博主目录 · 童心岛" description="童心岛收录的优质儿童向 B 站博主目录，附推荐理由与来源。">
+<Base title="博主目录 · 童心岛" description="童心岛收录的优质儿童向 B 站博主目录，附推荐理由与来源，可按主题筛选。">
 	<main>
-		<p class="intro">共收录 {bloggers.bloggers.length} 位博主，按收录视频数排序。点进博主查看全部视频。</p>
-		<ul class="bgrid" style="list-style:none">
+		<p class="intro">共收录 {bloggers.bloggers.length} 位博主，点进博主查看全部视频。</p>
+		<div class="themebar" id="themebar">
+			<span class="dim">主题</span>
+			{taxonomy.themes.map((t) => <button class="chip" data-v={t.id} aria-pressed="false">{t.label}</button>)}
+			<button class="chip-clear" id="clear">清空</button>
+		</div>
+		<ul class="bgrid" style="list-style:none" id="bgrid">
 			{
 				bloggers.bloggers.map((b) => (
-					<li>
+					<li
+						class="bcell"
+						data-themes={JSON.stringify(b.themes ?? [])}
+					>
 						<a class="bcard" href={`${base}blogger/${encodeURIComponent(b.up)}/`}>
-							<span class="bavatar">
-								{b.avatar && <img src={b.avatar} loading="lazy" referrerpolicy="no-referrer" alt="" />}
-								{!b.avatar && b.up.slice(0, 1)}
+							<span class="btop">
+								<span class="bavatar">
+									{b.avatar && <img src={b.avatar} loading="lazy" referrerpolicy="no-referrer" alt="" />}
+									{!b.avatar && b.up.slice(0, 1)}
+								</span>
+								<span>
+									<span class="bname">{b.up}</span>
+									<span class="bcount">{b.video_count} 条视频</span>
+								</span>
 							</span>
-							<span class="bbody">
-								<span class="bname">{b.up}</span>
-								<span class="bcount">{b.video_count} 条视频</span>
-								<span class="breason">{b.reason}</span>
-								<span class="bsrc">📎 {b.source}</span>
+							<span class="breason">{b.reason}</span>
+							<span class="tagrow">
+								{(b.themes ?? []).map((t) => <span class="tag">{themeLabel[t] ?? t}</span>)}
 							</span>
+							<span class="bsrc">📎 {b.source}</span>
 						</a>
 					</li>
 				))
 			}
 		</ul>
+		<div class="empty" id="empty" hidden>这个主题下暂时没有博主～</div>
 	</main>
 </Base>
 
@@ -34,8 +51,23 @@ import bloggers from '../../data/bloggers.json';
 		max-width: var(--maxw); margin: 0 auto; padding: 1.25rem 1rem 0;
 		color: var(--muted); font-size: 0.9rem;
 	}
+	.themebar {
+		max-width: var(--maxw); margin: 0 auto; padding: 0.6rem 1rem;
+		display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap;
+	}
+	.themebar .dim { font-size: 0.78rem; color: var(--muted); width: 3.2em; flex-shrink: 0; }
+	.chip {
+		font-size: 0.82rem; padding: 0.26rem 0.8rem; border-radius: 999px;
+		border: 1px solid var(--line); background: var(--card); color: var(--ink);
+		cursor: pointer; user-select: none;
+	}
+	.chip[aria-pressed='true'] { background: var(--sea); border-color: var(--sea); color: #fff; }
+	.chip-clear {
+		font-size: 0.78rem; color: var(--sea); background: none; border: none;
+		cursor: pointer; text-decoration: underline;
+	}
 	.bgrid {
-		margin: 0 auto; padding: 1rem 1rem 3rem; max-width: var(--maxw);
+		margin: 0 auto; padding: 0.5rem 1rem 3rem; max-width: var(--maxw);
 		display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 0.9rem;
 	}
 	.bcard {
@@ -52,11 +84,44 @@ import bloggers from '../../data/bloggers.json';
 		font-size: 1.2rem; color: var(--sea); font-weight: 600;
 	}
 	.bavatar img { width: 100%; height: 100%; object-fit: cover; }
-	.bname { font-weight: 600; font-size: 0.95rem; }
-	.bcount { font-size: 0.75rem; color: var(--muted); }
+	.bname { font-weight: 600; font-size: 0.95rem; display: block; }
+	.bcount { font-size: 0.75rem; color: var(--muted); display: block; }
 	.breason { font-size: 0.8rem; color: var(--muted); line-height: 1.45; }
+	.tagrow { display: flex; flex-wrap: wrap; gap: 0.28rem; }
 	.bsrc {
 		align-self: flex-start; font-size: 0.68rem; padding: 0.06rem 0.5rem; border-radius: 999px;
 		background: #fef3c7; color: #92400e;
 	}
+	.empty { text-align: center; color: var(--muted); padding: 3rem 1rem; }
 </style>
+
+<script>
+	const selected = new Set<string>();
+	const cells = Array.from(document.querySelectorAll<HTMLElement>('.bcell'));
+	const emptyEl = document.getElementById('empty')!;
+
+	function apply() {
+		let shown = 0;
+		for (const cell of cells) {
+			const themes: string[] = JSON.parse(cell.dataset.themes || '[]');
+			const ok = selected.size === 0 || themes.some((t) => selected.has(t));
+			cell.style.display = ok ? '' : 'none';
+			if (ok) shown++;
+		}
+		emptyEl.hidden = shown > 0;
+	}
+	document.querySelectorAll<HTMLButtonElement>('#themebar .chip').forEach((chip) => {
+		chip.addEventListener('click', () => {
+			const v = chip.dataset.v!;
+			if (selected.has(v)) { selected.delete(v); chip.setAttribute('aria-pressed', 'false'); }
+			else { selected.add(v); chip.setAttribute('aria-pressed', 'true'); }
+			apply();
+		});
+	});
+	document.getElementById('clear')!.addEventListener('click', () => {
+		selected.clear();
+		document.querySelectorAll<HTMLButtonElement>('#themebar .chip').forEach((c) => c.setAttribute('aria-pressed', 'false'));
+		apply();
+	});
+	apply();
+</script>

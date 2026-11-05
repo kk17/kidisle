@@ -97,6 +97,7 @@ def main():
             "up": up,
             "avatar": face,
             "video_count": len(vids),
+            "themes": [t for t, _ in Counter(themes).most_common(3)],
             "reason": reason,
             "source": info.get("source") or "社区精选",
         })

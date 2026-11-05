@@ -15,7 +15,7 @@ const kikireelBase = siteConfig.kikireel_web_base;
 const ageLabel = Object.fromEntries(taxonomy.age_bands.map((t) => [t.id, t.label]));
 const langLabel = Object.fromEntries(taxonomy.languages.map((t) => [t.id, t.label]));
 const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]));
-const embedUrl = `https://player.bilibili.com/player.html?bvid=${v.bvid}&autoplay=0&high_quality=1`;
+const embedUrl = `https://player.bilibili.com/player.html?bvid=${v.bvid}&autoplay=0&high_quality=1&danmaku=0`;
 const bilibiliUrl = `https://www.bilibili.com/video/${v.bvid}`;
 const blogger = bloggers.bloggers.find((b) => b.up === v.up);
 
