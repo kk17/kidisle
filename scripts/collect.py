@@ -230,12 +230,19 @@ class BilibiliClient:
             v = json.loads(m.group(1)).get("videoData") or {}
             if not v.get("title"):
                 return None
+            raw_pages = v.get("pages") or []
+            pages = [
+                {"page": pg.get("page"), "part": (pg.get("part") or "")[:80], "duration": pg.get("duration")}
+                for pg in raw_pages[:100]
+            ]
             return {
                 "title": v.get("title"),
                 "desc": (v.get("desc") or "")[:500],
                 "up": (v.get("owner") or {}).get("name"),
                 "mid": (v.get("owner") or {}).get("mid"),
                 "up_face": (v.get("owner") or {}).get("face"),
+                "total_pages": v.get("videos"),
+                "pages": pages if len(pages) > 1 else [],
                 "duration_seconds": v.get("duration"),
                 "cover": v.get("pic"),
                 "pubdate": v.get("pubdate"),

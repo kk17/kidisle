@@ -15,7 +15,10 @@ const kikireelBase = siteConfig.kikireel_web_base;
 const ageLabel = Object.fromEntries(taxonomy.age_bands.map((t) => [t.id, t.label]));
 const langLabel = Object.fromEntries(taxonomy.languages.map((t) => [t.id, t.label]));
 const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]));
-const embedUrl = `https://player.bilibili.com/player.html?bvid=${v.bvid}&autoplay=0&high_quality=1&danmaku=0`;
+const embedBase = `https://player.bilibili.com/player.html?bvid=${v.bvid}&autoplay=0&high_quality=1&danmaku=0&page=`;
+const embedUrl = embedBase + '1';
+const pages = (v.pages ?? []) as { page: number; part: string; duration: number }[];
+const totalPages = v.total_pages || pages.length;
 const bilibiliUrl = `https://www.bilibili.com/video/${v.bvid}`;
 const blogger = bloggers.bloggers.find((b) => b.up === v.up);
 
@@ -34,13 +37,43 @@ const mins = v.duration_seconds > 0 ? Math.round(v.duration_seconds / 60) : 0;
 		<div class="primary">
 			<div class="player">
 				<iframe
+					id="bili-player"
 					src={embedUrl}
+					data-embed-base={embedBase}
 					allowfullscreen
 					scrolling="no"
 					frameborder="0"
 					title={v.title}
 				></iframe>
 			</div>
+			{
+				pages.length > 1 && (
+					<div class="episodes" id="episodes">
+						<div class="ep-head">
+							<h2>选集</h2>
+							<span class="meta">
+								共 {totalPages} 集{totalPages > pages.length && `，显示前 ${pages.length} 集`}
+							</span>
+							{totalPages > pages.length && (
+								<a href={bilibiliUrl} target="_blank" rel="noopener">在 B 站看全部 ↗</a>
+							)}
+						</div>
+						<ul class="ep-list" style="list-style:none">
+							{pages.map((p) => (
+								<li>
+									<button
+										class={`ep${p.page === 1 ? ' active' : ''}`}
+										data-page={p.page}
+									>
+										<span class="ep-title">{p.page}. {p.part || `第 ${p.page} 集`}</span>
+										<span class="ep-dur">{Math.floor(p.duration / 60)}:{String(p.duration % 60).padStart(2, '0')}</span>
+									</button>
+								</li>
+							))}
+						</ul>
+					</div>
+				)
+			}
 			<h1 class="wtitle">{v.title}</h1>
 			<div class="tagrow">
 				{v.tags.age.map((a) => <span class="tag">{ageLabel[a] ?? a}</span>)}
@@ -100,6 +133,28 @@ const mins = v.duration_seconds > 0 ? Math.round(v.duration_seconds / 60) : 0;
 		border-radius: 12px; overflow: hidden;
 	}
 	.player iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+	/* ---- 选集面板 ---- */
+	.episodes {
+		margin-top: 0.9rem; background: var(--card); border-radius: 12px;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08); padding: 0.75rem 1rem;
+	}
+	.ep-head { display: flex; align-items: baseline; gap: 0.6rem; }
+	.ep-head h2 { font-size: 1rem; margin: 0; }
+	.ep-head a { font-size: 0.78rem; }
+	.ep-list {
+		margin: 0.6rem 0 0; padding: 0; max-height: 240px; overflow-y: auto;
+		display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0.3rem;
+	}
+	.ep {
+		width: 100%; display: flex; align-items: center; gap: 0.5rem;
+		font-size: 0.82rem; padding: 0.35rem 0.6rem; border-radius: 8px;
+		border: 1px solid transparent; background: transparent; color: var(--ink);
+		cursor: pointer; text-align: left; font-family: inherit;
+	}
+	.ep:hover { background: var(--sea-soft); }
+	.ep.active { background: var(--sea-soft); border-color: var(--sea); color: var(--sea); font-weight: 600; }
+	.ep-title { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+	.ep-dur { color: var(--muted); font-size: 0.75rem; flex-shrink: 0; }
 	.wtitle { font-size: 1.2rem; line-height: 1.45; margin: 0.9rem 0 0.5rem; }
 	.tagrow { display: flex; flex-wrap: wrap; gap: 0.35rem; align-items: center; }
 	.meta { font-size: 0.78rem; color: var(--muted); }
@@ -130,6 +185,17 @@ const mins = v.duration_seconds > 0 ? Math.round(v.duration_seconds / 60) : 0;
 </style>
 
 <script>
+	// 选集切换：重载播放器 iframe 到对应分 P
+	const player = document.getElementById('bili-player');
+	document.getElementById('episodes')?.addEventListener('click', (e) => {
+		const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('.ep');
+		if (!btn || !player) return;
+		player.src = `${player.dataset.embedBase}${btn.dataset.page}`;
+		document.querySelectorAll<HTMLButtonElement>('.ep').forEach((b) => b.classList.remove('active'));
+		btn.classList.add('active');
+		btn.scrollIntoView({ block: 'nearest' });
+	});
+
 	document.querySelectorAll<HTMLButtonElement>('.copy').forEach((btn) => {
 		btn.addEventListener('click', async () => {
 			const url = btn.dataset.url;

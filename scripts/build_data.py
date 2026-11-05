@@ -58,6 +58,8 @@ def main():
                 "up": cand.get("up") or "",
                 "duration_seconds": cand.get("duration_seconds") or 0,
                 "cover": cand.get("cover") or "",
+                "total_pages": cand.get("total_pages") or 0,
+                "pages": cand.get("pages") or [],
                 "note": t.get("note") or "",
                 "tags": {
                     "age": t["tags"]["age"],
