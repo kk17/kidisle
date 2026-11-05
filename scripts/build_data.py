@@ -31,15 +31,17 @@ def main():
     suitable = [t for t in tagged if t.get("suitable")]
     print(f"打标 {len(tagged)} 条，适宜 {len(suitable)} 条")
 
+    # 合并全部候选池（多批次采集），供元数据回填
+    pool = {}
+    for p in sorted((ROOT / "data").glob("candidates*.json")):
+        for v in json.loads(p.read_text(encoding="utf-8"))["videos"]:
+            pool.setdefault(v["bvid"], v)
+
     videos = []
     for t in suitable:
-        cand = None  # 从候选池补元数据（title/up/cover 等）
-        for p in (ROOT / "data/candidates.json",):
-            if p.exists():
-                pool = {v["bvid"]: v for v in json.loads(p.read_text(encoding="utf-8"))["videos"]}
-                cand = pool.get(t["bvid"])
-                break
+        cand = pool.get(t["bvid"])
         if not cand:
+            print(f"  ! 候选池缺元数据，跳过 {t['bvid']}")
             continue
         langs = t["tags"]["language"] or ["zh"]
         videos.append(
@@ -77,8 +79,6 @@ def main():
         overlay = json.loads(notes_path.read_text(encoding="utf-8")).get("bloggers", {})
     theme_labels = {t["id"]: t["label"] for t in json.loads(
         (ROOT / "src/data/taxonomy.json").read_text(encoding="utf-8"))["themes"]}
-    pool = {v["bvid"]: v for p in (ROOT / "data/candidates.json", ROOT / "data/candidates-b.json")
-            if p.exists() for v in json.loads(p.read_text(encoding="utf-8"))["videos"]}
     by_up = {}
     for v in videos:
         by_up.setdefault(v["up"] or "未知UP主", []).append(v)

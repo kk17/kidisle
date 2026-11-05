@@ -1,520 +1,116 @@
 ---
+import Base from '../layouts/Base.astro';
+import VideoCard from '../components/VideoCard.astro';
 import taxonomy from '../data/taxonomy.json';
 import videos from '../data/videos.json';
-import bloggers from '../data/bloggers.json';
-import siteConfig from '../data/site-config.json';
 
-const kikireelBase = siteConfig.kikireel_web_base;
 const ageBands = taxonomy.age_bands;
 const languages = taxonomy.languages;
 const themes = taxonomy.themes;
-const ageLabel = Object.fromEntries(ageBands.map((t) => [t.id, t.label]));
-const langLabel = Object.fromEntries(languages.map((t) => [t.id, t.label]));
-const themeLabel = Object.fromEntries(themes.map((t) => [t.id, t.label]));
-
-const bilibiliUrl = (bvid: string) => `https://www.bilibili.com/video/${bvid}`;
-const embedUrl = (bvid: string) =>
-	`https://player.bilibili.com/player.html?bvid=${bvid}&autoplay=1&high_quality=1`;
-
-type Video = (typeof videos.videos)[number];
-const bloggerInfo = Object.fromEntries(bloggers.bloggers.map((b) => [b.up, b]));
-// 分组（按 up 聚合，与 bloggers.json 对齐）
-const groups = (() => {
-	const by = new Map<string, Video[]>();
-	for (const v of videos.videos) {
-		const key = v.up || '未知UP主';
-		if (!by.has(key)) by.set(key, []);
-		by.get(key)!.push(v);
-	}
-	return [...by.entries()]
-		.map(([up, list]) => ({ up, list }))
-		.sort((a, b) => (bloggerInfo[b.up]?.video_count ?? b.list.length) - (bloggerInfo[a.up]?.video_count ?? a.list.length));
-})();
 ---
+<Base>
+	<section class="filters" id="filters">
+		<div class="filter-row">
+			<span class="dim">年龄段</span>
+			{ageBands.map((t) => <button class="chip" data-dim="age" data-v={t.id} aria-pressed="false">{t.label}</button>)}
+			<button class="chip-clear" data-clear="age">清空</button>
+			<span class="count" id="count"></span>
+		</div>
+		<div class="filter-row">
+			<span class="dim">语言</span>
+			{languages.map((t) => <button class="chip" data-dim="language" data-v={t.id} aria-pressed="false">{t.label}</button>)}
+			<button class="chip-clear" data-clear="language">清空</button>
+		</div>
+		<div class="filter-row">
+			<span class="dim">主题</span>
+			{themes.map((t) => <button class="chip" data-dim="theme" data-v={t.id} aria-pressed="false">{t.label}</button>)}
+			<button class="chip-clear" data-clear="theme">清空</button>
+		</div>
+	</section>
 
-<html lang="zh-CN">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="generator" content={Astro.generator} />
-		<meta name="description" content="童心岛：为小朋友精选的中文视频片单，按年龄段、语言、主题筛选，B 站官方播放。" />
-		<title>童心岛 · 为孩子精选的中文视频片单</title>
-		<style>
-			:root {
-				--ink: #1f2937; --muted: #6b7280; --sea: #0284c7; --sea-soft: #e0f2fe;
-				--card: #ffffff; --bg: #f0f9ff; --line: #bae6fd;
+	<main>
+		<ul class="grid" id="grid" style="list-style:none">
+			{
+				videos.videos.map((v) => (
+					<li
+						class="cell"
+						data-age={JSON.stringify(v.tags.age)}
+						data-language={JSON.stringify(v.tags.language)}
+						data-theme={JSON.stringify(v.tags.theme)}
+					>
+						<VideoCard video={v} />
+					</li>
+				))
 			}
-			* { box-sizing: border-box; }
-			body {
-				margin: 0;
-				font-family: system-ui, -apple-system, 'PingFang SC', 'Noto Sans SC', sans-serif;
-				background: var(--bg); color: var(--ink);
-			}
-			header { padding: 2rem 1rem 1rem; text-align: center; }
-			header h1 { margin: 0; font-size: 1.8rem; }
-			header p { margin: 0.5rem auto 0; max-width: 34em; color: var(--muted); font-size: 0.95rem; }
-			.viewtoggle {
-				display: flex; justify-content: center; margin: 0.75rem auto 0.5rem; width: max-content;
-				border: 1px solid var(--line); border-radius: 999px; overflow: hidden; background: var(--card);
-			}
-			.viewtoggle button {
-				font-size: 0.85rem; padding: 0.4rem 1.1rem; border: 0; background: transparent;
-				color: var(--muted); cursor: pointer;
-			}
-			.viewtoggle button[aria-pressed='true'] { background: var(--sea); color: #fff; }
-			/* ---- 筛选区 ---- */
-			.filters {
-				position: sticky; top: 0; z-index: 10;
-				background: rgba(240, 249, 255, 0.92); backdrop-filter: blur(6px);
-				border-bottom: 1px solid var(--line); padding: 0.6rem 1rem;
-				display: flex; flex-direction: column; gap: 0.4rem;
-				max-width: 72rem; margin: 0 auto;
-			}
-			.filter-row { display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap; }
-			.filter-row .dim { font-size: 0.78rem; color: var(--muted); width: 3.2em; flex-shrink: 0; }
-			.chip {
-				font-size: 0.82rem; padding: 0.26rem 0.8rem; border-radius: 999px;
-				border: 1px solid var(--line); background: var(--card); color: var(--ink);
-				cursor: pointer; user-select: none;
-			}
-			.chip[aria-pressed='true'] { background: var(--sea); border-color: var(--sea); color: #fff; }
-			.chip-clear {
-				font-size: 0.78rem; color: var(--sea); background: none; border: none;
-				cursor: pointer; text-decoration: underline;
-			}
-			.count { font-size: 0.8rem; color: var(--muted); margin-left: auto; }
-			/* ---- 一级：博主卡片 ---- */
-			.bgrid {
-				list-style: none; margin: 0 auto; padding: 1rem 1rem 3rem; max-width: 72rem;
-				display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 0.9rem;
-			}
-			.bcard {
-				background: var(--card); border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-				padding: 1rem; display: flex; flex-direction: column; gap: 0.5rem;
-				cursor: pointer; border: 1px solid transparent; text-align: left; font: inherit; color: inherit;
-			}
-			.bcard:hover { border-color: var(--sea); }
-			.bcard-top { display: flex; align-items: center; gap: 0.6rem; }
-			.bavatar {
-				width: 44px; height: 44px; border-radius: 50%; flex-shrink: 0; overflow: hidden;
-				background: var(--sea-soft); display: grid; place-items: center;
-				font-size: 1.2rem; color: var(--sea); font-weight: 600;
-			}
-			.bavatar img { width: 100%; height: 100%; object-fit: cover; }
-			.bcard-name { font-weight: 600; font-size: 0.95rem; }
-			.bcard-n { font-size: 0.75rem; color: var(--muted); }
-			.bcard-reason { font-size: 0.8rem; color: var(--muted); line-height: 1.45; }
-			.bcard-src {
-				align-self: flex-start; font-size: 0.68rem; padding: 0.06rem 0.5rem; border-radius: 999px;
-				background: #fef3c7; color: #92400e;
-			}
-			/* ---- 二级：博主详情头部 ---- */
-			.bdetail-head {
-				max-width: 72rem; margin: 0 auto; padding: 1rem 1rem 0; display: none;
-				align-items: center; gap: 0.8rem;
-			}
-			.bdetail-head .back {
-				font-size: 0.85rem; padding: 0.35rem 0.9rem; border-radius: 8px;
-				border: 1px solid var(--line); background: var(--card); color: var(--sea);
-				cursor: pointer; flex-shrink: 0;
-			}
-			.bdetail-info { display: flex; align-items: center; gap: 0.7rem; min-width: 0; }
-			.bdetail-info .bcard-name { font-size: 1.05rem; }
-			/* ---- 视频卡片 ---- */
-			.grid {
-				list-style: none; margin: 0 auto; padding: 1rem 1rem 3rem; max-width: 72rem;
-				display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem;
-			}
-			.ugroups { max-width: 72rem; margin: 0 auto; padding: 1rem 1rem 3rem; display: flex; flex-direction: column; gap: 0.75rem; }
-			.ugroup {
-				background: var(--card); border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); overflow: hidden;
-			}
-			.ugroup-cards {
-				list-style: none; margin: 0; padding: 0.75rem 0.75rem 0.75rem;
-				display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 0.75rem;
-			}
-			.card {
-				background: var(--card); border-radius: 12px; overflow: hidden;
-				box-shadow: 0 1px 3px rgba(0,0,0,0.08); display: flex; flex-direction: column;
-			}
-			.cover {
-				position: relative; aspect-ratio: 16 / 9; background: #e2e8f0;
-				border: 0; padding: 0; cursor: pointer; width: 100%;
-			}
-			.cover img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
-			.cover .play {
-				position: absolute; inset: 0; display: grid; place-items: center;
-				font-size: 2.4rem; color: #fff; background: rgba(0,0,0,0.18);
-			}
-			/* JS 注入的 iframe 不走 scoped 样式，由内联样式控制布局 */
-			.card-body { padding: 0.7rem 0.9rem 0.9rem; display: flex; flex-direction: column; gap: 0.45rem; flex: 1; }
-			.card-body h2 {
-				margin: 0; font-size: 0.95rem; line-height: 1.4;
-				display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
-			}
-			.card-meta { font-size: 0.78rem; color: var(--muted); }
-			.tagrow { display: flex; flex-wrap: wrap; gap: 0.3rem; }
-			.tag { font-size: 0.7rem; padding: 0.08rem 0.5rem; border-radius: 999px; background: var(--sea-soft); color: #0369a1; }
-			.actions { margin-top: auto; display: flex; gap: 0.5rem; }
-			.actions button, .actions a {
-				flex: 1; font-size: 0.82rem; padding: 0.4rem 0.5rem; border-radius: 8px; cursor: pointer;
-			}
-			.copy { border: 1px solid var(--sea); background: transparent; color: var(--sea); }
-			.copy:active { background: var(--sea); color: #fff; }
-			.kiki {
-				border: 1px solid #f59e0b; background: transparent; color: #b45309;
-				text-decoration: none; text-align: center;
-			}
-			.empty { text-align: center; color: var(--muted); padding: 3rem 1rem; }
-			footer { text-align: center; color: var(--muted); font-size: 0.8rem; padding: 1rem 0 2rem; }
-			footer a { color: var(--sea); }
-		</style>
-	</head>
-	<body>
-		<header>
-			<h1>🏝️ 童心岛</h1>
-			<p>视频的汪洋里，为孩子圈出一座安全的小岛。选好片 → 点封面播放 → 一键收藏。</p>
-			<div class="viewtoggle" role="group" aria-label="视图切换">
-				<button id="view-groups" aria-pressed="true">📚 按博主</button>
-				<button id="view-all" aria-pressed="false">🎞️ 全部视频</button>
-			</div>
-		</header>
+		</ul>
+		<div class="empty" id="empty" hidden>这个组合下暂时没有视频，换个筛选试试～</div>
+	</main>
+</Base>
 
-		<section class="filters" id="filters">
-			<div class="filter-row">
-				<span class="dim">年龄段</span>
-				{ageBands.map((t) => <button class="chip" data-dim="age" data-v={t.id} aria-pressed="false">{t.label}</button>)}
-				<button class="chip-clear" data-clear="age">清空</button>
-				<span class="count" id="count"></span>
-			</div>
-			<div class="filter-row">
-				<span class="dim">语言</span>
-				{languages.map((t) => <button class="chip" data-dim="language" data-v={t.id} aria-pressed="false">{t.label}</button>)}
-				<button class="chip-clear" data-clear="language">清空</button>
-			</div>
-			<div class="filter-row">
-				<span class="dim">主题</span>
-				{themes.map((t) => <button class="chip" data-dim="theme" data-v={t.id} aria-pressed="false">{t.label}</button>)}
-				<button class="chip-clear" data-clear="theme">清空</button>
-			</div>
-		</section>
+<style>
+	.filters {
+		position: sticky; top: 52px; z-index: 10;
+		background: rgba(240, 249, 255, 0.92); backdrop-filter: blur(6px);
+		border-bottom: 1px solid var(--line);
+		padding: 0.6rem 1rem;
+		display: flex; flex-direction: column; gap: 0.4rem;
+		max-width: var(--maxw); margin: 0 auto;
+	}
+	.filter-row { display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap; }
+	.filter-row .dim { font-size: 0.78rem; color: var(--muted); width: 3.2em; flex-shrink: 0; }
+	.chip {
+		font-size: 0.82rem; padding: 0.26rem 0.8rem; border-radius: 999px;
+		border: 1px solid var(--line); background: var(--card); color: var(--ink);
+		cursor: pointer; user-select: none;
+	}
+	.chip[aria-pressed='true'] { background: var(--sea); border-color: var(--sea); color: #fff; }
+	.chip-clear {
+		font-size: 0.78rem; color: var(--sea); background: none; border: none;
+		cursor: pointer; text-decoration: underline;
+	}
+	.count { font-size: 0.8rem; color: var(--muted); margin-left: auto; }
+	.grid {
+		margin: 0 auto; padding: 1rem 1rem 3rem; max-width: var(--maxw);
+		display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem;
+	}
+	.empty { text-align: center; color: var(--muted); padding: 3rem 1rem; }
+</style>
 
-		<main>
-			<!-- 一级：博主列表 -->
-			<ul class="bgrid" id="bgrid">
-				{
-					bloggers.bloggers.map((b) => (
-						<li>
-							<button class="bcard" data-up={b.up}>
-								<div class="bcard-top">
-									<span class="bavatar">
-										{b.avatar && (
-											<img
-												src={b.avatar}
-												loading="lazy"
-												referrerpolicy="no-referrer"
-												alt=""
-												onerror="this.remove()"
-											/>
-										)}
-										{!b.avatar && b.up.slice(0, 1)}
-									</span>
-									<span>
-										<div class="bcard-name">{b.up}</div>
-										<div class="bcard-n">{b.video_count} 条视频</div>
-									</span>
-								</div>
-								<div class="bcard-reason">{b.reason}</div>
-								<span class="bcard-src">📎 {b.source}</span>
-							</button>
-						</li>
-					))
-				}
-			</ul>
+<script>
+	const state: Record<string, Set<string>> = { age: new Set(), language: new Set(), theme: new Set() };
+	const cells = Array.from(document.querySelectorAll<HTMLLIElement>('.cell'));
+	const countEl = document.getElementById('count')!;
+	const emptyEl = document.getElementById('empty')!;
 
-			<!-- 二级：博主详情 -->
-			<div class="bdetail-head" id="bdetail-head">
-				<button class="back" id="back-btn">← 返回博主列表</button>
-				<div class="bdetail-info">
-					<span class="bavatar" id="bdetail-avatar"></span>
-					<span>
-						<div class="bcard-name" id="bdetail-name"></div>
-						<div class="bcard-n" id="bdetail-meta"></div>
-					</span>
-				</div>
-			</div>
-
-			<!-- 分组容器（二级视图里只显示选中的组） -->
-			<div class="ugroups" id="ugroups" hidden>
-				{
-					groups.map((g) => {
-						const info = bloggerInfo[g.up];
-						return (
-							<section class="ugroup" data-up={g.up}>
-								<ul class="ugroup-cards">
-									{g.list.map((v) => (
-										<li
-											class="card"
-											data-age={JSON.stringify(v.tags.age)}
-											data-language={JSON.stringify(v.tags.language)}
-											data-theme={JSON.stringify(v.tags.theme)}
-										>
-											<button class="cover" data-embed={embedUrl(v.bvid)} aria-label={`播放 ${v.title}`}>
-												{v.cover && <img src={v.cover} loading="lazy" referrerpolicy="no-referrer" alt="" />}
-												<span class="play">▶</span>
-											</button>
-											<div class="card-body">
-												<h2>{v.title}</h2>
-												<div class="card-meta">
-													{v.duration_seconds > 0 && `${Math.round(v.duration_seconds / 60)} 分钟`}
-												</div>
-												<div class="tagrow">
-													{v.tags.age.map((a) => (
-														<span class="tag">{ageLabel[a] ?? a}</span>
-													))}
-													{v.tags.language.map((l) => (
-														<span class="tag">{langLabel[l] ?? l}</span>
-													))}
-													{v.tags.theme.map((t) => (
-														<span class="tag">{themeLabel[t] ?? t}</span>
-													))}
-												</div>
-												<div class="actions">
-													<button class="copy" data-url={bilibiliUrl(v.bvid)}>
-														🔗 复制链接
-													</button>
-													{kikireelBase && (
-														<a class="kiki" href={`${kikireelBase}${encodeURIComponent(bilibiliUrl(v.bvid))}`} target="_blank" rel="noopener">
-															⭐ 收藏到 KikiReel
-														</a>
-													)}
-												</div>
-											</div>
-										</li>
-									))}
-								</ul>
-							</section>
-						);
-					})
-				}
-			</div>
-
-			<!-- 平铺视图 -->
-			<ul class="grid" id="grid" hidden>
-				{
-					videos.videos.map((v) => (
-						<li
-							class="card"
-							data-age={JSON.stringify(v.tags.age)}
-							data-language={JSON.stringify(v.tags.language)}
-							data-theme={JSON.stringify(v.tags.theme)}
-							data-up={v.up}
-						>
-							<button class="cover" data-embed={embedUrl(v.bvid)} aria-label={`播放 ${v.title}`}>
-								{v.cover && <img src={v.cover} loading="lazy" referrerpolicy="no-referrer" alt="" />}
-								<span class="play">▶</span>
-							</button>
-							<div class="card-body">
-								<h2>{v.title}</h2>
-								<div class="card-meta">
-									{v.up}
-									{v.duration_seconds > 0 && ` · ${Math.round(v.duration_seconds / 60)} 分钟`}
-								</div>
-								<div class="tagrow">
-									{v.tags.age.map((a) => (
-										<span class="tag">{ageLabel[a] ?? a}</span>
-									))}
-									{v.tags.language.map((l) => (
-										<span class="tag">{langLabel[l] ?? l}</span>
-									))}
-									{v.tags.theme.map((t) => (
-										<span class="tag">{themeLabel[t] ?? t}</span>
-									))}
-								</div>
-								<div class="actions">
-									<button class="copy" data-url={bilibiliUrl(v.bvid)}>
-										🔗 复制链接
-									</button>
-									{kikireelBase && (
-										<a class="kiki" href={`${kikireelBase}${encodeURIComponent(bilibiliUrl(v.bvid))}`} target="_blank" rel="noopener">
-											⭐ 收藏到 KikiReel
-										</a>
-									)}
-								</div>
-							</div>
-						</li>
-					))
-				}
-			</ul>
-			<div class="empty" id="empty" hidden>这个组合下暂时没有视频，换个筛选试试～</div>
-		</main>
-
-		<footer>
-			童心岛 (kidisle) · 独立开源项目 · <a href="https://github.com/kk17/kidisle">GitHub</a> · MIT
-		</footer>
-
-		<script>
-			const state: Record<string, Set<string>> = { age: new Set(), language: new Set(), theme: new Set() };
-			const cards = Array.from(document.querySelectorAll<HTMLLIElement>('.card'));
-			const countEl = document.getElementById('count')!;
-			const emptyEl = document.getElementById('empty')!;
-			const gridEl = document.getElementById('grid')!;
-			const bgridEl = document.getElementById('bgrid')!;
-			const ugroupsEl = document.getElementById('ugroups')!;
-			const bdetailHead = document.getElementById('bdetail-head')!;
-			const viewAllBtn = document.getElementById('view-all')!;
-			const viewGroupsBtn = document.getElementById('view-groups')!;
-
-			let mode: 'groups' | 'all' = 'groups';
-			let selectedUp: string | null = null;
-
-			function cardMatches(card: HTMLLIElement): boolean {
-				return (['age', 'language', 'theme'] as const).every((dim) => {
-					if (state[dim].size === 0) return true;
-					const vals: string[] = JSON.parse(card.dataset[dim] || '[]');
-					return vals.some((v) => state[dim].has(v));
-				});
-			}
-
-			function apply() {
-				let shown = 0;
-				for (const card of cards) {
-					const ok = cardMatches(card);
-					card.style.display = ok ? '' : 'none';
-					if (ok) shown++;
-				}
-				// 一级视图：博主卡片按「该博主是否有匹配视频」显隐
-				for (const bc of bgridEl.querySelectorAll<HTMLElement>('.bcard')) {
-					const up = bc.dataset.up!;
-					const any = cards.some((c) => c.dataset.up === up && c.style.display !== 'none');
-					bc.parentElement!.style.display = any ? '' : 'none';
-				}
-				// 二级视图：更新当前组的可见数
-				if (mode === 'groups' && selectedUp) {
-					const section = ugroupsEl.querySelector<HTMLElement>(`.ugroup[data-up="${CSS.escape(selectedUp)}"]`);
-					if (section) {
-						const vis = Array.from(section.querySelectorAll<HTMLLIElement>('.card')).filter((c) => c.style.display !== 'none').length;
-						const meta = document.getElementById('bdetail-meta')!;
-						meta.textContent = `${vis} 条匹配`;
-					}
-				}
-				countEl.textContent = `${shown} / ${cards.length}`;
-				emptyEl.hidden = shown > 0 || (mode === 'groups' && !selectedUp);
-			}
-
-			function render() {
-				gridEl.hidden = mode !== 'all';
-				bdetailHead.style.display = mode === 'groups' && selectedUp ? 'flex' : 'none';
-				if (mode === 'groups') {
-					bgridEl.hidden = !!selectedUp;
-					ugroupsEl.hidden = !selectedUp;
-					for (const s of ugroupsEl.querySelectorAll<HTMLElement>('.ugroup')) {
-						s.style.display = selectedUp && s.dataset.up === selectedUp ? '' : 'none';
-					}
-				} else {
-					bgridEl.hidden = true;
-					ugroupsEl.hidden = true;
-				}
-				apply();
-			}
-
-			viewAllBtn.addEventListener('click', () => { mode = 'all'; viewAllBtn.setAttribute('aria-pressed', 'true'); viewGroupsBtn.setAttribute('aria-pressed', 'false'); render(); });
-			viewGroupsBtn.addEventListener('click', () => { mode = 'groups'; selectedUp = null; viewGroupsBtn.setAttribute('aria-pressed', 'true'); viewAllBtn.setAttribute('aria-pressed', 'false'); render(); });
-
-			// 选博主 → 进二级
-			bgridEl.addEventListener('click', (e) => {
-				const bc = (e.target as HTMLElement).closest<HTMLElement>('.bcard');
-				if (!bc) return;
-				selectedUp = bc.dataset.up!;
-				// 博主信息解析失败不阻塞导航（头像/理由兜底为占位）
-				let info: Record<string, { avatar?: string }> = {};
-				try {
-					info = JSON.parse(document.querySelector(`script[data-blogger-info]`)?.textContent || '{}');
-				} catch {
-					/* 数据坏了也要能进二级视图 */
-				}
-				const avatar = document.getElementById('bdetail-avatar')!;
-				avatar.innerHTML = '';
-				const b = info[bc.dataset.up!];
-				if (b?.avatar) {
-					const img = document.createElement('img');
-					img.src = b.avatar;
-					img.referrerPolicy = 'no-referrer';
-					avatar.appendChild(img);
-				} else {
-					avatar.textContent = (bc.dataset.up || '?').slice(0, 1);
-				}
-				document.getElementById('bdetail-name')!.textContent = bc.dataset.up!;
-				render();
-				window.scrollTo({ top: 0 });
+	function apply() {
+		let shown = 0;
+		for (const cell of cells) {
+			const ok = (['age', 'language', 'theme'] as const).every((dim) => {
+				if (state[dim].size === 0) return true;
+				const vals: string[] = JSON.parse(cell.dataset[dim] || '[]');
+				return vals.some((v) => state[dim].has(v));
 			});
-			document.getElementById('back-btn')!.addEventListener('click', () => {
-				selectedUp = null;
-				render();
-				window.scrollTo({ top: 0 });
-			});
-
-			document.querySelectorAll<HTMLButtonElement>('.chip').forEach((chip) => {
-				chip.addEventListener('click', () => {
-					const set = state[chip.dataset.dim!];
-					const v = chip.dataset.v!;
-					if (set.has(v)) { set.delete(v); chip.setAttribute('aria-pressed', 'false'); }
-					else { set.add(v); chip.setAttribute('aria-pressed', 'true'); }
-					apply();
-				});
-			});
-			document.querySelectorAll<HTMLButtonElement>('.chip-clear').forEach((btn) => {
-				btn.addEventListener('click', () => {
-					state[btn.dataset.clear!].clear();
-					document.querySelectorAll<HTMLButtonElement>(`.chip[data-dim="${btn.dataset.clear}"]`).forEach((c) => c.setAttribute('aria-pressed', 'false'));
-					apply();
-				});
-			});
-
-			// ---- 交互（事件委托）----
-			document.addEventListener('click', (e) => {
-				const target = e.target as HTMLElement;
-
-				const cover = target.closest<HTMLButtonElement>('.cover');
-				if (cover?.dataset.embed && !cover.querySelector('iframe')) {
-					const iframe = document.createElement('iframe');
-					iframe.src = cover.dataset.embed;
-					iframe.allowFullscreen = true;
-					iframe.scrolling = 'no';
-					iframe.title = '视频播放器';
-					// 内联样式：Astro scoped CSS 不会作用于 JS 创建的节点
-					iframe.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;border:0;';
-					cover.appendChild(iframe);
-					cover.querySelector('.play')?.remove();
-					return;
-				}
-
-				const copyBtn = target.closest<HTMLButtonElement>('.copy');
-				if (copyBtn?.dataset.url) {
-					flash(copyBtn, '✅ 已复制');
-					navigator.clipboard.writeText(copyBtn.dataset.url).catch(() => {
-						const ta = document.createElement('textarea');
-						ta.value = copyBtn.dataset.url!;
-						document.body.appendChild(ta);
-						ta.select();
-						document.execCommand('copy');
-						ta.remove();
-					});
-				}
-			});
-
-			function flash(btn: HTMLElement, text: string) {
-				const original = btn.textContent;
-				btn.textContent = text;
-				setTimeout(() => (btn.textContent = original), 1500);
-			}
-
-			render();
-		</script>
-
-		<!-- 博主信息（头像等）供二级头部使用 -->
-		<script is:inline type="application/json" data-blogger-info set:html={JSON.stringify(bloggerInfo)} />
-	</body>
-</html>
+			cell.style.display = ok ? '' : 'none';
+			if (ok) shown++;
+		}
+		countEl.textContent = `${shown} / ${cells.length}`;
+		emptyEl.hidden = shown > 0;
+	}
+	document.querySelectorAll<HTMLButtonElement>('.chip').forEach((chip) => {
+		chip.addEventListener('click', () => {
+			const set = state[chip.dataset.dim!];
+			const v = chip.dataset.v!;
+			if (set.has(v)) { set.delete(v); chip.setAttribute('aria-pressed', 'false'); }
+			else { set.add(v); chip.setAttribute('aria-pressed', 'true'); }
+			apply();
+		});
+	});
+	document.querySelectorAll<HTMLButtonElement>('.chip-clear').forEach((btn) => {
+		btn.addEventListener('click', () => {
+			state[btn.dataset.clear!].clear();
+			document.querySelectorAll<HTMLButtonElement>(`.chip[data-dim="${btn.dataset.clear}"]`).forEach((c) => c.setAttribute('aria-pressed', 'false'));
+			apply();
+		});
+	});
+	apply();
+</script>

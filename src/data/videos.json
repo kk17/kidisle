@@ -27,6 +27,96 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-11d4y177fg",
+      "source": "bilibili",
+      "bvid": "BV11D4y177fg",
+      "title": "几个简单易操作的趣味科学小实验，孩子看了再也不缠着玩手机了！",
+      "up": "科学能量",
+      "duration_seconds": 77,
+      "cover": "http://i2.hdslb.com/bfs/archive/747f466e8cace45e449a3ae2755d3067f26ec9c8.jpg",
+      "note": "简短趣味科学小实验，易操作",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-128411l7oa",
+      "source": "bilibili",
+      "bvid": "BV128411L7oA",
+      "title": "吃不健康的食物会怎么样？熊猫姐姐儿童益智早教儿歌动画片",
+      "up": "熊猫姐姐早教",
+      "duration_seconds": 91,
+      "cover": "http://i2.hdslb.com/bfs/archive/6c77ed27c26561f5d57579dc7c0e7be54f8f2a25.jpg",
+      "note": "饮食健康习惯启蒙动画，内容健康",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-12w5x6xex7",
+      "source": "bilibili",
+      "bvid": "BV12W5x6XEX7",
+      "title": "《菲菲生气了》教会孩子正确疏导情绪！",
+      "up": "海小螺_",
+      "duration_seconds": 424,
+      "cover": "http://i2.hdslb.com/bfs/archive/e703a83e826d5894c98bd6059c7fd3374e22fa82.jpg",
+      "note": "菲菲生气了绘本，教孩子接纳与疏导情绪",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-12x411e7xp",
+      "source": "bilibili",
+      "bvid": "BV12x411E7xp",
+      "title": "我会自己上厕所-宝宝巴士儿歌",
+      "up": "宝宝巴士BabyBus",
+      "duration_seconds": 117,
+      "cover": "http://i1.hdslb.com/bfs/archive/38a0c5b03c2c71907bbd324f34a140726fc8c7ac.jpg",
+      "note": "如厕训练儿歌，生活自理启蒙，低幼友好",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-13e411x7i8",
       "source": "bilibili",
       "bvid": "BV13E411x7i8",
@@ -45,6 +135,30 @@
         ],
         "theme": [
           "english",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-13uirbte38",
+      "source": "bilibili",
+      "bvid": "BV13UirBtE38",
+      "title": "肆虐中国千年的蝗灾，为什么消失了？",
+      "up": "赛雷三分钟",
+      "duration_seconds": 490,
+      "cover": "http://i0.hdslb.com/bfs/archive/2279d824cd02add2909a4cd926a7e10803af117f.jpg",
+      "note": "动画讲蝗灾历史成因，人文历史，建议增设人文主题",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
           "animation"
         ]
       },
@@ -96,6 +210,52 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-13f421178p",
+      "source": "bilibili",
+      "bvid": "BV13f421178P",
+      "title": "啦咘啦哆警长大战羚羚羊 第2集 虚假广告",
+      "up": "宝宝巴士BabyBus",
+      "duration_seconds": 396,
+      "cover": "http://i0.hdslb.com/bfs/archive/6621ad0b7a567a8ecccab49b0c9269f40af23210.jpg",
+      "note": "安全教育动画，识别虚假广告主题",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life",
+          "social"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-13i4y1x7hq",
+      "source": "bilibili",
+      "bvid": "BV13i4y1x7hQ",
+      "title": "幼儿园儿童舞蹈《听我说谢谢你》动作简单好看，小朋友都喜欢",
+      "up": "朵朵儿童舞蹈秀",
+      "duration_seconds": 128,
+      "cover": "http://i0.hdslb.com/bfs/archive/7bf55a803dae8a7b34084869c11b0c2192460dfb.jpg",
+      "note": "幼儿园舞蹈，简单易学，传递感恩",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-13u41117r8",
       "source": "bilibili",
       "bvid": "BV13u41117r8",
@@ -140,6 +300,126 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-14w8azceud",
+      "source": "bilibili",
+      "bvid": "BV14w8AzCEUd",
+      "title": "白垩纪顶级霸主：霸王龙最无敌！【斑马百科·恐龙】",
+      "up": "斑马百科",
+      "duration_seconds": 185,
+      "cover": "http://i0.hdslb.com/bfs/archive/f25ffc2d0f4fcfb150ab5da7b425d3ef4f225e1f.jpg",
+      "note": "霸王龙恐龙科普动画，童趣健康",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "nature",
+          "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-15r4y1479y",
+      "source": "bilibili",
+      "bvid": "BV15R4y1479y",
+      "title": "宝宝巴士奇妙汉字 第一季 完结版 益智动画",
+      "up": "宝宝巴士BabyBus",
+      "duration_seconds": 11238,
+      "cover": "http://i0.hdslb.com/bfs/archive/ce49fa80e88e0e8715de0aa778e810baaacccf43.jpg",
+      "note": "汉字启蒙益智动画；语文暂归story，建议增设人文主题",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-15r4y1k714",
+      "source": "bilibili",
+      "bvid": "BV15R4y1k714",
+      "title": "兔小贝儿歌 不上你的当",
+      "up": "兔小贝儿童",
+      "duration_seconds": 160,
+      "cover": "http://i0.hdslb.com/bfs/archive/24efb2075c6a6573455f2f3a4717485f03ee2570.jpg",
+      "note": "防拐骗安全教育儿歌",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-15b4y1o7du",
+      "source": "bilibili",
+      "bvid": "BV15b4y1o7DU",
+      "title": "宝宝巴士启蒙音乐剧之汽车帮帮队",
+      "up": "宝宝巴士BabyBus",
+      "duration_seconds": 2795,
+      "cover": "http://i1.hdslb.com/bfs/archive/c749a14145e01829d473fe6172db66eb35026b4b.jpg",
+      "note": "交通工具认知音乐剧，理解公共服务角色",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "animation",
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-15q4y1u7et",
+      "source": "bilibili",
+      "bvid": "BV15q4y1u7ET",
+      "title": "宝贝赳赳 第三季 （原《超级宝贝JoJo 第三季》)儿歌 儿童 动画合集",
+      "up": "宝宝巴士BabyBus",
+      "duration_seconds": 11082,
+      "cover": "http://i2.hdslb.com/bfs/archive/a0becf783d5d48c7d3ff7931f68b11e66a07d52d.jpg",
+      "note": "官方低幼儿歌动画，进阶生活技能启蒙",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "animation",
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-16a411h7cj",
       "source": "bilibili",
       "bvid": "BV16A411H7Cj",
@@ -157,6 +437,29 @@
         ],
         "theme": [
           "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-16fub6me5j",
+      "source": "bilibili",
+      "bvid": "BV16Fub6ME5j",
+      "title": "《善平爷爷的草莓》看完孩子主动学会分享！",
+      "up": "海小螺_",
+      "duration_seconds": 380,
+      "cover": "http://i2.hdslb.com/bfs/archive/264ec626e7b7f6b99c54eed0d1cb21d52ccff633.jpg",
+      "note": "分享主题绘本，温暖引导孩子学会分享",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
         ]
       },
       "added_at": "2026-11-06"
@@ -208,6 +511,164 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-16b4y1g7sy",
+      "source": "bilibili",
+      "bvid": "BV16b4y1G7sY",
+      "title": "神奇的地球磁场【斑马百科动画】",
+      "up": "斑马百科",
+      "duration_seconds": 86,
+      "cover": "http://i0.hdslb.com/bfs/archive/b4e188a76fcc01e932f0478d90b4ba41d2189c45.jpg",
+      "note": "地球磁场科普动画，内容健康",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-16g4y1i7kc",
+      "source": "bilibili",
+      "bvid": "BV16g4y1i7kc",
+      "title": "幼儿园儿童舞蹈《加油鸭》节奏欢快，努力向前，小朋友们加油!",
+      "up": "朵朵儿童舞蹈秀",
+      "duration_seconds": 123,
+      "cover": "http://i0.hdslb.com/bfs/archive/666a3b5e5a5f416733460a775c2f662477d3e0c0.jpg",
+      "note": "幼儿园舞蹈，节奏欢快，动作简单",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-16h29y5eyd",
+      "source": "bilibili",
+      "bvid": "BV16h29Y5Eyd",
+      "title": "【粘土课 10集全】超轻粘土 粘土小动物 小海豚 小海龟 复杂的超轻粘土造型 幼儿园超轻粘土 超轻粘土配色 彩泥捏一捏",
+      "up": "开心学习快乐成长",
+      "duration_seconds": 14148,
+      "cover": "http://i0.hdslb.com/bfs/archive/34097a7533b9f6abbef1ab4eeafe4b6055b95a73.png",
+      "note": "超轻粘土小动物教程合集，幼儿园适用",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-16ozzbked7",
+      "source": "bilibili",
+      "bvid": "BV16oZZBkED7",
+      "title": "《我要上幼儿园》超治愈儿歌视频，帮娃轻松适应集体生活",
+      "up": "小雨儿歌集",
+      "duration_seconds": 66,
+      "cover": "http://i1.hdslb.com/bfs/archive/940af732d0fd2b6f78fe014b630181deb3339e31.jpg",
+      "note": "入园适应儿歌，缓解分离焦虑，低幼友好",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1734y1x7no",
+      "source": "bilibili",
+      "bvid": "BV1734y1x7No",
+      "title": "全100集【儿童趣味科学实验】孩子们绝对爱看且能看懂的科学现象，适合7岁以上儿童，记得三联收藏啊",
+      "up": "中年油腻宝爸",
+      "duration_seconds": 13721,
+      "cover": "http://i2.hdslb.com/bfs/archive/0baad4b04dc0b72d5daeb3b91d440463d41fb433.jpg",
+      "note": "趣味科学现象合集，UP求三联但内容健康",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-17pd5ynee6",
+      "source": "bilibili",
+      "bvid": "BV17PD5YNEE6",
+      "title": "小车迷的睡前故事《晚安，工地上的车》",
+      "up": "二月绘本育儿",
+      "duration_seconds": 473,
+      "cover": "http://i0.hdslb.com/bfs/archive/2335fd175bb3a07a2ec1420be9bebd44b8d159fe.jpg",
+      "note": "工程车主题睡前绘本故事，小车迷友好",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-17w411a7rc",
+      "source": "bilibili",
+      "bvid": "BV17W411a7RC",
+      "title": "绘本动画《你看起来很好吃》宫西达也",
+      "up": "万能背包",
+      "duration_seconds": 401,
+      "cover": "http://i2.hdslb.com/bfs/archive/e4cd257490367f0af50348629459f569436569a8.jpg",
+      "note": "宫西达也绘本动画，暖心友情故事",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-17b4y1g7br",
       "source": "bilibili",
       "bvid": "BV17b4y1g7br",
@@ -216,6 +677,29 @@
       "duration_seconds": 49,
       "cover": "http://i1.hdslb.com/bfs/archive/ccfe521ac04bfae51669a838246e059aaf145ce5.jpg",
       "note": "脑波仿生手科技演示,健康",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-17v411c7tj",
+      "source": "bilibili",
+      "bvid": "BV17v411C7TJ",
+      "title": "《寻秘自然》01 生命起源（上）生命诞生被还原？真相求真需实验！",
+      "up": "科学声音",
+      "duration_seconds": 908,
+      "cover": "http://i0.hdslb.com/bfs/archive/8ffaf0648fe6608125dc69e9cc5d3b9a40afeaee.jpg",
+      "note": "自然科学纪录片讲生命起源，亲子可看",
       "tags": {
         "age": [
           "6-9",
@@ -253,6 +737,75 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-18dyjejecr",
+      "source": "bilibili",
+      "bvid": "BV18DYJejEcR",
+      "title": "不花钱上早教-奥尔夫音乐 布谷鸟",
+      "up": "理德斯教育大山校长",
+      "duration_seconds": 23,
+      "cover": "http://i1.hdslb.com/bfs/archive/2ac4d0e149a7e50892769e6bbbf379a215a451c1.jpg",
+      "note": "奥尔夫音乐节奏游戏演示",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-18v4y1t7kz",
+      "source": "bilibili",
+      "bvid": "BV18V4y1T7Kz",
+      "title": "宝宝爱听的热门儿歌精选《贝乐虎儿歌》：数鸭子",
+      "up": "贝乐虎儿歌",
+      "duration_seconds": 117,
+      "cover": "http://i0.hdslb.com/bfs/archive/caedb745497fa12ff8d0a353196d223f488489db.jpg",
+      "note": "官方经典儿歌数鸭子",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-18jxubnedx",
+      "source": "bilibili",
+      "bvid": "BV18jXUBnEdX",
+      "title": "屁屁侦探 全93话+剧场版【台配国语】",
+      "up": "國語動漫",
+      "duration_seconds": 187312,
+      "cover": "http://i0.hdslb.com/bfs/archive/8ba27f20a81718b12e01c1b2c4992fb412ae314b.jpg",
+      "note": "侦探推理喜剧动画合集，台配国语",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-18m42137hn",
       "source": "bilibili",
       "bvid": "BV18m42137hN",
@@ -271,6 +824,52 @@
         "theme": [
           "science",
           "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-19f4m1j7yv",
+      "source": "bilibili",
+      "bvid": "BV19F4m1j7yv",
+      "title": "世界四大纸飞机之Paperang，史上滑翔性能最好的纸飞机；在高处放飞，它能乘风飞行超长时间。",
+      "up": "x小小欺负乖乖x",
+      "duration_seconds": 127,
+      "cover": "http://i2.hdslb.com/bfs/archive/f8a62f49d722af2993816aaab0bcebbafe33011b.jpg",
+      "note": "纸飞机滑翔演示，激发动手兴趣",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-19l411n7qx",
+      "source": "bilibili",
+      "bvid": "BV19L411n7qX",
+      "title": "【合辑】宝宝巴士启蒙音乐剧之恐龙世界2",
+      "up": "宝宝巴士BabyBus",
+      "duration_seconds": 3695,
+      "cover": "http://i2.hdslb.com/bfs/archive/94fb17f3e86cb768984918cb9d00b38b8ba77a3f.jpg",
+      "note": "官方恐龙主题音乐剧，认识恐龙与相处之道",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "animation",
+          "nature"
         ]
       },
       "added_at": "2026-11-06"
@@ -299,6 +898,29 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-19dgzzceau",
+      "source": "bilibili",
+      "bvid": "BV19dgzzCEaU",
+      "title": "1.为什么男生和女生要分开上厕所？",
+      "up": "ahakid儿童百科",
+      "duration_seconds": 308,
+      "cover": "http://i1.hdslb.com/bfs/archive/734d601fb3020b5217f6e431348bbb44266866fd.jpg",
+      "note": "儿童百科问答讲如厕与身体常识，生活启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life",
+          "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-19f4y1a7zg",
       "source": "bilibili",
       "bvid": "BV19f4y1A7zg",
@@ -316,6 +938,53 @@
         ],
         "theme": [
           "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-19jflywefr",
+      "source": "bilibili",
+      "bvid": "BV19jfLYWEfR",
+      "title": "这是春节｜用15分钟让孩子们了解春节来历、习俗和情感等等",
+      "up": "阿嘟白泽",
+      "duration_seconds": 875,
+      "cover": "http://i1.hdslb.com/bfs/archive/16b42f38d4805bf303ecc6ee517976c6731ef097.jpg",
+      "note": "动画讲春节来历习俗，传统文化，建议增设人文主题",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1be4y1b7fj",
+      "source": "bilibili",
+      "bvid": "BV1Be4y1b7FJ",
+      "title": "宝宝爱听的热门儿歌精选《贝乐虎儿歌》：拔萝卜",
+      "up": "贝乐虎儿歌",
+      "duration_seconds": 112,
+      "cover": "http://i2.hdslb.com/bfs/archive/6c4ff9017eeaa0ac88c70a7bf5e96077e02be26a.jpg",
+      "note": "官方经典儿歌拔萝卜",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
         ]
       },
       "added_at": "2026-11-06"
@@ -340,6 +1009,54 @@
         "theme": [
           "music",
           "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1cq4y1u728",
+      "source": "bilibili",
+      "bvid": "BV1Cq4y1u728",
+      "title": "【全65集】众多大小朋友喜欢的屁屁侦探 动画版",
+      "up": "魂音梦语",
+      "duration_seconds": 2920,
+      "cover": "http://i2.hdslb.com/bfs/archive/7a3db2c9444141144f6e10066a668eebd383cdea.png",
+      "note": "屁屁侦探动画版合集，推理益智，趣味性强",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1dytwe1evj",
+      "source": "bilibili",
+      "bvid": "BV1DYtWe1Evj",
+      "title": "全国爱牙日：缩小进入嘴里，探索牙齿的奥秘【斑马百科动画】",
+      "up": "斑马百科",
+      "duration_seconds": 166,
+      "cover": "http://i1.hdslb.com/bfs/archive/e6499c54519bb217d08d6e7e665a2ae687cc09f7.jpg",
+      "note": "牙齿构造与护牙科普动画；出品方为斑马品牌",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "life"
         ]
       },
       "added_at": "2026-11-06"
@@ -391,6 +1108,50 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1dg411a7pq",
+      "source": "bilibili",
+      "bvid": "BV1Dg411a7pQ",
+      "title": "《中国地理环游记》儿童科普启蒙动画视频教程，带你打卡34个省份",
+      "up": "快乐宝贝资源库",
+      "duration_seconds": 4263,
+      "cover": "http://i1.hdslb.com/bfs/archive/ef1ea4e7129816b91ed93a2ee103512c2d26411e.png",
+      "note": "中国地理实景加动画科普，打卡34省份",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "nature"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1dg4y1a7we",
+      "source": "bilibili",
+      "bvid": "BV1Dg4y1A7we",
+      "title": "粤语讲故事读绘本《你看起来好像很好吃》（国粤双语字幕）",
+      "up": "延仔爸爸粤语讲故事",
+      "duration_seconds": 489,
+      "cover": "http://i2.hdslb.com/bfs/archive/d647831beccccc9fd18dcd68cd1ea2d435b8d948.jpg",
+      "note": "宫西达也暖心恐龙故事，国粤字幕均为中文",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1dh411b7pe",
       "source": "bilibili",
       "bvid": "BV1Dh411B7Pe",
@@ -408,6 +1169,50 @@
         ],
         "theme": [
           "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1ew4y167bv",
+      "source": "bilibili",
+      "bvid": "BV1EW4y167bV",
+      "title": "宫西达也系列 绘本故事《神奇种子店》",
+      "up": "绘本故事乐园",
+      "duration_seconds": 604,
+      "cover": "http://i1.hdslb.com/bfs/archive/d969dc7c90b4f368d0bed3f824d4123fc6ba4375.jpg",
+      "note": "宫西达也神奇种子店绘本故事，健康童趣",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1eb411u71u",
+      "source": "bilibili",
+      "bvid": "BV1Eb411u71u",
+      "title": "第一课 认识围棋（适合4-7岁）",
+      "up": "夏知非Song",
+      "duration_seconds": 298,
+      "cover": "http://i0.hdslb.com/bfs/archive/8bf5210171a270700e155d330f6105496e5db82d.jpg",
+      "note": "围棋启蒙第一课，益智逻辑思维",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "math"
         ]
       },
       "added_at": "2026-11-06"
@@ -460,6 +1265,52 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1fi4y1c7vb",
+      "source": "bilibili",
+      "bvid": "BV1Fi4y1c7vb",
+      "title": "屁屁侦探 中文主题曲",
+      "up": "学堂路上的猫",
+      "duration_seconds": 135,
+      "cover": "http://i2.hdslb.com/bfs/archive/f2ad09355db0c9b4eb5b1b7985ecc937a9440e49.jpg",
+      "note": "屁屁侦探中文主题曲，儿童向推理IP",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1fxjizfe4a",
+      "source": "bilibili",
+      "bvid": "BV1FxjizFE4A",
+      "title": "安全警长啦咘啦哆 第二季 第48集 杜兵的体检",
+      "up": "宝宝巴士BabyBus",
+      "duration_seconds": 367,
+      "cover": "http://i0.hdslb.com/bfs/archive/0b81bf03410f21701284de0ab7f3e14cd59bdf96.jpg",
+      "note": "安全教育动画单集，健康体检主题",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1gj411x7hu",
       "source": "bilibili",
       "bvid": "BV1GJ411X7hu",
@@ -505,6 +1356,146 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1hd421j74u",
+      "source": "bilibili",
+      "bvid": "BV1HD421J74U",
+      "title": "儿童安全教育，这些人一定要认识",
+      "up": "楚楚的超人妈妈",
+      "duration_seconds": 62,
+      "cover": "http://i2.hdslb.com/bfs/archive/e82e0116e1fc96ed9d264cbe478e66f9c834e3ba.jpg",
+      "note": "陌生人识别安全教育，短小实用",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life",
+          "social"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1hd4y147x1",
+      "source": "bilibili",
+      "bvid": "BV1HD4y147x1",
+      "title": "【科普·好奇心】绘本《海底100层的房子》有声儿童绘本故事",
+      "up": "南瓜妈妈讲绘本",
+      "duration_seconds": 624,
+      "cover": "http://i2.hdslb.com/bfs/archive/b692ee12667b2db5eaf26d5489f569c91f71f0e3.jpg",
+      "note": "海底世界有声绘本，认识海洋动物",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "nature"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1hv421r711",
+      "source": "bilibili",
+      "bvid": "BV1Hv421r711",
+      "title": "二十四节气歌！儿童经典儿歌！",
+      "up": "羽小帅成长乐园",
+      "duration_seconds": 166,
+      "cover": "http://i0.hdslb.com/bfs/archive/306c330b4098c52e473b037251899d064086d050.jpg",
+      "note": "二十四节气儿歌，节奏明快易记",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "nature"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1hxhazuesk",
+      "source": "bilibili",
+      "bvid": "BV1HxHAzUEsk",
+      "title": "全36集【三十六计动画片全集】【讲给孩子听的国学经典历史故事】【米小圈系列】",
+      "up": "幼小初高学习课堂",
+      "duration_seconds": 232520,
+      "cover": "http://i0.hdslb.com/bfs/archive/c11c309998934d4caa26fbd3eb5e1f32c6376724.jpg",
+      "note": "三十六计国学历史动画，建议增设人文主题",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1j14y1q7zd",
+      "source": "bilibili",
+      "bvid": "BV1J14y1Q7ZD",
+      "title": "解决宝宝吃饭大难题《肚子里有个火车站》豆瓣评分9.4绘本故事亲子阅读",
+      "up": "亲子阅读ReadForKids",
+      "duration_seconds": 873,
+      "cover": "http://i1.hdslb.com/bfs/archive/5cbbbd4d996dccedf9db1dd90ce07616b4e746fd.jpg",
+      "note": "绘本亲子阅读，讲消化系统与饮食习惯",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1j24y1q7hz",
+      "source": "bilibili",
+      "bvid": "BV1J24y1Q7Hz",
+      "title": "100+集全【萌鸡小队】第2部国内首部社交成长主题的正向育儿理念卡通中文版+英文版",
+      "up": "陈陈资源百宝箱",
+      "duration_seconds": 6816,
+      "cover": "http://i0.hdslb.com/bfs/archive/c9bf86d7ec2a4c4adabc405bfd8da5129be0af7b.png",
+      "note": "社交成长主题动画合集，中英文双版本",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "animation",
+          "social",
+          "nature"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1j4411q7v9",
       "source": "bilibili",
       "bvid": "BV1J4411Q7v9",
@@ -529,6 +1520,74 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1j44y1m72w",
+      "source": "bilibili",
+      "bvid": "BV1J44y1M72W",
+      "title": "幼儿音乐律动《banana cha cha 》",
+      "up": "绘童教育",
+      "duration_seconds": 122,
+      "cover": "http://i2.hdslb.com/bfs/archive/e2d37a8762fede67bb44163280cdc58c62c5c084.jpg",
+      "note": "幼儿音乐律动舞，可跟跳",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1jl4y167en",
+      "source": "bilibili",
+      "bvid": "BV1JL4y167EN",
+      "title": "【安全教育】宝宝巴士儿歌启蒙：儿童身体保护  学习辨别危险人物与信号 应对技巧",
+      "up": "宝宝巴士BabyBus",
+      "duration_seconds": 2734,
+      "cover": "http://i0.hdslb.com/bfs/archive/bfde60cae66dfeaa6d83f6c414f8643abfc55761.jpg",
+      "note": "身体保护安全启蒙合集，防侵害教育，建议家长陪同",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1jd4y1i7rh",
+      "source": "bilibili",
+      "bvid": "BV1Jd4y1i7RH",
+      "title": "丹妮要上幼儿园 沃夫非常不舍 丹妮会适应学校生活吗",
+      "up": "甜动漫",
+      "duration_seconds": 160,
+      "cover": "http://i0.hdslb.com/bfs/archive/7f014967ba098bfb6e1b26794ae574f1a669853f.jpg",
+      "note": "幼儿园适应主题动画片段，来源待人工复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "social"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1ji4y187tr",
       "source": "bilibili",
       "bvid": "BV1Ji4y187tR",
@@ -546,6 +1605,75 @@
         ],
         "theme": [
           "craft"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1jx411l74d",
+      "source": "bilibili",
+      "bvid": "BV1Jx411L74d",
+      "title": "【合集】蓝猫淘气3000问 恐龙系列",
+      "up": "动画纪",
+      "duration_seconds": 159190,
+      "cover": "http://i2.hdslb.com/bfs/archive/6a7ab65e8fb1f265f13d2131af7b34bb366c0360.png",
+      "note": "经典科普动画恐龙系列合集，适龄耐看",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1k5wszwepe",
+      "source": "bilibili",
+      "bvid": "BV1K5WszWEpe",
+      "title": "【微观小世界】第一季78集全 | 超萌昆虫趣事儿，儿童自然启蒙必看",
+      "up": "柚子优学社",
+      "duration_seconds": 26201,
+      "cover": "http://i1.hdslb.com/bfs/archive/6e3bb7f90fbfe9cbac5c1f6fc9a2d18258a7b23e.jpg",
+      "note": "法国昆虫自然启蒙动画，基本无对白，趣味性强",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "nature",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1k6jqzje5k",
+      "source": "bilibili",
+      "bvid": "BV1K6JqzJE5k",
+      "title": "救命！我的肚子要爆炸了！（下集！）",
+      "up": "土豆逗严肃科普",
+      "duration_seconds": 102,
+      "cover": "http://i2.hdslb.com/bfs/archive/2b9cbc62819387f1dbc3fd1361389a1ab57274f5.jpg",
+      "note": "憋尿与膀胱科普动画，内容健康略夸张",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
         ]
       },
       "added_at": "2026-11-06"
@@ -595,6 +1723,28 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1lgm4zben6",
+      "source": "bilibili",
+      "bvid": "BV1LGM4zBEn6",
+      "title": "在家DIY橡皮泥！仅需面粉淀粉，几步搞定安全好玩又省钱",
+      "up": "怀旧食光便利店",
+      "duration_seconds": 62,
+      "cover": "http://i1.hdslb.com/bfs/archive/bc80d0820ecd333af240071504e499a967cc7817.jpg",
+      "note": "自制安全橡皮泥，亲子动手",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1lv411b79s",
       "source": "bilibili",
       "bvid": "BV1LV411b79S",
@@ -613,6 +1763,29 @@
         "theme": [
           "music",
           "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1lquqbfeur",
+      "source": "bilibili",
+      "bvid": "BV1LqUQBfEur",
+      "title": "警惕！最新专门针对孩子的骗局！",
+      "up": "蒙奇安全屋",
+      "duration_seconds": 110,
+      "cover": "http://i0.hdslb.com/bfs/archive/ffa29ad68ca3ace2ecb1694c87ce437d95b29689.jpg",
+      "note": "儿童防骗安全科普，识别骗局技巧",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life",
+          "social"
         ]
       },
       "added_at": "2026-11-06"
@@ -665,6 +1838,29 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1mlgk6beqb",
+      "source": "bilibili",
+      "bvid": "BV1MLgk6bEqb",
+      "title": "【波西和皮普】全套11集｜绘本故事·睡前必听",
+      "up": "啷哩叽啷哩",
+      "duration_seconds": 1706,
+      "cover": "http://i2.hdslb.com/bfs/archive/e1b2669b1f2b7c21b16cbed3da08b4a27bb7f8c3.jpg",
+      "note": "经典绘本睡前故事，勇敢分享等情商主题",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1mn4deweqz",
       "source": "bilibili",
       "bvid": "BV1MN4dewEQZ",
@@ -704,6 +1900,30 @@
         ],
         "theme": [
           "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1nbisbmejg",
+      "source": "bilibili",
+      "bvid": "BV1NBiSBMEjG",
+      "title": "《好饿的毛毛虫》高清画质，流畅动画绘本",
+      "up": "醒醒绘本",
+      "duration_seconds": 103,
+      "cover": "http://i1.hdslb.com/bfs/archive/49d9803af86e9f79becd87c96bc18c73fd8a9850.jpg",
+      "note": "经典低幼动画绘本，高清流畅，内容健康",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "animation"
         ]
       },
       "added_at": "2026-11-06"
@@ -751,6 +1971,30 @@
         ],
         "theme": [
           "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1np42127uz",
+      "source": "bilibili",
+      "bvid": "BV1Np42127uz",
+      "title": "揭秘史前深海巨兽：泥盆纪霸主-邓氏鱼【斑马百科动画】",
+      "up": "斑马百科",
+      "duration_seconds": 173,
+      "cover": "http://i0.hdslb.com/bfs/archive/ea1964efa33d4656d23bd40a44886832bf851343.jpg",
+      "note": "泥盆纪邓氏鱼古生物科普动画",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "nature",
+          "science"
         ]
       },
       "added_at": "2026-11-06"
@@ -870,6 +2114,50 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1px4y1e7z7",
+      "source": "bilibili",
+      "bvid": "BV1PX4y1E7z7",
+      "title": "《小苹果》魔性舞蹈再次来袭",
+      "up": "天天练舞功官方号",
+      "duration_seconds": 224,
+      "cover": "http://i0.hdslb.com/bfs/archive/d266b00a4551548a2971d294c1dc3e82f50fc01d.jpg",
+      "note": "流行歌曲舞蹈律动，受众存疑，待人工复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1pw411x76t",
+      "source": "bilibili",
+      "bvid": "BV1Pw411x76t",
+      "title": "小学生一定要知道的交通安全知识！对小学生来说可能有点幼稚，对B站站友们刚好！",
+      "up": "谭乔",
+      "duration_seconds": 136,
+      "cover": "http://i1.hdslb.com/bfs/archive/923681b3294b38aa6199310f2d55918f743254a6.jpg",
+      "note": "交通安全知识科普，面向小学生，家长可共看",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1q5iwb7evd",
       "source": "bilibili",
       "bvid": "BV1Q5iwB7Evd",
@@ -888,6 +2176,147 @@
         "theme": [
           "music",
           "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1qjhpzwep6",
+      "source": "bilibili",
+      "bvid": "BV1QJHpzWEP6",
+      "title": "水杯里哪来电池？吃了纽扣电池会怎么样？",
+      "up": "怪逗逗小舞台",
+      "duration_seconds": 160,
+      "cover": "http://i0.hdslb.com/bfs/archive/3c15bcab093bf36ccbeb01018f88fae9bfc7aa4b.jpg",
+      "note": "纽扣电池误食危害安全科普；建议家长陪同",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life",
+          "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1qn411u7ti",
+      "source": "bilibili",
+      "bvid": "BV1QN411U7ti",
+      "title": "粤语讲故事读绘本《牙婆婆》",
+      "up": "延仔爸爸粤语讲故事",
+      "duration_seconds": 340,
+      "cover": "http://i2.hdslb.com/bfs/archive/c9b0b6c3279862aa38aa0869f7efdb699fea451a.jpg",
+      "note": "粤语绘本引导刷牙习惯，健康有趣",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1qehnedezh",
+      "source": "bilibili",
+      "bvid": "BV1QeHnedEzh",
+      "title": "幼儿手指操~小朋友不可以去河边玩耍",
+      "up": "天一教育Amy老师",
+      "duration_seconds": 61,
+      "cover": "http://i2.hdslb.com/bfs/archive/78cc05732fe57809c2b4fec9d10163e0dbaf502b.jpg",
+      "note": "手指操教防溺水安全常识",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1qh411v7e6",
+      "source": "bilibili",
+      "bvid": "BV1Qh411V7E6",
+      "title": "全10集 老师推荐的必看【昆虫记】有效拓展孩子的科普知识",
+      "up": "幼小初高学习资源",
+      "duration_seconds": 6297,
+      "cover": "http://i0.hdslb.com/bfs/archive/8d5d616d94a0dd6367540c4c042ed3885f8d3490.png",
+      "note": "昆虫记科普动画合集，拓展昆虫知识",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "nature"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1qicvboetx",
+      "source": "bilibili",
+      "bvid": "BV1QiCvBoEtX",
+      "title": "【DK儿童百科动画】48集全 | 儿童自然科学启蒙从这里开始！",
+      "up": "柚子优学社",
+      "duration_seconds": 24462,
+      "cover": "http://i1.hdslb.com/bfs/archive/bd6da70753e010b7c4d49e2f71427082231501b2.jpg",
+      "note": "DK儿童百科动画，自然科学启蒙合集",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "nature"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1r841147zr",
+      "source": "bilibili",
+      "bvid": "BV1R841147ZR",
+      "title": "这是火星探测｜未来的梦想，登陆火星！",
+      "up": "阿嘟白泽",
+      "duration_seconds": 365,
+      "cover": "http://i1.hdslb.com/bfs/archive/f91a6760a3568cbbde2aef27f36ac1b11b74b772.jpg",
+      "note": "动画讲火星探测与航天科普，童趣易懂",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "animation"
         ]
       },
       "added_at": "2026-11-06"
@@ -939,6 +2368,51 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1rv4y1y7x4",
+      "source": "bilibili",
+      "bvid": "BV1RV4y1y7X4",
+      "title": "100集全【讲给孩子的成语故事】国学趣味动画故事 小学成语典故",
+      "up": "王子麻麻_wzmm117",
+      "duration_seconds": 30965,
+      "cover": "http://i2.hdslb.com/bfs/archive/8c67b44b5763d03ad9f8041ee5d66cb171e2391c.png",
+      "note": "成语典故趣味动画，贴近小学认知；建议增设人文主题",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1rt4y1a7xc",
+      "source": "bilibili",
+      "bvid": "BV1Rt4y1a7xc",
+      "title": "英国专门为儿童制作的瑜珈节目  A Cosmic Kids Yoga Adventure!",
+      "up": "果妈说",
+      "duration_seconds": 17275,
+      "cover": "http://i1.hdslb.com/bfs/archive/c4fc0fa9884e335496b484755f485ac1dcd28018.jpg",
+      "note": "英文儿童瑜伽故事合集，运动兼英语启蒙，建议增设体育主题",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "life",
+          "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1sa411p7re",
       "source": "bilibili",
       "bvid": "BV1SA411P7re",
@@ -956,6 +2430,51 @@
         ],
         "theme": [
           "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1sg411w7bn",
+      "source": "bilibili",
+      "bvid": "BV1SG411W7Bn",
+      "title": "《棒棒糖》奥尔夫音乐律动完整版，可锻炼身体协调性，节奏感等。",
+      "up": "罗哈哈210",
+      "duration_seconds": 99,
+      "cover": "http://i0.hdslb.com/bfs/archive/c679aacc16fc8042404f7c5201010ce7953e0896.jpg",
+      "note": "奥尔夫律动，锻炼节奏与身体协调",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1sb4y117zw",
+      "source": "bilibili",
+      "bvid": "BV1Sb4y117ZW",
+      "title": "宝宝巴士启蒙音乐剧之疯狂怪兽车   儿歌 动画 幼儿 玩具汽车",
+      "up": "宝宝巴士BabyBus",
+      "duration_seconds": 6829,
+      "cover": "http://i1.hdslb.com/bfs/archive/c240824506c052f37a0ca25de5e46c2eb3a98493.jpg",
+      "note": "怪兽车救援动画音乐剧，官方幼儿向",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "animation"
         ]
       },
       "added_at": "2026-11-06"
@@ -1008,6 +2527,76 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1tr4y1j7cy",
+      "source": "bilibili",
+      "bvid": "BV1TR4y1J7cY",
+      "title": "宝宝巴士启蒙音乐剧职业体验   儿歌  早教",
+      "up": "宝宝巴士BabyBus",
+      "duration_seconds": 4949,
+      "cover": "http://i2.hdslb.com/bfs/archive/1b695f8ddbad8cfee4a4b749691d969013e3d717.jpg",
+      "note": "职业体验音乐剧，认知社会角色与职业理想",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "animation",
+          "social"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1tu4y1y7ag",
+      "source": "bilibili",
+      "bvid": "BV1TU4y1y7ag",
+      "title": "帅小伙用水和淀粉自制非牛顿流体，据说吃软不吃硬？这是真的吗？",
+      "up": "未闻实验室",
+      "duration_seconds": 185,
+      "cover": "http://i1.hdslb.com/bfs/archive/f243a305137143d554f2ecb5d314ffd12a106dea.jpg",
+      "note": "非牛顿流体动手实验演示",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1tx411i7dm",
+      "source": "bilibili",
+      "bvid": "BV1Tx411i7dM",
+      "title": "【经典动画】中国成语故事动画版(365篇已收录364篇)",
+      "up": "康康Loong",
+      "duration_seconds": 46515,
+      "cover": "http://i1.hdslb.com/bfs/archive/85ea39d524c93cc8ebe521b9db2d7792eb5e4d83.png",
+      "note": "央视经典成语故事动画，建议增设人文主题",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1u7oqyrekr",
       "source": "bilibili",
       "bvid": "BV1U7oQYrEkR",
@@ -1053,6 +2642,118 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1ug411m7j6",
+      "source": "bilibili",
+      "bvid": "BV1UG411M7j6",
+      "title": "怎么样安全坐电梯呢？熊猫姐姐儿童益智早教儿歌动画片",
+      "up": "熊猫姐姐早教",
+      "duration_seconds": 89,
+      "cover": "http://i2.hdslb.com/bfs/archive/9034124d613e723b30a14af205b25c5628aa80f8.jpg",
+      "note": "安全坐电梯习惯启蒙动画，内容健康",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1uk4y1r7ob",
+      "source": "bilibili",
+      "bvid": "BV1UK4y1r7ob",
+      "title": "【绘本】宫西达也·哒哒哒，爸爸超人",
+      "up": "商老师讲故事",
+      "duration_seconds": 572,
+      "cover": "http://i0.hdslb.com/bfs/archive/7837609aa41994ca6849fe682cd991783f8971b0.jpg",
+      "note": "宫西达也爸爸超人绘本，亲子温情",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1ud4y1k77v",
+      "source": "bilibili",
+      "bvid": "BV1Ud4y1K77V",
+      "title": "【幼儿识字】识字启蒙动画 | 40集全 | 轻松掌握小学阶段必会1000字！",
+      "up": "北京新东方少儿成长站",
+      "duration_seconds": 28327,
+      "cover": "http://i2.hdslb.com/bfs/archive/8e545c9bd5bd6d881143825675889f49867beb76.png",
+      "note": "识字启蒙动画，建议增设人文主题",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1vp4y1z74u",
+      "source": "bilibili",
+      "bvid": "BV1VP4y1Z74u",
+      "title": "兔小贝儿歌中文童谣版 对数歌",
+      "up": "兔小贝儿童",
+      "duration_seconds": 177,
+      "cover": "http://i0.hdslb.com/bfs/archive/718c8a959d690b2a1088dc52c5533a0bb3efc595.jpg",
+      "note": "官方数字对歌童谣，数数启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "math"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1vb1zyue9h",
+      "source": "bilibili",
+      "bvid": "BV1Vb1ZYuE9h",
+      "title": "【趣味儿童瑜伽】矫正体态 促进生长 平衡情绪 ✨快乐亲子时光 | Yue Yoga",
+      "up": "YoginiYue",
+      "duration_seconds": 862,
+      "cover": "http://i1.hdslb.com/bfs/archive/0b2bd1a37ce813fab09a6ea41be98bc32b5223e6.jpg",
+      "note": "儿童趣味瑜伽健身，建议增设体育主题",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1w441127ug",
       "source": "bilibili",
       "bvid": "BV1W441127UG",
@@ -1070,6 +2771,76 @@
         ],
         "theme": [
           "music"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1w6xnbceiy",
+      "source": "bilibili",
+      "bvid": "BV1W6XnBcEiY",
+      "title": "蛀牙是怎么形成的？| 预防龋齿，从看懂开始【斑马百科·揭秘疾病】",
+      "up": "斑马百科",
+      "duration_seconds": 193,
+      "cover": "http://i0.hdslb.com/bfs/archive/8c48fd0bfb0bdf7d703e8935e7a213959631d2a3.jpg",
+      "note": "龋齿成因与预防科普；出品方为斑马品牌",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1wr4y1g7xh",
+      "source": "bilibili",
+      "bvid": "BV1WR4y1G7xH",
+      "title": "儿歌多多儿童儿歌 我们都是好朋友 情商启蒙儿歌 一起来做好朋友",
+      "up": "儿歌多多live",
+      "duration_seconds": 84,
+      "cover": "http://i1.hdslb.com/bfs/archive/cbab5647953d7931b843d1f4dc056b218c80ee27.jpg",
+      "note": "情商启蒙儿歌，友谊社交主题，低幼友好",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "social"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1wv4y117vh",
+      "source": "bilibili",
+      "bvid": "BV1WV4y117vh",
+      "title": "《屁屁侦探——怪盗现身》（绘本故事）",
+      "up": "汐沫哎",
+      "duration_seconds": 533,
+      "cover": "http://i1.hdslb.com/bfs/archive/9390554fc3d0bef94c9de0815e9123a495942167.jpg",
+      "note": "屁屁侦探绘本讲读，幼儿推理故事",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
         ]
       },
       "added_at": "2026-11-06"
@@ -1141,6 +2912,28 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1xuoubaenv",
+      "source": "bilibili",
+      "bvid": "BV1XUoUBAEnv",
+      "title": "我的世界方块大冒险！史蒂夫带你冲｜沉浸式互动热身｜儿童运动｜课前热身｜亲子运动｜儿童跑酷",
+      "up": "小朋友爱运动呀",
+      "duration_seconds": 497,
+      "cover": "http://i0.hdslb.com/bfs/archive/207531a87bfbb2b34c5cf228abf48852ffb13a72.jpg",
+      "note": "我的世界主题互动跑酷热身，建议增设体育主题",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1xy411j7ag",
       "source": "bilibili",
       "bvid": "BV1XY411J7aG",
@@ -1179,6 +2972,52 @@
           "zh"
         ],
         "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1xe4y1d7av",
+      "source": "bilibili",
+      "bvid": "BV1Xe4y1d7av",
+      "title": "儿歌多多儿童儿歌 拼音歌 宝宝拼音启蒙 看动画唱拼音",
+      "up": "儿歌多多live",
+      "duration_seconds": 127,
+      "cover": "http://i0.hdslb.com/bfs/archive/80521d6094df61905654d2dcee73fe1b7ed1d1de.jpg",
+      "note": "拼音儿歌启蒙，建议增设人文主题",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1xt411s7ze",
+      "source": "bilibili",
+      "bvid": "BV1Xt411s7Ze",
+      "title": "37【婷婷唱古文】-汉乐府《江南》-中小学必背古诗词",
+      "up": "婷婷姐姐唱古诗",
+      "duration_seconds": 138,
+      "cover": "http://i0.hdslb.com/bfs/archive/0ffd237a83b31f80e3f3bc3ab42cb1a154be37cb.jpg",
+      "note": "唱学汉乐府江南，建议增设人文主题",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
           "story"
         ]
       },
@@ -1277,6 +3116,50 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1za411f7hr",
+      "source": "bilibili",
+      "bvid": "BV1ZA411F7hr",
+      "title": "越玩越聪明的儿童数独训练课",
+      "up": "圆滚滚与长条儿",
+      "duration_seconds": 10582,
+      "cover": "http://i2.hdslb.com/bfs/archive/3f07ae952012bbf7426dc24b5e42cb347581d133.png",
+      "note": "儿童数独训练课，益智逻辑",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "math"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1zt411u7t4",
+      "source": "bilibili",
+      "bvid": "BV1ZT411u7t4",
+      "title": "在家就能陪孩子边做边学习的小实验，开拓孩子思维！",
+      "up": "创意科学a",
+      "duration_seconds": 72,
+      "cover": "http://i1.hdslb.com/bfs/archive/8cf31ca86ef7161e00d7dc3d007311209ba59d41.jpg",
+      "note": "居家亲子小实验，边做边学",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1zm4y1t7ax",
       "source": "bilibili",
       "bvid": "BV1Zm4y1t7AX",
@@ -1294,6 +3177,30 @@
         ],
         "theme": [
           "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1a94y1v7rk",
+      "source": "bilibili",
+      "bvid": "BV1a94y1V7rk",
+      "title": "地球上的顶级饭局，各国国宴都吃什么？",
+      "up": "赛雷三分钟",
+      "duration_seconds": 440,
+      "cover": "http://i2.hdslb.com/bfs/archive/f6bedd3521991df6c87692c6b17ec11185c19bd9.jpg",
+      "note": "各国国宴文化科普，亲子可看，建议增设人文主题",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "animation"
         ]
       },
       "added_at": "2026-11-06"
@@ -1317,6 +3224,51 @@
         "theme": [
           "craft",
           "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1arzabvenh",
+      "source": "bilibili",
+      "bvid": "BV1aRzaBVENH",
+      "title": "单位大战：米字辈之争！",
+      "up": "土豆逗严肃科普",
+      "duration_seconds": 85,
+      "cover": "http://i0.hdslb.com/bfs/archive/85ab0951e6838edd45190283ff36e1ab8eb6112e.jpg",
+      "note": "长度单位科普动画，属数学度量启蒙",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "math"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1ab6gbpegr",
+      "source": "bilibili",
+      "bvid": "BV1ab6GBpEgr",
+      "title": "《小红和小黄》宫西达也，小卡车系列绘本动画。",
+      "up": "醒醒绘本",
+      "duration_seconds": 227,
+      "cover": "http://i2.hdslb.com/bfs/archive/e22026376fa751accd0e74850b20f89a73ef4ef2.jpg",
+      "note": "宫西达也小卡车系列绘本动画，健康童趣",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "animation"
         ]
       },
       "added_at": "2026-11-06"
@@ -1485,6 +3437,30 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1c54y197ns",
+      "source": "bilibili",
+      "bvid": "BV1c54y197ns",
+      "title": "5 分钟教孩子保护身体隐私部位，3-10 岁的小朋友和家长都值得了解！ | 刺猬来也儿童性教育",
+      "up": "刺猬来也",
+      "duration_seconds": 313,
+      "cover": "http://i2.hdslb.com/bfs/archive/1844294f761cfb81e0e95d09b117d74bc77c5f82.jpg",
+      "note": "原创儿童性教育动画，内容权威，建议家长陪同",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life",
+          "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1c64y1k7n6",
       "source": "bilibili",
       "bvid": "BV1c64y1k7N6",
@@ -1524,6 +3500,76 @@
         ],
         "theme": [
           "craft"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1ct2mysemb",
+      "source": "bilibili",
+      "bvid": "BV1ct2MYSEmB",
+      "title": "【全200集】深海奇观儿童科普纪录片 探索海洋奥秘 每天5分钟 让孩子的知识像海洋一样深邃",
+      "up": "动画学霸",
+      "duration_seconds": 2389,
+      "cover": "http://i1.hdslb.com/bfs/archive/3fd0566c20fcb008c6aaee3cc2473c9cf46dd568.png",
+      "note": "深海科普纪录片合集，内容健康，网络搬运建议人工复核",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "nature"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1d4zkbge67",
+      "source": "bilibili",
+      "bvid": "BV1d4zkBGE67",
+      "title": "中文版【科学小子席德】全66集 | 经典儿童科学启蒙动画",
+      "up": "柚子优学社",
+      "duration_seconds": 109204,
+      "cover": "http://i1.hdslb.com/bfs/archive/527b8ad1c0e336200059dd2771345060592a42a4.jpg",
+      "note": "经典幼儿科学启蒙动画中文版，趣味实验",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1eh4y1c7ao",
+      "source": "bilibili",
+      "bvid": "BV1eh4y1c7ao",
+      "title": "这是台风｜科普关于“台风”的知识",
+      "up": "阿嘟白泽",
+      "duration_seconds": 428,
+      "cover": "http://i1.hdslb.com/bfs/archive/fa4cf31b2bef03b5aa5c38b9903ada09ca60afdb.jpg",
+      "note": "儿童科普动画讲台风成因与防护，专家审校",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "animation"
         ]
       },
       "added_at": "2026-11-06"
@@ -1575,6 +3621,52 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1fq4y1k7mz",
+      "source": "bilibili",
+      "bvid": "BV1fQ4y1k7MZ",
+      "title": "宝宝巴士启蒙音乐剧之美食总动员  儿歌动画 全集 超有食欲",
+      "up": "宝宝巴士BabyBus",
+      "duration_seconds": 6889,
+      "cover": "http://i0.hdslb.com/bfs/archive/4be09a9984fa0c47ec5e7203fb4c4449474310c3.jpg",
+      "note": "美食拟人音乐剧，颜色数字形状认知",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1fr4y1s7y9",
+      "source": "bilibili",
+      "bvid": "BV1fR4y1s7Y9",
+      "title": "宝宝巴士数学小课堂",
+      "up": "宝宝巴士BabyBus",
+      "duration_seconds": 5607,
+      "cover": "http://i0.hdslb.com/bfs/archive/293aae3671499dd40fac023d841accf8de59ab0c.jpg",
+      "note": "宝宝巴士数学情景启蒙动画",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "math",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1fv411h7vk",
       "source": "bilibili",
       "bvid": "BV1fV411H7VK",
@@ -1619,6 +3711,50 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1fc411w7pu",
+      "source": "bilibili",
+      "bvid": "BV1fc411W7pu",
+      "title": "全46集《十万个为什么》儿童版 科普启蒙 满足孩子好奇心 解锁新问题",
+      "up": "米姐与子鱼",
+      "duration_seconds": 2498,
+      "cover": "http://i1.hdslb.com/bfs/archive/53fdb898b502fd96b3ae9396bb99e6bde8c78110.png",
+      "note": "十万个为什么儿童科普问答合集，启蒙向",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1g4411c7lc",
+      "source": "bilibili",
+      "bvid": "BV1g4411c7LC",
+      "title": "《三字经》诵读完整版！诵读+注音+全文，孩子听了上瘾，一学就会",
+      "up": "yivck晨蓓",
+      "duration_seconds": 720,
+      "cover": "http://i1.hdslb.com/bfs/archive/192a84b785639b4caa9a8902c974f761481497e7.jpg",
+      "note": "三字经诵读注音全文，建议增设人文主题",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1gp411z7ke",
       "source": "bilibili",
       "bvid": "BV1gP411z7kE",
@@ -1637,6 +3773,123 @@
         ],
         "theme": [
           "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1gb411a7pv",
+      "source": "bilibili",
+      "bvid": "BV1gb411A7Pv",
+      "title": "亲宝儿歌 刷牙歌 经典儿歌",
+      "up": "亲宝儿歌动画",
+      "duration_seconds": 136,
+      "cover": "http://i0.hdslb.com/bfs/archive/avsas_i181105tx1xxeonlyy778397vt9amk9u_0008.jpg",
+      "note": "经典刷牙儿歌，卫生习惯启蒙",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1go4y1x74d",
+      "source": "bilibili",
+      "bvid": "BV1go4y1X74d",
+      "title": "欢快的《刷牙歌》健康好习惯，小朋友今天你刷牙了吗？一起来刷牙",
+      "up": "QiQi成长记",
+      "duration_seconds": 78,
+      "cover": "http://i1.hdslb.com/bfs/archive/fcc76c1fbfa83181196f7249a19b644e81a49bc3.jpg",
+      "note": "刷牙习惯养成儿歌，低幼友好",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1gq421w7cr",
+      "source": "bilibili",
+      "bvid": "BV1gq421w7Cr",
+      "title": "幼儿古诗手势舞",
+      "up": "宝贝学古诗",
+      "duration_seconds": 66,
+      "cover": "http://i1.hdslb.com/bfs/archive/81baa26de6514d3d9bb91afadec5a705790ecf83.jpg",
+      "note": "幼儿古诗手势舞动作助记，建议增设人文主题",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1grpqejeyd",
+      "source": "bilibili",
+      "bvid": "BV1grpQejEYD",
+      "title": "讲给孩子的汉字故事20集（完结）",
+      "up": "YouTube精选课程",
+      "duration_seconds": 8474,
+      "cover": "http://i1.hdslb.com/bfs/archive/8bc598fa2be7911fbafece73fbc5855e174e0fa0.jpg",
+      "note": "讲给孩子的汉字故事，建议增设人文主题",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1gt411a7ad",
+      "source": "bilibili",
+      "bvid": "BV1gt411a7Ad",
+      "title": "50【婷婷唱古文】-南北朝《木兰辞》-中小学必背古诗词",
+      "up": "婷婷姐姐唱古诗",
+      "duration_seconds": 378,
+      "cover": "http://i2.hdslb.com/bfs/archive/63bdd1f9a7b64c275b834999a096fc3d858906a7.jpg",
+      "note": "唱学木兰辞，建议增设人文主题",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "story"
         ]
       },
       "added_at": "2026-11-06"
@@ -1689,6 +3942,52 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1gxvpbqebd",
+      "source": "bilibili",
+      "bvid": "BV1gxvpBqEBd",
+      "title": "人类竟主动感染病毒？",
+      "up": "土豆逗严肃科普",
+      "duration_seconds": 101,
+      "cover": "http://i1.hdslb.com/bfs/archive/3bb7c69e04ec9e5af7464ed1fa10724beb814b18.jpg",
+      "note": "天花疫苗原理科普动画，内容健康",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1hdprzjemi",
+      "source": "bilibili",
+      "bvid": "BV1hDpRzjEMi",
+      "title": "我会上厕所🚽  宝宝生活自理训练幼儿习惯培养快乐成长启蒙亲子互动儿歌🎶  宝贝多米",
+      "up": "中文儿歌・卡通动画",
+      "duration_seconds": 2606,
+      "cover": "http://i2.hdslb.com/bfs/archive/8c8f1017e430938cc7a214507a1cc372874773a0.jpg",
+      "note": "如厕训练儿歌合集，生活自理启蒙；合集时长无关",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1hm421g74f",
       "source": "bilibili",
       "bvid": "BV1hm421g74F",
@@ -1707,6 +4006,98 @@
         "theme": [
           "music",
           "math"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1hrnpzyexj",
+      "source": "bilibili",
+      "bvid": "BV1hrnPzYEXj",
+      "title": "《好饿的小蛇》宫西达也，有趣的儿童绘本",
+      "up": "醒醒绘本",
+      "duration_seconds": 159,
+      "cover": "http://i2.hdslb.com/bfs/archive/493466653e344607806c02c36b98c38a607db228.jpg",
+      "note": "低幼趣味绘本，纯粹快乐阅读体验",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1i5411z7pz",
+      "source": "bilibili",
+      "bvid": "BV1i5411z7pz",
+      "title": "大多数人一辈子也不会去的地方，国界长什么样子？",
+      "up": "赛雷三分钟",
+      "duration_seconds": 538,
+      "cover": "http://i0.hdslb.com/bfs/archive/6196bc21444f9303807f73f01cd68c90ff93a4bc.jpg",
+      "note": "人文地理科普讲国界，建议增设人文主题",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1ij411p77a",
+      "source": "bilibili",
+      "bvid": "BV1iJ411P77A",
+      "title": "【男幼师】《我是一颗跳跳糖》幼儿律动舞，需要的老师快去学吧",
+      "up": "有梦想的苹果哥哥",
+      "duration_seconds": 171,
+      "cover": "http://i1.hdslb.com/bfs/archive/c3187e605f9477615b0336057782a47c8fe94073.jpg",
+      "note": "幼儿律动舞，幼师演示可跟学",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1ip411b7gr",
+      "source": "bilibili",
+      "bvid": "BV1iP411b7GR",
+      "title": "记住这三点，预防食物中毒 | 生活中的好习惯",
+      "up": "朱妮托尼儿歌",
+      "duration_seconds": 174,
+      "cover": "http://i1.hdslb.com/bfs/archive/20f34d4d92d8b5728b880cd288c24443db11ce33.jpg",
+      "note": "食物中毒预防儿歌，卫生习惯启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "life"
         ]
       },
       "added_at": "2026-11-06"
@@ -1734,6 +4125,29 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1ithn6yegw",
+      "source": "bilibili",
+      "bvid": "BV1ithn6YEGw",
+      "title": "【地理·必知必会~中国篇】100个核心知识(全集)丨中国地理科普【建议收藏】",
+      "up": "惊叹号的儿童世界",
+      "duration_seconds": 2918,
+      "cover": "http://i1.hdslb.com/bfs/archive/23b26a993e2a30c61bde5845c71b71667d7cae53.jpg",
+      "note": "中国地理100核心知识点，系统化讲解",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "nature"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1jp4y177rf",
       "source": "bilibili",
       "bvid": "BV1jP4y177RF",
@@ -1756,6 +4170,29 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1js8i66e39",
+      "source": "bilibili",
+      "bvid": "BV1jS8i66E39",
+      "title": "【好习惯养成】幼儿情商启蒙 | 20集全 | 绘本故事 睡前故事 高情商影响孩子一生",
+      "up": "啷哩叽啷哩",
+      "duration_seconds": 6650,
+      "cover": "http://i0.hdslb.com/bfs/archive/a3a0215bc2a09a3136c5ebc5b1655995d535b187.jpg",
+      "note": "20集情商启蒙动画合集，每集短小；简介含求赞话术待复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "social",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1jz4y1x79g",
       "source": "bilibili",
       "bvid": "BV1jZ4y1x79g",
@@ -1773,6 +4210,76 @@
         ],
         "theme": [
           "craft"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1kk411p7xa",
+      "source": "bilibili",
+      "bvid": "BV1kK411p7XA",
+      "title": "儿歌多多儿童舞蹈 小手拍拍 亲子舞蹈帮助儿童开发身体 益智早教",
+      "up": "儿歌多多live",
+      "duration_seconds": 121,
+      "cover": "http://i2.hdslb.com/bfs/archive/b4397793ea438c8cc25087bf28ea2cea081edf93.jpg",
+      "note": "亲子律动儿歌舞蹈，益智早教",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1kt4y1h71t",
+      "source": "bilibili",
+      "bvid": "BV1kt4y1h71T",
+      "title": "儿歌多多国学三字经 人之初 性本善 宝宝看动画 唱传统文化",
+      "up": "儿歌多多live",
+      "duration_seconds": 92,
+      "cover": "http://i0.hdslb.com/bfs/archive/376cdd7841e57e3238d959141e041e8425702cf0.jpg",
+      "note": "三字经儿歌国学启蒙，建议增设人文主题",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1kuzmbdevx",
+      "source": "bilibili",
+      "bvid": "BV1kuzMBdEvx",
+      "title": "这是“感冒”｜感冒到底是什么？病毒是怎么钻进身体的？",
+      "up": "阿嘟白泽",
+      "duration_seconds": 444,
+      "cover": "http://i0.hdslb.com/bfs/archive/95ad8af131a67e21b6fea76feca71a3f0dbd70c8.jpg",
+      "note": "动画讲感冒与免疫原理，健康科普启蒙",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "animation"
         ]
       },
       "added_at": "2026-11-06"
@@ -1824,6 +4331,51 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1ml411y7er",
+      "source": "bilibili",
+      "bvid": "BV1mL411Y7eR",
+      "title": "儿童武术韵律操《功夫》完整版，动作简单易学，适合课间操节目表演",
+      "up": "学前班小马哥",
+      "duration_seconds": 186,
+      "cover": "http://i1.hdslb.com/bfs/archive/5d3253cd44e8063bc58711421bc788a59e663b57.jpg",
+      "note": "儿童武术韵律操，建议增设体育主题",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1mr4y1e7go",
+      "source": "bilibili",
+      "bvid": "BV1mR4y1E7go",
+      "title": "宝宝巴士之奇妙救援队  儿童动画 冒险科普故事  Babybus",
+      "up": "宝宝巴士BabyBus",
+      "duration_seconds": 7087,
+      "cover": "http://i2.hdslb.com/bfs/archive/06be1a7497ba3e3bbde14f8f727266702ea11421.jpg",
+      "note": "安全教育救援动画合集，儿童向冒险科普",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1mz4y1d7c6",
       "source": "bilibili",
       "bvid": "BV1mZ4y1d7C6",
@@ -1835,6 +4387,28 @@
       "tags": {
         "age": [
           "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1ma411z73h",
+      "source": "bilibili",
+      "bvid": "BV1ma411Z73H",
+      "title": "【拼音启蒙】看动画 识拼音 | 20集全 | 轻松掌握拼音",
+      "up": "北京新东方少儿成长站",
+      "duration_seconds": 12011,
+      "cover": "http://i1.hdslb.com/bfs/archive/113034e61a972e9430c63c36ae53d2dd26ddb5cb.jpg",
+      "note": "拼音启蒙动画，建议增设人文主题",
+      "tags": {
+        "age": [
+          "3-6"
         ],
         "language": [
           "zh"
@@ -1893,6 +4467,28 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1ng411i7d5",
+      "source": "bilibili",
+      "bvid": "BV1ng411i7D5",
+      "title": "60集全【儿童简笔画】儿童简笔画启蒙 名师教你学简笔画",
+      "up": "陈陈资源百宝箱",
+      "duration_seconds": 53956,
+      "cover": "http://i0.hdslb.com/bfs/archive/06c31f3b0aaaa5366193540a383d22b132fc9824.png",
+      "note": "儿童简笔画启蒙教程合集，网络搬运建议人工复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1nknz6pepk",
       "source": "bilibili",
       "bvid": "BV1nknZ6pEpk",
@@ -1912,6 +4508,121 @@
           "math",
           "animation",
           "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1nv411w7ek",
+      "source": "bilibili",
+      "bvid": "BV1nv411w7Ek",
+      "title": "宝宝巴士启蒙音乐剧好习惯养成  高清 儿童 儿歌音乐",
+      "up": "宝宝巴士BabyBus",
+      "duration_seconds": 5265,
+      "cover": "http://i2.hdslb.com/bfs/archive/08cc3d5c4ee140e189ecf037d81b6839873eec7a.jpg",
+      "note": "官方习惯养成音乐剧，生活礼貌安全教育",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1nw411q7jb",
+      "source": "bilibili",
+      "bvid": "BV1nw411q7Jb",
+      "title": "非遗二十四节气——美劳手工/幼儿美劳手工/儿童手工",
+      "up": "益智非遗手工创客",
+      "duration_seconds": 3638,
+      "cover": "http://i1.hdslb.com/bfs/archive/d19270000329e3c1c688755352953d0cd0fe2d3f.png",
+      "note": "非遗节气幼儿美劳手工教学",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1o84y1x7ou",
+      "source": "bilibili",
+      "bvid": "BV1o84y1X7oU",
+      "title": "【全212集】孩子一看就涨知识的儿童科普纪录片（宇宙篇）适合3-15岁朋友观看",
+      "up": "妞妞妈爱分享",
+      "duration_seconds": 4570,
+      "cover": "http://i2.hdslb.com/bfs/archive/eb85c9e71e83ea3a0aff840d974fe8b3413c0c22.jpg",
+      "note": "宇宙科普纪录片合集，内容健康，网络搬运建议人工复核",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1oc411p7rh",
+      "source": "bilibili",
+      "bvid": "BV1oC411p7rh",
+      "title": "制作史上最强三叶回旋镖，只需一张纸就能折！折法简单，真实回旋！超适合亲子户外玩耍。",
+      "up": "x小小欺负乖乖x",
+      "duration_seconds": 160,
+      "cover": "http://i2.hdslb.com/bfs/archive/32cfc7c319cf969d62d773f1256b506a22cdbb15.jpg",
+      "note": "折纸回旋镖教程，适合亲子户外",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1oh4y1x7nv",
+      "source": "bilibili",
+      "bvid": "BV1oH4y1X7Nv",
+      "title": "儿童儿歌 刷牙歌 做个讲卫生的好宝宝-儿歌多多出品",
+      "up": "儿歌多多live",
+      "duration_seconds": 103,
+      "cover": "http://i0.hdslb.com/bfs/archive/7e687c243c2d460ad064a3c5d6dc47300276fd74.jpg",
+      "note": "刷牙卫生习惯儿歌，低幼友好",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "life"
         ]
       },
       "added_at": "2026-11-06"
@@ -1962,6 +4673,53 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1p7kfzqezs",
+      "source": "bilibili",
+      "bvid": "BV1p7KfzqEZs",
+      "title": "DK儿童百科全书-动画版（1080P超清普通话48集）",
+      "up": "杰克船长爸爸爱学习",
+      "duration_seconds": 23110,
+      "cover": "http://i0.hdslb.com/bfs/archive/3f91695290eb7154ffbd4e7d6a285e4f7a18503b.jpg",
+      "note": "DK百科普通话动画版，科普启蒙合集",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "nature"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1p8wkzkelx",
+      "source": "bilibili",
+      "bvid": "BV1p8WkzKELx",
+      "title": "【🎵古诗儿歌串烧12首 连续播放｜宝宝启蒙第一课！咏鹅+春晓+望庐山瀑布… 】",
+      "up": "泡泡列车",
+      "duration_seconds": 2059,
+      "cover": "http://i2.hdslb.com/bfs/archive/71da93ce3eabb29281db0aeb1358fb9b27934e2f.jpg",
+      "note": "古诗儿歌串烧幼儿启蒙，建议增设人文主题",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1pl41137rq",
       "source": "bilibili",
       "bvid": "BV1pL41137rQ",
@@ -1979,6 +4737,30 @@
         ],
         "theme": [
           "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1pq4y1r7q2",
+      "source": "bilibili",
+      "bvid": "BV1pq4y1R7Q2",
+      "title": "宝宝巴士儿歌合集 3D版   益智动画 儿童  我的宝藏音乐歌单  Babybus",
+      "up": "宝宝巴士BabyBus",
+      "duration_seconds": 26914,
+      "cover": "http://i1.hdslb.com/bfs/archive/7157c2950d2f14df17f43a9baae23d6b1b7d2495.jpg",
+      "note": "官方3D儿歌大合集，经典加原创，寓教于乐",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "animation"
         ]
       },
       "added_at": "2026-11-06"
@@ -2008,6 +4790,75 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1pz4y1n7yh",
+      "source": "bilibili",
+      "bvid": "BV1pz4y1n7YH",
+      "title": "粤语讲故事读绘本《公主怎么挖鼻屎》",
+      "up": "延仔爸爸粤语讲故事",
+      "duration_seconds": 181,
+      "cover": "http://i2.hdslb.com/bfs/archive/d8a1800d0cc9a9cee35b10e9f6cc39bc265fb5ee.jpg",
+      "note": "粤语讲卫生习惯绘本，童趣健康；语言为粤语",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1qt411d7pr",
+      "source": "bilibili",
+      "bvid": "BV1qt411d7PR",
+      "title": "【婷婷唱古文】-乐府诗《长歌行》-中小学必背古诗词",
+      "up": "婷婷姐姐唱古诗",
+      "duration_seconds": 232,
+      "cover": "http://i2.hdslb.com/bfs/archive/c7bf0faf289d214bf1376efb2266d468660f07e1.jpg",
+      "note": "唱学乐府长歌行，建议增设人文主题",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1qv4y1e71s",
+      "source": "bilibili",
+      "bvid": "BV1qv4y1E71S",
+      "title": "【低幼儿童的纪录片】《If I were an Animal 假如我是一只动物》英语合集13集+国语52集  被萌到了，可以刷一百遍",
+      "up": "依荷社",
+      "duration_seconds": 33517,
+      "cover": "http://i0.hdslb.com/bfs/archive/991f26d950910ef1fa4ca071fe727a0d56294087.png",
+      "note": "动物科普纪录片，中英双语合集，童趣旁白，搬运源建议人工复核",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "nature"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1qxbibrenm",
       "source": "bilibili",
       "bvid": "BV1qxBiBRENm",
@@ -2030,6 +4881,29 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1r1xjeqeau",
+      "source": "bilibili",
+      "bvid": "BV1r1xjeqEAu",
+      "title": "喷泉“暗藏杀机”，别再放任你的孩子在泉口玩耍！",
+      "up": "迈高数字",
+      "duration_seconds": 76,
+      "cover": "http://i0.hdslb.com/bfs/archive/2fd1c188f86bfc88235a9250fe16729d92b6ae43.jpg",
+      "note": "喷泉安全隐患警示动画，建议家长陪同观看",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1r54y1m7gd",
       "source": "bilibili",
       "bvid": "BV1r54y1m7gd",
@@ -2047,6 +4921,28 @@
         ],
         "theme": [
           "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1rs4y1m7wr",
+      "source": "bilibili",
+      "bvid": "BV1rS4y1m7wR",
+      "title": "中文版 儿童记录片《小小人类星球》05",
+      "up": "可耐的学习助理",
+      "duration_seconds": 276,
+      "cover": "http://i0.hdslb.com/bfs/archive/a8d874a20c0c2539586ac98f06c3b1cab3843f31.jpg",
+      "note": "小小人类星球中文版，世界观启蒙，建议增设人文主题",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
         ]
       },
       "added_at": "2026-11-06"
@@ -2076,6 +4972,52 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1rv4y197xc",
+      "source": "bilibili",
+      "bvid": "BV1rV4y197XC",
+      "title": "儿童宇宙航天科普\\2、太阳系科普（14课）",
+      "up": "桃子妈爱分享",
+      "duration_seconds": 7872,
+      "cover": "http://i2.hdslb.com/bfs/archive/40cc8d91f3b5ea42c152151cfaec237c2a5df349.png",
+      "note": "太阳系成体系儿童科普课程",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1sqlk6keuw",
+      "source": "bilibili",
+      "bvid": "BV1sqLK6KEUw",
+      "title": "全104集中英字幕+台词本【治愈系英文动画】Pip and Posy 皮普和波西 英语启蒙的同时培养良好的情绪管理、品格教育与好习惯养成。",
+      "up": "哈佛学霸圈",
+      "duration_seconds": 4210,
+      "cover": "http://i0.hdslb.com/bfs/archive/468bdf8b1c548bb03aefd4ab96861ef74fe3b7ed.jpg",
+      "note": "英文动画配中英字幕，情绪管理与英语启蒙；无讲解故en",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "english",
+          "social"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1te41187py",
       "source": "bilibili",
       "bvid": "BV1tE41187pY",
@@ -2093,6 +5035,51 @@
         ],
         "theme": [
           "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1tp4y1m7dq",
+      "source": "bilibili",
+      "bvid": "BV1tP4y1M7Dq",
+      "title": "好玩易懂的太空类幼儿科普 宝宝巴士儿歌启蒙太空探秘",
+      "up": "宝宝巴士BabyBus",
+      "duration_seconds": 352,
+      "cover": "http://i1.hdslb.com/bfs/archive/cc11e903a081d4b0f10e23b863eefee98155abad.jpg",
+      "note": "宝宝巴士儿歌动画讲宇航太空，幼儿启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1tru16veby",
+      "source": "bilibili",
+      "bvid": "BV1tRu16vEbY",
+      "title": "幼儿园《侦探系列》64“未经允许勿乱动”要学会尊重他人的想法和喜好，不经允许不能直接上手",
+      "up": "学前班小马哥",
+      "duration_seconds": 107,
+      "cover": "http://i2.hdslb.com/bfs/archive/1ca6a2712df3e8444f57591e39e634651095bc44.jpg",
+      "note": "尊重他人边界社交启蒙，幼儿园情景剧",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "social"
         ]
       },
       "added_at": "2026-11-06"
@@ -2139,6 +5126,29 @@
         "theme": [
           "nature",
           "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1uv4y1k7xz",
+      "source": "bilibili",
+      "bvid": "BV1uv4y1k7XZ",
+      "title": "精读《好饿的毛毛虫》感受生命的成长/有趣科普/中文有声绘本/睡前故事",
+      "up": "朱朱老师绘本屋",
+      "duration_seconds": 284,
+      "cover": "http://i1.hdslb.com/bfs/archive/f40dbb1e68c42906d0702680c8298a2c92a3f958.jpg",
+      "note": "精读毛毛虫，含生命成长科普，适2-5岁",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
         ]
       },
       "added_at": "2026-11-06"
@@ -2192,6 +5202,28 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1vk7g6bexn",
+      "source": "bilibili",
+      "bvid": "BV1vK7G6BEXN",
+      "title": "中文绘本合集（中外有名的）",
+      "up": "糖果果kiyomi",
+      "duration_seconds": 2158,
+      "cover": "http://i2.hdslb.com/bfs/archive/4e3e43bd53494d309f9e2443abeb958208aed32c.jpg",
+      "note": "中文经典绘本合集，亲子共读向，内容健康",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1vb4y177nx",
       "source": "bilibili",
       "bvid": "BV1vb4y177NX",
@@ -2209,6 +5241,29 @@
         ],
         "theme": [
           "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1ve4y167dg",
+      "source": "bilibili",
+      "bvid": "BV1ve4y167DG",
+      "title": "宝宝爱听的热门儿歌精选《贝乐虎儿歌》：两只老虎",
+      "up": "贝乐虎儿歌",
+      "duration_seconds": 88,
+      "cover": "http://i1.hdslb.com/bfs/archive/7486523394d533d030d02315e6c652470b1e2dcd.jpg",
+      "note": "官方经典儿歌两只老虎",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
         ]
       },
       "added_at": "2026-11-06"
@@ -2236,6 +5291,99 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1vh41197ny",
+      "source": "bilibili",
+      "bvid": "BV1vh41197ny",
+      "title": "《寻秘自然》 09 球状闪电（中）科学界公认的球状闪电真实影像，全世界只有 1 份，在中国拍到",
+      "up": "科学声音",
+      "duration_seconds": 993,
+      "cover": "http://i2.hdslb.com/bfs/archive/a09415121e804aa4df037834114c348a1b6442ff.jpg",
+      "note": "球状闪电科学纪实科普，实地探访专家",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1vp4xzmemn",
+      "source": "bilibili",
+      "bvid": "BV1vp4xzmEmn",
+      "title": "100集寓言故事动画片、中华寓言故事合集  愚公移山  惊弓之鸟  猴子捞月",
+      "up": "小六六动画世界",
+      "duration_seconds": 32347,
+      "cover": "http://i0.hdslb.com/bfs/archive/f58d87bc910a4ca605369c4401e6e910b9a8ab7f.jpg",
+      "note": "中华寓言故事动画合集；建议增设人文主题",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1wn411c76s",
+      "source": "bilibili",
+      "bvid": "BV1wN411c76s",
+      "title": "【48集全】天文科普大百科，dk幼儿百科动画片",
+      "up": "爱分享的天空",
+      "duration_seconds": 9971,
+      "cover": "http://i2.hdslb.com/bfs/archive/59094917a14e9f7d92f4db0c3a91c9a6039c268a.png",
+      "note": "DK天文幼儿百科动画，太空科普启蒙",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1wzxkbpevx",
+      "source": "bilibili",
+      "bvid": "BV1wZXKBpEvx",
+      "title": "让孩子不再乱发脾气《情绪小怪兽》情绪管理儿童绘本必读",
+      "up": "暖妈绘本屋",
+      "duration_seconds": 166,
+      "cover": "http://i0.hdslb.com/bfs/archive/971f3af056f90570c311876468c5cc58d2f55eee.jpg",
+      "note": "情绪小怪兽绘本，情绪管理启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1wb41127jt",
       "source": "bilibili",
       "bvid": "BV1wb41127jT",
@@ -2254,6 +5402,28 @@
         "theme": [
           "science",
           "nature"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1why3zqecb",
+      "source": "bilibili",
+      "bvid": "BV1whY3zqECB",
+      "title": "【幼小衔接数学思维启蒙】早教数学｜幼升小入学准备｜全43集",
+      "up": "北京新东方少儿成长站",
+      "duration_seconds": 10035,
+      "cover": "http://i2.hdslb.com/bfs/archive/93b6b9970d0a6536bed04140f8383822da00807a.jpg",
+      "note": "幼小衔接数学思维启蒙课程",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "math"
         ]
       },
       "added_at": "2026-11-06"
@@ -2323,6 +5493,144 @@
         ],
         "theme": [
           "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1y14y1e7hy",
+      "source": "bilibili",
+      "bvid": "BV1y14y1E7Hy",
+      "title": "是谁嗯嗯在我的头上？熊猫姐姐儿童益智早教儿歌动画片",
+      "up": "熊猫姐姐早教",
+      "duration_seconds": 104,
+      "cover": "http://i1.hdslb.com/bfs/archive/ab7337741d823706ac1fe7bb13622448f2e5419f.jpg",
+      "note": "经典绘本改编早教动画短片，童趣健康",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1yw411m7b4",
+      "source": "bilibili",
+      "bvid": "BV1yW411M7b4",
+      "title": "【婷婷唱古文】-《古朗月行》李白",
+      "up": "婷婷诗教",
+      "duration_seconds": 205,
+      "cover": "http://i1.hdslb.com/bfs/archive/33c13ef04530ace6e72edf749758f66dadc1cb7d.jpg",
+      "note": "唱学李白古朗月行，建议增设人文主题",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1ys4y1g7dn",
+      "source": "bilibili",
+      "bvid": "BV1ys4y1g7Dn",
+      "title": "在小小的花园里呀挖呀挖呀挖…",
+      "up": "_____ding",
+      "duration_seconds": 108,
+      "cover": "http://i0.hdslb.com/bfs/archive/0b2d1b23bc3ae75f4d6375e5f81fc4a49af1ea3a.jpg",
+      "note": "热门手指谣儿歌，低幼适唱",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1yx411v7du",
+      "source": "bilibili",
+      "bvid": "BV1yx411V7dU",
+      "title": "【合集】蓝猫淘气3000问 太空历险记",
+      "up": "动画纪",
+      "duration_seconds": 267570,
+      "cover": "http://i0.hdslb.com/bfs/archive/cf78705392d6bb74ac69aa38e8a48fba16f0a67c.png",
+      "note": "经典太空科普历险动画合集，适龄耐看",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1zappzwe21",
+      "source": "bilibili",
+      "bvid": "BV1zAPpzWE21",
+      "title": "看完这个毛毡动画，孩子再也不乱吃冰激凌！（《肚子里有个火车站》）",
+      "up": "暖妈绘本屋",
+      "duration_seconds": 275,
+      "cover": "http://i1.hdslb.com/bfs/archive/165dc8d54a85220d8a6871f873cb8b517e69e76b.jpg",
+      "note": "毛毡动画讲消化与饮食好习惯，健康有趣",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1ztexeje1s",
+      "source": "bilibili",
+      "bvid": "BV1ztexeJE1S",
+      "title": "幼儿手指操~小朋友礼貌排队不插队",
+      "up": "天一教育Amy老师",
+      "duration_seconds": 62,
+      "cover": "http://i1.hdslb.com/bfs/archive/8f529075371ebbab5b4a400f4638e9d9128fc8c6.jpg",
+      "note": "手指操教排队礼貌，规则社交启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "social"
         ]
       },
       "added_at": "2026-11-06"

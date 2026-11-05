@@ -3,6 +3,41 @@
   "note": "由 scripts/build_data.py 生成，请勿手工编辑；推荐理由覆盖层见 data/blogger-notes.json。",
   "bloggers": [
     {
+      "up": "宝宝巴士BabyBus",
+      "avatar": "https://i2.hdslb.com/bfs/face/8a3a921bb89b7541aa1806e1362bff81e8131dbf.jpg",
+      "video_count": 16,
+      "reason": "收录 16 条视频，主打动画、音乐",
+      "source": "社区精选"
+    },
+    {
+      "up": "斑马百科",
+      "avatar": "https://i1.hdslb.com/bfs/face/0c3bedf1141df9dabe3053cd9527123545759319.jpg",
+      "video_count": 5,
+      "reason": "收录 5 条视频，主打科普、自然",
+      "source": "社区精选"
+    },
+    {
+      "up": "儿歌多多live",
+      "avatar": "https://i0.hdslb.com/bfs/face/fc605383e03815b8181a7694f10c95b924341f25.jpg",
+      "video_count": 5,
+      "reason": "收录 5 条视频，主打音乐、绘本故事",
+      "source": "社区精选"
+    },
+    {
+      "up": "贝乐虎儿歌",
+      "avatar": "https://i1.hdslb.com/bfs/face/05d0fa3719479790b82c504f2b9a75b5bcaf4854.jpg",
+      "video_count": 4,
+      "reason": "收录 4 条视频，主打音乐",
+      "source": "社区精选"
+    },
+    {
+      "up": "阿嘟白泽",
+      "avatar": "https://i0.hdslb.com/bfs/face/5817230a564607a87719aa904a22e9357de6e377.jpg",
+      "video_count": 4,
+      "reason": "幼儿科普动画《这是什么》系列官方",
+      "source": "搜索发现"
+    },
+    {
       "up": "不刷题的吴姥姥",
       "avatar": "https://i2.hdslb.com/bfs/face/b13fc41f4ffdb28761384a98fac5bd0a6324e1fb.jpg",
       "video_count": 3,
@@ -10,11 +45,25 @@
       "source": "小花生宝藏UP主盘点"
     },
     {
+      "up": "熊猫姐姐早教",
+      "avatar": "https://i2.hdslb.com/bfs/face/b14854066f77cb5cfe17ae356508155fe32b5429.jpg",
+      "video_count": 3,
+      "reason": "收录 3 条视频，主打生活习惯、绘本故事",
+      "source": "社区精选"
+    },
+    {
       "up": "Mmxgxg",
       "avatar": "https://i0.hdslb.com/bfs/face/8998d8e908ba710d0af2ee294198e8d71be83282.jpg",
       "video_count": 3,
       "reason": "全年龄外语资源合集，原声启蒙素材丰富",
       "source": "小花生宝藏UP主盘点"
+    },
+    {
+      "up": "赛雷三分钟",
+      "avatar": "https://i1.hdslb.com/bfs/face/4eb764b8c6afc48ad1e7aaf84b0f58db3d4dbb3f.jpg",
+      "video_count": 3,
+      "reason": "动画科普历史与百科，节奏轻快",
+      "source": "搜索发现"
     },
     {
       "up": "正直讲史-李正Str",
@@ -59,6 +108,13 @@
       "source": "小花生宝藏UP主盘点"
     },
     {
+      "up": "延仔爸爸粤语讲故事",
+      "avatar": "https://i2.hdslb.com/bfs/face/18014db4fd68448adbc1a113f641ca486a7e2013.jpg",
+      "video_count": 3,
+      "reason": "收录 3 条视频，主打绘本故事、生活习惯",
+      "source": "社区精选"
+    },
+    {
       "up": "李永乐老师官方",
       "avatar": "https://i1.hdslb.com/bfs/face/b299b0e20dc4fbbd45e13ba86f330d890c0a0118.jpg",
       "video_count": 3,
@@ -80,11 +136,32 @@
       "source": "小花生宝藏UP主盘点"
     },
     {
+      "up": "柚子优学社",
+      "avatar": "https://i0.hdslb.com/bfs/face/b450cdd1c8124d211b0495ad724b4713c5ec604c.jpg",
+      "video_count": 3,
+      "reason": "收录 3 条视频，主打自然、动画",
+      "source": "社区精选"
+    },
+    {
+      "up": "土豆逗严肃科普",
+      "avatar": "https://i0.hdslb.com/bfs/face/7f91206450c8d0c24d1acb64adfd068cfc1baeac.jpg",
+      "video_count": 3,
+      "reason": "儿童科普动画，主题覆盖广",
+      "source": "搜索发现"
+    },
+    {
       "up": "二二酸酸",
       "avatar": "https://i2.hdslb.com/bfs/face/fbcd640668be54fd4cc09489c74bb772cd207663.jpg",
       "video_count": 3,
       "reason": "北大硕士讲语文课本背后的故事",
       "source": "外滩教育推荐"
+    },
+    {
+      "up": "醒醒绘本",
+      "avatar": "https://i1.hdslb.com/bfs/face/f5726d1dab6cadfa49376e0ae2aaa38a8528700e.jpg",
+      "video_count": 3,
+      "reason": "收录 3 条视频，主打绘本故事、动画",
+      "source": "社区精选"
     },
     {
       "up": "惊叹号的英语世界",
@@ -101,11 +178,25 @@
       "source": "外滩教育推荐"
     },
     {
+      "up": "北京新东方少儿成长站",
+      "avatar": "https://i1.hdslb.com/bfs/face/3f6c779ce3978a5ad2e36c6b86664d7a1aae0908.jpg",
+      "video_count": 3,
+      "reason": "收录 3 条视频，主打绘本故事、数学思维",
+      "source": "社区精选"
+    },
+    {
       "up": "英语兔",
       "avatar": "https://i1.hdslb.com/bfs/face/1dd70a5905e9715b261d36d3f403eb477adbfe59.jpg",
       "video_count": 3,
       "reason": "语法、音标、发音的动画化系统教学，讲解清晰",
       "source": "小花生宝藏UP主盘点"
+    },
+    {
+      "up": "婷婷姐姐唱古诗",
+      "avatar": "https://i1.hdslb.com/bfs/face/c5d59e8ca217a271846c4de92a4e2dd171fb4206.jpg",
+      "video_count": 3,
+      "reason": "收录 3 条视频，主打音乐、绘本故事",
+      "source": "社区精选"
     },
     {
       "up": "无穷小亮的科普日常",
@@ -115,10 +206,45 @@
       "source": "小花生宝藏UP主盘点"
     },
     {
+      "up": "海小螺_",
+      "avatar": "https://i1.hdslb.com/bfs/face/501a55915b885e6e05c98399f7cb7d15b5e872d9.jpg",
+      "video_count": 2,
+      "reason": "收录 2 条视频，主打绘本故事、情感与社交",
+      "source": "社区精选"
+    },
+    {
+      "up": "朵朵儿童舞蹈秀",
+      "avatar": "http://i0.hdslb.com/bfs/face/1a20943754e222ae89749bafb2e1f6e2999afbb9.jpg",
+      "video_count": 2,
+      "reason": "收录 2 条视频，主打音乐",
+      "source": "社区精选"
+    },
+    {
+      "up": "兔小贝儿童",
+      "avatar": "https://i2.hdslb.com/bfs/face/6975c94488cf3975645524a1722cf75646f39d18.jpg",
+      "video_count": 2,
+      "reason": "收录 2 条视频，主打音乐、生活习惯",
+      "source": "社区精选"
+    },
+    {
       "up": "oooooohmygosh",
       "avatar": "https://i2.hdslb.com/bfs/face/54b2cb29d8222be20addda530fe954a53db4744b.jpg",
       "video_count": 2,
       "reason": "收录 2 条视频，主打绘本故事",
+      "source": "社区精选"
+    },
+    {
+      "up": "科学声音",
+      "avatar": "https://i1.hdslb.com/bfs/face/f845e03f2404c1f8efa824ba602f304232625d2d.jpg",
+      "video_count": 2,
+      "reason": "收录 2 条视频，主打科普",
+      "source": "社区精选"
+    },
+    {
+      "up": "x小小欺负乖乖x",
+      "avatar": "https://i2.hdslb.com/bfs/face/1e2651da3586b92968c52ee5b8df1ae61e96b6c4.jpg",
+      "video_count": 2,
+      "reason": "收录 2 条视频，主打手工",
       "source": "社区精选"
     },
     {
@@ -129,6 +255,13 @@
       "source": "外滩教育推荐"
     },
     {
+      "up": "陈陈资源百宝箱",
+      "avatar": "https://i0.hdslb.com/bfs/face/45d503ce01d5aaf97e1e53799e2804761ed36970.jpg",
+      "video_count": 2,
+      "reason": "收录 2 条视频，主打动画、情感与社交",
+      "source": "社区精选"
+    },
+    {
       "up": "写字王老师",
       "avatar": "https://i2.hdslb.com/bfs/face/4c24eddb65d4690c42e144883dc11fd30cdff3db.jpg",
       "video_count": 2,
@@ -136,10 +269,24 @@
       "source": "小花生宝藏UP主盘点"
     },
     {
+      "up": "动画纪",
+      "avatar": "https://i2.hdslb.com/bfs/face/e94675492fa84250fd9e6b61c93bcf3b2aef7284.jpg",
+      "video_count": 2,
+      "reason": "收录 2 条视频，主打科普、动画",
+      "source": "社区精选"
+    },
+    {
       "up": "pp乒乓酱",
       "avatar": "https://i2.hdslb.com/bfs/face/986aade5b84e06805f7b40f74119dfe2764a8b94.jpg",
       "video_count": 2,
       "reason": "收录 2 条视频，主打生活习惯",
+      "source": "社区精选"
+    },
+    {
+      "up": "啷哩叽啷哩",
+      "avatar": "https://i1.hdslb.com/bfs/face/5cad82ffa1fc477b025ea7ff12e8490ea1ba5e67.jpg",
+      "video_count": 2,
+      "reason": "收录 2 条视频，主打情感与社交、绘本故事",
       "source": "社区精选"
     },
     {
@@ -154,6 +301,13 @@
       "avatar": "https://i2.hdslb.com/bfs/face/766a529a2d3a4613033cfaae7bfd93ccfb099d99.jpg",
       "video_count": 2,
       "reason": "收录 2 条视频，主打生活习惯",
+      "source": "社区精选"
+    },
+    {
+      "up": "天一教育Amy老师",
+      "avatar": "https://i0.hdslb.com/bfs/face/9834c0d568d6117d655fd180d6cfafbc532c24dd.jpg",
+      "video_count": 2,
+      "reason": "收录 2 条视频，主打音乐、生活习惯",
       "source": "社区精选"
     },
     {
@@ -213,6 +367,27 @@
       "source": "社区精选"
     },
     {
+      "up": "学前班小马哥",
+      "avatar": "https://i2.hdslb.com/bfs/face/1ee9820c98de464de20cdaf54e5be9111395460f.jpg",
+      "video_count": 2,
+      "reason": "收录 2 条视频，主打生活习惯、情感与社交",
+      "source": "社区精选"
+    },
+    {
+      "up": "暖妈绘本屋",
+      "avatar": "https://i1.hdslb.com/bfs/face/8675babc998858d8c8d5e9365b49b035ed0f491a.jpg",
+      "video_count": 2,
+      "reason": "收录 2 条视频，主打绘本故事、情感与社交",
+      "source": "社区精选"
+    },
+    {
+      "up": "科学能量",
+      "avatar": "https://i0.hdslb.com/bfs/face/123e856a852339033fcfec971912b24581568224.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打科普",
+      "source": "社区精选"
+    },
+    {
       "up": "央视纪录",
       "avatar": "https://i0.hdslb.com/bfs/face/8260e44c48ecf9ea4746f907a0fa7e9f87efef23.jpg",
       "video_count": 1,
@@ -224,6 +399,55 @@
       "avatar": "https://i1.hdslb.com/bfs/face/8295f808583d180d0a85cfa732f812d86e9a3e14.jpg",
       "video_count": 1,
       "reason": "收录 1 条视频，主打绘本故事",
+      "source": "社区精选"
+    },
+    {
+      "up": "开心学习快乐成长",
+      "avatar": "https://i1.hdslb.com/bfs/face/1151fa7251c378b9d36f491ad2062d4b78404192.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打手工",
+      "source": "社区精选"
+    },
+    {
+      "up": "小雨儿歌集",
+      "avatar": "https://i1.hdslb.com/bfs/face/35e840b1c4afe29a56f907ad3a7f6e754238af51.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打音乐、生活习惯",
+      "source": "社区精选"
+    },
+    {
+      "up": "中年油腻宝爸",
+      "avatar": "https://i0.hdslb.com/bfs/face/aa9e33b997bb5eb854617d5f99a2d07c1c3e5b6f.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打科普",
+      "source": "社区精选"
+    },
+    {
+      "up": "二月绘本育儿",
+      "avatar": "https://i2.hdslb.com/bfs/face/09d7532d46c1b699a8b76c3088f38cba8b472556.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打绘本故事",
+      "source": "社区精选"
+    },
+    {
+      "up": "万能背包",
+      "avatar": "https://i2.hdslb.com/bfs/face/05ebf837213246f5086b4606b85886d201f95b48.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打绘本故事、动画",
+      "source": "社区精选"
+    },
+    {
+      "up": "理德斯教育大山校长",
+      "avatar": "https://i0.hdslb.com/bfs/face/62e375b1071fae4c077358a346c2607ec4490572.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打音乐",
+      "source": "社区精选"
+    },
+    {
+      "up": "國語動漫",
+      "avatar": "https://i2.hdslb.com/bfs/face/064c2788bf5ceb55fed5cf6bd25948b2e189497a.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打动画、绘本故事",
       "source": "社区精选"
     },
     {
@@ -241,6 +465,13 @@
       "source": "社区精选"
     },
     {
+      "up": "ahakid儿童百科",
+      "avatar": "https://i1.hdslb.com/bfs/face/d8a3757941d8f2fd908091f3f7b1eff448c4f667.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打生活习惯、科普",
+      "source": "社区精选"
+    },
+    {
       "up": "许子东讲文学",
       "avatar": "https://i0.hdslb.com/bfs/face/969871dce0690c79d76ed0b199a79e24a1fbe692.jpg",
       "video_count": 1,
@@ -255,10 +486,38 @@
       "source": "社区精选"
     },
     {
+      "up": "魂音梦语",
+      "avatar": "https://i1.hdslb.com/bfs/face/bf3130b3cb6b959385f8f84a9f3423c6a6e71bd2.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打动画、绘本故事",
+      "source": "社区精选"
+    },
+    {
       "up": "不鸡娃的VAVA",
       "avatar": "https://i0.hdslb.com/bfs/face/51e804b757e369ac35927e470876ed3da9eae0e2.jpg",
       "video_count": 1,
       "reason": "收录 1 条视频，主打音乐、生活习惯",
+      "source": "社区精选"
+    },
+    {
+      "up": "快乐宝贝资源库",
+      "avatar": "https://i1.hdslb.com/bfs/face/4add3acfc930fcd07d06ea5e10a3a377314141c2.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打自然",
+      "source": "社区精选"
+    },
+    {
+      "up": "绘本故事乐园",
+      "avatar": "https://i0.hdslb.com/bfs/face/cb885f0fb0986d8a44d6138664d0af7571a7bf5c.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打绘本故事",
+      "source": "社区精选"
+    },
+    {
+      "up": "夏知非Song",
+      "avatar": "https://i1.hdslb.com/bfs/face/a2f486065460a0b344e3a45f0d667d155152f88b.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打数学思维",
       "source": "社区精选"
     },
     {
@@ -269,10 +528,66 @@
       "source": "社区精选"
     },
     {
+      "up": "学堂路上的猫",
+      "avatar": "https://i0.hdslb.com/bfs/face/de7c46f1c253a228692fb40367e90004b9c74a96.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打音乐、绘本故事",
+      "source": "社区精选"
+    },
+    {
       "up": "中科院格致论道",
       "avatar": "https://i2.hdslb.com/bfs/face/7368ddb67299442f02f0261ecc2530a0e7dc6c55.jpg",
       "video_count": 1,
       "reason": "收录 1 条视频，主打科普",
+      "source": "社区精选"
+    },
+    {
+      "up": "楚楚的超人妈妈",
+      "avatar": "https://i0.hdslb.com/bfs/face/5f48c493cf020526936c79ba5ca07999bf1596c9.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打生活习惯、情感与社交",
+      "source": "社区精选"
+    },
+    {
+      "up": "南瓜妈妈讲绘本",
+      "avatar": "https://i0.hdslb.com/bfs/face/6aff740d6116cb8c09371e92cbdffe0fa2e86143.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打绘本故事、自然",
+      "source": "社区精选"
+    },
+    {
+      "up": "羽小帅成长乐园",
+      "avatar": "https://i1.hdslb.com/bfs/face/48291798be64403451a93a2945f272e2871b08ee.png",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打音乐、自然",
+      "source": "社区精选"
+    },
+    {
+      "up": "幼小初高学习课堂",
+      "avatar": "https://i0.hdslb.com/bfs/face/5d711a87dfc4a03a80d4da6ea48098f5649f08a6.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打绘本故事、动画",
+      "source": "社区精选"
+    },
+    {
+      "up": "亲子阅读ReadForKids",
+      "avatar": "https://i1.hdslb.com/bfs/face/7d6d0923b2fcc08ae9967937bb94086869da571d.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打绘本故事、生活习惯",
+      "source": "社区精选"
+    },
+    {
+      "up": "绘童教育",
+      "avatar": "https://i2.hdslb.com/bfs/face/864bc82cd724af1ea9c4ec430ad6a95f06ef7c0f.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打音乐",
+      "source": "社区精选"
+    },
+    {
+      "up": "甜动漫",
+      "avatar": "https://i0.hdslb.com/bfs/face/7480139228619718c664af77bfafed6d887065e3.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打动画、情感与社交",
       "source": "社区精选"
     },
     {
@@ -283,10 +598,24 @@
       "source": "外滩教育推荐"
     },
     {
+      "up": "怀旧食光便利店",
+      "avatar": "https://i0.hdslb.com/bfs/face/507819339ad5e575f1868e2db42ba5ab1fcb1477.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打手工",
+      "source": "社区精选"
+    },
+    {
       "up": "MissArch",
       "avatar": "http://i0.hdslb.com/bfs/face/3bc53959edf2ad9c4eb2f0324d7a019ec425d523.jpg",
       "video_count": 1,
       "reason": "收录 1 条视频，主打音乐、英语启蒙",
+      "source": "社区精选"
+    },
+    {
+      "up": "蒙奇安全屋",
+      "avatar": "https://i2.hdslb.com/bfs/face/f12a0cba2b75d4be3203d0b9b470007c3558e7eb.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打生活习惯、情感与社交",
       "source": "社区精选"
     },
     {
@@ -304,6 +633,20 @@
       "source": "社区精选"
     },
     {
+      "up": "天天练舞功官方号",
+      "avatar": "https://i2.hdslb.com/bfs/face/93714c2861315b96c660372f5115775a1ad6740e.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打音乐",
+      "source": "社区精选"
+    },
+    {
+      "up": "谭乔",
+      "avatar": "https://i0.hdslb.com/bfs/face/42efc41c022661fa3a8a4f87d5e4c34f956f5a66.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打生活习惯",
+      "source": "社区精选"
+    },
+    {
       "up": "YouTube知识宝藏区",
       "avatar": "https://i0.hdslb.com/bfs/face/de05710e9bb455c9decf9440221105dff9272738.jpg",
       "video_count": 1,
@@ -311,10 +654,101 @@
       "source": "社区精选"
     },
     {
+      "up": "怪逗逗小舞台",
+      "avatar": "https://i2.hdslb.com/bfs/face/cfa7ab4ed8a8baf1882b126519febf8771248dab.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打生活习惯、科普",
+      "source": "社区精选"
+    },
+    {
+      "up": "幼小初高学习资源",
+      "avatar": "https://i2.hdslb.com/bfs/face/dfe77fd9fb029011dbdde35e6960f652ead8ee84.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打自然",
+      "source": "社区精选"
+    },
+    {
+      "up": "王子麻麻_wzmm117",
+      "avatar": "https://i2.hdslb.com/bfs/face/08191d29fe1a6d8c330cdf89f8124691264bf1ff.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打绘本故事",
+      "source": "社区精选"
+    },
+    {
+      "up": "果妈说",
+      "avatar": "https://i1.hdslb.com/bfs/face/6ddfa94398f1b1374e199b99b23923d07537d347.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打生活习惯、英语启蒙",
+      "source": "社区精选"
+    },
+    {
+      "up": "罗哈哈210",
+      "avatar": "https://i0.hdslb.com/bfs/face/32a0518ab1d26372152613da92adc131c095e11e.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打音乐",
+      "source": "社区精选"
+    },
+    {
+      "up": "未闻实验室",
+      "avatar": "https://i1.hdslb.com/bfs/face/a6746ea0f486e3149c72fff7a0ba13fe3b61b10a.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打科普",
+      "source": "社区精选"
+    },
+    {
+      "up": "康康Loong",
+      "avatar": "https://i1.hdslb.com/bfs/face/024d3806b74a115092a07e12b4602ba8c5d383de.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打绘本故事、动画",
+      "source": "社区精选"
+    },
+    {
+      "up": "商老师讲故事",
+      "avatar": "http://i0.hdslb.com/bfs/face/member/noface.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打绘本故事",
+      "source": "社区精选"
+    },
+    {
+      "up": "YoginiYue",
+      "avatar": "https://i2.hdslb.com/bfs/face/83048a275a32057f45243b8010e653f51c587070.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打生活习惯",
+      "source": "社区精选"
+    },
+    {
+      "up": "汐沫哎",
+      "avatar": "https://i1.hdslb.com/bfs/face/5fce865bb5c0a3efab4b3fa12839a726d242ce41.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打绘本故事",
+      "source": "社区精选"
+    },
+    {
+      "up": "小朋友爱运动呀",
+      "avatar": "https://i1.hdslb.com/bfs/face/4d176084af9d1cb4708d5efa5534f5c6235d15eb.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打生活习惯",
+      "source": "社区精选"
+    },
+    {
       "up": "秦淮以南_",
       "avatar": "https://i2.hdslb.com/bfs/face/70ac6f81e9b0ebf04c7ae8cc82041fdd59124a60.jpg",
       "video_count": 1,
       "reason": "收录 1 条视频，主打自然",
+      "source": "社区精选"
+    },
+    {
+      "up": "圆滚滚与长条儿",
+      "avatar": "https://i1.hdslb.com/bfs/face/5db7bfe7f9899610836d656f973bfbb3519edb7d.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打数学思维",
+      "source": "社区精选"
+    },
+    {
+      "up": "创意科学a",
+      "avatar": "https://i2.hdslb.com/bfs/face/223c1eaf3ef16ecfb17bc73224e48d8b9d3c68bf.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打科普",
       "source": "社区精选"
     },
     {
@@ -339,6 +773,62 @@
       "source": "社区精选"
     },
     {
+      "up": "刺猬来也",
+      "avatar": "http://i1.hdslb.com/bfs/face/2d2b00ec06d25f1bad772f7695788b98c51b979c.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打生活习惯、科普",
+      "source": "社区精选"
+    },
+    {
+      "up": "动画学霸",
+      "avatar": "https://i1.hdslb.com/bfs/face/7f7bf67b2d2a95cf273579991a0c9e008a98f411.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打自然",
+      "source": "社区精选"
+    },
+    {
+      "up": "米姐与子鱼",
+      "avatar": "https://i1.hdslb.com/bfs/face/ec8ef6556df6d66bf33ce180b502bc35ae06b557.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打科普",
+      "source": "社区精选"
+    },
+    {
+      "up": "yivck晨蓓",
+      "avatar": "http://i0.hdslb.com/bfs/face/member/noface.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打绘本故事",
+      "source": "社区精选"
+    },
+    {
+      "up": "亲宝儿歌动画",
+      "avatar": "https://i0.hdslb.com/bfs/face/6d50f49f2e7eb8673c8f49fb749727a7612260a7.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打音乐、生活习惯",
+      "source": "社区精选"
+    },
+    {
+      "up": "QiQi成长记",
+      "avatar": "https://i0.hdslb.com/bfs/face/16876d5d603daf34fbc9bf8b897e5289285ddf68.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打音乐、生活习惯",
+      "source": "社区精选"
+    },
+    {
+      "up": "宝贝学古诗",
+      "avatar": "https://i2.hdslb.com/bfs/face/a237672ff1b00b236d27b7f4264e0ea1f61dac29.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打音乐、绘本故事",
+      "source": "社区精选"
+    },
+    {
+      "up": "YouTube精选课程",
+      "avatar": "https://i1.hdslb.com/bfs/face/ac04a33daa6a8364c384eeb211f73c7c97a4ee44.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打绘本故事",
+      "source": "社区精选"
+    },
+    {
       "up": "美丽科学BOS",
       "avatar": "https://i0.hdslb.com/bfs/face/b59f2a113c7ebe2226d8551f4dc7c821822ea8fd.jpg",
       "video_count": 1,
@@ -346,10 +836,38 @@
       "source": "小花生宝藏UP主盘点"
     },
     {
+      "up": "中文儿歌・卡通动画",
+      "avatar": "https://i0.hdslb.com/bfs/face/1859319c1962c5536b811f9d04317d6e0535cfcc.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打音乐、生活习惯",
+      "source": "社区精选"
+    },
+    {
       "up": "橘多贝子",
       "avatar": "https://i2.hdslb.com/bfs/face/c4a47b48b7b9e99f8d7fc111757bb31e715273d5.jpg",
       "video_count": 1,
       "reason": "收录 1 条视频，主打音乐、数学思维",
+      "source": "社区精选"
+    },
+    {
+      "up": "有梦想的苹果哥哥",
+      "avatar": "https://i2.hdslb.com/bfs/face/3d819fc613b701db9ccdd5aba124f75a2f2c0167.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打音乐",
+      "source": "社区精选"
+    },
+    {
+      "up": "朱妮托尼儿歌",
+      "avatar": "https://i0.hdslb.com/bfs/face/799532c3c3a5eec9eb3b0fb2e7c238bdee0a7f9e.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打音乐、生活习惯",
+      "source": "社区精选"
+    },
+    {
+      "up": "惊叹号的儿童世界",
+      "avatar": "https://i1.hdslb.com/bfs/face/a23992d00cf0073eaa45a38d8fcaf160787c5f7a.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打自然",
       "source": "社区精选"
     },
     {
@@ -360,6 +878,20 @@
       "source": "社区精选"
     },
     {
+      "up": "益智非遗手工创客",
+      "avatar": "https://i1.hdslb.com/bfs/face/dca1bc05364a2adf00d1a4cd1657d83affeb54cb.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打手工",
+      "source": "社区精选"
+    },
+    {
+      "up": "妞妞妈爱分享",
+      "avatar": "https://i1.hdslb.com/bfs/face/78139a8932f4ef7f735e922b86c5dfb892d21b85.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打科普",
+      "source": "社区精选"
+    },
+    {
       "up": "铃噹麻麻",
       "avatar": "https://i0.hdslb.com/bfs/face/5dbf9bc33904a970de65a36ae258b3e223857afa.jpg",
       "video_count": 1,
@@ -367,10 +899,59 @@
       "source": "社区精选"
     },
     {
+      "up": "杰克船长爸爸爱学习",
+      "avatar": "https://i1.hdslb.com/bfs/face/76f6f325c2c90a7cf7941d4d048c110048a520cd.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打科普、自然",
+      "source": "社区精选"
+    },
+    {
+      "up": "泡泡列车",
+      "avatar": "https://i0.hdslb.com/bfs/face/19d698fb6eb3dbc405f79eda6aa4a551f4335dfe.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打音乐、绘本故事",
+      "source": "社区精选"
+    },
+    {
       "up": "尖子生动画站",
       "avatar": "https://i0.hdslb.com/bfs/face/37a41d78cd34cab50e66692fa0852da5df0af11f.jpg",
       "video_count": 1,
       "reason": "收录 1 条视频，主打音乐、英语启蒙",
+      "source": "社区精选"
+    },
+    {
+      "up": "依荷社",
+      "avatar": "https://i2.hdslb.com/bfs/face/25de4eac6689750266ac571a7b80b5aa3ccfeec6.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打自然",
+      "source": "社区精选"
+    },
+    {
+      "up": "迈高数字",
+      "avatar": "https://i0.hdslb.com/bfs/face/e5e63b2104958cc94621d0d9732da97243f361c6.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打生活习惯",
+      "source": "社区精选"
+    },
+    {
+      "up": "可耐的学习助理",
+      "avatar": "https://i0.hdslb.com/bfs/face/ae724184156204048df2c85382db2eaccd75ba1a.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打绘本故事",
+      "source": "社区精选"
+    },
+    {
+      "up": "桃子妈爱分享",
+      "avatar": "https://i2.hdslb.com/bfs/face/94a49736c2efa32207cb347c666bc74795046ae9.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打科普",
+      "source": "社区精选"
+    },
+    {
+      "up": "哈佛学霸圈",
+      "avatar": "https://i0.hdslb.com/bfs/face/61291b9ef92d57a159e58f5711e6bc386294c29b.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打动画、英语启蒙",
       "source": "社区精选"
     },
     {
@@ -388,6 +969,13 @@
       "source": "社区精选"
     },
     {
+      "up": "朱朱老师绘本屋",
+      "avatar": "https://i1.hdslb.com/bfs/face/f10d260754f800fd7a22fe3aaac0fdd5f3ec0f32.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打绘本故事",
+      "source": "社区精选"
+    },
+    {
       "up": "清北精英研究所",
       "avatar": "https://i0.hdslb.com/bfs/face/f72e001fabab9269a1ec8fa289b509fc05b457e7.jpg",
       "video_count": 1,
@@ -395,8 +983,36 @@
       "source": "社区精选"
     },
     {
-      "up": "贝乐虎儿歌",
-      "avatar": "https://i1.hdslb.com/bfs/face/05d0fa3719479790b82c504f2b9a75b5bcaf4854.jpg",
+      "up": "糖果果kiyomi",
+      "avatar": "https://i2.hdslb.com/bfs/face/563415ab6e6aa23be627432b76e681e52f55eec1.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打绘本故事",
+      "source": "社区精选"
+    },
+    {
+      "up": "小六六动画世界",
+      "avatar": "https://i1.hdslb.com/bfs/face/02caa29682e6d5c30abbc614f0beb46e330f9d3c.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打绘本故事、动画",
+      "source": "社区精选"
+    },
+    {
+      "up": "爱分享的天空",
+      "avatar": "https://i1.hdslb.com/bfs/face/46b568793da1b6bbbe1e9c2fbdbbbba5b3f46b09.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打科普",
+      "source": "社区精选"
+    },
+    {
+      "up": "婷婷诗教",
+      "avatar": "http://i0.hdslb.com/bfs/face/d6f723420d84a28c3343908ad2e59d90826766fb.jpg",
+      "video_count": 1,
+      "reason": "收录 1 条视频，主打音乐、绘本故事",
+      "source": "社区精选"
+    },
+    {
+      "up": "_____ding",
+      "avatar": "https://i2.hdslb.com/bfs/face/44a7ba7d1a28e365d8faa06a2ed751070c95a0b9.jpg",
       "video_count": 1,
       "reason": "收录 1 条视频，主打音乐",
       "source": "社区精选"

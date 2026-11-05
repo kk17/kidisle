@@ -1,0 +1,64 @@
+---
+// 视频卡片：整卡链接到观看页
+import taxonomy from '../data/taxonomy.json';
+const ageLabel = Object.fromEntries(taxonomy.age_bands.map((t) => [t.id, t.label]));
+const langLabel = Object.fromEntries(taxonomy.languages.map((t) => [t.id, t.label]));
+const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]));
+
+interface Props {
+	video: any;
+	compact?: boolean;
+}
+const { video: v, compact = false } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const href = `${base}video/${v.bvid}/`;
+const pad = (n: number) => String(n).padStart(2, '0');
+const dur = v.duration_seconds > 0
+	? v.duration_seconds >= 3600
+		? `${Math.floor(v.duration_seconds / 3600)}:${pad(Math.floor((v.duration_seconds % 3600) / 60))}:${pad(v.duration_seconds % 60)}`
+		: `${Math.floor(v.duration_seconds / 60)}:${pad(v.duration_seconds % 60)}`
+	: '';
+---
+<a class={`vcard${compact ? ' compact' : ''}`} href={href}>
+	<span class="vcover">
+		{v.cover && <img src={v.cover} loading="lazy" referrerpolicy="no-referrer" alt="" />}
+		{dur && <span class="vdur">{dur}</span>}
+	</span>
+	<span class="vbody">
+		<span class="vtitle">{v.title}</span>
+		{!compact && <span class="vup">{v.up}</span>}
+		<span class="vtagrow">
+			{v.tags.age.map((a) => <span class="tag">{ageLabel[a] ?? a}</span>)}
+			{v.tags.language.map((l) => <span class="tag">{langLabel[l] ?? l}</span>)}
+			{v.tags.theme.map((t) => <span class="tag">{themeLabel[t] ?? t}</span>)}
+		</span>
+	</span>
+</a>
+
+<style>
+	.vcard {
+		display: flex; flex-direction: column; text-decoration: none; color: inherit;
+		background: var(--card); border-radius: 12px; overflow: hidden;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+	}
+	.vcard:hover .vtitle { color: var(--sea); }
+	.vcover {
+		position: relative; display: block; aspect-ratio: 16 / 9; background: #e2e8f0;
+	}
+	.vcover img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+	.vdur {
+		position: absolute; right: 6px; bottom: 6px;
+		font-size: 0.72rem; color: #fff; background: rgba(0, 0, 0, 0.72);
+		padding: 0.05rem 0.4rem; border-radius: 5px;
+	}
+	.vbody { display: flex; flex-direction: column; gap: 0.4rem; padding: 0.65rem 0.85rem 0.85rem; }
+	.vtitle {
+		font-size: 0.92rem; font-weight: 600; line-height: 1.4;
+		display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+	}
+	.vup { font-size: 0.78rem; color: var(--muted); }
+	.vtagrow { display: flex; flex-wrap: wrap; gap: 0.28rem; }
+	.compact { flex-direction: row; }
+	.compact .vcover { width: 168px; flex-shrink: 0; aspect-ratio: 16 / 9; position: relative; }
+	.compact .vbody { padding: 0.5rem 0.7rem; }
+</style>

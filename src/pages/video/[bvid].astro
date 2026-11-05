@@ -1,0 +1,152 @@
+---
+import Base from '../../layouts/Base.astro';
+import VideoCard from '../../components/VideoCard.astro';
+import taxonomy from '../../data/taxonomy.json';
+import videos from '../../data/videos.json';
+import bloggers from '../../data/bloggers.json';
+import siteConfig from '../../data/site-config.json';
+
+export function getStaticPaths() {
+	return videos.videos.map((v) => ({ params: { bvid: v.bvid }, props: { video: v } }));
+}
+const { video: v } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const kikireelBase = siteConfig.kikireel_web_base;
+const ageLabel = Object.fromEntries(taxonomy.age_bands.map((t) => [t.id, t.label]));
+const langLabel = Object.fromEntries(taxonomy.languages.map((t) => [t.id, t.label]));
+const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]));
+const embedUrl = `https://player.bilibili.com/player.html?bvid=${v.bvid}&autoplay=0&high_quality=1`;
+const bilibiliUrl = `https://www.bilibili.com/video/${v.bvid}`;
+const blogger = bloggers.bloggers.find((b) => b.up === v.up);
+
+// 相关推荐：同博主优先，再按共享主题补足
+const related = (() => {
+	const sameUp = videos.videos.filter((x) => x.bvid !== v.bvid && x.up === v.up);
+	const sameTheme = videos.videos.filter(
+		(x) => x.bvid !== v.bvid && x.up !== v.up && x.tags.theme.some((t) => v.tags.theme.includes(t))
+	);
+	return [...sameUp, ...sameTheme].slice(0, 12);
+})();
+const mins = v.duration_seconds > 0 ? Math.round(v.duration_seconds / 60) : 0;
+---
+<Base title={`${v.title} · 童心岛`} description={`${v.title} — 童心岛精选儿童视频，UP主：${v.up}`}>
+	<main class="watch">
+		<div class="primary">
+			<div class="player">
+				<iframe
+					src={embedUrl}
+					allowfullscreen
+					scrolling="no"
+					frameborder="0"
+					title={v.title}
+				></iframe>
+			</div>
+			<h1 class="wtitle">{v.title}</h1>
+			<div class="tagrow">
+				{v.tags.age.map((a) => <span class="tag">{ageLabel[a] ?? a}</span>)}
+				{v.tags.language.map((l) => <span class="tag">{langLabel[l] ?? l}</span>)}
+				{v.tags.theme.map((t) => <span class="tag">{themeLabel[t] ?? t}</span>)}
+				{mins > 0 && <span class="meta">{Math.floor(mins / 60) > 0 ? `${Math.floor(mins / 60)} 分 ${mins % 60} 秒` : `${mins} 分钟`}</span>}
+			</div>
+
+			<div class="upcard">
+				<a class="uplink" href={`${base}blogger/${encodeURIComponent(v.up)}/`}>
+					<span class="bavatar">
+						{blogger?.avatar && <img src={blogger.avatar} referrerpolicy="no-referrer" alt="" />}
+						{!blogger?.avatar && (v.up || '?').slice(0, 1)}
+					</span>
+					<span>
+						<span class="upname">{v.up}</span>
+						{blogger?.reason && <span class="upreason">{blogger.reason}</span>}
+					</span>
+				</a>
+			</div>
+
+			<div class="actions">
+				<button class="copy" data-url={bilibiliUrl}>🔗 复制链接</button>
+				{kikireelBase && (
+					<a class="kiki" href={`${kikireelBase}${encodeURIComponent(bilibiliUrl)}`} target="_blank" rel="noopener">
+						⭐ 收藏到 KikiReel
+					</a>
+				)}
+				<a class="bili" href={bilibiliUrl} target="_blank" rel="noopener">↗ 在 B 站打开</a>
+			</div>
+			<p class="tip">视频通过 B 站官方播放器播放，版权归原 UP 主所有。</p>
+		</div>
+
+		<aside class="related">
+			<h2>相关推荐</h2>
+			<ul style="list-style:none">
+				{related.map((r) => (
+					<li><VideoCard video={r} compact /></li>
+				))}
+			</ul>
+		</aside>
+	</main>
+</Base>
+
+<style>
+	.watch {
+		max-width: var(--maxw); margin: 0 auto; padding: 1rem 1rem 3rem;
+		display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 1.25rem;
+		align-items: start;
+	}
+	@media (max-width: 900px) {
+		.watch { grid-template-columns: 1fr; }
+		.related { order: 2; }
+	}
+	.player {
+		position: relative; aspect-ratio: 16 / 9; background: #000;
+		border-radius: 12px; overflow: hidden;
+	}
+	.player iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+	.wtitle { font-size: 1.2rem; line-height: 1.45; margin: 0.9rem 0 0.5rem; }
+	.tagrow { display: flex; flex-wrap: wrap; gap: 0.35rem; align-items: center; }
+	.meta { font-size: 0.78rem; color: var(--muted); }
+	.upcard {
+		margin-top: 0.9rem; background: var(--card); border-radius: 12px; padding: 0.75rem 1rem;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+	}
+	.uplink { display: flex; align-items: center; gap: 0.7rem; text-decoration: none; color: inherit; }
+	.bavatar {
+		width: 44px; height: 44px; border-radius: 50%; overflow: hidden; flex-shrink: 0;
+		background: var(--sea-soft); display: grid; place-items: center;
+		font-size: 1.2rem; color: var(--sea); font-weight: 600;
+	}
+	.bavatar img { width: 100%; height: 100%; object-fit: cover; }
+	.upname { display: block; font-weight: 600; font-size: 0.95rem; }
+	.upreason { display: block; font-size: 0.8rem; color: var(--muted); margin-top: 0.15rem; }
+	.actions { display: flex; gap: 0.5rem; margin-top: 0.9rem; flex-wrap: wrap; }
+	.actions button, .actions a {
+		font-size: 0.88rem; padding: 0.5rem 1.1rem; border-radius: 8px; cursor: pointer; text-decoration: none;
+	}
+	.copy { border: 1px solid var(--sea); background: var(--card); color: var(--sea); }
+	.copy:active { background: var(--sea); color: #fff; }
+	.kiki { border: 1px solid #f59e0b; background: var(--card); color: #b45309; }
+	.bili { border: 1px solid var(--line); background: var(--card); color: var(--muted); }
+	.tip { font-size: 0.75rem; color: var(--muted); margin-top: 0.8rem; }
+	.related h2 { font-size: 1rem; margin: 0 0 0.7rem; }
+	.related ul { margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.6rem; }
+</style>
+
+<script>
+	document.querySelectorAll<HTMLButtonElement>('.copy').forEach((btn) => {
+		btn.addEventListener('click', async () => {
+			const url = btn.dataset.url;
+			if (!url) return;
+			try {
+				await navigator.clipboard.writeText(url);
+			} catch {
+				const ta = document.createElement('textarea');
+				ta.value = url;
+				document.body.appendChild(ta);
+				ta.select();
+				document.execCommand('copy');
+				ta.remove();
+			}
+			const original = btn.textContent;
+			btn.textContent = '✅ 已复制';
+			setTimeout(() => (btn.textContent = original), 1500);
+		});
+	});
+</script>

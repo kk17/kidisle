@@ -1,0 +1,55 @@
+---
+import Base from '../../layouts/Base.astro';
+import VideoCard from '../../components/VideoCard.astro';
+import videos from '../../data/videos.json';
+import bloggers from '../../data/bloggers.json';
+
+export function getStaticPaths() {
+	return bloggers.bloggers.map((b) => ({ params: { up: b.up }, props: { blogger: b } }));
+}
+const { blogger } = Astro.props;
+const list = videos.videos.filter((v) => v.up === blogger.up);
+---
+<Base title={`${blogger.up} · 童心岛博主`} description={`${blogger.up} — ${blogger.reason}`}>
+	<main>
+		<div class="bhead">
+			<span class="bavatar">
+				{blogger.avatar && <img src={blogger.avatar} referrerpolicy="no-referrer" alt="" />}
+				{!blogger.avatar && blogger.up.slice(0, 1)}
+			</span>
+			<div class="binfo">
+				<h1>{blogger.up}</h1>
+				<p class="breason">{blogger.reason}</p>
+				<p class="bmeta">
+					{list.length} 条视频 · 来源：<span class="src">📎 {blogger.source}</span>
+				</p>
+			</div>
+		</div>
+		<ul class="grid" style="list-style:none">
+			{list.map((v) => (
+				<li><VideoCard video={v} /></li>
+			))}
+		</ul>
+	</main>
+</Base>
+
+<style>
+	.bhead {
+		max-width: var(--maxw); margin: 0 auto; padding: 1.5rem 1rem 0.5rem;
+		display: flex; align-items: center; gap: 1rem;
+	}
+	.bavatar {
+		width: 72px; height: 72px; border-radius: 50%; overflow: hidden; flex-shrink: 0;
+		background: var(--sea-soft); display: grid; place-items: center;
+		font-size: 1.8rem; color: var(--sea); font-weight: 600;
+	}
+	.bavatar img { width: 100%; height: 100%; object-fit: cover; }
+	.bhead h1 { margin: 0; font-size: 1.35rem; }
+	.breason { margin: 0.3rem 0 0; font-size: 0.9rem; color: var(--ink); }
+	.bmeta { margin: 0.35rem 0 0; font-size: 0.8rem; color: var(--muted); }
+	.src { background: #fef3c7; color: #92400e; padding: 0.05rem 0.5rem; border-radius: 999px; }
+	.grid {
+		margin: 0 auto; padding: 1rem 1rem 3rem; max-width: var(--maxw);
+		display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem;
+	}
+</style>
