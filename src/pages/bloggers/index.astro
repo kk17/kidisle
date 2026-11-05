@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import { base } from '../../lib/base.ts';
 import bloggers from '../../data/bloggers.json';
 ---
 <Base title="博主目录 · 童心岛" description="童心岛收录的优质儿童向 B 站博主目录，附推荐理由与来源。">
@@ -9,7 +10,7 @@ import bloggers from '../../data/bloggers.json';
 			{
 				bloggers.bloggers.map((b) => (
 					<li>
-						<a class="bcard" href={`${import.meta.env.BASE_URL}blogger/${encodeURIComponent(b.up)}/`}>
+						<a class="bcard" href={`${base}blogger/${encodeURIComponent(b.up)}/`}>
 							<span class="bavatar">
 								{b.avatar && <img src={b.avatar} loading="lazy" referrerpolicy="no-referrer" alt="" />}
 								{!b.avatar && b.up.slice(0, 1)}

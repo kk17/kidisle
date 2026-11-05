@@ -10,7 +10,7 @@ export function getStaticPaths() {
 	return videos.videos.map((v) => ({ params: { bvid: v.bvid }, props: { video: v } }));
 }
 const { video: v } = Astro.props;
-const base = import.meta.env.BASE_URL;
+import { base } from '../../lib/base.ts';
 const kikireelBase = siteConfig.kikireel_web_base;
 const ageLabel = Object.fromEntries(taxonomy.age_bands.map((t) => [t.id, t.label]));
 const langLabel = Object.fromEntries(taxonomy.languages.map((t) => [t.id, t.label]));
