@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 299,
+  "count": 329,
   "videos": [
     {
       "bvid": "BV11341157Wz",
@@ -78,6 +78,24 @@
         ],
         "theme": [
           "life"
+        ]
+      }
+    },
+    {
+      "bvid": "BV12S4y1u75V",
+      "suitable": true,
+      "note": "中国唱诗班古诗动画，建议增设人文主题",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "animation",
+          "music"
         ]
       }
     },
@@ -531,6 +549,23 @@
       }
     },
     {
+      "bvid": "BV17GArzTEHS",
+      "suitable": true,
+      "note": "葫芦兄弟全13集，与上条同类内容标签一致",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "story"
+        ]
+      }
+    },
+    {
       "bvid": "BV17PD5YNEE6",
       "suitable": true,
       "note": "工程车主题睡前绘本故事，小车迷友好",
@@ -560,6 +595,24 @@
         "theme": [
           "story",
           "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "BV17b411Y7kk",
+      "suitable": true,
+      "note": "唱诗班游子吟，母爱主题古诗词动画",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "animation",
+          "music"
         ]
       }
     },
@@ -692,6 +745,23 @@
       }
     },
     {
+      "bvid": "BV18x411B7vR",
+      "suitable": true,
+      "note": "经典家庭生活动画，亲子关系与日常童趣",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "social"
+        ]
+      }
+    },
+    {
       "bvid": "BV19F4m1j7yv",
       "suitable": true,
       "note": "纸飞机滑翔演示，激发动手兴趣",
@@ -811,6 +881,23 @@
         "age": [],
         "language": [],
         "theme": []
+      }
+    },
+    {
+      "bvid": "BV1BLqLYBEuQ",
+      "suitable": true,
+      "note": "大耳朵图图幼儿园适应单集，情感社交启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "social"
+        ]
       }
     },
     {
@@ -1039,6 +1126,23 @@
       }
     },
     {
+      "bvid": "BV1EsQFBoE5A",
+      "suitable": true,
+      "note": "BBC安迪史前冒险中文版，史前自然探险科普",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "nature"
+        ]
+      }
+    },
+    {
       "bvid": "BV1FNVqzQEVq",
       "suitable": true,
       "note": "微观小世界无对白自然动画,语言待人工复核",
@@ -1091,6 +1195,23 @@
       }
     },
     {
+      "bvid": "BV1Fk4y1V7Lf",
+      "suitable": true,
+      "note": "上美经典葫芦兄弟，含降妖情节适合6岁以上",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "story"
+        ]
+      }
+    },
+    {
       "bvid": "BV1FxjizFE4A",
       "suitable": true,
       "note": "安全教育动画单集，健康体检主题",
@@ -1108,6 +1229,23 @@
       }
     },
     {
+      "bvid": "BV1GF411C7ge",
+      "suitable": true,
+      "note": "上美经典没头脑和不高兴，习惯与性格教育",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "story"
+        ]
+      }
+    },
+    {
       "bvid": "BV1GJ411X7hu",
       "suitable": true,
       "note": "BBC英式发音教程，内容健康，大童适用",
@@ -1120,6 +1258,23 @@
         ],
         "theme": [
           "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1GJcLzUEQi",
+      "suitable": true,
+      "note": "BBC安迪水上冒险中文版，海洋动物科普",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "nature"
         ]
       }
     },
@@ -1336,6 +1491,41 @@
       }
     },
     {
+      "bvid": "BV1JL4y1v7Gc",
+      "suitable": true,
+      "note": "声律启蒙有声国学，韵律语感启蒙，建议增设人文主题",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1JQTmzBEdU",
+      "suitable": true,
+      "note": "上美经典九色鹿，敦煌壁画故事，建议增设人文主题",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV1Jd4y1i7RH",
       "suitable": true,
       "note": "幼儿园适应主题动画片段，来源待人工复核",
@@ -1442,6 +1632,23 @@
         ],
         "theme": [
           "social"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1KM411r7hr",
+      "suitable": true,
+      "note": "科教协会公益科普动画，海洋探秘鲸歌",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "nature"
         ]
       }
     },
@@ -1937,6 +2144,33 @@
       }
     },
     {
+      "bvid": "BV1Qs411m7sX",
+      "suitable": true,
+      "note": "NHK毕达哥拉斯装置片段，原声配中文字幕口译",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1QwWszhEtF",
+      "suitable": false,
+      "note": "成人向读文献杂谈，受众非儿童",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
       "bvid": "BV1R54y147N8",
       "suitable": false,
       "note": "非官方搬运巴塔木儿歌合集，淘汰",
@@ -2105,6 +2339,22 @@
         "theme": [
           "music",
           "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1T34y147F4",
+      "suitable": true,
+      "note": "图书制作过程趣味科普，语言偏成人待人工复核",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life"
         ]
       }
     },
@@ -2300,6 +2550,23 @@
         "age": [],
         "language": [],
         "theme": []
+      }
+    },
+    {
+      "bvid": "BV1Vx411L7mk",
+      "suitable": true,
+      "note": "1962上美经典重制，同片重复条目标签一致",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "story"
+        ]
       }
     },
     {
@@ -2771,6 +3038,24 @@
       }
     },
     {
+      "bvid": "BV1ax41127Np",
+      "suitable": true,
+      "note": "海底小纵队海底报告英文版，唱打油诗介绍动物",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "nature",
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
       "bvid": "BV1b64y1x77x",
       "suitable": true,
       "note": "MC二创还原数学动画,内容健康,待人工复核",
@@ -2840,6 +3125,23 @@
       }
     },
     {
+      "bvid": "BV1bx411C7fc",
+      "suitable": true,
+      "note": "1995童年版大头儿子，与上条同类标签一致",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "social"
+        ]
+      }
+    },
+    {
       "bvid": "BV1bx411L7sA",
       "suitable": true,
       "note": "游泳技能教学，体育暂归life主题",
@@ -2887,6 +3189,16 @@
         "theme": [
           "story"
         ]
+      }
+    },
+    {
+      "bvid": "BV1ce411x7yB",
+      "suitable": false,
+      "note": "成人向人文纪录片片尾催泪剪辑，非儿童内容",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
       }
     },
     {
@@ -3283,6 +3595,23 @@
       }
     },
     {
+      "bvid": "BV1hQ4y1h7uQ",
+      "suitable": true,
+      "note": "BBC安迪恐龙冒险中文版，恐龙知识启蒙",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "nature"
+        ]
+      }
+    },
+    {
       "bvid": "BV1hm421g74F",
       "suitable": true,
       "note": "疑似Numberblocks二创非官方,待人工复核",
@@ -3307,6 +3636,23 @@
         "age": [],
         "language": [],
         "theme": []
+      }
+    },
+    {
+      "bvid": "BV1hr421F77a",
+      "suitable": true,
+      "note": "上美1955木偶经典神笔马良，惩恶扬善",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "animation"
+        ]
       }
     },
     {
@@ -3619,6 +3965,24 @@
       }
     },
     {
+      "bvid": "BV1mW411N7Vb",
+      "suitable": true,
+      "note": "唱诗班相思篇，爱情线偏成熟建议人工复核",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "animation",
+          "music"
+        ]
+      }
+    },
+    {
       "bvid": "BV1mZ4y1d7C6",
       "suitable": true,
       "note": "历史讲史内容健康，适合大童亲子共看",
@@ -3667,6 +4031,23 @@
       }
     },
     {
+      "bvid": "BV1n2sye2Eoj",
+      "suitable": true,
+      "note": "少儿口才表演版对韵歌，账号为剪辑号待人工复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "story"
+        ]
+      }
+    },
+    {
       "bvid": "BV1n7411P7wV",
       "suitable": true,
       "note": "歌曲故事学英语对话，带字幕启蒙",
@@ -3682,6 +4063,23 @@
           "english",
           "story",
           "music"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1nW4y1K7ys",
+      "suitable": true,
+      "note": "海底小纵队中文版，海洋探险与海洋生物知识",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "nature",
+          "animation"
         ]
       }
     },
@@ -3894,6 +4292,23 @@
           "zh"
         ],
         "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1pa411P79t",
+      "suitable": true,
+      "note": "上美经典黑猫警长，个别情节略惊悚建议6岁以上",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
           "story"
         ]
       }
@@ -4232,6 +4647,23 @@
       }
     },
     {
+      "bvid": "BV1tXsoecExv",
+      "suitable": true,
+      "note": "NHK科学思维启蒙，观察与独立思考，中文配音",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
       "bvid": "BV1tt411w72A",
       "suitable": true,
       "note": "剑桥初级语法讲解，内容健康，大童适用",
@@ -4272,6 +4704,24 @@
         "theme": [
           "nature",
           "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1um411R7Fr",
+      "suitable": true,
+      "note": "笠翁对韵诵读磨耳朵，建议增设人文主题",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "story"
         ]
       }
     },
@@ -4427,6 +4877,24 @@
         ],
         "theme": [
           "science"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1vm4y1E7KZ",
+      "suitable": true,
+      "note": "NHK创意装置科普，动手动脑，语言版本待人工复核",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "craft"
         ]
       }
     },
@@ -4648,6 +5116,41 @@
         "theme": [
           "story",
           "life"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1zbDgYhEW9",
+      "suitable": true,
+      "note": "唐诗三百首唱游动画，幼儿古诗启蒙，建议增设人文主题",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "story",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1zkhGzcESD",
+      "suitable": true,
+      "note": "BBC安迪野外冒险中文版，野生动物科普",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "nature"
         ]
       }
     },
