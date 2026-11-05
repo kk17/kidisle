@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 183,
+  "count": 243,
   "videos": [
     {
       "bvid": "BV11341157Wz",
@@ -23,6 +23,26 @@
       "bvid": "BV114411Q7Y4",
       "suitable": false,
       "note": "初一教材同步应试课,超龄且超长搬运",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "BV11m4y1J7or",
+      "suitable": false,
+      "note": "网盘搬运资源号，简介空洞，低质搬运",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "BV11vEPzSEdX",
+      "suitable": false,
+      "note": "SEO堆砌简介的资料搬运号，低质搬运",
       "tags": {
         "age": [],
         "language": [],
@@ -73,6 +93,23 @@
       }
     },
     {
+      "bvid": "BV12x411E7xp",
+      "suitable": true,
+      "note": "如厕训练儿歌，生活自理启蒙，低幼友好",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "life"
+        ]
+      }
+    },
+    {
       "bvid": "BV13E411x7i8",
       "suitable": true,
       "note": "美式英语启蒙动画，情景对话儿歌教学",
@@ -86,6 +123,24 @@
         ],
         "theme": [
           "english",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "BV13UirBtE38",
+      "suitable": true,
+      "note": "动画讲蝗灾历史成因，人文历史，建议增设人文主题",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
           "animation"
         ]
       }
@@ -120,6 +175,24 @@
         ],
         "theme": [
           "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV13f421178P",
+      "suitable": true,
+      "note": "安全教育动画，识别虚假广告主题",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life",
+          "social"
         ]
       }
     },
@@ -197,6 +270,24 @@
         "theme": [
           "animation",
           "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV15R4y1k714",
+      "suitable": true,
+      "note": "防拐骗安全教育儿歌",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "life"
         ]
       }
     },
@@ -332,6 +423,24 @@
       }
     },
     {
+      "bvid": "BV16oZZBkED7",
+      "suitable": true,
+      "note": "入园适应儿歌，缓解分离焦虑，低幼友好",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "life"
+        ]
+      }
+    },
+    {
       "bvid": "BV17PD5YNEE6",
       "suitable": true,
       "note": "工程车主题睡前绘本故事，小车迷友好",
@@ -392,6 +501,23 @@
       }
     },
     {
+      "bvid": "BV17v411C7TJ",
+      "suitable": true,
+      "note": "自然科学纪录片讲生命起源，亲子可看",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
       "bvid": "BV1844y1v7ws",
       "suitable": true,
       "note": "折纸教程健康，需一定动手能力",
@@ -437,6 +563,24 @@
         ],
         "theme": [
           "music"
+        ]
+      }
+    },
+    {
+      "bvid": "BV18jXUBnEdX",
+      "suitable": true,
+      "note": "侦探推理喜剧动画合集，台配国语",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "story"
         ]
       }
     },
@@ -493,6 +637,23 @@
       }
     },
     {
+      "bvid": "BV19dgzzCEaU",
+      "suitable": true,
+      "note": "儿童百科问答讲如厕与身体常识，生活启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life",
+          "science"
+        ]
+      }
+    },
+    {
       "bvid": "BV19f4y1A7zg",
       "suitable": true,
       "note": "文学讲解健康，语言偏成人待人工复核",
@@ -506,6 +667,34 @@
         "theme": [
           "story"
         ]
+      }
+    },
+    {
+      "bvid": "BV19jfLYWEfR",
+      "suitable": true,
+      "note": "动画讲春节来历习俗，传统文化，建议增设人文主题",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1AK4jzBEQm",
+      "suitable": false,
+      "note": "时长仅12秒，疑似碎片引流剪辑，内容不完整",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
       }
     },
     {
@@ -561,6 +750,34 @@
           "music",
           "english"
         ]
+      }
+    },
+    {
+      "bvid": "BV1Cq4y1u728",
+      "suitable": true,
+      "note": "屁屁侦探动画版合集，推理益智，趣味性强",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Cx4y1m7Nc",
+      "suitable": false,
+      "note": "标题党营销话术诱导艾特，碎片剪辑，不收录",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
       }
     },
     {
@@ -709,6 +926,23 @@
       }
     },
     {
+      "bvid": "BV1FxjizFE4A",
+      "suitable": true,
+      "note": "安全教育动画单集，健康体检主题",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life",
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV1GJ411X7hu",
       "suitable": true,
       "note": "BBC英式发音教程，内容健康，大童适用",
@@ -738,6 +972,23 @@
         ],
         "theme": [
           "science"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1HD421J74U",
+      "suitable": true,
+      "note": "陌生人识别安全教育，短小实用",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life",
+          "social"
         ]
       }
     },
@@ -789,6 +1040,23 @@
       }
     },
     {
+      "bvid": "BV1HxHAzUEsk",
+      "suitable": true,
+      "note": "三十六计国学历史动画，建议增设人文主题",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV1J14y1Q7ZD",
       "suitable": true,
       "note": "绘本亲子阅读，讲消化系统与饮食习惯",
@@ -802,6 +1070,25 @@
         "theme": [
           "story",
           "life"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1J24y1Q7Hz",
+      "suitable": true,
+      "note": "社交成长主题动画合集，中英文双版本",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "animation",
+          "social",
+          "nature"
         ]
       }
     },
@@ -840,6 +1127,40 @@
       }
     },
     {
+      "bvid": "BV1JL4y167EN",
+      "suitable": true,
+      "note": "身体保护安全启蒙合集，防侵害教育，建议家长陪同",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Jd4y1i7RH",
+      "suitable": true,
+      "note": "幼儿园适应主题动画片段，来源待人工复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "social"
+        ]
+      }
+    },
+    {
       "bvid": "BV1Ji4y187tR",
       "suitable": true,
       "note": "硬笔书法教学合集，素质教育内容",
@@ -856,6 +1177,23 @@
       }
     },
     {
+      "bvid": "BV1Jx411L74d",
+      "suitable": true,
+      "note": "经典科普动画恐龙系列合集，适龄耐看",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV1K4411e7Vr",
       "suitable": false,
       "note": "标题关键词堆砌，低质剪辑搬运号",
@@ -863,6 +1201,24 @@
         "age": [],
         "language": [],
         "theme": []
+      }
+    },
+    {
+      "bvid": "BV1K5WszWEpe",
+      "suitable": true,
+      "note": "法国昆虫自然启蒙动画，基本无对白，趣味性强",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "nature",
+          "animation"
+        ]
       }
     },
     {
@@ -937,6 +1293,23 @@
         "theme": [
           "music",
           "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1LqUQBfEur",
+      "suitable": true,
+      "note": "儿童防骗安全科普，识别骗局技巧",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life",
+          "social"
         ]
       }
     },
@@ -1146,6 +1519,16 @@
       }
     },
     {
+      "bvid": "BV1P4411p7nb",
+      "suitable": false,
+      "note": "时长仅22秒碎片剪辑，内容不完整，低质",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
       "bvid": "BV1PBkdYCEWt",
       "suitable": true,
       "note": "速算技巧讲解,简短健康",
@@ -1196,6 +1579,22 @@
       }
     },
     {
+      "bvid": "BV1Pw411x76t",
+      "suitable": true,
+      "note": "交通安全知识科普，面向小学生，家长可共看",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life"
+        ]
+      }
+    },
+    {
       "bvid": "BV1Q5iwB7Evd",
       "suitable": true,
       "note": "SSS英文儿歌合集,纯英文磨耳朵",
@@ -1210,6 +1609,34 @@
           "music",
           "english"
         ]
+      }
+    },
+    {
+      "bvid": "BV1QJHpzWEP6",
+      "suitable": true,
+      "note": "纽扣电池误食危害安全科普；建议家长陪同",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life",
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1QL2FBNEdu",
+      "suitable": false,
+      "note": "12秒新闻碎片，无儿童教育内容价值",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
       }
     },
     {
@@ -1247,6 +1674,24 @@
       }
     },
     {
+      "bvid": "BV1QiCvBoEtX",
+      "suitable": true,
+      "note": "DK儿童百科动画，自然科学启蒙合集",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "nature"
+        ]
+      }
+    },
+    {
       "bvid": "BV1R54y147N8",
       "suitable": false,
       "note": "非官方搬运巴塔木儿歌合集，淘汰",
@@ -1254,6 +1699,24 @@
         "age": [],
         "language": [],
         "theme": []
+      }
+    },
+    {
+      "bvid": "BV1R841147ZR",
+      "suitable": true,
+      "note": "动画讲火星探测与航天科普，童趣易懂",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "animation"
+        ]
       }
     },
     {
@@ -1281,6 +1744,22 @@
       "tags": {
         "age": [
           "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1RV4y1y7X4",
+      "suitable": true,
+      "note": "成语典故趣味动画，贴近小学认知；建议增设人文主题",
+      "tags": {
+        "age": [
+          "6-9"
         ],
         "language": [
           "zh"
@@ -1399,6 +1878,24 @@
           "music",
           "animation",
           "social"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Tx411i7dM",
+      "suitable": true,
+      "note": "央视经典成语故事动画，建议增设人文主题",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "animation"
         ]
       }
     },
@@ -1525,6 +2022,24 @@
         "theme": [
           "science",
           "life"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1WR4y1G7xH",
+      "suitable": true,
+      "note": "情商启蒙儿歌，友谊社交主题，低幼友好",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "social"
         ]
       }
     },
@@ -1713,6 +2228,24 @@
       }
     },
     {
+      "bvid": "BV1a94y1V7rk",
+      "suitable": true,
+      "note": "各国国宴文化科普，亲子可看，建议增设人文主题",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV1aD4y1D7iY",
       "suitable": true,
       "note": "敦煌艺术趣味讲解，表达适合儿童",
@@ -1894,6 +2427,24 @@
       }
     },
     {
+      "bvid": "BV1c54y197ns",
+      "suitable": true,
+      "note": "原创儿童性教育动画，内容权威，建议家长陪同",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life",
+          "science"
+        ]
+      }
+    },
+    {
       "bvid": "BV1c64y1k7N6",
       "suitable": true,
       "note": "语文人文解读，建议增设人文主题",
@@ -1926,6 +2477,23 @@
       }
     },
     {
+      "bvid": "BV1d4zkBGE67",
+      "suitable": true,
+      "note": "经典幼儿科学启蒙动画中文版，趣味实验",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV1eb41137qz",
       "suitable": false,
       "note": "YouTube搬运低质号，标题关键词堆砌",
@@ -1933,6 +2501,24 @@
         "age": [],
         "language": [],
         "theme": []
+      }
+    },
+    {
+      "bvid": "BV1eh4y1c7ao",
+      "suitable": true,
+      "note": "儿童科普动画讲台风成因与防护，专家审校",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "animation"
+        ]
       }
     },
     {
@@ -2019,6 +2605,22 @@
       }
     },
     {
+      "bvid": "BV1fc411W7pu",
+      "suitable": true,
+      "note": "十万个为什么儿童科普问答合集，启蒙向",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
       "bvid": "BV1gP411z7kE",
       "suitable": true,
       "note": "实验原理演示,提醒勿模仿,内容健康",
@@ -2032,6 +2634,59 @@
         ],
         "theme": [
           "science"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1gb411A7Pv",
+      "suitable": true,
+      "note": "经典刷牙儿歌，卫生习惯启蒙",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1go4y1X74d",
+      "suitable": true,
+      "note": "刷牙习惯养成儿歌，低幼友好",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1grpQejEYD",
+      "suitable": true,
+      "note": "讲给孩子的汉字故事，建议增设人文主题",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
         ]
       }
     },
@@ -2087,6 +2742,24 @@
       }
     },
     {
+      "bvid": "BV1hDpRzjEMi",
+      "suitable": true,
+      "note": "如厕训练儿歌合集，生活自理启蒙；合集时长无关",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "life"
+        ]
+      }
+    },
+    {
       "bvid": "BV1hm421g74F",
       "suitable": true,
       "note": "疑似Numberblocks二创非官方,待人工复核",
@@ -2131,6 +2804,24 @@
       }
     },
     {
+      "bvid": "BV1i5411z7pz",
+      "suitable": true,
+      "note": "人文地理科普讲国界，建议增设人文主题",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV1iJ411P77A",
       "suitable": true,
       "note": "幼儿律动舞，幼师演示可跟学",
@@ -2143,6 +2834,23 @@
         ],
         "theme": [
           "music"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1iP411b7GR",
+      "suitable": true,
+      "note": "食物中毒预防儿歌，卫生习惯启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "life"
         ]
       }
     },
@@ -2166,6 +2874,16 @@
       "bvid": "BV1ib411t7YR",
       "suitable": false,
       "note": "大学线代合集超龄,且为转载搬运",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "BV1ii421U7HW",
+      "suitable": false,
+      "note": "疑似预告宣传短片，非完整正片内容",
       "tags": {
         "age": [],
         "language": [],
@@ -2239,6 +2957,34 @@
       }
     },
     {
+      "bvid": "BV1km421M7Zp",
+      "suitable": false,
+      "note": "中国地理桌游产品推广视频，软广带货",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "BV1kuzMBdEvx",
+      "suitable": true,
+      "note": "动画讲感冒与免疫原理，健康科普启蒙",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV1m7411e7ta",
       "suitable": true,
       "note": "自然拼读字母歌，趣味拼读启蒙",
@@ -2269,6 +3015,23 @@
         ],
         "theme": [
           "craft"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1mR4y1E7go",
+      "suitable": true,
+      "note": "安全教育救援动画合集，儿童向冒险科普",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "life"
         ]
       }
     },
@@ -2370,6 +3133,24 @@
       }
     },
     {
+      "bvid": "BV1oH4y1X7Nv",
+      "suitable": true,
+      "note": "刷牙卫生习惯儿歌，低幼友好",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "life"
+        ]
+      }
+    },
+    {
       "bvid": "BV1oY4y197W9",
       "suitable": true,
       "note": "BBC少儿科普,英文原声,需一定英语基础",
@@ -2399,6 +3180,24 @@
         ],
         "theme": [
           "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1p7KfzqEZs",
+      "suitable": true,
+      "note": "DK百科普通话动画版，科普启蒙合集",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "nature"
         ]
       }
     },
@@ -2508,6 +3307,23 @@
       }
     },
     {
+      "bvid": "BV1r1xjeqEAu",
+      "suitable": true,
+      "note": "喷泉安全隐患警示动画，建议家长陪同观看",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life"
+        ]
+      }
+    },
+    {
       "bvid": "BV1r54y1m7gd",
       "suitable": true,
       "note": "语法体系框架讲解，内容健康，大童适用",
@@ -2552,6 +3368,34 @@
       }
     },
     {
+      "bvid": "BV1sG411973t",
+      "suitable": false,
+      "note": "时长19秒与全集标题严重不符，低质资源",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "BV1sqLK6KEUw",
+      "suitable": true,
+      "note": "英文动画配中英字幕，情绪管理与英语启蒙；无讲解故en",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "english",
+          "social"
+        ]
+      }
+    },
+    {
       "bvid": "BV1tE41187pY",
       "suitable": true,
       "note": "幽默科普,口播风格略成人化,给大童档",
@@ -2564,6 +3408,39 @@
         ],
         "theme": [
           "science"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1tP4y1M7Dq",
+      "suitable": true,
+      "note": "宝宝巴士儿歌动画讲宇航太空，幼儿启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1tRu16vEbY",
+      "suitable": true,
+      "note": "尊重他人边界社交启蒙，幼儿园情景剧",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "social"
         ]
       }
     },
@@ -2581,6 +3458,16 @@
         "theme": [
           "english"
         ]
+      }
+    },
+    {
+      "bvid": "BV1ttVUzvEsM",
+      "suitable": false,
+      "note": "网盘搬运合集，标题党引流，低质非原创",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
       }
     },
     {
@@ -2634,6 +3521,16 @@
           "science",
           "animation"
         ]
+      }
+    },
+    {
+      "bvid": "BV1vGtbevEKC",
+      "suitable": false,
+      "note": "SEO关键词堆砌标题，网络搬运低质号",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
       }
     },
     {
@@ -2716,6 +3613,58 @@
         ],
         "theme": [
           "music"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1vh41197ny",
+      "suitable": true,
+      "note": "球状闪电科学纪实科普，实地探访专家",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1vp4xzmEmn",
+      "suitable": true,
+      "note": "中华寓言故事动画合集；建议增设人文主题",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1wN411c76s",
+      "suitable": true,
+      "note": "DK天文幼儿百科动画，太空科普启蒙",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
         ]
       }
     },
@@ -2835,6 +3784,23 @@
         ],
         "theme": [
           "music"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1yx411V7dU",
+      "suitable": true,
+      "note": "经典太空科普历险动画合集，适龄耐看",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "animation"
         ]
       }
     },
