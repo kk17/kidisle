@@ -14,6 +14,7 @@
 import argparse
 import json
 import time
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -66,6 +67,53 @@ def main():
         for v in videos[:5]:
             print(" -", v["bvid"], v["title"][:30], v["tags"])
         return
+
+    # ---- 博主聚合层：头像 / 推荐理由 / 来源 ----
+    # 头像取自采集富化的 up_face；推荐理由优先取 data/blogger-notes.json 手工覆盖层，
+    # 其余按该博主视频的主题分布自动生成兜底文案。
+    overlay = {}
+    notes_path = ROOT / "data/blogger-notes.json"
+    if notes_path.exists():
+        overlay = json.loads(notes_path.read_text(encoding="utf-8")).get("bloggers", {})
+    theme_labels = {t["id"]: t["label"] for t in json.loads(
+        (ROOT / "src/data/taxonomy.json").read_text(encoding="utf-8"))["themes"]}
+    pool = {v["bvid"]: v for p in (ROOT / "data/candidates.json", ROOT / "data/candidates-b.json")
+            if p.exists() for v in json.loads(p.read_text(encoding="utf-8"))["videos"]}
+    by_up = {}
+    for v in videos:
+        by_up.setdefault(v["up"] or "未知UP主", []).append(v)
+    bloggers = []
+    for up, vids in by_up.items():
+        face = next((pool[v["bvid"]].get("up_face") for v in vids
+                     if pool.get(v["bvid"], {}).get("up_face")), "")
+        themes = [t for v in vids for t in v["tags"]["theme"]]
+        top_themes = [theme_labels[t] for t, _ in Counter(themes).most_common(2)]
+        info = overlay.get(up, {})
+        reason = info.get("reason") or (
+            f"收录 {len(vids)} 条视频，主打{'、'.join(top_themes)}" if top_themes
+            else f"收录 {len(vids)} 条视频"
+        )
+        bloggers.append({
+            "up": up,
+            "avatar": face,
+            "video_count": len(vids),
+            "reason": reason,
+            "source": info.get("source") or "社区精选",
+        })
+    bloggers.sort(key=lambda b: -b["video_count"])
+    bloggers_out = ROOT / "src/data/bloggers.json"
+    bloggers_out.write_text(
+        json.dumps(
+            {
+                "schema_version": 1,
+                "note": "由 scripts/build_data.py 生成，请勿手工编辑；推荐理由覆盖层见 data/blogger-notes.json。",
+                "bloggers": bloggers,
+            },
+            ensure_ascii=False,
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
 
     args.out.write_text(
         json.dumps(

@@ -235,6 +235,7 @@ class BilibiliClient:
                 "desc": (v.get("desc") or "")[:500],
                 "up": (v.get("owner") or {}).get("name"),
                 "mid": (v.get("owner") or {}).get("mid"),
+                "up_face": (v.get("owner") or {}).get("face"),
                 "duration_seconds": v.get("duration"),
                 "cover": v.get("pic"),
                 "pubdate": v.get("pubdate"),
