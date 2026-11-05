@@ -428,7 +428,13 @@ const groups = (() => {
 				const bc = (e.target as HTMLElement).closest<HTMLElement>('.bcard');
 				if (!bc) return;
 				selectedUp = bc.dataset.up!;
-				const info = JSON.parse(document.querySelector(`script[data-blogger-info]`)?.textContent || '{}');
+				// 博主信息解析失败不阻塞导航（头像/理由兜底为占位）
+				let info: Record<string, { avatar?: string }> = {};
+				try {
+					info = JSON.parse(document.querySelector(`script[data-blogger-info]`)?.textContent || '{}');
+				} catch {
+					/* 数据坏了也要能进二级视图 */
+				}
 				const avatar = document.getElementById('bdetail-avatar')!;
 				avatar.innerHTML = '';
 				const b = info[bc.dataset.up!];
