@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 153,
+  "count": 183,
   "videos": [
     {
       "bvid": "BV11341157Wz",
@@ -184,6 +184,60 @@
       }
     },
     {
+      "bvid": "BV15R4y1479y",
+      "suitable": true,
+      "note": "汉字启蒙益智动画；语文暂归story，建议增设人文主题",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV15b4y1o7DU",
+      "suitable": true,
+      "note": "交通工具认知音乐剧，理解公共服务角色",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "animation",
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "BV15q4y1u7ET",
+      "suitable": true,
+      "note": "官方低幼儿歌动画，进阶生活技能启蒙",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "animation",
+          "life"
+        ]
+      }
+    },
+    {
       "bvid": "BV16A411H7Cj",
       "suitable": true,
       "note": "汉字文化设计科普,人文类归story,建议增设人文主题",
@@ -354,6 +408,39 @@
       }
     },
     {
+      "bvid": "BV18DYJejEcR",
+      "suitable": true,
+      "note": "奥尔夫音乐节奏游戏演示",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
+      }
+    },
+    {
+      "bvid": "BV18V4y1T7Kz",
+      "suitable": true,
+      "note": "官方经典儿歌数鸭子",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
+      }
+    },
+    {
       "bvid": "BV18m42137hN",
       "suitable": true,
       "note": "BBC科普纪录片英文原声中英字幕,无中文讲解",
@@ -367,6 +454,24 @@
         "theme": [
           "science",
           "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV19L411n7qX",
+      "suitable": true,
+      "note": "官方恐龙主题音乐剧，认识恐龙与相处之道",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "animation",
+          "nature"
         ]
       }
     },
@@ -421,6 +526,23 @@
         "age": [],
         "language": [],
         "theme": []
+      }
+    },
+    {
+      "bvid": "BV1Be4y1b7FJ",
+      "suitable": true,
+      "note": "官方经典儿歌拔萝卜",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
       }
     },
     {
@@ -647,6 +769,26 @@
       }
     },
     {
+      "bvid": "BV1HM4y1W7xJ",
+      "suitable": false,
+      "note": "非官方搬运巴塔木内容，来源不明，淘汰",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "BV1Hh411q7tX",
+      "suitable": false,
+      "note": "网盘资源引流，超长搬运拼盘，淘汰",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
       "bvid": "BV1J14y1Q7ZD",
       "suitable": true,
       "note": "绘本亲子阅读，讲消化系统与饮食习惯",
@@ -678,6 +820,22 @@
         "theme": [
           "music",
           "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1J44y1M72W",
+      "suitable": true,
+      "note": "幼儿音乐律动舞，可跟跳",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
         ]
       }
     },
@@ -814,6 +972,23 @@
         "theme": [
           "music",
           "life"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1MLgk6bEqb",
+      "suitable": true,
+      "note": "经典绘本睡前故事，勇敢分享等情商主题",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
         ]
       }
     },
@@ -1005,6 +1180,22 @@
       }
     },
     {
+      "bvid": "BV1PX4y1E7z7",
+      "suitable": true,
+      "note": "流行歌曲舞蹈律动，受众存疑，待人工复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
+      }
+    },
+    {
       "bvid": "BV1Q5iwB7Evd",
       "suitable": true,
       "note": "SSS英文儿歌合集,纯英文磨耳朵",
@@ -1036,6 +1227,33 @@
           "story",
           "life"
         ]
+      }
+    },
+    {
+      "bvid": "BV1QeHnedEzh",
+      "suitable": true,
+      "note": "手指操教防溺水安全常识",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1R54y147N8",
+      "suitable": false,
+      "note": "非官方搬运巴塔木儿歌合集，淘汰",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
       }
     },
     {
@@ -1089,6 +1307,22 @@
       }
     },
     {
+      "bvid": "BV1SG411W7Bn",
+      "suitable": true,
+      "note": "奥尔夫律动，锻炼节奏与身体协调",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
+      }
+    },
+    {
       "bvid": "BV1SY411T7qG",
       "suitable": false,
       "note": "涉风月性暗示解读，成人向文学内容",
@@ -1096,6 +1330,23 @@
         "age": [],
         "language": [],
         "theme": []
+      }
+    },
+    {
+      "bvid": "BV1Sb4y117ZW",
+      "suitable": true,
+      "note": "怪兽车救援动画音乐剧，官方幼儿向",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "animation"
+        ]
       }
     },
     {
@@ -1130,6 +1381,24 @@
         ],
         "theme": [
           "science"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1TR4y1J7cY",
+      "suitable": true,
+      "note": "职业体验音乐剧，认知社会角色与职业理想",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "animation",
+          "social"
         ]
       }
     },
@@ -1196,6 +1465,33 @@
         "theme": [
           "story"
         ]
+      }
+    },
+    {
+      "bvid": "BV1VP4y1Z74u",
+      "suitable": true,
+      "note": "官方数字对歌童谣，数数启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "math"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Vv4y1k7R2",
+      "suitable": false,
+      "note": "第三方搬运官方儿歌，营销文案引流，淘汰",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
       }
     },
     {
@@ -1310,6 +1606,16 @@
         "theme": [
           "story"
         ]
+      }
+    },
+    {
+      "bvid": "BV1Xv411g7CH",
+      "suitable": false,
+      "note": "搬运来源不明，疑似剪辑合集号，淘汰",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
       }
     },
     {
@@ -1664,6 +1970,23 @@
       }
     },
     {
+      "bvid": "BV1fQ4y1k7MZ",
+      "suitable": true,
+      "note": "美食拟人音乐剧，颜色数字形状认知",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV1fV411H7VK",
       "suitable": true,
       "note": "长征历史沙盘合集，健康历史科普",
@@ -1808,6 +2131,22 @@
       }
     },
     {
+      "bvid": "BV1iJ411P77A",
+      "suitable": true,
+      "note": "幼儿律动舞，幼师演示可跟学",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
+      }
+    },
+    {
       "bvid": "BV1iV411z7Nj",
       "suitable": true,
       "note": "系统音标教学，内容健康，适合大童英语学习",
@@ -1879,6 +2218,23 @@
         ],
         "theme": [
           "craft"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1kK411p7XA",
+      "suitable": true,
+      "note": "亲子律动儿歌舞蹈，益智早教",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
         ]
       }
     },
@@ -1968,6 +2324,16 @@
       }
     },
     {
+      "bvid": "BV1nd4y1W77Q",
+      "suitable": false,
+      "note": "第三方搬运官方儿歌，营销文案引流，淘汰",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
       "bvid": "BV1nknZ6pEpk",
       "suitable": true,
       "note": "BBC数字积木数学启蒙动画,纯英文原声",
@@ -1982,6 +2348,24 @@
           "math",
           "animation",
           "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1nv411w7Ek",
+      "suitable": true,
+      "note": "官方习惯养成音乐剧，生活礼貌安全教育",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "life"
         ]
       }
     },
@@ -2042,6 +2426,24 @@
         "age": [],
         "language": [],
         "theme": []
+      }
+    },
+    {
+      "bvid": "BV1pq4y1R7Q2",
+      "suitable": true,
+      "note": "官方3D儿歌大合集，经典加原创，寓教于乐",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "animation"
+        ]
       }
     },
     {
@@ -2119,6 +2521,16 @@
         "theme": [
           "english"
         ]
+      }
+    },
+    {
+      "bvid": "BV1rT4y1d7DX",
+      "suitable": false,
+      "note": "搬运其他平台绘本资源引流，淘汰",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
       }
     },
     {
@@ -2275,6 +2687,23 @@
       }
     },
     {
+      "bvid": "BV1ve4y167DG",
+      "suitable": true,
+      "note": "官方经典儿歌两只老虎",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
+      }
+    },
+    {
       "bvid": "BV1ve4y1b7BV",
       "suitable": true,
       "note": "贝乐虎经典儿歌单集,低幼适宜",
@@ -2393,6 +2822,23 @@
       }
     },
     {
+      "bvid": "BV1ys4y1g7Dn",
+      "suitable": true,
+      "note": "热门手指谣儿歌，低幼适唱",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
+      }
+    },
+    {
       "bvid": "BV1zAPpzWE21",
       "suitable": true,
       "note": "毛毡动画讲消化与饮食好习惯，健康有趣",
@@ -2406,6 +2852,23 @@
         "theme": [
           "story",
           "life"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1ztexeJE1S",
+      "suitable": true,
+      "note": "手指操教排队礼貌，规则社交启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "social"
         ]
       }
     },
