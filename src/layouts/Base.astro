@@ -96,7 +96,12 @@ const { title = '童心岛 · 为孩子精选的中文视频片单', description
 					for (const [k, v] of Object.entries(el.dataset)) {
 						// data-i18n-var-reason-zh → {reason_zh}
 						if (k.startsWith('i18nVar')) {
-							const name = k.slice(7).replace(/^([A-Z])/, (m) => m.toLowerCase()).replace(/-/g, '_');
+							// data-i18n-var-reason-zh → dataset key "i18nVarReasonZh" → {reason_zh}
+							const name = k
+								.slice(7)
+								.replace(/([a-z0-9])([A-Z])/g, '$1_$2')
+								.replace(/-/g, '_')
+								.toLowerCase();
 							text = text.replace(`{${name}}`, v);
 						}
 					}
