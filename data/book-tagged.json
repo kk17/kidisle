@@ -1894,6 +1894,947 @@
    },
    "reason_zh": "原创自然观察绘本，母女追查陌生野鸟，认鸟入门的图鉴式故事。",
    "reason_en": "A mother-daughter bird-watching quest; illustrated guide to wild birds."
+  },
+  {
+   "title": "喀哒喀哒喀哒",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "林小杯以灵动涂鸦再现老缝纫机与祖孙情，童年记忆的温度让孩子读懂家的味道。",
+   "reason_en": "Lin Xiaobei's sketchy doodles turn grandma's old sewing machine into a tender, playful family memory."
+  },
+  {
+   "title": "牙齿，牙齿，扔屋顶",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "掉牙民俗与老巷生活交融，一段即将消逝的城市记忆，建议增设人文主题。",
+   "reason_en": "A lost tooth and a vanishing old alley: tender Chinese nostalgia that opens talk about change and growing up."
+  },
+  {
+   "title": "棉婆婆睡不着",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "翻来覆去的等待藏着最朴素的爱，把陪伴讲得含蓄动人，适合睡前共读。",
+   "reason_en": "Grandma's sleepless waiting quietly shows enduring love — a gentle bedtime read about companionship."
+  },
+  {
+   "title": "盘中餐",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "nature",
+     "story"
+    ]
+   },
+   "reason_zh": "一粒米从秧苗到餐桌的科学记录，画面考究，是最好的珍惜粮食与农耕启蒙。",
+   "reason_en": "Follows a single grain of rice from seedling to table with gorgeous, accurate art — the best gratitude-for-food lesson."
+  },
+  {
+   "title": "公主怎么挖鼻屎",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "life",
+     "story"
+    ]
+   },
+   "reason_zh": "把挖鼻屎的尴尬讲成爆笑选择题，生活习惯引导不靠说教，孩子笑得前仰后合。",
+   "reason_en": "Nose-picking etiquette as a hilarious guessing game — habit guidance without a hint of preaching."
+  },
+  {
+   "title": "不要和青蛙跳绳",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "把讨厌妈妈的怒气幻化成奇幻跳绳比赛，情绪疏解与亲情和解一举两得。",
+   "reason_en": "Anger at Mom becomes a fantastical jump-rope contest — emotional release and reconciliation in one."
+  },
+  {
+   "title": "苏丹的犀角",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "nature",
+     "story"
+    ]
+   },
+   "reason_zh": "最后一头雄性北白犀的真实一生，温柔讲述濒危与告别，在心里种下保护自然的种子。",
+   "reason_en": "The true life of the last male northern white rhino — a tender lesson in endangered species and saying goodbye."
+  },
+  {
+   "title": "纽扣士兵",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "无字书里一枚纽扣的雪地奇遇，纯靠画面叙事，最能放飞低龄孩子的想象力。",
+   "reason_en": "A wordless snow-day adventure where a lost button becomes a brave soldier — pure visual imagination."
+  },
+  {
+   "title": "驯河童子",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "以少年驯河的奇幻传说写勇气与自我认同，气势恢宏，适合大童挑战长篇绘本。",
+   "reason_en": "A boy faces the raging river with his own quiet strength — a sweeping fantasy about courage and self-worth."
+  },
+  {
+   "title": "100层的房子",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "math"
+    ]
+   },
+   "reason_zh": "竖翻页一层层探访十种动物的家，边数数边读故事，观察力与数感同步升级。",
+   "reason_en": "Climb 100 floors and meet ten animal homes — counting, observation and imagination in one flip-book."
+  },
+  {
+   "title": "外婆住在香水村",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "用住在天上的星星化解对逝去外婆的思念，温柔的生命教育起步书。",
+   "reason_en": "Turns grief for grandma into stars in the sky — a gentle first book about loss and remembering."
+  },
+  {
+   "title": "Radiant Child: The Story of Young Artist Jean-Michel Basquiat",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "craft"
+    ]
+   },
+   "reason_zh": "拼贴画致敬少年巴斯奎特的艺术梦想，与众不同的涂鸦之美给孩子创作勇气。",
+   "reason_en": "Collage art celebrates young Basquiat's boundless creativity — an inspiring first artist biography."
+  },
+  {
+   "title": "Leave Me Alone!",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "奶奶为安心织毛衣一路逃到宇宙尽头，祖孙之爱的爆笑演绎，共读笑点密集。",
+   "reason_en": "A grandma treks to the edge of space just to knit in peace — laugh-out-loud and secretly sweet."
+  },
+  {
+   "title": "Freedom in Congo Square",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "诗意的倒数与奔放的画，让孩子初识那段奴隶史与自由的渴望，建议增设人文主题。",
+   "reason_en": "Poetic countdown to Congo Square's Sunday freedom — a gentle, honest first look at slavery history."
+  },
+  {
+   "title": "Du Iz Tak?",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "nature"
+    ]
+   },
+   "reason_zh": "全程虫语的奇趣绘本，孩子像侦探一样破译台词，语言游戏与自然观察双享受。",
+   "reason_en": "Told entirely in invented bug language — kids decode every line like detectives while watching a plant grow."
+  },
+  {
+   "title": "They All Saw a Cat",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "science"
+    ]
+   },
+   "reason_zh": "十二双眼睛看同一只猫，视角与感知的启蒙一图胜千言，读完孩子会抢着讨论。",
+   "reason_en": "One cat, twelve pairs of eyes — a brilliant intro to perspective and how each of us sees the world."
+  },
+  {
+   "title": "Wolf in the Snow",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "雪夜里女孩与狼崽互相救助的无字故事，画面叙事力满分，孩子自己就能读懂。",
+   "reason_en": "A wordless blizzard tale of a girl and wolf cub saving each other — pure storytelling without a word."
+  },
+  {
+   "title": "Big Cat, Little Cat",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "黑白极简线条讲尽猫的一生与告别，哀而不伤，生命教育绝佳入门。",
+   "reason_en": "Simple black-and-white lines trace a lifetime of feline friendship and loss — gentle grief education."
+  },
+  {
+   "title": "Crown: An Ode to the Fresh Cut",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "理发店剃头如加冕般的自信仪式，诗性文字加油画质感，让孩子感受被赞美的力量。",
+   "reason_en": "A barbershop haircut as a royal coronation — joyful poetry that builds a child's confidence."
+  },
+  {
+   "title": "A Different Pond",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "父子黎明垂钓背后是移民家庭的辛劳与爱，安静有力，值得和孩子慢慢聊。",
+   "reason_en": "A quiet dawn fishing trip reveals an immigrant family's love and labor — rich for parent-child talk."
+  },
+  {
+   "title": "Grand Canyon",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "nature",
+     "science"
+    ]
+   },
+   "reason_zh": "父女徒步大峡谷，水彩剖面图拆解亿万年地质演化，居家就能上的博物课。",
+   "reason_en": "Father-daughter hike through the Grand Canyon with cross-section watercolors — geology class in a book."
+  },
+  {
+   "title": "Hello Lighthouse",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "灯塔四季流转与守护人一家的日常，细腻金笔插画，安静辽阔的睡前书。",
+   "reason_en": "Seasons pass as a lighthouse keeper's family lives in rhythm with the sea — luminous, calming bedtime art."
+  },
+  {
+   "title": "Alma and How She Got Her Name",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "一个超长名字背后站着六位家人，帮孩子找到我是谁的答案与家族归属感。",
+   "reason_en": "Alma's too-long name unfolds into six family stories — a warm take on identity and belonging."
+  },
+  {
+   "title": "A Big Mooncake for Little Star",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "science"
+    ]
+   },
+   "reason_zh": "把月相盈亏讲成偷吃月亮饼的童话，想象与天文启蒙两不误，画面典雅。",
+   "reason_en": "The moon's phases become a midnight mooncake nibbled bite by bite — myth and astronomy in one."
+  },
+  {
+   "title": "The Rough Patch",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "失去爱犬后的花园从荒芜到重生，坦诚面对悲伤，情感教育少有的真诚之作。",
+   "reason_en": "After losing his dog, a garden grows from ruin to hope — an honest book about grief and healing."
+  },
+  {
+   "title": "Thank You, Omu!",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "一锅炖汤喂饱整条街，分享最终回到自己身边，拼贴画温暖，慷慨与感恩启蒙。",
+   "reason_en": "Omu's big pot of stew feeds the whole street — a warm cut-paper tale of generosity coming full circle."
+  },
+  {
+   "title": "The Undefeated",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "献给美国黑人坚韧史诗的诗歌与油画，气势磅礴的历史启蒙，建议增设人文主题。",
+   "reason_en": "Kwame Alexander's ode to Black resilience paired with Kadir Nelson's stunning portraits — powerful history."
+  },
+  {
+   "title": "Bear Came Along",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "nature"
+    ]
+   },
+   "reason_zh": "一条河串起森林动物的欢乐漂流，循环叙事节奏绝佳，还能顺带认识河流生态。",
+   "reason_en": "A river gathers forest friends into one joyful ride — looping text perfect for reading aloud together."
+  },
+  {
+   "title": "Double Bass Blues",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "music"
+    ]
+   },
+   "reason_zh": "背着低音提琴穿越城市，街道变成乐器，拟声词密集，音乐热爱从此发芽。",
+   "reason_en": "Carrying a double bass through the noisy city, every street becomes music — onomatopoeia joy."
+  },
+  {
+   "title": "Going Down Home with Daddy",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "南下返乡的家族团聚，每一站都是根与传承，让孩子懂得我们从哪里来。",
+   "reason_en": "A family reunion down South connects a boy to his roots — warm, layered celebration of heritage."
+  },
+  {
+   "title": "We Are Water Protectors",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "nature",
+     "story"
+    ]
+   },
+   "reason_zh": "水是第一味药：原住民少女守护河流的宣言，环保启蒙的绘本典范。",
+   "reason_en": "Water is the first medicine — an Indigenous girl vows to protect the river, a landmark eco tale."
+  },
+  {
+   "title": "A Place Inside of Me",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "social",
+     "story"
+    ]
+   },
+   "reason_zh": "一首诗带孩子在四季里认领喜怒哀惧，把情绪说出口，情感教育的诗意范本。",
+   "reason_en": "A year-in-verse where a boy names joy, fear, anger and pride — poetic emotional literacy."
+  },
+  {
+   "title": "The Cat Man of Aleppo",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "战火中坚持救助流浪猫的真实故事，残酷里见善意，适合与孩子聊悲悯与坚持。",
+   "reason_en": "The true story of a man who saved stray cats amid war — compassion blooming in hard times."
+  },
+  {
+   "title": "Me & Mama",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "雨天里与妈妈共度的一天，词句如诗、色彩温柔，献给母女时光的赞美诗。",
+   "reason_en": "A rainy day measured in sensory details of Mama — lyrical art celebrating everyday mother-love."
+  },
+  {
+   "title": "Outside In",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "nature",
+     "story"
+    ]
+   },
+   "reason_zh": "温柔提醒屏幕时代的孩子：自然从未离开，一直在窗外等你推开家门。",
+   "reason_en": "A gentle reminder that nature is always waiting outside the door — irresistible after screen time."
+  },
+  {
+   "title": "Watercress",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "路旁采野菜的尴尬化作家族记忆的和解，移民家庭身份认同的动人佳作。",
+   "reason_en": "Foraging watercress by the roadside unlocks family memory — moving on heritage, shame and pride."
+  },
+  {
+   "title": "Have You Ever Seen a Flower?",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "nature",
+     "story"
+    ]
+   },
+   "reason_zh": "用五感把整个人长成一朵花的通感之旅，画面炫目，读完就想出门看花。",
+   "reason_en": "One child becomes a flower through all five senses — dazzling art that sends kids outdoors."
+  },
+  {
+   "title": "Mel Fell",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "小翠鸟俯冲入水的坠落原来是最酷的起飞，倒转书本的互动设计让孩子尖叫。",
+   "reason_en": "Flip the book sideways as a kingfisher dives — a confidence story with irresistible interactive design."
+  },
+  {
+   "title": "Unspeakable: The Tulsa Race Massacre",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "9-12"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "以图文重现塔尔萨种族大屠杀，沉重但必要的历史一课，建议家长陪同共读。",
+   "reason_en": "The Tulsa Race Massacre in unflinching picture-book form — hard, essential history to read together."
+  },
+  {
+   "title": "Wonder Walkers",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "nature",
+     "story"
+    ]
+   },
+   "reason_zh": "一路走一路问的自然之诗，云有脚吗式的提问点燃户外探索欲。",
+   "reason_en": "Wonder-filled questions turn a walk into nature discovery — made for barefoot exploring."
+  },
+  {
+   "title": "Hot Dog",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "热到炸毛的小狗奔向海边降温，凯迪克金奖的夏日凉风，读着读着就凉快了。",
+   "reason_en": "An overheated city pup dashes to the beach — a breezy Caldecott Medal summer escape."
+  },
+  {
+   "title": "Ain't Burned All the Bright",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "9-12"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "诗、画与呼吸交织的当下黑人生活切片，艺术冲击力强，适合大童与家长共读。",
+   "reason_en": "Poem, paint and breath braided into Black life in America now — striking art for older kids and parents."
+  },
+  {
+   "title": "Berry Song",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "nature",
+     "story"
+    ]
+   },
+   "reason_zh": "海岛采莓的四季之歌，祖孙与土地的馈赠往来，画面如极光般绚烂。",
+   "reason_en": "A Tlingit girl and grandmother gather the island's gifts — luminous art about land and gratitude."
+  },
+  {
+   "title": "Choosing Brave",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "9-12"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "民权之母马米·蒂尔以勇气直面丧子之痛，厚重传记，建议增设人文主题并家长共读。",
+   "reason_en": "Mamie Till-Mobley's brave grief became a civil rights spark — sobering history, best read together."
+  },
+  {
+   "title": "Knight Owl",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "小小猫头鹰圆梦当骑士，用机智化解危机，月光插画暖心，勇气与幽默兼备。",
+   "reason_en": "A tiny owl knight outsmarts a dragon on night watch — cozy, funny and quietly brave."
+  },
+  {
+   "title": "Big",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "关于身材评价与自我接纳，2024凯迪克金奖，帮孩子抵御外界目光的伤害。",
+   "reason_en": "A girl grows too big under others' words — the 2024 Medal book on body image and self-acceptance."
+  },
+  {
+   "title": "In Every Life",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "爱与失去、惊奇与日常的两两对照，一句话一画面的生命礼赞，适合睡前慢读。",
+   "reason_en": "Love and loss, wonder and routine, one luminous spread at a time — a quiet meditation on life."
+  },
+  {
+   "title": "Jovita Wore Pants",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "女扮男装为自由而战的墨西哥女杰真实传记，勇气与性别平等启蒙，建议增设人文主题。",
+   "reason_en": "The true story of Jovita, who wore pants to fight for her freedom — bold, inspiring biography."
+  },
+  {
+   "title": "There Was a Party for Langston",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "为诗人兰斯顿·休斯开一场字母派对，韵律如鼓点，文学启蒙首选，建议增设人文主题。",
+   "reason_en": "An alphabet parade for poet Langston Hughes — language as drums, a joyful literary tribute."
+  },
+  {
+   "title": "The Truth About Dragons",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "两位奶奶的睡前故事引出东西方龙的双重神话，文化交融的华丽画卷，建议增设人文主题。",
+   "reason_en": "Bedtime stories lead a child into Eastern and Western dragon myths — ornate, culture-bridging art."
+  },
+  {
+   "title": "Chooch Helped",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "两岁弟弟帮倒忙引发的手足摩擦，切罗基文化底色，2025凯迪克金奖。",
+   "reason_en": "Toddler Chooch helps with chaotic results — sibling patience wrapped in Cherokee culture, 2025 Medal book."
+  },
+  {
+   "title": "My Daddy Is a Cowboy",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "黎明前与爸爸骑马穿城，牛仔故事与父女时光交织，节奏欢快的晨光共读。",
+   "reason_en": "Before dawn, a girl and her father ride through the waking city — cowboy tales and precious time."
+  },
+  {
+   "title": "Noodles on a Bicycle",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "东京送面人的飞驰身手满页灵动，怀旧街景与节奏感，动作迷孩子的最爱。",
+   "reason_en": "Demae deliverymen race through old Tokyo with steaming noodles — kinetic art full of motion and rhythm."
   }
  ]
 }
