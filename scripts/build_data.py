@@ -30,6 +30,8 @@ def main():
     ap.add_argument("--tagged", type=Path, default=ROOT / "data/tagged.json")
     ap.add_argument("--out", type=Path, default=ROOT / "src/data/videos.json")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--max-per-channel", type=int, default=6,
+                    help="单个 UP 主/频道最多收录多少条，防止高频系列刷屏")
     args = ap.parse_args()
 
     tagged = json.loads(args.tagged.read_text(encoding="utf-8"))["videos"]
@@ -75,6 +77,24 @@ def main():
                 "added_at": time.strftime("%Y-%m-%d"),
         }
         videos.append(entry)
+
+    # 单频道配额：同一 UP 主/频道最多 N 条（保留时长较长的代表条目优先），
+    # 避免某个高频系列（如宝宝巴士 17 条）淹没其他来源
+    by_channel = {}
+    for v in videos:
+        by_channel.setdefault(v["up"] or "未知UP主", []).append(v)
+    trimmed = 0
+    if args.max_per_channel > 0:
+        keep = []
+        for up, vs in by_channel.items():
+            if len(vs) > args.max_per_channel:
+                # 取时长最长的 N 条作为代表（长内容通常信息量更足），其余裁撤
+                vs = sorted(vs, key=lambda v: -(v.get("duration_seconds") or 0))[: args.max_per_channel]
+                trimmed += len(by_channel[up]) - len(vs)
+            keep.extend(vs)
+        videos = keep
+    if trimmed:
+        print(f"单频道配额（≤{args.max_per_channel} 条）裁撤 {trimmed} 条")
 
     videos.sort(key=lambda v: v["added_at"], reverse=True)
     print(f"待写入 {len(videos)} 条")
