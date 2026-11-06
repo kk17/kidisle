@@ -295,6 +295,24 @@
       "mid": null
     },
     {
+      "up": "Emmie's Wonder Wardrobe",
+      "avatar": "",
+      "video_count": 6,
+      "themes": [
+        "music",
+        "english",
+        "social"
+      ],
+      "platforms": [
+        "youtube"
+      ],
+      "reason": "收录 6 条视频，主打音乐、英语启蒙",
+      "reason_en": "6 videos, mainly Music and English Learning",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": null
+    },
+    {
       "up": "Blippi - Educational Videos for Kids",
       "avatar": "",
       "video_count": 6,
@@ -419,6 +437,42 @@
       "mid": 408210393
     },
     {
+      "up": "Amazon Kids+",
+      "avatar": "",
+      "video_count": 6,
+      "themes": [
+        "animation",
+        "story",
+        "nature"
+      ],
+      "platforms": [
+        "youtube"
+      ],
+      "reason": "收录 6 条视频，主打动画、绘本故事",
+      "reason_en": "6 videos, mainly Animation and Stories",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": null
+    },
+    {
+      "up": "Barney the Dinosaur",
+      "avatar": "",
+      "video_count": 6,
+      "themes": [
+        "music",
+        "english",
+        "life"
+      ],
+      "platforms": [
+        "youtube"
+      ],
+      "reason": "收录 6 条视频，主打音乐、英语启蒙",
+      "reason_en": "6 videos, mainly Music and English Learning",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": null
+    },
+    {
       "up": "Little Angel: Nursery Rhymes & Kids Songs",
       "avatar": "",
       "video_count": 5,
@@ -436,22 +490,40 @@
       "mid": null
     },
     {
-      "up": "Emmie's Wonder Wardrobe",
+      "up": "tuutoon",
       "avatar": "",
       "video_count": 5,
       "themes": [
-        "music",
-        "english",
-        "social"
+        "animation",
+        "math",
+        "english"
       ],
       "platforms": [
         "youtube"
       ],
-      "reason": "收录 5 条视频，主打音乐、英语启蒙",
-      "reason_en": "5 videos, mainly Music and English Learning",
+      "reason": "收录 5 条视频，主打动画、数学思维",
+      "reason_en": "5 videos, mainly Animation and Math",
       "source": "社区精选",
       "source_url": "",
       "mid": null
+    },
+    {
+      "up": "羽小帅成长乐园",
+      "avatar": "https://i1.hdslb.com/bfs/face/48291798be64403451a93a2945f272e2871b08ee.png",
+      "video_count": 5,
+      "themes": [
+        "animation",
+        "music",
+        "life"
+      ],
+      "platforms": [
+        "bilibili"
+      ],
+      "reason": "收录 5 条视频，主打动画、音乐",
+      "reason_en": "5 videos, mainly Animation and Music",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": 513910825
     },
     {
       "up": "斑马百科",
@@ -489,37 +561,19 @@
       "mid": 1762863594
     },
     {
-      "up": "Amazon Kids+",
+      "up": "Little Fox - Kids Stories and Songs",
       "avatar": "",
       "video_count": 5,
       "themes": [
+        "nature",
         "animation",
-        "story",
-        "nature"
+        "english"
       ],
       "platforms": [
         "youtube"
       ],
-      "reason": "收录 5 条视频，主打动画、绘本故事",
-      "reason_en": "5 videos, mainly Animation and Stories",
-      "source": "社区精选",
-      "source_url": "",
-      "mid": null
-    },
-    {
-      "up": "Barney the Dinosaur",
-      "avatar": "",
-      "video_count": 5,
-      "themes": [
-        "music",
-        "english",
-        "life"
-      ],
-      "platforms": [
-        "youtube"
-      ],
-      "reason": "收录 5 条视频，主打音乐、英语启蒙",
-      "reason_en": "5 videos, mainly Music and English Learning",
+      "reason": "收录 5 条视频，主打自然、动画",
+      "reason_en": "5 videos, mainly Nature and Animation",
       "source": "社区精选",
       "source_url": "",
       "mid": null
@@ -543,19 +597,36 @@
       "mid": null
     },
     {
-      "up": "tuutoon",
+      "up": "【Cute Kids English Animation Paradise ★萌宝英语动画乐园 】",
       "avatar": "",
       "video_count": 4,
       "themes": [
         "animation",
-        "math",
+        "story",
+        "nature"
+      ],
+      "platforms": [
+        "youtube"
+      ],
+      "reason": "收录 4 条视频，主打动画、绘本故事",
+      "reason_en": "4 videos, mainly Animation and Stories",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": null
+    },
+    {
+      "up": "Baby Shark Official",
+      "avatar": "",
+      "video_count": 4,
+      "themes": [
+        "music",
         "english"
       ],
       "platforms": [
         "youtube"
       ],
-      "reason": "收录 4 条视频，主打动画、数学思维",
-      "reason_en": "4 videos, mainly Animation and Math",
+      "reason": "收录 4 条视频，主打音乐、英语启蒙",
+      "reason_en": "4 videos, mainly Music and English Learning",
       "source": "社区精选",
       "source_url": "",
       "mid": null
@@ -611,6 +682,22 @@
       "source": "搜索发现",
       "source_url": "",
       "mid": 527688114
+    },
+    {
+      "up": "七彩儿童乐园",
+      "avatar": "https://i1.hdslb.com/bfs/face/32bf599bee60eae49ab5dfd3bc472d0a151b28fb.jpg",
+      "video_count": 4,
+      "themes": [
+        "craft"
+      ],
+      "platforms": [
+        "bilibili"
+      ],
+      "reason": "收录 4 条视频，主打手工",
+      "reason_en": "4 videos, mainly Crafts",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": 2027149636
     },
     {
       "up": "地铁车长",
@@ -684,41 +771,6 @@
       "mid": null
     },
     {
-      "up": "Little Fox - Kids Stories and Songs",
-      "avatar": "",
-      "video_count": 4,
-      "themes": [
-        "nature",
-        "animation"
-      ],
-      "platforms": [
-        "youtube"
-      ],
-      "reason": "收录 4 条视频，主打自然、动画",
-      "reason_en": "4 videos, mainly Nature and Animation",
-      "source": "社区精选",
-      "source_url": "",
-      "mid": null
-    },
-    {
-      "up": "【Cute Kids English Animation Paradise ★萌宝英语动画乐园 】",
-      "avatar": "",
-      "video_count": 3,
-      "themes": [
-        "animation",
-        "story",
-        "nature"
-      ],
-      "platforms": [
-        "youtube"
-      ],
-      "reason": "收录 3 条视频，主打动画、绘本故事",
-      "reason_en": "3 videos, mainly Animation and Stories",
-      "source": "社区精选",
-      "source_url": "",
-      "mid": null
-    },
-    {
       "up": "Cyberchase",
       "avatar": "",
       "video_count": 3,
@@ -731,23 +783,6 @@
       ],
       "reason": "收录 3 条视频，主打数学思维、动画",
       "reason_en": "3 videos, mainly Math and Animation",
-      "source": "社区精选",
-      "source_url": "",
-      "mid": null
-    },
-    {
-      "up": "Baby Shark Official",
-      "avatar": "",
-      "video_count": 3,
-      "themes": [
-        "music",
-        "english"
-      ],
-      "platforms": [
-        "youtube"
-      ],
-      "reason": "收录 3 条视频，主打音乐、英语启蒙",
-      "reason_en": "3 videos, mainly Music and English Learning",
       "source": "社区精选",
       "source_url": "",
       "mid": null
@@ -917,6 +952,24 @@
       "source": "小花生宝藏UP主盘点",
       "source_url": "https://www.163.com/dy/article/HIJ32IVO05268AGI.html",
       "mid": 2929582
+    },
+    {
+      "up": "彩虹的花园",
+      "avatar": "https://i2.hdslb.com/bfs/face/e8717a6c8bead60f053d62bf9f50f4bf3a3f3faf.jpg",
+      "video_count": 3,
+      "themes": [
+        "craft",
+        "math",
+        "animation"
+      ],
+      "platforms": [
+        "bilibili"
+      ],
+      "reason": "收录 3 条视频，主打手工、数学思维",
+      "reason_en": "3 videos, mainly Crafts and Math",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": 17852174
     },
     {
       "up": "古琴诊所",
@@ -1192,6 +1245,23 @@
       "mid": 14804670
     },
     {
+      "up": "Barney Nursery Rhymes & Kids Songs - Scholastic",
+      "avatar": "",
+      "video_count": 3,
+      "themes": [
+        "music",
+        "english"
+      ],
+      "platforms": [
+        "youtube"
+      ],
+      "reason": "收录 3 条视频，主打音乐、英语启蒙",
+      "reason_en": "3 videos, mainly Music and English Learning",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": null
+    },
+    {
       "up": "Disney Kids",
       "avatar": "",
       "video_count": 3,
@@ -1205,6 +1275,22 @@
       ],
       "reason": "收录 3 条视频，主打动画、生活习惯",
       "reason_en": "3 videos, mainly Animation and Life Skills",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": null
+    },
+    {
+      "up": "Zora Hika",
+      "avatar": "",
+      "video_count": 3,
+      "themes": [
+        "animation"
+      ],
+      "platforms": [
+        "youtube"
+      ],
+      "reason": "收录 3 条视频，主打动画",
+      "reason_en": "3 videos, mainly Animation",
       "source": "社区精选",
       "source_url": "",
       "mid": null
@@ -1314,6 +1400,24 @@
       "mid": 1937627796
     },
     {
+      "up": "小中高动画站",
+      "avatar": "https://i1.hdslb.com/bfs/face/029b185832fa55147dca4775b4da4cf8239ab3bd.jpg",
+      "video_count": 2,
+      "themes": [
+        "animation",
+        "math",
+        "science"
+      ],
+      "platforms": [
+        "bilibili"
+      ],
+      "reason": "收录 2 条视频，主打动画、数学思维",
+      "reason_en": "2 videos, mainly Animation and Math",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": 3546638261947201
+    },
+    {
       "up": "朵朵儿童舞蹈秀",
       "avatar": "http://i0.hdslb.com/bfs/face/1a20943754e222ae89749bafb2e1f6e2999afbb9.jpg",
       "video_count": 2,
@@ -1362,6 +1466,23 @@
       "source": "社区精选",
       "source_url": "",
       "mid": 2098299596
+    },
+    {
+      "up": "CutieKids_可爱儿童",
+      "avatar": "https://i2.hdslb.com/bfs/face/0f04ab6a1e732fb6ca3ac73f392310f21fcb7c51.jpg",
+      "video_count": 2,
+      "themes": [
+        "life",
+        "craft"
+      ],
+      "platforms": [
+        "bilibili"
+      ],
+      "reason": "收录 2 条视频，主打生活习惯、手工",
+      "reason_en": "2 videos, mainly Life Skills and Crafts",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": 1325207408
     },
     {
       "up": "oooooohmygosh",
@@ -1549,24 +1670,6 @@
       "mid": 630399926
     },
     {
-      "up": "羽小帅成长乐园",
-      "avatar": "https://i1.hdslb.com/bfs/face/48291798be64403451a93a2945f272e2871b08ee.png",
-      "video_count": 2,
-      "themes": [
-        "music",
-        "story",
-        "nature"
-      ],
-      "platforms": [
-        "bilibili"
-      ],
-      "reason": "收录 2 条视频，主打音乐、绘本故事",
-      "reason_en": "2 videos, mainly Music and Stories",
-      "source": "社区精选",
-      "source_url": "",
-      "mid": 513910825
-    },
-    {
       "up": "绘本故事乐园",
       "avatar": "https://i0.hdslb.com/bfs/face/cb885f0fb0986d8a44d6138664d0af7571a7bf5c.jpg",
       "video_count": 2,
@@ -1649,6 +1752,24 @@
       "source": "社区精选",
       "source_url": "",
       "mid": 24586953
+    },
+    {
+      "up": "幼小初高学习课堂",
+      "avatar": "https://i0.hdslb.com/bfs/face/5d711a87dfc4a03a80d4da6ea48098f5649f08a6.jpg",
+      "video_count": 2,
+      "themes": [
+        "animation",
+        "story",
+        "nature"
+      ],
+      "platforms": [
+        "bilibili"
+      ],
+      "reason": "收录 2 条视频，主打动画、绘本故事",
+      "reason_en": "2 videos, mainly Animation and Stories",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": 491506683
     },
     {
       "up": "陈陈资源百宝箱",
@@ -2211,6 +2332,24 @@
       "mid": 1721646266
     },
     {
+      "up": "夏令麻麻",
+      "avatar": "https://i1.hdslb.com/bfs/face/7644bf4308d4ab83a1393cce35ce08106b41db4a.jpg",
+      "video_count": 2,
+      "themes": [
+        "animation",
+        "story",
+        "music"
+      ],
+      "platforms": [
+        "bilibili"
+      ],
+      "reason": "收录 2 条视频，主打动画、绘本故事",
+      "reason_en": "2 videos, mainly Animation and Stories",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": 3546787231041820
+    },
+    {
       "up": "杰克船长爸爸爱学习",
       "avatar": "https://i1.hdslb.com/bfs/face/76f6f325c2c90a7cf7941d4d048c110048a520cd.jpg",
       "video_count": 2,
@@ -2293,22 +2432,6 @@
       ],
       "reason": "收录 2 条视频，主打英语启蒙、数学思维",
       "reason_en": "2 videos, mainly English Learning and Math",
-      "source": "社区精选",
-      "source_url": "",
-      "mid": null
-    },
-    {
-      "up": "Zora Hika",
-      "avatar": "",
-      "video_count": 2,
-      "themes": [
-        "animation"
-      ],
-      "platforms": [
-        "youtube"
-      ],
-      "reason": "收录 2 条视频，主打动画",
-      "reason_en": "2 videos, mainly Animation",
       "source": "社区精选",
       "source_url": "",
       "mid": null
@@ -2414,6 +2537,24 @@
       ],
       "reason": "收录 2 条视频，主打动画、英语启蒙",
       "reason_en": "2 videos, mainly Animation and English Learning",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": null
+    },
+    {
+      "up": "Scholastic Kids",
+      "avatar": "",
+      "video_count": 2,
+      "themes": [
+        "animation",
+        "music",
+        "math"
+      ],
+      "platforms": [
+        "youtube"
+      ],
+      "reason": "收录 2 条视频，主打动画、音乐",
+      "reason_en": "2 videos, mainly Animation and Music",
       "source": "社区精选",
       "source_url": "",
       "mid": null
@@ -2826,6 +2967,22 @@
       "mid": 2081146728
     },
     {
+      "up": "多多是谁阿",
+      "avatar": "https://i0.hdslb.com/bfs/face/00146613cb7c5a9d5bc40f76fb73fae756beaa8b.jpg",
+      "video_count": 1,
+      "themes": [
+        "music"
+      ],
+      "platforms": [
+        "bilibili"
+      ],
+      "reason": "收录 1 条视频，主打音乐",
+      "reason_en": "1 videos, mainly Music",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": 27253533
+    },
+    {
       "up": "惟烨",
       "avatar": "http://i0.hdslb.com/bfs/face/7ba3eaceb5935fc312538f7a6adca23e4d7d68af.jpg",
       "video_count": 1,
@@ -3040,6 +3197,23 @@
       "source": "社区精选",
       "source_url": "",
       "mid": 1081278435
+    },
+    {
+      "up": "童言慧语",
+      "avatar": "https://i1.hdslb.com/bfs/face/6bca296c46a822cb00961d0ea0c269b2b4a04bc5.jpg",
+      "video_count": 1,
+      "themes": [
+        "story",
+        "life"
+      ],
+      "platforms": [
+        "bilibili"
+      ],
+      "reason": "收录 1 条视频，主打绘本故事、生活习惯",
+      "reason_en": "1 videos, mainly Stories and Life Skills",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": 3546728835844978
     },
     {
       "up": "小初高知识学院",
@@ -3377,6 +3551,22 @@
       "mid": 51107050
     },
     {
+      "up": "爱已成枫",
+      "avatar": "https://i1.hdslb.com/bfs/face/1f2d6cff0c4da3b1707342a4ff0b09dd8cec42c8.jpg",
+      "video_count": 1,
+      "themes": [
+        "animation"
+      ],
+      "platforms": [
+        "bilibili"
+      ],
+      "reason": "收录 1 条视频，主打动画",
+      "reason_en": "1 videos, mainly Animation",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": 77026759
+    },
+    {
       "up": "中国科普博览",
       "avatar": "https://i0.hdslb.com/bfs/face/a963a9ef577390b41a36d6e935b15e4568b55333.jpg",
       "video_count": 1,
@@ -3660,6 +3850,22 @@
       "mid": 1646572394
     },
     {
+      "up": "绮绮鱼儿妈",
+      "avatar": "https://i2.hdslb.com/bfs/face/67140224ba3b9edacc07d84198c7e57c4563748c.jpg",
+      "video_count": 1,
+      "themes": [
+        "math"
+      ],
+      "platforms": [
+        "bilibili"
+      ],
+      "reason": "收录 1 条视频，主打数学思维",
+      "reason_en": "1 videos, mainly Math",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": 1524243215
+    },
+    {
       "up": "魂音梦语",
       "avatar": "https://i1.hdslb.com/bfs/face/bf3130b3cb6b959385f8f84a9f3423c6a6e71bd2.jpg",
       "video_count": 1,
@@ -3842,6 +4048,22 @@
       "mid": 509303075
     },
     {
+      "up": "芷灵儿零基础热门舞蹈",
+      "avatar": "https://i1.hdslb.com/bfs/face/5db1cd7ee9f5795ba6ac0c6e69549158b180926e.jpg",
+      "video_count": 1,
+      "themes": [
+        "music"
+      ],
+      "platforms": [
+        "bilibili"
+      ],
+      "reason": "收录 1 条视频，主打音乐",
+      "reason_en": "1 videos, mainly Music",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": 3546613268089078
+    },
+    {
       "up": "平安妈妈读绘本",
       "avatar": "https://i0.hdslb.com/bfs/face/34f6a062556e8753210185bb9afe2dd735fa1b2e.jpg",
       "video_count": 1,
@@ -3974,23 +4196,6 @@
       "source": "社区精选",
       "source_url": "",
       "mid": 3546735431387869
-    },
-    {
-      "up": "幼小初高学习课堂",
-      "avatar": "https://i0.hdslb.com/bfs/face/5d711a87dfc4a03a80d4da6ea48098f5649f08a6.jpg",
-      "video_count": 1,
-      "themes": [
-        "story",
-        "animation"
-      ],
-      "platforms": [
-        "bilibili"
-      ],
-      "reason": "收录 1 条视频，主打绘本故事、动画",
-      "reason_en": "1 videos, mainly Stories and Animation",
-      "source": "社区精选",
-      "source_url": "",
-      "mid": 491506683
     },
     {
       "up": "亲子动画学习课堂",
@@ -4226,21 +4431,20 @@
       "mid": 3691000788683592
     },
     {
-      "up": "小中高动画站",
-      "avatar": "https://i1.hdslb.com/bfs/face/029b185832fa55147dca4775b4da4cf8239ab3bd.jpg",
+      "up": "BOHOW布好玩",
+      "avatar": "https://i0.hdslb.com/bfs/face/0f678b7fc42afbfc255c3d24fc333c6b0b47f296.jpg",
       "video_count": 1,
       "themes": [
-        "science",
-        "animation"
+        "math"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打科普、动画",
-      "reason_en": "1 videos, mainly Science and Animation",
+      "reason": "收录 1 条视频，主打数学思维",
+      "reason_en": "1 videos, mainly Math",
       "source": "社区精选",
       "source_url": "",
-      "mid": 3546638261947201
+      "mid": 3493086879550152
     },
     {
       "up": "蒙奇安全屋",
@@ -4277,6 +4481,23 @@
       "mid": 3546865282845144
     },
     {
+      "up": "云朵有声绘本屋",
+      "avatar": "https://i2.hdslb.com/bfs/face/be133dd72d6480825e347062ea91bb0408c2fa14.jpg",
+      "video_count": 1,
+      "themes": [
+        "story",
+        "life"
+      ],
+      "platforms": [
+        "bilibili"
+      ],
+      "reason": "收录 1 条视频，主打绘本故事、生活习惯",
+      "reason_en": "1 videos, mainly Stories and Life Skills",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": 1408707602
+    },
+    {
       "up": "童言乐学",
       "avatar": "https://i2.hdslb.com/bfs/face/09b95e733cb4b97239f249f4c8907e261a27f929.jpg",
       "video_count": 1,
@@ -4309,6 +4530,23 @@
       "source": "社区精选",
       "source_url": "",
       "mid": 14479894
+    },
+    {
+      "up": "依然小米粥",
+      "avatar": "https://i2.hdslb.com/bfs/face/e6145636a21b457fa9348a0a646b2af4267f6086.jpg",
+      "video_count": 1,
+      "themes": [
+        "math",
+        "animation"
+      ],
+      "platforms": [
+        "bilibili"
+      ],
+      "reason": "收录 1 条视频，主打数学思维、动画",
+      "reason_en": "1 videos, mainly Math and Animation",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": 447250262
     },
     {
       "up": "辉仔学习交流区",
@@ -4777,6 +5015,23 @@
       "source": "社区精选",
       "source_url": "",
       "mid": 1528288456
+    },
+    {
+      "up": "QQ奥特曼",
+      "avatar": "https://i0.hdslb.com/bfs/face/06dfd1f17d1c4fcc42a8ddc1a2948c31de1535ef.jpg",
+      "video_count": 1,
+      "themes": [
+        "math",
+        "animation"
+      ],
+      "platforms": [
+        "bilibili"
+      ],
+      "reason": "收录 1 条视频，主打数学思维、动画",
+      "reason_en": "1 videos, mainly Math and Animation",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": 47978352
     },
     {
       "up": "未闻实验室",
@@ -5346,6 +5601,38 @@
       "mid": 1260315819
     },
     {
+      "up": "水瓶w",
+      "avatar": "https://i0.hdslb.com/bfs/face/246d6ce5e22ee3b2a3bdb6970df29de451a5f4dd.jpg",
+      "video_count": 1,
+      "themes": [
+        "life"
+      ],
+      "platforms": [
+        "bilibili"
+      ],
+      "reason": "收录 1 条视频，主打生活习惯",
+      "reason_en": "1 videos, mainly Life Skills",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": 29372325
+    },
+    {
+      "up": "湖南金鹰卡通卫视",
+      "avatar": "https://i0.hdslb.com/bfs/face/0071edab16fd1aa86436a09f1e7b51a93ce4d3c7.jpg",
+      "video_count": 1,
+      "themes": [
+        "animation"
+      ],
+      "platforms": [
+        "bilibili"
+      ],
+      "reason": "收录 1 条视频，主打动画",
+      "reason_en": "1 videos, mainly Animation",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": 34857447
+    },
+    {
       "up": "朝禾er",
       "avatar": "https://i0.hdslb.com/bfs/face/cef6d15994b387517783357ca461c7a24a138e95.jpg",
       "video_count": 1,
@@ -5558,6 +5845,22 @@
       "source": "社区精选",
       "source_url": "",
       "mid": 1435569987
+    },
+    {
+      "up": "南昌熊老师数学思维",
+      "avatar": "https://i0.hdslb.com/bfs/face/70b7fd66902728a1603f9533f2e7e970741a7d94.jpg",
+      "video_count": 1,
+      "themes": [
+        "math"
+      ],
+      "platforms": [
+        "bilibili"
+      ],
+      "reason": "收录 1 条视频，主打数学思维",
+      "reason_en": "1 videos, mainly Math",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": 450716454
     },
     {
       "up": "小绘本大世界67",
@@ -6100,6 +6403,40 @@
       "mid": 3546898893899964
     },
     {
+      "up": "舞蹈珈徽453875965",
+      "avatar": "https://i2.hdslb.com/bfs/face/5b817b16b87e8ad49dcf3c528e10751a88932307.jpg",
+      "video_count": 1,
+      "themes": [
+        "story",
+        "social"
+      ],
+      "platforms": [
+        "bilibili"
+      ],
+      "reason": "收录 1 条视频，主打绘本故事、情感与社交",
+      "reason_en": "1 videos, mainly Stories and Social-Emotional",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": 1306910432
+    },
+    {
+      "up": "是小糖圆吖",
+      "avatar": "https://i0.hdslb.com/bfs/face/91b3ca7e3ac7b6b798fc0d922eb25e8c6a9c27f6.jpg",
+      "video_count": 1,
+      "themes": [
+        "life",
+        "social"
+      ],
+      "platforms": [
+        "bilibili"
+      ],
+      "reason": "收录 1 条视频，主打生活习惯、情感与社交",
+      "reason_en": "1 videos, mainly Life Skills and Social-Emotional",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": 702215640
+    },
+    {
       "up": "柒玖吖动画",
       "avatar": "https://i0.hdslb.com/bfs/face/2f8d384a59e0d6d690e56ed70e57605376c5b55f.jpg",
       "video_count": 1,
@@ -6147,6 +6484,22 @@
       "source": "社区精选",
       "source_url": "",
       "mid": 366009456
+    },
+    {
+      "up": "北大子敬老师",
+      "avatar": "https://i2.hdslb.com/bfs/face/a906bcc7f7ebe1627763166f4569099a829566c3.jpg",
+      "video_count": 1,
+      "themes": [
+        "math"
+      ],
+      "platforms": [
+        "bilibili"
+      ],
+      "reason": "收录 1 条视频，主打数学思维",
+      "reason_en": "1 videos, mainly Math",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": 3546952713111566
     },
     {
       "up": "拉丁读绘本",
@@ -6518,6 +6871,23 @@
       "mid": 3546856911014757
     },
     {
+      "up": "宝蓝和朋友们",
+      "avatar": "https://i2.hdslb.com/bfs/face/ce45dc51e9e39e6ff9424b126c88848fedd6a175.jpg",
+      "video_count": 1,
+      "themes": [
+        "story",
+        "math"
+      ],
+      "platforms": [
+        "bilibili"
+      ],
+      "reason": "收录 1 条视频，主打绘本故事、数学思维",
+      "reason_en": "1 videos, mainly Stories and Math",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": 1060593623
+    },
+    {
       "up": "无心灬再爱",
       "avatar": "https://i1.hdslb.com/bfs/face/d91b2a9f510f40ced6d6bcbffd82d6cf317ffa33.jpg",
       "video_count": 1,
@@ -6585,20 +6955,20 @@
       "mid": 3176828
     },
     {
-      "up": "七彩儿童乐园",
-      "avatar": "https://i1.hdslb.com/bfs/face/32bf599bee60eae49ab5dfd3bc472d0a151b28fb.jpg",
+      "up": "兔子哥哥幼儿舞蹈",
+      "avatar": "https://i2.hdslb.com/bfs/face/8e0789ab7f5aa6668f0ac2733229bc8a8f592bf7.jpg",
       "video_count": 1,
       "themes": [
-        "craft"
+        "music"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打手工",
-      "reason_en": "1 videos, mainly Crafts",
+      "reason": "收录 1 条视频，主打音乐",
+      "reason_en": "1 videos, mainly Music",
       "source": "社区精选",
       "source_url": "",
-      "mid": 2027149636
+      "mid": 1153767278
     },
     {
       "up": "清北精英研究所",
@@ -6700,23 +7070,6 @@
       "source": "社区精选",
       "source_url": "",
       "mid": 3493131418864507
-    },
-    {
-      "up": "夏令麻麻",
-      "avatar": "https://i1.hdslb.com/bfs/face/7644bf4308d4ab83a1393cce35ce08106b41db4a.jpg",
-      "video_count": 1,
-      "themes": [
-        "music",
-        "english"
-      ],
-      "platforms": [
-        "bilibili"
-      ],
-      "reason": "收录 1 条视频，主打音乐、英语启蒙",
-      "reason_en": "1 videos, mainly Music and English Learning",
-      "source": "社区精选",
-      "source_url": "",
-      "mid": 3546787231041820
     },
     {
       "up": "滴滴闷闷儿_",
@@ -6851,23 +7204,6 @@
       "source": "社区精选",
       "source_url": "",
       "mid": 3461579657972131
-    },
-    {
-      "up": "Barney Nursery Rhymes & Kids Songs - Scholastic",
-      "avatar": "",
-      "video_count": 1,
-      "themes": [
-        "music",
-        "english"
-      ],
-      "platforms": [
-        "youtube"
-      ],
-      "reason": "收录 1 条视频，主打音乐、英语启蒙",
-      "reason_en": "1 videos, mainly Music and English Learning",
-      "source": "社区精选",
-      "source_url": "",
-      "mid": null
     },
     {
       "up": "The Whimsical Cloud",
@@ -7187,23 +7523,6 @@
       "mid": null
     },
     {
-      "up": "Scholastic Kids",
-      "avatar": "",
-      "video_count": 1,
-      "themes": [
-        "animation",
-        "music"
-      ],
-      "platforms": [
-        "youtube"
-      ],
-      "reason": "收录 1 条视频，主打动画、音乐",
-      "reason_en": "1 videos, mainly Animation and Music",
-      "source": "社区精选",
-      "source_url": "",
-      "mid": null
-    },
-    {
       "up": "Ryan & Craig",
       "avatar": "",
       "video_count": 1,
@@ -7417,6 +7736,106 @@
       "mid": null
     },
     {
+      "up": "Moonbug Kids - Friendship & Adventure",
+      "avatar": "",
+      "video_count": 1,
+      "themes": [
+        "science",
+        "english"
+      ],
+      "platforms": [
+        "youtube"
+      ],
+      "reason": "收录 1 条视频，主打科普、英语启蒙",
+      "reason_en": "1 videos, mainly Science and English Learning",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": null
+    },
+    {
+      "up": "Sensory Playtime",
+      "avatar": "",
+      "video_count": 1,
+      "themes": [
+        "life",
+        "english"
+      ],
+      "platforms": [
+        "youtube"
+      ],
+      "reason": "收录 1 条视频，主打生活习惯、英语启蒙",
+      "reason_en": "1 videos, mainly Life Skills and English Learning",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": null
+    },
+    {
+      "up": "tflxcks",
+      "avatar": "",
+      "video_count": 1,
+      "themes": [
+        "animation"
+      ],
+      "platforms": [
+        "youtube"
+      ],
+      "reason": "收录 1 条视频，主打动画",
+      "reason_en": "1 videos, mainly Animation",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": null
+    },
+    {
+      "up": "Baby Jake",
+      "avatar": "",
+      "video_count": 1,
+      "themes": [
+        "animation"
+      ],
+      "platforms": [
+        "youtube"
+      ],
+      "reason": "收录 1 条视频，主打动画",
+      "reason_en": "1 videos, mainly Animation",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": null
+    },
+    {
+      "up": "Twirlywoos - WildBrain",
+      "avatar": "",
+      "video_count": 1,
+      "themes": [
+        "animation",
+        "nature"
+      ],
+      "platforms": [
+        "youtube"
+      ],
+      "reason": "收录 1 条视频，主打动画、自然",
+      "reason_en": "1 videos, mainly Animation and Nature",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": null
+    },
+    {
+      "up": "HY STORY",
+      "avatar": "",
+      "video_count": 1,
+      "themes": [
+        "story",
+        "social"
+      ],
+      "platforms": [
+        "youtube"
+      ],
+      "reason": "收录 1 条视频，主打绘本故事、情感与社交",
+      "reason_en": "1 videos, mainly Stories and Social-Emotional",
+      "source": "社区精选",
+      "source_url": "",
+      "mid": null
+    },
+    {
       "up": "Peppa Pig's Big Adventures",
       "avatar": "https://yt3.googleusercontent.com/pxIHPjoxmseEgHH5pbKleP7vw0LqPZmuBzL9ufI-STrjkpi-i65ZRbsAlw5MLbdlifdNxEgmCQ=s900-c-k-c0x00ffffff-no-rj",
       "video_count": 1,
@@ -7430,6 +7849,23 @@
       "reason_en": "1 videos, mainly Animation",
       "source": "Common Sense Media",
       "source_url": "https://www.commonsensemedia.org/tv-reviews/peppa-pig",
+      "mid": null
+    },
+    {
+      "up": "Hoots & Tales",
+      "avatar": "",
+      "video_count": 1,
+      "themes": [
+        "story",
+        "english"
+      ],
+      "platforms": [
+        "youtube"
+      ],
+      "reason": "收录 1 条视频，主打绘本故事、英语启蒙",
+      "reason_en": "1 videos, mainly Stories and English Learning",
+      "source": "社区精选",
+      "source_url": "",
       "mid": null
     }
   ]

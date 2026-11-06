@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 989,
+  "count": 1039,
   "videos": [
     {
       "bvid": "-FvvHcNRF7s",
@@ -1601,6 +1601,22 @@
       }
     },
     {
+      "bvid": "BV12x411h7qv",
+      "suitable": true,
+      "note": "幼儿园毕业童谣合唱片段，童趣歌声",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
+      }
+    },
+    {
       "bvid": "BV133xz6bE7w",
       "suitable": false,
       "note": "小天才手表型号导购，软广",
@@ -1628,6 +1644,24 @@
       }
     },
     {
+      "bvid": "BV1366JYUEuZ",
+      "suitable": true,
+      "note": "学前数学思维启蒙动画165集，搬运号待复核",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "math",
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV13E411x7i8",
       "suitable": true,
       "note": "美式英语启蒙动画，情景对话儿歌教学",
@@ -1643,6 +1677,16 @@
           "english",
           "animation"
         ]
+      }
+    },
+    {
+      "bvid": "BV13NDhYBEYF",
+      "suitable": false,
+      "note": "两小时学前儿童心理发展教学课，幼师培训性质",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
       }
     },
     {
@@ -1760,6 +1804,16 @@
       }
     },
     {
+      "bvid": "BV13fZSBuEhL",
+      "suitable": false,
+      "note": "儿童疝气手术挂号引流片段，医疗广告",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
       "bvid": "BV13i4y1x7hQ",
       "suitable": true,
       "note": "幼儿园舞蹈，简单易学，传递感恩",
@@ -1825,6 +1879,16 @@
       }
     },
     {
+      "bvid": "BV1484y1f7nu",
+      "suitable": false,
+      "note": "成人向猎奇故事推文朗读，不适合儿童",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
       "bvid": "BV14A411S7a7",
       "suitable": false,
       "note": "27秒书店宣传片，纯广告",
@@ -1832,6 +1896,23 @@
         "age": [],
         "language": [],
         "theme": []
+      }
+    },
+    {
+      "bvid": "BV14As8eSEZS",
+      "suitable": true,
+      "note": "儿童安全防护动画小故事，防误吞",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "life"
+        ]
       }
     },
     {
@@ -2033,6 +2114,22 @@
       }
     },
     {
+      "bvid": "BV15e4y1w7Mt",
+      "suitable": true,
+      "note": "儿童杂技技巧表演，动手动脑亲子共看",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life"
+        ]
+      }
+    },
+    {
       "bvid": "BV15q4y1u7ET",
       "suitable": true,
       "note": "官方低幼儿歌动画，进阶生活技能启蒙",
@@ -2155,6 +2252,16 @@
       }
     },
     {
+      "bvid": "BV16YYdeeEk9",
+      "suitable": false,
+      "note": "本地遛娃探店推荐，非儿童内容",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
       "bvid": "BV16b4y1B7oj",
       "suitable": false,
       "note": "43秒片单引流剪辑,搬运低质,非正片内容",
@@ -2194,6 +2301,23 @@
         ],
         "theme": [
           "craft"
+        ]
+      }
+    },
+    {
+      "bvid": "BV16dpvz3EqT",
+      "suitable": true,
+      "note": "儿童睡前故事，好习惯养成启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "life"
         ]
       }
     },
@@ -2708,6 +2832,23 @@
       }
     },
     {
+      "bvid": "BV18xwyzcEsB",
+      "suitable": true,
+      "note": "小马国女孩动画短片第二季，英文原声中文字幕",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV18z4JeAEYo",
       "suitable": true,
       "note": "秒懂人物讲曹文轩，人文科普，建议增设人文主题",
@@ -3155,6 +3296,22 @@
       }
     },
     {
+      "bvid": "BV1Bu4m1w7X3",
+      "suitable": true,
+      "note": "彩泥制作彩虹鸭与彩虹冰淇淋",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      }
+    },
+    {
       "bvid": "BV1C14y1s7F4",
       "suitable": true,
       "note": "典范英语1a课文讲解，全英文阅读启蒙课",
@@ -3205,9 +3362,52 @@
       }
     },
     {
+      "bvid": "BV1CM6mY5ENC",
+      "suitable": true,
+      "note": "益智手工数到10，趣味数字查找",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft",
+          "math"
+        ]
+      }
+    },
+    {
       "bvid": "BV1CdrmByE6f",
       "suitable": false,
       "note": "智慧树节目宣传片，非正片内容",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "BV1Cey3YsEBF",
+      "suitable": true,
+      "note": "十格阵数感启蒙游戏，幼儿数数训练",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "math"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Cp4y1o789",
+      "suitable": false,
+      "note": "儿童水上乐园厂家招商广告",
       "tags": {
         "age": [],
         "language": [],
@@ -3587,6 +3787,16 @@
       }
     },
     {
+      "bvid": "BV1Ei4y1U7pE",
+      "suitable": false,
+      "note": "自闭症发音训练教学，受众为家长与康复师",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
       "bvid": "BV1Epz9ByEuA",
       "suitable": false,
       "note": "资源搬运号，网络转载引流",
@@ -3822,6 +4032,22 @@
       }
     },
     {
+      "bvid": "BV1GK421t7vp",
+      "suitable": true,
+      "note": "大班毕业舞教学，动作简单幼儿零基础可学",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
+      }
+    },
+    {
       "bvid": "BV1GSoTBHERK",
       "suitable": true,
       "note": "三字经故事动画，0到6岁启蒙",
@@ -4020,6 +4246,16 @@
           "story",
           "english"
         ]
+      }
+    },
+    {
+      "bvid": "BV1HdDBY2ELH",
+      "suitable": false,
+      "note": "心理学自学笔记，受众为成人非儿童",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
       }
     },
     {
@@ -4476,6 +4712,16 @@
       }
     },
     {
+      "bvid": "BV1KY4y117ZJ",
+      "suitable": false,
+      "note": "钢琴简谱教学资源，面向老师非儿童观看",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
       "bvid": "BV1Kb4y1G7Yv",
       "suitable": true,
       "note": "花园宝宝系列，垒石头认知",
@@ -4532,6 +4778,16 @@
         "theme": [
           "music"
         ]
+      }
+    },
+    {
+      "bvid": "BV1KyT4zXEYC",
+      "suitable": false,
+      "note": "植2游戏实况通关，非儿童教学内容",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
       }
     },
     {
@@ -4674,6 +4930,22 @@
       }
     },
     {
+      "bvid": "BV1Lm4y1H7Zx",
+      "suitable": true,
+      "note": "数量匹配玩教具演示，数与量对应启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "math"
+        ]
+      }
+    },
+    {
       "bvid": "BV1LqUQBfEur",
       "suitable": true,
       "note": "儿童防骗安全科普，识别骗局技巧",
@@ -4743,6 +5015,16 @@
       }
     },
     {
+      "bvid": "BV1MM411N7VP",
+      "suitable": false,
+      "note": "AI赚钱变现教程引流，受众为成人",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
       "bvid": "BV1MN4dewEQZ",
       "suitable": true,
       "note": "初级英语播客磨耳朵听力素材",
@@ -4771,6 +5053,41 @@
         ],
         "theme": [
           "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Mm42157Pa",
+      "suitable": true,
+      "note": "奇妙数学大冒险儿童启蒙动画第12集",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "math",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Mm4y1n7bP",
+      "suitable": true,
+      "note": "性教育启蒙绘本《你从哪里来》，建议家长陪同",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "life"
         ]
       }
     },
@@ -4934,6 +5251,16 @@
       }
     },
     {
+      "bvid": "BV1No4y1u71K",
+      "suitable": false,
+      "note": "梦幻西游门派装备攻略，游戏向",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
       "bvid": "BV1Np42127uz",
       "suitable": true,
       "note": "泥盆纪邓氏鱼古生物科普动画",
@@ -4982,6 +5309,23 @@
         ],
         "theme": [
           "life"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Nw411k7os",
+      "suitable": true,
+      "note": "咕力咕力愿望瓶幼儿数学动画第12集",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "math",
+          "animation"
         ]
       }
     },
@@ -5483,6 +5827,23 @@
       }
     },
     {
+      "bvid": "BV1RM4y1k7nn",
+      "suitable": true,
+      "note": "彩色积木池儿童游乐，动手搭建",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft",
+          "life"
+        ]
+      }
+    },
+    {
       "bvid": "BV1RQ4y167oD",
       "suitable": true,
       "note": "名著导读课合集，内容健康适合大童",
@@ -5564,6 +5925,16 @@
           "nature",
           "animation"
         ]
+      }
+    },
+    {
+      "bvid": "BV1Rd4y1b7p6",
+      "suitable": false,
+      "note": "外链资源分享号，54集超长合集引流",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
       }
     },
     {
@@ -5690,6 +6061,16 @@
         "theme": [
           "music"
         ]
+      }
+    },
+    {
+      "bvid": "BV1SH4y177LM",
+      "suitable": false,
+      "note": "九小时道德经讲座合集，成人哲学内容",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
       }
     },
     {
@@ -5916,6 +6297,23 @@
         ],
         "theme": [
           "life"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1TK42147K2",
+      "suitable": true,
+      "note": "儿童数学启蒙动画，除法口诀",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "math",
+          "animation"
         ]
       }
     },
@@ -6472,6 +6870,22 @@
         "theme": [
           "music",
           "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1XK421r7yw",
+      "suitable": true,
+      "note": "百变校巴儿童动画，彩虹喷泉主题",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation"
         ]
       }
     },
@@ -7384,6 +7798,22 @@
       }
     },
     {
+      "bvid": "BV1cH4y1w7SC",
+      "suitable": true,
+      "note": "彩虹颜料托盘做棒棒糖手工",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      }
+    },
+    {
       "bvid": "BV1cY4y1y7KM",
       "suitable": false,
       "note": "新生儿抚触操教程，受众为家长非儿童",
@@ -7525,9 +7955,61 @@
       }
     },
     {
+      "bvid": "BV1dZYhzSEhv",
+      "suitable": true,
+      "note": "幼童在乐园玩耍实录，亲子日常向",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1db4y1W731",
+      "suitable": true,
+      "note": "金鹰卡通《爱上幼儿园》动画片段",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1ds4y1D72Y",
+      "suitable": false,
+      "note": "梦幻西游五开攻略，电脑游戏内容",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
       "bvid": "BV1eVsXzDE8c",
       "suitable": false,
       "note": "央视少儿形象宣传片，无节目内容",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "BV1ea4y1D7N5",
+      "suitable": false,
+      "note": "无动力乐园设备厂家展示推广",
       "tags": {
         "age": [],
         "language": [],
@@ -8084,6 +8566,22 @@
       }
     },
     {
+      "bvid": "BV1hSsczNEJr",
+      "suitable": true,
+      "note": "幼儿数学启蒙，认识数字趣味游戏",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "math"
+        ]
+      }
+    },
+    {
       "bvid": "BV1hbXoB5EGB",
       "suitable": true,
       "note": "开动脑筋绘本《要藏好哦》，观察与逻辑思维",
@@ -8449,6 +8947,22 @@
       }
     },
     {
+      "bvid": "BV1jd4y1J7Za",
+      "suitable": true,
+      "note": "彩虹糖果浴缸手工早教",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      }
+    },
+    {
       "bvid": "BV1jje4e2EMC",
       "suitable": true,
       "note": "瑞奇宝宝系列，跳跳跳舞情节",
@@ -8482,6 +8996,16 @@
       }
     },
     {
+      "bvid": "BV1kL411R7a9",
+      "suitable": false,
+      "note": "幼教资源共享号舞蹈素材，受众为老师",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
       "bvid": "BV1kLgDewEcp",
       "suitable": true,
       "note": "水果蔬菜英文单词动画合集",
@@ -8496,6 +9020,16 @@
           "english",
           "animation"
         ]
+      }
+    },
+    {
+      "bvid": "BV1kV4y1R7C4",
+      "suitable": false,
+      "note": "变音倒放鬼畜恶搞剪辑，非儿童教学",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
       }
     },
     {
@@ -8802,6 +9336,40 @@
       }
     },
     {
+      "bvid": "BV1mjSUBzEFV",
+      "suitable": true,
+      "note": "讲给孩子的三十六计国学动画系列；建议增设人文主题",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1mnzrBtE1J",
+      "suitable": true,
+      "note": "《X光宝宝》乐园儿童动画系列",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV1mt4y1X7Mx",
       "suitable": true,
       "note": "古诗词讲解内容健康，建议增设人文主题",
@@ -8885,6 +9453,24 @@
         "theme": [
           "animation",
           "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1nLo6B9EVp",
+      "suitable": true,
+      "note": "地理大百科启蒙动画96集，搬运号待人工复核",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "nature",
+          "animation"
         ]
       }
     },
@@ -9009,6 +9595,16 @@
         "theme": [
           "craft"
         ]
+      }
+    },
+    {
+      "bvid": "BV1o1MszTEax",
+      "suitable": false,
+      "note": "儿童心理发展专业讲座，受众为家长与教师",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
       }
     },
     {
@@ -9324,6 +9920,40 @@
       }
     },
     {
+      "bvid": "BV1pt4y1g7q7",
+      "suitable": true,
+      "note": "幼儿园毕业情景剧，幼儿成长回顾",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1pwQxBzEFF",
+      "suitable": true,
+      "note": "幼儿园性别启蒙课，建议家长陪同",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life",
+          "social"
+        ]
+      }
+    },
+    {
       "bvid": "BV1pz4y1n7YH",
       "suitable": true,
       "note": "粤语讲卫生习惯绘本，童趣健康；语言为粤语",
@@ -9500,6 +10130,22 @@
         ],
         "theme": [
           "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1r9WEzaE5v",
+      "suitable": true,
+      "note": "奥数思维启蒙，数感与倍数训练",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "math"
         ]
       }
     },
@@ -10143,6 +10789,23 @@
       }
     },
     {
+      "bvid": "BV1uE421w7oU",
+      "suitable": true,
+      "note": "儿童乐园密室逃脱故事，线索逻辑推理",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "math"
+        ]
+      }
+    },
+    {
       "bvid": "BV1uQZRBJE1e",
       "suitable": false,
       "note": "儿童手表测评导购软广，面向家长",
@@ -10263,6 +10926,22 @@
           "animation",
           "math",
           "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1ur421j7kZ",
+      "suitable": true,
+      "note": "幼儿毕业舞蹈完整版，欢快易跟跳",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
         ]
       }
     },
@@ -10431,6 +11110,23 @@
         "theme": [
           "animation",
           "nature"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1vT411h7NB",
+      "suitable": true,
+      "note": "彩虹橡皮泥面条制作，颜色认知",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
         ]
       }
     },
@@ -10779,6 +11475,16 @@
           "english",
           "story"
         ]
+      }
+    },
+    {
+      "bvid": "BV1xV41147mE",
+      "suitable": false,
+      "note": "幼教舞蹈剧目素材，面向园所排演",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
       }
     },
     {

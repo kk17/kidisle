@@ -1789,6 +1789,32 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "yt-vEFRyg0xI2g",
+      "source": "youtube",
+      "bvid": null,
+      "vid": "vEFRyg0xI2g",
+      "title": "S101 Tumble Leaf  飘飘叶   沼泽泡泡 飘飘叶大游行",
+      "up": "【Cute Kids English Animation Paradise ★萌宝英语动画乐园 】",
+      "duration_seconds": 0,
+      "cover": "https://i.ytimg.com/vi/vEFRyg0xI2g/hqdefault.jpg",
+      "total_pages": 0,
+      "pages": [],
+      "note": "Tumble Leaf系列，搬运号待复核",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "yt-1vsxt1zgD8c",
       "source": "youtube",
       "bvid": null,
@@ -2586,6 +2612,32 @@
         "age": [
           "0-3",
           "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "yt-tdTM9WhcjX4",
+      "source": "youtube",
+      "bvid": null,
+      "vid": "tdTM9WhcjX4",
+      "title": "👨‍⚕️ Doctor Baby Shark Song | Shark Family Songs | Song for Kids | Baby Shark Official",
+      "up": "Baby Shark Official",
+      "duration_seconds": 0,
+      "cover": "https://i.ytimg.com/vi/tdTM9WhcjX4/hqdefault.jpg",
+      "total_pages": 0,
+      "pages": [],
+      "note": "Baby Shark官方儿歌",
+      "tags": {
+        "age": [
+          "0-3"
         ],
         "language": [
           "en"
@@ -3922,6 +3974,32 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "yt-tziGceqqmrs",
+      "source": "youtube",
+      "bvid": null,
+      "vid": "tziGceqqmrs",
+      "title": "The Mega Mall Problem | Peg + Cat | PBS KIDS Videos",
+      "up": "tuutoon",
+      "duration_seconds": 0,
+      "cover": "https://i.ytimg.com/vi/tziGceqqmrs/hqdefault.jpg",
+      "total_pages": 0,
+      "pages": [],
+      "note": "Peg+Cat系列，搬运号待复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "math",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "yt-9KJEOYuTTxw",
       "source": "youtube",
       "bvid": null,
@@ -4075,6 +4153,32 @@
         ],
         "theme": [
           "music"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "yt-wbvwVQWePN4",
+      "source": "youtube",
+      "bvid": null,
+      "vid": "wbvwVQWePN4",
+      "title": "Flavour Song With Baby John | Kids Songs & Nursery Rhymes By Little Angel",
+      "up": "Emmie's Wonder Wardrobe",
+      "duration_seconds": 0,
+      "cover": "https://i.ytimg.com/vi/wbvwVQWePN4/hqdefault.jpg",
+      "total_pages": 0,
+      "pages": [],
+      "note": "Little Angel系列儿歌，搬运号待复核",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
         ]
       },
       "added_at": "2026-11-06"
@@ -7239,6 +7343,31 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-12x411h7qv",
+      "source": "bilibili",
+      "bvid": "BV12x411h7qv",
+      "vid": null,
+      "title": "[治愈向]再见了我们的幼儿园 合唱片段 芦田爱菜",
+      "up": "多多是谁阿",
+      "duration_seconds": 187,
+      "cover": "http://i2.hdslb.com/bfs/archive/70b98aa7c51c314aae5ae15bfc94f01edd3536cf.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "幼儿园毕业童谣合唱片段，童趣歌声",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1354y1b7bs",
       "source": "bilibili",
       "bvid": "BV1354y1b7bs",
@@ -7259,6 +7388,411 @@
         ],
         "theme": [
           "music",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1366jyueuz",
+      "source": "bilibili",
+      "bvid": "BV1366JYUEuZ",
+      "vid": null,
+      "title": "【学前数学】幼儿园数学思维启蒙训练（全165集）动画课堂 孩子一边看动画一边学知识  配套教材习题PDF",
+      "up": "小中高动画站",
+      "duration_seconds": 8537,
+      "cover": "http://i1.hdslb.com/bfs/archive/e400f892fa043b1626671a829d49503e464dcd7f.png",
+      "total_pages": 46,
+      "pages": [
+        {
+          "page": 1,
+          "part": "萌芽1 第1讲-点数",
+          "duration": 170
+        },
+        {
+          "page": 2,
+          "part": "萌芽1 第2讲-多方位比较",
+          "duration": 191
+        },
+        {
+          "page": 3,
+          "part": "萌芽1 第3讲-观察力启蒙",
+          "duration": 135
+        },
+        {
+          "page": 4,
+          "part": "萌芽1 第4讲-匹配游戏",
+          "duration": 145
+        },
+        {
+          "page": 5,
+          "part": "萌芽1 第5讲-数物对应",
+          "duration": 148
+        },
+        {
+          "page": 6,
+          "part": "萌芽1 第6讲-感知立体图形",
+          "duration": 159
+        },
+        {
+          "page": 7,
+          "part": "萌芽1 第7讲-分类启蒙",
+          "duration": 153
+        },
+        {
+          "page": 8,
+          "part": "萌芽1 第8讲-图形总动员",
+          "duration": 117
+        },
+        {
+          "page": 9,
+          "part": "萌芽1 第9讲-多感官分辨",
+          "duration": 112
+        },
+        {
+          "page": 10,
+          "part": "萌芽1 第10讲-生活中的数与量",
+          "duration": 165
+        },
+        {
+          "page": 11,
+          "part": "萌芽2 第1讲-位置对应",
+          "duration": 205
+        },
+        {
+          "page": 12,
+          "part": "萌芽2 第2讲-简单统计",
+          "duration": 173
+        },
+        {
+          "page": 13,
+          "part": "萌芽2 第3讲-感知总体与部分",
+          "duration": 128
+        },
+        {
+          "page": 14,
+          "part": "萌芽2 第4讲-观察力-影子",
+          "duration": 138
+        },
+        {
+          "page": 15,
+          "part": "萌芽2 第5讲-立体拼插",
+          "duration": 127
+        },
+        {
+          "page": 16,
+          "part": "萌芽2 第6讲-观察力训练",
+          "duration": 158
+        },
+        {
+          "page": 17,
+          "part": "萌芽2 第7讲-推理启蒙",
+          "duration": 145
+        },
+        {
+          "page": 18,
+          "part": "萌芽2 第8讲-数量比较",
+          "duration": 142
+        },
+        {
+          "page": 19,
+          "part": "萌芽3 第1讲-AB式推理",
+          "duration": 159
+        },
+        {
+          "page": 20,
+          "part": "萌芽3 第2讲-感知对称",
+          "duration": 155
+        },
+        {
+          "page": 21,
+          "part": "萌芽3 第3讲-瞬间记忆",
+          "duration": 158
+        },
+        {
+          "page": 22,
+          "part": "萌芽3 第4讲-递变推理",
+          "duration": 168
+        },
+        {
+          "page": 23,
+          "part": "萌芽3 第5讲-密码中的学问",
+          "duration": 161
+        },
+        {
+          "page": 24,
+          "part": "萌芽3 第6讲-视觉分辨",
+          "duration": 165
+        },
+        {
+          "page": 25,
+          "part": "萌芽3 第7讲-综合知识运用",
+          "duration": 162
+        },
+        {
+          "page": 26,
+          "part": "萌芽4 第1讲-神奇正方体 (1)",
+          "duration": 308
+        },
+        {
+          "page": 27,
+          "part": "萌芽4 第2讲-细节观察",
+          "duration": 269
+        },
+        {
+          "page": 28,
+          "part": "萌芽4 第3讲-好玩的弹力 (1)",
+          "duration": 218
+        },
+        {
+          "page": 29,
+          "part": "萌芽4 第4讲-比较与不等",
+          "duration": 300
+        },
+        {
+          "page": 30,
+          "part": "萌芽4 第5讲-5以内拆数",
+          "duration": 318
+        },
+        {
+          "page": 31,
+          "part": "萌芽4 第6讲-运算启蒙-加",
+          "duration": 212
+        },
+        {
+          "page": 32,
+          "part": "萌芽5 第1讲-火柴棒游戏",
+          "duration": 225
+        },
+        {
+          "page": 33,
+          "part": "萌芽5 第2讲-平均分",
+          "duration": 232
+        },
+        {
+          "page": 34,
+          "part": "萌芽5 第3讲-重叠观察",
+          "duration": 216
+        },
+        {
+          "page": 35,
+          "part": "萌芽5 第4讲-减法启蒙",
+          "duration": 182
+        },
+        {
+          "page": 36,
+          "part": "萌芽5 第5讲-趣味图形",
+          "duration": 189
+        },
+        {
+          "page": 37,
+          "part": "萌芽5 第6讲-简单的排队问题",
+          "duration": 331
+        },
+        {
+          "page": 38,
+          "part": "萌芽5 第7讲-感知图形的分合",
+          "duration": 247
+        },
+        {
+          "page": 39,
+          "part": "萌芽6 第1讲-感知平行",
+          "duration": 255
+        },
+        {
+          "page": 40,
+          "part": "萌芽6 第2讲-综合比较",
+          "duration": 170
+        },
+        {
+          "page": 41,
+          "part": "萌芽6 第3讲-玩转三角形",
+          "duration": 167
+        },
+        {
+          "page": 42,
+          "part": "萌芽6 第4讲-扑克游戏",
+          "duration": 195
+        },
+        {
+          "page": 43,
+          "part": "萌芽6 第5讲-神奇镜像 (1)",
+          "duration": 159
+        },
+        {
+          "page": 44,
+          "part": "萌芽6 第6讲-四边形 (1)",
+          "duration": 154
+        },
+        {
+          "page": 45,
+          "part": "萌芽6 第7讲-神秘的磁力游戏",
+          "duration": 180
+        },
+        {
+          "page": 46,
+          "part": "萌芽6 第8讲-综合知识运用",
+          "duration": 171
+        }
+      ],
+      "note": "学前数学思维启蒙动画165集，搬运号待复核",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "math",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1ljn8z2ejr",
+      "source": "bilibili",
+      "bvid": "BV1Ljn8z2EJR",
+      "vid": null,
+      "title": "全145集【看动画学物理】物理启蒙趣味动画 培养科学思维学习物理小知识 孩子们一看就会的物理课堂",
+      "up": "小中高动画站",
+      "duration_seconds": 5981,
+      "cover": "http://i2.hdslb.com/bfs/archive/846f6f1f122ef53c27f671f41f2b1e1269ad7d28.jpg",
+      "total_pages": 24,
+      "pages": [
+        {
+          "page": 1,
+          "part": "1什么是力",
+          "duration": 249
+        },
+        {
+          "page": 2,
+          "part": "2力的作用效果",
+          "duration": 177
+        },
+        {
+          "page": 3,
+          "part": "3力的三要素",
+          "duration": 204
+        },
+        {
+          "page": 4,
+          "part": "4如何表示力",
+          "duration": 212
+        },
+        {
+          "page": 5,
+          "part": "5力的作用是相互",
+          "duration": 154
+        },
+        {
+          "page": 6,
+          "part": "6弹力",
+          "duration": 153
+        },
+        {
+          "page": 7,
+          "part": "7什么是重力",
+          "duration": 149
+        },
+        {
+          "page": 8,
+          "part": "1测量长度",
+          "duration": 338
+        },
+        {
+          "page": 9,
+          "part": "2刻度尺的使用",
+          "duration": 437
+        },
+        {
+          "page": 10,
+          "part": "3实验时的误差",
+          "duration": 279
+        },
+        {
+          "page": 11,
+          "part": "4如何判断物体是否运动",
+          "duration": 313
+        },
+        {
+          "page": 12,
+          "part": "5如何比较快慢",
+          "duration": 246
+        },
+        {
+          "page": 13,
+          "part": "6速度",
+          "duration": 429
+        },
+        {
+          "page": 14,
+          "part": "7匀速直线运动",
+          "duration": 287
+        },
+        {
+          "page": 15,
+          "part": "8变速运动与平均速度",
+          "duration": 297
+        },
+        {
+          "page": 16,
+          "part": "1光是哪里来的",
+          "duration": 188
+        },
+        {
+          "page": 17,
+          "part": "2光沿直线传播",
+          "duration": 184
+        },
+        {
+          "page": 18,
+          "part": "3光的直线传播的应用",
+          "duration": 352
+        },
+        {
+          "page": 19,
+          "part": "4光的反射",
+          "duration": 157
+        },
+        {
+          "page": 20,
+          "part": "5镜面反射和漫反射",
+          "duration": 308
+        },
+        {
+          "page": 21,
+          "part": "6光的折射",
+          "duration": 191
+        },
+        {
+          "page": 22,
+          "part": "7光的折射规律",
+          "duration": 244
+        },
+        {
+          "page": 23,
+          "part": "8彩虹的形成 光的色散",
+          "duration": 197
+        },
+        {
+          "page": 24,
+          "part": "9光谱与红外线",
+          "duration": 236
+        }
+      ],
+      "note": "看动画学物理145集，物理启蒙系列，UP搬运待复核",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
           "animation"
         ]
       },
@@ -9710,6 +10244,136 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-14as8esezs",
+      "source": "bilibili",
+      "bvid": "BV14As8eSEZS",
+      "vid": null,
+      "title": "儿童安全防护动画小故事！小朋友们要注意生活中的危险！玩具不能随便放嘴里！",
+      "up": "羽小帅成长乐园",
+      "duration_seconds": 219,
+      "cover": "http://i2.hdslb.com/bfs/archive/2cea171d4572268a4e22061b36b0ada5a5d1c494.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "儿童安全防护动画小故事，防误吞",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1ew421p74m",
+      "source": "bilibili",
+      "bvid": "BV1EW421P74M",
+      "vid": null,
+      "title": "三字经！儿童经典儿歌！幼儿启蒙！",
+      "up": "羽小帅成长乐园",
+      "duration_seconds": 97,
+      "cover": "http://i0.hdslb.com/bfs/archive/2c23188b73a9683378acb352e71eb1923094d3fc.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "三字经经典儿歌，建议增设人文主题",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1hv421r711",
+      "source": "bilibili",
+      "bvid": "BV1Hv421r711",
+      "vid": null,
+      "title": "二十四节气歌！儿童经典儿歌！",
+      "up": "羽小帅成长乐园",
+      "duration_seconds": 166,
+      "cover": "http://i0.hdslb.com/bfs/archive/306c330b4098c52e473b037251899d064086d050.jpg",
+      "total_pages": 0,
+      "pages": [],
+      "note": "二十四节气儿歌，节奏明快易记",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "nature"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1mm42157pa",
+      "source": "bilibili",
+      "bvid": "BV1Mm42157Pa",
+      "vid": null,
+      "title": "奇妙数学大冒险！儿童数学启蒙！成长动画知识！第12集！",
+      "up": "羽小帅成长乐园",
+      "duration_seconds": 494,
+      "cover": "http://i2.hdslb.com/bfs/archive/529e8397fab7897a94373450792ef86512d35da9.png",
+      "total_pages": 1,
+      "pages": [],
+      "note": "奇妙数学大冒险儿童启蒙动画第12集",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "math",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1xk421r7yw",
+      "source": "bilibili",
+      "bvid": "BV1XK421r7yw",
+      "vid": null,
+      "title": "百变校巴歌德！彩虹喷泉！儿童动画片！",
+      "up": "羽小帅成长乐园",
+      "duration_seconds": 729,
+      "cover": "http://i2.hdslb.com/bfs/archive/b6511e5e1a736ed0238d3f28e9239e4c12a3b83c.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "百变校巴儿童动画，彩虹喷泉主题",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1nk4y1i79k",
       "source": "bilibili",
       "bvid": "BV1nK4y1i79k",
@@ -12081,6 +12745,57 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-15e4y1w7mt",
+      "source": "bilibili",
+      "bvid": "BV15e4y1w7Mt",
+      "vid": null,
+      "title": "杂技技巧表演 | 儿童游乐园",
+      "up": "CutieKids_可爱儿童",
+      "duration_seconds": 579,
+      "cover": "http://i1.hdslb.com/bfs/archive/511bbbb01129de1d3a4bc33bbcb7e8332ba3237c.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "儿童杂技技巧表演，动手动脑亲子共看",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1rm4y1k7nn",
+      "source": "bilibili",
+      "bvid": "BV1RM4y1k7nn",
+      "vid": null,
+      "title": "带彩色积木池的儿童游乐场 - 微笑家庭",
+      "up": "CutieKids_可爱儿童",
+      "duration_seconds": 473,
+      "cover": "http://i1.hdslb.com/bfs/archive/0463083821e8d2a3c7b875f77538c13fbdb81ab6.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "彩色积木池儿童游乐，动手搭建",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft",
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1634y1e7uo",
       "source": "bilibili",
       "bvid": "BV1634y1E7uo",
@@ -12360,6 +13075,32 @@
         ],
         "theme": [
           "craft"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-16dpvz3eqt",
+      "source": "bilibili",
+      "bvid": "BV16dpvz3EqT",
+      "vid": null,
+      "title": "儿童睡前故事《养成好习惯比什么都重要》",
+      "up": "童言慧语",
+      "duration_seconds": 211,
+      "cover": "http://i2.hdslb.com/bfs/archive/610c565b5cc353c184cd1af1a7573266543d5537.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "儿童睡前故事，好习惯养成启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "life"
         ]
       },
       "added_at": "2026-11-06"
@@ -16477,6 +17218,153 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-18xwyzcesb",
+      "source": "bilibili",
+      "bvid": "BV18xwyzcEsB",
+      "vid": null,
+      "title": "【EQG】小马国女孩：动画短片第二季【中文字幕/1080P】",
+      "up": "爱已成枫",
+      "duration_seconds": 3345,
+      "cover": "http://i2.hdslb.com/bfs/archive/929bb1d5e32d2b23a1b265a0162b6792f02e09b2.jpg",
+      "total_pages": 24,
+      "pages": [
+        {
+          "page": 1,
+          "part": "01 萌犬开箱",
+          "duration": 117
+        },
+        {
+          "page": 2,
+          "part": "02 家装豪杰",
+          "duration": 149
+        },
+        {
+          "page": 3,
+          "part": "03 曲奇课堂",
+          "duration": 151
+        },
+        {
+          "page": 4,
+          "part": "04 胁犬降神",
+          "duration": 76
+        },
+        {
+          "page": 5,
+          "part": "05 滑板特技",
+          "duration": 121
+        },
+        {
+          "page": 6,
+          "part": "06 时尚冻人",
+          "duration": 139
+        },
+        {
+          "page": 7,
+          "part": "07 电玩高手",
+          "duration": 130
+        },
+        {
+          "page": 8,
+          "part": "08 萌宠秀场 之 精彩预热",
+          "duration": 125
+        },
+        {
+          "page": 9,
+          "part": "09 萌宠秀场 之 颁奖典礼",
+          "duration": 134
+        },
+        {
+          "page": 10,
+          "part": "10 阴差阳错",
+          "duration": 159
+        },
+        {
+          "page": 11,
+          "part": "11 星海一暮",
+          "duration": 141
+        },
+        {
+          "page": 12,
+          "part": "12 五星好评",
+          "duration": 162
+        },
+        {
+          "page": 13,
+          "part": "13 错失恐惧",
+          "duration": 139
+        },
+        {
+          "page": 14,
+          "part": "14 游艇逍遥",
+          "duration": 158
+        },
+        {
+          "page": 15,
+          "part": "15 尽情奔跑",
+          "duration": 158
+        },
+        {
+          "page": 16,
+          "part": "16 露营必备",
+          "duration": 148
+        },
+        {
+          "page": 17,
+          "part": "17 颜过其实",
+          "duration": 127
+        },
+        {
+          "page": 18,
+          "part": "18 后台探班",
+          "duration": 122
+        },
+        {
+          "page": 19,
+          "part": "19 节庆靓装",
+          "duration": 108
+        },
+        {
+          "page": 20,
+          "part": "20 不可不排",
+          "duration": 132
+        },
+        {
+          "page": 21,
+          "part": "21 寻觅魔力",
+          "duration": 143
+        },
+        {
+          "page": 22,
+          "part": "22 任雨狂",
+          "duration": 157
+        },
+        {
+          "page": 23,
+          "part": "23 增添力量",
+          "duration": 165
+        },
+        {
+          "page": 24,
+          "part": "NG镜头",
+          "duration": 184
+        }
+      ],
+      "note": "小马国女孩动画短片第二季，英文原声中文字幕",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-18z4jeaeyo",
       "source": "bilibili",
       "bvid": "BV18z4JeAEYo",
@@ -19431,6 +20319,106 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1bu4m1w7x3",
+      "source": "bilibili",
+      "bvid": "BV1Bu4m1w7X3",
+      "vid": null,
+      "title": "儿童益智手工玩具，如何用彩泥制作彩虹鸭和彩虹冰淇淋",
+      "up": "七彩儿童乐园",
+      "duration_seconds": 297,
+      "cover": "http://i0.hdslb.com/bfs/archive/ce5301c39ac16fed281274228951497854c1d720.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "彩泥制作彩虹鸭与彩虹冰淇淋",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1ch4y1w7sc",
+      "source": "bilibili",
+      "bvid": "BV1cH4y1w7SC",
+      "vid": null,
+      "title": "儿童益智手工玩具，彩虹颜料在托盘制作彩虹棒棒糖",
+      "up": "七彩儿童乐园",
+      "duration_seconds": 326,
+      "cover": "http://i0.hdslb.com/bfs/archive/dedc3765c08c02b1a879d682e07eb5fb0ad73762.png",
+      "total_pages": 1,
+      "pages": [],
+      "note": "彩虹颜料托盘做棒棒糖手工",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1jd4y1j7za",
+      "source": "bilibili",
+      "bvid": "BV1jd4y1J7Za",
+      "vid": null,
+      "title": "儿童益智手工早教，给小娃娃制作彩虹糖果浴缸",
+      "up": "七彩儿童乐园",
+      "duration_seconds": 137,
+      "cover": "http://i0.hdslb.com/bfs/archive/708e7ca2b96eaf877e9a9cec4e3cb116fc6e4155.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "彩虹糖果浴缸手工早教",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1vb4y1f7bf",
+      "source": "bilibili",
+      "bvid": "BV1vB4y1f7Bf",
+      "vid": null,
+      "title": "儿童益智手工玩具，用太空沙制作一个彩虹冰激凌",
+      "up": "七彩儿童乐园",
+      "duration_seconds": 228,
+      "cover": "http://i2.hdslb.com/bfs/archive/c61b9e640722d3d71e3282a863594ddeb9dcdbef.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "太空沙彩虹冰淇淋手工，动手益智",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1c14y1s7f4",
       "source": "bilibili",
       "bvid": "BV1C14y1s7F4",
@@ -19545,6 +20533,108 @@
         ],
         "theme": [
           "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1cm6my5enc",
+      "source": "bilibili",
+      "bvid": "BV1CM6mY5ENC",
+      "vid": null,
+      "title": "儿童益智手工游戏孩子们学会数到10！幼儿最佳学习视频！教育视频，趣味数字查找",
+      "up": "彩虹的花园",
+      "duration_seconds": 592,
+      "cover": "http://i0.hdslb.com/bfs/archive/afcb597deb24a5e13acf63bb84821e5d90e64d4a.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "益智手工数到10，趣味数字查找",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft",
+          "math"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1mnzrbte1j",
+      "source": "bilibili",
+      "bvid": "BV1mnzrBtE1J",
+      "vid": null,
+      "title": "哇！机场里的X光宝宝  乐园儿童动画",
+      "up": "彩虹的花园",
+      "duration_seconds": 1148,
+      "cover": "http://i2.hdslb.com/bfs/archive/876071ddf31c25d03f18cad9d1cfbe6376a5eee1.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "《X光宝宝》乐园儿童动画系列",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1vt411h7nb",
+      "source": "bilibili",
+      "bvid": "BV1vT411h7NB",
+      "vid": null,
+      "title": "儿童益智手工玩具颜色的认知彩虹橡皮泥面条",
+      "up": "彩虹的花园",
+      "duration_seconds": 560,
+      "cover": "http://i0.hdslb.com/bfs/archive/afed1df2a7f14f6e5626d9a48b6a77e3aa04eed2.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "彩虹橡皮泥面条制作，颜色认知",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1cey3ysebf",
+      "source": "bilibili",
+      "bvid": "BV1Cey3YsEBF",
+      "vid": null,
+      "title": "十格阵，数感启蒙培养",
+      "up": "绮绮鱼儿妈",
+      "duration_seconds": 301,
+      "cover": "http://i1.hdslb.com/bfs/archive/146056d0582e32ec9682f1cf9a8022a3e731a571.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "十格阵数感启蒙游戏，幼儿数数训练",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "math"
         ]
       },
       "added_at": "2026-11-06"
@@ -20174,58 +21264,6 @@
         ],
         "theme": [
           "story"
-        ]
-      },
-      "added_at": "2026-11-06"
-    },
-    {
-      "id": "bv-1ew421p74m",
-      "source": "bilibili",
-      "bvid": "BV1EW421P74M",
-      "vid": null,
-      "title": "三字经！儿童经典儿歌！幼儿启蒙！",
-      "up": "羽小帅成长乐园",
-      "duration_seconds": 97,
-      "cover": "http://i0.hdslb.com/bfs/archive/2c23188b73a9683378acb352e71eb1923094d3fc.jpg",
-      "total_pages": 1,
-      "pages": [],
-      "note": "三字经经典儿歌，建议增设人文主题",
-      "tags": {
-        "age": [
-          "3-6"
-        ],
-        "language": [
-          "zh"
-        ],
-        "theme": [
-          "music",
-          "story"
-        ]
-      },
-      "added_at": "2026-11-06"
-    },
-    {
-      "id": "bv-1hv421r711",
-      "source": "bilibili",
-      "bvid": "BV1Hv421r711",
-      "vid": null,
-      "title": "二十四节气歌！儿童经典儿歌！",
-      "up": "羽小帅成长乐园",
-      "duration_seconds": 166,
-      "cover": "http://i0.hdslb.com/bfs/archive/306c330b4098c52e473b037251899d064086d050.jpg",
-      "total_pages": 0,
-      "pages": [],
-      "note": "二十四节气儿歌，节奏明快易记",
-      "tags": {
-        "age": [
-          "3-6"
-        ],
-        "language": [
-          "zh"
-        ],
-        "theme": [
-          "music",
-          "nature"
         ]
       },
       "added_at": "2026-11-06"
@@ -21502,6 +22540,31 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1gk421t7vp",
+      "source": "bilibili",
+      "bvid": "BV1GK421t7vp",
+      "vid": null,
+      "title": "适合幼儿园大班毕业典礼表演舞蹈《再见了我的小伙伴》完整版有，动作简单易学，幼儿零基础可学。毕业季必排练舞蹈，台下早已哭成一片。大班老师快快安排起来吧。",
+      "up": "芷灵儿零基础热门舞蹈",
+      "duration_seconds": 78,
+      "cover": "http://i0.hdslb.com/bfs/archive/b8f97b4edcae888d7dd524f159c8841d46a38200.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "大班毕业舞教学，动作简单幼儿零基础可学",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1gsotbherk",
       "source": "bilibili",
       "bvid": "BV1GSoTBHERK",
@@ -22242,6 +23305,359 @@
         ],
         "theme": [
           "story",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1nlo6b9evp",
+      "source": "bilibili",
+      "bvid": "BV1nLo6B9EVp",
+      "vid": null,
+      "title": "【全96集】地理大百科启蒙动画课程，适合6-15岁孩子，在家看世界!培养地理兴趣，激发探索欲望",
+      "up": "幼小初高学习课堂",
+      "duration_seconds": 15962,
+      "cover": "http://i2.hdslb.com/bfs/archive/1dabceeb997bdfa067d3f0bd0cc20b40747387cc.jpg",
+      "total_pages": 65,
+      "pages": [
+        {
+          "page": 1,
+          "part": "01地球的形状和大小",
+          "duration": 256
+        },
+        {
+          "page": 2,
+          "part": "02.纬线和纬度",
+          "duration": 249
+        },
+        {
+          "page": 3,
+          "part": "03.经线和经度",
+          "duration": 287
+        },
+        {
+          "page": 4,
+          "part": "04.利用经纬定位",
+          "duration": 217
+        },
+        {
+          "page": 5,
+          "part": "05.地球的自转特征",
+          "duration": 233
+        },
+        {
+          "page": 6,
+          "part": "06.地球自转的意义",
+          "duration": 262
+        },
+        {
+          "page": 7,
+          "part": "07.雄踞东方的大洲",
+          "duration": 298
+        },
+        {
+          "page": 8,
+          "part": "08.世界第一大洲",
+          "duration": 236
+        },
+        {
+          "page": 9,
+          "part": "09.地势与河流",
+          "duration": 285
+        },
+        {
+          "page": 10,
+          "part": "10.亚洲复杂多样的气候",
+          "duration": 273
+        },
+        {
+          "page": 11,
+          "part": "11.一衣带水，多山地丘陵的岛国",
+          "duration": 254
+        },
+        {
+          "page": 12,
+          "part": "12.日本气候灾害和自然资源",
+          "duration": 269
+        },
+        {
+          "page": 13,
+          "part": "13.日本与世界联系密切的日本",
+          "duration": 263
+        },
+        {
+          "page": 14,
+          "part": "14.日本东西方兼容的文化",
+          "duration": 244
+        },
+        {
+          "page": 15,
+          "part": "15.东南亚“十字路口”的位置",
+          "duration": 292
+        },
+        {
+          "page": 16,
+          "part": "16.东南亚山河相间与城市分布",
+          "duration": 295
+        },
+        {
+          "page": 17,
+          "part": "17.东南亚热带旅游胜地",
+          "duration": 285
+        },
+        {
+          "page": 18,
+          "part": "18.美国名族大熔炉",
+          "duration": 288
+        },
+        {
+          "page": 19,
+          "part": "19.美国农业地区专业化",
+          "duration": 264
+        },
+        {
+          "page": 20,
+          "part": "20.世界最发达的工业国家",
+          "duration": 285
+        },
+        {
+          "page": 21,
+          "part": "21.地形类型多样，山区面积广大",
+          "duration": 209
+        },
+        {
+          "page": 22,
+          "part": "22.海陆兼备的大国",
+          "duration": 300
+        },
+        {
+          "page": 23,
+          "part": "23.地理差异显著",
+          "duration": 275
+        },
+        {
+          "page": 24,
+          "part": "24.优越的地理位置",
+          "duration": 221
+        },
+        {
+          "page": 25,
+          "part": "25.人口东多西少",
+          "duration": 243
+        },
+        {
+          "page": 26,
+          "part": "26.秦岭淮河",
+          "duration": 296
+        },
+        {
+          "page": 27,
+          "part": "27.四大地理区域",
+          "duration": 252
+        },
+        {
+          "page": 28,
+          "part": "28.区时的换算",
+          "duration": 279
+        },
+        {
+          "page": 29,
+          "part": "30.印度迅速发展的服务外包产业",
+          "duration": 267
+        },
+        {
+          "page": 30,
+          "part": "31.俄罗斯自然资源与工业",
+          "duration": 230
+        },
+        {
+          "page": 31,
+          "part": "32.俄罗斯交通与城市",
+          "duration": 278
+        },
+        {
+          "page": 32,
+          "part": "33.宇宙的结构层次",
+          "duration": 269
+        },
+        {
+          "page": 33,
+          "part": "34.青藏地区的自然环境",
+          "duration": 267
+        },
+        {
+          "page": 34,
+          "part": "35.中国发展成就",
+          "duration": 198
+        },
+        {
+          "page": 35,
+          "part": "36.发展中面临的挑战",
+          "duration": 277
+        },
+        {
+          "page": 36,
+          "part": "37.高寒牧区和河谷农业区",
+          "duration": 270
+        },
+        {
+          "page": 37,
+          "part": "38.牧区和灌溉农业区",
+          "duration": 289
+        },
+        {
+          "page": 38,
+          "part": "39.重要的水田农业区",
+          "duration": 289
+        },
+        {
+          "page": 39,
+          "part": "40.江海交汇之地",
+          "duration": 273
+        },
+        {
+          "page": 40,
+          "part": "41.江河的源地",
+          "duration": 271
+        },
+        {
+          "page": 41,
+          "part": "42.沙漠和戈壁广布",
+          "duration": 214
+        },
+        {
+          "page": 42,
+          "part": "43.做负责任的大国",
+          "duration": 264
+        },
+        {
+          "page": 43,
+          "part": "44.三江源地区的保护",
+          "duration": 265
+        },
+        {
+          "page": 44,
+          "part": "45.油气资源的开发",
+          "duration": 266
+        },
+        {
+          "page": 45,
+          "part": "46.中国最大的城市群",
+          "duration": 262
+        },
+        {
+          "page": 46,
+          "part": "47.水乡文化特色与旅游",
+          "duration": 294
+        },
+        {
+          "page": 47,
+          "part": "48.长株潭城市群的发展差异",
+          "duration": 286
+        },
+        {
+          "page": 48,
+          "part": "49.贵州",
+          "duration": 269
+        },
+        {
+          "page": 49,
+          "part": "50.特别行政区",
+          "duration": 286
+        },
+        {
+          "page": 50,
+          "part": "51.港澳与祖国内地的密切联系",
+          "duration": 118
+        },
+        {
+          "page": 51,
+          "part": "52.不可分割的神圣领土",
+          "duration": 235
+        },
+        {
+          "page": 52,
+          "part": "53.美丽富饶的宝岛",
+          "duration": 296
+        },
+        {
+          "page": 53,
+          "part": "54.外向形经济",
+          "duration": 244
+        },
+        {
+          "page": 54,
+          "part": "55.身体的能源--糖类，脂肪，蛋白质",
+          "duration": 182
+        },
+        {
+          "page": 55,
+          "part": "1 什么是生物（上）",
+          "duration": 150
+        },
+        {
+          "page": 56,
+          "part": "2 什么是生物下",
+          "duration": 200
+        },
+        {
+          "page": 57,
+          "part": "3 用观察法研究生物",
+          "duration": 175
+        },
+        {
+          "page": 58,
+          "part": "4 研究生物还有什么方法",
+          "duration": 171
+        },
+        {
+          "page": 59,
+          "part": "5 怎么探究光对鼠妇的影响",
+          "duration": 257
+        },
+        {
+          "page": 60,
+          "part": "6  设计鼠妇实验的装置",
+          "duration": 203
+        },
+        {
+          "page": 61,
+          "part": "7  小实验：鼠妇到底往哪里跑",
+          "duration": 112
+        },
+        {
+          "page": 62,
+          "part": "8 显微镜的结构",
+          "duration": 195
+        },
+        {
+          "page": 63,
+          "part": "9 显微镜怎么“显微”",
+          "duration": 138
+        },
+        {
+          "page": 64,
+          "part": "10 显微镜能放大多少倍",
+          "duration": 138
+        },
+        {
+          "page": 65,
+          "part": "11 通过显微镜后，物体有什么变化",
+          "duration": 154
+        }
+      ],
+      "note": "地理大百科启蒙动画96集，搬运号待人工复核",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "nature",
           "animation"
         ]
       },
@@ -25226,148 +26642,26 @@
       "added_at": "2026-11-06"
     },
     {
-      "id": "bv-1ljn8z2ejr",
+      "id": "bv-1lm4y1h7zx",
       "source": "bilibili",
-      "bvid": "BV1Ljn8z2EJR",
+      "bvid": "BV1Lm4y1H7Zx",
       "vid": null,
-      "title": "全145集【看动画学物理】物理启蒙趣味动画 培养科学思维学习物理小知识 孩子们一看就会的物理课堂",
-      "up": "小中高动画站",
-      "duration_seconds": 5981,
-      "cover": "http://i2.hdslb.com/bfs/archive/846f6f1f122ef53c27f671f41f2b1e1269ad7d28.jpg",
-      "total_pages": 24,
-      "pages": [
-        {
-          "page": 1,
-          "part": "1什么是力",
-          "duration": 249
-        },
-        {
-          "page": 2,
-          "part": "2力的作用效果",
-          "duration": 177
-        },
-        {
-          "page": 3,
-          "part": "3力的三要素",
-          "duration": 204
-        },
-        {
-          "page": 4,
-          "part": "4如何表示力",
-          "duration": 212
-        },
-        {
-          "page": 5,
-          "part": "5力的作用是相互",
-          "duration": 154
-        },
-        {
-          "page": 6,
-          "part": "6弹力",
-          "duration": 153
-        },
-        {
-          "page": 7,
-          "part": "7什么是重力",
-          "duration": 149
-        },
-        {
-          "page": 8,
-          "part": "1测量长度",
-          "duration": 338
-        },
-        {
-          "page": 9,
-          "part": "2刻度尺的使用",
-          "duration": 437
-        },
-        {
-          "page": 10,
-          "part": "3实验时的误差",
-          "duration": 279
-        },
-        {
-          "page": 11,
-          "part": "4如何判断物体是否运动",
-          "duration": 313
-        },
-        {
-          "page": 12,
-          "part": "5如何比较快慢",
-          "duration": 246
-        },
-        {
-          "page": 13,
-          "part": "6速度",
-          "duration": 429
-        },
-        {
-          "page": 14,
-          "part": "7匀速直线运动",
-          "duration": 287
-        },
-        {
-          "page": 15,
-          "part": "8变速运动与平均速度",
-          "duration": 297
-        },
-        {
-          "page": 16,
-          "part": "1光是哪里来的",
-          "duration": 188
-        },
-        {
-          "page": 17,
-          "part": "2光沿直线传播",
-          "duration": 184
-        },
-        {
-          "page": 18,
-          "part": "3光的直线传播的应用",
-          "duration": 352
-        },
-        {
-          "page": 19,
-          "part": "4光的反射",
-          "duration": 157
-        },
-        {
-          "page": 20,
-          "part": "5镜面反射和漫反射",
-          "duration": 308
-        },
-        {
-          "page": 21,
-          "part": "6光的折射",
-          "duration": 191
-        },
-        {
-          "page": 22,
-          "part": "7光的折射规律",
-          "duration": 244
-        },
-        {
-          "page": 23,
-          "part": "8彩虹的形成 光的色散",
-          "duration": 197
-        },
-        {
-          "page": 24,
-          "part": "9光谱与红外线",
-          "duration": 236
-        }
-      ],
-      "note": "看动画学物理145集，物理启蒙系列，UP搬运待复核",
+      "title": "中班数学区益智玩教具 《数量匹配》，一起来学习数与量的对应关系吧。 #幼儿园 #儿童益智玩具 #数学思维训练",
+      "up": "BOHOW布好玩",
+      "duration_seconds": 67,
+      "cover": "http://i2.hdslb.com/bfs/archive/7c93815649635259b8484bf493fc4160af267e14.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "数量匹配玩教具演示，数与量对应启蒙",
       "tags": {
         "age": [
-          "6-9"
+          "3-6"
         ],
         "language": [
           "zh"
         ],
         "theme": [
-          "science",
-          "animation"
+          "math"
         ]
       },
       "added_at": "2026-11-06"
@@ -25894,6 +27188,32 @@
         "theme": [
           "social",
           "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1mm4y1n7bp",
+      "source": "bilibili",
+      "bvid": "BV1Mm4y1n7bP",
+      "vid": null,
+      "title": "不尴尬的性教育启蒙 | 《你从哪里来》",
+      "up": "云朵有声绘本屋",
+      "duration_seconds": 164,
+      "cover": "http://i2.hdslb.com/bfs/archive/a73654c708ddaac0b554d2aabf4dc235f742b80c.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "性教育启蒙绘本《你从哪里来》，建议家长陪同",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "life"
         ]
       },
       "added_at": "2026-11-06"
@@ -28152,6 +29472,32 @@
         ],
         "theme": [
           "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1nw411k7os",
+      "source": "bilibili",
+      "bvid": "BV1Nw411k7os",
+      "vid": null,
+      "title": "《咕力咕力愿望瓶》幼儿数学思维启蒙动画全26集 第12集 生日蛋糕",
+      "up": "依然小米粥",
+      "duration_seconds": 1288,
+      "cover": "http://i0.hdslb.com/bfs/archive/149e1a6eccc4833c8a16397f7f0ed77323b779d7.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "咕力咕力愿望瓶幼儿数学动画第12集",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "math",
+          "animation"
         ]
       },
       "added_at": "2026-11-06"
@@ -32381,6 +33727,32 @@
         ],
         "theme": [
           "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1tk42147k2",
+      "source": "bilibili",
+      "bvid": "BV1TK42147K2",
+      "vid": null,
+      "title": "儿童数学启蒙动画分享-除法口诀#儿童启蒙早教益智动画片 #数学启蒙 #思维训练 #幼儿趣味数学教学 #锻炼宝贝的专注力",
+      "up": "QQ奥特曼",
+      "duration_seconds": 118,
+      "cover": "http://i1.hdslb.com/bfs/archive/d515a774c9226750e8dceea64364ea211e3d51dc.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "儿童数学启蒙动画，除法口诀",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "math",
+          "animation"
         ]
       },
       "added_at": "2026-11-06"
@@ -38513,6 +39885,56 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1dzyhzsehv",
+      "source": "bilibili",
+      "bvid": "BV1dZYhzSEhv",
+      "vid": null,
+      "title": "宝宝爱看的儿童乐园玩耍",
+      "up": "水瓶w",
+      "duration_seconds": 1953,
+      "cover": "http://i0.hdslb.com/bfs/archive/d2b5d5c486a88d60eb0354e0c5d062fade62969c.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "幼童在乐园玩耍实录，亲子日常向",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1db4y1w731",
+      "source": "bilibili",
+      "bvid": "BV1db4y1W731",
+      "vid": null,
+      "title": "爱上幼儿园 棒棒哒 我们的小天使再次保护了大家",
+      "up": "湖南金鹰卡通卫视",
+      "duration_seconds": 135,
+      "cover": "http://i2.hdslb.com/bfs/archive/4247c981c9e499a9258765b02f72f031d945cf81.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "金鹰卡通《爱上幼儿园》动画片段",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1et4y1279r",
       "source": "bilibili",
       "bvid": "BV1et4y1279R",
@@ -39394,6 +40816,31 @@
         "theme": [
           "music",
           "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1hsscznejr",
+      "source": "bilibili",
+      "bvid": "BV1hSsczNEJr",
+      "vid": null,
+      "title": "幼儿数学启蒙教育02：认识数字 趣味数学游戏 早教必备 基础数学入门",
+      "up": "南昌熊老师数学思维",
+      "duration_seconds": 321,
+      "cover": "http://i0.hdslb.com/bfs/archive/480684fc3d8925184e6bbfcc821e7336eeed3db5.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "幼儿数学启蒙，认识数字趣味游戏",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "math"
         ]
       },
       "added_at": "2026-11-06"
@@ -41136,6 +42583,681 @@
           "story",
           "animation",
           "music"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1mjsubzefv",
+      "source": "bilibili",
+      "bvid": "BV1mjSUBzEFV",
+      "vid": null,
+      "title": "【全36讲】国学经典动画《讲给孩子的三十六计》，用动画的方式给孩子们演绎36计，启迪人生智慧",
+      "up": "夏令麻麻",
+      "duration_seconds": 14979,
+      "cover": "http://i2.hdslb.com/bfs/archive/a61be332bd513b3f1e7ed47345bca4aefc57a7ce.jpg",
+      "total_pages": 27,
+      "pages": [
+        {
+          "page": 1,
+          "part": "瞒天过海新",
+          "duration": 639
+        },
+        {
+          "page": 2,
+          "part": "围魏救赵",
+          "duration": 678
+        },
+        {
+          "page": 3,
+          "part": "借刀杀人",
+          "duration": 591
+        },
+        {
+          "page": 4,
+          "part": "以逸待劳",
+          "duration": 771
+        },
+        {
+          "page": 5,
+          "part": "趁火打劫",
+          "duration": 513
+        },
+        {
+          "page": 6,
+          "part": "声东击西",
+          "duration": 565
+        },
+        {
+          "page": 7,
+          "part": "无中生有",
+          "duration": 613
+        },
+        {
+          "page": 8,
+          "part": "打草惊蛇",
+          "duration": 524
+        },
+        {
+          "page": 9,
+          "part": "借尸还魂",
+          "duration": 618
+        },
+        {
+          "page": 10,
+          "part": "调虎离山",
+          "duration": 537
+        },
+        {
+          "page": 11,
+          "part": "釜底抽薪",
+          "duration": 584
+        },
+        {
+          "page": 12,
+          "part": "浑水摸鱼",
+          "duration": 582
+        },
+        {
+          "page": 13,
+          "part": "偷梁换柱",
+          "duration": 618
+        },
+        {
+          "page": 14,
+          "part": "反客为主",
+          "duration": 463
+        },
+        {
+          "page": 15,
+          "part": "关门捉贼",
+          "duration": 494
+        },
+        {
+          "page": 16,
+          "part": "假痴不濑",
+          "duration": 562
+        },
+        {
+          "page": 17,
+          "part": "假道伐虢",
+          "duration": 524
+        },
+        {
+          "page": 18,
+          "part": "空城计",
+          "duration": 484
+        },
+        {
+          "page": 19,
+          "part": "李代桃僵",
+          "duration": 548
+        },
+        {
+          "page": 20,
+          "part": "连环计",
+          "duration": 638
+        },
+        {
+          "page": 21,
+          "part": "美人计",
+          "duration": 477
+        },
+        {
+          "page": 22,
+          "part": "抛砖引玉",
+          "duration": 514
+        },
+        {
+          "page": 23,
+          "part": "擒贼擒王",
+          "duration": 507
+        },
+        {
+          "page": 24,
+          "part": "上屋抽梯",
+          "duration": 483
+        },
+        {
+          "page": 25,
+          "part": "树上开花",
+          "duration": 500
+        },
+        {
+          "page": 26,
+          "part": "顺手牵羊",
+          "duration": 469
+        },
+        {
+          "page": 27,
+          "part": "笑里藏刀",
+          "duration": 483
+        }
+      ],
+      "note": "讲给孩子的三十六计国学动画系列；建议增设人文主题",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1wp9byfe7x",
+      "source": "bilibili",
+      "bvid": "BV1wp9bYFE7X",
+      "vid": null,
+      "title": "英文启蒙动画【Super JoJo超级宝贝儿歌磨耳朵【英文版动画全集+中文版动画最后5集】宝贝爱看的动画",
+      "up": "夏令麻麻",
+      "duration_seconds": 16354,
+      "cover": "http://i0.hdslb.com/bfs/archive/7d8b72947eb5676bd9c17ab8d5e37f9267d3b986.jpg",
+      "total_pages": 97,
+      "pages": [
+        {
+          "page": 1,
+          "part": "002. Good Night Song",
+          "duration": 155
+        },
+        {
+          "page": 2,
+          "part": "003. Peek A Boo Song",
+          "duration": 164
+        },
+        {
+          "page": 3,
+          "part": "004. London Bridge is Falling Down",
+          "duration": 162
+        },
+        {
+          "page": 4,
+          "part": "005. Bath Song",
+          "duration": 145
+        },
+        {
+          "page": 5,
+          "part": "006. Ice Cream Song",
+          "duration": 149
+        },
+        {
+          "page": 6,
+          "part": "007. Yes Yes Wake Up Song",
+          "duration": 141
+        },
+        {
+          "page": 7,
+          "part": "008. Breakfast Song",
+          "duration": 151
+        },
+        {
+          "page": 8,
+          "part": "009. Sick Song",
+          "duration": 165
+        },
+        {
+          "page": 9,
+          "part": "010. The Boo Boo Song",
+          "duration": 174
+        },
+        {
+          "page": 10,
+          "part": "011. Johny Johny Yes Papa",
+          "duration": 174
+        },
+        {
+          "page": 11,
+          "part": "012. Please and Thank You Song",
+          "duration": 212
+        },
+        {
+          "page": 12,
+          "part": "013. Baby Care Song",
+          "duration": 165
+        },
+        {
+          "page": 13,
+          "part": "014. Doctor Checkup Song",
+          "duration": 173
+        },
+        {
+          "page": 14,
+          "part": "015. No No Table Manners Song",
+          "duration": 235
+        },
+        {
+          "page": 15,
+          "part": "016. Car Wash Song",
+          "duration": 181
+        },
+        {
+          "page": 16,
+          "part": "017. Baby Shark",
+          "duration": 149
+        },
+        {
+          "page": 17,
+          "part": "018. Yes Yes Vegetables Song",
+          "duration": 213
+        },
+        {
+          "page": 18,
+          "part": "019. Baby Doctor Check Up Song",
+          "duration": 171
+        },
+        {
+          "page": 19,
+          "part": "020. The Colors Song",
+          "duration": 230
+        },
+        {
+          "page": 20,
+          "part": "021. Big and Small Song",
+          "duration": 158
+        },
+        {
+          "page": 21,
+          "part": "022. Bingo",
+          "duration": 150
+        },
+        {
+          "page": 22,
+          "part": "023. Wheels on the Bus",
+          "duration": 174
+        },
+        {
+          "page": 23,
+          "part": "024. Mommy Got Sick",
+          "duration": 146
+        },
+        {
+          "page": 24,
+          "part": "025. Clean Up Trash Song",
+          "duration": 196
+        },
+        {
+          "page": 25,
+          "part": "026. Happy Halloween Song",
+          "duration": 146
+        },
+        {
+          "page": 26,
+          "part": "027. I Don't Like The Seat Belt",
+          "duration": 151
+        },
+        {
+          "page": 27,
+          "part": "028. Clean Up Song",
+          "duration": 170
+        },
+        {
+          "page": 28,
+          "part": "029. Itsy Bitsy Spider",
+          "duration": 167
+        },
+        {
+          "page": 29,
+          "part": "030. Happy Birthday Song",
+          "duration": 160
+        },
+        {
+          "page": 30,
+          "part": "031. I Can Make Donuts",
+          "duration": 155
+        },
+        {
+          "page": 31,
+          "part": "032. Rain Rain Go Away",
+          "duration": 164
+        },
+        {
+          "page": 32,
+          "part": "033. The Finger Family Song",
+          "duration": 180
+        },
+        {
+          "page": 33,
+          "part": "034. Rainbow Ice Cream",
+          "duration": 183
+        },
+        {
+          "page": 34,
+          "part": "035. Playtime on the Slide",
+          "duration": 138
+        },
+        {
+          "page": 35,
+          "part": "036. Snack Song",
+          "duration": 171
+        },
+        {
+          "page": 36,
+          "part": "037. No No Play Safe Song 2",
+          "duration": 163
+        },
+        {
+          "page": 37,
+          "part": "038. Do You Like Broccoli Ice Cream",
+          "duration": 173
+        },
+        {
+          "page": 38,
+          "part": "039. Farm Animals Song",
+          "duration": 136
+        },
+        {
+          "page": 39,
+          "part": "040.Baa Baa Black Sheep Have You Any Wool",
+          "duration": 141
+        },
+        {
+          "page": 40,
+          "part": "041.Number Song",
+          "duration": 169
+        },
+        {
+          "page": 41,
+          "part": "042.Juice Song",
+          "duration": 237
+        },
+        {
+          "page": 42,
+          "part": "043.My Daddy Song",
+          "duration": 149
+        },
+        {
+          "page": 43,
+          "part": "044.This is My Face",
+          "duration": 152
+        },
+        {
+          "page": 44,
+          "part": "045.Five Little Monkeys Jumping on the Bed",
+          "duration": 144
+        },
+        {
+          "page": 45,
+          "part": "046.Be Brave Baby JoJo  I'm a Brave Kid  I Can Do It  Super JoJo Nursery Rhymes",
+          "duration": 187
+        },
+        {
+          "page": 46,
+          "part": "047.Wash Your Hands Song  Healthy Habits For Kids  Super JoJo Nursery Rhymes & K",
+          "duration": 165
+        },
+        {
+          "page": 47,
+          "part": "048.Yes Yes Clean Up Song  Tidy Up Song  Good Habits for Kids  Super JoJo Nurser",
+          "duration": 132
+        },
+        {
+          "page": 48,
+          "part": "049.Yes Yes Baby Go to Sleep  Bedtime Song  Super JoJo Nursery Rhymes & Kids Son",
+          "duration": 153
+        },
+        {
+          "page": 49,
+          "part": "050.Humpty Dumpty Sat On A Wall  Play at Home for Kids  Super JoJo Nursery Rhyme",
+          "duration": 162
+        },
+        {
+          "page": 50,
+          "part": "051.Baby JoJo’s Moving to A New House!  Moving House Song  Super JoJo Nursery Rh",
+          "duration": 201
+        },
+        {
+          "page": 51,
+          "part": "052.Yes Yes Save the Earth Song  Good Habits for Kids  Super JoJo Nursery Rhymes",
+          "duration": 144
+        },
+        {
+          "page": 52,
+          "part": "054.Twinkle Twinkle Little Star  Merry Christmas  Dance Song  Super JoJo Nursery",
+          "duration": 146
+        },
+        {
+          "page": 53,
+          "part": "055.Table Manners Song  Kids at the Table  Good Habits Song  Super JoJo Nursery",
+          "duration": 176
+        },
+        {
+          "page": 54,
+          "part": "056.Let's Go to the Zoo  Zoo Animals Song for Kids  Super JoJo Nursery Rhymes &",
+          "duration": 207
+        },
+        {
+          "page": 55,
+          "part": "057.Family Pets Song  Pet Song for Kids  Animal Song  Super JoJo Nursery Rhymes",
+          "duration": 167
+        },
+        {
+          "page": 56,
+          "part": "058.My Yummy Lunch  Shapes in My Lunch Box  Kids Learn Shapes  Super JoJo Nurser",
+          "duration": 131
+        },
+        {
+          "page": 57,
+          "part": "059.Be Patient, Baby JoJo  Good Habits Song for Kids  Super JoJo Nursery Rhymes",
+          "duration": 169
+        },
+        {
+          "page": 58,
+          "part": "060.This is the Way We Play at the Playground  Play Safe Song  Super JoJo Nurser",
+          "duration": 176
+        },
+        {
+          "page": 59,
+          "part": "061.I Want to Be A Firefighter [DANCE]  Pretend Play for Kids  Super JoJo Nurser",
+          "duration": 172
+        },
+        {
+          "page": 60,
+          "part": "062.Baby JoJo's First Haircut  Going to The Hairdresser  Super JoJo Nursery Rhym",
+          "duration": 175
+        },
+        {
+          "page": 61,
+          "part": "063.The Soldiers in the Vaccine  Vaccine Song  Healthy Habits  Super JoJo Nurser",
+          "duration": 145
+        },
+        {
+          "page": 62,
+          "part": "064.Baby Shark Finger Family  Family Dance Song for Kids  Super JoJo Nursery Rhy",
+          "duration": 175
+        },
+        {
+          "page": 63,
+          "part": "065.Loose Tooth Song  Wobbly Tooth Song  My Tooth is Loose!  Super JoJo Nursery",
+          "duration": 203
+        },
+        {
+          "page": 64,
+          "part": "066.If You Are Happy and You Know It  Beach Song for Kids  Super JoJo Nursery Rh",
+          "duration": 154
+        },
+        {
+          "page": 65,
+          "part": "067.Daddy Got a Boo Boo  I Will Take Care of You  Super JoJo Nursery Rhymes & Ki",
+          "duration": 171
+        },
+        {
+          "page": 66,
+          "part": "068.Steamed Buns Song  Make Yummy Food  Recipe Song for Kids  Super JoJo Nursery",
+          "duration": 140
+        },
+        {
+          "page": 67,
+          "part": "069.Yes Yes Clean Up Toys Song  Good Habits for Kids  Super JoJo Nursery Rhymes",
+          "duration": 210
+        },
+        {
+          "page": 68,
+          "part": "070.Fun Day at the Aquarium  Aquarium Song  Sea Animals Song  Super JoJo Nursery",
+          "duration": 202
+        },
+        {
+          "page": 69,
+          "part": "071.Baby Gets Dressed Song  Kids Learn Good Habits  Super JoJo Nursery Rhymes &",
+          "duration": 174
+        },
+        {
+          "page": 70,
+          "part": "072.JoJo Plants A Seedling  Gardening Song  Patience for Kids  Super JoJo Nurser",
+          "duration": 209
+        },
+        {
+          "page": 71,
+          "part": "073.No No Play Safe Song  Good Habits for Kids  Super JoJo Nursery Rhymes & Kids",
+          "duration": 135
+        },
+        {
+          "page": 72,
+          "part": "074.1, 2, 3, 4, 5, Once I Caught a Fish Alive  Camping Time  Super JoJo Nursery",
+          "duration": 170
+        },
+        {
+          "page": 73,
+          "part": "075.Let's Make Popcorn  Yummy Food for Kids  Family Dance Time Super JoJo Nurser",
+          "duration": 124
+        },
+        {
+          "page": 74,
+          "part": "076.Yes Yes Playground Song  Super JoJo Nursery Rhymes & Kids Songs",
+          "duration": 206
+        },
+        {
+          "page": 75,
+          "part": "077.Catch Me If You Can  The Wolf Is Coming  Family Game Song  Super JoJo Nurser",
+          "duration": 146
+        },
+        {
+          "page": 76,
+          "part": "078.Learn to Put on Your Shoes Song  Learn Habits for Kids  Super JoJo Nursery R",
+          "duration": 206
+        },
+        {
+          "page": 77,
+          "part": "079.Wheels on the Bus Song  Go Round and Round  Super JoJo Nursery Rhymes & Kids",
+          "duration": 147
+        },
+        {
+          "page": 78,
+          "part": "080.Knock Knock Who's at the Door  Kids at Home Song  Super JoJo Nursery Rhymes",
+          "duration": 228
+        },
+        {
+          "page": 79,
+          "part": "081.Kids Learn Needs and Wants  Good Habits for Kids  Super JoJo Nursery Rhymes",
+          "duration": 227
+        },
+        {
+          "page": 80,
+          "part": "082.Row the Boat Song  Fun Family Time for Kids  Super JoJo Nursery Rhymes & Kid",
+          "duration": 177
+        },
+        {
+          "page": 81,
+          "part": "083.I Can Walk By Myself  Good Habits for Kids  Super JoJo Nursery Rhymes & Kids",
+          "duration": 168
+        },
+        {
+          "page": 82,
+          "part": "084.Whose Tails  Animal Tails Song  Animals for Kids  Super JoJo Nursery Rhymes",
+          "duration": 155
+        },
+        {
+          "page": 83,
+          "part": "085.It's Time to Eat  Kid Table Manners  Good Habits for Kids  Super JoJo Nurser",
+          "duration": 148
+        },
+        {
+          "page": 84,
+          "part": "086.Let's Go to the Jungle  Adventure Song for Kids  Super JoJo Nursery Rhymes &",
+          "duration": 173
+        },
+        {
+          "page": 85,
+          "part": "087.Let's Make A Toy Car  Learn Colors for Kids  Fire Truck  Super JoJo Nursery",
+          "duration": 232
+        },
+        {
+          "page": 86,
+          "part": "088.Oh No! My Lovely Dog Bingo Is Gone  Super JoJo Nursery Rhymes & Kids Songs (",
+          "duration": 199
+        },
+        {
+          "page": 87,
+          "part": "089.Don’t Be Sad, Baby JoJo  Learn Mood and Emotions for Kids  Super JoJo Nurser",
+          "duration": 125
+        },
+        {
+          "page": 88,
+          "part": "090.The Typhoon Is Coming  Get Ready for Typhoon  Super JoJo Nursery Rhymes & Ki",
+          "duration": 168
+        },
+        {
+          "page": 89,
+          "part": "091.Baby Goes to Potty  Poo Poo Song  Potty Training  Super JoJo Nursery Rhymes",
+          "duration": 115
+        },
+        {
+          "page": 90,
+          "part": "092.Learn ABC with Cookies  ABC Song  Alphabet Song  Super JoJo Nursery Rhymes &",
+          "duration": 166
+        },
+        {
+          "page": 91,
+          "part": "093.Play Safety in the Park  Good Habits for Kids  Nursery Rhymes & Kids Songs",
+          "duration": 154
+        },
+        {
+          "page": 92,
+          "part": "094.Rainbow Juice Song  Learn Colors for Kids  Nursery Rhymes & Kids Songs  JoJo",
+          "duration": 164
+        },
+        {
+          "page": 93,
+          "part": "095、Play Safety at Home  Good Habits for Kids  Nursery Rhymes & Kids Songs  JoJo",
+          "duration": 131
+        },
+        {
+          "page": 94,
+          "part": "096、JoJo, Please Clean up Your Toys!  Good Habits for Kids  Nursery Rhymes & Kid",
+          "duration": 134
+        },
+        {
+          "page": 95,
+          "part": "097、Let's Go to Market!  Fruit and Veggies for Kids  Nursery Rhymes & Kids Songs",
+          "duration": 166
+        },
+        {
+          "page": 96,
+          "part": "98、ABC Songs for Children  Let's Learn About The Alphabet Phonics  Learn English",
+          "duration": 216
+        },
+        {
+          "page": 97,
+          "part": "99、Baby Go Potty  Poo Poo Song  Potty Training for Kids  Nursery Rhymes & Kids S",
+          "duration": 146
+        }
+      ],
+      "note": "超级宝贝JoJo英文儿歌动画，低幼磨耳朵",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
         ]
       },
       "added_at": "2026-11-06"
@@ -43081,6 +45203,58 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1pt4y1g7q7",
+      "source": "bilibili",
+      "bvid": "BV1pt4y1g7q7",
+      "vid": null,
+      "title": "幼儿园毕业情景剧｜《再见我的幼儿园》幼儿园大班毕业催泪情景剧，大班毕业典礼，大班毕业舞蹈｜《再见我的幼儿园》三年的时光匆匆，转眼间我们的大班小朋友马上就要毕业了",
+      "up": "舞蹈珈徽453875965",
+      "duration_seconds": 53,
+      "cover": "http://i1.hdslb.com/bfs/archive/ad0b1748f461b8f7ea1d0f7f4790ad5ac6807272.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "幼儿园毕业情景剧，幼儿成长回顾",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1pwqxbzeff",
+      "source": "bilibili",
+      "bvid": "BV1pwQxBzEFF",
+      "vid": null,
+      "title": "男生女生不一样？幼儿园里的性别启蒙课",
+      "up": "是小糖圆吖",
+      "duration_seconds": 113,
+      "cover": "http://i2.hdslb.com/bfs/archive/99e0940f3f7988e0667deb9f7ba94dfa3e600fbf.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "幼儿园性别启蒙课，建议家长陪同",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life",
+          "social"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1qpd2bae2x",
       "source": "bilibili",
       "bvid": "BV1qPd2BaE2x",
@@ -43525,6 +45699,31 @@
         ],
         "theme": [
           "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1r9wezae5v",
+      "source": "bilibili",
+      "bvid": "BV1r9WEzaE5v",
+      "vid": null,
+      "title": "奥数启蒙思维：《拆倍找余》 数感基础很重要，但培养数感是有方法的，这个思维就能很好地加强孩子对各类倍数特征的记忆，从而极大提升计算能力",
+      "up": "北大子敬老师",
+      "duration_seconds": 126,
+      "cover": "http://i2.hdslb.com/bfs/archive/5be04e3d55fe8d99153d472348019fa180dea971.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "奥数思维启蒙，数感与倍数训练",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "math"
         ]
       },
       "added_at": "2026-11-06"
@@ -45385,6 +47584,32 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1ue421w7ou",
+      "source": "bilibili",
+      "bvid": "BV1uE421w7oU",
+      "vid": null,
+      "title": "宝蓝被锁在了儿童乐园，根据线索玩起了密室逃脱游戏，太有趣了！",
+      "up": "宝蓝和朋友们",
+      "duration_seconds": 642,
+      "cover": "http://i2.hdslb.com/bfs/archive/68d66a4d64126b11c381bca7f5f10b5022c87364.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "儿童乐园密室逃脱故事，线索逻辑推理",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "math"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1uslezdejr",
       "source": "bilibili",
       "bvid": "BV1uSLEzdEJr",
@@ -45853,17 +48078,17 @@
       "added_at": "2026-11-06"
     },
     {
-      "id": "bv-1vb4y1f7bf",
+      "id": "bv-1ur421j7kz",
       "source": "bilibili",
-      "bvid": "BV1vB4y1f7Bf",
+      "bvid": "BV1ur421j7kZ",
       "vid": null,
-      "title": "儿童益智手工玩具，用太空沙制作一个彩虹冰激凌",
-      "up": "七彩儿童乐园",
-      "duration_seconds": 228,
-      "cover": "http://i2.hdslb.com/bfs/archive/c61b9e640722d3d71e3282a863594ddeb9dcdbef.jpg",
+      "title": "超火幼儿园毕业舞蹈《再见了我的幼儿园》完整版 #幼儿舞蹈 #毕业舞蹈 #毕业手势舞",
+      "up": "兔子哥哥幼儿舞蹈",
+      "duration_seconds": 171,
+      "cover": "http://i1.hdslb.com/bfs/archive/d8e3dc9d4c6e559c94c435809e5df2e51450a152.jpg",
       "total_pages": 1,
       "pages": [],
-      "note": "太空沙彩虹冰淇淋手工，动手益智",
+      "note": "幼儿毕业舞蹈完整版，欢快易跟跳",
       "tags": {
         "age": [
           "3-6"
@@ -45872,7 +48097,7 @@
           "zh"
         ],
         "theme": [
-          "craft"
+          "music"
         ]
       },
       "added_at": "2026-11-06"
@@ -46935,518 +49160,6 @@
       "added_at": "2026-11-06"
     },
     {
-      "id": "bv-1wp9byfe7x",
-      "source": "bilibili",
-      "bvid": "BV1wp9bYFE7X",
-      "vid": null,
-      "title": "英文启蒙动画【Super JoJo超级宝贝儿歌磨耳朵【英文版动画全集+中文版动画最后5集】宝贝爱看的动画",
-      "up": "夏令麻麻",
-      "duration_seconds": 16354,
-      "cover": "http://i0.hdslb.com/bfs/archive/7d8b72947eb5676bd9c17ab8d5e37f9267d3b986.jpg",
-      "total_pages": 97,
-      "pages": [
-        {
-          "page": 1,
-          "part": "002. Good Night Song",
-          "duration": 155
-        },
-        {
-          "page": 2,
-          "part": "003. Peek A Boo Song",
-          "duration": 164
-        },
-        {
-          "page": 3,
-          "part": "004. London Bridge is Falling Down",
-          "duration": 162
-        },
-        {
-          "page": 4,
-          "part": "005. Bath Song",
-          "duration": 145
-        },
-        {
-          "page": 5,
-          "part": "006. Ice Cream Song",
-          "duration": 149
-        },
-        {
-          "page": 6,
-          "part": "007. Yes Yes Wake Up Song",
-          "duration": 141
-        },
-        {
-          "page": 7,
-          "part": "008. Breakfast Song",
-          "duration": 151
-        },
-        {
-          "page": 8,
-          "part": "009. Sick Song",
-          "duration": 165
-        },
-        {
-          "page": 9,
-          "part": "010. The Boo Boo Song",
-          "duration": 174
-        },
-        {
-          "page": 10,
-          "part": "011. Johny Johny Yes Papa",
-          "duration": 174
-        },
-        {
-          "page": 11,
-          "part": "012. Please and Thank You Song",
-          "duration": 212
-        },
-        {
-          "page": 12,
-          "part": "013. Baby Care Song",
-          "duration": 165
-        },
-        {
-          "page": 13,
-          "part": "014. Doctor Checkup Song",
-          "duration": 173
-        },
-        {
-          "page": 14,
-          "part": "015. No No Table Manners Song",
-          "duration": 235
-        },
-        {
-          "page": 15,
-          "part": "016. Car Wash Song",
-          "duration": 181
-        },
-        {
-          "page": 16,
-          "part": "017. Baby Shark",
-          "duration": 149
-        },
-        {
-          "page": 17,
-          "part": "018. Yes Yes Vegetables Song",
-          "duration": 213
-        },
-        {
-          "page": 18,
-          "part": "019. Baby Doctor Check Up Song",
-          "duration": 171
-        },
-        {
-          "page": 19,
-          "part": "020. The Colors Song",
-          "duration": 230
-        },
-        {
-          "page": 20,
-          "part": "021. Big and Small Song",
-          "duration": 158
-        },
-        {
-          "page": 21,
-          "part": "022. Bingo",
-          "duration": 150
-        },
-        {
-          "page": 22,
-          "part": "023. Wheels on the Bus",
-          "duration": 174
-        },
-        {
-          "page": 23,
-          "part": "024. Mommy Got Sick",
-          "duration": 146
-        },
-        {
-          "page": 24,
-          "part": "025. Clean Up Trash Song",
-          "duration": 196
-        },
-        {
-          "page": 25,
-          "part": "026. Happy Halloween Song",
-          "duration": 146
-        },
-        {
-          "page": 26,
-          "part": "027. I Don't Like The Seat Belt",
-          "duration": 151
-        },
-        {
-          "page": 27,
-          "part": "028. Clean Up Song",
-          "duration": 170
-        },
-        {
-          "page": 28,
-          "part": "029. Itsy Bitsy Spider",
-          "duration": 167
-        },
-        {
-          "page": 29,
-          "part": "030. Happy Birthday Song",
-          "duration": 160
-        },
-        {
-          "page": 30,
-          "part": "031. I Can Make Donuts",
-          "duration": 155
-        },
-        {
-          "page": 31,
-          "part": "032. Rain Rain Go Away",
-          "duration": 164
-        },
-        {
-          "page": 32,
-          "part": "033. The Finger Family Song",
-          "duration": 180
-        },
-        {
-          "page": 33,
-          "part": "034. Rainbow Ice Cream",
-          "duration": 183
-        },
-        {
-          "page": 34,
-          "part": "035. Playtime on the Slide",
-          "duration": 138
-        },
-        {
-          "page": 35,
-          "part": "036. Snack Song",
-          "duration": 171
-        },
-        {
-          "page": 36,
-          "part": "037. No No Play Safe Song 2",
-          "duration": 163
-        },
-        {
-          "page": 37,
-          "part": "038. Do You Like Broccoli Ice Cream",
-          "duration": 173
-        },
-        {
-          "page": 38,
-          "part": "039. Farm Animals Song",
-          "duration": 136
-        },
-        {
-          "page": 39,
-          "part": "040.Baa Baa Black Sheep Have You Any Wool",
-          "duration": 141
-        },
-        {
-          "page": 40,
-          "part": "041.Number Song",
-          "duration": 169
-        },
-        {
-          "page": 41,
-          "part": "042.Juice Song",
-          "duration": 237
-        },
-        {
-          "page": 42,
-          "part": "043.My Daddy Song",
-          "duration": 149
-        },
-        {
-          "page": 43,
-          "part": "044.This is My Face",
-          "duration": 152
-        },
-        {
-          "page": 44,
-          "part": "045.Five Little Monkeys Jumping on the Bed",
-          "duration": 144
-        },
-        {
-          "page": 45,
-          "part": "046.Be Brave Baby JoJo  I'm a Brave Kid  I Can Do It  Super JoJo Nursery Rhymes",
-          "duration": 187
-        },
-        {
-          "page": 46,
-          "part": "047.Wash Your Hands Song  Healthy Habits For Kids  Super JoJo Nursery Rhymes & K",
-          "duration": 165
-        },
-        {
-          "page": 47,
-          "part": "048.Yes Yes Clean Up Song  Tidy Up Song  Good Habits for Kids  Super JoJo Nurser",
-          "duration": 132
-        },
-        {
-          "page": 48,
-          "part": "049.Yes Yes Baby Go to Sleep  Bedtime Song  Super JoJo Nursery Rhymes & Kids Son",
-          "duration": 153
-        },
-        {
-          "page": 49,
-          "part": "050.Humpty Dumpty Sat On A Wall  Play at Home for Kids  Super JoJo Nursery Rhyme",
-          "duration": 162
-        },
-        {
-          "page": 50,
-          "part": "051.Baby JoJo’s Moving to A New House!  Moving House Song  Super JoJo Nursery Rh",
-          "duration": 201
-        },
-        {
-          "page": 51,
-          "part": "052.Yes Yes Save the Earth Song  Good Habits for Kids  Super JoJo Nursery Rhymes",
-          "duration": 144
-        },
-        {
-          "page": 52,
-          "part": "054.Twinkle Twinkle Little Star  Merry Christmas  Dance Song  Super JoJo Nursery",
-          "duration": 146
-        },
-        {
-          "page": 53,
-          "part": "055.Table Manners Song  Kids at the Table  Good Habits Song  Super JoJo Nursery",
-          "duration": 176
-        },
-        {
-          "page": 54,
-          "part": "056.Let's Go to the Zoo  Zoo Animals Song for Kids  Super JoJo Nursery Rhymes &",
-          "duration": 207
-        },
-        {
-          "page": 55,
-          "part": "057.Family Pets Song  Pet Song for Kids  Animal Song  Super JoJo Nursery Rhymes",
-          "duration": 167
-        },
-        {
-          "page": 56,
-          "part": "058.My Yummy Lunch  Shapes in My Lunch Box  Kids Learn Shapes  Super JoJo Nurser",
-          "duration": 131
-        },
-        {
-          "page": 57,
-          "part": "059.Be Patient, Baby JoJo  Good Habits Song for Kids  Super JoJo Nursery Rhymes",
-          "duration": 169
-        },
-        {
-          "page": 58,
-          "part": "060.This is the Way We Play at the Playground  Play Safe Song  Super JoJo Nurser",
-          "duration": 176
-        },
-        {
-          "page": 59,
-          "part": "061.I Want to Be A Firefighter [DANCE]  Pretend Play for Kids  Super JoJo Nurser",
-          "duration": 172
-        },
-        {
-          "page": 60,
-          "part": "062.Baby JoJo's First Haircut  Going to The Hairdresser  Super JoJo Nursery Rhym",
-          "duration": 175
-        },
-        {
-          "page": 61,
-          "part": "063.The Soldiers in the Vaccine  Vaccine Song  Healthy Habits  Super JoJo Nurser",
-          "duration": 145
-        },
-        {
-          "page": 62,
-          "part": "064.Baby Shark Finger Family  Family Dance Song for Kids  Super JoJo Nursery Rhy",
-          "duration": 175
-        },
-        {
-          "page": 63,
-          "part": "065.Loose Tooth Song  Wobbly Tooth Song  My Tooth is Loose!  Super JoJo Nursery",
-          "duration": 203
-        },
-        {
-          "page": 64,
-          "part": "066.If You Are Happy and You Know It  Beach Song for Kids  Super JoJo Nursery Rh",
-          "duration": 154
-        },
-        {
-          "page": 65,
-          "part": "067.Daddy Got a Boo Boo  I Will Take Care of You  Super JoJo Nursery Rhymes & Ki",
-          "duration": 171
-        },
-        {
-          "page": 66,
-          "part": "068.Steamed Buns Song  Make Yummy Food  Recipe Song for Kids  Super JoJo Nursery",
-          "duration": 140
-        },
-        {
-          "page": 67,
-          "part": "069.Yes Yes Clean Up Toys Song  Good Habits for Kids  Super JoJo Nursery Rhymes",
-          "duration": 210
-        },
-        {
-          "page": 68,
-          "part": "070.Fun Day at the Aquarium  Aquarium Song  Sea Animals Song  Super JoJo Nursery",
-          "duration": 202
-        },
-        {
-          "page": 69,
-          "part": "071.Baby Gets Dressed Song  Kids Learn Good Habits  Super JoJo Nursery Rhymes &",
-          "duration": 174
-        },
-        {
-          "page": 70,
-          "part": "072.JoJo Plants A Seedling  Gardening Song  Patience for Kids  Super JoJo Nurser",
-          "duration": 209
-        },
-        {
-          "page": 71,
-          "part": "073.No No Play Safe Song  Good Habits for Kids  Super JoJo Nursery Rhymes & Kids",
-          "duration": 135
-        },
-        {
-          "page": 72,
-          "part": "074.1, 2, 3, 4, 5, Once I Caught a Fish Alive  Camping Time  Super JoJo Nursery",
-          "duration": 170
-        },
-        {
-          "page": 73,
-          "part": "075.Let's Make Popcorn  Yummy Food for Kids  Family Dance Time Super JoJo Nurser",
-          "duration": 124
-        },
-        {
-          "page": 74,
-          "part": "076.Yes Yes Playground Song  Super JoJo Nursery Rhymes & Kids Songs",
-          "duration": 206
-        },
-        {
-          "page": 75,
-          "part": "077.Catch Me If You Can  The Wolf Is Coming  Family Game Song  Super JoJo Nurser",
-          "duration": 146
-        },
-        {
-          "page": 76,
-          "part": "078.Learn to Put on Your Shoes Song  Learn Habits for Kids  Super JoJo Nursery R",
-          "duration": 206
-        },
-        {
-          "page": 77,
-          "part": "079.Wheels on the Bus Song  Go Round and Round  Super JoJo Nursery Rhymes & Kids",
-          "duration": 147
-        },
-        {
-          "page": 78,
-          "part": "080.Knock Knock Who's at the Door  Kids at Home Song  Super JoJo Nursery Rhymes",
-          "duration": 228
-        },
-        {
-          "page": 79,
-          "part": "081.Kids Learn Needs and Wants  Good Habits for Kids  Super JoJo Nursery Rhymes",
-          "duration": 227
-        },
-        {
-          "page": 80,
-          "part": "082.Row the Boat Song  Fun Family Time for Kids  Super JoJo Nursery Rhymes & Kid",
-          "duration": 177
-        },
-        {
-          "page": 81,
-          "part": "083.I Can Walk By Myself  Good Habits for Kids  Super JoJo Nursery Rhymes & Kids",
-          "duration": 168
-        },
-        {
-          "page": 82,
-          "part": "084.Whose Tails  Animal Tails Song  Animals for Kids  Super JoJo Nursery Rhymes",
-          "duration": 155
-        },
-        {
-          "page": 83,
-          "part": "085.It's Time to Eat  Kid Table Manners  Good Habits for Kids  Super JoJo Nurser",
-          "duration": 148
-        },
-        {
-          "page": 84,
-          "part": "086.Let's Go to the Jungle  Adventure Song for Kids  Super JoJo Nursery Rhymes &",
-          "duration": 173
-        },
-        {
-          "page": 85,
-          "part": "087.Let's Make A Toy Car  Learn Colors for Kids  Fire Truck  Super JoJo Nursery",
-          "duration": 232
-        },
-        {
-          "page": 86,
-          "part": "088.Oh No! My Lovely Dog Bingo Is Gone  Super JoJo Nursery Rhymes & Kids Songs (",
-          "duration": 199
-        },
-        {
-          "page": 87,
-          "part": "089.Don’t Be Sad, Baby JoJo  Learn Mood and Emotions for Kids  Super JoJo Nurser",
-          "duration": 125
-        },
-        {
-          "page": 88,
-          "part": "090.The Typhoon Is Coming  Get Ready for Typhoon  Super JoJo Nursery Rhymes & Ki",
-          "duration": 168
-        },
-        {
-          "page": 89,
-          "part": "091.Baby Goes to Potty  Poo Poo Song  Potty Training  Super JoJo Nursery Rhymes",
-          "duration": 115
-        },
-        {
-          "page": 90,
-          "part": "092.Learn ABC with Cookies  ABC Song  Alphabet Song  Super JoJo Nursery Rhymes &",
-          "duration": 166
-        },
-        {
-          "page": 91,
-          "part": "093.Play Safety in the Park  Good Habits for Kids  Nursery Rhymes & Kids Songs",
-          "duration": 154
-        },
-        {
-          "page": 92,
-          "part": "094.Rainbow Juice Song  Learn Colors for Kids  Nursery Rhymes & Kids Songs  JoJo",
-          "duration": 164
-        },
-        {
-          "page": 93,
-          "part": "095、Play Safety at Home  Good Habits for Kids  Nursery Rhymes & Kids Songs  JoJo",
-          "duration": 131
-        },
-        {
-          "page": 94,
-          "part": "096、JoJo, Please Clean up Your Toys!  Good Habits for Kids  Nursery Rhymes & Kid",
-          "duration": 134
-        },
-        {
-          "page": 95,
-          "part": "097、Let's Go to Market!  Fruit and Veggies for Kids  Nursery Rhymes & Kids Songs",
-          "duration": 166
-        },
-        {
-          "page": 96,
-          "part": "98、ABC Songs for Children  Let's Learn About The Alphabet Phonics  Learn English",
-          "duration": 216
-        },
-        {
-          "page": 97,
-          "part": "99、Baby Go Potty  Poo Poo Song  Potty Training for Kids  Nursery Rhymes & Kids S",
-          "duration": 146
-        }
-      ],
-      "note": "超级宝贝JoJo英文儿歌动画，低幼磨耳朵",
-      "tags": {
-        "age": [
-          "0-3"
-        ],
-        "language": [
-          "en"
-        ],
-        "theme": [
-          "music",
-          "english"
-        ]
-      },
-      "added_at": "2026-11-06"
-    },
-    {
       "id": "bv-1xehxzqexw",
       "source": "bilibili",
       "bvid": "BV1xEHxzQEXw",
@@ -48377,6 +50090,56 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "yt-wh7cZ-8jjfc",
+      "source": "youtube",
+      "bvid": null,
+      "vid": "wh7cZ-8jjfc",
+      "title": "Itsy Bitsy Spider, B-I-N-G-O, Old Macdonald | More Barney Nursery Rhymes and Kids Songs",
+      "up": "Barney Nursery Rhymes & Kids Songs - Scholastic",
+      "duration_seconds": 0,
+      "cover": "https://i.ytimg.com/vi/wh7cZ-8jjfc/hqdefault.jpg",
+      "total_pages": 0,
+      "pages": [],
+      "note": "Barney官方经典儿歌合集",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "yt-yzOAhlajpkc",
+      "source": "youtube",
+      "bvid": null,
+      "vid": "yzOAhlajpkc",
+      "title": "Old Macdonald Had A Farm! | Barney Nursery Rhymes & Kids Songs",
+      "up": "Barney Nursery Rhymes & Kids Songs - Scholastic",
+      "duration_seconds": 0,
+      "cover": "https://i.ytimg.com/vi/yzOAhlajpkc/hqdefault.jpg",
+      "total_pages": 0,
+      "pages": [],
+      "note": "Barney官方经典儿歌",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "yt-DGQnUJhKRyo",
       "source": "youtube",
       "bvid": null,
@@ -48975,6 +50738,32 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "yt-xwHbkmt1fwk",
+      "source": "youtube",
+      "bvid": null,
+      "vid": "xwHbkmt1fwk",
+      "title": "If You Give a Mouse a Cookie – Official Trailer | Amazon Kids+",
+      "up": "Amazon Kids+",
+      "duration_seconds": 0,
+      "cover": "https://i.ytimg.com/vi/xwHbkmt1fwk/hqdefault.jpg",
+      "total_pages": 0,
+      "pages": [],
+      "note": "官方预告片，If You Give a Mouse a Cookie",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "yt-MRkvF6SEags",
       "source": "youtube",
       "bvid": null,
@@ -49113,6 +50902,31 @@
       "total_pages": 0,
       "pages": [],
       "note": "The Last Kids on Earth剧集，搬运号待复核",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "yt-q0cuPnBU0Dw",
+      "source": "youtube",
+      "bvid": null,
+      "vid": "q0cuPnBU0Dw",
+      "title": "The Last Kids on Earth - King Wretch Confronts Jack",
+      "up": "Zora Hika",
+      "duration_seconds": 0,
+      "cover": "https://i.ytimg.com/vi/q0cuPnBU0Dw/hqdefault.jpg",
+      "total_pages": 0,
+      "pages": [],
+      "note": "Last Kids on Earth系列，搬运号待复核",
       "tags": {
         "age": [
           "6-9"
@@ -49329,6 +51143,31 @@
         ],
         "theme": [
           "animation",
+          "music"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "yt-uSbzwgodoTA",
+      "source": "youtube",
+      "bvid": null,
+      "vid": "uSbzwgodoTA",
+      "title": "Old Macdonald + MORE! | Songs for Kids | @barney",
+      "up": "Barney the Dinosaur",
+      "duration_seconds": 0,
+      "cover": "https://i.ytimg.com/vi/uSbzwgodoTA/hqdefault.jpg",
+      "total_pages": 0,
+      "pages": [],
+      "note": "Barney官方经典儿歌",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
           "music"
         ]
       },
@@ -50094,6 +51933,32 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "yt-qCiGpNQWVTU",
+      "source": "youtube",
+      "bvid": null,
+      "vid": "qCiGpNQWVTU",
+      "title": "Meet the Animals 20 min | Mammals for Kids l Gorilla, Elephant, Whale, Tiger, Giraffe + More",
+      "up": "Little Fox - Kids Stories and Songs",
+      "duration_seconds": 0,
+      "cover": "https://i.ytimg.com/vi/qCiGpNQWVTU/hqdefault.jpg",
+      "total_pages": 0,
+      "pages": [],
+      "note": "Little Fox官方动物词汇儿歌",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "nature",
+          "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "yt-bdB0zDPGZSQ",
       "source": "youtube",
       "bvid": null,
@@ -50115,6 +51980,33 @@
         "theme": [
           "animation",
           "music"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "yt-pzOZ4UHlluQ",
+      "source": "youtube",
+      "bvid": null,
+      "vid": "pzOZ4UHlluQ",
+      "title": "Peg + Cat - Being a Great Friend: Friendship Goals",
+      "up": "Scholastic Kids",
+      "duration_seconds": 0,
+      "cover": "https://i.ytimg.com/vi/pzOZ4UHlluQ/hqdefault.jpg",
+      "total_pages": 0,
+      "pages": [],
+      "note": "Peg+Cat系列，数学与友谊主题",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "math",
+          "social",
+          "animation"
         ]
       },
       "added_at": "2026-11-06"
@@ -50505,6 +52397,161 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "yt-qE5-qwrbMKU",
+      "source": "youtube",
+      "bvid": null,
+      "vid": "qE5-qwrbMKU",
+      "title": "Blippi Visits the Center for Science | Blippi | Learning Show | STEM | Robots & Science",
+      "up": "Moonbug Kids - Friendship & Adventure",
+      "duration_seconds": 0,
+      "cover": "https://i.ytimg.com/vi/qE5-qwrbMKU/hqdefault.jpg",
+      "total_pages": 0,
+      "pages": [],
+      "note": "Blippi官方科学中心探访",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science",
+          "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "yt-rAXdry5YkAc",
+      "source": "youtube",
+      "bvid": null,
+      "vid": "rAXdry5YkAc",
+      "title": "Blippi Learns it's Okay to Fidget at the Indoor Playground | Blippi Full Episodes",
+      "up": "Sensory Playtime",
+      "duration_seconds": 0,
+      "cover": "https://i.ytimg.com/vi/rAXdry5YkAc/hqdefault.jpg",
+      "total_pages": 0,
+      "pages": [],
+      "note": "Blippi系列，搬运号待复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "life",
+          "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "yt-r_iO-0T_sp4",
+      "source": "youtube",
+      "bvid": null,
+      "vid": "r_iO-0T_sp4",
+      "title": "The Kids Get Powers - The Last Kids On Earth",
+      "up": "tflxcks",
+      "duration_seconds": 0,
+      "cover": "https://i.ytimg.com/vi/r_iO-0T_sp4/hqdefault.jpg",
+      "total_pages": 0,
+      "pages": [],
+      "note": "Last Kids on Earth系列，搬运号待复核",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "yt-sOBNiVKWsn8",
+      "source": "youtube",
+      "bvid": null,
+      "vid": "sOBNiVKWsn8",
+      "title": "Baby Jake | Super Spring Special! 🌻 | Full Episodes | Episodes",
+      "up": "Baby Jake",
+      "duration_seconds": 0,
+      "cover": "https://i.ytimg.com/vi/sOBNiVKWsn8/hqdefault.jpg",
+      "total_pages": 0,
+      "pages": [],
+      "note": "Baby Jake官方动画合集",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "yt-wAFiVXz1NNw",
+      "source": "youtube",
+      "bvid": null,
+      "vid": "wAFiVXz1NNw",
+      "title": "Full | Twirlywoos | Videos for Kids",
+      "up": "Twirlywoos - WildBrain",
+      "duration_seconds": 0,
+      "cover": "https://i.ytimg.com/vi/wAFiVXz1NNw/hqdefault.jpg",
+      "total_pages": 0,
+      "pages": [],
+      "note": "Twirlywoos官方幼儿动画",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "nature"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "yt-wsVwS3pQI-w",
+      "source": "youtube",
+      "bvid": null,
+      "vid": "wsVwS3pQI-w",
+      "title": "【學習禮貌】小白魚有禮貌｜#睡前故事｜#晚安故事｜#趣味故事｜#繪本｜#經典故事｜一個故事三種語言｜#普通話｜HYSTORY",
+      "up": "HY STORY",
+      "duration_seconds": 0,
+      "cover": "https://i.ytimg.com/vi/wsVwS3pQI-w/hqdefault.jpg",
+      "total_pages": 0,
+      "pages": [],
+      "note": "中文三语礼貌主题绘本故事",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "yt-xV91t6dXp38",
       "source": "youtube",
       "bvid": null,
@@ -50526,6 +52573,32 @@
         ],
         "theme": [
           "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "yt-y_ZpeXu8QCY",
+      "source": "youtube",
+      "bvid": null,
+      "vid": "y_ZpeXu8QCY",
+      "title": "If You Give a Mouse a Cookie 🍪🐭 | Cause & Effect Fun | Read Aloud for Kids | Hoots & Tales",
+      "up": "Hoots & Tales",
+      "duration_seconds": 0,
+      "cover": "https://i.ytimg.com/vi/y_ZpeXu8QCY/hqdefault.jpg",
+      "total_pages": 0,
+      "pages": [],
+      "note": "Hoots & Tales官方绘本朗读",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "english"
         ]
       },
       "added_at": "2026-11-06"
