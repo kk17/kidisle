@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 417,
+  "count": 444,
   "videos": [
     {
       "bvid": "02E1468SdHg",
@@ -718,6 +718,23 @@
       }
     },
     {
+      "bvid": "BV1634y1E7uo",
+      "suitable": true,
+      "note": "原创洗手儿歌，教正确洗手",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "life"
+        ]
+      }
+    },
+    {
       "bvid": "BV16A411H7Cj",
       "suitable": true,
       "note": "汉字文化设计科普,人文类归story,建议增设人文主题",
@@ -808,6 +825,22 @@
         ],
         "theme": [
           "science"
+        ]
+      }
+    },
+    {
+      "bvid": "BV16d4y1975s",
+      "suitable": true,
+      "note": "纸杯变废为宝创意手工",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
         ]
       }
     },
@@ -1437,6 +1470,22 @@
       }
     },
     {
+      "bvid": "BV1Bt4y1E7NJ",
+      "suitable": true,
+      "note": "正方体变形魔块折纸，难度稍高",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      }
+    },
+    {
       "bvid": "BV1C14y1s7F4",
       "suitable": true,
       "note": "典范英语1a课文讲解，全英文阅读启蒙课",
@@ -1540,6 +1589,22 @@
         "age": [],
         "language": [],
         "theme": []
+      }
+    },
+    {
+      "bvid": "BV1DY736cE7t",
+      "suitable": true,
+      "note": "超级飞侠动画合集，个人搬运号待人工复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation"
+        ]
       }
     },
     {
@@ -1926,6 +1991,23 @@
       }
     },
     {
+      "bvid": "BV1Gh411b7ak",
+      "suitable": true,
+      "note": "小熊宝宝低幼睡前习惯绘本",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "life"
+        ]
+      }
+    },
+    {
       "bvid": "BV1H34y1E7YU",
       "suitable": true,
       "note": "公众科学日宣传片,健康但非教学内容,待复核",
@@ -1994,6 +2076,23 @@
         "age": [],
         "language": [],
         "theme": []
+      }
+    },
+    {
+      "bvid": "BV1HM4y1r7qi",
+      "suitable": true,
+      "note": "睡眠习惯绘本，讲大脑休息的重要性",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "life"
+        ]
       }
     },
     {
@@ -3025,6 +3124,22 @@
       }
     },
     {
+      "bvid": "BV1Rx4y1m7Cz",
+      "suitable": true,
+      "note": "儿童版七步洗手法示范",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life"
+        ]
+      }
+    },
+    {
       "bvid": "BV1SA411P7re",
       "suitable": true,
       "note": "纳兰词讲解,健康,人文类暂归story",
@@ -3053,6 +3168,57 @@
         ],
         "theme": [
           "music"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1SK411R7sQ",
+      "suitable": true,
+      "note": "围棋入门教学锻炼逻辑，资源搬运号待人工复核",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "math"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1SQ4y1y7uN",
+      "suitable": true,
+      "note": "洗手歌儿歌动画，短小易学",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1ST411g77k",
+      "suitable": true,
+      "note": "如厕训练科学绘本，趣味实用",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "life"
         ]
       }
     },
@@ -3354,6 +3520,16 @@
       }
     },
     {
+      "bvid": "BV1Vb411V7sj",
+      "suitable": false,
+      "note": "简介含淘宝店铺引流，涉软广带货",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
       "bvid": "BV1Vv4y1k7R2",
       "suitable": false,
       "note": "第三方搬运官方儿歌，营销文案引流，淘汰",
@@ -3589,6 +3765,23 @@
       }
     },
     {
+      "bvid": "BV1Xo4y1d7Eb",
+      "suitable": true,
+      "note": "牙医主题儿歌游戏，缓解看牙恐惧",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "life"
+        ]
+      }
+    },
+    {
       "bvid": "BV1Xt411s7Ze",
       "suitable": true,
       "note": "唱学汉乐府江南，建议增设人文主题",
@@ -3613,6 +3806,22 @@
         "age": [],
         "language": [],
         "theme": []
+      }
+    },
+    {
+      "bvid": "BV1Xw411f7r1",
+      "suitable": true,
+      "note": "自制手动压水井，动手难度稍高",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
       }
     },
     {
@@ -3816,6 +4025,22 @@
         ],
         "theme": [
           "math"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1aT421e7gC",
+      "suitable": true,
+      "note": "儿童剪纸窗花，简单易上手",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
         ]
       }
     },
@@ -4202,6 +4427,22 @@
       }
     },
     {
+      "bvid": "BV1dRJk6PEy1",
+      "suitable": true,
+      "note": "超级飞侠冰岛幕后短片，宣传向待人工复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV1eb41137qz",
       "suitable": false,
       "note": "YouTube搬运低质号，标题关键词堆砌",
@@ -4246,6 +4487,23 @@
       }
     },
     {
+      "bvid": "BV1f5411n7bD",
+      "suitable": true,
+      "note": "小汤1钢琴启蒙教学合集，素质音乐课",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
+      }
+    },
+    {
       "bvid": "BV1f64y1C715",
       "suitable": true,
       "note": "趣味生物鉴定科普，语言偏成人但健康",
@@ -4260,6 +4518,22 @@
         "theme": [
           "science",
           "nature"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1fPBQY1E8E",
+      "suitable": true,
+      "note": "拼音复韵母教学，语文暂归story，建议增设语文主题",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
         ]
       }
     },
@@ -4326,6 +4600,23 @@
         ],
         "theme": [
           "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1fc41137gD",
+      "suitable": true,
+      "note": "牙齿大街故事引导认真刷牙，好习惯绘本",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "life"
         ]
       }
     },
@@ -4513,6 +4804,23 @@
         ],
         "theme": [
           "science"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1h34y1B7ma",
+      "suitable": true,
+      "note": "便便科学绘本，帮孩子认知饮食排便习惯",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "life"
         ]
       }
     },
@@ -4915,6 +5223,22 @@
         "theme": [
           "english",
           "music"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1mK411f7d4",
+      "suitable": true,
+      "note": "月亮船折纸慢速教程，简单不难",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
         ]
       }
     },
@@ -5607,6 +5931,22 @@
       }
     },
     {
+      "bvid": "BV1rx411u7Vr",
+      "suitable": true,
+      "note": "剪纸入门第一课，对边折剪基础",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      }
+    },
+    {
       "bvid": "BV1s4411P7xf",
       "suitable": true,
       "note": "芝麻街2019英文合集，经典认知启蒙",
@@ -5620,6 +5960,22 @@
         "theme": [
           "animation",
           "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1s54y1v7eX",
+      "suitable": true,
+      "note": "趣味拼音ü教学，语文暂归story，建议增设语文主题",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
         ]
       }
     },
@@ -5723,6 +6079,23 @@
       }
     },
     {
+      "bvid": "BV1tG4y137aR",
+      "suitable": true,
+      "note": "护牙好习惯绘本共读，适合3-6岁",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "life"
+        ]
+      }
+    },
+    {
       "bvid": "BV1tP4y1M7Dq",
       "suitable": true,
       "note": "宝宝巴士儿歌动画讲宇航太空，幼儿启蒙",
@@ -5790,6 +6163,22 @@
       }
     },
     {
+      "bvid": "BV1te411R7ae",
+      "suitable": true,
+      "note": "会动的小鱼剪纸，亲子手工",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      }
+    },
+    {
       "bvid": "BV1tt411w72A",
       "suitable": true,
       "note": "剑桥初级语法讲解，内容健康，大童适用",
@@ -5847,6 +6236,22 @@
         "theme": [
           "nature",
           "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1uW411W7xK",
+      "suitable": true,
+      "note": "围棋零基础系统教学，逻辑思维启蒙",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "math"
         ]
       }
     },
@@ -6309,6 +6714,22 @@
       }
     },
     {
+      "bvid": "BV1yd4y197NE",
+      "suitable": true,
+      "note": "国画零基础入门合集，美术素质教育",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "craft"
+        ]
+      }
+    },
+    {
       "bvid": "BV1ys4y1g7Dn",
       "suitable": true,
       "note": "热门手指谣儿歌，低幼适唱",
@@ -6385,6 +6806,16 @@
           "story",
           "animation"
         ]
+      }
+    },
+    {
+      "bvid": "BV1zgJdzQEV8",
+      "suitable": false,
+      "note": "网盘资源引流号，非原创有声书搬运",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
       }
     },
     {
