@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 848,
+  "count": 895,
   "videos": [
     {
       "bvid": "-FvvHcNRF7s",
@@ -12832,6 +12832,16 @@
       }
     },
     {
+      "bvid": "VIJH7TZXkaA",
+      "suitable": false,
+      "note": "成人向Snowflake数据工程教程，非儿童内容",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
       "bvid": "VLpSxHwfU04",
       "suitable": true,
       "note": "SciShow Kids飞机飞行原理科普",
@@ -12863,6 +12873,56 @@
         "theme": [
           "music",
           "english"
+        ]
+      }
+    },
+    {
+      "bvid": "VfyAUVRXJ68",
+      "suitable": true,
+      "note": "CoComelon官方儿歌合集，洗澡歌",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "Vo2176J-56Q",
+      "suitable": true,
+      "note": "The Last Kids on Earth剧集，搬运号待复核",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "Vz_HRc1UH-Q",
+      "suitable": true,
+      "note": "The Last Kids on Earth剧集，搬运号待复核",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation"
         ]
       }
     },
@@ -12901,6 +12961,159 @@
       }
     },
     {
+      "bvid": "WaN-KaRum_I",
+      "suitable": true,
+      "note": "English Singsing童话故事，英文儿歌串联",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "Ww5HU1ZSIOI",
+      "suitable": true,
+      "note": "Amazon Kids+官方动画，Tumble Leaf系列",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "nature"
+        ]
+      }
+    },
+    {
+      "bvid": "X0PZO3LEDFc",
+      "suitable": true,
+      "note": "HooplaKidz官方儿歌，手指家族歌",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "X6uqqJQ4Tno",
+      "suitable": true,
+      "note": "Wow English TV官方魔法故事学英语",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "XWDHBrkYsgA",
+      "suitable": true,
+      "note": "PBS KIDS官方动画，Molly of Denali剧集",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "XWi0_77LSLI",
+      "suitable": true,
+      "note": "AumSum儿童科普合集，噩梦话题略暗",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "XbgRiXEUtrI",
+      "suitable": true,
+      "note": "AumSum儿童科普合集，假设类趣味问题",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "XmnV_C73XEo",
+      "suitable": true,
+      "note": "Disney Kids官方动画，特务欧宝系列",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "XqZsoesa55w",
+      "suitable": true,
+      "note": "Pinkfong官方儿歌，Baby Shark舞蹈",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
       "bvid": "XtSq1wcFSEI",
       "suitable": true,
       "note": "SciShow Kids人体感官科普合集",
@@ -12914,6 +13127,25 @@
         ],
         "theme": [
           "science"
+        ]
+      }
+    },
+    {
+      "bvid": "XtUYYcCZpt0",
+      "suitable": true,
+      "note": "Little Angel官方儿歌，防陌生人安全主题",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english",
+          "social"
         ]
       }
     },
@@ -12933,6 +13165,34 @@
           "music",
           "english"
         ]
+      }
+    },
+    {
+      "bvid": "YE1_cLA7v38",
+      "suitable": true,
+      "note": "BabyTV游泳主题儿歌，搬运号待复核",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "YLebzOaJd-w",
+      "suitable": false,
+      "note": "儿歌恐怖remix二创，恐怖内容不收",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
       }
     },
     {
@@ -12971,6 +13231,157 @@
       }
     },
     {
+      "bvid": "ZH7tNANdv1s",
+      "suitable": true,
+      "note": "The Last Kids on Earth粉丝剪辑，搬运号待复核",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "Z_sWD5iSE0w",
+      "suitable": true,
+      "note": "CoComelon数鸭子儿歌，搬运号待复核",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english",
+          "math"
+        ]
+      }
+    },
+    {
+      "bvid": "ZvB7VwapZ68",
+      "suitable": true,
+      "note": "Netflix Family官方预告，TLKOE系列",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "ZwbAlIGntH4",
+      "suitable": true,
+      "note": "泰米尔语童漫分P，非中英语种暂归en待复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "_DjM17cuTxI",
+      "suitable": true,
+      "note": "Tuunu Bruuku绘本儿歌，Mouse a Cookie",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "music"
+        ]
+      }
+    },
+    {
+      "bvid": "_QZXQgVCRzM",
+      "suitable": true,
+      "note": "Bopple Junior官方单词启蒙，Yakka Dee联名",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "_pjxbVcwnso",
+      "suitable": true,
+      "note": "Peg+Cat主题曲混剪，搬运号待复核",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music"
+        ]
+      }
+    },
+    {
+      "bvid": "a6L-gH2CLUc",
+      "suitable": true,
+      "note": "Toopy and Binoo官方动画，法语原声暂归en待复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "aIBkmy0hkmc",
+      "suitable": true,
+      "note": "Yakka Dee官方官方单词启蒙",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english"
+        ]
+      }
+    },
+    {
       "bvid": "aVmlAbhZ0Po",
       "suitable": true,
       "note": "Art for Kids Hub画春天树屋，儿童美术",
@@ -12984,6 +13395,59 @@
         ],
         "theme": [
           "craft"
+        ]
+      }
+    },
+    {
+      "bvid": "alufqh2VZkA",
+      "suitable": true,
+      "note": "Little Fox官方动物动画，非洲象篇",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "nature",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "aqP0aYLO4OU",
+      "suitable": true,
+      "note": "Little Angel官方儿歌，公主角色系列",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "b-z4aJ1OcJA",
+      "suitable": true,
+      "note": "CoComelon官方儿歌，工程车主题",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
         ]
       }
     },
@@ -13023,6 +13487,23 @@
       }
     },
     {
+      "bvid": "bJNSiDmkLV8",
+      "suitable": true,
+      "note": "Blippi官方工程车科普，英语启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science",
+          "english"
+        ]
+      }
+    },
+    {
       "bvid": "bY4FWXqxTlc",
       "suitable": true,
       "note": "StorylineOnline名人朗读三只小猪改编绘本",
@@ -13030,6 +13511,133 @@
         "age": [
           "3-6",
           "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "bY5n2JWYKpQ",
+      "suitable": false,
+      "note": "幼儿园机构宣传片，非儿歌正片内容",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "bdB0zDPGZSQ",
+      "suitable": true,
+      "note": "Scholastic官方Barney万圣节特辑，无惊吓",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "music"
+        ]
+      }
+    },
+    {
+      "bvid": "bjhzmYv9HcM",
+      "suitable": true,
+      "note": "Barney官方经典儿歌合集",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music"
+        ]
+      }
+    },
+    {
+      "bvid": "bjyqbExDAs8",
+      "suitable": true,
+      "note": "WOW ENGLISH官方职业主题英语启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "bkUqvbvstBE",
+      "suitable": true,
+      "note": "绘本朗读If You Give a Mouse a Cookie，搬运号待复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "buCdwl6h5Y8",
+      "suitable": true,
+      "note": "Yakka Dee官方单词儿歌马拉松合集",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "cN4-At6dkTQ",
+      "suitable": true,
+      "note": "Storytime Now官方绘本朗读",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "cbvEsBPL0Fk",
+      "suitable": true,
+      "note": "绘本朗读合集Vol.1，搬运号待复核",
+      "tags": {
+        "age": [
+          "3-6"
         ],
         "language": [
           "en"
@@ -13057,6 +13665,24 @@
       }
     },
     {
+      "bvid": "ctQfCUY1CdA",
+      "suitable": true,
+      "note": "Little Fox官方动物合集，44分钟合辑",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "nature",
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "cutROw_NJvE",
       "suitable": true,
       "note": "StorylineOnline名人朗读绘本A Tale of Two Beasts",
@@ -13070,6 +13696,75 @@
         ],
         "theme": [
           "story"
+        ]
+      }
+    },
+    {
+      "bvid": "d9GcGepBKDc",
+      "suitable": true,
+      "note": "Little Charley Bear官方动画整集",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "dG6DE5EtrPo",
+      "suitable": true,
+      "note": "WordGirl押韵单词动画，搬运号待复核",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "e-63xtUgPkQ",
+      "suitable": true,
+      "note": "Blippi官方恐龙与浮沉科普",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "e1CUJ4ZTbqs",
+      "suitable": true,
+      "note": "BabyTV官方圣诞儿歌，Stick with Mick系列",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
         ]
       }
     },
@@ -13105,6 +13800,92 @@
         ],
         "theme": [
           "nature"
+        ]
+      }
+    },
+    {
+      "bvid": "e_04ZrNroTo",
+      "suitable": true,
+      "note": "CoComelon官方儿歌，Wheels on the Bus",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "ebCi2is9Ha0",
+      "suitable": true,
+      "note": "PBS KIDS官方动画，Molly of Denali整集",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "el3Ulc2rIqU",
+      "suitable": true,
+      "note": "Cyberchase数学动画整集，搬运号待复核",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "math",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "f-Z4bhqo7rM",
+      "suitable": true,
+      "note": "Netflix Family官方，TLKOE主题派对无血腥",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "f3u9-TNZTZA",
+      "suitable": true,
+      "note": "Blippi官方环球认知科普，英语启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science",
+          "english"
         ]
       }
     },
