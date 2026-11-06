@@ -11,6 +11,7 @@
 
 import argparse
 import gzip
+import hashlib
 import json
 import re
 import time
@@ -47,6 +48,11 @@ TITLE_EN_OVERRIDES = {
     "石头汤": "Stone Soup",
     "獾的礼物": "Badger's Parting Gifts",
 }
+
+
+def book_id(title: str) -> str:
+    """中文书名经 ascii 清洗会退化为空串，改用标题 MD5 作稳定 id。"""
+    return "bk-" + hashlib.md5(title.encode("utf-8")).hexdigest()[:12]
 
 
 def fetch(url, mobile=False):
@@ -164,6 +170,41 @@ def collect():
     print(f"完成：{len(pool)} 本（详情成功 {n}）→ {out}")
 
 
+def covers():
+    """把豆瓣封面下载到 public/covers/（豆瓣图床对无 Referer 热链返回 418，
+    浏览器端无法伪造 Referer，故构建时自托管）。"""
+    cands = json.loads((ROOT / "data/book-candidates.json").read_text(encoding="utf-8"))["books"]
+    out_dir = ROOT / "public/covers"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    done = fail = 0
+    for b in cands:
+        bid = book_id(b["title"])
+        local = out_dir / f"{bid}.jpg"
+        if local.exists():
+            continue
+        url = b.get("cover") or ""
+        if not url:
+            continue
+        try:
+            req = urllib.request.Request(url, headers={
+                "User-Agent": UA,
+                "Referer": "https://book.douban.com/",
+                "Accept-Encoding": "gzip",
+            })
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                data = resp.read()
+            if data[:2] == b"\xff\xd8":
+                local.write_bytes(data)
+                done += 1
+            else:
+                fail += 1
+        except Exception as e:
+            print(f"  ! 封面失败 {b['title']}: {e}")
+            fail += 1
+        time.sleep(0.6)
+    print(f"封面下载：成功 {done}，失败 {fail} → {out_dir}")
+
+
 def merge():
     """合并 book-tagged.json（打标结果）→ src/data/books.json。"""
     cands = json.loads((ROOT / "data/book-candidates.json").read_text(encoding="utf-8"))["books"]
@@ -185,13 +226,16 @@ def merge():
             continue
         src0 = (b.get("sources") or [{}])[0]
         isbn = b.get("isbn") or ""
+        bid = book_id(b["title"])
+        local_cover = (ROOT / f"public/covers/{bid}.jpg")
+        cover = f"covers/{bid}.jpg" if local_cover.exists() else (b.get("cover") or "")
         books.append({
-            "id": "bk-" + re.sub(r"[^0-9a-z]", "", b["title"].lower())[:16],
+            "id": bid,
             "title": b["title"],
             "title_en": b.get("title_en") or TITLE_EN_OVERRIDES.get(b["title"], ""),
             "author": b.get("author") or "",
             "rating": b.get("rating"),
-            "cover": b.get("cover") or "",
+            "cover": cover,
             "isbn": isbn,
             "publisher": b.get("publisher") or "",
             "tags": {"age": t["tags"]["age"], "language": t["tags"]["language"],
@@ -216,10 +260,13 @@ def merge():
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--collect", action="store_true")
+    ap.add_argument("--covers", action="store_true")
     ap.add_argument("--merge", action="store_true")
     args = ap.parse_args()
     if args.collect:
         collect()
+    elif args.covers:
+        covers()
     elif args.merge:
         merge()
     else:

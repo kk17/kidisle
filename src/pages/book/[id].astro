@@ -1,0 +1,140 @@
+---
+import Base from '../../layouts/Base.astro';
+import books from '../../data/books.json';
+import { base } from '../../lib/base.ts';
+
+export function getStaticPaths() {
+	return books.books.map((b) => ({ params: { id: b.id }, props: { book: b } }));
+}
+const { book: b } = Astro.props;
+const taxoUrl = `${base}lib/taxonomy-url.json`;
+const ageLabel = { '0-3': '0–3 岁', '3-6': '3–6 岁', '6-9': '6–9 岁', '9-12': '9–12 岁' };
+const langLabel = { zh: '中文', en: '英文', bilingual: '双语' };
+const themeLabel = {
+	science: '科普', animation: '动画', story: '绘本故事', music: '音乐', math: '数学思维',
+	english: '英语启蒙', nature: '自然', life: '生活习惯', social: '情感与社交', craft: '手工',
+};
+const ageEn = { '0-3': '0–3 yrs', '3-6': '3–6 yrs', '6-9': '6–9 yrs', '9-12': '9–12 yrs' };
+const langEn = { zh: 'Chinese', en: 'English', bilingual: 'Bilingual' };
+const themeEn = {
+	science: 'Science', animation: 'Animation', story: 'Stories', music: 'Music', math: 'Math',
+	english: 'English Learning', nature: 'Nature', life: 'Life Skills',
+	social: 'Social-Emotional', craft: 'Crafts',
+};
+---
+<Base title={`${b.title} · 童心岛绘本`} description={`${b.title} — ${b.reason ?? ''}`}>
+	<main class="bookpage">
+		<div class="left">
+			<div class="coverwrap">
+				{b.cover && <img src={b.cover} referrerpolicy="no-referrer" alt={b.title} />}
+			</div>
+		</div>
+		<div class="right">
+			<h1 class="btitle">{b.title}</h1>
+			{b.title_en && <div class="title-en">{b.title_en}</div>}
+			<div class="metarow">
+				{b.rating && <span class="rating">★ {b.rating}</span>}
+				{b.author && <span class="author">{b.author}</span>}
+			</div>
+			<div class="tagrow">
+				{b.tags.age.map((a) => (
+					<span class="tag" data-tag={a} data-tag-dim="age" data-zh={ageLabel[a]} data-en={ageEn[a]}>{ageLabel[a]}</span>
+				))}
+				{b.tags.language.map((l) => (
+					<span class="tag" data-tag={l} data-tag-dim="language" data-zh={langLabel[l]} data-en={langEn[l]}>{langLabel[l]}</span>
+				))}
+				{b.tags.theme.map((t) => (
+					<span class="tag" data-tag={t} data-tag-dim="theme" data-zh={themeLabel[t]} data-en={themeEn[t]}>{themeLabel[t]}</span>
+				))}
+			</div>
+
+			<section class="block">
+				<h2 data-i18n="reason_title">推荐理由</h2>
+				<p class="reason" data-i18n="blogger_reason" data-i18n-var-reason-zh={b.reason} data-i18n-var-reason-en={b.reason_en || b.reason}>{b.reason}</p>
+			</section>
+
+			<section class="block">
+				<h2 data-i18n="pub_info">出版信息</h2>
+				<dl class="facts">
+					{b.isbn && <><dt data-i18n="isbn_label">ISBN</dt><dd>{b.isbn}</dd></>}
+					{b.publisher && <><dt data-i18n="publisher_label">出版社</dt><dd>{b.publisher}</dd></>}
+					{b.rating && <><dt data-i18n="rating_label">评分</dt><dd>★ {b.rating}（豆瓣）</dd></>}
+				</dl>
+			</section>
+
+			<section class="block">
+				<h2 data-i18n="links_title">链接与来源</h2>
+				<div class="linkrow">
+					{b.douban_url && <a href={b.douban_url} target="_blank" rel="noopener" data-i18n="douban_page">豆瓣页面 ↗</a>}
+					{b.goodreads_url && <a href={b.goodreads_url} target="_blank" rel="noopener">Goodreads ↗</a>}
+					{b.source_url && (
+						<a class="srcbadge" href={b.source_url} target="_blank" rel="noopener">
+							📎 <span data-i18n="source_name" data-i18n-var-name={b.source_name}>{b.source_name}</span> ↗
+						</a>
+					)}
+				</div>
+				{!b.source_url && b.source_name && (
+					<div class="srcbadge plain">📎 <span data-i18n="source_name" data-i18n-var-name={b.source_name}>{b.source_name}</span></div>
+				)}
+			</section>
+
+			<p class="tip" data-i18n="book_rights">图书信息引自豆瓣读书 / Goodreads，版权归原作者与出版社所有。</p>
+		</div>
+	</main>
+</Base>
+
+<style>
+	.bookpage {
+		max-width: var(--maxw); margin: 0 auto; padding: 1.5rem 1rem 3rem;
+		display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 1.75rem;
+		align-items: start;
+	}
+	@media (max-width: 720px) {
+		.bookpage { grid-template-columns: 1fr; }
+		.left { max-width: 240px; margin: 0 auto; }
+	}
+	.coverwrap {
+		aspect-ratio: 4 / 5; background: #f1f5f9; border-radius: 12px;
+		display: grid; place-items: center; overflow: hidden;
+		box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	}
+	.coverwrap img { width: 100%; height: 100%; object-fit: contain; padding: 0.6rem; }
+	.btitle { margin: 0; font-size: 1.4rem; line-height: 1.35; }
+	.title-en { color: var(--muted); font-size: 0.9rem; margin-top: 0.2rem; }
+	.metarow { display: flex; align-items: center; gap: 0.8rem; margin-top: 0.5rem; flex-wrap: wrap; }
+	.rating { font-weight: 700; color: #92400e; background: #fef3c7; padding: 0.12rem 0.55rem; border-radius: 8px; }
+	.author { color: var(--muted); font-size: 0.9rem; }
+	.tagrow { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.6rem; }
+	.block { margin-top: 1.2rem; }
+	.block h2 {
+		font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.05em;
+		color: var(--muted); margin: 0 0 0.4rem;
+	}
+	.reason { margin: 0; line-height: 1.7; }
+	.facts { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 0.3rem 1rem; }
+	.facts dt { color: var(--muted); font-size: 0.85rem; }
+	.facts dd { margin: 0; font-size: 0.9rem; }
+	.linkrow { display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; }
+	.linkrow a { font-size: 0.9rem; }
+	.srcbadge {
+		background: #fef3c7; color: #92400e;
+		padding: 0.15rem 0.7rem; border-radius: 999px; font-size: 0.8rem;
+		text-decoration: none;
+	}
+	.srcbadge.plain { display: inline-block; margin-top: 0.5rem; }
+	.tip { color: var(--muted); font-size: 0.75rem; margin-top: 1.5rem; }
+</style>
+
+<script>
+	// 标签双语：跟全局 kidisle:langchange 事件走（Base 的 data-i18n 覆盖不了 data-zh/data-en 内容标签）
+	function applyLang(e) {
+		const lang = e?.detail?.lang || localStorage.getItem('kidisle-lang') || 'zh';
+		document.querySelectorAll('[data-zh][data-en]').forEach((el) => {
+			el.textContent = lang === 'en' ? el.dataset.en! : el.dataset.zh!;
+		});
+	}
+	document.addEventListener('DOMContentLoaded', applyLang);
+	window.addEventListener('kidisle:langchange', applyLang);
+	// Base 脚本先跑（module），DOMContentLoaded 前可能已派发过一次；直接再应用一次
+	applyLang(undefined as any);
+</script>

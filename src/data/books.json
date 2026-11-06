@@ -3,12 +3,12 @@
   "count": 207,
   "books": [
     {
-      "id": "bk-",
+      "id": "bk-2c634c61c964",
       "title": "四季时光",
       "title_en": "",
       "author": "[德] 罗特劳特·苏珊娜·贝尔纳",
       "rating": 9.8,
-      "cover": "https://img2.doubanio.com/view/subject/l/public/s35619951.jpg",
+      "cover": "covers/bk-2c634c61c964.jpg",
       "isbn": "9787559641823",
       "publisher": "北京联合出版公司",
       "tags": {
@@ -32,12 +32,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787559641823"
     },
     {
-      "id": "bk-hellolighthouse",
+      "id": "bk-4772b08c14a1",
       "title": "Hello Lighthouse",
       "title_en": "",
       "author": "Sophie Blackall 文/图",
       "rating": 9.8,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s33999545.jpg",
+      "cover": "covers/bk-4772b08c14a1.jpg",
       "isbn": "9780316362382",
       "publisher": "",
       "tags": {
@@ -59,12 +59,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780316362382"
     },
     {
-      "id": "bk-",
+      "id": "bk-12b052ee6764",
       "title": "后来呢后来怎么了",
       "title_en": "",
       "author": "[日] 吉竹伸介",
       "rating": 9.6,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s34571283.jpg",
+      "cover": "covers/bk-12b052ee6764.jpg",
       "isbn": "9787542253781",
       "publisher": "甘肃少年儿童出版社",
       "tags": {
@@ -88,12 +88,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787542253781"
     },
     {
-      "id": "bk-makewayforduckli",
+      "id": "bk-99bc5c9cd6d6",
       "title": "Make Way for Ducklings",
       "title_en": "",
       "author": "Robert McCloskey 文/图",
       "rating": 9.6,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s3393713.jpg",
+      "cover": "covers/bk-99bc5c9cd6d6.jpg",
       "isbn": "9780140564341",
       "publisher": "",
       "tags": {
@@ -115,12 +115,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780140564341"
     },
     {
-      "id": "bk-",
+      "id": "bk-1395c93456fb",
       "title": "海底的秘密",
       "title_en": "",
       "author": "[美] 大卫·威斯纳",
       "rating": 9.5,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s28396748.jpg",
+      "cover": "covers/bk-1395c93456fb.jpg",
       "isbn": "9787543470750",
       "publisher": "河北教育出版社",
       "tags": {
@@ -143,12 +143,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787543470750"
     },
     {
-      "id": "bk-goodnightgorilla",
+      "id": "bk-2b523e5ea708",
       "title": "Good Night, Gorilla",
       "title_en": "",
       "author": "Peggy Rathmann 文/图",
       "rating": 9.5,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s3996147.jpg",
+      "cover": "covers/bk-2b523e5ea708.jpg",
       "isbn": "9780698116498",
       "publisher": "",
       "tags": {
@@ -171,12 +171,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780698116498"
     },
     {
-      "id": "bk-",
+      "id": "bk-a5daea1d077d",
       "title": "猜猜我有多爱你",
       "title_en": "Guess How Much I Love You",
       "author": "[英] 山姆·麦克布雷尼 文 / 安妮塔·婕朗 图",
       "rating": 9.4,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s24549957.jpg",
+      "cover": "covers/bk-a5daea1d077d.jpg",
       "isbn": "9787532463459",
       "publisher": "少年儿童出版社",
       "tags": {
@@ -200,12 +200,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787532463459"
     },
     {
-      "id": "bk-",
+      "id": "bk-8ef6889ebbda",
       "title": "狐狸的窗户",
       "title_en": "",
       "author": "[日] 安房直子 文 / [日] 织茂恭子 绘",
       "rating": 9.4,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s4118483.jpg",
+      "cover": "covers/bk-8ef6889ebbda.jpg",
       "isbn": "9787539143590",
       "publisher": "二十一世纪出版社",
       "tags": {
@@ -227,12 +227,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787539143590"
     },
     {
-      "id": "bk-",
+      "id": "bk-c3fed024cdd5",
       "title": "抵岸",
       "title_en": "",
       "author": "[澳] 陈志勇",
       "rating": 9.4,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s6995178.jpg",
+      "cover": "covers/bk-c3fed024cdd5.jpg",
       "isbn": "9787505619050",
       "publisher": "连环画出版社",
       "tags": {
@@ -254,12 +254,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787505619050"
     },
     {
-      "id": "bk-110",
+      "id": "bk-b91f7aca2e02",
       "title": "不一样的卡梅拉（1-10册）",
       "title_en": "",
       "author": "[法] 克利斯提昂·约里波瓦 文 / 艾利施 绘",
       "rating": 9.4,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s10166900.jpg",
+      "cover": "covers/bk-b91f7aca2e02.jpg",
       "isbn": "9787539169224",
       "publisher": "二十一世纪出版社",
       "tags": {
@@ -282,12 +282,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787539169224"
     },
     {
-      "id": "bk-15",
+      "id": "bk-ccca4e46d832",
       "title": "小熊宝宝绘本（全15册）",
       "title_en": "",
       "author": "[日] 佐佐木洋子",
       "rating": 9.4,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s26694072.jpg",
+      "cover": "covers/bk-ccca4e46d832.jpg",
       "isbn": "9787505608252",
       "publisher": "连环画出版社",
       "tags": {
@@ -310,12 +310,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787505608252"
     },
     {
-      "id": "bk-",
+      "id": "bk-006da2b4263d",
       "title": "奥菲利娅的影子剧院",
       "title_en": "",
       "author": "[德] 米切尔·恩德",
       "rating": 9.4,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s34187457.jpg",
+      "cover": "covers/bk-006da2b4263d.jpg",
       "isbn": "9787539140469",
       "publisher": "二十一世纪出版社",
       "tags": {
@@ -338,12 +338,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787539140469"
     },
     {
-      "id": "bk-theyallsawacat",
+      "id": "bk-47478206e33b",
       "title": "They All Saw a Cat",
       "title_en": "",
       "author": "Brendan Wenzel 文/图",
       "rating": 9.4,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s34318160.jpg",
+      "cover": "covers/bk-47478206e33b.jpg",
       "isbn": "9781452150130",
       "publisher": "",
       "tags": {
@@ -366,12 +366,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9781452150130"
     },
     {
-      "id": "bk-guesshowmuchilov",
+      "id": "bk-9a9cf7a5b27a",
       "title": "Guess How Much I Love You",
       "title_en": "",
       "author": "Sam McBratney 文 / Anita Jeram 图",
       "rating": 9.4,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s24549957.jpg",
+      "cover": "covers/bk-9a9cf7a5b27a.jpg",
       "isbn": "9787532463459",
       "publisher": "少年儿童出版社",
       "tags": {
@@ -395,12 +395,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787532463459"
     },
     {
-      "id": "bk-",
+      "id": "bk-06c6041c5f75",
       "title": "爷爷变成了幽灵",
       "title_en": "",
       "author": "[丹麦] 金·弗珀兹·艾克松 文 / [瑞典] 爱娃·艾瑞克松 图",
       "rating": 9.3,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s3446498.jpg",
+      "cover": "covers/bk-06c6041c5f75.jpg",
       "isbn": "9787539420899",
       "publisher": "湖北美术出版社",
       "tags": {
@@ -424,12 +424,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787539420899"
     },
     {
-      "id": "bk-",
+      "id": "bk-bcdc3e84c4cf",
       "title": "妈妈，买绿豆！",
       "title_en": "",
       "author": "曾阳晴 文 / 万华国 图",
       "rating": 9.3,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s4578099.jpg",
+      "cover": "covers/bk-bcdc3e84c4cf.jpg",
       "isbn": "9787533264062",
       "publisher": "明天出版社",
       "tags": {
@@ -453,12 +453,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787533264062"
     },
     {
-      "id": "bk-7",
+      "id": "bk-711ffd9b2c24",
       "title": "7号梦工厂",
       "title_en": "",
       "author": "[美] 大卫·威斯纳",
       "rating": 9.3,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s3296267.jpg",
+      "cover": "covers/bk-711ffd9b2c24.jpg",
       "isbn": "9787534249259",
       "publisher": "浙江少年儿童出版社",
       "tags": {
@@ -481,12 +481,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787534249259"
     },
     {
-      "id": "bk-",
+      "id": "bk-cbbc260f1bcb",
       "title": "桃花源的故事",
       "title_en": "",
       "author": "松居直 编 / 蔡皋 绘",
       "rating": 9.3,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s33988403.jpg",
+      "cover": "covers/bk-cbbc260f1bcb.jpg",
       "isbn": "9787556256389",
       "publisher": "湖南少年儿童出版社",
       "tags": {
@@ -509,12 +509,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787556256389"
     },
     {
-      "id": "bk-theroughpatch",
+      "id": "bk-3bec86443387",
       "title": "The Rough Patch",
       "title_en": "",
       "author": "Brian Lies 文/图",
       "rating": 9.3,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s29994360.jpg",
+      "cover": "covers/bk-3bec86443387.jpg",
       "isbn": "9780062671271",
       "publisher": "",
       "tags": {
@@ -537,12 +537,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780062671271"
     },
     {
-      "id": "bk-haveyoueverseena",
+      "id": "bk-4a6f99d71647",
       "title": "Have You Ever Seen a Flower?",
       "title_en": "",
       "author": "Shawn Harris 文/图",
       "rating": 9.3,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s33906746.jpg",
+      "cover": "covers/bk-4a6f99d71647.jpg",
       "isbn": "9781452182704",
       "publisher": "",
       "tags": {
@@ -565,12 +565,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9781452182704"
     },
     {
-      "id": "bk-roomonthebroom",
+      "id": "bk-613c0f0560ef",
       "title": "Room on the Broom",
       "title_en": "",
       "author": "Julia Donaldson 文 / Axel Scheffler 图",
       "rating": 9.3,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s29444345.jpg",
+      "cover": "covers/bk-613c0f0560ef.jpg",
       "isbn": "9780142501122",
       "publisher": "",
       "tags": {
@@ -592,12 +592,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780142501122"
     },
     {
-      "id": "bk-adarkdarktale",
+      "id": "bk-047d663b9399",
       "title": "A Dark, Dark Tale",
       "title_en": "",
       "author": "Ruth Brown 文/图",
       "rating": 9.3,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s4736140.jpg",
+      "cover": "covers/bk-047d663b9399.jpg",
       "isbn": "9780140546217",
       "publisher": "",
       "tags": {
@@ -619,12 +619,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780140546217"
     },
     {
-      "id": "bk-",
+      "id": "bk-e53dd704ccd1",
       "title": "永远永远爱你",
       "title_en": "",
       "author": "[日] 宫西达也",
       "rating": 9.2,
-      "cover": "https://img2.doubanio.com/view/subject/l/public/s3109561.jpg",
+      "cover": "covers/bk-e53dd704ccd1.jpg",
       "isbn": "9787539141930",
       "publisher": "二十一世纪出版社",
       "tags": {
@@ -647,12 +647,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787539141930"
     },
     {
-      "id": "bk-",
+      "id": "bk-2daa314bc19b",
       "title": "这是苹果吗也许是吧",
       "title_en": "",
       "author": "[日] 吉竹伸介",
       "rating": 9.2,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s33309104.jpg",
+      "cover": "covers/bk-2daa314bc19b.jpg",
       "isbn": "9787542253767",
       "publisher": "甘肃少年儿童出版社",
       "tags": {
@@ -674,12 +674,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787542253767"
     },
     {
-      "id": "bk-",
+      "id": "bk-acb7422225b5",
       "title": "田鼠阿佛",
       "title_en": "Frederick",
       "author": "[美] 李欧·李奥尼",
       "rating": 9.2,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s4460827.jpg",
+      "cover": "covers/bk-acb7422225b5.jpg",
       "isbn": "9787544246620",
       "publisher": "南海出版公司",
       "tags": {
@@ -702,12 +702,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787544246620"
     },
     {
-      "id": "bk-",
+      "id": "bk-812bfc9bd84b",
       "title": "晚安，大猩猩",
       "title_en": "",
       "author": "[美] 佩吉·拉特曼",
       "rating": 9.2,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s4422786.jpg",
+      "cover": "covers/bk-812bfc9bd84b.jpg",
       "isbn": "9787544246767",
       "publisher": "南海出版公司",
       "tags": {
@@ -730,12 +730,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787544246767"
     },
     {
-      "id": "bk-",
+      "id": "bk-bfd266541e3f",
       "title": "夏天守则",
       "title_en": "",
       "author": "[澳] 陈志勇",
       "rating": 9.2,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s29760848.jpg",
+      "cover": "covers/bk-bfd266541e3f.jpg",
       "isbn": "9787505634404",
       "publisher": "连环画出版社",
       "tags": {
@@ -758,12 +758,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787505634404"
     },
     {
-      "id": "bk-",
+      "id": "bk-ede17225a101",
       "title": "不可思议的旅程",
       "title_en": "",
       "author": "[美] 艾伦·贝克尔",
       "rating": 9.2,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s27331016.jpg",
+      "cover": "covers/bk-ede17225a101.jpg",
       "isbn": "9787513314770",
       "publisher": "新星出版社",
       "tags": {
@@ -786,12 +786,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787513314770"
     },
     {
-      "id": "bk-theveryhungrycat",
+      "id": "bk-e1f32d6672b1",
       "title": "The Very Hungry Caterpillar",
       "title_en": "",
       "author": "Eric Carle 文/图",
       "rating": 9.2,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s29695570.jpg",
+      "cover": "covers/bk-e1f32d6672b1.jpg",
       "isbn": "9780241003008",
       "publisher": "",
       "tags": {
@@ -814,12 +814,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780241003008"
     },
     {
-      "id": "bk-goodnightmoon",
+      "id": "bk-3859b0573f14",
       "title": "Goodnight Moon",
       "title_en": "",
       "author": "Margaret Wise Brown 文 / Clement Hurd 图",
       "rating": 9.2,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s29875707.jpg",
+      "cover": "covers/bk-3859b0573f14.jpg",
       "isbn": "9780808593867",
       "publisher": "",
       "tags": {
@@ -842,12 +842,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780808593867"
     },
     {
-      "id": "bk-thegruffalo",
+      "id": "bk-cc7ef0d8e26a",
       "title": "The Gruffalo",
       "title_en": "",
       "author": "Julia Donaldson 文 / Axel Scheffler 图",
       "rating": 9.2,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s4628613.jpg",
+      "cover": "covers/bk-cc7ef0d8e26a.jpg",
       "isbn": "9780333710937",
       "publisher": "",
       "tags": {
@@ -869,12 +869,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780333710937"
     },
     {
-      "id": "bk-thekissinghand",
+      "id": "bk-aeb7ad7e1c76",
       "title": "The Kissing Hand",
       "title_en": "",
       "author": "Audrey Penn 文 / Ruth E. Harper & Nancy M. Leak 图",
       "rating": 9.2,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s4846464.jpg",
+      "cover": "covers/bk-aeb7ad7e1c76.jpg",
       "isbn": "9780756992996",
       "publisher": "",
       "tags": {
@@ -897,12 +897,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780756992996"
     },
     {
-      "id": "bk-thedot",
+      "id": "bk-43f36086303b",
       "title": "The Dot",
       "title_en": "",
       "author": "Peter H. Reynolds 文/图",
       "rating": 9.2,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s21268005.jpg",
+      "cover": "covers/bk-43f36086303b.jpg",
       "isbn": "9781844281695",
       "publisher": "",
       "tags": {
@@ -925,12 +925,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9781844281695"
     },
     {
-      "id": "bk-",
+      "id": "bk-43324a0ba4cd",
       "title": "你看起来好像很好吃",
       "title_en": "You Look Yummy",
       "author": "[日] 宫西达也",
       "rating": 9.1,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s2084206.jpg",
+      "cover": "covers/bk-43324a0ba4cd.jpg",
       "isbn": "9787530112038",
       "publisher": "北京少年儿童出版社",
       "tags": {
@@ -953,12 +953,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787530112038"
     },
     {
-      "id": "bk-",
+      "id": "bk-bbfb4160d1c4",
       "title": "月亮忘记了",
       "title_en": "",
       "author": "幾米",
       "rating": 9.1,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s4687105.jpg",
+      "cover": "covers/bk-bbfb4160d1c4.jpg",
       "isbn": "9787801388025",
       "publisher": "海豚出版社",
       "tags": {
@@ -981,12 +981,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787801388025"
     },
     {
-      "id": "bk-",
+      "id": "bk-b4e0fd485a06",
       "title": "我的爸爸叫焦尼",
       "title_en": "",
       "author": "[瑞典] 波·R·汉伯格 文 / 爱娃·艾瑞克松 图",
       "rating": 9.1,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s5771795.jpg",
+      "cover": "covers/bk-b4e0fd485a06.jpg",
       "isbn": "9787539421438",
       "publisher": "湖北美术出版社",
       "tags": {
@@ -1010,12 +1010,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787539421438"
     },
     {
-      "id": "bk-",
+      "id": "bk-3c47ce1bcd92",
       "title": "坏狐狸",
       "title_en": "",
       "author": "[法] 本杰明·雷内",
       "rating": 9.1,
-      "cover": "https://img2.doubanio.com/view/subject/l/public/s35026151.jpg",
+      "cover": "covers/bk-3c47ce1bcd92.jpg",
       "isbn": "9787551137782",
       "publisher": "花山文艺出版社",
       "tags": {
@@ -1038,12 +1038,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787551137782"
     },
     {
-      "id": "bk-",
+      "id": "bk-658fb7b30577",
       "title": "铁丝网上的小花",
       "title_en": "",
       "author": "[意] 格莱兹 文 / 英诺森提 绘",
       "rating": 9.1,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s9011606.jpg",
+      "cover": "covers/bk-658fb7b30577.jpg",
       "isbn": "9787533253479",
       "publisher": "明天出版社",
       "tags": {
@@ -1066,12 +1066,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787533253479"
     },
     {
-      "id": "bk-",
+      "id": "bk-4e65101acf7a",
       "title": "点点点",
       "title_en": "",
       "author": "[法] 埃尔维·杜莱",
       "rating": 9.1,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s30002219.jpg",
+      "cover": "covers/bk-4e65101acf7a.jpg",
       "isbn": "9787539175546",
       "publisher": "二十一世纪出版社",
       "tags": {
@@ -1094,12 +1094,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787539175546"
     },
     {
-      "id": "bk-3",
+      "id": "bk-448a4eed0929",
       "title": "小兔彼得和他的朋友们（全3册）",
       "title_en": "",
       "author": "[英] 毕翠克丝·波特",
       "rating": 9.1,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s4042908.jpg",
+      "cover": "covers/bk-448a4eed0929.jpg",
       "isbn": "9787533653590",
       "publisher": "安徽教育出版社",
       "tags": {
@@ -1122,12 +1122,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787533653590"
     },
     {
-      "id": "bk-",
+      "id": "bk-9e634183e04d",
       "title": "松鼠先生和月亮",
       "title_en": "",
       "author": "[德] 塞巴斯蒂安·麦什莫泽",
       "rating": 9.1,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s2700337.jpg",
+      "cover": "covers/bk-9e634183e04d.jpg",
       "isbn": "9787539419602",
       "publisher": "湖北美术出版社",
       "tags": {
@@ -1149,12 +1149,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787539419602"
     },
     {
-      "id": "bk-",
+      "id": "bk-7811c5fc900b",
       "title": "朱家故事",
       "title_en": "",
       "author": "[英] 安东尼·布朗",
       "rating": 9.1,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s3605465.jpg",
+      "cover": "covers/bk-7811c5fc900b.jpg",
       "isbn": "9787543470729",
       "publisher": "河北教育出版社",
       "tags": {
@@ -1177,12 +1177,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787543470729"
     },
     {
-      "id": "bk-",
+      "id": "bk-21c5e242b1c2",
       "title": "蓝莲花",
       "title_en": "",
       "author": "[比] 埃尔热",
       "rating": 9.1,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s1577226.jpg",
+      "cover": "covers/bk-21c5e242b1c2.jpg",
       "isbn": "9787500756699",
       "publisher": "中国少年儿童出版社",
       "tags": {
@@ -1205,12 +1205,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787500756699"
     },
     {
-      "id": "bk-",
+      "id": "bk-5932e562fe25",
       "title": "小金鱼逃走了",
       "title_en": "",
       "author": "[日] 五味太郎",
       "rating": 9.1,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s34458955.jpg",
+      "cover": "covers/bk-5932e562fe25.jpg",
       "isbn": "9787513304948",
       "publisher": "新星出版社",
       "tags": {
@@ -1232,12 +1232,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787513304948"
     },
     {
-      "id": "bk-",
+      "id": "bk-692ed399d451",
       "title": "当鸭子遇见死神",
       "title_en": "",
       "author": "[德] 沃尔夫·埃布鲁赫",
       "rating": 9.1,
-      "cover": "https://img2.doubanio.com/view/subject/l/public/s26964451.jpg",
+      "cover": "covers/bk-692ed399d451.jpg",
       "isbn": "9787530758205",
       "publisher": "新蕾出版社",
       "tags": {
@@ -1260,12 +1260,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787530758205"
     },
     {
-      "id": "bk-",
+      "id": "bk-157a64464150",
       "title": "小蓝和小黄",
       "title_en": "",
       "author": "[美] 李欧·李奥尼",
       "rating": 9.1,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s34007827.jpg",
+      "cover": "covers/bk-157a64464150.jpg",
       "isbn": "9787533257101",
       "publisher": "明天出版社",
       "tags": {
@@ -1289,12 +1289,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787533257101"
     },
     {
-      "id": "bk-",
+      "id": "bk-aaeb81c822c8",
       "title": "你好灯塔",
       "title_en": "",
       "author": "[澳] 苏菲·布莱科尔",
       "rating": 9.1,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s33988390.jpg",
+      "cover": "covers/bk-aaeb81c822c8.jpg",
       "isbn": "9787521700886",
       "publisher": "中信出版社",
       "tags": {
@@ -1316,12 +1316,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787521700886"
     },
     {
-      "id": "bk-",
+      "id": "bk-87f5d078440a",
       "title": "我变成一只喷火龙了",
       "title_en": "",
       "author": "赖马",
       "rating": 9.1,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s6801092.jpg",
+      "cover": "covers/bk-87f5d078440a.jpg",
       "isbn": "9787537636179",
       "publisher": "河北少年儿童出版社",
       "tags": {
@@ -1344,12 +1344,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787537636179"
     },
     {
-      "id": "bk-",
+      "id": "bk-cc020f000676",
       "title": "盘中餐",
       "title_en": "",
       "author": "于虹呈",
       "rating": 9.1,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s28601044.jpg",
+      "cover": "covers/bk-cc020f000676.jpg",
       "isbn": "9787514828825",
       "publisher": "中国少年儿童出版社",
       "tags": {
@@ -1373,12 +1373,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787514828825"
     },
     {
-      "id": "bk-",
+      "id": "bk-373dcbd0a8e3",
       "title": "苏丹的犀角",
       "title_en": "",
       "author": "戴芸 文 / 李星明 图",
       "rating": 9.1,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s33444129.jpg",
+      "cover": "covers/bk-373dcbd0a8e3.jpg",
       "isbn": "9787556839841",
       "publisher": "",
       "tags": {
@@ -1402,12 +1402,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787556839841"
     },
     {
-      "id": "bk-",
+      "id": "bk-d3a33224ab4e",
       "title": "驯河童子",
       "title_en": "",
       "author": "廖小琴 文（乐乐趣出品）",
       "rating": 9.1,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s35320856.jpg",
+      "cover": "covers/bk-d3a33224ab4e.jpg",
       "isbn": "9787542271297",
       "publisher": "甘肃少年儿童出版社",
       "tags": {
@@ -1429,12 +1429,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787542271297"
     },
     {
-      "id": "bk-brownbearbrownbe",
+      "id": "bk-8509e36b4b7b",
       "title": "Brown Bear, Brown Bear, What Do You See?",
       "title_en": "",
       "author": "Bill Martin Jr. 文 / Eric Carle 图",
       "rating": 9.1,
-      "cover": "https://img2.doubanio.com/view/subject/l/public/s7003351.jpg",
+      "cover": "covers/bk-8509e36b4b7b.jpg",
       "isbn": "9780805047905",
       "publisher": "",
       "tags": {
@@ -1458,12 +1458,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780805047905"
     },
     {
-      "id": "bk-100",
+      "id": "bk-f8efc380a2d5",
       "title": "活了100万次的猫",
       "title_en": "The Cat That Lived a Million Times",
       "author": "[日] 佐野洋子",
       "rating": 9.0,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s1673084.jpg",
+      "cover": "covers/bk-f8efc380a2d5.jpg",
       "isbn": "9787806795095",
       "publisher": "接力出版社",
       "tags": {
@@ -1487,12 +1487,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787806795095"
     },
     {
-      "id": "bk-",
+      "id": "bk-b75d3218992d",
       "title": "时光电影院",
       "title_en": "",
       "author": "几米",
       "rating": 9.0,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s8988425.jpg",
+      "cover": "covers/bk-b75d3218992d.jpg",
       "isbn": "9787511008053",
       "publisher": "海豚出版社",
       "tags": {
@@ -1516,12 +1516,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787511008053"
     },
     {
-      "id": "bk-",
+      "id": "bk-5ecfbb8fa7d5",
       "title": "星空",
       "title_en": "",
       "author": "幾米",
       "rating": 9.0,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s3987987.jpg",
+      "cover": "covers/bk-5ecfbb8fa7d5.jpg",
       "isbn": "9787802444331",
       "publisher": "现代出版社",
       "tags": {
@@ -1544,12 +1544,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787802444331"
     },
     {
-      "id": "bk-",
+      "id": "bk-7af8c12b5238",
       "title": "失落的一角遇见大圆满",
       "title_en": "",
       "author": "[美] 谢尔·希尔弗斯坦",
       "rating": 9.0,
-      "cover": "https://img2.doubanio.com/view/subject/l/public/s1818541.jpg",
+      "cover": "covers/bk-7af8c12b5238.jpg",
       "isbn": "9787544225175",
       "publisher": "南海出版公司",
       "tags": {
@@ -1572,12 +1572,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787544225175"
     },
     {
-      "id": "bk-",
+      "id": "bk-98acc186c12c",
       "title": "爱心树",
       "title_en": "The Giving Tree",
       "author": "[美] 谢尔·希尔弗斯坦",
       "rating": 9.0,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s1112624.jpg",
+      "cover": "covers/bk-98acc186c12c.jpg",
       "isbn": "9787544225151",
       "publisher": "南海出版公司",
       "tags": {
@@ -1601,12 +1601,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787544225151"
     },
     {
-      "id": "bk-",
+      "id": "bk-ff8698e9408d",
       "title": "花婆婆",
       "title_en": "Miss Rumphius",
       "author": "[美] 芭芭拉·库尼",
       "rating": 9.0,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s2449403.jpg",
+      "cover": "covers/bk-ff8698e9408d.jpg",
       "isbn": "9787543464605",
       "publisher": "河北教育出版社",
       "tags": {
@@ -1630,12 +1630,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787543464605"
     },
     {
-      "id": "bk-",
+      "id": "bk-a53204f743b9",
       "title": "好饿的毛毛虫",
       "title_en": "The Very Hungry Caterpillar",
       "author": "[美] 艾瑞·卡尔",
       "rating": 9.0,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s3161609.jpg",
+      "cover": "covers/bk-a53204f743b9.jpg",
       "isbn": "9787533256739",
       "publisher": "明天出版社",
       "tags": {
@@ -1659,12 +1659,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787533256739"
     },
     {
-      "id": "bk-",
+      "id": "bk-99b04374f577",
       "title": "白兔夫人",
       "title_en": "",
       "author": "[法] 吉尔·巴什莱",
       "rating": 9.0,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s29507063.jpg",
+      "cover": "covers/bk-99b04374f577.jpg",
       "isbn": "9787550267817",
       "publisher": "北京联合出版公司",
       "tags": {
@@ -1686,12 +1686,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787550267817"
     },
     {
-      "id": "bk-",
+      "id": "bk-297ed985d6ea",
       "title": "小房子",
       "title_en": "",
       "author": "[美] 维吉尼亚·李·伯顿",
       "rating": 9.0,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s2865603.jpg",
+      "cover": "covers/bk-297ed985d6ea.jpg",
       "isbn": "9787544234696",
       "publisher": "南海出版公司",
       "tags": {
@@ -1715,12 +1715,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787544234696"
     },
     {
-      "id": "bk-",
+      "id": "bk-516cac3a8b09",
       "title": "野兽国",
       "title_en": "Where the Wild Things Are",
       "author": "[美] 莫里斯·桑达克",
       "rating": 9.0,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s34745423.jpg",
+      "cover": "covers/bk-516cac3a8b09.jpg",
       "isbn": "9787221119308",
       "publisher": "贵州人民出版社",
       "tags": {
@@ -1743,12 +1743,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787221119308"
     },
     {
-      "id": "bk-",
+      "id": "bk-b19d30b5f0c4",
       "title": "雪人",
       "title_en": "",
       "author": "[英] 雷蒙·布力格",
       "rating": 9.0,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s2166283.jpg",
+      "cover": "covers/bk-b19d30b5f0c4.jpg",
       "isbn": "9787532468195",
       "publisher": "少年儿童出版社",
       "tags": {
@@ -1771,12 +1771,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787532468195"
     },
     {
-      "id": "bk-",
+      "id": "bk-e238df3d4dad",
       "title": "小狐狸买手套",
       "title_en": "",
       "author": "[日] 新美南吉 文 / 黑井健 绘",
       "rating": 9.0,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s34476489.jpg",
+      "cover": "covers/bk-e238df3d4dad.jpg",
       "isbn": "9787544238342",
       "publisher": "南海出版公司",
       "tags": {
@@ -1799,12 +1799,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787544238342"
     },
     {
-      "id": "bk-",
+      "id": "bk-77a7c2c6aa19",
       "title": "大猩猩",
       "title_en": "",
       "author": "[英] 安东尼·布朗",
       "rating": 9.0,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s34015176.jpg",
+      "cover": "covers/bk-77a7c2c6aa19.jpg",
       "isbn": "9787543464643",
       "publisher": "河北教育出版社",
       "tags": {
@@ -1827,12 +1827,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787543464643"
     },
     {
-      "id": "bk-",
+      "id": "bk-cd3f1f573048",
       "title": "糖球",
       "title_en": "",
       "author": "[韩] 白希那",
       "rating": 9.0,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s33465644.jpg",
+      "cover": "covers/bk-cd3f1f573048.jpg",
       "isbn": "9787544861526",
       "publisher": "接力出版社",
       "tags": {
@@ -1855,12 +1855,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787544861526"
     },
     {
-      "id": "bk-",
+      "id": "bk-6b3721cc5aa6",
       "title": "小黑鱼",
       "title_en": "Swimmy",
       "author": "[美] 李欧·李奥尼",
       "rating": 9.0,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s29714423.jpg",
+      "cover": "covers/bk-6b3721cc5aa6.jpg",
       "isbn": "9787544245906",
       "publisher": "南海出版公司",
       "tags": {
@@ -1883,12 +1883,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787544245906"
     },
     {
-      "id": "bk-",
+      "id": "bk-ef92c3dc9341",
       "title": "亲爱的小鱼",
       "title_en": "",
       "author": "[法] 安德烈·德昂",
       "rating": 9.0,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s34013592.jpg",
+      "cover": "covers/bk-ef92c3dc9341.jpg",
       "isbn": "9787543468047",
       "publisher": "河北教育出版社",
       "tags": {
@@ -1910,12 +1910,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787543468047"
     },
     {
-      "id": "bk-",
+      "id": "bk-27f47224d040",
       "title": "蹦!",
       "title_en": "",
       "author": "[日] 松冈达英",
       "rating": 9.0,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s4834227.jpg",
+      "cover": "covers/bk-27f47224d040.jpg",
       "isbn": "9787539143507",
       "publisher": "二十一世纪出版社",
       "tags": {
@@ -1937,12 +1937,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787539143507"
     },
     {
-      "id": "bk-",
+      "id": "bk-a94dba59e62a",
       "title": "玛德琳",
       "title_en": "",
       "author": "[美] 路德维希·贝梅尔曼斯",
       "rating": 9.0,
-      "cover": "https://img2.doubanio.com/view/subject/l/public/s3943431.jpg",
+      "cover": "covers/bk-a94dba59e62a.jpg",
       "isbn": "9787543473355",
       "publisher": "河北教育出版社",
       "tags": {
@@ -1964,12 +1964,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787543473355"
     },
     {
-      "id": "bk-duiztak",
+      "id": "bk-68abc79cda46",
       "title": "Du Iz Tak?",
       "title_en": "",
       "author": "Carson Ellis 文/图",
       "rating": 9.0,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s29205305.jpg",
+      "cover": "covers/bk-68abc79cda46.jpg",
       "isbn": "9780763665302",
       "publisher": "",
       "tags": {
@@ -1992,12 +1992,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780763665302"
     },
     {
-      "id": "bk-wherethewildthin",
+      "id": "bk-65882f88bee0",
       "title": "Where the Wild Things Are",
       "title_en": "",
       "author": "Maurice Sendak 文/图",
       "rating": 9.0,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s34745423.jpg",
+      "cover": "covers/bk-65882f88bee0.jpg",
       "isbn": "9787221119308",
       "publisher": "贵州人民出版社",
       "tags": {
@@ -2020,12 +2020,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787221119308"
     },
     {
-      "id": "bk-thegivingtree",
+      "id": "bk-23d56b61e665",
       "title": "The Giving Tree",
       "title_en": "",
       "author": "Shel Silverstein 文/图",
       "rating": 9.0,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s1112624.jpg",
+      "cover": "covers/bk-23d56b61e665.jpg",
       "isbn": "9787544225151",
       "publisher": "南海出版公司",
       "tags": {
@@ -2049,12 +2049,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787544225151"
     },
     {
-      "id": "bk-",
+      "id": "bk-2261d21f24d9",
       "title": "爷爷一定有办法",
       "title_en": "Something from Nothing",
       "author": "[加] 菲比·吉尔曼",
       "rating": 8.9,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s26552436.jpg",
+      "cover": "covers/bk-2261d21f24d9.jpg",
       "isbn": "9787532464586",
       "publisher": "少年儿童出版社",
       "tags": {
@@ -2076,12 +2076,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787532464586"
     },
     {
-      "id": "bk-",
+      "id": "bk-c6876daff910",
       "title": "逃家小兔",
       "title_en": "The Runaway Bunny",
       "author": "[美] 玛格丽特·怀兹·布朗 文 / 克雷门·赫德 图",
       "rating": 8.9,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s1447696.jpg",
+      "cover": "covers/bk-c6876daff910.jpg",
       "isbn": "9787532465521",
       "publisher": "少年儿童出版社",
       "tags": {
@@ -2105,12 +2105,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787532465521"
     },
     {
-      "id": "bk-",
+      "id": "bk-1a637fc316e9",
       "title": "肚子里有个火车站",
       "title_en": "",
       "author": "[德] 安娜·鲁斯曼",
       "rating": 8.9,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s6518412.jpg",
+      "cover": "covers/bk-1a637fc316e9.jpg",
       "isbn": "9787530451342",
       "publisher": "北京科学技术出版社",
       "tags": {
@@ -2133,12 +2133,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787530451342"
     },
     {
-      "id": "bk-",
+      "id": "bk-9d05e76a698c",
       "title": "不可思议的朋友",
       "title_en": "",
       "author": "[日] 田岛征彦",
       "rating": 8.9,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s29889846.jpg",
+      "cover": "covers/bk-9d05e76a698c.jpg",
       "isbn": "9787550297760",
       "publisher": "北京联合出版公司",
       "tags": {
@@ -2162,12 +2162,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787550297760"
     },
     {
-      "id": "bk-",
+      "id": "bk-ffe702c0b7b0",
       "title": "蚯蚓的日记",
       "title_en": "Diary of a Worm",
       "author": "[美] 朵琳·克罗宁 文 / 哈利·布里斯 图",
       "rating": 8.9,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s24223142.jpg",
+      "cover": "covers/bk-ffe702c0b7b0.jpg",
       "isbn": "9787532466382",
       "publisher": "少年儿童出版社",
       "tags": {
@@ -2190,12 +2190,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787532466382"
     },
     {
-      "id": "bk-",
+      "id": "bk-66c88882e47d",
       "title": "团圆",
       "title_en": "",
       "author": "余丽琼 文 / 朱成梁 图",
       "rating": 8.9,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s6631278.jpg",
+      "cover": "covers/bk-66c88882e47d.jpg",
       "isbn": "9787533255879",
       "publisher": "明天出版社",
       "tags": {
@@ -2218,12 +2218,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787533255879"
     },
     {
-      "id": "bk-o",
+      "id": "bk-4177dbc6f591",
       "title": "O先生",
       "title_en": "",
       "author": "[法] 刘易斯·特隆赫姆",
       "rating": 8.9,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s1434948.jpg",
+      "cover": "covers/bk-4177dbc6f591.jpg",
       "isbn": "9787806267752",
       "publisher": "吉林文史出版社",
       "tags": {
@@ -2246,12 +2246,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787806267752"
     },
     {
-      "id": "bk-",
+      "id": "bk-435309075592",
       "title": "獾的礼物",
       "title_en": "Badger's Parting Gifts",
       "author": "[英] 苏珊·华莱",
       "rating": 8.9,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s1881528.jpg",
+      "cover": "covers/bk-435309075592.jpg",
       "isbn": "9787532469406",
       "publisher": "少年儿童出版社",
       "tags": {
@@ -2274,12 +2274,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787532469406"
     },
     {
-      "id": "bk-",
+      "id": "bk-dc6a33c5279d",
       "title": "迟到大王",
       "title_en": "",
       "author": "[英] 约翰·伯宁罕",
       "rating": 8.9,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s4344393.jpg",
+      "cover": "covers/bk-dc6a33c5279d.jpg",
       "isbn": "9787533260910",
       "publisher": "明天出版社",
       "tags": {
@@ -2302,12 +2302,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787533260910"
     },
     {
-      "id": "bk-100",
+      "id": "bk-43e9288b83ba",
       "title": "100层的房子",
       "title_en": "",
       "author": "[日] 岩井俊雄",
       "rating": 8.9,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s4506059.jpg",
+      "cover": "covers/bk-43e9288b83ba.jpg",
       "isbn": "9787530446829",
       "publisher": "北京科学技术出版社",
       "tags": {
@@ -2330,12 +2330,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787530446829"
     },
     {
-      "id": "bk-dontletthepigeon",
+      "id": "bk-38c0c79ff4e1",
       "title": "Don't Let the Pigeon Drive the Bus!",
       "title_en": "",
       "author": "Mo Willems 文/图",
       "rating": 8.9,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s34742699.jpg",
+      "cover": "covers/bk-38c0c79ff4e1.jpg",
       "isbn": "9780786819881",
       "publisher": "",
       "tags": {
@@ -2357,12 +2357,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780786819881"
     },
     {
-      "id": "bk-owlmoon",
+      "id": "bk-9187ee81a0d3",
       "title": "Owl Moon",
       "title_en": "",
       "author": "Jane Yolen 文 / John Schoenherr 图",
       "rating": 8.9,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s1691177.jpg",
+      "cover": "covers/bk-9187ee81a0d3.jpg",
       "isbn": "9780399214578",
       "publisher": "",
       "tags": {
@@ -2386,12 +2386,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780399214578"
     },
     {
-      "id": "bk-",
+      "id": "bk-531bb9bb4dab",
       "title": "鳄鱼怕怕牙医怕怕",
       "title_en": "",
       "author": "[日] 五味太郎",
       "rating": 8.8,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s10034078.jpg",
+      "cover": "covers/bk-531bb9bb4dab.jpg",
       "isbn": "9787532463442",
       "publisher": "少年儿童出版社",
       "tags": {
@@ -2415,12 +2415,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787532463442"
     },
     {
-      "id": "bk-",
+      "id": "bk-a53ba5da880a",
       "title": "我讨厌妈妈",
       "title_en": "",
       "author": "[日] 酒井驹子",
       "rating": 8.8,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s4224052.jpg",
+      "cover": "covers/bk-a53ba5da880a.jpg",
       "isbn": "9787544237185",
       "publisher": "南海出版公司",
       "tags": {
@@ -2443,12 +2443,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787544237185"
     },
     {
-      "id": "bk-",
+      "id": "bk-54fd64319e46",
       "title": "我爸爸",
       "title_en": "My Dad",
       "author": "[英] 安东尼·布朗",
       "rating": 8.8,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s2449523.jpg",
+      "cover": "covers/bk-54fd64319e46.jpg",
       "isbn": "9787543464582",
       "publisher": "河北教育出版社",
       "tags": {
@@ -2471,12 +2471,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787543464582"
     },
     {
-      "id": "bk-",
+      "id": "bk-c40ea4334f53",
       "title": "我妈妈",
       "title_en": "My Mum",
       "author": "[英] 安东尼·布朗",
       "rating": 8.8,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s23660957.jpg",
+      "cover": "covers/bk-c40ea4334f53.jpg",
       "isbn": "9787543464575",
       "publisher": "河北教育出版社",
       "tags": {
@@ -2499,12 +2499,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787543464575"
     },
     {
-      "id": "bk-",
+      "id": "bk-ed9588ba2c62",
       "title": "棕色的熊、棕色的熊，你在看什么？",
       "title_en": "",
       "author": "[美] 比尔·马丁 文 / 艾瑞·卡尔 绘",
       "rating": 8.8,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s3958238.jpg",
+      "cover": "covers/bk-ed9588ba2c62.jpg",
       "isbn": "9787533258764",
       "publisher": "明天出版社",
       "tags": {
@@ -2526,12 +2526,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787533258764"
     },
     {
-      "id": "bk-",
+      "id": "bk-e6a30f442546",
       "title": "和甘伯伯去游河",
       "title_en": "",
       "author": "[英] 约翰·伯宁罕",
       "rating": 8.8,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s34015192.jpg",
+      "cover": "covers/bk-e6a30f442546.jpg",
       "isbn": "9787543468849",
       "publisher": "河北教育出版社",
       "tags": {
@@ -2554,12 +2554,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787543468849"
     },
     {
-      "id": "bk-",
+      "id": "bk-fa03519da647",
       "title": "抱抱",
       "title_en": "",
       "author": "[英] 杰兹·阿波罗",
       "rating": 8.8,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s6022638.jpg",
+      "cover": "covers/bk-fa03519da647.jpg",
       "isbn": "9787533258795",
       "publisher": "明天出版社",
       "tags": {
@@ -2582,12 +2582,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787533258795"
     },
     {
-      "id": "bk-",
+      "id": "bk-bfc0be3da60e",
       "title": "让路给小鸭子",
       "title_en": "",
       "author": "[美] 罗伯特·麦克洛斯基",
       "rating": 8.8,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s4056126.jpg",
+      "cover": "covers/bk-bfc0be3da60e.jpg",
       "isbn": "9787543473577",
       "publisher": "河北教育出版社",
       "tags": {
@@ -2610,12 +2610,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787543473577"
     },
     {
-      "id": "bk-",
+      "id": "bk-f1b29b3d8a03",
       "title": "牙齿大街的新鲜事",
       "title_en": "",
       "author": "[德] 安娜·鲁斯曼",
       "rating": 8.8,
-      "cover": "https://img2.doubanio.com/view/subject/l/public/s6790181.jpg",
+      "cover": "covers/bk-f1b29b3d8a03.jpg",
       "isbn": "9787530451359",
       "publisher": "北京科学技术出版社",
       "tags": {
@@ -2637,12 +2637,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787530451359"
     },
     {
-      "id": "bk-",
+      "id": "bk-90863ce79d6d",
       "title": "小石狮",
       "title_en": "",
       "author": "熊亮",
       "rating": 8.8,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s3076449.jpg",
+      "cover": "covers/bk-90863ce79d6d.jpg",
       "isbn": "9787533254636",
       "publisher": "明天出版社",
       "tags": {
@@ -2664,12 +2664,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787533254636"
     },
     {
-      "id": "bk-",
+      "id": "bk-d730da773948",
       "title": "要是你给老鼠吃饼干",
       "title_en": "",
       "author": "[美] 劳拉·乔菲·努梅罗夫 文 / 费利西亚·邦德 图",
       "rating": 8.8,
-      "cover": "https://img2.doubanio.com/view/subject/l/public/s1670061.jpg",
+      "cover": "covers/bk-d730da773948.jpg",
       "isbn": "9787532466399",
       "publisher": "少年儿童出版社",
       "tags": {
@@ -2691,12 +2691,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787532466399"
     },
     {
-      "id": "bk-",
+      "id": "bk-75c4f8363b64",
       "title": "约瑟夫有件旧外套",
       "title_en": "",
       "author": "[美] 西姆斯·塔贝克",
       "rating": 8.8,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s34015182.jpg",
+      "cover": "covers/bk-75c4f8363b64.jpg",
       "isbn": "9787543468924",
       "publisher": "河北教育出版社",
       "tags": {
@@ -2718,12 +2718,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787543468924"
     },
     {
-      "id": "bk-greeneggsandham",
+      "id": "bk-a7f4a9068892",
       "title": "Green Eggs and Ham",
       "title_en": "",
       "author": "Dr. Seuss 文/图",
       "rating": 8.8,
-      "cover": "https://img2.doubanio.com/view/subject/l/public/s4573411.jpg",
+      "cover": "covers/bk-a7f4a9068892.jpg",
       "isbn": "9780394800165",
       "publisher": "",
       "tags": {
@@ -2747,12 +2747,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780394800165"
     },
     {
-      "id": "bk-knufflebunnyacau",
+      "id": "bk-c420917ecfc9",
       "title": "Knuffle Bunny: A Cautionary Tale",
       "title_en": "",
       "author": "Mo Willems 文/图",
       "rating": 8.8,
-      "cover": "https://img2.doubanio.com/view/subject/l/public/s11246461.jpg",
+      "cover": "covers/bk-c420917ecfc9.jpg",
       "isbn": "9780786818709",
       "publisher": "",
       "tags": {
@@ -2775,12 +2775,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780786818709"
     },
     {
-      "id": "bk-",
+      "id": "bk-6f96e97a893b",
       "title": "爱德华的奇妙之旅",
       "title_en": "",
       "author": "[美] 凯特·迪卡米洛 文 / 马格拉姆·伊巴图林 绘",
       "rating": 8.7,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s24973480.jpg",
+      "cover": "covers/bk-6f96e97a893b.jpg",
       "isbn": "9787530739488",
       "publisher": "新蕾出版社",
       "tags": {
@@ -2804,12 +2804,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787530739488"
     },
     {
-      "id": "bk-",
+      "id": "bk-d5fd3e5b8137",
       "title": "当世界年纪还小的时候",
       "title_en": "",
       "author": "[德] 于尔克·舒比格 文 / 罗特劳特·苏珊娜·贝尔纳 图",
       "rating": 8.7,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s1886517.jpg",
+      "cover": "covers/bk-d5fd3e5b8137.jpg",
       "isbn": "9787536539433",
       "publisher": "四川少年儿童出版社",
       "tags": {
@@ -2831,12 +2831,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787536539433"
     },
     {
-      "id": "bk-",
+      "id": "bk-0025c540bc91",
       "title": "是谁嗯嗯在我的头上",
       "title_en": "",
       "author": "[德] 维尔纳·霍尔茨瓦特 文 / 沃尔夫·埃布鲁赫 图",
       "rating": 8.7,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s3922706.jpg",
+      "cover": "covers/bk-0025c540bc91.jpg",
       "isbn": "9787543464629",
       "publisher": "河北教育出版社",
       "tags": {
@@ -2859,12 +2859,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787543464629"
     },
     {
-      "id": "bk-",
+      "id": "bk-7c3b911a9e6f",
       "title": "大卫，不可以",
       "title_en": "No, David!",
       "author": "[美] 大卫·香农",
       "rating": 8.7,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s5850464.jpg",
+      "cover": "covers/bk-7c3b911a9e6f.jpg",
       "isbn": "9787543464636",
       "publisher": "河北教育出版社",
       "tags": {
@@ -2886,12 +2886,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787543464636"
     },
     {
-      "id": "bk-",
+      "id": "bk-781301cb89f8",
       "title": "勇气",
       "title_en": "",
       "author": "[美] 伯纳德·韦伯",
       "rating": 8.7,
-      "cover": "https://img2.doubanio.com/view/subject/l/public/s2364291.jpg",
+      "cover": "covers/bk-781301cb89f8.jpg",
       "isbn": "9787544236492",
       "publisher": "南海出版公司",
       "tags": {
@@ -2913,12 +2913,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787544236492"
     },
     {
-      "id": "bk-",
+      "id": "bk-ed710b1d63f0",
       "title": "月亮的味道",
       "title_en": "A Taste of the Moon",
       "author": "[瑞士] 麦克·格雷涅茨",
       "rating": 8.7,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s1988287.jpg",
+      "cover": "covers/bk-ed710b1d63f0.jpg",
       "isbn": "9787539135892",
       "publisher": "二十一世纪出版社",
       "tags": {
@@ -2940,12 +2940,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787539135892"
     },
     {
-      "id": "bk-",
+      "id": "bk-0b6d4592f4c3",
       "title": "当世界还不存在的时候",
       "title_en": "",
       "author": "[德] 弗朗茨·霍勒 文 / 尤塔·鲍尔 图",
       "rating": 8.7,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s27224956.jpg",
+      "cover": "covers/bk-0b6d4592f4c3.jpg",
       "isbn": "9787536550988",
       "publisher": "四川少年儿童出版社",
       "tags": {
@@ -2967,12 +2967,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787536550988"
     },
     {
-      "id": "bk-",
+      "id": "bk-048893a9ee3c",
       "title": "爱花的牛",
       "title_en": "",
       "author": "[美] 曼罗·里夫 文 / 罗伯特·劳森 图",
       "rating": 8.7,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s34013492.jpg",
+      "cover": "covers/bk-048893a9ee3c.jpg",
       "isbn": "9787539141428",
       "publisher": "二十一世纪出版社",
       "tags": {
@@ -2995,12 +2995,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787539141428"
     },
     {
-      "id": "bk-",
+      "id": "bk-81fbaa817628",
       "title": "我喜欢你",
       "title_en": "",
       "author": "[美] 桑德尔·斯托达德·沃伯格",
       "rating": 8.7,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s1229173.jpg",
+      "cover": "covers/bk-81fbaa817628.jpg",
       "isbn": "9787544226462",
       "publisher": "",
       "tags": {
@@ -3022,12 +3022,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787544226462"
     },
     {
-      "id": "bk-bigcatlittlecat",
+      "id": "bk-5b8c77c52853",
       "title": "Big Cat, Little Cat",
       "title_en": "",
       "author": "Elisha Cooper 文/图",
       "rating": 8.7,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s33814274.jpg",
+      "cover": "covers/bk-5b8c77c52853.jpg",
       "isbn": "9781626723719",
       "publisher": "",
       "tags": {
@@ -3050,12 +3050,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9781626723719"
     },
     {
-      "id": "bk-thesnowyday",
+      "id": "bk-8694cac63e09",
       "title": "The Snowy Day",
       "title_en": "",
       "author": "Ezra Jack Keats 文/图",
       "rating": 8.7,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s6870043.jpg",
+      "cover": "covers/bk-8694cac63e09.jpg",
       "isbn": "9780140501827",
       "publisher": "",
       "tags": {
@@ -3077,12 +3077,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780140501827"
     },
     {
-      "id": "bk-",
+      "id": "bk-8f0131910bb7",
       "title": "月亮，生日快乐",
       "title_en": "",
       "author": "[美] 法兰克·艾许",
       "rating": 8.6,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s1657546.jpg",
+      "cover": "covers/bk-8f0131910bb7.jpg",
       "isbn": "9787532467365",
       "publisher": "少年儿童出版社",
       "tags": {
@@ -3105,12 +3105,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787532467365"
     },
     {
-      "id": "bk-",
+      "id": "bk-a1a53b8e286e",
       "title": "风到哪里去了",
       "title_en": "",
       "author": "[美] 夏洛特·左罗托夫 文 / 斯蒂芬诺·维塔 图",
       "rating": 8.6,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s1743159.jpg",
+      "cover": "covers/bk-a1a53b8e286e.jpg",
       "isbn": "9787532469383",
       "publisher": "少年儿童出版社",
       "tags": {
@@ -3133,12 +3133,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787532469383"
     },
     {
-      "id": "bk-",
+      "id": "bk-37f199747e21",
       "title": "一片叶子落下来",
       "title_en": "",
       "author": "[美] 利奥·巴斯卡利亚",
       "rating": 8.6,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s2131628.jpg",
+      "cover": "covers/bk-37f199747e21.jpg",
       "isbn": "9787544233637",
       "publisher": "南海出版公司",
       "tags": {
@@ -3160,12 +3160,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787544233637"
     },
     {
-      "id": "bk-",
+      "id": "bk-bebb24d87a39",
       "title": "我不知道我是谁",
       "title_en": "",
       "author": "[英] 乔恩·布莱克 文 / 阿克塞尔·舍夫勒 图",
       "rating": 8.6,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s2615324.jpg",
+      "cover": "covers/bk-bebb24d87a39.jpg",
       "isbn": "9787544237703",
       "publisher": "南海出版公司",
       "tags": {
@@ -3188,12 +3188,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787544237703"
     },
     {
-      "id": "bk-",
+      "id": "bk-d472478b9193",
       "title": "奥莉薇",
       "title_en": "",
       "author": "[美] 伊恩·福尔克纳",
       "rating": 8.6,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s29274023.jpg",
+      "cover": "covers/bk-d472478b9193.jpg",
       "isbn": "9787543464551",
       "publisher": "河北教育出版社",
       "tags": {
@@ -3215,12 +3215,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787543464551"
     },
     {
-      "id": "bk-",
+      "id": "bk-a0bcb59b1203",
       "title": "安的种子",
       "title_en": "",
       "author": "王早早 文 / 黄丽 图",
       "rating": 8.6,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s6632600.jpg",
+      "cover": "covers/bk-a0bcb59b1203.jpg",
       "isbn": "9787535039200",
       "publisher": "海燕出版社",
       "tags": {
@@ -3243,12 +3243,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787535039200"
     },
     {
-      "id": "bk-",
+      "id": "bk-a1c6a18e179f",
       "title": "纽扣士兵",
       "title_en": "",
       "author": "九儿",
       "rating": 8.6,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s33644850.jpg",
+      "cover": "covers/bk-a1c6a18e179f.jpg",
       "isbn": "9787221155818",
       "publisher": "贵州人民出版社",
       "tags": {
@@ -3270,12 +3270,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787221155818"
     },
     {
-      "id": "bk-corduroy",
+      "id": "bk-7f2669e5e1a2",
       "title": "Corduroy",
       "title_en": "",
       "author": "Don Freeman 文/图",
       "rating": 8.6,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s2802207.jpg",
+      "cover": "covers/bk-7f2669e5e1a2.jpg",
       "isbn": "9780590757751",
       "publisher": "",
       "tags": {
@@ -3297,12 +3297,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780590757751"
     },
     {
-      "id": "bk-",
+      "id": "bk-161babb55abf",
       "title": "石头汤",
       "title_en": "Stone Soup",
       "author": "[美] 琼·穆特",
       "rating": 8.5,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s2561352.jpg",
+      "cover": "covers/bk-161babb55abf.jpg",
       "isbn": "9787544237475",
       "publisher": "南海出版公司",
       "tags": {
@@ -3325,12 +3325,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787544237475"
     },
     {
-      "id": "bk-",
+      "id": "bk-c29b35c2de65",
       "title": "母鸡萝丝去散步",
       "title_en": "Rosie's Walk",
       "author": "[英] 佩特·哈群斯",
       "rating": 8.5,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s1670039.jpg",
+      "cover": "covers/bk-c29b35c2de65.jpg",
       "isbn": "9787532467396",
       "publisher": "少年儿童出版社",
       "tags": {
@@ -3353,12 +3353,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787532467396"
     },
     {
-      "id": "bk-",
+      "id": "bk-48b5947f34ec",
       "title": "孤单的小狗",
       "title_en": "",
       "author": "[日] 奈良美智",
       "rating": 8.5,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s34246520.jpg",
+      "cover": "covers/bk-48b5947f34ec.jpg",
       "isbn": "9787513349246",
       "publisher": "新星出版社",
       "tags": {
@@ -3381,12 +3381,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787513349246"
     },
     {
-      "id": "bk-",
+      "id": "bk-5f256c3910dc",
       "title": "大脚丫跳芭蕾",
       "title_en": "",
       "author": "[美] 埃米·扬",
       "rating": 8.5,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s2449568.jpg",
+      "cover": "covers/bk-5f256c3910dc.jpg",
       "isbn": "9787543464544",
       "publisher": "河北教育出版社",
       "tags": {
@@ -3409,12 +3409,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787543464544"
     },
     {
-      "id": "bk-",
+      "id": "bk-e63d80554623",
       "title": "菲菲生气了",
       "title_en": "",
       "author": "[美] 莫莉·卞",
       "rating": 8.5,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s3682266.jpg",
+      "cover": "covers/bk-e63d80554623.jpg",
       "isbn": "9787543470781",
       "publisher": "河北教育出版社",
       "tags": {
@@ -3436,12 +3436,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787543470781"
     },
     {
-      "id": "bk-",
+      "id": "bk-e2622eaaeca6",
       "title": "第五个",
       "title_en": "",
       "author": "[奥] 恩斯特·杨德尔 文 / [德] 诺尔曼·荣格 图",
       "rating": 8.5,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s8974072.jpg",
+      "cover": "covers/bk-e2622eaaeca6.jpg",
       "isbn": "9787544236485",
       "publisher": "南海出版公司",
       "tags": {
@@ -3464,12 +3464,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787544236485"
     },
     {
-      "id": "bk-",
+      "id": "bk-b167cf0762c2",
       "title": "驴小弟变石头",
       "title_en": "",
       "author": "[美] 威廉·史塔克",
       "rating": 8.5,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s1482589.jpg",
+      "cover": "covers/bk-b167cf0762c2.jpg",
       "isbn": "9787532467211",
       "publisher": "少年儿童出版社",
       "tags": {
@@ -3491,12 +3491,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787532467211"
     },
     {
-      "id": "bk-",
+      "id": "bk-002cea27941d",
       "title": "彩虹色的花",
       "title_en": "The Rainbow Flower",
       "author": "[波兰] 麦克·格雷涅茨 图 / 细野绫子 文",
       "rating": 8.5,
-      "cover": "https://img2.doubanio.com/view/subject/l/public/s33448911.jpg",
+      "cover": "covers/bk-002cea27941d.jpg",
       "isbn": "9787539130460",
       "publisher": "二十一世纪出版社",
       "tags": {
@@ -3519,12 +3519,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787539130460"
     },
     {
-      "id": "bk-",
+      "id": "bk-8d0dddb74886",
       "title": "瞬间收藏家",
       "title_en": "",
       "author": "[德] 布赫兹",
       "rating": 8.5,
-      "cover": "https://img2.doubanio.com/view/subject/l/public/s2059831.jpg",
+      "cover": "covers/bk-8d0dddb74886.jpg",
       "isbn": "9787208052666",
       "publisher": "上海人民出版社",
       "tags": {
@@ -3546,12 +3546,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787208052666"
     },
     {
-      "id": "bk-",
+      "id": "bk-bd675e872cb5",
       "title": "灶王爷",
       "title_en": "",
       "author": "熊亮",
       "rating": 8.5,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s3076456.jpg",
+      "cover": "covers/bk-bd675e872cb5.jpg",
       "isbn": "9787533254681",
       "publisher": "明天出版社",
       "tags": {
@@ -3573,12 +3573,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787533254681"
     },
     {
-      "id": "bk-",
+      "id": "bk-c1407d6d2f5e",
       "title": "公主怎么挖鼻屎",
       "title_en": "",
       "author": "李卓颖",
       "rating": 8.5,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s28637337.jpg",
+      "cover": "covers/bk-c1407d6d2f5e.jpg",
       "isbn": "9787533288181",
       "publisher": "明天出版社",
       "tags": {
@@ -3601,12 +3601,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787533288181"
     },
     {
-      "id": "bk-chickachickaboom",
+      "id": "bk-c8e3e9eb4afc",
       "title": "Chicka Chicka Boom Boom",
       "title_en": "",
       "author": "Bill Martin Jr. & John Archambault 文 / Lois Ehlert 图",
       "rating": 8.5,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s6576674.jpg",
+      "cover": "covers/bk-c8e3e9eb4afc.jpg",
       "isbn": "9780689835681",
       "publisher": "",
       "tags": {
@@ -3630,12 +3630,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780689835681"
     },
     {
-      "id": "bk-alexanderandthet",
+      "id": "bk-ce8f63fa4d36",
       "title": "Alexander and the Terrible, Horrible, No Good, Very Bad Day",
       "title_en": "",
       "author": "Judith Viorst 文 / Ray Cruz 图",
       "rating": 8.5,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s4825248.jpg",
+      "cover": "covers/bk-ce8f63fa4d36.jpg",
       "isbn": "9780689711732",
       "publisher": "",
       "tags": {
@@ -3659,12 +3659,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780689711732"
     },
     {
-      "id": "bk-loveyouforever",
+      "id": "bk-abf1f4008c06",
       "title": "Love You Forever",
       "title_en": "",
       "author": "Robert Munsch 文 / Sheila McGraw 图",
       "rating": 8.5,
-      "cover": "https://img2.doubanio.com/view/subject/l/public/s1505901.jpg",
+      "cover": "covers/bk-abf1f4008c06.jpg",
       "isbn": "9780920668375",
       "publisher": "",
       "tags": {
@@ -3688,12 +3688,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780920668375"
     },
     {
-      "id": "bk-",
+      "id": "bk-d79b7102fc5e",
       "title": "独生小孩",
       "title_en": "",
       "author": "郭婧",
       "rating": 8.4,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s34008054.jpg",
+      "cover": "covers/bk-d79b7102fc5e.jpg",
       "isbn": "9787508662688",
       "publisher": "中信出版社",
       "tags": {
@@ -3716,12 +3716,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787508662688"
     },
     {
-      "id": "bk-",
+      "id": "bk-44a5a0c8d47c",
       "title": "三只小猪的真实故事",
       "title_en": "",
       "author": "[美] 约翰·席斯卡 文 / 兰·史密斯 图",
       "rating": 8.4,
-      "cover": "https://img2.doubanio.com/view/subject/l/public/s34012441.jpg",
+      "cover": "covers/bk-44a5a0c8d47c.jpg",
       "isbn": "9787543464612",
       "publisher": "河北教育出版社",
       "tags": {
@@ -3745,12 +3745,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787543464612"
     },
     {
-      "id": "bk-",
+      "id": "bk-f3182b389347",
       "title": "三个强盗",
       "title_en": "",
       "author": "[法] 汤米·温格尔",
       "rating": 8.4,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s1805908.jpg",
+      "cover": "covers/bk-f3182b389347.jpg",
       "isbn": "9787532468201",
       "publisher": "少年儿童出版社",
       "tags": {
@@ -3773,12 +3773,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787532468201"
     },
     {
-      "id": "bk-",
+      "id": "bk-3ba75625376b",
       "title": "小小的王国",
       "title_en": "",
       "author": "[以色列] 埃特加·凯雷特 文 / 塔米·巴扎雷利 图",
       "rating": 8.4,
-      "cover": "https://img2.doubanio.com/view/subject/l/public/s33615861.jpg",
+      "cover": "covers/bk-3ba75625376b.jpg",
       "isbn": "9787535690609",
       "publisher": "湖南美术出版社",
       "tags": {
@@ -3801,12 +3801,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787535690609"
     },
     {
-      "id": "bk-",
+      "id": "bk-4ce14b901528",
       "title": "棉婆婆睡不着",
       "title_en": "",
       "author": "廖小琴 文",
       "rating": 8.4,
-      "cover": "https://img2.doubanio.com/view/subject/l/public/s27964771.jpg",
+      "cover": "covers/bk-4ce14b901528.jpg",
       "isbn": "9787533282110",
       "publisher": "明天出版社",
       "tags": {
@@ -3829,12 +3829,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787533282110"
     },
     {
-      "id": "bk-thetaleofpeterra",
+      "id": "bk-1f8cc5bd770f",
       "title": "The Tale of Peter Rabbit",
       "title_en": "",
       "author": "Beatrix Potter 文/图",
       "rating": 8.4,
-      "cover": "https://img2.doubanio.com/view/subject/l/public/s4312181.jpg",
+      "cover": "covers/bk-1f8cc5bd770f.jpg",
       "isbn": "9780723247708",
       "publisher": "",
       "tags": {
@@ -3856,12 +3856,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780723247708"
     },
     {
-      "id": "bk-",
+      "id": "bk-647e4d980978",
       "title": "牙齿，牙齿，扔屋顶",
       "title_en": "",
       "author": "刘洵",
       "rating": 8.3,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s28284342.jpg",
+      "cover": "covers/bk-647e4d980978.jpg",
       "isbn": "9787507219371",
       "publisher": "中国中福会出版社",
       "tags": {
@@ -3883,12 +3883,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787507219371"
     },
     {
-      "id": "bk-",
+      "id": "bk-e552f4e93a1e",
       "title": "一园青菜成了精",
       "title_en": "",
       "author": "周翔 绘",
       "rating": 8.2,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s6568875.jpg",
+      "cover": "covers/bk-e552f4e93a1e.jpg",
       "isbn": "9787533257545",
       "publisher": "明天出版社",
       "tags": {
@@ -3910,12 +3910,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787533257545"
     },
     {
-      "id": "bk-",
+      "id": "bk-857c4d28218f",
       "title": "喀哒喀哒喀哒",
       "title_en": "",
       "author": "林小杯",
       "rating": 8.2,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s28866572.jpg",
+      "cover": "covers/bk-857c4d28218f.jpg",
       "isbn": "9787550265257",
       "publisher": "北京联合出版公司",
       "tags": {
@@ -3937,12 +3937,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787550265257"
     },
     {
-      "id": "bk-",
+      "id": "bk-e7b916304cfb",
       "title": "外婆住在香水村",
       "title_en": "",
       "author": "方素珍",
       "rating": 8.2,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s27994653.jpg",
+      "cover": "covers/bk-e7b916304cfb.jpg",
       "isbn": "9787514819571",
       "publisher": "中国少年儿童出版社",
       "tags": {
@@ -3965,12 +3965,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787514819571"
     },
     {
-      "id": "bk-",
+      "id": "bk-791540a02bc4",
       "title": "荷花镇的早市",
       "title_en": "",
       "author": "周翔",
       "rating": 8.1,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s34015239.jpg",
+      "cover": "covers/bk-791540a02bc4.jpg",
       "isbn": "9787539134055",
       "publisher": "二十一世纪出版社",
       "tags": {
@@ -3992,12 +3992,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787539134055"
     },
     {
-      "id": "bk-",
+      "id": "bk-3c69d8835293",
       "title": "我看见一只鸟",
       "title_en": "",
       "author": "刘伯乐",
       "rating": 8.0,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s27328094.jpg",
+      "cover": "covers/bk-3c69d8835293.jpg",
       "isbn": "9787533279394",
       "publisher": "明天出版社",
       "tags": {
@@ -4019,12 +4019,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787533279394"
     },
     {
-      "id": "bk-watercress",
+      "id": "bk-48e181e97da6",
       "title": "Watercress",
       "title_en": "",
       "author": "Andrea Wang 文 / Jason Chin 图",
       "rating": 7.7,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s33869662.jpg",
+      "cover": "covers/bk-48e181e97da6.jpg",
       "isbn": "9780823446247",
       "publisher": "",
       "tags": {
@@ -4048,12 +4048,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780823446247"
     },
     {
-      "id": "bk-abigmooncakeforl",
+      "id": "bk-09e230c72852",
       "title": "A Big Mooncake for Little Star",
       "title_en": "",
       "author": "Grace Lin 文/图",
       "rating": 7.6,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s34323020.jpg",
+      "cover": "covers/bk-09e230c72852.jpg",
       "isbn": "9780316404488",
       "publisher": "",
       "tags": {
@@ -4076,12 +4076,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780316404488"
     },
     {
-      "id": "bk-almaandhowshegot",
+      "id": "bk-32713550bca2",
       "title": "Alma and How She Got Her Name",
       "title_en": "",
       "author": "Juana Martinez-Neal 文/图",
       "rating": 7.5,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s29992152.jpg",
+      "cover": "covers/bk-32713550bca2.jpg",
       "isbn": "9780763693558",
       "publisher": "",
       "tags": {
@@ -4104,12 +4104,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780763693558"
     },
     {
-      "id": "bk-radiantchildthes",
+      "id": "bk-bf7f2861d62d",
       "title": "Radiant Child: The Story of Young Artist Jean-Michel Basquiat",
       "title_en": "",
       "author": "Javaka Steptoe 文/图",
       "rating": 7.4,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s29230416.jpg",
+      "cover": "covers/bk-bf7f2861d62d.jpg",
       "isbn": "9780316213882",
       "publisher": "",
       "tags": {
@@ -4133,12 +4133,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780316213882"
     },
     {
-      "id": "bk-wearewaterprotec",
+      "id": "bk-923af3ed1a49",
       "title": "We Are Water Protectors",
       "title_en": "",
       "author": "Carole Lindstrom 文 / Michaela Goade 图",
       "rating": 7.3,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s33997890.jpg",
+      "cover": "covers/bk-923af3ed1a49.jpg",
       "isbn": "9781250203557",
       "publisher": "",
       "tags": {
@@ -4161,12 +4161,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9781250203557"
     },
     {
-      "id": "bk-therainbowfish",
+      "id": "bk-b102c3d104e7",
       "title": "The Rainbow Fish",
       "title_en": "",
       "author": "Marcus Pfister 文/图",
       "rating": 7.3,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s24942492.jpg",
+      "cover": "covers/bk-b102c3d104e7.jpg",
       "isbn": "9781558585362",
       "publisher": "",
       "tags": {
@@ -4189,12 +4189,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9781558585362"
     },
     {
-      "id": "bk-",
+      "id": "bk-5aec7450a42f",
       "title": "不要和青蛙跳绳",
       "title_en": "",
       "author": "彭懿 文 / 九儿 图",
       "rating": 7.1,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s29084685.jpg",
+      "cover": "covers/bk-5aec7450a42f.jpg",
       "isbn": "9787544840712",
       "publisher": "接力出版社",
       "tags": {
@@ -4218,12 +4218,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787544840712"
     },
     {
-      "id": "bk-",
+      "id": "bk-1b7bbeac4e57",
       "title": "最可怕的一天",
       "title_en": "",
       "author": "汤姆牛",
       "rating": 7.0,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s27190453.jpg",
+      "cover": "covers/bk-1b7bbeac4e57.jpg",
       "isbn": "9787550220355",
       "publisher": "北京联合出版公司",
       "tags": {
@@ -4245,12 +4245,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9787550220355"
     },
     {
-      "id": "bk-wolfinthesnow",
+      "id": "bk-cc906ef3f157",
       "title": "Wolf in the Snow",
       "title_en": "",
       "author": "Matthew Cordell 文/图",
       "rating": 7.0,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s33783017.jpg",
+      "cover": "covers/bk-cc906ef3f157.jpg",
       "isbn": "9781250076366",
       "publisher": "",
       "tags": {
@@ -4272,7 +4272,7 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9781250076366"
     },
     {
-      "id": "bk-leavemealone",
+      "id": "bk-2cdb9ac47f59",
       "title": "Leave Me Alone!",
       "title_en": "",
       "author": "Vera Brosgol 文/图",
@@ -4299,12 +4299,12 @@
       "goodreads_url": ""
     },
     {
-      "id": "bk-freedomincongosq",
+      "id": "bk-27fbff4828c6",
       "title": "Freedom in Congo Square",
       "title_en": "",
       "author": "Carole Boston Weatherford 文 / R. Gregory Christie 图",
       "rating": null,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s29920886.jpg",
+      "cover": "covers/bk-27fbff4828c6.jpg",
       "isbn": "9781499801033",
       "publisher": "",
       "tags": {
@@ -4326,12 +4326,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9781499801033"
     },
     {
-      "id": "bk-crownanodetothef",
+      "id": "bk-02f1f9093fde",
       "title": "Crown: An Ode to the Fresh Cut",
       "title_en": "",
       "author": "Derrick Barnes 文 / Gordon C. James 图",
       "rating": null,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s29777104.jpg",
+      "cover": "covers/bk-02f1f9093fde.jpg",
       "isbn": "9781572842243",
       "publisher": "",
       "tags": {
@@ -4354,12 +4354,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9781572842243"
     },
     {
-      "id": "bk-adifferentpond",
+      "id": "bk-d9ddc0884210",
       "title": "A Different Pond",
       "title_en": "",
       "author": "Bao Phi 文 / Thi Bui 图",
       "rating": null,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s29653325.jpg",
+      "cover": "covers/bk-d9ddc0884210.jpg",
       "isbn": "9781623708030",
       "publisher": "",
       "tags": {
@@ -4383,7 +4383,7 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9781623708030"
     },
     {
-      "id": "bk-grandcanyon",
+      "id": "bk-9167398895f4",
       "title": "Grand Canyon",
       "title_en": "",
       "author": "Jason Chin 文/图",
@@ -4411,12 +4411,12 @@
       "goodreads_url": ""
     },
     {
-      "id": "bk-thankyouomu",
+      "id": "bk-85927f6e02b5",
       "title": "Thank You, Omu!",
       "title_en": "",
       "author": "Oge Mora 文/图",
       "rating": null,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s33783013.jpg",
+      "cover": "covers/bk-85927f6e02b5.jpg",
       "isbn": "9780316431248",
       "publisher": "",
       "tags": {
@@ -4439,12 +4439,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780316431248"
     },
     {
-      "id": "bk-theundefeated",
+      "id": "bk-41e3e3d944fe",
       "title": "The Undefeated",
       "title_en": "",
       "author": "Kwame Alexander 文 / Kadir Nelson 图",
       "rating": null,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s30055668.jpg",
+      "cover": "covers/bk-41e3e3d944fe.jpg",
       "isbn": "9781328780966",
       "publisher": "",
       "tags": {
@@ -4466,12 +4466,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9781328780966"
     },
     {
-      "id": "bk-bearcamealong",
+      "id": "bk-39846fb40e99",
       "title": "Bear Came Along",
       "title_en": "",
       "author": "Richard T. Morris 文 / LeUyen Pham 图",
       "rating": null,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s34005210.jpg",
+      "cover": "covers/bk-39846fb40e99.jpg",
       "isbn": "9780316464475",
       "publisher": "",
       "tags": {
@@ -4494,12 +4494,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780316464475"
     },
     {
-      "id": "bk-doublebassblues",
+      "id": "bk-643afa2953c6",
       "title": "Double Bass Blues",
       "title_en": "",
       "author": "Andrea J. Loney 文 / Rudy Gutierrez 图",
       "rating": null,
-      "cover": "https://img2.doubanio.com/view/subject/l/public/s33568391.jpg",
+      "cover": "covers/bk-643afa2953c6.jpg",
       "isbn": "9781524718534",
       "publisher": "",
       "tags": {
@@ -4522,12 +4522,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9781524718534"
     },
     {
-      "id": "bk-goingdownhomewit",
+      "id": "bk-2dc7da77a00e",
       "title": "Going Down Home with Daddy",
       "title_en": "",
       "author": "Kelly Starling Lyons 文 / Daniel Minter 图",
       "rating": null,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s33566797.jpg",
+      "cover": "covers/bk-2dc7da77a00e.jpg",
       "isbn": "9781561459384",
       "publisher": "",
       "tags": {
@@ -4551,12 +4551,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9781561459384"
     },
     {
-      "id": "bk-aplaceinsideofme",
+      "id": "bk-a3596aea01bb",
       "title": "A Place Inside of Me",
       "title_en": "",
       "author": "Zetta Elliott 文 / Noa Denmon 图",
       "rating": null,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s33815246.jpg",
+      "cover": "covers/bk-a3596aea01bb.jpg",
       "isbn": "9780374307417",
       "publisher": "",
       "tags": {
@@ -4579,12 +4579,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780374307417"
     },
     {
-      "id": "bk-thecatmanofalepp",
+      "id": "bk-e7bd45ddc162",
       "title": "The Cat Man of Aleppo",
       "title_en": "",
       "author": "Irene Latham & Karim Shamsi-Basha 文 / Yuko Shimizu 图",
       "rating": null,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s33815248.jpg",
+      "cover": "covers/bk-e7bd45ddc162.jpg",
       "isbn": "9781984813787",
       "publisher": "",
       "tags": {
@@ -4607,12 +4607,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9781984813787"
     },
     {
-      "id": "bk-memama",
+      "id": "bk-2ea1dcd1fd0b",
       "title": "Me & Mama",
       "title_en": "",
       "author": "Cozbi A. Cabrera 文/图",
       "rating": null,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s33815244.jpg",
+      "cover": "covers/bk-2ea1dcd1fd0b.jpg",
       "isbn": "9781534454217",
       "publisher": "",
       "tags": {
@@ -4634,7 +4634,7 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9781534454217"
     },
     {
-      "id": "bk-outsidein",
+      "id": "bk-eca0ec658ec9",
       "title": "Outside In",
       "title_en": "",
       "author": "Deborah Underwood 文 / Cindy Derby 图",
@@ -4662,12 +4662,12 @@
       "goodreads_url": ""
     },
     {
-      "id": "bk-melfell",
+      "id": "bk-bf7f5cf5f1b4",
       "title": "Mel Fell",
       "title_en": "",
       "author": "Corey R. Tabor 文/图",
       "rating": null,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s34107904.jpg",
+      "cover": "covers/bk-bf7f5cf5f1b4.jpg",
       "isbn": "9780062878014",
       "publisher": "",
       "tags": {
@@ -4689,12 +4689,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780062878014"
     },
     {
-      "id": "bk-unspeakablethetu",
+      "id": "bk-b94cfe49c37b",
       "title": "Unspeakable: The Tulsa Race Massacre",
       "title_en": "",
       "author": "Carole Boston Weatherford 文 / Floyd Cooper 图",
       "rating": null,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s33861524.jpg",
+      "cover": "covers/bk-b94cfe49c37b.jpg",
       "isbn": "9781541581203",
       "publisher": "",
       "tags": {
@@ -4716,12 +4716,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9781541581203"
     },
     {
-      "id": "bk-wonderwalkers",
+      "id": "bk-c5744c22a59d",
       "title": "Wonder Walkers",
       "title_en": "",
       "author": "Micha Archer 文/图",
       "rating": null,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s34693717.jpg",
+      "cover": "covers/bk-c5744c22a59d.jpg",
       "isbn": "9780593109649",
       "publisher": "",
       "tags": {
@@ -4744,7 +4744,7 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780593109649"
     },
     {
-      "id": "bk-hotdog",
+      "id": "bk-30729c4e70c1",
       "title": "Hot Dog",
       "title_en": "",
       "author": "Doug Salati 文/图",
@@ -4771,12 +4771,12 @@
       "goodreads_url": ""
     },
     {
-      "id": "bk-aintburnedallthe",
+      "id": "bk-2fe66405bf16",
       "title": "Ain't Burned All the Bright",
       "title_en": "",
       "author": "Jason Reynolds 文 / Jason Griffin 图",
       "rating": null,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s34337227.jpg",
+      "cover": "covers/bk-2fe66405bf16.jpg",
       "isbn": "9781534439467",
       "publisher": "",
       "tags": {
@@ -4799,12 +4799,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9781534439467"
     },
     {
-      "id": "bk-berrysong",
+      "id": "bk-c1e03143cb4e",
       "title": "Berry Song",
       "title_en": "",
       "author": "Michaela Goade 文/图",
       "rating": null,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s34408920.jpg",
+      "cover": "covers/bk-c1e03143cb4e.jpg",
       "isbn": "9780316494175",
       "publisher": "",
       "tags": {
@@ -4827,12 +4827,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780316494175"
     },
     {
-      "id": "bk-choosingbrave",
+      "id": "bk-ed6d58075fb1",
       "title": "Choosing Brave",
       "title_en": "",
       "author": "Angela Joy 文 / Janelle Washington 图",
       "rating": null,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s34408668.jpg",
+      "cover": "covers/bk-ed6d58075fb1.jpg",
       "isbn": "9781250220950",
       "publisher": "",
       "tags": {
@@ -4854,12 +4854,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9781250220950"
     },
     {
-      "id": "bk-knightowl",
+      "id": "bk-25ea99f5799c",
       "title": "Knight Owl",
       "title_en": "",
       "author": "Christopher Denise 文/图",
       "rating": null,
-      "cover": "https://img2.doubanio.com/view/subject/l/public/s34392741.jpg",
+      "cover": "covers/bk-25ea99f5799c.jpg",
       "isbn": "9780316310628",
       "publisher": "",
       "tags": {
@@ -4881,7 +4881,7 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780316310628"
     },
     {
-      "id": "bk-big",
+      "id": "bk-d491538da818",
       "title": "Big",
       "title_en": "",
       "author": "Vashti Harrison 文/图",
@@ -4909,12 +4909,12 @@
       "goodreads_url": ""
     },
     {
-      "id": "bk-ineverylife",
+      "id": "bk-87ae5772ab8b",
       "title": "In Every Life",
       "title_en": "",
       "author": "Marla Frazee 文/图",
       "rating": null,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s34771207.jpg",
+      "cover": "covers/bk-87ae5772ab8b.jpg",
       "isbn": "9781665912488",
       "publisher": "",
       "tags": {
@@ -4936,12 +4936,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9781665912488"
     },
     {
-      "id": "bk-jovitaworepants",
+      "id": "bk-70b99eab4929",
       "title": "Jovita Wore Pants",
       "title_en": "",
       "author": "Aida Salazar 文 / Molly Mendoza 图",
       "rating": null,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s34768092.jpg",
+      "cover": "covers/bk-70b99eab4929.jpg",
       "isbn": "9781338283419",
       "publisher": "",
       "tags": {
@@ -4963,12 +4963,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9781338283419"
     },
     {
-      "id": "bk-therewasapartyfo",
+      "id": "bk-8fb1c504777a",
       "title": "There Was a Party for Langston",
       "title_en": "",
       "author": "Jason Reynolds 文 / Jerome & Jarrett Pumphrey 图",
       "rating": null,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s34768799.jpg",
+      "cover": "covers/bk-8fb1c504777a.jpg",
       "isbn": "9781534439443",
       "publisher": "",
       "tags": {
@@ -4990,12 +4990,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9781534439443"
     },
     {
-      "id": "bk-thetruthaboutdra",
+      "id": "bk-2f3de0c847ba",
       "title": "The Truth About Dragons",
       "title_en": "",
       "author": "Julie Leung 文 / Hanna Cha 图",
       "rating": null,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s34771437.jpg",
+      "cover": "covers/bk-2f3de0c847ba.jpg",
       "isbn": "9781250820587",
       "publisher": "",
       "tags": {
@@ -5018,12 +5018,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9781250820587"
     },
     {
-      "id": "bk-choochhelped",
+      "id": "bk-120489f0f6f9",
       "title": "Chooch Helped",
       "title_en": "",
       "author": "Andrea L. Rogers 文 / Rebecca Lee Kunz 图",
       "rating": null,
-      "cover": "https://img2.doubanio.com/view/subject/l/public/s35076341.jpg",
+      "cover": "covers/bk-120489f0f6f9.jpg",
       "isbn": "9781646144549",
       "publisher": "",
       "tags": {
@@ -5046,12 +5046,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9781646144549"
     },
     {
-      "id": "bk-mydaddyisacowboy",
+      "id": "bk-6f9c4b1a9693",
       "title": "My Daddy Is a Cowboy",
       "title_en": "",
       "author": "Stephanie Seales 文 / C. G. Esperanza 图",
       "rating": null,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s35076344.jpg",
+      "cover": "covers/bk-6f9c4b1a9693.jpg",
       "isbn": "9781419760815",
       "publisher": "",
       "tags": {
@@ -5073,12 +5073,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9781419760815"
     },
     {
-      "id": "bk-noodlesonabicycl",
+      "id": "bk-848f8d679ec7",
       "title": "Noodles on a Bicycle",
       "title_en": "",
       "author": "Kyo Maclear 文 / Gracey Zhang 图",
       "rating": null,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s35071170.jpg",
+      "cover": "covers/bk-848f8d679ec7.jpg",
       "isbn": "9780593706084",
       "publisher": "",
       "tags": {
@@ -5100,12 +5100,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780593706084"
     },
     {
-      "id": "bk-homeinalunchbox",
+      "id": "bk-fc53d5bc2cdc",
       "title": "Home in a Lunchbox",
       "title_en": "",
       "author": "Cherry Mo 文/图",
       "rating": null,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s35071133.jpg",
+      "cover": "covers/bk-fc53d5bc2cdc.jpg",
       "isbn": "9780593661345",
       "publisher": "",
       "tags": {
@@ -5129,12 +5129,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780593661345"
     },
     {
-      "id": "bk-upupeverupjunkot",
+      "id": "bk-b5569c149be3",
       "title": "Up, Up, Ever Up! Junko Tabei",
       "title_en": "",
       "author": "Anita Yasuda 文 / Yuko Shimizu 图",
       "rating": null,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s35048592.jpg",
+      "cover": "covers/bk-b5569c149be3.jpg",
       "isbn": "9780063242418",
       "publisher": "",
       "tags": {
@@ -5158,7 +5158,7 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780063242418"
     },
     {
-      "id": "bk-fireworks",
+      "id": "bk-10721d3ee4b8",
       "title": "Fireworks",
       "title_en": "",
       "author": "Matthew Burgess 文 / Cátia Chien 图",
@@ -5185,12 +5185,12 @@
       "goodreads_url": ""
     },
     {
-      "id": "bk-everymondaymabel",
+      "id": "bk-5259ef8acfd5",
       "title": "Every Monday Mabel",
       "title_en": "",
       "author": "Jashar Awan 文/图",
       "rating": null,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s35337439.jpg",
+      "cover": "covers/bk-5259ef8acfd5.jpg",
       "isbn": "9781665938150",
       "publisher": "",
       "tags": {
@@ -5212,12 +5212,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9781665938150"
     },
     {
-      "id": "bk-ourlake",
+      "id": "bk-ae3b670f30fe",
       "title": "Our Lake",
       "title_en": "",
       "author": "Angie Kang 文/图",
       "rating": null,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s35337827.jpg",
+      "cover": "covers/bk-ae3b670f30fe.jpg",
       "isbn": "9780593698235",
       "publisher": "",
       "tags": {
@@ -5241,12 +5241,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780593698235"
     },
     {
-      "id": "bk-stalactitestalag",
+      "id": "bk-0f17e483cfcf",
       "title": "Stalactite & Stalagmite: A Big Tale from a Little Cave",
       "title_en": "",
       "author": "Drew Beckmeyer 文/图",
       "rating": null,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s35404313.jpg",
+      "cover": "covers/bk-0f17e483cfcf.jpg",
       "isbn": "9781665926638",
       "publisher": "",
       "tags": {
@@ -5270,12 +5270,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9781665926638"
     },
     {
-      "id": "bk-sundust",
+      "id": "bk-d86727abb902",
       "title": "Sundust",
       "title_en": "",
       "author": "Zeke Peña 文/图",
       "rating": null,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s35337440.jpg",
+      "cover": "covers/bk-d86727abb902.jpg",
       "isbn": "9780593700112",
       "publisher": "",
       "tags": {
@@ -5297,7 +5297,7 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780593700112"
     },
     {
-      "id": "bk-thecatinthehat",
+      "id": "bk-b240223dabda",
       "title": "The Cat in the Hat",
       "title_en": "",
       "author": "Dr. Seuss 文/图",
@@ -5326,7 +5326,7 @@
       "goodreads_url": ""
     },
     {
-      "id": "bk-madeline",
+      "id": "bk-5e5a1ffcf620",
       "title": "Madeline",
       "title_en": "",
       "author": "Ludwig Bemelmans 文/图",
@@ -5353,7 +5353,7 @@
       "goodreads_url": ""
     },
     {
-      "id": "bk-haroldandthepurp",
+      "id": "bk-b5e3108b0d58",
       "title": "Harold and the Purple Crayon",
       "title_en": "",
       "author": "Crockett Johnson 文/图",
@@ -5380,7 +5380,7 @@
       "goodreads_url": ""
     },
     {
-      "id": "bk-curiousgeorge",
+      "id": "bk-d1d953a6970d",
       "title": "Curious George",
       "title_en": "",
       "author": "H. A. Rey & Margret Rey 文/图",
@@ -5407,7 +5407,7 @@
       "goodreads_url": ""
     },
     {
-      "id": "bk-tuesday",
+      "id": "bk-5792315f09a5",
       "title": "Tuesday",
       "title_en": "",
       "author": "David Wiesner 文/图",
@@ -5434,12 +5434,12 @@
       "goodreads_url": ""
     },
     {
-      "id": "bk-thesearchfortheg",
+      "id": "bk-5b50ac706144",
       "title": "The Search for the Giant Arctic Jellyfish",
       "title_en": "",
       "author": "Chloe Savage 文/图",
       "rating": null,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s34679768.jpg",
+      "cover": "covers/bk-5b50ac706144.jpg",
       "isbn": "9781529512878",
       "publisher": "",
       "tags": {
@@ -5463,12 +5463,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9781529512878"
     },
     {
-      "id": "bk-donttrustfish",
+      "id": "bk-bd9d38c1458e",
       "title": "Don't Trust Fish!",
       "title_en": "",
       "author": "Neil Sharpson 文 / Dan Santat 图",
       "rating": null,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s35134673.jpg",
+      "cover": "covers/bk-bd9d38c1458e.jpg",
       "isbn": "9780593616673",
       "publisher": "",
       "tags": {
@@ -5491,12 +5491,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780593616673"
     },
     {
-      "id": "bk-themidnightpanth",
+      "id": "bk-4979deddb4fe",
       "title": "The Midnight Panther",
       "title_en": "",
       "author": "Poonam Mistry 文/图",
       "rating": null,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s34691152.jpg",
+      "cover": "covers/bk-4979deddb4fe.jpg",
       "isbn": "9781787418929",
       "publisher": "",
       "tags": {
@@ -5520,12 +5520,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9781787418929"
     },
     {
-      "id": "bk-goodnighteveryon",
+      "id": "bk-9b63bd4ece17",
       "title": "Goodnight Everyone",
       "title_en": "",
       "author": "Chris Haughton 文/图",
       "rating": null,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s29407742.jpg",
+      "cover": "covers/bk-9b63bd4ece17.jpg",
       "isbn": "9780763690793",
       "publisher": "",
       "tags": {
@@ -5548,12 +5548,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780763690793"
     },
     {
-      "id": "bk-hairymaclaryfrom",
+      "id": "bk-2c43b411b782",
       "title": "Hairy Maclary from Donaldson's Dairy",
       "title_en": "",
       "author": "Lynley Dodd 文/图",
       "rating": null,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s7991299.jpg",
+      "cover": "covers/bk-2c43b411b782.jpg",
       "isbn": "9780140569971",
       "publisher": "",
       "tags": {
@@ -5575,7 +5575,7 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780140569971"
     },
     {
-      "id": "bk-cinnamon",
+      "id": "bk-fb4c74d473f8",
       "title": "Cinnamon",
       "title_en": "",
       "author": "Neil Gaiman 文 / Divya Srinivasan 图",
@@ -5603,12 +5603,12 @@
       "goodreads_url": ""
     },
     {
-      "id": "bk-thatrabbitbelong",
+      "id": "bk-9e9f85fe7003",
       "title": "That Rabbit Belongs to Emily Brown",
       "title_en": "",
       "author": "Cressida Cowell 文 / Neal Layton 图",
       "rating": null,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s3988440.jpg",
+      "cover": "covers/bk-9e9f85fe7003.jpg",
       "isbn": "9781423106456",
       "publisher": "",
       "tags": {
@@ -5630,7 +5630,7 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9781423106456"
     },
     {
-      "id": "bk-thesmileshop",
+      "id": "bk-52bde5536e33",
       "title": "The Smile Shop",
       "title_en": "",
       "author": "Satoshi Kitamura 文/图",
@@ -5658,12 +5658,12 @@
       "goodreads_url": ""
     },
     {
-      "id": "bk-youchoose",
+      "id": "bk-65cfa544d217",
       "title": "You Choose!",
       "title_en": "",
       "author": "Pippa Goodhart 文 / Nick Sharratt 图",
       "rating": null,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s6574562.jpg",
+      "cover": "covers/bk-65cfa544d217.jpg",
       "isbn": "9780385601764",
       "publisher": "",
       "tags": {
@@ -5686,12 +5686,12 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780385601764"
     },
     {
-      "id": "bk-thebadtemperedla",
+      "id": "bk-8051b08ef2a7",
       "title": "The Bad-Tempered Ladybird",
       "title_en": "",
       "author": "Eric Carle 文/图",
       "rating": null,
-      "cover": "https://img3.doubanio.com/view/subject/l/public/s4217320.jpg",
+      "cover": "covers/bk-8051b08ef2a7.jpg",
       "isbn": "9780140503982",
       "publisher": "",
       "tags": {
@@ -5714,7 +5714,7 @@
       "goodreads_url": "https://www.goodreads.com/search?q=9780140503982"
     },
     {
-      "id": "bk-kingoftheclassro",
+      "id": "bk-580b1c3b2efc",
       "title": "King of the Classroom",
       "title_en": "",
       "author": "Derrick Barnes 文 / Vanessa Brantley-Newton 图",
@@ -5742,12 +5742,12 @@
       "goodreads_url": ""
     },
     {
-      "id": "bk-chocolatecake",
+      "id": "bk-c04a3655ad5d",
       "title": "Chocolate Cake",
       "title_en": "",
       "author": "Michael Rosen 文 / Kevin Waldron 图",
       "rating": null,
-      "cover": "https://img9.doubanio.com/view/subject/l/public/s7139276.jpg",
+      "cover": "covers/bk-c04a3655ad5d.jpg",
       "isbn": "9780803734074",
       "publisher": "",
       "tags": {
