@@ -68,30 +68,21 @@ const themes = taxonomy.themes;
 		background: rgba(240, 249, 255, 0.92); backdrop-filter: blur(6px);
 		border-bottom: 1px solid var(--line);
 		padding: 0.6rem 1rem;
-		display: grid; gap: 0.4rem;
-		/* 标签列按最宽的标签自适应，选项列统一对齐，英文长词不重叠 */
-		grid-template-columns: max-content 1fr;
-		align-items: center;
+		display: flex; flex-direction: column; gap: 0.4rem;
 		max-width: var(--maxw); margin: 0 auto;
 	}
-	.filter-row {
-		display: grid; gap: 0.4rem;
-		grid-template-columns: max-content 1fr;
-		align-items: center;
-	}
+	/* 每个筛选维度占一行：标签按内容自适应宽度（英文长词不溢出），选项在其右侧换行 */
+	.filter-row { display: flex; align-items: flex-start; gap: 0.5rem; }
 	.filter-row .dim {
 		font-size: 0.78rem; color: var(--muted);
-		white-space: nowrap; min-width: 3.2em;
+		white-space: nowrap; flex: 0 0 auto;
+		min-width: 3.2em; padding-top: 0.28rem;
 	}
-	.filter-row .chip, .filter-row .chip-clear, .filter-row .count {
-		grid-column: 2; justify-self: start;
-	}
-	.filter-row .count { justify-self: end; margin-left: auto; }
-	/* 选项排成一行，窄屏时自动换行且不回到标签下方 */
 	.filter-row .options {
 		display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap;
-		grid-column: 2;
+		flex: 1 1 auto; min-width: 0;
 	}
+	.filter-row .count { margin-left: auto; }
 	.chip {
 		font-size: 0.82rem; padding: 0.26rem 0.8rem; border-radius: 999px;
 		border: 1px solid var(--line); background: var(--card); color: var(--ink);
