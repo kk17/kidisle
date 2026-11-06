@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 472,
+  "count": 499,
   "videos": [
     {
       "bvid": "02E1468SdHg",
@@ -7565,6 +7565,466 @@
         ],
         "theme": [
           "nature"
+        ]
+      }
+    },
+    {
+      "bvid": "fkiPxXjalqs",
+      "suitable": true,
+      "note": "小猪佩奇官方新剧集动画，低幼友好",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "gA2UtJJ9y50",
+      "suitable": true,
+      "note": "Art for Kids Hub 简笔画教学，手工美术类",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "craft"
+        ]
+      }
+    },
+    {
+      "bvid": "ganqsmwN8tw",
+      "suitable": true,
+      "note": "佩奇正片合集动画，低幼友好",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "h51XRnmHxR4",
+      "suitable": true,
+      "note": "Nat Geo Kids 野生动物纪录片，自然科普",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "nature"
+        ]
+      }
+    },
+    {
+      "bvid": "iqhBuvcQ1A8",
+      "suitable": true,
+      "note": "StorylineOnline 名人朗读绘本故事",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "jtMYD2gqlNA",
+      "suitable": true,
+      "note": "Numberblocks 数数与组合启蒙动画",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "math",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "jyYrHQvvqy8",
+      "suitable": true,
+      "note": "SciShow Kids 制岩糖实验，生活化科普",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "ljIFmU1QRGY",
+      "suitable": true,
+      "note": "StorylineOnline 绘本朗读，情感启蒙",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "myDRecuhRgk",
+      "suitable": true,
+      "note": "Numberblocks 正片，数学启蒙动画",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "math",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "nv8eR3zHQG4",
+      "suitable": true,
+      "note": "芝麻街四集合集，与 Elmo 探索自然",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "nature",
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "oVOnRPefcno",
+      "suitable": true,
+      "note": "SciShow Kids 桥梁工程原理，STEAM 科普",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "qDcMq1SjR_I",
+      "suitable": true,
+      "note": "Crash Course Kids 工程主题合集，体系化科普",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "qXYbLIEspqE",
+      "suitable": true,
+      "note": "Nat Geo Kids 海洋动物特辑，自然纪录片",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "nature"
+        ]
+      }
+    },
+    {
+      "bvid": "r5VhH5fhPLE",
+      "suitable": true,
+      "note": "Nat Geo Kids 4K 海洋动物放松向纪录片",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "nature"
+        ]
+      }
+    },
+    {
+      "bvid": "rHhSCO5-3Pg",
+      "suitable": true,
+      "note": "Nat Geo Kids 大猩猩动物科普短片",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "nature"
+        ]
+      }
+    },
+    {
+      "bvid": "t1zgGJTBups",
+      "suitable": true,
+      "note": "Kiboomers 幼儿律动运动歌谣",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "tXmC3UnVT-E",
+      "suitable": true,
+      "note": "Bounce Patrol 儿歌数数集，英语启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "tlanNyZCsR0",
+      "suitable": true,
+      "note": "Art for Kids Hub 画狗合集，简笔画教学",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "craft"
+        ]
+      }
+    },
+    {
+      "bvid": "wyRy8kowyM8",
+      "suitable": true,
+      "note": "Crash Course Kids 物质状态合集，体系化科普",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "xV91t6dXp38",
+      "suitable": true,
+      "note": "佩奇品牌频道假期特辑动画，低幼友好",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "xlg052EKMtk",
+      "suitable": true,
+      "note": "Cosmic Kids 冰雪奇缘瑜伽；建议增设体育主题",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "xoiS5ZFtqVg",
+      "suitable": true,
+      "note": "StorylineOnline 名人朗读绘本，幽默温馨",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "yJ9JrA3n0sY",
+      "suitable": true,
+      "note": "Kiboomers 幼儿数数律动歌谣",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "math"
+        ]
+      }
+    },
+    {
+      "bvid": "yU8OJWAZmZo",
+      "suitable": true,
+      "note": "StorylineOnline 绘本朗读，趣味叙事",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "yj5p0-uGR5U",
+      "suitable": true,
+      "note": "Numberblocks 数字冒险正片合集",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "math",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "zRoUe9tMEIo",
+      "suitable": true,
+      "note": "Alphablocks 自然拼读正片，阅读启蒙动画",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "zk5HGN8JXXk",
+      "suitable": true,
+      "note": "Super Simple Songs 消防车儿歌合集",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
         ]
       }
     }
