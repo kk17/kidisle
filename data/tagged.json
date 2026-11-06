@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 593,
+  "count": 640,
   "videos": [
     {
       "bvid": "-FvvHcNRF7s",
@@ -8623,6 +8623,24 @@
       }
     },
     {
+      "bvid": "Jz-5AcP4ukU",
+      "suitable": true,
+      "note": "Little Angel系列官方儿歌，频道为搬运号待复核",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
       "bvid": "KAT5NiWHFIU",
       "suitable": true,
       "note": "Cosmic Kids熊出没绘本瑜伽；建议增设体育主题",
@@ -8636,6 +8654,67 @@
         ],
         "theme": [
           "life"
+        ]
+      }
+    },
+    {
+      "bvid": "KaxijOhdfEw",
+      "suitable": true,
+      "note": "Yakka Dee官方频道，幼儿单词发音启蒙",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "Kf0PE3KY3Yg",
+      "suitable": true,
+      "note": "PBS KIDS《Molly of Denali》原版整集",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "Kl_xJp4Dlx8",
+      "suitable": false,
+      "note": "泛称搬运号Cartoons，标题含1080p/WEB-DL压制标记",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "L96V9lOo8ec",
+      "suitable": true,
+      "note": "Blippi官方，博物馆场景英语学习",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "science"
         ]
       }
     },
@@ -8675,6 +8754,23 @@
       }
     },
     {
+      "bvid": "LnotuW0B3EQ",
+      "suitable": true,
+      "note": "Scholastic官方WordGirl主题曲",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
       "bvid": "LrAtBtQnvCE",
       "suitable": true,
       "note": "SSS英文儿歌合集Five Little Ducks，低幼经典",
@@ -8688,6 +8784,91 @@
         ],
         "theme": [
           "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "M81KQyc1xxU",
+      "suitable": true,
+      "note": "Amazon官方《If You Give a Mouse a Cookie》",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "MRkvF6SEags",
+      "suitable": true,
+      "note": "Netflix官方《Last Kids on Earth》预告，僵尸题材温和",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "MS_5PZD2EO0",
+      "suitable": true,
+      "note": "HooplaKidz官方《Wheels on the Bus》儿歌",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "MWLp4L_k3rk",
+      "suitable": true,
+      "note": "Toopy and Binoo官方睡前故事动画",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "MZmcUqGs9h0",
+      "suitable": true,
+      "note": "Disney官方《Special Agent Oso》单集",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
           "english"
         ]
       }
@@ -8710,6 +8891,22 @@
       }
     },
     {
+      "bvid": "Mj9awGVeec0",
+      "suitable": true,
+      "note": "同系列Last Kids on Earth，个人搬运号待复核",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "N2s7KjzcoKg",
       "suitable": true,
       "note": "SciShow Kids古海洋生物科普，儿童向讲解",
@@ -8727,6 +8924,193 @@
       }
     },
     {
+      "bvid": "N5--BZ9vFZQ",
+      "suitable": true,
+      "note": "AumSum官方科普，讲口吃成因",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science",
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "N6eZfzS9kZk",
+      "suitable": true,
+      "note": "Bubu and Little Owls官方动画，动手小发明",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "NBXeqPfqutA",
+      "suitable": true,
+      "note": "HooplaKidz官方骨架跳舞卡通儿歌，非惊悚",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "NIk1-ck4c6Q",
+      "suitable": true,
+      "note": "WOW ENGLISH幼儿英语教学实录",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "OJ-fnYx3aX4",
+      "suitable": true,
+      "note": "Little Charley Bear正片，频道名泛待复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "Oxw6FoUNeT4",
+      "suitable": true,
+      "note": "English Singsing海洋动物词汇儿歌",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "nature"
+        ]
+      }
+    },
+    {
+      "bvid": "P8Zn4sq6qBs",
+      "suitable": true,
+      "note": "Barney官方字母ABC启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "P9iW_oZO_8A",
+      "suitable": true,
+      "note": "《Peg + Cat》数学思维动画，搬运号待复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "math",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "PDlcqXoOIFI",
+      "suitable": true,
+      "note": "Barney官方好习惯礼貌行为合集",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "life",
+          "social"
+        ]
+      }
+    },
+    {
+      "bvid": "PgOXtpfmJeI",
+      "suitable": true,
+      "note": "Steve and Maggie职业主题英语故事",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "story",
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "QZtn5iUCWBw",
+      "suitable": true,
+      "note": "同系列《If You Give a Mouse a Cookie》官方片",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "story"
+        ]
+      }
+    },
+    {
       "bvid": "Qe350nm_odA",
       "suitable": true,
       "note": "SciShow Kids天气科普：洪水成因",
@@ -8734,6 +9118,40 @@
         "age": [
           "6-9",
           "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "Qe9J5Manbc4",
+      "suitable": true,
+      "note": "Baby Shark官方一小时儿歌合集",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "RDRU064CZNU",
+      "suitable": true,
+      "note": "Nat Geo Kids官方讲爆米花原理",
+      "tags": {
+        "age": [
+          "6-9"
         ],
         "language": [
           "en"
@@ -8762,6 +9180,187 @@
       }
     },
     {
+      "bvid": "RGLPpUDZO4o",
+      "suitable": true,
+      "note": "FunFun Art数字涂色，Dora主题",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "craft"
+        ]
+      }
+    },
+    {
+      "bvid": "RSwy6dsYRAM",
+      "suitable": true,
+      "note": "BabyTV官方Stick with Mick电子绘本版",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "RVTGJqzXY-0",
+      "suitable": true,
+      "note": "Blippi Playtime水族馆英语探访",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "nature"
+        ]
+      }
+    },
+    {
+      "bvid": "Ris0mHrSHBg",
+      "suitable": true,
+      "note": "BabyTV官方Stick with Mick儿歌动画",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "music"
+        ]
+      }
+    },
+    {
+      "bvid": "Rjb5t57v_QY",
+      "suitable": true,
+      "note": "同系列Molly of Denali冬季正片",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "Rr0REk_EYMs",
+      "suitable": true,
+      "note": "Blippi官方恐龙主题英语科普",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "nature"
+        ]
+      }
+    },
+    {
+      "bvid": "RwAHe2zPMhU",
+      "suitable": true,
+      "note": "Clifford官方短预告，4K搬运号待复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "S9VbRjpL7tE",
+      "suitable": true,
+      "note": "Little Angel系列午餐盒主题儿歌",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "SIleYgp7IWA",
+      "suitable": true,
+      "note": "同系列Molly of Denali枫糖季正片",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "SUt8q0EKbms",
+      "suitable": true,
+      "note": "English Singsing身体部位词汇儿歌",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "St_1m_M0bFk",
+      "suitable": false,
+      "note": "Abby Bear City打包搬运号，52集全季非官方",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
       "bvid": "Stj804acO_Y",
       "suitable": true,
       "note": "芝麻街整集：Elmo学轮流等待，社交情感启蒙",
@@ -8774,6 +9373,41 @@
         ],
         "theme": [
           "social"
+        ]
+      }
+    },
+    {
+      "bvid": "SuLNxDNKU88",
+      "suitable": true,
+      "note": "Universal官方Clifford电影预告，亲子可看",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "SyPkwWVwQMs",
+      "suitable": true,
+      "note": "Little Angel系列Yes Yes Cake儿歌",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
         ]
       }
     },
@@ -8812,6 +9446,57 @@
       }
     },
     {
+      "bvid": "Tfsj20nS-GU",
+      "suitable": true,
+      "note": "PBS官方《Let's Go Luna》整集",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "TkhsPLM5nTE",
+      "suitable": true,
+      "note": "同系列Let's Go Luna片段，搬运号待复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "TqFjmGe17EQ",
+      "suitable": true,
+      "note": "同系列Peg + Cat片段，搬运号待复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "math",
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "TzifMl12ahk",
       "suitable": true,
       "note": "Art for Kids Hub进阶画冰龙，美术教学",
@@ -8829,6 +9514,59 @@
       }
     },
     {
+      "bvid": "UEXHMw-hphQ",
+      "suitable": true,
+      "note": "Blippi挖掘机英语启蒙，搬运号待复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "UPHa7Htt_UQ",
+      "suitable": true,
+      "note": "WOW ENGLISH魔法英语故事",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "URI-YqP2bwE",
+      "suitable": true,
+      "note": "CoComelon官方JJ泡泡浴儿歌，搬运号待复核",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
       "bvid": "UW6H5dAPuhY",
       "suitable": true,
       "note": "Art for Kids Hub简笔画冰淇淋，儿童美术",
@@ -8842,6 +9580,55 @@
         ],
         "theme": [
           "craft"
+        ]
+      }
+    },
+    {
+      "bvid": "UvQGGfRqtLM",
+      "suitable": true,
+      "note": "Cyberchase官方数学逻辑整集",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "math"
+        ]
+      }
+    },
+    {
+      "bvid": "V6rYtuuAJDI",
+      "suitable": true,
+      "note": "同系列Yakka Dee交通工具词汇启蒙",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "VB9ELZFkCPM",
+      "suitable": true,
+      "note": "同系列Cyberchase官方新季预告",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "math"
         ]
       }
     },
