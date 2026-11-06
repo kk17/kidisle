@@ -12,25 +12,33 @@ const themes = taxonomy.themes;
 	<section class="filters" id="filters">
 		<div class="filter-row">
 			<span class="dim" data-i18n="filter_platform">平台</span>
-			<button class="chip" data-dim="platform" data-v="bilibili" data-tag="bilibili" data-tag-dim="platform" aria-pressed="false">B站</button>
-			<button class="chip" data-dim="platform" data-v="youtube" data-tag="youtube" data-tag-dim="platform" aria-pressed="false">YouTube</button>
-			<button class="chip" id="plat-all" aria-pressed="true" data-i18n="all">全部</button>
+			<div class="options">
+				<button class="chip" data-dim="platform" data-v="bilibili" data-tag="bilibili" data-tag-dim="platform" aria-pressed="false">B站</button>
+				<button class="chip" data-dim="platform" data-v="youtube" data-tag="youtube" data-tag-dim="platform" aria-pressed="false">YouTube</button>
+				<button class="chip" id="plat-all" aria-pressed="true" data-i18n="all">全部</button>
+			</div>
 		</div>
 		<div class="filter-row">
 			<span class="dim" data-i18n="filter_age">年龄段</span>
-			{ageBands.map((t) => <button class="chip" data-dim="age" data-v={t.id} data-tag={t.id} data-tag-dim="age" aria-pressed="false">{t.label}</button>)}
-			<button class="chip-clear" data-clear="age" data-i18n="clear">清空</button>
-			<span class="count" id="count"></span>
+			<div class="options">
+				{ageBands.map((t) => <button class="chip" data-dim="age" data-v={t.id} data-tag={t.id} data-tag-dim="age" aria-pressed="false">{t.label}</button>)}
+				<button class="chip-clear" data-clear="age" data-i18n="clear">清空</button>
+				<span class="count" id="count"></span>
+			</div>
 		</div>
 		<div class="filter-row">
 			<span class="dim" data-i18n="filter_language">语言</span>
-			{languages.map((t) => <button class="chip" data-dim="language" data-v={t.id} data-tag={t.id} data-tag-dim="language" aria-pressed="false">{t.label}</button>)}
-			<button class="chip-clear" data-clear="language" data-i18n="clear">清空</button>
+			<div class="options">
+				{languages.map((t) => <button class="chip" data-dim="language" data-v={t.id} data-tag={t.id} data-tag-dim="language" aria-pressed="false">{t.label}</button>)}
+				<button class="chip-clear" data-clear="language" data-i18n="clear">清空</button>
+			</div>
 		</div>
 		<div class="filter-row">
 			<span class="dim" data-i18n="filter_theme">主题</span>
-			{themes.map((t) => <button class="chip" data-dim="theme" data-v={t.id} data-tag={t.id} data-tag-dim="theme" aria-pressed="false">{t.label}</button>)}
-			<button class="chip-clear" data-clear="theme" data-i18n="clear">清空</button>
+			<div class="options">
+				{themes.map((t) => <button class="chip" data-dim="theme" data-v={t.id} data-tag={t.id} data-tag-dim="theme" aria-pressed="false">{t.label}</button>)}
+				<button class="chip-clear" data-clear="theme" data-i18n="clear">清空</button>
+			</div>
 		</div>
 	</section>
 
@@ -60,11 +68,30 @@ const themes = taxonomy.themes;
 		background: rgba(240, 249, 255, 0.92); backdrop-filter: blur(6px);
 		border-bottom: 1px solid var(--line);
 		padding: 0.6rem 1rem;
-		display: flex; flex-direction: column; gap: 0.4rem;
+		display: grid; gap: 0.4rem;
+		/* 标签列按最宽的标签自适应，选项列统一对齐，英文长词不重叠 */
+		grid-template-columns: max-content 1fr;
+		align-items: center;
 		max-width: var(--maxw); margin: 0 auto;
 	}
-	.filter-row { display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap; }
-	.filter-row .dim { font-size: 0.78rem; color: var(--muted); width: 3.2em; flex-shrink: 0; }
+	.filter-row {
+		display: grid; gap: 0.4rem;
+		grid-template-columns: max-content 1fr;
+		align-items: center;
+	}
+	.filter-row .dim {
+		font-size: 0.78rem; color: var(--muted);
+		white-space: nowrap; min-width: 3.2em;
+	}
+	.filter-row .chip, .filter-row .chip-clear, .filter-row .count {
+		grid-column: 2; justify-self: start;
+	}
+	.filter-row .count { justify-self: end; margin-left: auto; }
+	/* 选项排成一行，窄屏时自动换行且不回到标签下方 */
+	.filter-row .options {
+		display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap;
+		grid-column: 2;
+	}
 	.chip {
 		font-size: 0.82rem; padding: 0.26rem 0.8rem; border-radius: 999px;
 		border: 1px solid var(--line); background: var(--card); color: var(--ink);
