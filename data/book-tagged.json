@@ -2835,6 +2835,900 @@
    },
    "reason_zh": "东京送面人的飞驰身手满页灵动，怀旧街景与节奏感，动作迷孩子的最爱。",
    "reason_en": "Demae deliverymen race through old Tokyo with steaming noodles — kinetic art full of motion and rhythm."
+  },
+  {
+   "title": "Home in a Lunchbox",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "从香港初到美国的君用饭盒里的家乡味交到朋友，把移民孩子的孤单与适应写得细腻动人。",
+   "reason_en": "Tastes of home ease her way into a new world."
+  },
+  {
+   "title": "Up, Up, Ever Up! Junko Tabei",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "首位登顶珠峰的女性传记绘本，把'再试一次'的坚韧画得又美又有力量，给孩子的榜样书。",
+   "reason_en": "The first woman atop Everest—grit and grace."
+  },
+  {
+   "title": "Fireworks",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "夏夜姐弟出门等烟花的短短一夜，文字如诗、画面发光，把'期待'写给孩子看。",
+   "reason_en": "Waiting for fireworks on a glowing summer night."
+  },
+  {
+   "title": "Every Monday Mabel",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "小女孩每周一雷打不动守在窗前看垃圾车，孩子的'小痴迷'被写得真实可爱。",
+   "reason_en": "Her weekly date with the garbage truck."
+  },
+  {
+   "title": "Our Lake",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "兄弟俩第一次没有爸爸陪伴重访湖边，用温柔安静的方式帮孩子谈论失去与想念。",
+   "reason_en": "Brothers revisit a beloved lake without Dad."
+  },
+  {
+   "title": "Stalactite & Stalagmite: A Big Tale from a Little Cave",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "science"
+    ]
+   },
+   "reason_zh": "两块钟乳石见证亿万年地球变迁，把深奥的地质时间讲得幽默好懂，故事科普两不误。",
+   "reason_en": "Two cave rocks watch world history unfold."
+  },
+  {
+   "title": "Sundust",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "凯迪克银奖新作，沙漠里阳光统治一切的奇幻冒险，色彩炙热，想象力和美感都在线。",
+   "reason_en": "A sun-drenched Caldecott Honor desert adventure."
+  },
+  {
+   "title": "The Very Hungry Caterpillar",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "0-3",
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "星期、数字、食物、蜕变一次学全，低幼启蒙绕不开的经典，洞洞书设计孩子百看不厌。",
+   "reason_en": "Days, counting, metamorphosis—a toddler classic."
+  },
+  {
+   "title": "Where the Wild Things Are",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "迈克斯大闹一场驾船去野兽国称王又想家，把孩子的愤怒和母爱的包容讲得最好（中文版）。",
+   "reason_en": "Anger, wild rumpus, and home to mother's love."
+  },
+  {
+   "title": "Goodnight Moon",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "0-3",
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "绿色房间里跟每样东西道晚安，节奏舒缓百试百灵，哄睡界的开山经典。",
+   "reason_en": "The goodnight ritual that lulls kids to sleep."
+  },
+  {
+   "title": "The Giving Tree",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "一棵有求必应的树和一个不断索取的男孩，关于爱与给予的寓言，大人读完也会沉默片刻（中文版）。",
+   "reason_en": "A poignant fable of giving and love."
+  },
+  {
+   "title": "The Cat in the Hat",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "english"
+    ]
+   },
+   "reason_zh": "雨天闯入的帽子猫制造混乱又收拾残局，韵文节奏感极强，英语自主阅读的经典第一课。",
+   "reason_en": "Seussian rhymes—the classic first English reader."
+  },
+  {
+   "title": "Green Eggs and Ham",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "english"
+    ]
+   },
+   "reason_zh": "全书只用50个单词，重复句式一读就上口，还顺便劝动不肯尝试新食物的小朋友。",
+   "reason_en": "Fifty rhyming words that make reading feel easy."
+  },
+  {
+   "title": "Madeline",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "巴黎寄宿学校里个子最小胆子最大的玛德琳，韵文朗朗上口，顺带带孩子游一遍巴黎。",
+   "reason_en": "The smallest, bravest girl in Paris, in rhyme."
+  },
+  {
+   "title": "Corduroy",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "商场里缺一颗纽扣的小熊终于等到朋友，关于被接纳与家的温柔经典，睡前读刚刚好。",
+   "reason_en": "A buttonless teddy finds home and belonging."
+  },
+  {
+   "title": "Harold and the Purple Crayon",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "睡前一支紫蜡笔画出月亮大海和回家的路，想象力的启蒙原点，怎么读都不腻。",
+   "reason_en": "One purple crayon draws a whole world."
+  },
+  {
+   "title": "Chicka Chicka Boom Boom",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "0-3",
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "english"
+    ]
+   },
+   "reason_zh": "26个字母抢着爬椰子树又全摔下来，节奏魔性洗脑，字母启蒙的第一本书。",
+   "reason_en": "A rollicking alphabet chant up the coconut tree."
+  },
+  {
+   "title": "Brown Bear, Brown Bear, What Do You See?",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "0-3",
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "english"
+    ]
+   },
+   "reason_zh": "一问一答的重复句式配上拼贴画，颜色、动物和英语开口启蒙的入门首选。",
+   "reason_en": "Repeating patterns for first colors and words."
+  },
+  {
+   "title": "Guess How Much I Love You",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "0-3",
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "小兔子用胳膊、跳高、一直到月亮来比划爱，亲子表达爱的最佳示范，睡前必读（中文版）。",
+   "reason_en": "A love measured all the way to the moon."
+  },
+  {
+   "title": "The Tale of Peter Rabbit",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "不听话的彼得闯进麦先生的菜园，紧张又好笑的百年经典，顺带学会听劝与承担。",
+   "reason_en": "Naughty Peter's century-old garden adventure."
+  },
+  {
+   "title": "Make Way for Ducklings",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "鸭妈妈带八只小鸭穿过波士顿，全城为它们让路，凯迪克金奖的温情城市童话。",
+   "reason_en": "A duck family parades as Boston makes way."
+  },
+  {
+   "title": "The Snowy Day",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "小男孩在初雪里玩出一整天的快乐，细节全是孩子的视角，凯迪克金奖里程碑之作。",
+   "reason_en": "A small boy's quiet joy in the first snow."
+  },
+  {
+   "title": "Curious George",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "好奇猴子被带上船又一路闯祸，80年经典形象，孩子在笑声里看到好奇心的两面。",
+   "reason_en": "Eighty years of beloved monkey mischief."
+  },
+  {
+   "title": "Alexander and the Terrible, Horrible, No Good, Very Bad Day",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "从早安口香糖到晚餐青豆，倒霉透顶的一天告诉孩子：有些日子就是糟糕，这很正常。",
+   "reason_en": "Some days are terrible—this helps kids cope."
+  },
+  {
+   "title": "Don't Let the Pigeon Drive the Bus!",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "鸽子软磨硬泡想开公交车，全程邀请孩子大声说'不行'，互动感拉满的爆笑经典。",
+   "reason_en": "The pigeon begs, kids shout NO—pure fun."
+  },
+  {
+   "title": "The Gruffalo",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "小老鼠编出咕噜牛吓退狐狸猫头鹰和蛇，韵文悬疑节奏完美，机智就是最好的武器。",
+   "reason_en": "A tiny mouse outwits the forest, in rhyme."
+  },
+  {
+   "title": "Room on the Broom",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "女巫一路掉东西、动物一路帮忙搭扫帚，最后齐心吓跑恶龙，善良与互助的韵文佳作。",
+   "reason_en": "A kind witch and friends beat the dragon together."
+  },
+  {
+   "title": "The Rainbow Fish",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "拥有一身闪光鳞片的彩虹鱼学会分享才交到朋友，画面美到发光的分享课。",
+   "reason_en": "Sharing scales, making friends, glowing art."
+  },
+  {
+   "title": "The Kissing Hand",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "浣熊妈妈亲亲孩子手心，让爱随身携带，入园入学前缓解分离焦虑的安抚神器。",
+   "reason_en": "A kiss in the palm for first-day jitters."
+  },
+  {
+   "title": "Love You Forever",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "从深夜摇篮曲唱到两鬓斑白，一本跨越一生的母爱之书，亲子共读请备好纸巾。",
+   "reason_en": "A mother's love across a lifetime—bring tissues."
+  },
+  {
+   "title": "Good Night, Gorilla",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "0-3",
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "大猩猩偷钥匙放出一整排动物跟着管理员回家，字少图多，观察力和哄睡二合一。",
+   "reason_en": "A sneaky gorilla frees the zoo—perfect at bedtime."
+  },
+  {
+   "title": "The Dot",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "craft"
+    ]
+   },
+   "reason_zh": "'我不会画'的孩子被老师一个小点点燃自信，美术启蒙和鼓励式教育的必收之作。",
+   "reason_en": "One small dot unlocks creative confidence."
+  },
+  {
+   "title": "Owl Moon",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "nature"
+    ]
+   },
+   "reason_zh": "月夜跟爸爸去林中寻猫头鹰，要安静、要有希望，文字如雪夜般纯净的凯迪克金奖。",
+   "reason_en": "A hushed, poetic winter owling with Dad."
+  },
+  {
+   "title": "Tuesday",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "周二夜里青蛙们乘荷叶飞过小镇，无字书的想象力天花板，每读一遍都有新发现。",
+   "reason_en": "Frogs fly on lily pads—wordless wonder."
+  },
+  {
+   "title": "Knuffle Bunny: A Cautionary Tale",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "0-3",
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "还不会说话的翠西弄丢玩偶的崩溃瞬间，照片拼贴加漫画，家长看了都会心一笑。",
+   "reason_en": "A toddler meltdown over a lost bunny, told truly."
+  },
+  {
+   "title": "The Search for the Giant Arctic Jellyfish",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "nature"
+    ]
+   },
+   "reason_zh": "科学家远赴北冰洋寻找传说中的巨型水母，把科研的耐心与极地的神秘美讲给孩子。",
+   "reason_en": "A patient Arctic quest for a legendary jellyfish."
+  },
+  {
+   "title": "Don't Trust Fish!",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "一本正经警告读者'千万别信鱼'，胡说八道里藏着真知识，笑点密集的爆笑科普向。",
+   "reason_en": "A deadpan, fact-packed laugh about fish."
+  },
+  {
+   "title": "The Midnight Panther",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "没有斑点条纹和鬃毛的小黑豹，最终在星空下找到自己的光，印度纹样插画美极了。",
+   "reason_en": "A shy panther finds his own light in mythic art."
+  },
+  {
+   "title": "Goodnight Everyone",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "0-3",
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "森林里大家都在打哈欠只有小熊不肯睡，色块浓郁的晚安书，睡前节奏刚刚好。",
+   "reason_en": "The forest sleeps; one little bear resists."
+  },
+  {
+   "title": "Hairy Maclary from Donaldson's Dairy",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "毛毛狗麦克莱里呼朋引伴去遛弯，押韵节奏读起来像说唱，读几遍就能背的新西兰国宝。",
+   "reason_en": "Dogs trot through town in irresistible rhyme."
+  },
+  {
+   "title": "Cinnamon",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "不说话的公主遇见会讲故事的虎，尼尔·盖曼写的冷冽又温柔的寓言童话。",
+   "reason_en": "Gaiman's fable of a mute princess and a tiger."
+  },
+  {
+   "title": "That Rabbit Belongs to Emily Brown",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "女王抢走艾米莉心爱的旧兔子，她偏不换，教孩子守护自己珍视的东西。",
+   "reason_en": "Emily stands up to the Queen for her toy rabbit."
+  },
+  {
+   "title": "The Smile Shop",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "攒了一篮硬币想买个微笑的男孩发现，微笑不用买、可以送，温暖有哲思。",
+   "reason_en": "Smiles can't be bought, only given—a warm parable."
+  },
+  {
+   "title": "You Choose!",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "每页几百个选项随便组合编故事，亲子越聊越多，想象力和表达力一起练。",
+   "reason_en": "Hundreds of choices to invent endless stories."
+  },
+  {
+   "title": "A Dark, Dark Tale",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "黑黑的树林黑黑的房子一路悬念推进，结尾一个小惊喜，练胆量也练'黑黑的'句式。",
+   "reason_en": "Gentle suspense to a tiny, fun surprise."
+  },
+  {
+   "title": "Cops and Robbers",
+   "suitable": false,
+   "tags": {
+    "age": [],
+    "language": [],
+    "theme": []
+   },
+   "reason_zh": "豆瓣条目实为图论博弈学术专著（美国数学学会教材），非儿童绘本，疑数据错配，建议人工复核。",
+   "reason_en": "Douban entry is a graph-theory monograph."
+  },
+  {
+   "title": "The Bad-Tempered Ladybird",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "坏脾气瓢虫见谁都想打架，最后学会交朋友，还顺带认识时间和动物体型大小。",
+   "reason_en": "A grumpy ladybird learns friends matter more."
+  },
+  {
+   "title": "King of the Classroom",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "上学第一天给自己加冕的自信宣言，把孩子'我能行'的气场写得让大人也想鼓掌。",
+   "reason_en": "First-day-of-school confidence, crowned."
+  },
+  {
+   "title": "Chocolate Cake",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "半夜溜下床偷吃蛋糕的名场面，迈克尔·罗森的声效叙事是亲子朗读的表演教科书。",
+   "reason_en": "Rosen's midnight-cake performance—read-aloud gold."
+  },
+  {
+   "title": "Beansprout",
+   "suitable": false,
+   "tags": {
+    "age": [],
+    "language": [],
+    "theme": []
+   },
+   "reason_zh": "豆瓣条目实为空白横线笔记本（文具）而非绘本，非儿童读物，数据疑错配待人工复核。",
+   "reason_en": "Douban entry is a lined journal, not the book."
+  },
+  {
+   "title": "Are You a Friend of Dorothy?",
+   "suitable": false,
+   "tags": {
+    "age": [],
+    "language": [],
+    "theme": []
+   },
+   "reason_zh": "题材为'多萝西的朋友们'性少数暗语的真实历史，内容敏感，不适合国内儿童平台，暂不收录。",
+   "reason_en": "LGBTQ-history topic; not fit for this platform."
   }
  ]
 }

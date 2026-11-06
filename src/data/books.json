@@ -1,5 +1,5772 @@
 {
   "schema_version": 1,
-  "count": 0,
-  "books": []
+  "count": 207,
+  "books": [
+    {
+      "id": "bk-",
+      "title": "四季时光",
+      "title_en": "",
+      "author": "[德] 罗特劳特·苏珊娜·贝尔纳",
+      "rating": 9.8,
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s35619951.jpg",
+      "isbn": "9787559641823",
+      "publisher": "北京联合出版公司",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "life"
+        ]
+      },
+      "reason": "无字情境认知书天花板，一座小镇四季流转，每页都能编出新故事，超耐读。",
+      "reason_en": "Wordless seasonal town where every page births a new story; endlessly re-readable.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/35123154/",
+      "douban_url": "https://book.douban.com/subject/35123154/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787559641823"
+    },
+    {
+      "id": "bk-hellolighthouse",
+      "title": "Hello Lighthouse",
+      "title_en": "",
+      "author": "Sophie Blackall 文/图",
+      "rating": 9.8,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s33999545.jpg",
+      "isbn": "9780316362382",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "灯塔四季流转与守护人一家的日常，细腻金笔插画，安静辽阔的睡前书。",
+      "reason_en": "Seasons pass as a lighthouse keeper's family lives in rhythm with the sea — luminous, calming bedtime art.",
+      "source_name": "ALA Caldecott 2019（金奖）",
+      "source_url": "https://www.goodreads.com/book/show/35580105",
+      "douban_url": "https://book.douban.com/subject/30192767/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780316362382"
+    },
+    {
+      "id": "bk-",
+      "title": "后来呢后来怎么了",
+      "title_en": "",
+      "author": "[日] 吉竹伸介",
+      "rating": 9.6,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34571283.jpg",
+      "isbn": "9787542253781",
+      "publisher": "甘肃少年儿童出版社",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "用天马行空的想象聊死亡与天堂，轻松不沉重，孩子笑着学会直面生命课题。",
+      "reason_en": "Death imagined with wild humor and warmth; kids learn to face big questions with a smile.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/34446050/",
+      "douban_url": "https://book.douban.com/subject/34446050/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787542253781"
+    },
+    {
+      "id": "bk-makewayforduckli",
+      "title": "Make Way for Ducklings",
+      "title_en": "",
+      "author": "Robert McCloskey 文/图",
+      "rating": 9.6,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s3393713.jpg",
+      "isbn": "9780140564341",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "鸭妈妈带八只小鸭穿过波士顿，全城为它们让路，凯迪克金奖的温情城市童话。",
+      "reason_en": "A duck family parades as Boston makes way.",
+      "source_name": "Goodreads Listopia「Best Picture Books」",
+      "source_url": "https://www.goodreads.com/book/show/29291",
+      "douban_url": "https://book.douban.com/subject/1354158/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780140564341"
+    },
+    {
+      "id": "bk-",
+      "title": "海底的秘密",
+      "title_en": "",
+      "author": "[美] 大卫·威斯纳",
+      "rating": 9.5,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s28396748.jpg",
+      "isbn": "9787543470750",
+      "publisher": "河北教育出版社",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "一台神奇相机串起海底奇观，无字书大师的想象力盛宴，细节百看不厌。",
+      "reason_en": "Wiesner's wordless fantasy of a magical undersea camera; endless details to pore over.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/3332517/",
+      "douban_url": "https://book.douban.com/subject/3332517/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787543470750"
+    },
+    {
+      "id": "bk-goodnightgorilla",
+      "title": "Good Night, Gorilla",
+      "title_en": "",
+      "author": "Peggy Rathmann 文/图",
+      "rating": 9.5,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s3996147.jpg",
+      "isbn": "9780698116498",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "大猩猩偷钥匙放出一整排动物跟着管理员回家，字少图多，观察力和哄睡二合一。",
+      "reason_en": "A sneaky gorilla frees the zoo—perfect at bedtime.",
+      "source_name": "Goodreads Listopia「Best Picture Books」",
+      "source_url": "https://www.goodreads.com/book/show/773276",
+      "douban_url": "https://book.douban.com/subject/1340613/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780698116498"
+    },
+    {
+      "id": "bk-",
+      "title": "猜猜我有多爱你",
+      "title_en": "Guess How Much I Love You",
+      "author": "[英] 山姆·麦克布雷尼 文 / 安妮塔·婕朗 图",
+      "rating": 9.4,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s24549957.jpg",
+      "isbn": "9787532463459",
+      "publisher": "少年儿童出版社",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "把爱说出口的经典范本，大小兔子用身边事物比爱，睡前亲子共读必收。",
+      "reason_en": "The classic for saying 'I love you' in concrete ways; perfect bedtime bonding read.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/1433640/",
+      "douban_url": "https://book.douban.com/subject/1433640/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787532463459"
+    },
+    {
+      "id": "bk-",
+      "title": "狐狸的窗户",
+      "title_en": "",
+      "author": "[日] 安房直子 文 / [日] 织茂恭子 绘",
+      "rating": 9.4,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s4118483.jpg",
+      "isbn": "9787539143590",
+      "publisher": "二十一世纪出版社",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "安房直子唯美童话，桔梗花汁搭出魔法小窗，意境忧伤诗意，大童文学启蒙佳作。",
+      "reason_en": "Awa's poetic fairy tale of a magic window and longing; a beautiful literary read for older kids.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/4049269/",
+      "douban_url": "https://book.douban.com/subject/4049269/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787539143590"
+    },
+    {
+      "id": "bk-",
+      "title": "抵岸",
+      "title_en": "",
+      "author": "[澳] 陈志勇",
+      "rating": 9.4,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s6995178.jpg",
+      "isbn": "9787505619050",
+      "publisher": "连环画出版社",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "无字图像小说，电影般画面讲述移民的艰辛与希望，大童审美与共情进阶之选。",
+      "reason_en": "Wordless graphic novel of migration and hope; cinematic art for mature young readers.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/6973840/",
+      "douban_url": "https://book.douban.com/subject/6973840/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787505619050"
+    },
+    {
+      "id": "bk-110",
+      "title": "不一样的卡梅拉（1-10册）",
+      "title_en": "",
+      "author": "[法] 克利斯提昂·约里波瓦 文 / 艾利施 绘",
+      "rating": 9.4,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s10166900.jpg",
+      "isbn": "9787539169224",
+      "publisher": "二十一世纪出版社",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "敢想敢做的母鸡一家笑点密集，从共读到自读的桥梁书，法式幽默启蒙首选。",
+      "reason_en": "A bold little hen's funny adventures; ideal bridge books from read-aloud to solo reading.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/10560097/",
+      "douban_url": "https://book.douban.com/subject/10560097/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787539169224"
+    },
+    {
+      "id": "bk-15",
+      "title": "小熊宝宝绘本（全15册）",
+      "title_en": "",
+      "author": "[日] 佐佐木洋子",
+      "rating": 9.4,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s26694072.jpg",
+      "isbn": "9787505608252",
+      "publisher": "连环画出版社",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life",
+          "story"
+        ]
+      },
+      "reason": "低幼生活习惯启蒙鼻祖，吃饭刷牙问好全覆盖，圆滚滚画风宝宝一看就爱。",
+      "reason_en": "Toddler classic covering meals, brushing and greetings; adorable and gentle.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/2123287/",
+      "douban_url": "https://book.douban.com/subject/2123287/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787505608252"
+    },
+    {
+      "id": "bk-",
+      "title": "奥菲利娅的影子剧院",
+      "title_en": "",
+      "author": "[德] 米切尔·恩德",
+      "rating": 9.4,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34187457.jpg",
+      "isbn": "9787539140469",
+      "publisher": "二十一世纪出版社",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "平凡老姑娘收留影子办剧院，米切尔·恩德诗意哲理，教孩子优雅面对孤独与死亡。",
+      "reason_en": "A humble woman shelters shadows and finds light; Ende's poetic wisdom on loss.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/2984402/",
+      "douban_url": "https://book.douban.com/subject/2984402/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787539140469"
+    },
+    {
+      "id": "bk-theyallsawacat",
+      "title": "They All Saw a Cat",
+      "title_en": "",
+      "author": "Brendan Wenzel 文/图",
+      "rating": 9.4,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34318160.jpg",
+      "isbn": "9781452150130",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "science"
+        ]
+      },
+      "reason": "十二双眼睛看同一只猫，视角与感知的启蒙一图胜千言，读完孩子会抢着讨论。",
+      "reason_en": "One cat, twelve pairs of eyes — a brilliant intro to perspective and how each of us sees the world.",
+      "source_name": "ALA Caldecott 2017（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/28645670",
+      "douban_url": "https://book.douban.com/subject/26928022/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9781452150130"
+    },
+    {
+      "id": "bk-guesshowmuchilov",
+      "title": "Guess How Much I Love You",
+      "title_en": "",
+      "author": "Sam McBratney 文 / Anita Jeram 图",
+      "rating": 9.4,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s24549957.jpg",
+      "isbn": "9787532463459",
+      "publisher": "少年儿童出版社",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "小兔子用胳膊、跳高、一直到月亮来比划爱，亲子表达爱的最佳示范，睡前必读（中文版）。",
+      "reason_en": "A love measured all the way to the moon.",
+      "source_name": "Goodreads Listopia「Best Picture Books」",
+      "source_url": "https://www.goodreads.com/book/show/301736",
+      "douban_url": "https://book.douban.com/subject/1433640/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787532463459"
+    },
+    {
+      "id": "bk-",
+      "title": "爷爷变成了幽灵",
+      "title_en": "",
+      "author": "[丹麦] 金·弗珀兹·艾克松 文 / [瑞典] 爱娃·艾瑞克松 图",
+      "rating": 9.3,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s3446498.jpg",
+      "isbn": "9787539420899",
+      "publisher": "湖北美术出版社",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "把死亡讲得温柔又幽默，祖孙情动人，孩子生命教育绕不开的经典。",
+      "reason_en": "Gently and humorously opens the door to death and remembrance; essential life education.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/2361768/",
+      "douban_url": "https://book.douban.com/subject/2361768/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787539420899"
+    },
+    {
+      "id": "bk-",
+      "title": "妈妈，买绿豆！",
+      "title_en": "",
+      "author": "曾阳晴 文 / 万华国 图",
+      "rating": 9.3,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s4578099.jpg",
+      "isbn": "9787533264062",
+      "publisher": "明天出版社",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life",
+          "story"
+        ]
+      },
+      "reason": "买绿豆煮绿豆种绿豆，平凡日常写出最浓母子情，生活气息满分的经典。",
+      "reason_en": "Buying, cooking and planting mung beans; everyday warmth between mother and son.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/5333081/",
+      "douban_url": "https://book.douban.com/subject/5333081/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787533264062"
+    },
+    {
+      "id": "bk-7",
+      "title": "7号梦工厂",
+      "title_en": "",
+      "author": "[美] 大卫·威斯纳",
+      "rating": 9.3,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s3296267.jpg",
+      "isbn": "9787534249259",
+      "publisher": "浙江少年儿童出版社",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "小男孩闯入云端梦工厂管起不听话的云，无字书想象力狂欢，百看不厌。",
+      "reason_en": "A boy runs the cloud factory in the sky; Wiesner's wordless wonder.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/3240293/",
+      "douban_url": "https://book.douban.com/subject/3240293/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787534249259"
+    },
+    {
+      "id": "bk-",
+      "title": "桃花源的故事",
+      "title_en": "",
+      "author": "松居直 编 / 蔡皋 绘",
+      "rating": 9.3,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s33988403.jpg",
+      "isbn": "9787556256389",
+      "publisher": "湖南少年儿童出版社",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "陶渊明《桃花源记》绘本版，蔡皋画风古朴动人，古典文学启蒙（建议增设人文主题）。",
+      "reason_en": "Tao Yuanming's Peach Blossom Spring in pictures; gateway to Chinese classics (suggest humanities theme).",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/35449446/",
+      "douban_url": "https://book.douban.com/subject/35449446/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787556256389"
+    },
+    {
+      "id": "bk-theroughpatch",
+      "title": "The Rough Patch",
+      "title_en": "",
+      "author": "Brian Lies 文/图",
+      "rating": 9.3,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s29994360.jpg",
+      "isbn": "9780062671271",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "失去爱犬后的花园从荒芜到重生，坦诚面对悲伤，情感教育少有的真诚之作。",
+      "reason_en": "After losing his dog, a garden grows from ruin to hope — an honest book about grief and healing.",
+      "source_name": "ALA Caldecott 2019（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/35887584",
+      "douban_url": "https://book.douban.com/subject/30448998/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780062671271"
+    },
+    {
+      "id": "bk-haveyoueverseena",
+      "title": "Have You Ever Seen a Flower?",
+      "title_en": "",
+      "author": "Shawn Harris 文/图",
+      "rating": 9.3,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s33906746.jpg",
+      "isbn": "9781452182704",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "nature",
+          "story"
+        ]
+      },
+      "reason": "用五感把整个人长成一朵花的通感之旅，画面炫目，读完就想出门看花。",
+      "reason_en": "One child becomes a flower through all five senses — dazzling art that sends kids outdoors.",
+      "source_name": "ALA Caldecott 2022（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/54711226",
+      "douban_url": "https://book.douban.com/subject/35473557/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9781452182704"
+    },
+    {
+      "id": "bk-roomonthebroom",
+      "title": "Room on the Broom",
+      "title_en": "",
+      "author": "Julia Donaldson 文 / Axel Scheffler 图",
+      "rating": 9.3,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s29444345.jpg",
+      "isbn": "9780142501122",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "女巫一路掉东西、动物一路帮忙搭扫帚，最后齐心吓跑恶龙，善良与互助的韵文佳作。",
+      "reason_en": "A kind witch and friends beat the dragon together.",
+      "source_name": "Goodreads Listopia「Best Picture Books」",
+      "source_url": "https://www.goodreads.com/book/show/177246",
+      "douban_url": "https://book.douban.com/subject/2616061/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780142501122"
+    },
+    {
+      "id": "bk-adarkdarktale",
+      "title": "A Dark, Dark Tale",
+      "title_en": "",
+      "author": "Ruth Brown 文/图",
+      "rating": 9.3,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s4736140.jpg",
+      "isbn": "9780140546217",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "黑黑的树林黑黑的房子一路悬念推进，结尾一个小惊喜，练胆量也练'黑黑的'句式。",
+      "reason_en": "Gentle suspense to a tiny, fun surprise.",
+      "source_name": "The School Reading List (UK) Year 1",
+      "source_url": "https://www.goodreads.com/book/show/849139",
+      "douban_url": "https://book.douban.com/subject/1340562/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780140546217"
+    },
+    {
+      "id": "bk-",
+      "title": "永远永远爱你",
+      "title_en": "",
+      "author": "[日] 宫西达也",
+      "rating": 9.2,
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s3109561.jpg",
+      "isbn": "9787539141930",
+      "publisher": "二十一世纪出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "慈母龙妈妈养育霸王龙宝宝，讲透爱无关血缘，亲情主题催泪经典。",
+      "reason_en": "A mother dinosaur raises a T. rex; love beyond blood, deeply moving.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/3089661/",
+      "douban_url": "https://book.douban.com/subject/3089661/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787539141930"
+    },
+    {
+      "id": "bk-",
+      "title": "这是苹果吗也许是吧",
+      "title_en": "",
+      "author": "[日] 吉竹伸介",
+      "rating": 9.2,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s33309104.jpg",
+      "isbn": "9787542253767",
+      "publisher": "甘肃少年儿童出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "一个苹果引出上百种可能，脑洞与哲思兼备，点燃孩子发散思维的想象力神书。",
+      "reason_en": "One apple sparks a hundred possibilities; a wonder-machine for divergent thinking.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/34445993/",
+      "douban_url": "https://book.douban.com/subject/34445993/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787542253767"
+    },
+    {
+      "id": "bk-",
+      "title": "田鼠阿佛",
+      "title_en": "Frederick",
+      "author": "[美] 李欧·李奥尼",
+      "rating": 9.2,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s4460827.jpg",
+      "isbn": "9787544246620",
+      "publisher": "南海出版公司",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "收集阳光颜色和词语的小田鼠，肯定精神生活的价值，李欧·李奥尼哲学绘本。",
+      "reason_en": "The mouse who gathers sunshine and words; celebrates imagination and self-worth.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/4744788/",
+      "douban_url": "https://book.douban.com/subject/4744788/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787544246620"
+    },
+    {
+      "id": "bk-",
+      "title": "晚安，大猩猩",
+      "title_en": "",
+      "author": "[美] 佩吉·拉特曼",
+      "rating": 9.2,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s4422786.jpg",
+      "isbn": "9787544246767",
+      "publisher": "南海出版公司",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "调皮大猩猩偷钥匙放出全动物园，几乎无字却笑点满满，睡前共读神器。",
+      "reason_en": "A gorilla's near-wordless zoo breakout; pure bedtime comedy gold.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/4773507/",
+      "douban_url": "https://book.douban.com/subject/4773507/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787544246767"
+    },
+    {
+      "id": "bk-",
+      "title": "夏天守则",
+      "title_en": "",
+      "author": "[澳] 陈志勇",
+      "rating": 9.2,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s29760848.jpg",
+      "isbn": "9787505634404",
+      "publisher": "连环画出版社",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "哥哥的奇怪规则与弟弟的挫败爆发，超现实画面讲透手足关系，话题感十足。",
+      "reason_en": "Weird brotherly rules and a little brother's breaking point; surreal sibling insight.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/30214592/",
+      "douban_url": "https://book.douban.com/subject/30214592/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787505634404"
+    },
+    {
+      "id": "bk-",
+      "title": "不可思议的旅程",
+      "title_en": "",
+      "author": "[美] 艾伦·贝克尔",
+      "rating": 9.2,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s27331016.jpg",
+      "isbn": "9787513314770",
+      "publisher": "新星出版社",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "红笔画什么成什么，无字冒险如电影般流畅，想象力与观察力双练，三部曲开篇。",
+      "reason_en": "A magic red pen opens a wordless cinematic quest; fuels imagination and focus.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/25872643/",
+      "douban_url": "https://book.douban.com/subject/25872643/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787513314770"
+    },
+    {
+      "id": "bk-theveryhungrycat",
+      "title": "The Very Hungry Caterpillar",
+      "title_en": "",
+      "author": "Eric Carle 文/图",
+      "rating": 9.2,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s29695570.jpg",
+      "isbn": "9780241003008",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "星期、数字、食物、蜕变一次学全，低幼启蒙绕不开的经典，洞洞书设计孩子百看不厌。",
+      "reason_en": "Days, counting, metamorphosis—a toddler classic.",
+      "source_name": "Goodreads Listopia「Best Picture Books」",
+      "source_url": "https://www.goodreads.com/book/show/4948",
+      "douban_url": "https://book.douban.com/subject/1341007/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780241003008"
+    },
+    {
+      "id": "bk-goodnightmoon",
+      "title": "Goodnight Moon",
+      "title_en": "",
+      "author": "Margaret Wise Brown 文 / Clement Hurd 图",
+      "rating": 9.2,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s29875707.jpg",
+      "isbn": "9780808593867",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "绿色房间里跟每样东西道晚安，节奏舒缓百试百灵，哄睡界的开山经典。",
+      "reason_en": "The goodnight ritual that lulls kids to sleep.",
+      "source_name": "Goodreads Listopia「Best Picture Books」",
+      "source_url": "https://www.goodreads.com/book/show/32929",
+      "douban_url": "https://book.douban.com/subject/6011211/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780808593867"
+    },
+    {
+      "id": "bk-thegruffalo",
+      "title": "The Gruffalo",
+      "title_en": "",
+      "author": "Julia Donaldson 文 / Axel Scheffler 图",
+      "rating": 9.2,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s4628613.jpg",
+      "isbn": "9780333710937",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "小老鼠编出咕噜牛吓退狐狸猫头鹰和蛇，韵文悬疑节奏完美，机智就是最好的武器。",
+      "reason_en": "A tiny mouse outwits the forest, in rhyme.",
+      "source_name": "Goodreads Listopia「Best Picture Books」",
+      "source_url": "https://www.goodreads.com/book/show/1013383",
+      "douban_url": "https://book.douban.com/subject/1346213/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780333710937"
+    },
+    {
+      "id": "bk-thekissinghand",
+      "title": "The Kissing Hand",
+      "title_en": "",
+      "author": "Audrey Penn 文 / Ruth E. Harper & Nancy M. Leak 图",
+      "rating": 9.2,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s4846464.jpg",
+      "isbn": "9780756992996",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "浣熊妈妈亲亲孩子手心，让爱随身携带，入园入学前缓解分离焦虑的安抚神器。",
+      "reason_en": "A kiss in the palm for first-day jitters.",
+      "source_name": "Goodreads Listopia「Best Picture Books」",
+      "source_url": "https://www.goodreads.com/book/show/18419",
+      "douban_url": "https://book.douban.com/subject/5995627/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780756992996"
+    },
+    {
+      "id": "bk-thedot",
+      "title": "The Dot",
+      "title_en": "",
+      "author": "Peter H. Reynolds 文/图",
+      "rating": 9.2,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s21268005.jpg",
+      "isbn": "9781844281695",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "craft"
+        ]
+      },
+      "reason": "'我不会画'的孩子被老师一个小点点燃自信，美术启蒙和鼓励式教育的必收之作。",
+      "reason_en": "One small dot unlocks creative confidence.",
+      "source_name": "Goodreads Listopia「Best Picture Books」",
+      "source_url": "https://www.goodreads.com/book/show/825377",
+      "douban_url": "https://book.douban.com/subject/1345028/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9781844281695"
+    },
+    {
+      "id": "bk-",
+      "title": "你看起来好像很好吃",
+      "title_en": "You Look Yummy",
+      "author": "[日] 宫西达也",
+      "rating": 9.1,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s2084206.jpg",
+      "isbn": "9787530112038",
+      "publisher": "北京少年儿童出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "凶猛霸王龙被小甲龙叫爸爸，反差萌催泪又温暖，宫西达也爱与善良代表作。",
+      "reason_en": "A fierce T. rex becomes a dad; tear-jerking and warm, Miyajima's signature tale of love.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/1026035/",
+      "douban_url": "https://book.douban.com/subject/1026035/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787530112038"
+    },
+    {
+      "id": "bk-",
+      "title": "月亮忘记了",
+      "title_en": "",
+      "author": "幾米",
+      "rating": 9.1,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s4687105.jpg",
+      "isbn": "9787801388025",
+      "publisher": "海豚出版社",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "坠落的月亮与孤独男孩互相陪伴，几米诗意治愈，适合大童读出温柔与勇气。",
+      "reason_en": "Ji Mi's poetic tale of a lonely boy and the fallen moon; gentle comfort for growing hearts.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/4237837/",
+      "douban_url": "https://book.douban.com/subject/4237837/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787801388025"
+    },
+    {
+      "id": "bk-",
+      "title": "我的爸爸叫焦尼",
+      "title_en": "",
+      "author": "[瑞典] 波·R·汉伯格 文 / 爱娃·艾瑞克松 图",
+      "rating": 9.1,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s5771795.jpg",
+      "isbn": "9787539421438",
+      "publisher": "湖北美术出版社",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "单亲孩子与爸爸相聚的一天，不卖惨只讲爱，离异家庭孩子的温柔安慰。",
+      "reason_en": "A boy's precious day with his dad; tender comfort for children of split families.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/2274454/",
+      "douban_url": "https://book.douban.com/subject/2274454/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787539421438"
+    },
+    {
+      "id": "bk-",
+      "title": "坏狐狸",
+      "title_en": "",
+      "author": "[法] 本杰明·雷内",
+      "rating": 9.1,
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s35026151.jpg",
+      "isbn": "9787551137782",
+      "publisher": "花山文艺出版社",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "装凶失败的狐狸孵蛋当了鸡妈妈，法式冷幽默加反差萌，同名动画电影也好看。",
+      "reason_en": "A fox who fails at being fierce raises chicks; French deadpan humor, pure charm.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/30133852/",
+      "douban_url": "https://book.douban.com/subject/30133852/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787551137782"
+    },
+    {
+      "id": "bk-",
+      "title": "铁丝网上的小花",
+      "title_en": "",
+      "author": "[意] 格莱兹 文 / 英诺森提 绘",
+      "rating": 9.1,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s9011606.jpg",
+      "isbn": "9787533253479",
+      "publisher": "明天出版社",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "二战题材经典，女孩视角见证集中营悲剧，灰冷画面震撼，和平与良知教育必读。",
+      "reason_en": "A girl's quiet witness to WWII horror; powerful peace and conscience education.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/2188017/",
+      "douban_url": "https://book.douban.com/subject/2188017/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787533253479"
+    },
+    {
+      "id": "bk-",
+      "title": "点点点",
+      "title_en": "",
+      "author": "[法] 埃尔维·杜莱",
+      "rating": 9.1,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s30002219.jpg",
+      "isbn": "9787539175546",
+      "publisher": "二十一世纪出版社",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "按一按摇一摇点点就变魔术，互动性拉满的魔法书，把娃从屏幕前拉回书前。",
+      "reason_en": "Press, shake and the dots work magic; irresistible interactive fun, screen-free.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/10604035/",
+      "douban_url": "https://book.douban.com/subject/10604035/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787539175546"
+    },
+    {
+      "id": "bk-3",
+      "title": "小兔彼得和他的朋友们（全3册）",
+      "title_en": "",
+      "author": "[英] 毕翠克丝·波特",
+      "rating": 9.1,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s4042908.jpg",
+      "isbn": "9787533653590",
+      "publisher": "安徽教育出版社",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "波特小姐23篇田园童话全收录，小兔彼得百年经典，文学美育双重滋养。",
+      "reason_en": "Beatrix Potter's complete pastoral tales; a century of literary and visual nourishment.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/4097264/",
+      "douban_url": "https://book.douban.com/subject/4097264/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787533653590"
+    },
+    {
+      "id": "bk-",
+      "title": "松鼠先生和月亮",
+      "title_en": "",
+      "author": "[德] 塞巴斯蒂安·麦什莫泽",
+      "rating": 9.1,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s2700337.jpg",
+      "isbn": "9787539419602",
+      "publisher": "湖北美术出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "「月亮」掉进屋里原来是块奶酪，荒诞误会喜剧，钢笔线描画风笑点密集。",
+      "reason_en": "The 'fallen moon' is just cheese; an absurd, hilarious misunderstanding comedy.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/2257333/",
+      "douban_url": "https://book.douban.com/subject/2257333/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787539419602"
+    },
+    {
+      "id": "bk-",
+      "title": "朱家故事",
+      "title_en": "",
+      "author": "[英] 安东尼·布朗",
+      "rating": 9.1,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s3605465.jpg",
+      "isbn": "9787543470729",
+      "publisher": "河北教育出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "妈妈罢工后父子变猪的超现实讽喻，轻松聊家务分工与家庭平等，安东尼·布朗代表作。",
+      "reason_en": "When Mom leaves, dad and sons turn into pigs; witty lesson on sharing housework.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/3536343/",
+      "douban_url": "https://book.douban.com/subject/3536343/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787543470729"
+    },
+    {
+      "id": "bk-",
+      "title": "蓝莲花",
+      "title_en": "",
+      "author": "[比] 埃尔热",
+      "rating": 9.1,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s1577226.jpg",
+      "isbn": "9787500756699",
+      "publisher": "中国少年儿童出版社",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "丁丁远赴中国历险结识挚友张，经典冒险漫画（章节式桥梁书），适合大童自主阅读。",
+      "reason_en": "Tintin's China adventure with his lifelong friend Chang; classic comic for independent readers.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/1044107/",
+      "douban_url": "https://book.douban.com/subject/1044107/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787500756699"
+    },
+    {
+      "id": "bk-",
+      "title": "小金鱼逃走了",
+      "title_en": "",
+      "author": "[日] 五味太郎",
+      "rating": 9.1,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s34458955.jpg",
+      "isbn": "9787513304948",
+      "publisher": "新星出版社",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "在窗帘糖果罐里找小金鱼，专注力观察力训练鼻祖，低幼游戏书天花板。",
+      "reason_en": "Hunt the runaway goldfish through every page; the original toddler seek-and-find.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/10427241/",
+      "douban_url": "https://book.douban.com/subject/10427241/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787513304948"
+    },
+    {
+      "id": "bk-",
+      "title": "当鸭子遇见死神",
+      "title_en": "",
+      "author": "[德] 沃尔夫·埃布鲁赫",
+      "rating": 9.1,
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s26964451.jpg",
+      "isbn": "9787530758205",
+      "publisher": "新蕾出版社",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "死神温柔陪伴鸭子走完最后旅程，哲思版生命教育，安徒生奖作者之作。",
+      "reason_en": "Death gently walks with a duck; a philosophical, tender classic on mortality.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/24886923/",
+      "douban_url": "https://book.douban.com/subject/24886923/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787530758205"
+    },
+    {
+      "id": "bk-",
+      "title": "小蓝和小黄",
+      "title_en": "",
+      "author": "[美] 李欧·李奥尼",
+      "rating": 9.1,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34007827.jpg",
+      "isbn": "9787533257101",
+      "publisher": "明天出版社",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "小蓝小黄抱在一起变绿，用色块讲友谊与自我，李欧·李奥尼天才成名作。",
+      "reason_en": "Little Blue hugs Little Yellow and turns green; Lionni's genius debut on friendship.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/3116027/",
+      "douban_url": "https://book.douban.com/subject/3116027/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787533257101"
+    },
+    {
+      "id": "bk-",
+      "title": "你好灯塔",
+      "title_en": "",
+      "author": "[澳] 苏菲·布莱科尔",
+      "rating": 9.1,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s33988390.jpg",
+      "isbn": "9787521700886",
+      "publisher": "中信出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "守塔人一家与世隔绝的坚守，凯迪克金奖，细腻画面讲责任与爱。",
+      "reason_en": "A lighthouse keeper family's devoted life; Caldecott Medal art of duty and love.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/33423283/",
+      "douban_url": "https://book.douban.com/subject/33423283/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787521700886"
+    },
+    {
+      "id": "bk-",
+      "title": "我变成一只喷火龙了",
+      "title_en": "",
+      "author": "赖马",
+      "rating": 9.1,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s6801092.jpg",
+      "isbn": "9787537636179",
+      "publisher": "河北少年儿童出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "赖马式爆笑，生气就喷火的阿古力想尽办法灭火，情绪管理具象化。",
+      "reason_en": "Lai Ma's laugh-out-loud tale of a fire-breathing temper, tamed at last.",
+      "source_name": "丰子恺儿童图画书奖（第一届）",
+      "source_url": "https://book.douban.com/subject/5919042/",
+      "douban_url": "https://book.douban.com/subject/5919042/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787537636179"
+    },
+    {
+      "id": "bk-",
+      "title": "盘中餐",
+      "title_en": "",
+      "author": "于虹呈",
+      "rating": 9.1,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s28601044.jpg",
+      "isbn": "9787514828825",
+      "publisher": "中国少年儿童出版社",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "nature",
+          "story"
+        ]
+      },
+      "reason": "一粒米从秧苗到餐桌的科学记录，画面考究，是最好的珍惜粮食与农耕启蒙。",
+      "reason_en": "Follows a single grain of rice from seedling to table with gorgeous, accurate art — the best gratitude-for-food lesson.",
+      "source_name": "丰子恺儿童图画书奖（第五届，首奖）",
+      "source_url": "https://book.douban.com/subject/26757022/",
+      "douban_url": "https://book.douban.com/subject/26757022/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787514828825"
+    },
+    {
+      "id": "bk-",
+      "title": "苏丹的犀角",
+      "title_en": "",
+      "author": "戴芸 文 / 李星明 图",
+      "rating": 9.1,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s33444129.jpg",
+      "isbn": "9787556839841",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "nature",
+          "story"
+        ]
+      },
+      "reason": "最后一头雄性北白犀的真实一生，温柔讲述濒危与告别，在心里种下保护自然的种子。",
+      "reason_en": "The true life of the last male northern white rhino — a tender lesson in endangered species and saying goodbye.",
+      "source_name": "丰子恺儿童图画书奖（第七届，首奖）",
+      "source_url": "https://book.douban.com/subject/34763394/",
+      "douban_url": "https://book.douban.com/subject/34763394/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787556839841"
+    },
+    {
+      "id": "bk-",
+      "title": "驯河童子",
+      "title_en": "",
+      "author": "廖小琴 文（乐乐趣出品）",
+      "rating": 9.1,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s35320856.jpg",
+      "isbn": "9787542271297",
+      "publisher": "甘肃少年儿童出版社",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "以少年驯河的奇幻传说写勇气与自我认同，气势恢宏，适合大童挑战长篇绘本。",
+      "reason_en": "A boy faces the raging river with his own quiet strength — a sweeping fantasy about courage and self-worth.",
+      "source_name": "丰子恺儿童图画书奖（第九届）",
+      "source_url": "https://book.douban.com/subject/36882448/",
+      "douban_url": "https://book.douban.com/subject/36882448/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787542271297"
+    },
+    {
+      "id": "bk-brownbearbrownbe",
+      "title": "Brown Bear, Brown Bear, What Do You See?",
+      "title_en": "",
+      "author": "Bill Martin Jr. 文 / Eric Carle 图",
+      "rating": 9.1,
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s7003351.jpg",
+      "isbn": "9780805047905",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "english"
+        ]
+      },
+      "reason": "一问一答的重复句式配上拼贴画，颜色、动物和英语开口启蒙的入门首选。",
+      "reason_en": "Repeating patterns for first colors and words.",
+      "source_name": "Goodreads Listopia「Best Picture Books」",
+      "source_url": "https://www.goodreads.com/book/show/759611",
+      "douban_url": "https://book.douban.com/subject/1840280/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780805047905"
+    },
+    {
+      "id": "bk-100",
+      "title": "活了100万次的猫",
+      "title_en": "The Cat That Lived a Million Times",
+      "author": "[日] 佐野洋子",
+      "rating": 9.0,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s1673084.jpg",
+      "isbn": "9787806795095",
+      "publisher": "接力出版社",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "死了100万次的猫第一次为自己流泪，爱与生命的哲学寓言，常读常新。",
+      "reason_en": "A cat that died a million times finally learns to love; a fable that stays with you.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/1257365/",
+      "douban_url": "https://book.douban.com/subject/1257365/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787806795095"
+    },
+    {
+      "id": "bk-",
+      "title": "时光电影院",
+      "title_en": "",
+      "author": "几米",
+      "rating": 9.0,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s8988425.jpg",
+      "isbn": "9787511008053",
+      "publisher": "海豚出版社",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "用一场场电影串起对妈妈的思念与成长，几米治愈长篇，共读有泪点。",
+      "reason_en": "Movies weave a girl's longing for her lost mother; a moving Ji Mi growth story.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/10553760/",
+      "douban_url": "https://book.douban.com/subject/10553760/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787511008053"
+    },
+    {
+      "id": "bk-",
+      "title": "星空",
+      "title_en": "",
+      "author": "幾米",
+      "rating": 9.0,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s3987987.jpg",
+      "isbn": "9787802444331",
+      "publisher": "现代出版社",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "两个孤独少年逃离城市共赏星空，几米成长治愈代表作，适合小学高年级。",
+      "reason_en": "Two lonely teens find healing under the stars; Ji Mi's coming-of-age classic.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/4012128/",
+      "douban_url": "https://book.douban.com/subject/4012128/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787802444331"
+    },
+    {
+      "id": "bk-",
+      "title": "失落的一角遇见大圆满",
+      "title_en": "",
+      "author": "[美] 谢尔·希尔弗斯坦",
+      "rating": 9.0,
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s1818541.jpg",
+      "isbn": "9787544225175",
+      "publisher": "南海出版公司",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "极简线条寓言讲成熟与依赖，大人孩子各有读法，谢尔经典的人生启蒙课。",
+      "reason_en": "A minimalist fable on maturity and independence; new meaning at every age.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/1030200/",
+      "douban_url": "https://book.douban.com/subject/1030200/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787544225175"
+    },
+    {
+      "id": "bk-",
+      "title": "爱心树",
+      "title_en": "The Giving Tree",
+      "author": "[美] 谢尔·希尔弗斯坦",
+      "rating": 9.0,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s1112624.jpg",
+      "isbn": "9787544225151",
+      "publisher": "南海出版公司",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "一棵有求必应的树陪男孩一生，付出与索取的经典寓言，亲子谈爱的入口。",
+      "reason_en": "A giving tree and a boy across a lifetime; the classic parable of love and giving.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/1059503/",
+      "douban_url": "https://book.douban.com/subject/1059503/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787544225151"
+    },
+    {
+      "id": "bk-",
+      "title": "花婆婆",
+      "title_en": "Miss Rumphius",
+      "author": "[美] 芭芭拉·库尼",
+      "rating": 9.0,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s2449403.jpg",
+      "isbn": "9787543464605",
+      "publisher": "河北教育出版社",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "「做一件让世界更美的事」，花婆婆一生践行的浪漫约定，价值观启蒙必收。",
+      "reason_en": "'Do something to make the world more beautiful'; a lifelong promise kept.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/2117872/",
+      "douban_url": "https://book.douban.com/subject/2117872/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787543464605"
+    },
+    {
+      "id": "bk-",
+      "title": "好饿的毛毛虫",
+      "title_en": "The Very Hungry Caterpillar",
+      "author": "[美] 艾瑞·卡尔",
+      "rating": 9.0,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s3161609.jpg",
+      "isbn": "9787533256739",
+      "publisher": "明天出版社",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "science"
+        ]
+      },
+      "reason": "洞洞书加变蝴蝶，数数认星期认食物全囊括，低幼认知启蒙第一书。",
+      "reason_en": "Die-cut pages and metamorphosis; counting, weekdays and food in one classic.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/3106707/",
+      "douban_url": "https://book.douban.com/subject/3106707/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787533256739"
+    },
+    {
+      "id": "bk-",
+      "title": "白兔夫人",
+      "title_en": "",
+      "author": "[法] 吉尔·巴什莱",
+      "rating": 9.0,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s29507063.jpg",
+      "isbn": "9787550267817",
+      "publisher": "北京联合出版公司",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "爱丽丝白兔家的番外日常，精致画面埋满幽默细节，读爱丽丝后更有味。",
+      "reason_en": "The White Rabbit family's witty home life; richer fun after reading Alice.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/26694925/",
+      "douban_url": "https://book.douban.com/subject/26694925/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787550267817"
+    },
+    {
+      "id": "bk-",
+      "title": "小房子",
+      "title_en": "",
+      "author": "[美] 维吉尼亚·李·伯顿",
+      "rating": 9.0,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s2865603.jpg",
+      "isbn": "9787544234696",
+      "publisher": "南海出版公司",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "nature"
+        ]
+      },
+      "reason": "小房子看乡村变城市又回归自然，城市化议题诗意图景，凯迪克金奖经典。",
+      "reason_en": "A house watches the countryside become city; poetic Caldecott classic on change.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/2212064/",
+      "douban_url": "https://book.douban.com/subject/2212064/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787544234696"
+    },
+    {
+      "id": "bk-",
+      "title": "野兽国",
+      "title_en": "Where the Wild Things Are",
+      "author": "[美] 莫里斯·桑达克",
+      "rating": 9.0,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34745423.jpg",
+      "isbn": "9787221119308",
+      "publisher": "贵州人民出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "撒野男孩在野兽国称王又想回家，直面孩子怒气的凯迪克金奖，情绪教育鼻祖。",
+      "reason_en": "A wild boy kings the beasts and sails home; Caldecott gold on handling anger.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/25872646/",
+      "douban_url": "https://book.douban.com/subject/25872646/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787221119308"
+    },
+    {
+      "id": "bk-",
+      "title": "雪人",
+      "title_en": "",
+      "author": "[英] 雷蒙·布力格",
+      "rating": 9.0,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s2166283.jpg",
+      "isbn": "9787532468195",
+      "publisher": "少年儿童出版社",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "全无字却温暖满格，男孩与雪人的奇妙一夜，搭配同名动画更佳。",
+      "reason_en": "Wordless winter magic between a boy and his snowman; pair with the beloved film.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/1806300/",
+      "douban_url": "https://book.douban.com/subject/1806300/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787532468195"
+    },
+    {
+      "id": "bk-",
+      "title": "小狐狸买手套",
+      "title_en": "",
+      "author": "[日] 新美南吉 文 / 黑井健 绘",
+      "rating": 9.0,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34476489.jpg",
+      "isbn": "9787544238342",
+      "publisher": "南海出版公司",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "狐狸妈妈放手让小狐狸独自进城，温柔讲信任与善意，入选小学语文课本。",
+      "reason_en": "A mother fox lets her kit brave town alone; tender trust and kindness, textbook favorite.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/4726738/",
+      "douban_url": "https://book.douban.com/subject/4726738/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787544238342"
+    },
+    {
+      "id": "bk-",
+      "title": "大猩猩",
+      "title_en": "",
+      "author": "[英] 安东尼·布朗",
+      "rating": 9.0,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s34015176.jpg",
+      "isbn": "9787543464643",
+      "publisher": "河北教育出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "冷冰冰的爸爸和有魔法的大猩猩，超现实讲孩子对陪伴的渴望，安东尼·布朗经典。",
+      "reason_en": "A magical gorilla answers a lonely girl's wish for dad; Browne's classic on companionship.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/2122483/",
+      "douban_url": "https://book.douban.com/subject/2122483/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787543464643"
+    },
+    {
+      "id": "bk-",
+      "title": "糖球",
+      "title_en": "",
+      "author": "[韩] 白希那",
+      "rating": 9.0,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s33465644.jpg",
+      "isbn": "9787544861526",
+      "publisher": "接力出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "吃下糖球能听见他人心声，从孤单到主动交朋友，白希那共情治愈神作。",
+      "reason_en": "Magic candies let a boy hear others' hearts; Baek Heena's empathy-filled healing tale.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/34807223/",
+      "douban_url": "https://book.douban.com/subject/34807223/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787544861526"
+    },
+    {
+      "id": "bk-",
+      "title": "小黑鱼",
+      "title_en": "Swimmy",
+      "author": "[美] 李欧·李奥尼",
+      "rating": 9.0,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s29714423.jpg",
+      "isbn": "9787544245906",
+      "publisher": "南海出版公司",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "李奥尼经典，小黑鱼教同伴协作自救，智慧与勇气的启蒙，画面极美。",
+      "reason_en": "Lionni's classic: one small fish teaches teamwork and courage. Gorgeous art.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/4237559/",
+      "douban_url": "https://book.douban.com/subject/4237559/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787544245906"
+    },
+    {
+      "id": "bk-",
+      "title": "亲爱的小鱼",
+      "title_en": "",
+      "author": "[法] 安德烈·德昂",
+      "rating": 9.0,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34013592.jpg",
+      "isbn": "9787543468047",
+      "publisher": "河北教育出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "十四句诗讲尽爱与放手，猫和鱼的温情童话，低幼共读入门佳作。",
+      "reason_en": "Fourteen poetic lines about love and letting go; a tender cat-and-fish tale.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/2340082/",
+      "douban_url": "https://book.douban.com/subject/2340082/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787543468047"
+    },
+    {
+      "id": "bk-",
+      "title": "蹦!",
+      "title_en": "",
+      "author": "[日] 松冈达英",
+      "rating": 9.0,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s4834227.jpg",
+      "isbn": "9787539143507",
+      "publisher": "二十一世纪出版社",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "重复拟声词Beng贴合宝宝语感，动物蹦跳引发模仿，早教互动神器。",
+      "reason_en": "Repeating Beng sounds captivate babies; jumping animals invite imitation.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/3299715/",
+      "douban_url": "https://book.douban.com/subject/3299715/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787539143507"
+    },
+    {
+      "id": "bk-",
+      "title": "玛德琳",
+      "title_en": "",
+      "author": "[美] 路德维希·贝梅尔曼斯",
+      "rating": 9.0,
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s3943431.jpg",
+      "isbn": "9787543473355",
+      "publisher": "河北教育出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "巴黎街景配韵文叙事，勇敢又有个性的小女孩，经典长销不衰。",
+      "reason_en": "Rhymed Paris adventure of a brave little girl; an enduring classic.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/3927859/",
+      "douban_url": "https://book.douban.com/subject/3927859/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787543473355"
+    },
+    {
+      "id": "bk-duiztak",
+      "title": "Du Iz Tak?",
+      "title_en": "",
+      "author": "Carson Ellis 文/图",
+      "rating": 9.0,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s29205305.jpg",
+      "isbn": "9780763665302",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "nature"
+        ]
+      },
+      "reason": "全程虫语的奇趣绘本，孩子像侦探一样破译台词，语言游戏与自然观察双享受。",
+      "reason_en": "Told entirely in invented bug language — kids decode every line like detectives while watching a plant grow.",
+      "source_name": "ALA Caldecott 2017（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/28250952",
+      "douban_url": "https://book.douban.com/subject/26931267/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780763665302"
+    },
+    {
+      "id": "bk-wherethewildthin",
+      "title": "Where the Wild Things Are",
+      "title_en": "",
+      "author": "Maurice Sendak 文/图",
+      "rating": 9.0,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34745423.jpg",
+      "isbn": "9787221119308",
+      "publisher": "贵州人民出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "迈克斯大闹一场驾船去野兽国称王又想家，把孩子的愤怒和母爱的包容讲得最好（中文版）。",
+      "reason_en": "Anger, wild rumpus, and home to mother's love.",
+      "source_name": "Goodreads Listopia「Best Picture Books」",
+      "source_url": "https://www.goodreads.com/book/show/19543",
+      "douban_url": "https://book.douban.com/subject/25872646/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787221119308"
+    },
+    {
+      "id": "bk-thegivingtree",
+      "title": "The Giving Tree",
+      "title_en": "",
+      "author": "Shel Silverstein 文/图",
+      "rating": 9.0,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s1112624.jpg",
+      "isbn": "9787544225151",
+      "publisher": "南海出版公司",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "一棵有求必应的树和一个不断索取的男孩，关于爱与给予的寓言，大人读完也会沉默片刻（中文版）。",
+      "reason_en": "A poignant fable of giving and love.",
+      "source_name": "Goodreads Listopia「Best Picture Books」",
+      "source_url": "https://www.goodreads.com/book/show/370493",
+      "douban_url": "https://book.douban.com/subject/1059503/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787544225151"
+    },
+    {
+      "id": "bk-",
+      "title": "爷爷一定有办法",
+      "title_en": "Something from Nothing",
+      "author": "[加] 菲比·吉尔曼",
+      "rating": 8.9,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s26552436.jpg",
+      "isbn": "9787532464586",
+      "publisher": "少年儿童出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "旧毯子变外套背心领带，重复节奏朗朗上口，画面里老鼠一家藏双线彩蛋。",
+      "reason_en": "Grandpa turns a blanket into treasures; rhythmic text plus a hidden mouse subplot.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/1397331/",
+      "douban_url": "https://book.douban.com/subject/1397331/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787532464586"
+    },
+    {
+      "id": "bk-",
+      "title": "逃家小兔",
+      "title_en": "The Runaway Bunny",
+      "author": "[美] 玛格丽特·怀兹·布朗 文 / 克雷门·赫德 图",
+      "rating": 8.9,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s1447696.jpg",
+      "isbn": "9787532465521",
+      "publisher": "少年儿童出版社",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "妈妈永远追得上逃跑的小兔，爱的捉迷藏流行一甲子，低幼安全感奠基之作。",
+      "reason_en": "Every runaway bunny is found; the original game of love, sixty years strong.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/1433568/",
+      "douban_url": "https://book.douban.com/subject/1433568/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787532465521"
+    },
+    {
+      "id": "bk-",
+      "title": "肚子里有个火车站",
+      "title_en": "",
+      "author": "[德] 安娜·鲁斯曼",
+      "rating": 8.9,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s6518412.jpg",
+      "isbn": "9787530451342",
+      "publisher": "北京科学技术出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "life"
+        ]
+      },
+      "reason": "把消化系统画成肚子火车站，吃太快小精灵会罢工，饮食习惯科普神书。",
+      "reason_en": "Digestion as a busy train station in your belly; science that fixes eating habits.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/6127332/",
+      "douban_url": "https://book.douban.com/subject/6127332/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787530451342"
+    },
+    {
+      "id": "bk-",
+      "title": "不可思议的朋友",
+      "title_en": "",
+      "author": "[日] 田岛征彦",
+      "rating": 8.9,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s29889846.jpg",
+      "isbn": "9787550297760",
+      "publisher": "北京联合出版公司",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "真实故事改编，与自闭症男孩二十年的友谊，同理心与包容教育首选绘本。",
+      "reason_en": "A true-story friendship with an autistic boy spanning twenty years; empathy at its best.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/27069925/",
+      "douban_url": "https://book.douban.com/subject/27069925/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787550297760"
+    },
+    {
+      "id": "bk-",
+      "title": "蚯蚓的日记",
+      "title_en": "Diary of a Worm",
+      "author": "[美] 朵琳·克罗宁 文 / 哈利·布里斯 图",
+      "rating": 8.9,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s24223142.jpg",
+      "isbn": "9787532466382",
+      "publisher": "少年儿童出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "science"
+        ]
+      },
+      "reason": "日记体幽默绘本，蚯蚓视角看世界，笑点密集还顺带自然知识。",
+      "reason_en": "Diary-style picture book; a worm's-eye view packed with humor and nature facts.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/1546437/",
+      "douban_url": "https://book.douban.com/subject/1546437/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787532466382"
+    },
+    {
+      "id": "bk-",
+      "title": "团圆",
+      "title_en": "",
+      "author": "余丽琼 文 / 朱成梁 图",
+      "rating": 8.9,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s6631278.jpg",
+      "isbn": "9787533255879",
+      "publisher": "明天出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "原创中国风，春节里打工爸爸的归家与告别，亲情最浓的年味绘本。",
+      "reason_en": "Chinese original about Spring Festival reunion; tender father-daughter love.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/3040952/",
+      "douban_url": "https://book.douban.com/subject/3040952/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787533255879"
+    },
+    {
+      "id": "bk-o",
+      "title": "O先生",
+      "title_en": "",
+      "author": "[法] 刘易斯·特隆赫姆",
+      "rating": 8.9,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s1434948.jpg",
+      "isbn": "9787806267752",
+      "publisher": "吉林文史出版社",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "无字漫画荒诞幽默又引人深思，适合大童自主阅读；漫画书（大童档）。",
+      "reason_en": "Wordless absurdist comic; thought-provoking fun for independent readers.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/1422017/",
+      "douban_url": "https://book.douban.com/subject/1422017/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787806267752"
+    },
+    {
+      "id": "bk-",
+      "title": "獾的礼物",
+      "title_en": "Badger's Parting Gifts",
+      "author": "[英] 苏珊·华莱",
+      "rating": 8.9,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s1881528.jpg",
+      "isbn": "9787532469406",
+      "publisher": "少年儿童出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "用隧道与礼物温柔讲死亡与怀念，生命教育入门首选，感动而不沉重。",
+      "reason_en": "A gentle introduction to loss and remembrance; the go-to book on death.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/1902982/",
+      "douban_url": "https://book.douban.com/subject/1902982/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787532469406"
+    },
+    {
+      "id": "bk-",
+      "title": "迟到大王",
+      "title_en": "",
+      "author": "[英] 约翰·伯宁罕",
+      "rating": 8.9,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s4344393.jpg",
+      "isbn": "9787533260910",
+      "publisher": "明天出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "伯宁罕讽刺幽默，为说谎的孩子鸣不平，想象与思辨并重。",
+      "reason_en": "Burningham's satire defends a liar's wild imagination; sharp and funny.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/4743834/",
+      "douban_url": "https://book.douban.com/subject/4743834/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787533260910"
+    },
+    {
+      "id": "bk-100",
+      "title": "100层的房子",
+      "title_en": "",
+      "author": "[日] 岩井俊雄",
+      "rating": 8.9,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s4506059.jpg",
+      "isbn": "9787530446829",
+      "publisher": "北京科学技术出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "math"
+        ]
+      },
+      "reason": "竖翻页一层层探访十种动物的家，边数数边读故事，观察力与数感同步升级。",
+      "reason_en": "Climb 100 floors and meet ten animal homes — counting, observation and imagination in one flip-book.",
+      "source_name": "豆瓣豆列「3岁及以上的孩子：图画书类」",
+      "source_url": "https://book.douban.com/subject/4753975/",
+      "douban_url": "https://book.douban.com/subject/4753975/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787530446829"
+    },
+    {
+      "id": "bk-dontletthepigeon",
+      "title": "Don't Let the Pigeon Drive the Bus!",
+      "title_en": "",
+      "author": "Mo Willems 文/图",
+      "rating": 8.9,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34742699.jpg",
+      "isbn": "9780786819881",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "鸽子软磨硬泡想开公交车，全程邀请孩子大声说'不行'，互动感拉满的爆笑经典。",
+      "reason_en": "The pigeon begs, kids shout NO—pure fun.",
+      "source_name": "Goodreads Listopia「Best Picture Books」",
+      "source_url": "https://www.goodreads.com/book/show/191113",
+      "douban_url": "https://book.douban.com/subject/2244365/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780786819881"
+    },
+    {
+      "id": "bk-owlmoon",
+      "title": "Owl Moon",
+      "title_en": "",
+      "author": "Jane Yolen 文 / John Schoenherr 图",
+      "rating": 8.9,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s1691177.jpg",
+      "isbn": "9780399214578",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "nature"
+        ]
+      },
+      "reason": "月夜跟爸爸去林中寻猫头鹰，要安静、要有希望，文字如雪夜般纯净的凯迪克金奖。",
+      "reason_en": "A hushed, poetic winter owling with Dad.",
+      "source_name": "Goodreads Listopia「Best Picture Books」",
+      "source_url": "https://www.goodreads.com/book/show/228696",
+      "douban_url": "https://book.douban.com/subject/1831059/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780399214578"
+    },
+    {
+      "id": "bk-",
+      "title": "鳄鱼怕怕牙医怕怕",
+      "title_en": "",
+      "author": "[日] 五味太郎",
+      "rating": 8.8,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s10034078.jpg",
+      "isbn": "9787532463442",
+      "publisher": "少年儿童出版社",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life",
+          "story"
+        ]
+      },
+      "reason": "病人牙医互相害怕的双视角神作，幽默化解看牙恐惧，刷牙教育必收。",
+      "reason_en": "Scared patient, scared dentist; humor melts dentist fear and builds brushing habits.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/1448645/",
+      "douban_url": "https://book.douban.com/subject/1448645/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787532463442"
+    },
+    {
+      "id": "bk-",
+      "title": "我讨厌妈妈",
+      "title_en": "",
+      "author": "[日] 酒井驹子",
+      "rating": 8.8,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s4224052.jpg",
+      "isbn": "9787544237185",
+      "publisher": "南海出版公司",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "小兔子满腹牢骚又离不开妈妈，幽默道尽亲子小情绪，共读更贴心。",
+      "reason_en": "A bunny's funny complaints about mom end in love; perfect parent-child read.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/2150240/",
+      "douban_url": "https://book.douban.com/subject/2150240/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787544237185"
+    },
+    {
+      "id": "bk-",
+      "title": "我爸爸",
+      "title_en": "My Dad",
+      "author": "[英] 安东尼·布朗",
+      "rating": 8.8,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s2449523.jpg",
+      "isbn": "9787543464582",
+      "publisher": "河北教育出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "孩子眼中无所不能的爸爸，夸张又幽默，亲子情感启蒙必读。",
+      "reason_en": "A child's awe of dad rendered with warmth and humor; a must-read classic.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/2117875/",
+      "douban_url": "https://book.douban.com/subject/2117875/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787543464582"
+    },
+    {
+      "id": "bk-",
+      "title": "我妈妈",
+      "title_en": "My Mum",
+      "author": "[英] 安东尼·布朗",
+      "rating": 8.8,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s23660957.jpg",
+      "isbn": "9787543464575",
+      "publisher": "河北教育出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "与《我爸爸》成对，孩子心中的超人妈妈，夸张幽默满溢爱意。",
+      "reason_en": "Paired with My Dad; the super-mom through a child's eyes, funny and loving.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/2121010/",
+      "douban_url": "https://book.douban.com/subject/2121010/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787543464575"
+    },
+    {
+      "id": "bk-",
+      "title": "棕色的熊、棕色的熊，你在看什么？",
+      "title_en": "",
+      "author": "[美] 比尔·马丁 文 / 艾瑞·卡尔 绘",
+      "rating": 8.8,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s3958238.jpg",
+      "isbn": "9787533258764",
+      "publisher": "明天出版社",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "一问一答韵律感强，认颜色认动物，低幼认知与朗读启蒙双料经典。",
+      "reason_en": "Rhythmic Q&A teaching colors and animals; a toddler read-aloud staple.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/4005745/",
+      "douban_url": "https://book.douban.com/subject/4005745/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787533258764"
+    },
+    {
+      "id": "bk-",
+      "title": "和甘伯伯去游河",
+      "title_en": "",
+      "author": "[英] 约翰·伯宁罕",
+      "rating": 8.8,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34015192.jpg",
+      "isbn": "9787543468849",
+      "publisher": "河北教育出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "格林纳威奖经典，甘伯伯的包容让规则教育不着痕迹，孩子百读不厌。",
+      "reason_en": "Greenaway Medal classic; gentle rule-setting via Mr. Gumpy's river ride.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/3224618/",
+      "douban_url": "https://book.douban.com/subject/3224618/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787543468849"
+    },
+    {
+      "id": "bk-",
+      "title": "抱抱",
+      "title_en": "",
+      "author": "[英] 杰兹·阿波罗",
+      "rating": 8.8,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s6022638.jpg",
+      "isbn": "9787533258795",
+      "publisher": "明天出版社",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "近乎无字，小猩猩找妈妈的拥抱之旅，低幼亲情启蒙第一书。",
+      "reason_en": "Almost wordless; baby gorilla's search for a hug warms every reader.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/3712514/",
+      "douban_url": "https://book.douban.com/subject/3712514/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787533258795"
+    },
+    {
+      "id": "bk-",
+      "title": "让路给小鸭子",
+      "title_en": "",
+      "author": "[美] 罗伯特·麦克洛斯基",
+      "rating": 8.8,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s4056126.jpg",
+      "isbn": "9787543473577",
+      "publisher": "河北教育出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "nature"
+        ]
+      },
+      "reason": "凯迪克金奖，鸭子一家过马路，全城人为生命让路，温情又幽默。",
+      "reason_en": "Caldecott winner; a city stops for a duck family crossing, warm and witty.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/4134396/",
+      "douban_url": "https://book.douban.com/subject/4134396/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787543473577"
+    },
+    {
+      "id": "bk-",
+      "title": "牙齿大街的新鲜事",
+      "title_en": "",
+      "author": "[德] 安娜·鲁斯曼",
+      "rating": 8.8,
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s6790181.jpg",
+      "isbn": "9787530451359",
+      "publisher": "北京科学技术出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life"
+        ]
+      },
+      "reason": "把蛀牙细菌画成野心建筑队，孩子看完主动刷牙，习惯养成利器。",
+      "reason_en": "Cavity germs as ambitious builders; kids brush their teeth after this.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/6127333/",
+      "douban_url": "https://book.douban.com/subject/6127333/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787530451359"
+    },
+    {
+      "id": "bk-",
+      "title": "小石狮",
+      "title_en": "",
+      "author": "熊亮",
+      "rating": 8.8,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s3076449.jpg",
+      "isbn": "9787533254636",
+      "publisher": "明天出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "熊亮原创中国风，小石狮守望小镇一生，文字极简余韵悠长；建议增设人文主题。",
+      "reason_en": "Xiong Liang's Chinese original; a small stone lion keeps watch with grace.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/2975451/",
+      "douban_url": "https://book.douban.com/subject/2975451/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787533254636"
+    },
+    {
+      "id": "bk-",
+      "title": "要是你给老鼠吃饼干",
+      "title_en": "",
+      "author": "[美] 劳拉·乔菲·努梅罗夫 文 / 费利西亚·邦德 图",
+      "rating": 8.8,
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s1670061.jpg",
+      "isbn": "9787532466399",
+      "publisher": "少年儿童出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "因果接龙环环相扣，爆笑循环里练预测与逻辑，经典共读之选。",
+      "reason_en": "Endless if-then chain reaction; hilarious loop that builds prediction.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/1444555/",
+      "douban_url": "https://book.douban.com/subject/1444555/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787532466399"
+    },
+    {
+      "id": "bk-",
+      "title": "约瑟夫有件旧外套",
+      "title_en": "",
+      "author": "[美] 西姆斯·塔贝克",
+      "rating": 8.8,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34015182.jpg",
+      "isbn": "9787543468924",
+      "publisher": "河北教育出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "凯迪克金奖，旧外套一路改造，变废为宝的乐观与巧思。",
+      "reason_en": "Caldecott winner; Joseph's coat keeps transforming, celebrating ingenuity.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/3042252/",
+      "douban_url": "https://book.douban.com/subject/3042252/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787543468924"
+    },
+    {
+      "id": "bk-greeneggsandham",
+      "title": "Green Eggs and Ham",
+      "title_en": "",
+      "author": "Dr. Seuss 文/图",
+      "rating": 8.8,
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s4573411.jpg",
+      "isbn": "9780394800165",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "english"
+        ]
+      },
+      "reason": "全书只用50个单词，重复句式一读就上口，还顺便劝动不肯尝试新食物的小朋友。",
+      "reason_en": "Fifty rhyming words that make reading feel easy.",
+      "source_name": "Goodreads Listopia「Best Picture Books」",
+      "source_url": "https://www.goodreads.com/book/show/23772",
+      "douban_url": "https://book.douban.com/subject/2334838/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780394800165"
+    },
+    {
+      "id": "bk-knufflebunnyacau",
+      "title": "Knuffle Bunny: A Cautionary Tale",
+      "title_en": "",
+      "author": "Mo Willems 文/图",
+      "rating": 8.8,
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s11246461.jpg",
+      "isbn": "9780786818709",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "还不会说话的翠西弄丢玩偶的崩溃瞬间，照片拼贴加漫画，家长看了都会心一笑。",
+      "reason_en": "A toddler meltdown over a lost bunny, told truly.",
+      "source_name": "Goodreads Listopia「Best Picture Books」",
+      "source_url": "https://www.goodreads.com/book/show/490867",
+      "douban_url": "https://book.douban.com/subject/1345672/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780786818709"
+    },
+    {
+      "id": "bk-",
+      "title": "爱德华的奇妙之旅",
+      "title_en": "",
+      "author": "[美] 凯特·迪卡米洛 文 / 马格拉姆·伊巴图林 绘",
+      "rating": 8.7,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s24973480.jpg",
+      "isbn": "9787530739488",
+      "publisher": "新蕾出版社",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "瓷兔子学会爱与被爱的旅程，纽伯瑞银奖章节书，适合大童自主阅读。",
+      "reason_en": "A china rabbit learns to love; Newbery Honor chapter book for solo readers.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/1982200/",
+      "douban_url": "https://book.douban.com/subject/1982200/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787530739488"
+    },
+    {
+      "id": "bk-",
+      "title": "当世界年纪还小的时候",
+      "title_en": "",
+      "author": "[德] 于尔克·舒比格 文 / 罗特劳特·苏珊娜·贝尔纳 图",
+      "rating": 8.7,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s1886517.jpg",
+      "isbn": "9787536539433",
+      "publisher": "四川少年儿童出版社",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "舒比格奇想童话集，用想象力回答世界从哪来，适合大童慢慢品；故事集（非典型绘本）。",
+      "reason_en": "Schubiger's whimsical creation tales; imaginative reading for older kids.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/1907739/",
+      "douban_url": "https://book.douban.com/subject/1907739/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787536539433"
+    },
+    {
+      "id": "bk-",
+      "title": "是谁嗯嗯在我的头上",
+      "title_en": "",
+      "author": "[德] 维尔纳·霍尔茨瓦特 文 / 沃尔夫·埃布鲁赫 图",
+      "rating": 8.7,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s3922706.jpg",
+      "isbn": "9787543464629",
+      "publisher": "河北教育出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "science"
+        ]
+      },
+      "reason": "小鼹鼠破便便案，爆笑中学动物习性，科普启蒙的幽默入口。",
+      "reason_en": "A mole's poop-detective quest; hilarious gateway to animal facts.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/2120339/",
+      "douban_url": "https://book.douban.com/subject/2120339/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787543464629"
+    },
+    {
+      "id": "bk-",
+      "title": "大卫，不可以",
+      "title_en": "No, David!",
+      "author": "[美] 大卫·香农",
+      "rating": 8.7,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s5850464.jpg",
+      "isbn": "9787543464636",
+      "publisher": "河北教育出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life"
+        ]
+      },
+      "reason": "凯迪克银奖，淘气包大卫照见每个孩子，规则之外永远是爱。",
+      "reason_en": "Caldecott Honor; naughty David mirrors every kid, wrapped in love.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/2117871/",
+      "douban_url": "https://book.douban.com/subject/2117871/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787543464636"
+    },
+    {
+      "id": "bk-",
+      "title": "勇气",
+      "title_en": "",
+      "author": "[美] 伯纳德·韦伯",
+      "rating": 8.7,
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s2364291.jpg",
+      "isbn": "9787544236492",
+      "publisher": "南海出版公司",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "social"
+        ]
+      },
+      "reason": "散文诗罗列日常勇气片段，帮孩子自信面对未知，朗读友好。",
+      "reason_en": "Prose-poem listing everyday courage; helps kids face the unknown bravely.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/2046566/",
+      "douban_url": "https://book.douban.com/subject/2046566/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787544236492"
+    },
+    {
+      "id": "bk-",
+      "title": "月亮的味道",
+      "title_en": "A Taste of the Moon",
+      "author": "[瑞士] 麦克·格雷涅茨",
+      "rating": 8.7,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s1988287.jpg",
+      "isbn": "9787539135892",
+      "publisher": "二十一世纪出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "小动物叠罗汉够月亮，凹凸画面触感十足，合作分享的睡前书。",
+      "reason_en": "Animals stack up to taste the moon; tactile art and teamwork at bedtime.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/1959287/",
+      "douban_url": "https://book.douban.com/subject/1959287/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787539135892"
+    },
+    {
+      "id": "bk-",
+      "title": "当世界还不存在的时候",
+      "title_en": "",
+      "author": "[德] 弗朗茨·霍勒 文 / 尤塔·鲍尔 图",
+      "rating": 8.7,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s27224956.jpg",
+      "isbn": "9787536550988",
+      "publisher": "四川少年儿童出版社",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "34个造物奇想接龙成书，脑洞大开的世界起源故事，亲子朗读佳品；故事集（非典型绘本）。",
+      "reason_en": "34 whimsical creation tales relayed by two authors; great read-aloud.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/5299807/",
+      "douban_url": "https://book.douban.com/subject/5299807/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787536550988"
+    },
+    {
+      "id": "bk-",
+      "title": "爱花的牛",
+      "title_en": "",
+      "author": "[美] 曼罗·里夫 文 / 罗伯特·劳森 图",
+      "rating": 8.7,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34013492.jpg",
+      "isbn": "9787539141428",
+      "publisher": "二十一世纪出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "不爱打斗爱花香的公牛费迪南，做自己的温柔宣言，历久弥新。",
+      "reason_en": "Bull Ferdinand prefers flowers to fights; a gentle ode to being yourself.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/3121040/",
+      "douban_url": "https://book.douban.com/subject/3121040/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787539141428"
+    },
+    {
+      "id": "bk-",
+      "title": "我喜欢你",
+      "title_en": "",
+      "author": "[美] 桑德尔·斯托达德·沃伯格",
+      "rating": 8.7,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s1229173.jpg",
+      "isbn": "9787544226462",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "social"
+        ]
+      },
+      "reason": "极简图文把友谊说透，文字浅白情感真挚，朗读治愈又温暖。",
+      "reason_en": "Minimal words capture what friendship means; warm, simple, soothing.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/1145428/",
+      "douban_url": "https://book.douban.com/subject/1145428/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787544226462"
+    },
+    {
+      "id": "bk-bigcatlittlecat",
+      "title": "Big Cat, Little Cat",
+      "title_en": "",
+      "author": "Elisha Cooper 文/图",
+      "rating": 8.7,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s33814274.jpg",
+      "isbn": "9781626723719",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "黑白极简线条讲尽猫的一生与告别，哀而不伤，生命教育绝佳入门。",
+      "reason_en": "Simple black-and-white lines trace a lifetime of feline friendship and loss — gentle grief education.",
+      "source_name": "ALA Caldecott 2018（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/26158605",
+      "douban_url": "https://book.douban.com/subject/27151949/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9781626723719"
+    },
+    {
+      "id": "bk-thesnowyday",
+      "title": "The Snowy Day",
+      "title_en": "",
+      "author": "Ezra Jack Keats 文/图",
+      "rating": 8.7,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s6870043.jpg",
+      "isbn": "9780140501827",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "小男孩在初雪里玩出一整天的快乐，细节全是孩子的视角，凯迪克金奖里程碑之作。",
+      "reason_en": "A small boy's quiet joy in the first snow.",
+      "source_name": "Goodreads Listopia「Best Picture Books」",
+      "source_url": "https://www.goodreads.com/book/show/310258",
+      "douban_url": "https://book.douban.com/subject/2626056/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780140501827"
+    },
+    {
+      "id": "bk-",
+      "title": "月亮，生日快乐",
+      "title_en": "",
+      "author": "[美] 法兰克·艾许",
+      "rating": 8.6,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s1657546.jpg",
+      "isbn": "9787532467365",
+      "publisher": "少年儿童出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "小熊对着山谷送月亮生日礼物，万物有灵的童心，友谊启蒙暖心之作。",
+      "reason_en": "A bear gifts the moon a birthday hat; pure toddler warmth and friendship.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/1779099/",
+      "douban_url": "https://book.douban.com/subject/1779099/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787532467365"
+    },
+    {
+      "id": "bk-",
+      "title": "风到哪里去了",
+      "title_en": "",
+      "author": "[美] 夏洛特·左罗托夫 文 / 斯蒂芬诺·维塔 图",
+      "rating": 8.6,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s1743159.jpg",
+      "isbn": "9787532469383",
+      "publisher": "少年儿童出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "nature",
+          "story"
+        ]
+      },
+      "reason": "用诗意见答万物去向，自然循环的温柔科普，睡前哲学小课。",
+      "reason_en": "Poetic answers about where wind goes; gentle nature-cycles bedtime talk.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/1850977/",
+      "douban_url": "https://book.douban.com/subject/1850977/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787532469383"
+    },
+    {
+      "id": "bk-",
+      "title": "一片叶子落下来",
+      "title_en": "",
+      "author": "[美] 利奥·巴斯卡利亚",
+      "rating": 8.6,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s2131628.jpg",
+      "isbn": "9787544233637",
+      "publisher": "南海出版公司",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "social"
+        ]
+      },
+      "reason": "一片叶子答尽生命之问，生命教育经典，大童共读更有滋味。",
+      "reason_en": "A leaf answers life's big questions; the classic on life and death.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/1975886/",
+      "douban_url": "https://book.douban.com/subject/1975886/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787544233637"
+    },
+    {
+      "id": "bk-",
+      "title": "我不知道我是谁",
+      "title_en": "",
+      "author": "[英] 乔恩·布莱克 文 / 阿克塞尔·舍夫勒 图",
+      "rating": 8.6,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s2615324.jpg",
+      "isbn": "9787544237703",
+      "publisher": "南海出版公司",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "兔子达利B哲学三连问，自我认知启蒙，幽默又好读。",
+      "reason_en": "A rabbit's identity questions; funny primer on knowing yourself.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/2157589/",
+      "douban_url": "https://book.douban.com/subject/2157589/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787544237703"
+    },
+    {
+      "id": "bk-",
+      "title": "奥莉薇",
+      "title_en": "",
+      "author": "[美] 伊恩·福尔克纳",
+      "rating": 8.6,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s29274023.jpg",
+      "isbn": "9787543464551",
+      "publisher": "河北教育出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "精力旺盛的小猪奥莉薇把人累昏，每个小大人的影子，黑色幽默。",
+      "reason_en": "Olivia the tireless piglet; every spirited child will recognize herself.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/2120228/",
+      "douban_url": "https://book.douban.com/subject/2120228/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787543464551"
+    },
+    {
+      "id": "bk-",
+      "title": "安的种子",
+      "title_en": "",
+      "author": "王早早 文 / 黄丽 图",
+      "rating": 8.6,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s6632600.jpg",
+      "isbn": "9787535039200",
+      "publisher": "海燕出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "原创禅意绘本，三种心态种千年莲花，教孩子学会等待与从容。",
+      "reason_en": "Chinese zen fable; three ways to plant a lotus seed, about patience.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/3423958/",
+      "douban_url": "https://book.douban.com/subject/3423958/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787535039200"
+    },
+    {
+      "id": "bk-",
+      "title": "纽扣士兵",
+      "title_en": "",
+      "author": "九儿",
+      "rating": 8.6,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s33644850.jpg",
+      "isbn": "9787221155818",
+      "publisher": "贵州人民出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "无字书里一枚纽扣的雪地奇遇，纯靠画面叙事，最能放飞低龄孩子的想象力。",
+      "reason_en": "A wordless snow-day adventure where a lost button becomes a brave soldier — pure visual imagination.",
+      "source_name": "丰子恺儿童图画书奖（第七届）",
+      "source_url": "https://book.douban.com/subject/35068613/",
+      "douban_url": "https://book.douban.com/subject/35068613/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787221155818"
+    },
+    {
+      "id": "bk-corduroy",
+      "title": "Corduroy",
+      "title_en": "",
+      "author": "Don Freeman 文/图",
+      "rating": 8.6,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s2802207.jpg",
+      "isbn": "9780590757751",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "商场里缺一颗纽扣的小熊终于等到朋友，关于被接纳与家的温柔经典，睡前读刚刚好。",
+      "reason_en": "A buttonless teddy finds home and belonging.",
+      "source_name": "Goodreads Listopia「Best Picture Books」",
+      "source_url": "https://www.goodreads.com/book/show/231850",
+      "douban_url": "https://book.douban.com/subject/2342906/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780590757751"
+    },
+    {
+      "id": "bk-",
+      "title": "石头汤",
+      "title_en": "Stone Soup",
+      "author": "[美] 琼·穆特",
+      "rating": 8.5,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s2561352.jpg",
+      "isbn": "9787544237475",
+      "publisher": "南海出版公司",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "三个和尚煮石头汤，分享让村庄重新温暖，禅意东方叙事经典。",
+      "reason_en": "Monks cook stone soup to unlock a village's sharing; zen-inspired classic.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/2135382/",
+      "douban_url": "https://book.douban.com/subject/2135382/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787544237475"
+    },
+    {
+      "id": "bk-",
+      "title": "母鸡萝丝去散步",
+      "title_en": "Rosie's Walk",
+      "author": "[英] 佩特·哈群斯",
+      "rating": 8.5,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s1670039.jpg",
+      "isbn": "9787532467396",
+      "publisher": "少年儿童出版社",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "文字极简画面爆笑，狐狸的连环倒霉事全靠读图，低幼视觉幽默开端。",
+      "reason_en": "Sparse text, hilarious art; the fox's mishaps reward every re-read.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/1578732/",
+      "douban_url": "https://book.douban.com/subject/1578732/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787532467396"
+    },
+    {
+      "id": "bk-",
+      "title": "孤单的小狗",
+      "title_en": "",
+      "author": "[日] 奈良美智",
+      "rating": 8.5,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34246520.jpg",
+      "isbn": "9787513349246",
+      "publisher": "新星出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "奈良美智绘本首作，大到无人看见的小狗，孤独与陪伴的温柔共情。",
+      "reason_en": "Nara's first picture book; a too-big dog nobody sees, tender and warm.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/35886207/",
+      "douban_url": "https://book.douban.com/subject/35886207/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787513349246"
+    },
+    {
+      "id": "bk-",
+      "title": "大脚丫跳芭蕾",
+      "title_en": "",
+      "author": "[美] 埃米·扬",
+      "rating": 8.5,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s2449568.jpg",
+      "isbn": "9787543464544",
+      "publisher": "河北教育出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "被嫌弃大脚的贝琳达重回舞台，讲偏见与坚持，自信启蒙好素材。",
+      "reason_en": "Big-footed ballerina dances again; about prejudice and persistence.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/2117876/",
+      "douban_url": "https://book.douban.com/subject/2117876/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787543464544"
+    },
+    {
+      "id": "bk-",
+      "title": "菲菲生气了",
+      "title_en": "",
+      "author": "[美] 莫莉·卞",
+      "rating": 8.5,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s3682266.jpg",
+      "isbn": "9787543470781",
+      "publisher": "河北教育出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "social"
+        ]
+      },
+      "reason": "火山式的愤怒被画得淋漓尽致，情绪认知与平复的第一课。",
+      "reason_en": "Rage painted as a volcano; the first lesson in taming big feelings.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/3621919/",
+      "douban_url": "https://book.douban.com/subject/3621919/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787543470781"
+    },
+    {
+      "id": "bk-",
+      "title": "第五个",
+      "title_en": "",
+      "author": "[奥] 恩斯特·杨德尔 文 / [德] 诺尔曼·荣格 图",
+      "rating": 8.5,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s8974072.jpg",
+      "isbn": "9787544236485",
+      "publisher": "南海出版公司",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "五个受伤木偶排队等修理，极简悬念化解就医与未知的恐惧。",
+      "reason_en": "Five broken toys wait in line; minimal art dissolves fear of the unknown.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/2042511/",
+      "douban_url": "https://book.douban.com/subject/2042511/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787544236485"
+    },
+    {
+      "id": "bk-",
+      "title": "驴小弟变石头",
+      "title_en": "",
+      "author": "[美] 威廉·史塔克",
+      "rating": 8.5,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s1482589.jpg",
+      "isbn": "9787532467211",
+      "publisher": "少年儿童出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "魔法石让驴小弟变石头，落点是家的温暖，凯迪克金奖经典。",
+      "reason_en": "A magic stone turns Sylvester to rock; family love brings him home.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/1464619/",
+      "douban_url": "https://book.douban.com/subject/1464619/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787532467211"
+    },
+    {
+      "id": "bk-",
+      "title": "彩虹色的花",
+      "title_en": "The Rainbow Flower",
+      "author": "[波兰] 麦克·格雷涅茨 图 / 细野绫子 文",
+      "rating": 8.5,
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s33448911.jpg",
+      "isbn": "9787539130460",
+      "publisher": "二十一世纪出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "花瓣一片片送出，四季轮回里的给予，分享与奉献的启蒙经典。",
+      "reason_en": "A flower gives away every petal; a lovely lesson in giving across seasons.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/1436584/",
+      "douban_url": "https://book.douban.com/subject/1436584/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787539130460"
+    },
+    {
+      "id": "bk-",
+      "title": "瞬间收藏家",
+      "title_en": "",
+      "author": "[德] 布赫兹",
+      "rating": 8.5,
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s2059831.jpg",
+      "isbn": "9787208052666",
+      "publisher": "上海人民出版社",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "画家岛上的秘密画展，每幅画都是一个世界，艺术与想象的美学启蒙。",
+      "reason_en": "A painter's secret island exhibition; an invitation to art and imagination.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/1022582/",
+      "douban_url": "https://book.douban.com/subject/1022582/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787208052666"
+    },
+    {
+      "id": "bk-",
+      "title": "灶王爷",
+      "title_en": "",
+      "author": "熊亮",
+      "rating": 8.5,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s3076456.jpg",
+      "isbn": "9787533254681",
+      "publisher": "明天出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "原创民俗绘本，灶王爷的大眼睛照见人心，年节文化启蒙首选；建议增设人文主题。",
+      "reason_en": "The Kitchen God's big eyes watch every household; folk culture for kids.",
+      "source_name": "丰子恺儿童图画书奖（第一届入围）",
+      "source_url": "https://book.douban.com/subject/2368819/",
+      "douban_url": "https://book.douban.com/subject/2368819/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787533254681"
+    },
+    {
+      "id": "bk-",
+      "title": "公主怎么挖鼻屎",
+      "title_en": "",
+      "author": "李卓颖",
+      "rating": 8.5,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s28637337.jpg",
+      "isbn": "9787533288181",
+      "publisher": "明天出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life",
+          "story"
+        ]
+      },
+      "reason": "把挖鼻屎的尴尬讲成爆笑选择题，生活习惯引导不靠说教，孩子笑得前仰后合。",
+      "reason_en": "Nose-picking etiquette as a hilarious guessing game — habit guidance without a hint of preaching.",
+      "source_name": "丰子恺儿童图画书奖（第五届入围）",
+      "source_url": "https://book.douban.com/subject/26774382/",
+      "douban_url": "https://book.douban.com/subject/26774382/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787533288181"
+    },
+    {
+      "id": "bk-chickachickaboom",
+      "title": "Chicka Chicka Boom Boom",
+      "title_en": "",
+      "author": "Bill Martin Jr. & John Archambault 文 / Lois Ehlert 图",
+      "rating": 8.5,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s6576674.jpg",
+      "isbn": "9780689835681",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "english"
+        ]
+      },
+      "reason": "26个字母抢着爬椰子树又全摔下来，节奏魔性洗脑，字母启蒙的第一本书。",
+      "reason_en": "A rollicking alphabet chant up the coconut tree.",
+      "source_name": "Goodreads Listopia「Best Picture Books」",
+      "source_url": "https://www.goodreads.com/book/show/293595",
+      "douban_url": "https://book.douban.com/subject/1840279/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780689835681"
+    },
+    {
+      "id": "bk-alexanderandthet",
+      "title": "Alexander and the Terrible, Horrible, No Good, Very Bad Day",
+      "title_en": "",
+      "author": "Judith Viorst 文 / Ray Cruz 图",
+      "rating": 8.5,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s4825248.jpg",
+      "isbn": "9780689711732",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "从早安口香糖到晚餐青豆，倒霉透顶的一天告诉孩子：有些日子就是糟糕，这很正常。",
+      "reason_en": "Some days are terrible—this helps kids cope.",
+      "source_name": "Goodreads Listopia「Best Picture Books」",
+      "source_url": "https://www.goodreads.com/book/show/46677",
+      "douban_url": "https://book.douban.com/subject/2141827/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780689711732"
+    },
+    {
+      "id": "bk-loveyouforever",
+      "title": "Love You Forever",
+      "title_en": "",
+      "author": "Robert Munsch 文 / Sheila McGraw 图",
+      "rating": 8.5,
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s1505901.jpg",
+      "isbn": "9780920668375",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "从深夜摇篮曲唱到两鬓斑白，一本跨越一生的母爱之书，亲子共读请备好纸巾。",
+      "reason_en": "A mother's love across a lifetime—bring tissues.",
+      "source_name": "Goodreads Listopia「Best Picture Books」",
+      "source_url": "https://www.goodreads.com/book/show/310259",
+      "douban_url": "https://book.douban.com/subject/1498976/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780920668375"
+    },
+    {
+      "id": "bk-",
+      "title": "独生小孩",
+      "title_en": "",
+      "author": "郭婧",
+      "rating": 8.4,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s34008054.jpg",
+      "isbn": "9787508662688",
+      "publisher": "中信出版社",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "纽约时报年度最佳，无字黑白梦境里的孤独与想象，读图力练兵场。",
+      "reason_en": "NYT Best Illustrated; wordless dream of a lonely child, stunning art.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/26832470/",
+      "douban_url": "https://book.douban.com/subject/26832470/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787508662688"
+    },
+    {
+      "id": "bk-",
+      "title": "三只小猪的真实故事",
+      "title_en": "",
+      "author": "[美] 约翰·席斯卡 文 / 兰·史密斯 图",
+      "rating": 8.4,
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s34012441.jpg",
+      "isbn": "9787543464612",
+      "publisher": "河北教育出版社",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "狼版三只小猪讲真相，媒体视角引入，思辨启蒙的绝佳范本。",
+      "reason_en": "The wolf's side of the story; a playful start to critical thinking.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/2120234/",
+      "douban_url": "https://book.douban.com/subject/2120234/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787543464612"
+    },
+    {
+      "id": "bk-",
+      "title": "三个强盗",
+      "title_en": "",
+      "author": "[法] 汤米·温格尔",
+      "rating": 8.4,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s1805908.jpg",
+      "isbn": "9787532468201",
+      "publisher": "少年儿童出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "黑斗篷强盗被小女孩感化建福利院，黑暗画风下的善意反转经典。",
+      "reason_en": "Robbers transformed by a girl's innocence; kindness wins the night.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/1871364/",
+      "douban_url": "https://book.douban.com/subject/1871364/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787532468201"
+    },
+    {
+      "id": "bk-",
+      "title": "小小的王国",
+      "title_en": "",
+      "author": "[以色列] 埃特加·凯雷特 文 / 塔米·巴扎雷利 图",
+      "rating": 8.4,
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s33615861.jpg",
+      "isbn": "9787535690609",
+      "publisher": "湖南美术出版社",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "凯雷特写给孩子的寓言，关于付出与成全，篇幅不长余味悠长。",
+      "reason_en": "Keret's fable of the smallest kingdom; about giving, loss, and grace.",
+      "source_name": "豆瓣热门儿童绘本 Top 100",
+      "source_url": "https://book.douban.com/subject/34972174/",
+      "douban_url": "https://book.douban.com/subject/34972174/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787535690609"
+    },
+    {
+      "id": "bk-",
+      "title": "棉婆婆睡不着",
+      "title_en": "",
+      "author": "廖小琴 文",
+      "rating": 8.4,
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s27964771.jpg",
+      "isbn": "9787533282110",
+      "publisher": "明天出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "翻来覆去的等待藏着最朴素的爱，把陪伴讲得含蓄动人，适合睡前共读。",
+      "reason_en": "Grandma's sleepless waiting quietly shows enduring love — a gentle bedtime read about companionship.",
+      "source_name": "丰子恺儿童图画书奖（第四届）",
+      "source_url": "https://book.douban.com/subject/26282529/",
+      "douban_url": "https://book.douban.com/subject/26282529/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787533282110"
+    },
+    {
+      "id": "bk-thetaleofpeterra",
+      "title": "The Tale of Peter Rabbit",
+      "title_en": "",
+      "author": "Beatrix Potter 文/图",
+      "rating": 8.4,
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s4312181.jpg",
+      "isbn": "9780723247708",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "不听话的彼得闯进麦先生的菜园，紧张又好笑的百年经典，顺带学会听劝与承担。",
+      "reason_en": "Naughty Peter's century-old garden adventure.",
+      "source_name": "Goodreads Listopia「Best Picture Books」",
+      "source_url": "https://www.goodreads.com/book/show/19321",
+      "douban_url": "https://book.douban.com/subject/1768128/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780723247708"
+    },
+    {
+      "id": "bk-",
+      "title": "牙齿，牙齿，扔屋顶",
+      "title_en": "",
+      "author": "刘洵",
+      "rating": 8.3,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s28284342.jpg",
+      "isbn": "9787507219371",
+      "publisher": "中国中福会出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "掉牙民俗与老巷生活交融，一段即将消逝的城市记忆，建议增设人文主题。",
+      "reason_en": "A lost tooth and a vanishing old alley: tender Chinese nostalgia that opens talk about change and growing up.",
+      "source_name": "丰子恺儿童图画书奖（第四届）",
+      "source_url": "https://book.douban.com/subject/26600540/",
+      "douban_url": "https://book.douban.com/subject/26600540/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787507219371"
+    },
+    {
+      "id": "bk-",
+      "title": "一园青菜成了精",
+      "title_en": "",
+      "author": "周翔 绘",
+      "rating": 8.2,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s6568875.jpg",
+      "isbn": "9787533257545",
+      "publisher": "明天出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "北方童谣改编，蔬菜大战押韵过瘾，语文韵律与想象力双收。",
+      "reason_en": "Vegetables battle in a rollicking Chinese nursery rhyme; rhythm and fun.",
+      "source_name": "丰子恺儿童图画书奖（第一届）",
+      "source_url": "https://book.douban.com/subject/3186403/",
+      "douban_url": "https://book.douban.com/subject/3186403/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787533257545"
+    },
+    {
+      "id": "bk-",
+      "title": "喀哒喀哒喀哒",
+      "title_en": "",
+      "author": "林小杯",
+      "rating": 8.2,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s28866572.jpg",
+      "isbn": "9787550265257",
+      "publisher": "北京联合出版公司",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "林小杯以灵动涂鸦再现老缝纫机与祖孙情，童年记忆的温度让孩子读懂家的味道。",
+      "reason_en": "Lin Xiaobei's sketchy doodles turn grandma's old sewing machine into a tender, playful family memory.",
+      "source_name": "丰子恺儿童图画书奖（第四届，首奖）",
+      "source_url": "https://book.douban.com/subject/26649310/",
+      "douban_url": "https://book.douban.com/subject/26649310/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787550265257"
+    },
+    {
+      "id": "bk-",
+      "title": "外婆住在香水村",
+      "title_en": "",
+      "author": "方素珍",
+      "rating": 8.2,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s27994653.jpg",
+      "isbn": "9787514819571",
+      "publisher": "中国少年儿童出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "用住在天上的星星化解对逝去外婆的思念，温柔的生命教育起步书。",
+      "reason_en": "Turns grief for grandma into stars in the sky — a gentle first book about loss and remembering.",
+      "source_name": "豆瓣豆列「3岁及以上的孩子：图画书类」",
+      "source_url": "https://book.douban.com/subject/26312860/",
+      "douban_url": "https://book.douban.com/subject/26312860/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787514819571"
+    },
+    {
+      "id": "bk-",
+      "title": "荷花镇的早市",
+      "title_en": "",
+      "author": "周翔",
+      "rating": 8.1,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34015239.jpg",
+      "isbn": "9787539134055",
+      "publisher": "二十一世纪出版社",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "原创水乡早市长卷，江南烟火与人间温情，带孩子逛一次纸上大集；建议增设人文主题。",
+      "reason_en": "A scroll-like walk through a Jiangnan morning market; warm local color.",
+      "source_name": "丰子恺儿童图画书奖（第一届）",
+      "source_url": "https://book.douban.com/subject/1854228/",
+      "douban_url": "https://book.douban.com/subject/1854228/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787539134055"
+    },
+    {
+      "id": "bk-",
+      "title": "我看见一只鸟",
+      "title_en": "",
+      "author": "刘伯乐",
+      "rating": 8.0,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s27328094.jpg",
+      "isbn": "9787533279394",
+      "publisher": "明天出版社",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "nature"
+        ]
+      },
+      "reason": "原创自然观察绘本，母女追查陌生野鸟，认鸟入门的图鉴式故事。",
+      "reason_en": "A mother-daughter bird-watching quest; illustrated guide to wild birds.",
+      "source_name": "丰子恺儿童图画书奖（第三届，首奖）",
+      "source_url": "https://book.douban.com/subject/25906923/",
+      "douban_url": "https://book.douban.com/subject/25906923/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787533279394"
+    },
+    {
+      "id": "bk-watercress",
+      "title": "Watercress",
+      "title_en": "",
+      "author": "Andrea Wang 文 / Jason Chin 图",
+      "rating": 7.7,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s33869662.jpg",
+      "isbn": "9780823446247",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "路旁采野菜的尴尬化作家族记忆的和解，移民家庭身份认同的动人佳作。",
+      "reason_en": "Foraging watercress by the roadside unlocks family memory — moving on heritage, shame and pride.",
+      "source_name": "ALA Caldecott 2022（金奖）",
+      "source_url": "https://www.goodreads.com/book/show/54502238",
+      "douban_url": "https://book.douban.com/subject/35425714/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780823446247"
+    },
+    {
+      "id": "bk-abigmooncakeforl",
+      "title": "A Big Mooncake for Little Star",
+      "title_en": "",
+      "author": "Grace Lin 文/图",
+      "rating": 7.6,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34323020.jpg",
+      "isbn": "9780316404488",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "science"
+        ]
+      },
+      "reason": "把月相盈亏讲成偷吃月亮饼的童话，想象与天文启蒙两不误，画面典雅。",
+      "reason_en": "The moon's phases become a midnight mooncake nibbled bite by bite — myth and astronomy in one.",
+      "source_name": "ALA Caldecott 2019（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/34362953",
+      "douban_url": "https://book.douban.com/subject/30449006/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780316404488"
+    },
+    {
+      "id": "bk-almaandhowshegot",
+      "title": "Alma and How She Got Her Name",
+      "title_en": "",
+      "author": "Juana Martinez-Neal 文/图",
+      "rating": 7.5,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s29992152.jpg",
+      "isbn": "9780763693558",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "一个超长名字背后站着六位家人，帮孩子找到我是谁的答案与家族归属感。",
+      "reason_en": "Alma's too-long name unfolds into six family stories — a warm take on identity and belonging.",
+      "source_name": "ALA Caldecott 2019（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/28234753",
+      "douban_url": "https://book.douban.com/subject/30446730/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780763693558"
+    },
+    {
+      "id": "bk-radiantchildthes",
+      "title": "Radiant Child: The Story of Young Artist Jean-Michel Basquiat",
+      "title_en": "",
+      "author": "Javaka Steptoe 文/图",
+      "rating": 7.4,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s29230416.jpg",
+      "isbn": "9780316213882",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "craft"
+        ]
+      },
+      "reason": "拼贴画致敬少年巴斯奎特的艺术梦想，与众不同的涂鸦之美给孩子创作勇气。",
+      "reason_en": "Collage art celebrates young Basquiat's boundless creativity — an inspiring first artist biography.",
+      "source_name": "ALA Caldecott 2017（金奖）",
+      "source_url": "https://www.goodreads.com/book/show/18552623",
+      "douban_url": "https://book.douban.com/subject/26938592/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780316213882"
+    },
+    {
+      "id": "bk-wearewaterprotec",
+      "title": "We Are Water Protectors",
+      "title_en": "",
+      "author": "Carole Lindstrom 文 / Michaela Goade 图",
+      "rating": 7.3,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s33997890.jpg",
+      "isbn": "9781250203557",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "nature",
+          "story"
+        ]
+      },
+      "reason": "水是第一味药：原住民少女守护河流的宣言，环保启蒙的绘本典范。",
+      "reason_en": "Water is the first medicine — an Indigenous girl vows to protect the river, a landmark eco tale.",
+      "source_name": "ALA Caldecott 2021（金奖）",
+      "source_url": "https://www.goodreads.com/book/show/44581496",
+      "douban_url": "https://book.douban.com/subject/35285513/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9781250203557"
+    },
+    {
+      "id": "bk-therainbowfish",
+      "title": "The Rainbow Fish",
+      "title_en": "",
+      "author": "Marcus Pfister 文/图",
+      "rating": 7.3,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s24942492.jpg",
+      "isbn": "9781558585362",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "拥有一身闪光鳞片的彩虹鱼学会分享才交到朋友，画面美到发光的分享课。",
+      "reason_en": "Sharing scales, making friends, glowing art.",
+      "source_name": "Goodreads Listopia「Best Picture Books」",
+      "source_url": "https://www.goodreads.com/book/show/766020",
+      "douban_url": "https://book.douban.com/subject/2809305/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9781558585362"
+    },
+    {
+      "id": "bk-",
+      "title": "不要和青蛙跳绳",
+      "title_en": "",
+      "author": "彭懿 文 / 九儿 图",
+      "rating": 7.1,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s29084685.jpg",
+      "isbn": "9787544840712",
+      "publisher": "接力出版社",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "把讨厌妈妈的怒气幻化成奇幻跳绳比赛，情绪疏解与亲情和解一举两得。",
+      "reason_en": "Anger at Mom becomes a fantastical jump-rope contest — emotional release and reconciliation in one.",
+      "source_name": "丰子恺儿童图画书奖（第五届入围）",
+      "source_url": "https://book.douban.com/subject/26568315/",
+      "douban_url": "https://book.douban.com/subject/26568315/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787544840712"
+    },
+    {
+      "id": "bk-",
+      "title": "最可怕的一天",
+      "title_en": "",
+      "author": "汤姆牛",
+      "rating": 7.0,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s27190453.jpg",
+      "isbn": "9787550220355",
+      "publisher": "北京联合出版公司",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "social"
+        ]
+      },
+      "reason": "温柔同理上台恐惧，不说教地帮孩子说出害怕，画面细节丰富。",
+      "reason_en": "Stage fright met with warmth and humor; reassures kids who dread big days.",
+      "source_name": "丰子恺儿童图画书奖（第三届）",
+      "source_url": "https://book.douban.com/subject/25743561/",
+      "douban_url": "https://book.douban.com/subject/25743561/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9787550220355"
+    },
+    {
+      "id": "bk-wolfinthesnow",
+      "title": "Wolf in the Snow",
+      "title_en": "",
+      "author": "Matthew Cordell 文/图",
+      "rating": 7.0,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s33783017.jpg",
+      "isbn": "9781250076366",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "雪夜里女孩与狼崽互相救助的无字故事，画面叙事力满分，孩子自己就能读懂。",
+      "reason_en": "A wordless blizzard tale of a girl and wolf cub saving each other — pure storytelling without a word.",
+      "source_name": "ALA Caldecott 2018（金奖）",
+      "source_url": "https://www.goodreads.com/book/show/29102937",
+      "douban_url": "https://book.douban.com/subject/27159700/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9781250076366"
+    },
+    {
+      "id": "bk-leavemealone",
+      "title": "Leave Me Alone!",
+      "title_en": "",
+      "author": "Vera Brosgol 文/图",
+      "rating": null,
+      "cover": "",
+      "isbn": "",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "奶奶为安心织毛衣一路逃到宇宙尽头，祖孙之爱的爆笑演绎，共读笑点密集。",
+      "reason_en": "A grandma treks to the edge of space just to knit in peace — laugh-out-loud and secretly sweet.",
+      "source_name": "ALA Caldecott 2017（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/27414464",
+      "douban_url": "",
+      "goodreads_url": ""
+    },
+    {
+      "id": "bk-freedomincongosq",
+      "title": "Freedom in Congo Square",
+      "title_en": "",
+      "author": "Carole Boston Weatherford 文 / R. Gregory Christie 图",
+      "rating": null,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s29920886.jpg",
+      "isbn": "9781499801033",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "诗意的倒数与奔放的画，让孩子初识那段奴隶史与自由的渴望，建议增设人文主题。",
+      "reason_en": "Poetic countdown to Congo Square's Sunday freedom — a gentle, honest first look at slavery history.",
+      "source_name": "ALA Caldecott 2017（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/25785628",
+      "douban_url": "https://book.douban.com/subject/26985143/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9781499801033"
+    },
+    {
+      "id": "bk-crownanodetothef",
+      "title": "Crown: An Ode to the Fresh Cut",
+      "title_en": "",
+      "author": "Derrick Barnes 文 / Gordon C. James 图",
+      "rating": null,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s29777104.jpg",
+      "isbn": "9781572842243",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "理发店剃头如加冕般的自信仪式，诗性文字加油画质感，让孩子感受被赞美的力量。",
+      "reason_en": "A barbershop haircut as a royal coronation — joyful poetry that builds a child's confidence.",
+      "source_name": "ALA Caldecott 2018（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/34144489",
+      "douban_url": "https://book.douban.com/subject/30167318/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9781572842243"
+    },
+    {
+      "id": "bk-adifferentpond",
+      "title": "A Different Pond",
+      "title_en": "",
+      "author": "Bao Phi 文 / Thi Bui 图",
+      "rating": null,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s29653325.jpg",
+      "isbn": "9781623708030",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "父子黎明垂钓背后是移民家庭的辛劳与爱，安静有力，值得和孩子慢慢聊。",
+      "reason_en": "A quiet dawn fishing trip reveals an immigrant family's love and labor — rich for parent-child talk.",
+      "source_name": "ALA Caldecott 2018（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/34137106",
+      "douban_url": "https://book.douban.com/subject/27617427/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9781623708030"
+    },
+    {
+      "id": "bk-grandcanyon",
+      "title": "Grand Canyon",
+      "title_en": "",
+      "author": "Jason Chin 文/图",
+      "rating": null,
+      "cover": "",
+      "isbn": "",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "nature",
+          "science"
+        ]
+      },
+      "reason": "父女徒步大峡谷，水彩剖面图拆解亿万年地质演化，居家就能上的博物课。",
+      "reason_en": "Father-daughter hike through the Grand Canyon with cross-section watercolors — geology class in a book.",
+      "source_name": "ALA Caldecott 2018（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/29102876",
+      "douban_url": "",
+      "goodreads_url": ""
+    },
+    {
+      "id": "bk-thankyouomu",
+      "title": "Thank You, Omu!",
+      "title_en": "",
+      "author": "Oge Mora 文/图",
+      "rating": null,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s33783013.jpg",
+      "isbn": "9780316431248",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "一锅炖汤喂饱整条街，分享最终回到自己身边，拼贴画温暖，慷慨与感恩启蒙。",
+      "reason_en": "Omu's big pot of stew feeds the whole street — a warm cut-paper tale of generosity coming full circle.",
+      "source_name": "ALA Caldecott 2019（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/34642482",
+      "douban_url": "https://book.douban.com/subject/30448999/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780316431248"
+    },
+    {
+      "id": "bk-theundefeated",
+      "title": "The Undefeated",
+      "title_en": "",
+      "author": "Kwame Alexander 文 / Kadir Nelson 图",
+      "rating": null,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s30055668.jpg",
+      "isbn": "9781328780966",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "献给美国黑人坚韧史诗的诗歌与油画，气势磅礴的历史启蒙，建议增设人文主题。",
+      "reason_en": "Kwame Alexander's ode to Black resilience paired with Kadir Nelson's stunning portraits — powerful history.",
+      "source_name": "ALA Caldecott 2020（金奖）",
+      "source_url": "https://www.goodreads.com/book/show/40796177",
+      "douban_url": "https://book.douban.com/subject/30907295/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9781328780966"
+    },
+    {
+      "id": "bk-bearcamealong",
+      "title": "Bear Came Along",
+      "title_en": "",
+      "author": "Richard T. Morris 文 / LeUyen Pham 图",
+      "rating": null,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34005210.jpg",
+      "isbn": "9780316464475",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "nature"
+        ]
+      },
+      "reason": "一条河串起森林动物的欢乐漂流，循环叙事节奏绝佳，还能顺带认识河流生态。",
+      "reason_en": "A river gathers forest friends into one joyful ride — looping text perfect for reading aloud together.",
+      "source_name": "ALA Caldecott 2020（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/31933081",
+      "douban_url": "https://book.douban.com/subject/31631859/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780316464475"
+    },
+    {
+      "id": "bk-doublebassblues",
+      "title": "Double Bass Blues",
+      "title_en": "",
+      "author": "Andrea J. Loney 文 / Rudy Gutierrez 图",
+      "rating": null,
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s33568391.jpg",
+      "isbn": "9781524718534",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "music"
+        ]
+      },
+      "reason": "背着低音提琴穿越城市，街道变成乐器，拟声词密集，音乐热爱从此发芽。",
+      "reason_en": "Carrying a double bass through the noisy city, every street becomes music — onomatopoeia joy.",
+      "source_name": "ALA Caldecott 2020（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/36817104",
+      "douban_url": "https://book.douban.com/subject/34958388/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9781524718534"
+    },
+    {
+      "id": "bk-goingdownhomewit",
+      "title": "Going Down Home with Daddy",
+      "title_en": "",
+      "author": "Kelly Starling Lyons 文 / Daniel Minter 图",
+      "rating": null,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s33566797.jpg",
+      "isbn": "9781561459384",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "南下返乡的家族团聚，每一站都是根与传承，让孩子懂得我们从哪里来。",
+      "reason_en": "A family reunion down South connects a boy to his roots — warm, layered celebration of heritage.",
+      "source_name": "ALA Caldecott 2020（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/40685673",
+      "douban_url": "https://book.douban.com/subject/34956973/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9781561459384"
+    },
+    {
+      "id": "bk-aplaceinsideofme",
+      "title": "A Place Inside of Me",
+      "title_en": "",
+      "author": "Zetta Elliott 文 / Noa Denmon 图",
+      "rating": null,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s33815246.jpg",
+      "isbn": "9780374307417",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "social",
+          "story"
+        ]
+      },
+      "reason": "一首诗带孩子在四季里认领喜怒哀惧，把情绪说出口，情感教育的诗意范本。",
+      "reason_en": "A year-in-verse where a boy names joy, fear, anger and pride — poetic emotional literacy.",
+      "source_name": "ALA Caldecott 2021（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/46223315",
+      "douban_url": "https://book.douban.com/subject/35343489/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780374307417"
+    },
+    {
+      "id": "bk-thecatmanofalepp",
+      "title": "The Cat Man of Aleppo",
+      "title_en": "",
+      "author": "Irene Latham & Karim Shamsi-Basha 文 / Yuko Shimizu 图",
+      "rating": null,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s33815248.jpg",
+      "isbn": "9781984813787",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "战火中坚持救助流浪猫的真实故事，残酷里见善意，适合与孩子聊悲悯与坚持。",
+      "reason_en": "The true story of a man who saved stray cats amid war — compassion blooming in hard times.",
+      "source_name": "ALA Caldecott 2021（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/49946473",
+      "douban_url": "https://book.douban.com/subject/35343491/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9781984813787"
+    },
+    {
+      "id": "bk-memama",
+      "title": "Me & Mama",
+      "title_en": "",
+      "author": "Cozbi A. Cabrera 文/图",
+      "rating": null,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s33815244.jpg",
+      "isbn": "9781534454217",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "雨天里与妈妈共度的一天，词句如诗、色彩温柔，献给母女时光的赞美诗。",
+      "reason_en": "A rainy day measured in sensory details of Mama — lyrical art celebrating everyday mother-love.",
+      "source_name": "ALA Caldecott 2021（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/52376907",
+      "douban_url": "https://book.douban.com/subject/35343487/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9781534454217"
+    },
+    {
+      "id": "bk-outsidein",
+      "title": "Outside In",
+      "title_en": "",
+      "author": "Deborah Underwood 文 / Cindy Derby 图",
+      "rating": null,
+      "cover": "",
+      "isbn": "",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "nature",
+          "story"
+        ]
+      },
+      "reason": "温柔提醒屏幕时代的孩子：自然从未离开，一直在窗外等你推开家门。",
+      "reason_en": "A gentle reminder that nature is always waiting outside the door — irresistible after screen time.",
+      "source_name": "ALA Caldecott 2021（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/44493709",
+      "douban_url": "",
+      "goodreads_url": ""
+    },
+    {
+      "id": "bk-melfell",
+      "title": "Mel Fell",
+      "title_en": "",
+      "author": "Corey R. Tabor 文/图",
+      "rating": null,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s34107904.jpg",
+      "isbn": "9780062878014",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "小翠鸟俯冲入水的坠落原来是最酷的起飞，倒转书本的互动设计让孩子尖叫。",
+      "reason_en": "Flip the book sideways as a kingfisher dives — a confidence story with irresistible interactive design.",
+      "source_name": "ALA Caldecott 2022（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/53327848",
+      "douban_url": "https://book.douban.com/subject/35751818/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780062878014"
+    },
+    {
+      "id": "bk-unspeakablethetu",
+      "title": "Unspeakable: The Tulsa Race Massacre",
+      "title_en": "",
+      "author": "Carole Boston Weatherford 文 / Floyd Cooper 图",
+      "rating": null,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s33861524.jpg",
+      "isbn": "9781541581203",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "以图文重现塔尔萨种族大屠杀，沉重但必要的历史一课，建议家长陪同共读。",
+      "reason_en": "The Tulsa Race Massacre in unflinching picture-book form — hard, essential history to read together.",
+      "source_name": "ALA Caldecott 2022（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/54222468",
+      "douban_url": "https://book.douban.com/subject/35414825/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9781541581203"
+    },
+    {
+      "id": "bk-wonderwalkers",
+      "title": "Wonder Walkers",
+      "title_en": "",
+      "author": "Micha Archer 文/图",
+      "rating": null,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34693717.jpg",
+      "isbn": "9780593109649",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "nature",
+          "story"
+        ]
+      },
+      "reason": "一路走一路问的自然之诗，云有脚吗式的提问点燃户外探索欲。",
+      "reason_en": "Wonder-filled questions turn a walk into nature discovery — made for barefoot exploring.",
+      "source_name": "ALA Caldecott 2022（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/54735137",
+      "douban_url": "https://book.douban.com/subject/35702769/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780593109649"
+    },
+    {
+      "id": "bk-hotdog",
+      "title": "Hot Dog",
+      "title_en": "",
+      "author": "Doug Salati 文/图",
+      "rating": null,
+      "cover": "",
+      "isbn": "",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "热到炸毛的小狗奔向海边降温，凯迪克金奖的夏日凉风，读着读着就凉快了。",
+      "reason_en": "An overheated city pup dashes to the beach — a breezy Caldecott Medal summer escape.",
+      "source_name": "ALA Caldecott 2023（金奖）",
+      "source_url": "https://www.goodreads.com/book/show/58065383",
+      "douban_url": "",
+      "goodreads_url": ""
+    },
+    {
+      "id": "bk-aintburnedallthe",
+      "title": "Ain't Burned All the Bright",
+      "title_en": "",
+      "author": "Jason Reynolds 文 / Jason Griffin 图",
+      "rating": null,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34337227.jpg",
+      "isbn": "9781534439467",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "诗、画与呼吸交织的当下黑人生活切片，艺术冲击力强，适合大童与家长共读。",
+      "reason_en": "Poem, paint and breath braided into Black life in America now — striking art for older kids and parents.",
+      "source_name": "ALA Caldecott 2023（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/58437699",
+      "douban_url": "https://book.douban.com/subject/36133526/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9781534439467"
+    },
+    {
+      "id": "bk-berrysong",
+      "title": "Berry Song",
+      "title_en": "",
+      "author": "Michaela Goade 文/图",
+      "rating": null,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34408920.jpg",
+      "isbn": "9780316494175",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "nature",
+          "story"
+        ]
+      },
+      "reason": "海岛采莓的四季之歌，祖孙与土地的馈赠往来，画面如极光般绚烂。",
+      "reason_en": "A Tlingit girl and grandmother gather the island's gifts — luminous art about land and gratitude.",
+      "source_name": "ALA Caldecott 2023（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/58064775",
+      "douban_url": "https://book.douban.com/subject/36234659/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780316494175"
+    },
+    {
+      "id": "bk-choosingbrave",
+      "title": "Choosing Brave",
+      "title_en": "",
+      "author": "Angela Joy 文 / Janelle Washington 图",
+      "rating": null,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34408668.jpg",
+      "isbn": "9781250220950",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "民权之母马米·蒂尔以勇气直面丧子之痛，厚重传记，建议增设人文主题并家长共读。",
+      "reason_en": "Mamie Till-Mobley's brave grief became a civil rights spark — sobering history, best read together.",
+      "source_name": "ALA Caldecott 2023（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/58484134",
+      "douban_url": "https://book.douban.com/subject/36235984/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9781250220950"
+    },
+    {
+      "id": "bk-knightowl",
+      "title": "Knight Owl",
+      "title_en": "",
+      "author": "Christopher Denise 文/图",
+      "rating": null,
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s34392741.jpg",
+      "isbn": "9780316310628",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "小小猫头鹰圆梦当骑士，用机智化解危机，月光插画暖心，勇气与幽默兼备。",
+      "reason_en": "A tiny owl knight outsmarts a dragon on night watch — cozy, funny and quietly brave.",
+      "source_name": "ALA Caldecott 2023（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/57007688",
+      "douban_url": "https://book.douban.com/subject/36214051/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780316310628"
+    },
+    {
+      "id": "bk-big",
+      "title": "Big",
+      "title_en": "",
+      "author": "Vashti Harrison 文/图",
+      "rating": null,
+      "cover": "",
+      "isbn": "",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "关于身材评价与自我接纳，2024凯迪克金奖，帮孩子抵御外界目光的伤害。",
+      "reason_en": "A girl grows too big under others' words — the 2024 Medal book on body image and self-acceptance.",
+      "source_name": "ALA Caldecott 2024（金奖）",
+      "source_url": "https://www.goodreads.com/book/show/229264547",
+      "douban_url": "",
+      "goodreads_url": ""
+    },
+    {
+      "id": "bk-ineverylife",
+      "title": "In Every Life",
+      "title_en": "",
+      "author": "Marla Frazee 文/图",
+      "rating": null,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34771207.jpg",
+      "isbn": "9781665912488",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "爱与失去、惊奇与日常的两两对照，一句话一画面的生命礼赞，适合睡前慢读。",
+      "reason_en": "Love and loss, wonder and routine, one luminous spread at a time — a quiet meditation on life.",
+      "source_name": "ALA Caldecott 2024（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/61273116",
+      "douban_url": "https://book.douban.com/subject/36747856/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9781665912488"
+    },
+    {
+      "id": "bk-jovitaworepants",
+      "title": "Jovita Wore Pants",
+      "title_en": "",
+      "author": "Aida Salazar 文 / Molly Mendoza 图",
+      "rating": null,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34768092.jpg",
+      "isbn": "9781338283419",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "女扮男装为自由而战的墨西哥女杰真实传记，勇气与性别平等启蒙，建议增设人文主题。",
+      "reason_en": "The true story of Jovita, who wore pants to fight for her freedom — bold, inspiring biography.",
+      "source_name": "ALA Caldecott 2024（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/58719111",
+      "douban_url": "https://book.douban.com/subject/36746594/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9781338283419"
+    },
+    {
+      "id": "bk-therewasapartyfo",
+      "title": "There Was a Party for Langston",
+      "title_en": "",
+      "author": "Jason Reynolds 文 / Jerome & Jarrett Pumphrey 图",
+      "rating": null,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34768799.jpg",
+      "isbn": "9781534439443",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "为诗人兰斯顿·休斯开一场字母派对，韵律如鼓点，文学启蒙首选，建议增设人文主题。",
+      "reason_en": "An alphabet parade for poet Langston Hughes — language as drums, a joyful literary tribute.",
+      "source_name": "ALA Caldecott 2024（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/101008178",
+      "douban_url": "https://book.douban.com/subject/36748161/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9781534439443"
+    },
+    {
+      "id": "bk-thetruthaboutdra",
+      "title": "The Truth About Dragons",
+      "title_en": "",
+      "author": "Julie Leung 文 / Hanna Cha 图",
+      "rating": null,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34771437.jpg",
+      "isbn": "9781250820587",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "两位奶奶的睡前故事引出东西方龙的双重神话，文化交融的华丽画卷，建议增设人文主题。",
+      "reason_en": "Bedtime stories lead a child into Eastern and Western dragon myths — ornate, culture-bridging art.",
+      "source_name": "ALA Caldecott 2024（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/61317660",
+      "douban_url": "https://book.douban.com/subject/36751859/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9781250820587"
+    },
+    {
+      "id": "bk-choochhelped",
+      "title": "Chooch Helped",
+      "title_en": "",
+      "author": "Andrea L. Rogers 文 / Rebecca Lee Kunz 图",
+      "rating": null,
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s35076341.jpg",
+      "isbn": "9781646144549",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "两岁弟弟帮倒忙引发的手足摩擦，切罗基文化底色，2025凯迪克金奖。",
+      "reason_en": "Toddler Chooch helps with chaotic results — sibling patience wrapped in Cherokee culture, 2025 Medal book.",
+      "source_name": "ALA Caldecott 2025（金奖）",
+      "source_url": "https://www.goodreads.com/book/show/207567587",
+      "douban_url": "https://book.douban.com/subject/37206241/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9781646144549"
+    },
+    {
+      "id": "bk-mydaddyisacowboy",
+      "title": "My Daddy Is a Cowboy",
+      "title_en": "",
+      "author": "Stephanie Seales 文 / C. G. Esperanza 图",
+      "rating": null,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s35076344.jpg",
+      "isbn": "9781419760815",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "黎明前与爸爸骑马穿城，牛仔故事与父女时光交织，节奏欢快的晨光共读。",
+      "reason_en": "Before dawn, a girl and her father ride through the waking city — cowboy tales and precious time.",
+      "source_name": "ALA Caldecott 2025（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/195660496",
+      "douban_url": "https://book.douban.com/subject/37206242/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9781419760815"
+    },
+    {
+      "id": "bk-noodlesonabicycl",
+      "title": "Noodles on a Bicycle",
+      "title_en": "",
+      "author": "Kyo Maclear 文 / Gracey Zhang 图",
+      "rating": null,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s35071170.jpg",
+      "isbn": "9780593706084",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "东京送面人的飞驰身手满页灵动，怀旧街景与节奏感，动作迷孩子的最爱。",
+      "reason_en": "Demae deliverymen race through old Tokyo with steaming noodles — kinetic art full of motion and rhythm.",
+      "source_name": "ALA Caldecott 2025（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/205181039",
+      "douban_url": "https://book.douban.com/subject/37219955/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780593706084"
+    },
+    {
+      "id": "bk-homeinalunchbox",
+      "title": "Home in a Lunchbox",
+      "title_en": "",
+      "author": "Cherry Mo 文/图",
+      "rating": null,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s35071133.jpg",
+      "isbn": "9780593661345",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "从香港初到美国的君用饭盒里的家乡味交到朋友，把移民孩子的孤单与适应写得细腻动人。",
+      "reason_en": "Tastes of home ease her way into a new world.",
+      "source_name": "ALA Caldecott 2025（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/200150490",
+      "douban_url": "https://book.douban.com/subject/37219899/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780593661345"
+    },
+    {
+      "id": "bk-upupeverupjunkot",
+      "title": "Up, Up, Ever Up! Junko Tabei",
+      "title_en": "",
+      "author": "Anita Yasuda 文 / Yuko Shimizu 图",
+      "rating": null,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s35048592.jpg",
+      "isbn": "9780063242418",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "首位登顶珠峰的女性传记绘本，把'再试一次'的坚韧画得又美又有力量，给孩子的榜样书。",
+      "reason_en": "The first woman atop Everest—grit and grace.",
+      "source_name": "ALA Caldecott 2025（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/199531846",
+      "douban_url": "https://book.douban.com/subject/37147073/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780063242418"
+    },
+    {
+      "id": "bk-fireworks",
+      "title": "Fireworks",
+      "title_en": "",
+      "author": "Matthew Burgess 文 / Cátia Chien 图",
+      "rating": null,
+      "cover": "",
+      "isbn": "",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "夏夜姐弟出门等烟花的短短一夜，文字如诗、画面发光，把'期待'写给孩子看。",
+      "reason_en": "Waiting for fireworks on a glowing summer night.",
+      "source_name": "ALA Caldecott 2026（金奖）",
+      "source_url": "https://www.goodreads.com/book/show/205592098",
+      "douban_url": "",
+      "goodreads_url": ""
+    },
+    {
+      "id": "bk-everymondaymabel",
+      "title": "Every Monday Mabel",
+      "title_en": "",
+      "author": "Jashar Awan 文/图",
+      "rating": null,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s35337439.jpg",
+      "isbn": "9781665938150",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "小女孩每周一雷打不动守在窗前看垃圾车，孩子的'小痴迷'被写得真实可爱。",
+      "reason_en": "Her weekly date with the garbage truck.",
+      "source_name": "ALA Caldecott 2026（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/214152183",
+      "douban_url": "https://book.douban.com/subject/37920744/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9781665938150"
+    },
+    {
+      "id": "bk-ourlake",
+      "title": "Our Lake",
+      "title_en": "",
+      "author": "Angie Kang 文/图",
+      "rating": null,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s35337827.jpg",
+      "isbn": "9780593698235",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "兄弟俩第一次没有爸爸陪伴重访湖边，用温柔安静的方式帮孩子谈论失去与想念。",
+      "reason_en": "Brothers revisit a beloved lake without Dad.",
+      "source_name": "ALA Caldecott 2026（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/214269016",
+      "douban_url": "https://book.douban.com/subject/37920855/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780593698235"
+    },
+    {
+      "id": "bk-stalactitestalag",
+      "title": "Stalactite & Stalagmite: A Big Tale from a Little Cave",
+      "title_en": "",
+      "author": "Drew Beckmeyer 文/图",
+      "rating": null,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s35404313.jpg",
+      "isbn": "9781665926638",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "science"
+        ]
+      },
+      "reason": "两块钟乳石见证亿万年地球变迁，把深奥的地质时间讲得幽默好懂，故事科普两不误。",
+      "reason_en": "Two cave rocks watch world history unfold.",
+      "source_name": "ALA Caldecott 2026（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/219687598",
+      "douban_url": "https://book.douban.com/subject/37821891/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9781665926638"
+    },
+    {
+      "id": "bk-sundust",
+      "title": "Sundust",
+      "title_en": "",
+      "author": "Zeke Peña 文/图",
+      "rating": null,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s35337440.jpg",
+      "isbn": "9780593700112",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "凯迪克银奖新作，沙漠里阳光统治一切的奇幻冒险，色彩炙热，想象力和美感都在线。",
+      "reason_en": "A sun-drenched Caldecott Honor desert adventure.",
+      "source_name": "ALA Caldecott 2026（银奖）",
+      "source_url": "https://www.goodreads.com/book/show/221251770",
+      "douban_url": "https://book.douban.com/subject/37920745/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780593700112"
+    },
+    {
+      "id": "bk-thecatinthehat",
+      "title": "The Cat in the Hat",
+      "title_en": "",
+      "author": "Dr. Seuss 文/图",
+      "rating": null,
+      "cover": "",
+      "isbn": "",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "english"
+        ]
+      },
+      "reason": "雨天闯入的帽子猫制造混乱又收拾残局，韵文节奏感极强，英语自主阅读的经典第一课。",
+      "reason_en": "Seussian rhymes—the classic first English reader.",
+      "source_name": "Goodreads Listopia「Best Picture Books」",
+      "source_url": "https://www.goodreads.com/book/show/233093",
+      "douban_url": "",
+      "goodreads_url": ""
+    },
+    {
+      "id": "bk-madeline",
+      "title": "Madeline",
+      "title_en": "",
+      "author": "Ludwig Bemelmans 文/图",
+      "rating": null,
+      "cover": "",
+      "isbn": "",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "巴黎寄宿学校里个子最小胆子最大的玛德琳，韵文朗朗上口，顺带带孩子游一遍巴黎。",
+      "reason_en": "The smallest, bravest girl in Paris, in rhyme.",
+      "source_name": "Goodreads Listopia「Best Picture Books」",
+      "source_url": "https://www.goodreads.com/book/show/475339",
+      "douban_url": "",
+      "goodreads_url": ""
+    },
+    {
+      "id": "bk-haroldandthepurp",
+      "title": "Harold and the Purple Crayon",
+      "title_en": "",
+      "author": "Crockett Johnson 文/图",
+      "rating": null,
+      "cover": "",
+      "isbn": "",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "睡前一支紫蜡笔画出月亮大海和回家的路，想象力的启蒙原点，怎么读都不腻。",
+      "reason_en": "One purple crayon draws a whole world.",
+      "source_name": "Goodreads Listopia「Best Picture Books」",
+      "source_url": "https://www.goodreads.com/book/show/98573",
+      "douban_url": "",
+      "goodreads_url": ""
+    },
+    {
+      "id": "bk-curiousgeorge",
+      "title": "Curious George",
+      "title_en": "",
+      "author": "H. A. Rey & Margret Rey 文/图",
+      "rating": null,
+      "cover": "",
+      "isbn": "",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "好奇猴子被带上船又一路闯祸，80年经典形象，孩子在笑声里看到好奇心的两面。",
+      "reason_en": "Eighty years of beloved monkey mischief.",
+      "source_name": "Goodreads Listopia「Best Picture Books」",
+      "source_url": "https://www.goodreads.com/book/show/420297",
+      "douban_url": "",
+      "goodreads_url": ""
+    },
+    {
+      "id": "bk-tuesday",
+      "title": "Tuesday",
+      "title_en": "",
+      "author": "David Wiesner 文/图",
+      "rating": null,
+      "cover": "",
+      "isbn": "",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "周二夜里青蛙们乘荷叶飞过小镇，无字书的想象力天花板，每读一遍都有新发现。",
+      "reason_en": "Frogs fly on lily pads—wordless wonder.",
+      "source_name": "Goodreads Listopia「Best Picture Books」",
+      "source_url": "https://www.goodreads.com/book/show/97860",
+      "douban_url": "",
+      "goodreads_url": ""
+    },
+    {
+      "id": "bk-thesearchfortheg",
+      "title": "The Search for the Giant Arctic Jellyfish",
+      "title_en": "",
+      "author": "Chloe Savage 文/图",
+      "rating": null,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34679768.jpg",
+      "isbn": "9781529512878",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "nature"
+        ]
+      },
+      "reason": "科学家远赴北冰洋寻找传说中的巨型水母，把科研的耐心与极地的神秘美讲给孩子。",
+      "reason_en": "A patient Arctic quest for a legendary jellyfish.",
+      "source_name": "The School Reading List (UK) Year 1",
+      "source_url": "https://www.goodreads.com/book/show/62595184",
+      "douban_url": "https://book.douban.com/subject/36620866/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9781529512878"
+    },
+    {
+      "id": "bk-donttrustfish",
+      "title": "Don't Trust Fish!",
+      "title_en": "",
+      "author": "Neil Sharpson 文 / Dan Santat 图",
+      "rating": null,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s35134673.jpg",
+      "isbn": "9780593616673",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "一本正经警告读者'千万别信鱼'，胡说八道里藏着真知识，笑点密集的爆笑科普向。",
+      "reason_en": "A deadpan, fact-packed laugh about fish.",
+      "source_name": "The School Reading List (UK) Year 1",
+      "source_url": "https://www.goodreads.com/book/show/216247491",
+      "douban_url": "https://book.douban.com/subject/37325476/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780593616673"
+    },
+    {
+      "id": "bk-themidnightpanth",
+      "title": "The Midnight Panther",
+      "title_en": "",
+      "author": "Poonam Mistry 文/图",
+      "rating": null,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34691152.jpg",
+      "isbn": "9781787418929",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "没有斑点条纹和鬃毛的小黑豹，最终在星空下找到自己的光，印度纹样插画美极了。",
+      "reason_en": "A shy panther finds his own light in mythic art.",
+      "source_name": "The School Reading List (UK) Year 1",
+      "source_url": "https://www.goodreads.com/book/show/63944246",
+      "douban_url": "https://book.douban.com/subject/36633073/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9781787418929"
+    },
+    {
+      "id": "bk-goodnighteveryon",
+      "title": "Goodnight Everyone",
+      "title_en": "",
+      "author": "Chris Haughton 文/图",
+      "rating": null,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s29407742.jpg",
+      "isbn": "9780763690793",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "森林里大家都在打哈欠只有小熊不肯睡，色块浓郁的晚安书，睡前节奏刚刚好。",
+      "reason_en": "The forest sleeps; one little bear resists.",
+      "source_name": "The School Reading List (UK) Year 1",
+      "source_url": "https://www.goodreads.com/book/show/29662496",
+      "douban_url": "https://book.douban.com/subject/27002696/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780763690793"
+    },
+    {
+      "id": "bk-hairymaclaryfrom",
+      "title": "Hairy Maclary from Donaldson's Dairy",
+      "title_en": "",
+      "author": "Lynley Dodd 文/图",
+      "rating": null,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s7991299.jpg",
+      "isbn": "9780140569971",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "毛毛狗麦克莱里呼朋引伴去遛弯，押韵节奏读起来像说唱，读几遍就能背的新西兰国宝。",
+      "reason_en": "Dogs trot through town in irresistible rhyme.",
+      "source_name": "The School Reading List (UK) Year 1",
+      "source_url": "https://www.goodreads.com/book/show/1153709",
+      "douban_url": "https://book.douban.com/subject/7047397/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780140569971"
+    },
+    {
+      "id": "bk-cinnamon",
+      "title": "Cinnamon",
+      "title_en": "",
+      "author": "Neil Gaiman 文 / Divya Srinivasan 图",
+      "rating": null,
+      "cover": "",
+      "isbn": "",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "不说话的公主遇见会讲故事的虎，尼尔·盖曼写的冷冽又温柔的寓言童话。",
+      "reason_en": "Gaiman's fable of a mute princess and a tiger.",
+      "source_name": "The School Reading List (UK) Year 1",
+      "source_url": "https://www.goodreads.com/book/show/13389825",
+      "douban_url": "",
+      "goodreads_url": ""
+    },
+    {
+      "id": "bk-thatrabbitbelong",
+      "title": "That Rabbit Belongs to Emily Brown",
+      "title_en": "",
+      "author": "Cressida Cowell 文 / Neal Layton 图",
+      "rating": null,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s3988440.jpg",
+      "isbn": "9781423106456",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "女王抢走艾米莉心爱的旧兔子，她偏不换，教孩子守护自己珍视的东西。",
+      "reason_en": "Emily stands up to the Queen for her toy rabbit.",
+      "source_name": "The School Reading List (UK) Year 1",
+      "source_url": "https://www.goodreads.com/book/show/671427",
+      "douban_url": "https://book.douban.com/subject/2608305/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9781423106456"
+    },
+    {
+      "id": "bk-thesmileshop",
+      "title": "The Smile Shop",
+      "title_en": "",
+      "author": "Satoshi Kitamura 文/图",
+      "rating": null,
+      "cover": "",
+      "isbn": "",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "攒了一篮硬币想买个微笑的男孩发现，微笑不用买、可以送，温暖有哲思。",
+      "reason_en": "Smiles can't be bought, only given—a warm parable.",
+      "source_name": "The School Reading List (UK) Year 1",
+      "source_url": "https://www.goodreads.com/book/show/54697245",
+      "douban_url": "",
+      "goodreads_url": ""
+    },
+    {
+      "id": "bk-youchoose",
+      "title": "You Choose!",
+      "title_en": "",
+      "author": "Pippa Goodhart 文 / Nick Sharratt 图",
+      "rating": null,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s6574562.jpg",
+      "isbn": "9780385601764",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "每页几百个选项随便组合编故事，亲子越聊越多，想象力和表达力一起练。",
+      "reason_en": "Hundreds of choices to invent endless stories.",
+      "source_name": "The School Reading List (UK) Year 1",
+      "source_url": "https://www.goodreads.com/book/show/1113991",
+      "douban_url": "https://book.douban.com/subject/6574957/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780385601764"
+    },
+    {
+      "id": "bk-thebadtemperedla",
+      "title": "The Bad-Tempered Ladybird",
+      "title_en": "",
+      "author": "Eric Carle 文/图",
+      "rating": null,
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s4217320.jpg",
+      "isbn": "9780140503982",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "坏脾气瓢虫见谁都想打架，最后学会交朋友，还顺带认识时间和动物体型大小。",
+      "reason_en": "A grumpy ladybird learns friends matter more.",
+      "source_name": "The School Reading List (UK) Year 1",
+      "source_url": "https://www.goodreads.com/book/show/695781",
+      "douban_url": "https://book.douban.com/subject/1341212/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780140503982"
+    },
+    {
+      "id": "bk-kingoftheclassro",
+      "title": "King of the Classroom",
+      "title_en": "",
+      "author": "Derrick Barnes 文 / Vanessa Brantley-Newton 图",
+      "rating": null,
+      "cover": "",
+      "isbn": "",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "social"
+        ]
+      },
+      "reason": "上学第一天给自己加冕的自信宣言，把孩子'我能行'的气场写得让大人也想鼓掌。",
+      "reason_en": "First-day-of-school confidence, crowned.",
+      "source_name": "The School Reading List (UK) Year 1",
+      "source_url": "https://www.goodreads.com/book/show/58060040",
+      "douban_url": "",
+      "goodreads_url": ""
+    },
+    {
+      "id": "bk-chocolatecake",
+      "title": "Chocolate Cake",
+      "title_en": "",
+      "author": "Michael Rosen 文 / Kevin Waldron 图",
+      "rating": null,
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s7139276.jpg",
+      "isbn": "9780803734074",
+      "publisher": "",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      },
+      "reason": "半夜溜下床偷吃蛋糕的名场面，迈克尔·罗森的声效叙事是亲子朗读的表演教科书。",
+      "reason_en": "Rosen's midnight-cake performance—read-aloud gold.",
+      "source_name": "The School Reading List (UK) Year 1",
+      "source_url": "https://www.goodreads.com/book/show/32509782",
+      "douban_url": "https://book.douban.com/subject/6894439/",
+      "goodreads_url": "https://www.goodreads.com/search?q=9780803734074"
+    }
+  ]
 }
