@@ -42,13 +42,13 @@ const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]
 								</span>
 								<span class="breason" data-i18n="blogger_reason" data-i18n-var-reason-zh={b.reason} data-i18n-var-reason-en={b.reason_en ?? b.reason}>{b.reason}</span>
 								<span class="tagrow">
-									{(b.themes ?? []).map((t) => <span class="tag">{themeLabel[t] ?? t}</span>)}
+									{(b.themes ?? []).map((t) => <span class="tag" data-tag={t} data-tag-dim="theme">{themeLabel[t] ?? t}</span>)}
 								</span>
 							</a>
 							{b.source_url ? (
-								<a class="bsrc" href={b.source_url} target="_blank" rel="noopener">📎 {b.source} ↗</a>
+								<a class="bsrc" href={b.source_url} target="_blank" rel="noopener">📎 <span data-i18n="source_name" data-i18n-var-name={b.source}>{b.source}</span> ↗</a>
 							) : (
-								<span class="bsrc">📎 {b.source_url ? "" : ""}{b.source}</span>
+								<span class="bsrc">📎 <span data-i18n="source_name" data-i18n-var-name={b.source}>{b.source}</span></span>
 							)}
 						</div>
 					</li>

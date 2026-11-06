@@ -21,6 +21,7 @@ export const UI: Record<string, { zh: string; en: string }> = {
 	source_label: { zh: '来源', en: 'Source' },
 	blogger_reason: { zh: '{reason_zh}', en: '{reason_en}' },
 	brand_name: { zh: '童心岛', en: 'KidiIsle' },
+	source_name: { zh: '{name}', en: '{name}' },
 	open_bilibili: { zh: '↗ 在 B 站打开', en: '↗ Open on Bilibili' },
 	open_youtube: { zh: '↗ 在 YouTube 打开', en: '↗ Open on YouTube' },
 	copy_link: { zh: '🔗 复制链接', en: '🔗 Copy link' },
@@ -39,6 +40,7 @@ export const UI: Record<string, { zh: string; en: string }> = {
 	source_label: { zh: '来源', en: 'Source' },
 	blogger_reason: { zh: '{reason_zh}', en: '{reason_en}' },
 	brand_name: { zh: '童心岛', en: 'KidiIsle' },
+	source_name: { zh: '{name}', en: '{name}' },
 	related: { zh: '相关推荐', en: 'Related' },
 	match_count: { zh: '{s} / {t}', en: '{s} / {t}' },
 	back_to_creators: { zh: '← 返回博主列表', en: '← All creators' },
@@ -50,6 +52,22 @@ export const UI: Record<string, { zh: string; en: string }> = {
 		zh: '视频通过 YouTube 官方嵌入播放，版权归原创作者所有。',
 		en: 'Played via the official YouTube embed. Rights belong to the original creator.',
 	},
+};
+
+// 来源名（媒体/社区）的中英对照：英文态用英文媒体名或社区名
+export const SOURCE_EN: Record<string, string> = {
+	'社区精选': 'Community picks',
+	'搜索发现': 'Search discovery',
+	'官方账号': 'Official channel',
+	'小花生宝藏UP主盘点': 'Xiaohuasheng top-UP list',
+	'外滩教育推荐': 'The Paper education picks',
+	'Common Sense Media': 'Common Sense Media',
+	'TheHomeSchoolMom': 'TheHomeSchoolMom',
+	'Nashville Parent': 'Nashville Parent',
+	'Moms.com': 'Moms.com',
+	'Greensprings School': 'Greensprings School',
+	'PreKinders': 'PreKinders',
+	'Action for Healthy Kids': 'Action for Healthy Kids',
 };
 
 export function getLang(): Lang {

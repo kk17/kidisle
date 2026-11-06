@@ -23,9 +23,9 @@ const list = videos.videos.filter((v) => v.up === blogger.up);
 				<p class="bmeta">
 					<span data-i18n="videos_count" data-i18n-var-n={String(list.length)}>{list.length} 条视频</span> · <span data-i18n="source_label">来源</span>：
 					{blogger.source_url ? (
-						<a class="src" href={blogger.source_url} target="_blank" rel="noopener">📎 {blogger.source} ↗</a>
+						<a class="src" href={blogger.source_url} target="_blank" rel="noopener">📎 <span data-i18n="source_name" data-i18n-var-name={blogger.source}>{blogger.source}</span> ↗</a>
 					) : (
-						<span class="src">📎 {blogger.source}</span>
+						<span class="src">📎 <span data-i18n="source_name" data-i18n-var-name={blogger.source}>{blogger.source}</span></span>
 					)}
 					{blogger.mid && (
 						<a href={`https://space.bilibili.com/${blogger.mid}`} target="_blank" rel="noopener"><span data-i18n="bilibili_home">↗ B站主页</span></a>

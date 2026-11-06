@@ -87,12 +87,17 @@ const { title = '童心岛 · 为孩子精选的中文视频片单', description
 		})} />
 
 		<script>
-			import { getLang, setLang, t } from '../lib/i18n.ts';
+			import { getLang, setLang, t, SOURCE_EN } from '../lib/i18n.ts';
 
 			function apply(lang: 'zh' | 'en') {
 				document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
 				document.querySelectorAll<HTMLElement>('[data-i18n]').forEach((el) => {
 					let text = t(el.dataset.i18n!, lang);
+					// source_name：英文态查 SOURCE_EN 映射（中文态原样）
+					if (el.dataset.i18n === 'source_name' && lang === 'en') {
+						const name = el.dataset.i18nVarName || '';
+						text = SOURCE_EN[name] || name;
+					}
 					for (const [k, v] of Object.entries(el.dataset)) {
 						// data-i18n-var-reason-zh → {reason_zh}
 						if (k.startsWith('i18nVar')) {

@@ -90,9 +90,9 @@ const related = (() => {
 			<h1 class="wtitle">{v.title}</h1>
 			<div class="tagrow">
 				<span class="tag plat-tag" data-tag={v.source} data-tag-dim="platform">{v.source === 'youtube' ? 'YouTube' : 'B站'}</span>
-				{v.tags.age.map((a) => <span class="tag">{ageLabel[a] ?? a}</span>)}
-				{v.tags.language.map((l) => <span class="tag">{langLabel[l] ?? l}</span>)}
-				{v.tags.theme.map((t) => <span class="tag">{themeLabel[t] ?? t}</span>)}
+				{v.tags.age.map((a) => <span class="tag" data-tag={a} data-tag-dim="age">{ageLabel[a] ?? a}</span>)}
+				{v.tags.language.map((l) => <span class="tag" data-tag={l} data-tag-dim="language">{langLabel[l] ?? l}</span>)}
+				{v.tags.theme.map((t) => <span class="tag" data-tag={t} data-tag-dim="theme">{themeLabel[t] ?? t}</span>)}
 				{v.duration_seconds > 0 && (
 					<span class="meta">
 						{Math.floor(v.duration_seconds / 60) > 0
@@ -110,7 +110,9 @@ const related = (() => {
 					</span>
 					<span>
 						<span class="upname">{v.up}</span>
-						{blogger?.reason && <span class="upreason">{blogger.reason}</span>}
+						{blogger?.reason && (
+							<span class="upreason" data-i18n="blogger_reason" data-i18n-var-reason-zh={blogger.reason} data-i18n-var-reason-en={blogger.reason_en ?? blogger.reason}>{blogger.reason}</span>
+						)}
 					</span>
 				</a>
 			</div>
