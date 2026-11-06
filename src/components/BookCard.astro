@@ -9,7 +9,7 @@ interface Props {
 	book: any;
 }
 const { book: b } = Astro.props;
-const base = import.meta.env.BASE_URL;
+import { base } from '../lib/base.ts';
 const href = `${base}book/${b.id}/`;
 ---
 <a class="bkcard" href={href}>
