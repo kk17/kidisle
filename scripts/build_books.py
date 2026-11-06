@@ -118,22 +118,30 @@ def collect():
             line = line.strip()
             if not line or line.startswith("#") or line.count("|") < 4:
                 continue
-            title, author, dbl, blurb, src = [x.strip() for x in line.split("|", 4)]
+            title, author, link, blurb, src = [x.strip() for x in line.split("|", 4)]
+            title = title.lstrip("- ").strip()  # 剥掉 Markdown 列表符
+            is_gr = "goodreads.com" in link
+            douban_url = "" if is_gr else (link if link.startswith("http") else "")
+            gr_url = link if is_gr else ""
             if title in pool:
-                pool[title]["sources"].append({"name": src, "url": dbl if dbl.startswith("http") else ""})
+                if gr_url and not pool[title].get("goodreads_url"):
+                    pool[title]["goodreads_url"] = gr_url
+                pool[title]["sources"].append({"name": src, "url": link if link.startswith("http") else ""})
                 continue
             pool[title] = {
                 "title": title,
                 "author": author,
-                "douban_url": dbl if dbl.startswith("http") else "",
+                "douban_url": douban_url,
+                "goodreads_url": gr_url,
                 "blurb": blurb,
-                "sources": [{"name": src, "url": dbl if dbl.startswith("http") else ""}],
+                "is_en_listed": is_gr,
+                "sources": [{"name": src, "url": link if link.startswith("http") else ""}],
             }
     print(f"清单解析 {len(pool)} 本，豆瓣富化中…")
     n = 0
     for title, b in pool.items():
         if not b["douban_url"]:
-            hit = suggest(title)
+            hit = suggest(title)  # 英文书也试豆瓣（常见引进版有中文条目）
             if hit:
                 b["douban_url"] = hit["url"]
                 b["cover"] = hit.get("pic", "").replace("/s/", "/l/")
@@ -145,6 +153,7 @@ def collect():
                 n += 1
             except Exception as e:
                 print(f"  ! 详情失败 {title}: {e}")
+        b["sources"] = [x for x in b["sources"] if x.get("url")] or b["sources"]
         time.sleep(2.0)
     out = ROOT / "data/book-candidates.json"
     out.write_text(

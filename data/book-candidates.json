@@ -1,5 +1,4186 @@
 {
   "schema_version": 1,
-  "count": 0,
-  "books": []
+  "count": 210,
+  "books": [
+    {
+      "title": "猜猜我有多爱你",
+      "author": "[英] 山姆·麦克布雷尼 文 / 安妮塔·婕朗 图",
+      "douban_url": "https://book.douban.com/subject/1433640/",
+      "goodreads_url": "",
+      "blurb": "把\"我爱你\"量化成到月亮那么远，全球亲子共读告白经典",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/1433640/"
+        }
+      ],
+      "rating": 9.4,
+      "isbn": "9787532463459",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s24549957.jpg",
+      "author_detail": "[英] 山姆·麦克布雷尼 文",
+      "publisher": "少年儿童出版社",
+      "pub_year": "2005",
+      "desc": "孩子总喜欢和别人比较，在《猜猜我有多爱你》这本图画书中的小兔子就是个典型的例子。小兔子认真的告诉大兔子“我好爱你”，而大兔子回应小兔子说：“我更爱你！”如此一来，不仅确定大兔子很爱自己，更希望自己的爱能胜过大兔子的爱。牠想尽办法用各种身体动作、看得见的景物来描述自己的爱意，直到牠累得在大兔子的怀中睡着了。"
+    },
+    {
+      "title": "爷爷变成了幽灵",
+      "author": "[丹麦] 金·弗珀兹·艾克松 文 / [瑞典] 爱娃·艾瑞克松 图",
+      "douban_url": "https://book.douban.com/subject/2361768/",
+      "goodreads_url": "",
+      "blurb": "爷爷回来和孙子一起找\"忘记做的事\"，笑着讲死亡与告别",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/2361768/"
+        }
+      ],
+      "rating": 9.3,
+      "isbn": "9787539420899",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s3446498.jpg",
+      "author_detail": "[丹麦]金·弗珀兹·艾克松/文",
+      "publisher": "湖北美术出版社",
+      "pub_year": "2007",
+      "desc": "《爷爷变成了幽灵》以平淡的语气表达浓浓的祖孙之情。书中朴实、淡彩的图画，不但感受不到死亡的可怕，反而从中找到了渲泻感情的出口。在感动之余，我们能感受到的是更多的对亲情的怀念与感悟。"
+    },
+    {
+      "title": "狐狸的窗户",
+      "author": "[日] 安房直子 文 / [日] 织茂恭子 绘",
+      "douban_url": "https://book.douban.com/subject/4049269/",
+      "goodreads_url": "",
+      "blurb": "用蓝桔梗染指尖搭出的魔法狐窗，安房直子幻想世界唯美又哀伤",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/4049269/"
+        }
+      ],
+      "rating": 9.4,
+      "isbn": "9787539143590",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s4118483.jpg",
+      "author_detail": "(日)安房直子 文",
+      "publisher": "二十一世纪出版社",
+      "pub_year": "2009",
+      "desc": "《狐狸的窗户》内容简介：当小狐狸用被桔梗花的花汁染蓝的手指搭起一扇小窗，窗子里出现一只美丽的雌白狐狸时，它对青年说：“这是我的妈妈。”“……”“很久以前，她被‘砰’地一声打死了。”"
+    },
+    {
+      "title": "后来呢后来怎么了",
+      "author": "[日] 吉竹伸介",
+      "douban_url": "https://book.douban.com/subject/34446050/",
+      "goodreads_url": "",
+      "blurb": "吉竹伸介让\"死后会怎样\"变成一场脑洞大开的温柔讨论",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/34446050/"
+        }
+      ],
+      "rating": 9.6,
+      "isbn": "9787542253781",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34571283.jpg",
+      "author_detail": "[日]吉竹伸介",
+      "publisher": "甘肃少年儿童出版社",
+      "pub_year": "2019",
+      "desc": "爷爷去世了，我在他床下发现了一本笔记本，上面写满了他对天堂的幻想，以及自己死后的各种计划。如果天堂真的像爷爷想象的那么好玩，我就安心了。"
+    },
+    {
+      "title": "你看起来好像很好吃",
+      "author": "[日] 宫西达也",
+      "douban_url": "https://book.douban.com/subject/1026035/",
+      "goodreads_url": "",
+      "blurb": "霸王龙当起了小甲龙的爸爸，宫西达也的硬汉柔情催泪弹",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/1026035/"
+        }
+      ],
+      "rating": 9.1,
+      "isbn": "9787530112038",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s2084206.jpg",
+      "author_detail": "宫西达也",
+      "publisher": "北京少年儿童出版社",
+      "pub_year": "2004",
+      "desc": "《你看起来好像很好吃》由北京少年儿童出版社出版。"
+    },
+    {
+      "title": "活了100万次的猫",
+      "author": "[日] 佐野洋子",
+      "douban_url": "https://book.douban.com/subject/1257365/",
+      "goodreads_url": "",
+      "blurb": "死过一百万次的猫终于学会爱，关于生命的哲学寓言",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/1257365/"
+        }
+      ],
+      "rating": 9.0,
+      "isbn": "9787806795095",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s1673084.jpg",
+      "author_detail": "佐野洋子",
+      "publisher": "接力出版社",
+      "pub_year": "2004",
+      "desc": "有一只100万年也不死的猫，其实它死了100万次，又活了100万次。是一只漂亮的虎皮花猫。有100万个人宠爱过它，有100万个人在它死的时候哭过，可是它连一次也没有哭过。"
+    },
+    {
+      "title": "抵岸",
+      "author": "[澳] 陈志勇",
+      "douban_url": "https://book.douban.com/subject/6973840/",
+      "goodreads_url": "",
+      "blurb": "无字移民史诗，六格如电影，大孩子和成人都震撼",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/6973840/"
+        }
+      ],
+      "rating": 9.4,
+      "isbn": "9787505619050",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s6995178.jpg",
+      "author_detail": "陈志勇",
+      "publisher": "连环画出版社",
+      "pub_year": "2011",
+      "desc": "最后一次亲吻挚爱的妻女，黯然踏上远洋轮船，到陌生的国度，他经历了接踵而来的纷乱和艰辛，找寻着生存的方式……相簿形式的无字图画书，完全采用图像来表现人物和环境。画面衔接流畅，如一部隽永的老电影在上演。"
+    },
+    {
+      "title": "不一样的卡梅拉（1-10册）",
+      "author": "[法] 克利斯提昂·约里波瓦 文 / 艾利施 绘",
+      "douban_url": "https://book.douban.com/subject/10560097/",
+      "goodreads_url": "",
+      "blurb": "\"下蛋，下蛋，总是下蛋！\"敢想敢做的小母鸡冒险套装",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/10560097/"
+        }
+      ],
+      "rating": 9.4,
+      "isbn": "9787539169224",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s10166900.jpg",
+      "author_detail": "（法）克利斯提昂·约里波瓦",
+      "publisher": "二十一世纪出版社",
+      "pub_year": "2011",
+      "desc": "故事讲的是母鸡卡梅拉和她的儿女们卡梅利多和卡门的历险故事。卡梅拉家族里的每个人都是那样的与众不同。敢于幻想，更敢于去尝试别人不敢想的事情。书中充满了惊险的情节和法式的幽默。当然，也不乏那些捧着肚子哈哈大笑的段子。这套书的特点是那种小口袋式的，小32开，轻松、便携。每册文字大致在1500—2000字左右，阅读这套书，起步阅读的孩子很容易独立自主地从中获得自我的乐趣和完成全篇的成就感。"
+    },
+    {
+      "title": "海底的秘密",
+      "author": "[美] 大卫·威斯纳",
+      "douban_url": "https://book.douban.com/subject/3332517/",
+      "goodreads_url": "",
+      "blurb": "一台海底相机的奇幻漂流，无字想象巅峰",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/3332517/"
+        }
+      ],
+      "rating": 9.5,
+      "isbn": "9787543470750",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s28396748.jpg",
+      "author_detail": "大卫·威斯纳",
+      "publisher": "河北教育出版社",
+      "pub_year": "2008",
+      "desc": "在一个普通的日子里，男孩在沙滩上捡拾到一架被海浪冲上岸的照相机。他将相机中的底片拿去冲洗后，看到了许多令人难以置信的相片，有在海龟背上的城市、会移动的海星岛屿、坐在沙发上看书的章鱼等等。甚至透过其中一张照片，还可以看到每一张过去曾经发现相机、并拍下自己影象的所有小孩。而这个惊人的发现，也让男孩下定决心，他也要做之前每个小孩都会做的事。"
+    },
+    {
+      "title": "四季时光",
+      "author": "[德] 罗特劳特·苏珊娜·贝尔纳",
+      "douban_url": "https://book.douban.com/subject/35123154/",
+      "goodreads_url": "",
+      "blurb": "一座小镇的七幕无字画卷，每一页都藏着上百个故事",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/35123154/"
+        }
+      ],
+      "rating": 9.8,
+      "isbn": "9787559641823",
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s35619951.jpg",
+      "author_detail": "[德] 罗特劳特·苏珊娜·贝尔纳",
+      "publisher": "北京联合出版公司",
+      "pub_year": "2020",
+      "desc": "国际安徒生奖得主最负盛名之作"
+    },
+    {
+      "title": "永远永远爱你",
+      "author": "[日] 宫西达也",
+      "douban_url": "https://book.douban.com/subject/3089661/",
+      "goodreads_url": "",
+      "blurb": "慈母龙妈妈养大霸王龙宝宝，跨越血缘的爱",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/3089661/"
+        }
+      ],
+      "rating": 9.2,
+      "isbn": "9787539141930",
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s3109561.jpg",
+      "author_detail": "宫西达也",
+      "publisher": "二十一世纪出版社",
+      "pub_year": "2008",
+      "desc": "《蒲蒲兰绘本馆:永远永远爱你》慈母龙妈妈从森林里捡回了一个蛋宝宝。令人惊讶的是，蛋里跳出来的竟是可怕的霸王龙宝宝！善良的慈母龙妈妈不忍心把霸王龙宝宝扔掉，把他留了下来，并给他取名叫良太。在妈妈的关爱下，良太一天天长大了。一天，良太独自去采红果子，遇到了另一个霸王龙，发现了自己的身份……"
+    },
+    {
+      "title": "月亮忘记了",
+      "author": "幾米",
+      "douban_url": "https://book.douban.com/subject/4237837/",
+      "goodreads_url": "",
+      "blurb": "月亮掉进男孩家的浴缸，几米写孤独与陪伴",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/4237837/"
+        }
+      ],
+      "rating": 9.1,
+      "isbn": "9787801388025",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s4687105.jpg",
+      "author_detail": "幾米",
+      "publisher": "海豚出版社",
+      "pub_year": "2010",
+      "desc": "《月亮忘记了》创作于1999年台湾9.21大地震前夕，在那样的时期，它曾经至于许多孤单的心。有如一车车微笑的月亮，运往每个哀伤的黑暗城市。但是，当城市外在的黑暗过去，看不见的黑暗却愈来愈深，人心的孤寂和不安未曾远离。于是，那温柔的月亮和小男孩的故事，在每个不同的时刻，依然默默地提供着光亮。这个充满创意与奇想的故事，却精准地描绘了现实，贴近人心。幾米之所以为幾米，《月亮忘记了》作了最佳的诠释。"
+    },
+    {
+      "title": "小熊宝宝绘本（全15册）",
+      "author": "[日] 佐佐木洋子",
+      "douban_url": "https://book.douban.com/subject/2123287/",
+      "goodreads_url": "",
+      "blurb": "0-3岁生活习惯启蒙15册，刷牙打招呼睡觉全覆盖",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/2123287/"
+        }
+      ],
+      "rating": 9.4,
+      "isbn": "9787505608252",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s26694072.jpg",
+      "author_detail": "佐佐木洋子",
+      "publisher": "连环画出版社",
+      "pub_year": "2007",
+      "desc": "《小熊宝宝绘本:过生日》主要内容：有人要过生日喽！谁过生日？小兔子采花，小猪摘草莓，小老鼠……准备过生日的小熊在干什么？看看扉页就知道了。和宝宝们一起在发现吧！听，嘀哩哩，是谁在一边摘花一边唱歌？看，小浣熊在玩具箱里找到了什么礼物？你能猜出小熊过的是几岁生日吗？"
+    },
+    {
+      "title": "时光电影院",
+      "author": "几米",
+      "douban_url": "https://book.douban.com/subject/10553760/",
+      "goodreads_url": "",
+      "blurb": "几米用一场场电影串起一生的相遇与错过",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/10553760/"
+        }
+      ],
+      "rating": 9.0,
+      "isbn": "9787511008053",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s8988425.jpg",
+      "author_detail": "几米",
+      "publisher": "海豚出版社",
+      "pub_year": "2012",
+      "desc": "“爸爸，你为什么哭了？”“没事没事，只是因为这部电影的结局太感人了。”女孩的妈妈在她很小的时候就离开了，每次女孩哭着要找妈妈时，爸爸就会说：“走，我们去看电影。因为妈妈最喜欢看电影了，也许有一天，我们可以在电影院里面遇见她。”女孩常常跑去爸爸房间，从衣橱里翻出妈妈留下来的丝巾，闻着丝巾上若有似无香味。总觉得如果有一天她在电影院里面闻到这味道，就可以找到妈妈。她在电影院认识一个和男孩子，他和她一样喜欢电影，他们一起念书、一起看电影。不久，男孩全家移民国外，他们就此断了音讯。但他们约定，总有一天，一定要在电影院里重逢。学校毕业后，她开始成了上班族，每当觉得疲惫不堪时，她就会踏入电影院，让电影抚慰她"
+    },
+    {
+      "title": "妈妈，买绿豆！",
+      "author": "曾阳晴 文 / 万华国 图",
+      "douban_url": "https://book.douban.com/subject/5333081/",
+      "goodreads_url": "",
+      "blurb": "一锅绿豆汤的日常，最有烟火气的亲子时光",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/5333081/"
+        }
+      ],
+      "rating": 9.3,
+      "isbn": "9787533264062",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s4578099.jpg",
+      "author_detail": "曾阳晴 文",
+      "publisher": "明天出版社",
+      "pub_year": "2010",
+      "desc": "阿宝和妈妈上街买绿豆，一连串奇妙的情节就此展开……阿宝专注于绿豆，从买绿豆、煮绿豆汤、吃绿豆到种绿豆，作者把整个过程处理得十分生活化和趣味化，与母子浓郁的亲情相互映照，插画唯妙唯肖，细腻写实，牵动每个人的童心。"
+    },
+    {
+      "title": "这是苹果吗也许是吧",
+      "author": "[日] 吉竹伸介",
+      "douban_url": "https://book.douban.com/subject/34445993/",
+      "goodreads_url": "",
+      "blurb": "一个苹果的一百种可能，发散思维启蒙",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/34445993/"
+        }
+      ],
+      "rating": 9.2,
+      "isbn": "9787542253767",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s33309104.jpg",
+      "author_detail": "[日]吉竹伸介",
+      "publisher": "甘肃少年儿童出版社",
+      "pub_year": "2019",
+      "desc": "【编辑推荐】"
+    },
+    {
+      "title": "星空",
+      "author": "幾米",
+      "douban_url": "https://book.douban.com/subject/4012128/",
+      "goodreads_url": "",
+      "blurb": "几米笔下两个孤独少年，抬头一起看星空",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/4012128/"
+        }
+      ],
+      "rating": 9.0,
+      "isbn": "9787802444331",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s3987987.jpg",
+      "author_detail": "幾米",
+      "publisher": "现代出版社",
+      "pub_year": "2009",
+      "desc": "《星空》，是风靡华人世界的畅销绘本画家几米2009年最新力作。描述了一个关于长大的故事：有个不爱说话的少女，认识了一个不爱说话的少年，他们都不是最快乐的孩子。 有一天，他们逃离城市，翻山越岭，来到少女的爷爷曾经住过的山中小屋。在山里的夜晚，他们看到了最美丽的星空。后来，少女病了，而少年不知去向……他们究竟经历了什么，才能走出心理的阴影呢？"
+    },
+    {
+      "title": "失落的一角遇见大圆满",
+      "author": "[美] 谢尔·希尔弗斯坦",
+      "douban_url": "https://book.douban.com/subject/1030200/",
+      "goodreads_url": "",
+      "blurb": "圆在寻找中学会停下歌唱，缺憾也是一种圆满",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/1030200/"
+        }
+      ],
+      "rating": 9.0,
+      "isbn": "9787544225175",
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s1818541.jpg",
+      "author_detail": "Shel Silverstein",
+      "publisher": "南海出版公司",
+      "pub_year": "2003",
+      "desc": "艺术天才希尔弗斯坦传世经典，30多种文字流传世界各地，美国本土销量1800万册！一则有关“成熟”与“依赖”的寓言。他富有魅力的作品再次证明了，在艺术上，越简单的东西表达的往往越多，真理往往用简单的话语便能加以表达。 失落的一角彷徨地停在一旁，等待有谁路过将它带走。它遇到的人也不少，有一看就知不相宜的、不懂配合的、自私的、很多缺陷的、像恶狼般吞噬很多人的、精选细选的或胆小的，总之无论谁来到都可以试一试，结果当然是失落的人更失落。好不容易等到了，因自己的成长又分开了，终于……这是《失落的一角》姊妹作，一样可以快快读过，一样可以思考很久。希尔弗斯坦以简单的图像和文字，描绘一则有关“成熟”与“依赖”的"
+    },
+    {
+      "title": "田鼠阿佛",
+      "author": "[美] 李欧·李奥尼",
+      "douban_url": "https://book.douban.com/subject/4744788/",
+      "goodreads_url": "",
+      "blurb": "别的田鼠囤粮，阿佛收集阳光与颜色——精神食粮同样重要",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/4744788/"
+        }
+      ],
+      "rating": 9.2,
+      "isbn": "9787544246620",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s4460827.jpg",
+      "author_detail": "(美)李奥尼编绘",
+      "publisher": "南海出版公司",
+      "pub_year": "2010",
+      "desc": "田鼠阿佛一家住在草地边的石墙里。冬天快要到来的时候，小田鼠们开始采集过冬的食物，可唯独只有阿佛坐在一帝，一副若有所思的样子。当大家询问阿佛为什么不干活的时候，阿佛却说他也在采集过冬需要的东西，不是玉米、坚果和小麦，而是阳光、颜色和词语。小田鼠们有些不解，还有点生阿佛的气。冬天漫长而寒冷，起先小田鼠们还会开开心心地聊天吃东西，可后来，食物吃光了，大家也渐渐没了精神。这时，阿佛“拿出”了他收集的那些东西，让大家的寒冷的冬天里更温暖、更团结，并且赶走了寂寞。原来，冬天也是可以多姿多彩的。"
+    },
+    {
+      "title": "爱心树",
+      "author": "[美] 谢尔·希尔弗斯坦",
+      "douban_url": "https://book.douban.com/subject/1059503/",
+      "goodreads_url": "",
+      "blurb": "一棵树把自己全部给出，读一次沉思一次的经典",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/1059503/"
+        }
+      ],
+      "rating": 9.0,
+      "isbn": "9787544225151",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s1112624.jpg",
+      "author_detail": "谢尔・希尔弗斯坦",
+      "publisher": "南海出版公司",
+      "pub_year": "2003",
+      "desc": "本书是世界绘本的经典作品之一，出版30年来，一直是绘本世界的著名典范，历久不衰，魅力惊人，销量超过550万册。 这是一个由一棵有求必应的苹果树和一个贪求不厌的孩子，共同组成的温馨，又略带哀伤的动人故事。爱心树的英文 “The Giving Tree”，顾名思义便是牺牲奉献的意思，但它亦是一本述说友谊的书。树并未因为男孩的予取予求感到难过，即使后来只剩下残干的他，是那么凄凉孤寂，但当男孩回到他身边只求一个安静的歇脚处时，树竟是满欣喜乐将自己奉献给他，这样的喜悦比起男孩小时在树上刻的 “M.E. + T.”那些甜蜜文字，更令他感到真切舒心。天才的绘本艺术家希尔弗斯坦以简单俐落的线条和充满诗意又带有"
+    },
+    {
+      "title": "爷爷一定有办法",
+      "author": "[加] 菲比·吉尔曼",
+      "douban_url": "https://book.douban.com/subject/1397331/",
+      "goodreads_url": "",
+      "blurb": "旧毯子一次次变身，剪掉的碎布里还藏着老鼠一家的故事",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/1397331/"
+        }
+      ],
+      "rating": 8.9,
+      "isbn": "9787532464586",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s26552436.jpg",
+      "author_detail": "菲比·吉尔曼",
+      "publisher": "少年儿童出版社",
+      "pub_year": "2005",
+      "desc": "《爷爷一定有办法》写的是一个充满智慧、爱孙子的老爷爷，他用巧思把孙子心爱的破毯子变成外套、背心、领带、手帕、钮扣。它原本是一个流传已久的民间故事，作者用重复而富节奏的文字来重述，既温馨又朗朗上口。图画则细腻地描绘出充满浓厚人情味的小镇和约瑟的家庭，不管是人们丰富的表情、家具、物品，都非常的生动、传神。画面下方的老鼠家庭更带来额外的阅读乐趣。"
+    },
+    {
+      "title": "奥菲利娅的影子剧院",
+      "author": "[德] 米切尔·恩德",
+      "douban_url": "https://book.douban.com/subject/2984402/",
+      "goodreads_url": "",
+      "blurb": "收留所有影子的老小姐，恩德写给生命的温柔寓言",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/2984402/"
+        }
+      ],
+      "rating": 9.4,
+      "isbn": "9787539140469",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34187457.jpg",
+      "author_detail": "(德)米切尔·恩德",
+      "publisher": "二十一世纪出版社",
+      "pub_year": "2008",
+      "desc": "《奥菲利娅的影子剧院》讲述了奥菲利娅是一个不幸运的人。奥菲利娅是一个虽然登不了舞台，在卑微的木箱子里也努力和喜悦的人。奥菲利娅是一个得不到关怀，却知道应该关怀别人的人。奥菲利娅是一个不喜欢争争吵吵，喜欢戏剧的诗意，喜欢诗意和宽容地面对生活的人。奥菲利娅是一个乐意站在边上，欣赏别人表演，并总是帮助着表演顺利和成功的人。奥菲利娅是一个走在艰辛的路上，脸上却总有笑容，每天高高兴兴继续往前走的人。奥菲利娅是一个热爱生命却又在死亡面前豁达和从容的人。……所以你看见了吗，归根到底，奥菲利娅不能算是一个真正不幸运的人。故事里的奥菲利娅到天堂里去了，而生活里的奥菲利娅们，也一定会受到簇拥和爱戴。"
+    },
+    {
+      "title": "花婆婆",
+      "author": "[美] 芭芭拉·库尼",
+      "douban_url": "https://book.douban.com/subject/2117872/",
+      "goodreads_url": "",
+      "blurb": "\"做一件让世界更美丽的事\"，一生践行的约定",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/2117872/"
+        }
+      ],
+      "rating": 9.0,
+      "isbn": "9787543464605",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s2449403.jpg",
+      "author_detail": "[美]芭芭拉·库尼",
+      "publisher": "河北教育出版社",
+      "pub_year": "2007",
+      "desc": "※ 美国国家图书奖"
+    },
+    {
+      "title": "我的爸爸叫焦尼",
+      "author": "[瑞典] 波·R·汉伯格 文 / 爱娃·艾瑞克松 图",
+      "douban_url": "https://book.douban.com/subject/2274454/",
+      "goodreads_url": "",
+      "blurb": "向全城宣布\"这是我爸爸\"，单亲孩子的骄傲与思念",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/2274454/"
+        }
+      ],
+      "rating": 9.1,
+      "isbn": "9787539421438",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s5771795.jpg",
+      "author_detail": "（瑞典）波·R·汉伯格",
+      "publisher": "湖北美术出版社",
+      "pub_year": "2007",
+      "desc": "本书描写和母亲同住的单亲儿童提姆，在爸爸来访的那一天所发生的事。"
+    },
+    {
+      "title": "晚安，大猩猩",
+      "author": "[美] 佩吉·拉特曼",
+      "douban_url": "https://book.douban.com/subject/4773507/",
+      "goodreads_url": "",
+      "blurb": "管理员道晚安却没发现动物全都跟回了家，细节控百读不厌",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/4773507/"
+        }
+      ],
+      "rating": 9.2,
+      "isbn": "9787544246767",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s4422786.jpg",
+      "author_detail": "[美] 佩吉·拉特曼(Peggy Rathmann) 文/图",
+      "publisher": "南海出版公司",
+      "pub_year": "2010",
+      "desc": "夜深人静，动物园的管理员去跟动物们一一道晚安。调皮的大猩猩拿走了他挂在身后的一串钥匙，从笼子里溜了出来，还偷偷放出了大象、狮子、长颈鹿……就这样，动物们悄悄地跟在管理员身后回了家……"
+    },
+    {
+      "title": "夏天守则",
+      "author": "[澳] 陈志勇",
+      "douban_url": "https://book.douban.com/subject/30214592/",
+      "goodreads_url": "",
+      "blurb": "超现实画面写兄弟间的规则、争执与和解",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/30214592/"
+        }
+      ],
+      "rating": 9.2,
+      "isbn": "9787505634404",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s29760848.jpg",
+      "author_detail": "[澳] 陈志勇",
+      "publisher": "连环画出版社",
+      "pub_year": "2018",
+      "desc": "本书中所有画面一起讲述了两个男孩的成长故事，他们一个年长一个年幼。弟弟拼命想融入哥哥追上哥哥的脚步，可是一直被哥哥从各方面轻松碾压。哥哥制定了一些奇怪的规则，比如“永远不要吃派对上的最后一颗橄榄”“永远不要踩到一只蜗牛”“永远不要在游行时迟到”“永远不要与裁判争辩”等等，弟弟感到各种困惑和挫败，最后情绪爆发……"
+    },
+    {
+      "title": "不可思议的旅程",
+      "author": "[美] 艾伦·贝克尔",
+      "douban_url": "https://book.douban.com/subject/25872643/",
+      "goodreads_url": "",
+      "blurb": "一支红笔打开魔法之门，无字冒险三部曲开篇",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/25872643/"
+        }
+      ],
+      "rating": 9.2,
+      "isbn": "9787513314770",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s27331016.jpg",
+      "author_detail": "[美] 艾伦·贝克尔",
+      "publisher": "新星出版社",
+      "pub_year": "2014",
+      "desc": "小女孩意外得到了一支神奇的红色画笔，用这支笔画出的任何东西都可以变成真的。她在卧室墙上画了一扇门，当门打开时，她发现自己进入了另一个国度，一场不可思议的旅程就此开始……本书仅用图画讲述了一个激动人心的历险故事，画面细节丰富，场景衔接自然流畅，情节的推进更是扣人心弦，原本静态的图画仿佛电影一般充满了动感，引人入胜。"
+    },
+    {
+      "title": "7号梦工厂",
+      "author": "[美] 大卫·威斯纳",
+      "douban_url": "https://book.douban.com/subject/3240293/",
+      "goodreads_url": "",
+      "blurb": "小男孩在云朵工厂打乱图纸，云上幻想",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/3240293/"
+        }
+      ],
+      "rating": 9.3,
+      "isbn": "9787534249259",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s3296267.jpg",
+      "author_detail": "(美)大卫·威斯纳",
+      "publisher": "浙江少年儿童出版社",
+      "pub_year": "2008",
+      "desc": "每件事情都有既定的规则，世上万物也皆有同定的模式。唯独“想象力”，可以无拘无束、天马行空！"
+    },
+    {
+      "title": "坏狐狸",
+      "author": "[法] 本杰明·雷内",
+      "douban_url": "https://book.douban.com/subject/30133852/",
+      "goodreads_url": "",
+      "blurb": "想当妈妈的狐狸偷来三个蛋，动画《大坏狐狸的故事》原著",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/30133852/"
+        }
+      ],
+      "rating": 9.1,
+      "isbn": "9787551137782",
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s35026151.jpg",
+      "author_detail": "[法] 本杰明·雷内 编绘",
+      "publisher": "花山文艺出版社",
+      "pub_year": "2018",
+      "desc": "绘本改编电影《大坏狐狸的故事》3月16号全国上映！"
+    },
+    {
+      "title": "铁丝网上的小花",
+      "author": "[意] 格莱兹 文 / 英诺森提 绘",
+      "douban_url": "https://book.douban.com/subject/2188017/",
+      "goodreads_url": "",
+      "blurb": "隔着铁丝网递面包的女孩，二战题材的沉重一课",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/2188017/"
+        }
+      ],
+      "rating": 9.1,
+      "isbn": "9787533253479",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s9011606.jpg",
+      "author_detail": "[意] 格莱兹 著",
+      "publisher": "明天出版社",
+      "pub_year": "2007",
+      "desc": "《世界插画大师英诺森提作品:铁丝网上的小花》故事发生在二战时期的一个德国小镇上，一个名叫罗斯·布兰奇的小女孩，很偶然地在郊外的铁丝网里看到了一排瘦骨伶仃的人——那是被关押在纳粹集中营里的犹太人，天真善良的女孩冒着生命危险给他们送去面包，可有一天却倒在了罪恶的枪口下。整本书是一种灰冷的色调，让人压抑、窒息。与这种可怕、绝望的氛围格格不入的，是两片刺眼的红色：一个是纳粹市长手臂上的红袖标，一个是女孩头上鲜红色的蝴蝶结。那红袖标，无疑是战争的血腥与罪恶的象征，而那鲜红色的蝴蝶结，则是一抹生命的亮色。故事的结尾凄美感人，女孩死了，她生前曾经站过的土地上，星星点点地开出了与她那红色的蝴蝶结一样鲜红的番红"
+    },
+    {
+      "title": "点点点",
+      "author": "[法] 埃尔维·杜莱",
+      "douban_url": "https://book.douban.com/subject/10604035/",
+      "goodreads_url": "",
+      "blurb": "按一下变多、摇一摇换色，杜莱把书变成玩具",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/10604035/"
+        }
+      ],
+      "rating": 9.1,
+      "isbn": "9787539175546",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s30002219.jpg",
+      "author_detail": "(法)埃尔维·杜莱 文/图",
+      "publisher": "二十一世纪出版社",
+      "pub_year": "2012",
+      "desc": "想知道一本书可以有多好玩，想象力会有多大的力量？快翻开《点点点》，一起加入这个全世界正热烈讨论，如魔术般的游戏！"
+    },
+    {
+      "title": "小兔彼得和他的朋友们（全3册）",
+      "author": "[英] 毕翠克丝·波特",
+      "douban_url": "https://book.douban.com/subject/4097264/",
+      "goodreads_url": "",
+      "blurb": "波特奶奶的田园兔子百年经典，全彩三册收藏",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/4097264/"
+        }
+      ],
+      "rating": 9.1,
+      "isbn": "9787533653590",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s4042908.jpg",
+      "author_detail": "[英国] 比阿特丽克斯·波特",
+      "publisher": "安徽教育出版社",
+      "pub_year": "2009",
+      "desc": "《小兔彼得和他的朋友们》收录了毕翠克丝•波特的全部作品，包括《小兔彼得的故事》《小松鼠纳特金的故事》《格罗斯特的裁缝》等二十三篇童话和《阿利•达普利的童谣》《塞茜莉•琶丝莉的童谣》《三只小老鼠》《小兔子的圣诞晚会》四篇童谣，其中童话《狡猾的老猫》《狐狸和鹳乌》和童谣《三只小老鼠》《小兔子的圣诞晚会》是作者生前未出版的作品。二十七篇美丽的童话（童谣）各具异趣，字里行间洋溢着友情和爱心的温馨，七百多幅精美的图画逐页插配，相成趣，给人以极大的艺术享受。"
+    },
+    {
+      "title": "好饿的毛毛虫",
+      "author": "[美] 艾瑞·卡尔",
+      "douban_url": "https://book.douban.com/subject/3106707/",
+      "goodreads_url": "",
+      "blurb": "从星期一吃到星期日的洞洞书，全球孩子的人手一本",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/3106707/"
+        }
+      ],
+      "rating": 9.0,
+      "isbn": "9787533256739",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s3161609.jpg",
+      "author_detail": "[美] 艾瑞·卡尔",
+      "publisher": "明天出版社",
+      "pub_year": "2008",
+      "desc": "月光下，叶子上躺着一颗小小的蛋。"
+    },
+    {
+      "title": "松鼠先生和月亮",
+      "author": "[德] 塞巴斯蒂安·麦什莫泽",
+      "douban_url": "https://book.douban.com/subject/2257333/",
+      "goodreads_url": "",
+      "blurb": "一块大奶酪被当成掉下来的月亮，德式冷幽默连环误会",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/2257333/"
+        }
+      ],
+      "rating": 9.1,
+      "isbn": "9787539419602",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s2700337.jpg",
+      "author_detail": "(德)塞巴斯蒂安·麦什莫泽",
+      "publisher": "湖北美术出版社",
+      "pub_year": "2007",
+      "desc": "一天早上松鼠先生突然惊醒，因为月亮掉进了他的房里。于是，关于三个好朋友和一个怪问题的荒诞离奇的故事就这样展开了。松鼠先生想尽了一切办法，想把那个讨厌的发光体弄走。当这个东西最后终于重新悬挂在天空放出光芒的时候，他也感叹：一切终于好起来了!"
+    },
+    {
+      "title": "白兔夫人",
+      "author": "[法] 吉尔·巴什莱",
+      "douban_url": "https://book.douban.com/subject/26694925/",
+      "goodreads_url": "",
+      "blurb": "《爱丽丝》番外，柴郡猫主妇的碎碎念日常",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/26694925/"
+        }
+      ],
+      "rating": 9.0,
+      "isbn": "9787550267817",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s29507063.jpg",
+      "author_detail": "[法] 吉尔·巴什莱",
+      "publisher": "北京联合出版公司",
+      "pub_year": "2017",
+      "desc": "《爱丽丝漫游奇境》白兔番外篇"
+    },
+    {
+      "title": "朱家故事",
+      "author": "[英] 安东尼·布朗",
+      "douban_url": "https://book.douban.com/subject/3536343/",
+      "goodreads_url": "",
+      "blurb": "妈妈罢工后家里乱了套，性别平等启蒙名作",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/3536343/"
+        }
+      ],
+      "rating": 9.1,
+      "isbn": "9787543470729",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s3605465.jpg",
+      "author_detail": "(英)安东尼·布朗 文/图",
+      "publisher": "河北教育出版社",
+      "pub_year": "2009",
+      "desc": "朱家的生活看起来不错，房、车、花园，一应俱全；爸爸和兄弟两个被妈妈照顾得无微不至。然而这一天晚上，任劳任怨、辛勤顾家的妈妈突然不见了。一纸留言：“你们是猪”表明了妈妈对朱家父子的不满和失望。没有妈妈的朱家乱套了！"
+    },
+    {
+      "title": "小房子",
+      "author": "[美] 维吉尼亚·李·伯顿",
+      "douban_url": "https://book.douban.com/subject/2212064/",
+      "goodreads_url": "",
+      "blurb": "田园小房子被城市包围又回到乡下，1943年凯迪克金奖",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/2212064/"
+        }
+      ],
+      "rating": 9.0,
+      "isbn": "9787544234696",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s2865603.jpg",
+      "author_detail": "（美）维吉尼亚・李・伯顿",
+      "publisher": "南海出版公司",
+      "pub_year": "2007",
+      "desc": "小房子每天站在山冈上看风景，除了日月星辰和四季的变化，小房子还看到乡村的景物随着挖马路、开商店、盖高楼、通地下铁……而一点一点地改变。结果，小雏菊和苹果树不见了，取而代之的是都市的乌烟瘴气和行色匆匆的人们。还好，小房子的主人的后代发现了小房子，把她又移到了乡下，静静地欣赏大自然的风景。"
+    },
+    {
+      "title": "逃家小兔",
+      "author": "[美] 玛格丽特·怀兹·布朗 文 / 克雷门·赫德 图",
+      "douban_url": "https://book.douban.com/subject/1433568/",
+      "goodreads_url": "",
+      "blurb": "你变成鱼我就变成捕鱼人，妈妈永远追得上你",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/1433568/"
+        }
+      ],
+      "rating": 8.9,
+      "isbn": "9787532465521",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s1447696.jpg",
+      "author_detail": "文/玛格丽特·怀兹·布朗",
+      "publisher": "少年儿童出版社",
+      "pub_year": "2005",
+      "desc": "小兔子对妈妈说：＂我要跑走啦！＂,＂如果你跑走了，＂妈妈说，＂我就去追你，因为你是我的小宝贝呀！＂,一场爱的捉迷藏就此展开……穿越时间、跨越空间，屹立儿童图书界的经典之作！出版60年来，仍然是亚马逊网路书店（www.amazon.com)最爱妈妈们欢迎的亲子共读图画书！"
+    },
+    {
+      "title": "桃花源的故事",
+      "author": "松居直 编 / 蔡皋 绘",
+      "douban_url": "https://book.douban.com/subject/35449446/",
+      "goodreads_url": "",
+      "blurb": "陶渊明笔下的东方画卷，中日合作的华文绘本佳作",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/35449446/"
+        }
+      ],
+      "rating": 9.3,
+      "isbn": "9787556256389",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s33988403.jpg",
+      "author_detail": "[日] 松居直 编",
+      "publisher": "湖南少年儿童出版社",
+      "pub_year": "2021",
+      "desc": "《桃花源的故事》根据东晋大诗人陶渊明经典名篇《桃花源记》改编，渔人无意中来到与世隔绝的桃花源，这里的人们过着宁静、祥和的单纯日子，与外面喧哗的世界截然不同。在这里，渔人更是体会到了来自朴实人民的善意，看到了男耕女织、门不闭户的美好生活。这是一个交织着梦想与现实的奇遇故事，也是每个平凡人的梦想之旅，传达了国人与世无争、独善其身的居士精神。"
+    },
+    {
+      "title": "蓝莲花",
+      "author": "[比] 埃尔热",
+      "douban_url": "https://book.douban.com/subject/1044107/",
+      "goodreads_url": "",
+      "blurb": "丁丁历险记中国篇，埃尔热早期巅峰（大童漫画）",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/1044107/"
+        }
+      ],
+      "rating": 9.1,
+      "isbn": "9787500756699",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s1577226.jpg",
+      "author_detail": "[比] 埃尔热 编绘",
+      "publisher": "中国少年儿童出版社",
+      "pub_year": "2001",
+      "desc": "这集的故事发生在1931年，此集中丁丁遇上了后来成为他一生好友的张。同时，拉斯泰波波洛斯这个讨厌的敌人再次出现了。"
+    },
+    {
+      "title": "野兽国",
+      "author": "[美] 莫里斯·桑达克",
+      "douban_url": "https://book.douban.com/subject/25872646/",
+      "goodreads_url": "",
+      "blurb": "迈克斯当了野兽之王还是想回家吃饭，1964年凯迪克金奖",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/25872646/"
+        }
+      ],
+      "rating": 9.0,
+      "isbn": "9787221119308",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34745423.jpg",
+      "author_detail": "[美] 莫里斯·桑达克",
+      "publisher": "贵州人民出版社",
+      "pub_year": "2014",
+      "desc": "《野兽国》以简单诗意的语言讲述了调皮男孩迈克斯的故事：他与妈妈大闹了一场，没吃晚饭就被关进了自己的房间。就像孤身一人的奥德修斯，迈克斯旋即开始了远航：一波波的海浪为迈克斯带来一艘小船，他驾着小船出发，过了晚上，到了白天，过了一周有一周，过了几乎一整年，终于来到野兽国。"
+    },
+    {
+      "title": "雪人",
+      "author": "[英] 雷蒙·布力格",
+      "douban_url": "https://book.douban.com/subject/1806300/",
+      "goodreads_url": "",
+      "blurb": "无字连环画里的一夜之约，天亮时的告别",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/1806300/"
+        }
+      ],
+      "rating": 9.0,
+      "isbn": "9787532468195",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s2166283.jpg",
+      "author_detail": "[英] 雷蒙·布力格",
+      "publisher": "少年儿童出版社",
+      "pub_year": "2006",
+      "desc": "少年早上起来，发现窗外已经是雪花飘飘了。他冲出屋去，堆了一个足足比他高出一倍的雪人。他给它戴上了帽子，系上围巾，又用橘子给它装上了一个大红鼻头，用煤球做了眼睛，再画上嘴。哈，一个活灵活现的大雪人！"
+    },
+    {
+      "title": "爱德华的奇妙之旅",
+      "author": "[美] 凯特·迪卡米洛 文 / 马格拉姆·伊巴图林 绘",
+      "douban_url": "https://book.douban.com/subject/1982200/",
+      "goodreads_url": "",
+      "blurb": "瓷兔子学会去爱的心碎之旅（章节小说，大童过渡）",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/1982200/"
+        }
+      ],
+      "rating": 8.7,
+      "isbn": "9787530739488",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s24973480.jpg",
+      "author_detail": "[美] 凯特·迪卡米洛",
+      "publisher": "新蕾出版社",
+      "pub_year": "2007",
+      "desc": "从前，在埃及街旁的一所房子里，住着一只名叫爱德华·图雷恩的瓷兔子。那小兔子很是自鸣得意，而且理由充足：他为一个名叫阿比林的女孩儿所拥有，她对他关怀备至，崇敬有加。"
+    },
+    {
+      "title": "小金鱼逃走了",
+      "author": "[日] 五味太郎",
+      "douban_url": "https://book.douban.com/subject/10427241/",
+      "goodreads_url": "",
+      "blurb": "每一页都有小金鱼藏着，1-3岁专注力游戏书",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/10427241/"
+        }
+      ],
+      "rating": 9.1,
+      "isbn": "9787513304948",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s34458955.jpg",
+      "author_detail": "(日)五味太郎",
+      "publisher": "新星出版社",
+      "pub_year": "2012",
+      "desc": "哎呀，小金鱼从鱼缸里逃走了！逃到哪儿去了？窗帘上、花丛中、糖果罐子里、水果盘里……哪里有它的影子？接下来，这个调皮的小家伙竟然还在镜子上玩起了“分身术”，变成了三条一模一样的小金鱼，到底哪个才是真正的小金鱼？最后，它还跳进了有好多金鱼的大池塘里，哪只金鱼才是我们要找的呢？请小朋友们翻开这本书，用自己的好眼力把它找出来吧！"
+    },
+    {
+      "title": "当鸭子遇见死神",
+      "author": "[德] 沃尔夫·埃布鲁赫",
+      "douban_url": "https://book.douban.com/subject/24886923/",
+      "goodreads_url": "",
+      "blurb": "死神陪鸭子散步到最后一程，生死教育天花板",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/24886923/"
+        }
+      ],
+      "rating": 9.1,
+      "isbn": "9787530758205",
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s26964451.jpg",
+      "author_detail": "(德)沃尔夫·埃布鲁赫 文/图",
+      "publisher": "新蕾出版社",
+      "pub_year": "2013",
+      "desc": "一只无忧无虑的鸭子遇见了大名鼎鼎的死神！"
+    },
+    {
+      "title": "小狐狸买手套",
+      "author": "[日] 新美南吉 文 / 黑井健 绘",
+      "douban_url": "https://book.douban.com/subject/4726738/",
+      "goodreads_url": "",
+      "blurb": "雪夜里狐妈妈放手让小狐狸独自去人间，新美南吉名作",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/4726738/"
+        }
+      ],
+      "rating": 9.0,
+      "isbn": "9787544238342",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34476489.jpg",
+      "author_detail": "(日)新美南吉 编文",
+      "publisher": "南海出版公司",
+      "pub_year": "2010",
+      "desc": "寒冷的冬天来了，狐狸妈妈为了不让小狐狸的手被冻伤，决定去镇上帮他买一副手套。可是快到镇上时，狐狸妈妈却想起了差点被人抓走的可怕经历，不敢再往前走了，只好让小狐狸自己去镇上。狐狸妈妈把小狐狸的一只手变成人手的样子，并反复叮嘱他一定要伸这只手出去。可是小狐狸来到商店门口时，却因为紧张伸错了手……本书是日本著名童话作家新美南吉最打动人心的故事，在日本家喻户晓，并被选入小学语文课本。这篇童话曾先后由多位不同的插画家配图，出版成绘本，但唯有黑井健绘图的这一版本，牢牢把握住了狐狸母子间的温情、小狐狸的天真可爱和雪国梦幻般的美丽场景。"
+    },
+    {
+      "title": "鳄鱼怕怕牙医怕怕",
+      "author": "[日] 五味太郎",
+      "douban_url": "https://book.douban.com/subject/1448645/",
+      "goodreads_url": "",
+      "blurb": "同一句\"怕怕\"的两种视角，看牙恐惧一扫光",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/1448645/"
+        }
+      ],
+      "rating": 8.8,
+      "isbn": "9787532463442",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s10034078.jpg",
+      "author_detail": "五味太郎",
+      "publisher": "少年儿童出版社",
+      "pub_year": "2004",
+      "desc": "「牙痛不是病，痛起来要人命。」相信看牙医不仅是孩子，也是大人的恶梦，当我们牙疼时，常自我挣扎：如不去看医生，得忍受令人痛不欲生的牙疼；如果去看医生，又得承受躺在牙医上的痛苦折磨。当我们把看牙医当作一件可怕的经验时，从来没人想过牙医也有他看病人的痛苦挣扎；他每天除了要看那些可怕的蛀牙之外，还得忍受病人的惨叫。五味太郎以诙谐的对比文字，在书中幽默的刻画出病人和牙医对立的矛盾心理。本书主题鲜明、画面富童趣，是一本令人会心一笑的心理图画书。"
+    },
+    {
+      "title": "肚子里有个火车站",
+      "author": "[德] 安娜·鲁斯曼",
+      "douban_url": "https://book.douban.com/subject/6127332/",
+      "goodreads_url": "",
+      "blurb": "肚子里的小精灵大罢工，吃太快不细嚼要遭殃",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/6127332/"
+        }
+      ],
+      "rating": 8.9,
+      "isbn": "9787530451342",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s6518412.jpg",
+      "author_detail": "(德)鲁斯曼·安娜 著/绘",
+      "publisher": "北京科学技术出版社",
+      "pub_year": "2011",
+      "desc": "《德国精选科学图画书:肚子里有个火车站》内容简介：茱莉娅吃得太多、太快，所以她的肚子里出事了！饭菜一大块一大块地掉进肚子火车站里，堆得像小山一样高。这可害惨了肚子里的小精灵们，他们冒着被砸晕的危险拼命干活，想把这些食物统统装上火车，送到弯弯曲曲的隧道里去。可是没想到，还有更大的暴风雪在等着他们。小精灵们被激怒了，他们游行示威、罢工抗议……肚子火车站里一片混乱。小精灵们能渡过这个难关吗？肚子火车站究竟是怎样一个地方？神秘的隧道会通向哪里呢？这本独具创意的图画书会带领读者参观肚子火车站，以一种极其有趣的方式使我们了解自己的消化系统，从而帮助我们养成健康的饮食习惯。"
+    },
+    {
+      "title": "不可思议的朋友",
+      "author": "[日] 田岛征彦",
+      "douban_url": "https://book.douban.com/subject/27069925/",
+      "goodreads_url": "",
+      "blurb": "与自闭症同学二十年的友谊，真实题材改编",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/27069925/"
+        }
+      ],
+      "rating": 8.9,
+      "isbn": "9787550297760",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s29889846.jpg",
+      "author_detail": "[日] 田岛征彦",
+      "publisher": "北京联合出版公司",
+      "pub_year": "2017",
+      "desc": "第十三届文津奖入围作品"
+    },
+    {
+      "title": "小蓝和小黄",
+      "author": "[美] 李欧·李奥尼",
+      "douban_url": "https://book.douban.com/subject/3116027/",
+      "goodreads_url": "",
+      "blurb": "蓝色和黄色抱在一起变成绿，撕纸色彩启蒙开山作",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/3116027/"
+        }
+      ],
+      "rating": 9.1,
+      "isbn": "9787533257101",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34007827.jpg",
+      "author_detail": "(美)李欧·李奥尼 文/图",
+      "publisher": "明天出版社",
+      "pub_year": "2008",
+      "desc": "《小蓝和小黄》讲述小蓝和小黄是一对好朋友，一起游戏，一起上课。一天，小蓝趁妈妈出门的时候，溜出去找小黄。从家里找到外面，找了许久，才在一个角落里找到了小黄。小蓝和小黄惊喜地拥抱在一起，越抱越紧，结果融合在一起变成了“绿”。“绿”去了公园，钻隧道，爬山，后来累了，就回家了。可回到小蓝家，小蓝的爸爸妈妈认不出来了：“哎呀，这个‘绿’不是我们家的小蓝呀。”回到小黄家，小黄的爸爸妈妈妈也认不出来了：“哎呀，这个‘绿’不是我们家的小黄呀。”“绿”很伤心，流下了蓝色和黄色的眼泪，哭呀哭呀，最后全都变成了蓝色和黄色的眼泪，蓝眼泪集拢到一起变成了小蓝，黄眼泪集拢到一起变成了小黄，两个人高兴了：“这回爸爸妈妈不"
+    },
+    {
+      "title": "大猩猩",
+      "author": "[英] 安东尼·布朗",
+      "douban_url": "https://book.douban.com/subject/2122483/",
+      "goodreads_url": "",
+      "blurb": "忙碌的爸爸与陪伴的大猩猩，写尽孩子的孤独",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/2122483/"
+        }
+      ],
+      "rating": 9.0,
+      "isbn": "9787543464643",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s34015176.jpg",
+      "author_detail": "(英)安东尼·布朗 文/图",
+      "publisher": "河北教育出版社",
+      "pub_year": "2007",
+      "desc": "这里讲述的是小女孩安娜的故事，她渴望得到爸爸的关爱，可是现实生活中的爸爸既冷漠又严肃。父女两人吃早餐的时候，爸爸在看报纸，父女两人没有交流。在安娜安娜过生日的前一晚，安娜想要大猩猩作生日礼物，得到的却是一只玩具猩猩。安娜感到自己被关在笼子里，像动物园 里的猩猩一样。不过，当晚让人惊异的事情发生了，玩具猩猩变成了真正的大猩猩，并且要带安娜去动物园玩……"
+    },
+    {
+      "title": "你好灯塔",
+      "author": "[澳] 苏菲·布莱科尔",
+      "douban_url": "https://book.douban.com/subject/33423283/",
+      "goodreads_url": "",
+      "blurb": "守塔人一家的孤岛岁月，2019年凯迪克金奖水墨风",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/33423283/"
+        }
+      ],
+      "rating": 9.1,
+      "isbn": "9787521700886",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s33988390.jpg",
+      "author_detail": "[澳] 苏菲·布莱科尔",
+      "publisher": "中信出版社",
+      "pub_year": "2019",
+      "desc": "2019年绘本界的“奥斯卡”——凯迪克金奖绘本。"
+    },
+    {
+      "title": "糖球",
+      "author": "[韩] 白希那",
+      "douban_url": "https://book.douban.com/subject/34807223/",
+      "goodreads_url": "",
+      "blurb": "含一颗糖球能听见外婆的心里话，黏土奇幻催泪作",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/34807223/"
+        }
+      ],
+      "rating": 9.0,
+      "isbn": "9787544861526",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s33465644.jpg",
+      "author_detail": "[韩]白希那",
+      "publisher": "接力出版社",
+      "pub_year": "2019",
+      "desc": "东东喜欢玩玻璃球，没有朋友和他一起。东东失落地来到小商店，他想买一些新的玻璃球，却看到一袋子没见过的“玻璃球”，店主爷爷告诉他这是糖球。东东吃了一颗糖球之后，开始听到沙发的声音。后面他又陆续吃了四颗糖球，分别听到狗狗、爸爸、奶奶、树叶的声音。每吃完一颗糖球，他都感受到各种不同的情感。直到吃下最后一颗透明的糖球，没有听到任何声音。这时候，东东决定试着主动说出自己的心里话：想和我一起玩吗？"
+    },
+    {
+      "title": "小黑鱼",
+      "author": "[美] 李欧·李奥尼",
+      "douban_url": "https://book.douban.com/subject/4237559/",
+      "goodreads_url": "",
+      "blurb": "一条小黑鱼想出好办法，\"想\"的力量让鱼群变成大鱼",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/4237559/"
+        }
+      ],
+      "rating": 9.0,
+      "isbn": "9787544245906",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s29714423.jpg",
+      "author_detail": "李欧·李奥尼 (Leo Lionni)",
+      "publisher": "南海出版公司",
+      "pub_year": "2010",
+      "desc": "《小黑鱼》内容简介：在大海的一个角落里住着一群小鱼，大家都是红色的，只有一条是黑色的。有一天，一只凶猛的金枪鱼吃掉了所有的小红鱼，只有小黑鱼逃走了。他孤身一人在海里游荡，遇到了很多稀奇古怪的生命，又高兴起来。小黑鱼又遇到的一群躲在礁石后的小红鱼，为了生存，不再躲避，他想了个好办法，教他们游成大鱼的样子，而自己来当眼睛！就这样，他们在清凉的早晨游，在明媚的中午游，把大鱼都吓跑了。"
+    },
+    {
+      "title": "我讨厌妈妈",
+      "author": "[日] 酒井驹子",
+      "douban_url": "https://book.douban.com/subject/2150240/",
+      "goodreads_url": "",
+      "blurb": "吐槽妈妈一万条还是舍不得走，娇憨可爱",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/2150240/"
+        }
+      ],
+      "rating": 8.8,
+      "isbn": "9787544237185",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s4224052.jpg",
+      "author_detail": "酒井驹子",
+      "publisher": "南海出版公司",
+      "pub_year": "2007",
+      "desc": "《我讨厌妈妈》表现亲子之爱的独特绘本，让每个孩子都看见自己的影子，让每个妈妈都露出会心的微笑！小兔子对妈妈满腹牢骚：没帮他洗袜子、乱发脾气、一直催他快点、不准他看动画片、礼拜天赖床不起让他饿肚子……最令小兔子不满的是，妈妈不愿和他结婚！小兔子气得想离家出走，但终究还是离不开妈妈的爱。"
+    },
+    {
+      "title": "蚯蚓的日记",
+      "author": "[美] 朵琳·克罗宁 文 / 哈利·布里斯 图",
+      "douban_url": "https://book.douban.com/subject/1546437/",
+      "goodreads_url": "",
+      "blurb": "蚯蚓小弟的爆笑日记，顺便爱上写日记",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/1546437/"
+        }
+      ],
+      "rating": 8.9,
+      "isbn": "9787532466382",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s24223142.jpg",
+      "author_detail": "文/朵琳·克罗宁",
+      "publisher": "少年儿童出版社",
+      "pub_year": "2005",
+      "desc": "这是一本极为有趣的图画书，以日记书写的方式，记录和表达了小蚯蚓的观察及思考。从小蚯蚓的观点看世界，纪录了学校、家庭和朋友之间的生活点滴，还有对自我、未来的想法，很能得到孩子认同。同时也在幽默诙谐的语调中，传达有关不同生物和地球的相关知识。帮助孩子培养乐观、正向的态度，及多元思考的习惯。"
+    },
+    {
+      "title": "亲爱的小鱼",
+      "author": "[法] 安德烈·德昂",
+      "douban_url": "https://book.douban.com/subject/2340082/",
+      "goodreads_url": "",
+      "blurb": "把小鱼养大再放它回海里，爱是成全",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/2340082/"
+        }
+      ],
+      "rating": 9.0,
+      "isbn": "9787543468047",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34013592.jpg",
+      "author_detail": "[法] 安德烈·德昂",
+      "publisher": "河北教育出版社",
+      "pub_year": "2007",
+      "desc": "《亲爱的小鱼》故事很简单，十四句话，写了一只猫爱着一条鱼，这条鱼也爱着那只猫的故事。小孩子在看这《亲爱的小鱼》的时候才不会费心考虑那么多的“实际情况”，孩子们一下子就进入了故事，在他们的小脑袋里，猫和老鼠就是可以做朋友，猫也完全可以爱上一条鱼。"
+    },
+    {
+      "title": "蹦!",
+      "author": "[日] 松冈达英",
+      "douban_url": "https://book.douban.com/subject/3299715/",
+      "goodreads_url": "",
+      "blurb": "青蛙蹦、兔子蹦、小猫蹦，1岁宝宝跟着一起蹦",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/3299715/"
+        }
+      ],
+      "rating": 9.0,
+      "isbn": "9787539143507",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s4834227.jpg",
+      "author_detail": "松冈达英",
+      "publisher": "二十一世纪出版社",
+      "pub_year": "2008",
+      "desc": "《蹦！》是卢湾早教指导服务中心的老师在第一次和宝宝沟通时常用的小法宝。老师们发现“Beng”是一个可以吸引宝宝的“奇特”语音。只要拿出这本书，用手指着画面。轻轻地、带点跳跃感地说‘Beng！”，总能让宝宝很快安静下来。原因其实很简单：开始学说话的宝宝，喜欢重复地听到自己常发的那类语音，而书从头到尾不断地重复“Beng”这个音，因为顺应了宝宝的这方面需要而带给宝宝很大的愉悦感。"
+    },
+    {
+      "title": "团圆",
+      "author": "余丽琼 文 / 朱成梁 图",
+      "douban_url": "https://book.douban.com/subject/3040952/",
+      "goodreads_url": "",
+      "blurb": "爸爸一年只回家一次，藏在汤圆里的好运硬币",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/3040952/"
+        }
+      ],
+      "rating": 8.9,
+      "isbn": "9787533255879",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s6631278.jpg",
+      "author_detail": "余丽琼/文",
+      "publisher": "明天出版社",
+      "pub_year": "2008",
+      "desc": "为离家很远的缘故，已经习惯了对家乡和父母的遥望，这些遥望常常是伴随着童年的回忆一下子涌到我面前的，这一涌就总是湿了视线。每到回忆的深处，我都恍惚觉得那些时光的温暖并没有走远。我看到了父母——他们年轻时的形象就那样充满生机地站在眼前，连同那些再熟悉不过的言语和喜怒。有些事情虽已陈年，但对我来说，它们永远是特别的。在这个平凡的世界上，它们让我因为父母和他们给予我的这份独特的财富，而安分快乐地做一个平凡的女儿。"
+    },
+    {
+      "title": "我爸爸",
+      "author": "[英] 安东尼·布朗",
+      "douban_url": "https://book.douban.com/subject/2117875/",
+      "goodreads_url": "",
+      "blurb": "\"我爸爸像房子一样高大\"，致敬父亲名作",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/2117875/"
+        }
+      ],
+      "rating": 8.8,
+      "isbn": "9787543464582",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s2449523.jpg",
+      "author_detail": "[英国]安东尼·布朗",
+      "publisher": "河北教育出版社",
+      "pub_year": "2007",
+      "desc": "讲述父子亲情的书籍多如牛毛，但是很少有像《我爸爸》这样的角度和方式，真正撼动心灵地描绘了孩子对于父亲的热爱和崇拜。"
+    },
+    {
+      "title": "我妈妈",
+      "author": "[英] 安东尼·布朗",
+      "douban_url": "https://book.douban.com/subject/2121010/",
+      "goodreads_url": "",
+      "blurb": "\"我妈妈是个魔术师\"，致敬母亲名作",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/2121010/"
+        }
+      ],
+      "rating": 8.8,
+      "isbn": "9787543464575",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s23660957.jpg",
+      "author_detail": "(英)安东尼·布朗",
+      "publisher": "河北教育出版社",
+      "pub_year": "2007",
+      "desc": "每一个孩子心中的妈妈都是好的：我妈妈是一个棒极了的厨师；她是一个伟大的化妆师；她是全世界最强壮的女人；她还是一个奇异的园艺师，可以让任何植物生长；她是一个仙女，在我沮丧的时候她总是有办法让我开心起来；她的歌可以唱得像天使一样好；她吼起来像一头狮子；我的妈妈像蝴蝶一样漂亮，又舒适的像一把扶手沙发……她常常逗我大笑。我爱我妈妈，而且你知道吗？妈妈也爱我，而且会永远爱我。"
+    },
+    {
+      "title": "棕色的熊、棕色的熊，你在看什么？",
+      "author": "[美] 比尔·马丁 文 / 艾瑞·卡尔 绘",
+      "douban_url": "https://book.douban.com/subject/4005745/",
+      "goodreads_url": "",
+      "blurb": "一问一答颜色动物循环，英语韵律启蒙第一书",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/4005745/"
+        }
+      ],
+      "rating": 8.8,
+      "isbn": "9787533258764",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s3958238.jpg",
+      "author_detail": "文：(美)比尔·马丁",
+      "publisher": "明天出版社",
+      "pub_year": "2009",
+      "desc": "“棕色的熊、棕色的熊，你在看什么？”“我看见一只红色的鸟在看我。”“红色的鸟、红色的鸟，你在看什么？”“我看见一只黄色的鸭子在看我。”……随着这样一问一答的句子、重复的韵律与节奏，一本充满各种动物与色彩的图画书在孩子面前慢慢展开。这是一本备受全世界小朋友喜爱的图画书，整本书都是用艾瑞·卡尔一贯具有创意性的贴画构成，色调鲜明、活泼。幼小的孩子可以从这本书中学习语法、欣赏预测的节奏性，并学会各种动物的命名，更可以认识颜色，增广视野。"
+    },
+    {
+      "title": "O先生",
+      "author": "[法] 刘易斯·特隆赫姆",
+      "douban_url": "https://book.douban.com/subject/1422017/",
+      "goodreads_url": "",
+      "blurb": "一个\"0\"的起伏人生，无字漫画哲学（大童向）",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/1422017/"
+        }
+      ],
+      "rating": 8.9,
+      "isbn": "9787806267752",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s1434948.jpg",
+      "author_detail": "[法]李维斯·唐德汉姆|Lewis Trondheim",
+      "publisher": "吉林文史出版社",
+      "pub_year": "2003",
+      "desc": "又爆笑又发人深省的漫画"
+    },
+    {
+      "title": "獾的礼物",
+      "author": "[英] 苏珊·华莱",
+      "douban_url": "https://book.douban.com/subject/1902982/",
+      "goodreads_url": "",
+      "blurb": "獾走了，留给朋友们的回忆是最好的礼物",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/1902982/"
+        }
+      ],
+      "rating": 8.9,
+      "isbn": "9787532469406",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s1881528.jpg",
+      "author_detail": "苏珊·华莱",
+      "publisher": "少年儿童出版社",
+      "pub_year": "2006",
+      "desc": "充满智慧的獾离开了他的身体，也离开了所有的动物朋友，虽然他在生前已常常告诉朋友他只是到了隧道的另一头，大家不要为他难过。但是，在寒冷的冬天里没有了獾，这对大家来说，实在是太难过了。直到春天的来临，所有的动物聚在一起怀念獾，说着獾以前与大家相处的种种，大家的悲伤才慢慢抚平，因为獾虽然永远离开了，但他所留下来的“礼物”却像是矿藏一样，永远都在帮助有需要的人。"
+    },
+    {
+      "title": "玛德琳",
+      "author": "[美] 路德维希·贝梅尔曼斯",
+      "douban_url": "https://book.douban.com/subject/3927859/",
+      "goodreads_url": "",
+      "blurb": "巴黎寄宿学校里最小的那一个，韵文名句传百年",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/3927859/"
+        }
+      ],
+      "rating": 9.0,
+      "isbn": "9787543473355",
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s3943431.jpg",
+      "author_detail": "[美] 路德维格·贝梅尔斯曼 著/绘",
+      "publisher": "河北教育出版社",
+      "pub_year": "2009",
+      "desc": "《玛德琳》一共是四十四幅图，其中八幅是彩色的，余下的三十六幅则是黄底黑白画面。彩色的除了一张病房的花之外，都是巴黎的街景以及戏剧性的场面，用电影语言来说就是远景，如第9页，孩子们穿过旺多姆广场时，遇到一个捂着帽子紧追珠宝盗贼的警察。第24页救护车驶过有埃菲尔铁塔耸立的街道。而黄色背景的黑白画面，多半是房子里面发生的事，如孩子们刷牙、睡觉。"
+    },
+    {
+      "title": "和甘伯伯去游河",
+      "author": "[英] 约翰·伯宁罕",
+      "douban_url": "https://book.douban.com/subject/3224618/",
+      "goodreads_url": "",
+      "blurb": "大家挤上船最后翻了水，甘伯伯说\"下次再来\"",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/3224618/"
+        }
+      ],
+      "rating": 8.8,
+      "isbn": "9787543468849",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34015192.jpg",
+      "author_detail": "（英）约翰·伯宁罕",
+      "publisher": "河北教育出版社",
+      "pub_year": "2008",
+      "desc": "1970年英国凯特·格林纳威奖大奖。1972美国《波士顿环球报》、《号角书》杂志奖图画书大奖，美国图书馆学会年度好书推荐，《纽约时报》最佳插画童书奖，入选纽约公共图书馆“每个人都应该知道的100种图画书”，入选日本全国学校图书馆协议会第22次“好绘本”，入选日本儿童文学者协会编《世界图画书100选》。"
+    },
+    {
+      "title": "抱抱",
+      "author": "[英] 杰兹·阿波罗",
+      "douban_url": "https://book.douban.com/subject/3712514/",
+      "goodreads_url": "",
+      "blurb": "小猩猩一路找\"抱抱\"，全书几乎只有三个字",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/3712514/"
+        }
+      ],
+      "rating": 8.8,
+      "isbn": "9787533258795",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s6022638.jpg",
+      "author_detail": "(英)杰兹·阿波罗",
+      "publisher": "明天出版社",
+      "pub_year": "2009",
+      "desc": "《抱抱》是一本几近无字的图画书。小猩猩Bobo一路上看到相亲相爱的各种动物，大家热切地抱在一起，表达对彼此无尽浓烈的爱。只有小猩猩，一路上与妈妈走失了，妈妈在哪里，好希望有人抱抱他哦！好心的大象妈妈背起了他四处寻找妈妈，找着找着，树上传来了小黑猩猩熟悉的“宝宝”声，是妈妈的叫声！小黑猩猩大叫着“妈妈”，向妈妈扑去，黑猩猩母子闭着的双眼和幸福的神情温柔着每一颗心。"
+    },
+    {
+      "title": "当世界年纪还小的时候",
+      "author": "[德] 于尔克·舒比格 文 / 罗特劳特·苏珊娜·贝尔纳 图",
+      "douban_url": "https://book.douban.com/subject/1907739/",
+      "goodreads_url": "",
+      "blurb": "世界刚被造出来时的傻问题，睡前朗读哲学童话",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/1907739/"
+        }
+      ],
+      "rating": 8.7,
+      "isbn": "9787536539433",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s1886517.jpg",
+      "author_detail": "[德] 于尔克·舒比格 著",
+      "publisher": "四川少年儿童出版社",
+      "pub_year": "2006",
+      "desc": "天堂是这样一个世界——也就是当她还小的时候的那个世界。随着时间的流逝，一切都改变了。"
+    },
+    {
+      "title": "是谁嗯嗯在我的头上",
+      "author": "[德] 维尔纳·霍尔茨瓦特 文 / 沃尔夫·埃布鲁赫 图",
+      "douban_url": "https://book.douban.com/subject/2120339/",
+      "goodreads_url": "",
+      "blurb": "鼹鼠顶着\"嗯嗯\"挨个问，爆笑中认识动物便便",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/2120339/"
+        }
+      ],
+      "rating": 8.7,
+      "isbn": "9787543464629",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s3922706.jpg",
+      "author_detail": "[德] 维尔纳·霍尔茨瓦特",
+      "publisher": "河北教育出版社",
+      "pub_year": "2008",
+      "desc": "“嗯嗯”到底有什么学问呢？故事透过一只倒霉的小鼹鼠，寻找到底是哪个坏蛋“嗯嗯”在他头上的过程，轻松愉快地让我们了解：原来每一种动物的排泄物形状都不同，什么样的动物就“大”什么样的“便”，我们也从《是谁嗯嗯在我的头上》中得到更深一层的认识。 而最后小鼹鼠到底能不能找到那个“嗯嗯”在他头上的坏蛋呢？专吃大便的苍蝇可是破案的关键喔！这是一本兼具趣味性和知识性的好书，在书末还附上一篇“动物的吃喝拉撒”的文章，说明了动物的食物、消化与排泄的关系，让小朋友在哈哈大笑之余，也得到生物学相关的常识。"
+    },
+    {
+      "title": "让路给小鸭子",
+      "author": "[美] 罗伯特·麦克洛斯基",
+      "douban_url": "https://book.douban.com/subject/4134396/",
+      "goodreads_url": "",
+      "blurb": "警察为鸭子一家拦下车流，1942年凯迪克金奖",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/4134396/"
+        }
+      ],
+      "rating": 8.8,
+      "isbn": "9787543473577",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s4056126.jpg",
+      "author_detail": "(美)罗伯特·麦克洛斯基 文/图",
+      "publisher": "河北教育出版社",
+      "pub_year": "2009",
+      "desc": "一对鸭子夫妇，为了要寻找一个合适的居住环境，不畏辛苦四处寻觅。为了到达理想的居住地，他们必须带着自己的一大堆孩子穿越交通繁忙的城市，因而引发了城中警察、居民对它们的协助，整个过程透露出人类与动物和谐共生的旨意，传达对生命的尊重。"
+    },
+    {
+      "title": "牙齿大街的新鲜事",
+      "author": "[德] 安娜·鲁斯曼",
+      "douban_url": "https://book.douban.com/subject/6127333/",
+      "goodreads_url": "",
+      "blurb": "牙菌哈克和迪克想在牙齿里开公司，刷牙保卫战",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/6127333/"
+        }
+      ],
+      "rating": 8.8,
+      "isbn": "9787530451359",
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s6790181.jpg",
+      "author_detail": "(德)鲁斯曼·安娜 著/绘",
+      "publisher": "北京科学技术出版社",
+      "pub_year": "2011",
+      "desc": "《牙齿大街的新鲜事》内容简介：哈克和迪克这两个小东西看起来古灵精怪，其实是两个野心勃勃的危险分子——他们在牙齿上挖洞建房，不仅要修建自己的舒适小窝，还梦想着修建可以出租的豪华公寓……"
+    },
+    {
+      "title": "大卫，不可以",
+      "author": "[美] 大卫·香农",
+      "douban_url": "https://book.douban.com/subject/2117871/",
+      "goodreads_url": "",
+      "blurb": "淘气包大卫名场面，最后一句\"我爱你\"收尾",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/2117871/"
+        }
+      ],
+      "rating": 8.7,
+      "isbn": "9787543464636",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s5850464.jpg",
+      "author_detail": "[美]大卫·香农",
+      "publisher": "河北教育出版社",
+      "pub_year": "2007",
+      "desc": "本书荣获荣获1998年凯迪克银奖；1999年美国图书馆学会年度好书推荐；1998年《纽约时报》年度最佳图画书；入选纽约公共图书馆“每个人都应该知道的一百种图画书”（修订）；2001年第七届日本绘本奖读者奖。"
+    },
+    {
+      "title": "小石狮",
+      "author": "熊亮",
+      "douban_url": "https://book.douban.com/subject/2975451/",
+      "goodreads_url": "",
+      "blurb": "小镇桥头的小石狮守了一辈子，熊亮中国风开山作",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/2975451/"
+        }
+      ],
+      "rating": 8.8,
+      "isbn": "9787533254636",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s3076449.jpg",
+      "author_detail": "熊亮|绘画",
+      "publisher": "明天出版社",
+      "pub_year": "2007",
+      "desc": "《绘本中国:小石狮》虽然不是以毛笔绘制的水墨画，也不留“白”，但画中苍茫的感觉以及空间布局安排近似图画风格，故事极为简单且留下回味的余韵，又抓住了西方图画书的明快精神。故事是小镇里一座雕刻小石狮子的自述，一开始以三幅图逐渐拉近镜头特写小石狮子的脸部细节。作者诱导读者以为主角既是狮又是守护神，其体型可能非常硕大的错觉，及至下一页才倏然突现它其实只有一个扶手大，比猫还小，为平静的故事造个起伏。小石狮不是在香火鼎盛的庙堂里，它就如同我们生活环境中的一个锦标，也好比是一棵老树、一座建筑物。它长时间矗立在那儿，贯穿岁月看四季流逝，见过眼前人来人往和所有发生的事。小石狮知道人们也许记得它，也许忘记，但它有"
+    },
+    {
+      "title": "要是你给老鼠吃饼干",
+      "author": "[美] 劳拉·乔菲·努梅罗夫 文 / 费利西亚·邦德 图",
+      "douban_url": "https://book.douban.com/subject/1444555/",
+      "goodreads_url": "",
+      "blurb": "给了饼干就要给吸管，因果连环圈住你",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/1444555/"
+        }
+      ],
+      "rating": 8.8,
+      "isbn": "9787532466399",
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s1670061.jpg",
+      "author_detail": "费利西亚·邦德图劳拉·乔菲·努梅罗夫",
+      "publisher": "少年儿童出版社",
+      "pub_year": "2005",
+      "desc": "要是你给老鼠吃饼干，ISBN：9787532466399，作者：（美）努梅罗夫（Numeroff,L.J.） 文，（美）邦德（Bond,F.） 绘，任溶溶 译"
+    },
+    {
+      "title": "勇气",
+      "author": "[美] 伯纳德·韦伯",
+      "douban_url": "https://book.douban.com/subject/2046566/",
+      "goodreads_url": "",
+      "blurb": "勇气是第一次骑车、是主动尝新菜，大小勇气都有名有姓",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/2046566/"
+        }
+      ],
+      "rating": 8.7,
+      "isbn": "9787544236492",
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s2364291.jpg",
+      "author_detail": "(美)伯纳德·韦伯 著",
+      "publisher": "南海出版公司",
+      "pub_year": "2007",
+      "desc": "全书就像一首散文诗，语言优美、琅琅上口，画面鲜活、风趣幽默，非常适合大声朗读和课堂讲述，作者采撷生活中小小的片断，用优美的语言和活泼的画面，教孩子用源源勇气面对未知的下一刻：勇气是骑自行车不装辅助轮，是留下一根棒棒糖明天享用，是向陌生人问好，是勇尝不喜欢的蔬菜……"
+    },
+    {
+      "title": "迟到大王",
+      "author": "[英] 约翰·伯宁罕",
+      "douban_url": "https://book.douban.com/subject/4743834/",
+      "goodreads_url": "",
+      "blurb": "约翰的迟到理由全是真的，可惜老师不信",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/4743834/"
+        }
+      ],
+      "rating": 8.9,
+      "isbn": "9787533260910",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s4344393.jpg",
+      "author_detail": "(英)约翰·柏林罕 文/图",
+      "publisher": "明天出版社",
+      "pub_year": "2010",
+      "desc": "约翰派克罗门麦肯席每天都迟到，因为他在上学的路上总是遇到奇怪的事情：遇到鳄鱼咬他的书包，狮子咬破他的裤子，小河里的巨浪将他冲走……老师却认为他在说谎，气得暴跳如雷！罚他写几百遍的“我不可以说有xxx的谎，也不可以xxx”。直到有一天，老师自己也遭遇到不可思议的事……"
+    },
+    {
+      "title": "月亮的味道",
+      "author": "[瑞士] 麦克·格雷涅茨",
+      "douban_url": "https://book.douban.com/subject/1959287/",
+      "goodreads_url": "",
+      "blurb": "动物叠罗汉咬下一口月亮，剪贴质感的爆笑结局",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/1959287/"
+        }
+      ],
+      "rating": 8.7,
+      "isbn": "9787539135892",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s1988287.jpg",
+      "author_detail": "麦克·格雷涅茨",
+      "publisher": "二十一世纪出版社",
+      "pub_year": "2007",
+      "desc": "夜的故事总是充满魅力的，以夜色做背景，凹凸不平的画布、浮雕式的涂层，让人忍不住想上去触摸一把。厚重的色调，给人以心理上的依托。"
+    },
+    {
+      "title": "约瑟夫有件旧外套",
+      "author": "[美] 西姆斯·塔贝克",
+      "douban_url": "https://book.douban.com/subject/3042252/",
+      "goodreads_url": "",
+      "blurb": "旧外套一路改成夹克领带纽扣，\"没有可以变成有\"",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/3042252/"
+        }
+      ],
+      "rating": 8.8,
+      "isbn": "9787543468924",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34015182.jpg",
+      "author_detail": "[美] 西姆斯·塔贝克",
+      "publisher": "河北教育出版社",
+      "pub_year": "2008",
+      "desc": "旧外套可以化腐朽为神奇变成精彩可爱的小东西。这本书取材于西姆斯·塔贝克（Simms Taback）年轻时的一首犹太歌曲:约瑟夫在他的外套破旧后，用这旧外套做成了一件夹克。当这件旧夹克缝缝补补多次时，他又把它改成了背心。背心不能再穿后，他又把它做成了一条领带。直到这件外套再也没有可改的余地。但是聪明的约瑟夫总是有办法！"
+    },
+    {
+      "title": "当世界还不存在的时候",
+      "author": "[德] 弗朗茨·霍勒 文 / 尤塔·鲍尔 图",
+      "douban_url": "https://book.douban.com/subject/5299807/",
+      "goodreads_url": "",
+      "blurb": "开天辟地前谁在干活？舒比格风格的起源故事集",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/5299807/"
+        }
+      ],
+      "rating": 8.7,
+      "isbn": "9787536550988",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s27224956.jpg",
+      "author_detail": "[德] 弗朗茨·霍勒 著",
+      "publisher": "四川少年儿童出版社",
+      "pub_year": "2010",
+      "desc": "《当世界还不存在的时候》内容简介：世界到底是怎么开始的？两位作家想象并讲述出34个有关造物的稀奇古怪的故事，由于尔克•舒比格开头，弗朗茨•霍勒收尾，中间你一篇我一篇，轮流登场。"
+    },
+    {
+      "title": "爱花的牛",
+      "author": "[美] 曼罗·里夫 文 / 罗伯特·劳森 图",
+      "douban_url": "https://book.douban.com/subject/3121040/",
+      "goodreads_url": "",
+      "blurb": "公牛费迪南不斗牛只爱闻花，反战经典八十年",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/3121040/"
+        }
+      ],
+      "rating": 8.7,
+      "isbn": "9787539141428",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34013492.jpg",
+      "author_detail": "罗伯特·劳森",
+      "publisher": "二十一世纪出版社",
+      "pub_year": "2008",
+      "desc": "从前，在西班牙，有一头公牛名叫费迪南。其它的公牛都喜欢跑跑跳跳、互相抵角，只有费迪南不喜欢。他常常坐在牧场外那棵最爱的树下，静静地闻着花香。一天，五个陌生的男人来到牧场，挑选参加斗牛大赛的公牛，费迪南意外地被他们看中，带去了马德里。斗牛大赛开始了！观众们翘首以盼“凶猛之牛”费迪南的登场。可是他上场以后，却出人意料地坐下了，因为他看见了某种他熟悉而喜爱的东西……"
+    },
+    {
+      "title": "我喜欢你",
+      "author": "[美] 桑德尔·斯托达德·沃伯格",
+      "douban_url": "https://book.douban.com/subject/1145428/",
+      "goodreads_url": "",
+      "blurb": "喜欢就是喜欢，一本把友谊说清楚的小书",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/1145428/"
+        }
+      ],
+      "rating": 8.7,
+      "isbn": "9787544226462",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s1229173.jpg",
+      "author_detail": "桑德尔・斯托达德・沃伯格",
+      "pub_year": "2004",
+      "desc": "这本书仅仅是简单的图画与文字的组合，说的也是简洁的言语和再浅显不过的道理，却能深刻地阐述出人与人之间的情感，深深地吸引我们去读它。"
+    },
+    {
+      "title": "月亮，生日快乐",
+      "author": "[美] 法兰克·艾许",
+      "douban_url": "https://book.douban.com/subject/1779099/",
+      "goodreads_url": "",
+      "blurb": "小熊对月亮喊话，回声成了最美的礼物",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/1779099/"
+        }
+      ],
+      "rating": 8.6,
+      "isbn": "9787532467365",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s1657546.jpg",
+      "author_detail": "法兰克·艾许",
+      "publisher": "少年儿童出版社",
+      "pub_year": "2006",
+      "desc": "《月亮,生日快乐》：小熊喜欢月亮，他想送给月亮一份生日礼物。但是，小熊不知道月亮生日是哪一天？也不知道该送什么才好？于是他来到山顶和月亮交谈，决定送月亮一顶帽子……幼儿阶段，孩子总认为万物都是有生命的，会与他们自然对话；同时，渴望友谊、学习建立友谊，也是孩子成长中的必经历程，乐观积极的小熊真诚无邪的交友，让每个人感到温暖而会心！"
+    },
+    {
+      "title": "石头汤",
+      "author": "[美] 琼·穆特",
+      "douban_url": "https://book.douban.com/subject/2135382/",
+      "goodreads_url": "",
+      "blurb": "三个和尚用一块石头熬汤，分享让村子重新热闹",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/2135382/"
+        }
+      ],
+      "rating": 8.5,
+      "isbn": "9787544237475",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s2561352.jpg",
+      "author_detail": "(美)琼·穆特 文/图",
+      "publisher": "南海出版公司",
+      "pub_year": "2007",
+      "desc": "三个和尚，阿福、阿禄和阿寿，行游在一条山路上，他们想要弄明白什么使人幸福。当和尚们出现时，惊恐的村民们立刻关紧了门窗，熄灭了灯火。这些村民长年在艰难岁月中煎熬，心肠变得坚硬，不愿接纳任何人。可是，和尚们巧妙地诱使他们用石头来煮汤，村民们发现他们不自觉地付出了很多，而获得的回报则更多。"
+    },
+    {
+      "title": "母鸡萝丝去散步",
+      "author": "[英] 佩特·哈群斯",
+      "douban_url": "https://book.douban.com/subject/1578732/",
+      "goodreads_url": "",
+      "blurb": "文字只有一句，画里的狐狸摔了一路",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/1578732/"
+        }
+      ],
+      "rating": 8.5,
+      "isbn": "9787532467396",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s1670039.jpg",
+      "author_detail": "佩特·哈群斯",
+      "publisher": "少年儿童出版社",
+      "pub_year": "2006",
+      "desc": "【内容简介】"
+    },
+    {
+      "title": "独生小孩",
+      "author": "郭婧",
+      "douban_url": "https://book.douban.com/subject/26832470/",
+      "goodreads_url": "",
+      "blurb": "无字铅笔画的白日梦，独生子女的孤独与冒险",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/26832470/"
+        }
+      ],
+      "rating": 8.4,
+      "isbn": "9787508662688",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s34008054.jpg",
+      "author_detail": "郭婧 著/绘",
+      "publisher": "中信出版社",
+      "pub_year": "2016",
+      "desc": "《独生小孩》是2015年《纽约时报》年度最佳儿童绘本。一本以无字绘本形式展现温馨而动人的故事。与陈志勇的《抵岸》和雷蒙德•布里格斯的《雪人》一样，精妙绝伦，富于想象力，新颖独到，让人爱不释手。"
+    },
+    {
+      "title": "风到哪里去了",
+      "author": "[美] 夏洛特·左罗托夫 文 / 斯蒂芬诺·维塔 图",
+      "douban_url": "https://book.douban.com/subject/1850977/",
+      "goodreads_url": "",
+      "blurb": "妈妈把风、云、雨的去向都说成循环，诗意自然课",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/1850977/"
+        }
+      ],
+      "rating": 8.6,
+      "isbn": "9787532469383",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s1743159.jpg",
+      "author_detail": "文/夏洛特·左罗托夫",
+      "publisher": "少年儿童出版社",
+      "pub_year": "2006",
+      "desc": "一个小男孩在快乐的白天结束时，问：“风停了以后，它到哪里去了呢？”他妈妈向他解释风没有停，只是吹到别的地方去了，让那里的树跳舞。"
+    },
+    {
+      "title": "一片叶子落下来",
+      "author": "[美] 利奥·巴斯卡利亚",
+      "douban_url": "https://book.douban.com/subject/1975886/",
+      "goodreads_url": "",
+      "blurb": "丹尼尔叶子的一生，平静讲述生与死",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/1975886/"
+        }
+      ],
+      "rating": 8.6,
+      "isbn": "9787544233637",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s2131628.jpg",
+      "author_detail": "(美)利奥·巴斯卡利亚",
+      "publisher": "南海出版公司",
+      "pub_year": "2006",
+      "desc": "我从哪里来？我会去哪里？为什么要活着？死是怎么回事？一片叶子回答孩子所有关于生命的疑问。"
+    },
+    {
+      "title": "我不知道我是谁",
+      "author": "[英] 乔恩·布莱克 文 / 阿克塞尔·舍夫勒 图",
+      "douban_url": "https://book.douban.com/subject/2157589/",
+      "goodreads_url": "",
+      "blurb": "达利B不知道自己是兔子，爆笑自我认知",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/2157589/"
+        }
+      ],
+      "rating": 8.6,
+      "isbn": "9787544237703",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s2615324.jpg",
+      "author_detail": "[英] 乔恩·布莱克",
+      "publisher": "南海出版公司",
+      "pub_year": "2007",
+      "desc": "内容简介:"
+    },
+    {
+      "title": "孤单的小狗",
+      "author": "[日] 奈良美智",
+      "douban_url": "https://book.douban.com/subject/35886207/",
+      "goodreads_url": "",
+      "blurb": "奈良美智首部绘本，孤独的狗与同样孤独的女孩",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/35886207/"
+        }
+      ],
+      "rating": 8.5,
+      "isbn": "9787513349246",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34246520.jpg",
+      "author_detail": "[日] 奈良美智",
+      "publisher": "新星出版社",
+      "pub_year": "2022",
+      "desc": "小狗总是感到孤单寂寞，因为它太大了！大到反而没有人发现他的存在。"
+    },
+    {
+      "title": "奥莉薇",
+      "author": "[美] 伊恩·福尔克纳",
+      "douban_url": "https://book.douban.com/subject/2120228/",
+      "goodreads_url": "",
+      "blurb": "会把全家累瘫的小猪女孩，个性解放宣言",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/2120228/"
+        }
+      ],
+      "rating": 8.6,
+      "isbn": "9787543464551",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s29274023.jpg",
+      "author_detail": "(美)伊恩·福尔克纳 文/图",
+      "publisher": "河北教育出版社",
+      "pub_year": "2007",
+      "desc": "《奥莉薇》内容简介：小猪奥莉薇擅长很多事情，最拿手的一件事就是把人累昏，甚至常常把自己累昏！她会涂妈妈的口红、穿上妈妈的高跟鞋照镜子，还会吓弟弟。要是出门，她会把所有的衣服都拿出来穿一遍……画家不可思议地将所有人的关注聚焦于小奥莉薇身上，我们完全不必操心故事发生在何时、何地，而这也使得孩子更自然地联想到自身。"
+    },
+    {
+      "title": "安的种子",
+      "author": "王早早 文 / 黄丽 图",
+      "douban_url": "https://book.douban.com/subject/3423958/",
+      "goodreads_url": "",
+      "blurb": "三个小和尚种莲花，等得住的那个先开花",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/3423958/"
+        }
+      ],
+      "rating": 8.6,
+      "isbn": "9787535039200",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s6632600.jpg",
+      "author_detail": "王早早",
+      "publisher": "海燕出版社",
+      "pub_year": "2008",
+      "desc": "有幸看到这本书的大人——无论你是不是准备将它读给孩子听——也许都应该先找一个安静的角落，轻轻地念给自己听，然后想一想、再想一想，我们有没有得到过“千年莲花的种子”？有，当然有。我们日夜都在马不停蹄地追逐一些“珍贵”的东西呢，仿佛所有的人都希望以最快的速度达到各种各样的目的。这时候，大自然的规律往往被撇在一边，我们甚至不会思考冬天是不是可以种花，只一味想着“我要第一个种出来”、“怎样才能种出来呢”。生活的主题仿佛只是追逐，我们不知道有多久没有去散步了。"
+    },
+    {
+      "title": "大脚丫跳芭蕾",
+      "author": "[美] 埃米·扬",
+      "douban_url": "https://book.douban.com/subject/2117876/",
+      "goodreads_url": "",
+      "blurb": "大脚丫被评委嘲笑仍坚持跳舞，梦想不设限",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/2117876/"
+        }
+      ],
+      "rating": 8.5,
+      "isbn": "9787543464544",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s2449568.jpg",
+      "author_detail": "[美]埃米·扬",
+      "publisher": "河北教育出版社",
+      "pub_year": "2007",
+      "desc": "《大脚丫跳芭蕾》讲述的是一个叫贝琳达的女孩很喜欢跳芭蕾，而选拔会的评委嫌她的脚太大而拒绝看她的表演。她只好放弃跳舞，找了一份餐厅的工作，她也很喜欢餐厅的老板和客人，可是，她还是常常怀念跳舞。有一天，餐厅里来了一个乐团，在他们美妙的音乐里，贝琳达不知不觉中跳起舞来了。在老板的邀请下，贝琳达开始为餐厅的客人跳舞，她跳得美极了，餐厅的客人越来越多，连大都会芭蕾舞团的指挥都来看她跳舞了，并被她感动了。贝琳达终于又回到了舞台，开始为更多的人跳舞。贝琳达很快乐，因为她可以一直跳舞，跳舞。至于那些评审们会说些什么，她一点也不在乎了……"
+    },
+    {
+      "title": "菲菲生气了",
+      "author": "[美] 莫莉·卞",
+      "douban_url": "https://book.douban.com/subject/3621919/",
+      "goodreads_url": "",
+      "blurb": "火山爆发般的红，跑到大树底下慢慢平静",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/3621919/"
+        }
+      ],
+      "rating": 8.5,
+      "isbn": "9787543470781",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s3682266.jpg",
+      "author_detail": "(美)莫莉·卞 文/图",
+      "publisher": "河北教育出版社",
+      "pub_year": "2009",
+      "desc": "“小时候，每当我气极了的时候，就会觉得自己像是世界的中心点，是座一触即发的火山。那种想要爆发、即将爆发、又怕爆发的状态，是一种很可怕的感觉！”作者莫莉·卞在回忆自己童年经验时这么说。基于这样的回忆，她创作出《菲菲生气了——非常、非常的生气》，直指每个孩子在成长过程中最难学习的一课：如何控制及处理情绪。"
+    },
+    {
+      "title": "三只小猪的真实故事",
+      "author": "[美] 约翰·席斯卡 文 / 兰·史密斯 图",
+      "douban_url": "https://book.douban.com/subject/2120234/",
+      "goodreads_url": "",
+      "blurb": "大灰狼要洗清冤屈？换个视角讲故事",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/2120234/"
+        }
+      ],
+      "rating": 8.4,
+      "isbn": "9787543464612",
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s34012441.jpg",
+      "author_detail": "（美）谢斯卡 文",
+      "publisher": "河北教育出版社",
+      "pub_year": "2007",
+      "desc": "《三只小猪的真实故事》是一个“狼版”的三只小猪的故事，与我们听惯了的“三只小猪”的故事完全不同。那只残暴的可怕的狼不见了，出现在我们面前的是一只戴着眼镜、彬彬有礼的狼，臭名昭著的狼要洗去自己身上的罪名，他说他被冤枉了，是一个无辜的受害者……作者在故事里加入了记者这样一个现代媒体的角色，告诉我们有时事实的真相是可能被歪曲的。"
+    },
+    {
+      "title": "三个强盗",
+      "author": "[法] 汤米·温格尔",
+      "douban_url": "https://book.douban.com/subject/1871364/",
+      "goodreads_url": "",
+      "blurb": "抢遍天下的强盗养了一车孤儿，反转温柔",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/1871364/"
+        }
+      ],
+      "rating": 8.4,
+      "isbn": "9787532468201",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s1805908.jpg",
+      "author_detail": "汤米·温格尔",
+      "publisher": "少年儿童出版社",
+      "pub_year": "2006",
+      "desc": "故事描述三个装扮和武器都很奇特的强盗，在山洞里存放了一箱箱抢来的金银财宝，但他们从没想过要用他们的财宝……。直到有一个夜晚，他们拦下的马车里竟然只有一个孤儿，他们就将小女孩带回山洞；之后，强盗被纯真的小女孩感动了，决定将以前抢来的财宝，拿来盖一座城堡样的福利院，把所有走丢的小孩，不快乐的小孩和没人要的小孩，统统找了来，让孩子都有地方住。孩子们长大了，心存感激，便建了三座强盗帽子形状的塔，来纪念三个强盗。故事文字和内容都很简洁，但却以图画成功的营造气氛，以强烈的颜色来表现神秘、恐怖、冷漠或正义与热情等，让孩子体会一个有点儿吓人，又没有严肃教条的幽默故事。"
+    },
+    {
+      "title": "第五个",
+      "author": "[奥] 恩斯特·杨德尔 文 / [德] 诺尔曼·荣格 图",
+      "douban_url": "https://book.douban.com/subject/2042511/",
+      "goodreads_url": "",
+      "blurb": "五个残缺的玩具排队进诊室，门后是什么？",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/2042511/"
+        }
+      ],
+      "rating": 8.5,
+      "isbn": "9787544236485",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s8974072.jpg",
+      "author_detail": "[奥]恩斯特·杨德尔(Ernst Jandl)/文",
+      "publisher": "南海出版公司",
+      "pub_year": "2007",
+      "desc": "内容简介："
+    },
+    {
+      "title": "驴小弟变石头",
+      "author": "[美] 威廉·史塔克",
+      "douban_url": "https://book.douban.com/subject/1464619/",
+      "goodreads_url": "",
+      "blurb": "变成石头的小驴最想要的只是回家，1970年凯迪克金奖",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/1464619/"
+        }
+      ],
+      "rating": 8.5,
+      "isbn": "9787532467211",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s1482589.jpg",
+      "author_detail": "威廉·史塔克",
+      "publisher": "少年儿童出版社",
+      "pub_year": "2005",
+      "desc": "一个雨天，驴小弟捡到一块可以实现他的愿望的魔石。但是在回家的路上，驴小弟被突然遇到的狮子吓着了，他下意识的想法却带来了意想不到的结果。他变成了石头。 那么驴小弟后来是如何和他的爸爸妈妈重逢，又是如何变回自己的，这其中充满美丽温馨，还有神奇。图文生动有趣，这是一本深受各地孩子喜爱的现代经典。"
+    },
+    {
+      "title": "彩虹色的花",
+      "author": "[波兰] 麦克·格雷涅茨 图 / 细野绫子 文",
+      "douban_url": "https://book.douban.com/subject/1436584/",
+      "goodreads_url": "",
+      "blurb": "把花瓣分给过路小动物，来年春天又开",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/1436584/"
+        }
+      ],
+      "rating": 8.5,
+      "isbn": "9787539130460",
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s33448911.jpg",
+      "author_detail": "麦克・格雷涅茨 原作/图",
+      "publisher": "二十一世纪出版社",
+      "pub_year": "2005",
+      "desc": "早春的一天，雪还没有化掉，在原野上突然开了一朵彩虹色的花。终于能见到太阳了，她十分高兴，由衷地愿意跟每个人分享自己的快乐。 每次路过她身旁的都是一些善良可爱的小家伙，彩虹色的花总是很热情地帮助它们，很慷慨地把她的花瓣一片一片地给了蚂蚁、蜥蝎、老鼠、小鸟、刺猬……小家伙们每次都心满意足地走了，彩虹色的花也分享着它们的快乐。"
+    },
+    {
+      "title": "瞬间收藏家",
+      "author": "[德] 布赫兹",
+      "douban_url": "https://book.douban.com/subject/1022582/",
+      "goodreads_url": "",
+      "blurb": "神秘画师收藏的不是画是瞬间，哲思绘本（亲子共读偏大童）",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/1022582/"
+        }
+      ],
+      "rating": 8.5,
+      "isbn": "9787208052666",
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s2059831.jpg",
+      "author_detail": "（德）布赫兹",
+      "publisher": "上海人民出版社",
+      "pub_year": "2004",
+      "desc": "马克斯是一个画家，但他不是一个普通的画家，他说自己是“瞬间收藏家”，专门收集每一瞬间的景象。某一天，他搬到一个岛上专心画画，认识了住在楼下的小男孩，小男孩对克斯的一切都感到好奇，但马克斯从未男孩看他的画。直到有一天，马克斯外出旅行，把钥匙交给男孩……当男孩转动钥匙，把画室的门打开，他看见了一个只为他办的画展。画看得越久，男孩越沉迷其中，这个画中的世界，在他的面前逐渐变得栩栩如生。每幅画都像是一趟旅行，让他从不同的地点出发，看到不同的景色，每幅画中都有一个小事，只有他能够看到和听到。布赫兹用自己当主角，邀请我们进入他宁静美好的图画中，在每个瞬间停留，分享他的心灵世界。他并不解释他的画，一切都留待"
+    },
+    {
+      "title": "小小的王国",
+      "author": "[以色列] 埃特加·凯雷特 文 / 塔米·巴扎雷利 图",
+      "douban_url": "https://book.douban.com/subject/34972174/",
+      "goodreads_url": "",
+      "blurb": "只有一个人和一把伞的王国，孤独与陪伴的童话",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣热门儿童绘本 Top 100",
+          "url": "https://book.douban.com/subject/34972174/"
+        }
+      ],
+      "rating": 8.4,
+      "isbn": "9787535690609",
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s33615861.jpg",
+      "author_detail": "[以色列] 埃特加·凯雷特",
+      "publisher": "湖南美术出版社",
+      "pub_year": "2020",
+      "desc": "有人说，它是世界上最小的国家。"
+    },
+    {
+      "title": "一园青菜成了精",
+      "author": "周翔 绘",
+      "douban_url": "https://book.douban.com/subject/3186403/",
+      "goodreads_url": "",
+      "blurb": "北方童谣改编，蔬菜拟人水墨大战，节奏爆笑",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "丰子恺儿童图画书奖（第一届）",
+          "url": "https://book.douban.com/subject/3186403/"
+        }
+      ],
+      "rating": 8.2,
+      "isbn": "9787533257545",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s6568875.jpg",
+      "author_detail": "周翔 图",
+      "publisher": "明天出版社",
+      "pub_year": "2008",
+      "desc": "《一园青菜成了精》巧妙地蕴藏了青菜们的特性，这是一种充满智慧的幽默。小葱青秆绿叶儿长得直，正像一根银杆枪；韭莱的叶片狭长而扁平，如同两刃锋。大蒜成熟后的裂瓣，辣椒的浑身红通通，茄子的紫涨圆滚，都成了战斗的结果，让人读出意料之外却又不得不信服的荒诞。写到莲藕时，不是说它天性生长于湿泥里，而是成了逃跑不及的败军之将，糊里糊涂，慌不择路地钻进了烂泥坑——孩子们怎能不笑出声儿来呢。"
+    },
+    {
+      "title": "我变成一只喷火龙了",
+      "author": "赖马",
+      "douban_url": "https://book.douban.com/subject/5919042/",
+      "goodreads_url": "",
+      "blurb": "被蚊子咬出喷火症的波泰，情绪管理+密集笑点",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "丰子恺儿童图画书奖（第一届）",
+          "url": "https://book.douban.com/subject/5919042/"
+        }
+      ],
+      "rating": 9.1,
+      "isbn": "9787537636179",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s6801092.jpg",
+      "author_detail": "赖马",
+      "publisher": "河北少年儿童出版社",
+      "pub_year": "2011",
+      "desc": "波泰是一只会传染喷火病的蚊子。他喜欢吸坏脾气人的血。有一天，爱生气的阿古力被波泰叮了一口，竟开始不停的喷火……对一只怪兽来说，不停的喷火有多不方便啊！阿古力要怎样才能灭火呢？"
+    },
+    {
+      "title": "荷花镇的早市",
+      "author": "周翔",
+      "douban_url": "https://book.douban.com/subject/1854228/",
+      "goodreads_url": "",
+      "blurb": "江南早市全景卷轴，市井生活美学",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "丰子恺儿童图画书奖（第一届）",
+          "url": "https://book.douban.com/subject/1854228/"
+        }
+      ],
+      "rating": 8.1,
+      "isbn": "9787539134055",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34015239.jpg",
+      "author_detail": "周翔",
+      "publisher": "二十一世纪出版社",
+      "pub_year": "2006",
+      "desc": "今天是奶奶70大寿，小男孩阳阳和姑姑一起到早市买东西。这个生活在大都市的小男孩对江南水乡独特的风情兴奋不已。作品从阳阳第一次回到水乡给奶奶过70岁生日时的情景展开，通过阳阳的视角向读者们描绘出一派诗意盎然的水乡景色和朴素温暖的水乡人情。 阳阳睁大好奇的双眼，看着都市生活里从未出现的新鲜事物和乡俗风情：米酒、小猪、斑驳的船影、刚出壳的小鸡、露天的大戏、接新娘的花轿……随着阳阳的视野，江南的诗意缓缓流淌于绘本之中。水乡的水灵动而清澈；水乡的人聪颖而淳朴。在远离喧嚣的沉静与安宁里，江南人不事张扬、心无芥蒂地生活着，江南温暖、纯净如梦中的家园。在车水马龙的世界里，孩子还需要一方安静的角落；在花团锦簇的"
+    },
+    {
+      "title": "灶王爷",
+      "author": "熊亮",
+      "douban_url": "https://book.douban.com/subject/2368819/",
+      "goodreads_url": "",
+      "blurb": "中国民俗守护神，\"灶王爷的眼睛看着你\"",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "丰子恺儿童图画书奖（第一届入围）",
+          "url": "https://book.douban.com/subject/2368819/"
+        }
+      ],
+      "rating": 8.5,
+      "isbn": "9787533254681",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s3076456.jpg",
+      "author_detail": "熊亮|绘画",
+      "publisher": "明天出版社",
+      "pub_year": "2007",
+      "desc": "翻开《灶王爷》，你第一眼就看到灶王爷用那一双大大的眼睛盯着你。再翻页，连续五幅小图，还是那一双大眼睛，眼珠儿忽上忽下，忽左忽右，看得你好仔细，彷佛要穿透你，把那纤细如尘的心底事一览无遗。"
+    },
+    {
+      "title": "最可怕的一天",
+      "author": "汤姆牛",
+      "douban_url": "https://book.douban.com/subject/25743561/",
+      "goodreads_url": "",
+      "blurb": "上台前的恐惧被画得惊天动地，社恐孩子的共鸣",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "丰子恺儿童图画书奖（第三届）",
+          "url": "https://book.douban.com/subject/25743561/"
+        }
+      ],
+      "rating": 7.0,
+      "isbn": "9787550220355",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s27190453.jpg",
+      "author_detail": "汤姆牛 文/图",
+      "publisher": "北京联合出版公司",
+      "pub_year": "2013",
+      "desc": "汤姆牛用温暖的同理心创作这本书，安抚我们面对恐惧的心。这个不说教的故事，在单纯且平面的画面中展现丰富的细节，让小读者可以悠游在画中，享受作者巧妙的安排。他对故事中的玲玲与所有害怕在众人面前说话的人寄予深深的期许，并将这期许与上述片段，交织、搓揉、转换成为这个故事。"
+    },
+    {
+      "title": "我看见一只鸟",
+      "author": "刘伯乐",
+      "douban_url": "https://book.douban.com/subject/25906923/",
+      "goodreads_url": "",
+      "blurb": "自然观察笔记式谜题，边读边学认鸟",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "丰子恺儿童图画书奖（第三届，首奖）",
+          "url": "https://book.douban.com/subject/25906923/"
+        }
+      ],
+      "rating": 8.0,
+      "isbn": "9787533279394",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s27328094.jpg",
+      "author_detail": "刘伯乐",
+      "publisher": "明天出版社",
+      "pub_year": "2014",
+      "desc": "小女孩跟着妈妈在大坑自然风景区里玩，一边完成自然观察的作业，小女孩画了一只从来没有看过的野鸟，那是什么鸟呢？好奇的小女孩想带着妈妈一起去找答案。一路上，她们看到了麻雀、野鸽子、五色鸟、红嘴蓝鹊、大卷尾、竹鸡、红嘴黑鹎、画眉、黑冠麻鹭、黑枕蓝鹟、小弯嘴画眉……她们会找到那只野鸟吗？"
+    },
+    {
+      "title": "喀哒喀哒喀哒",
+      "author": "林小杯",
+      "douban_url": "https://book.douban.com/subject/26649310/",
+      "goodreads_url": "",
+      "blurb": "缝纫机的旧时光，奶奶与孙女的记忆",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "丰子恺儿童图画书奖（第四届，首奖）",
+          "url": "https://book.douban.com/subject/26649310/"
+        }
+      ],
+      "rating": 8.2,
+      "isbn": "9787550265257",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s28866572.jpg",
+      "author_detail": "林小杯 文/图",
+      "publisher": "北京联合出版公司",
+      "pub_year": "2015",
+      "desc": "《喀哒喀哒喀哒》是启发精选华语原创优秀绘本系列之一，适合4岁以上儿童阅读。这是一本带有回忆性质的绘本。我们的很多记忆，那些生活中闪现的吉光片羽，是抽象无形的，只有隐约的气氛与温度。然而，林小杯那随意轻松、流动洒脱的速写笔法、无处不在的童趣涂鸦细节、叠印交错的图像排版和复古淡雅的色调却将这些美好时刻完美地表现了出来，让读者们真切地感受到那种带有点遥远朦胧感、也许触摸不着，却一直存在着的童年感受与家庭温情。"
+    },
+    {
+      "title": "牙齿，牙齿，扔屋顶",
+      "author": "刘洵",
+      "douban_url": "https://book.douban.com/subject/26600540/",
+      "goodreads_url": "",
+      "blurb": "换牙习俗与老城记忆，水彩怀旧",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "丰子恺儿童图画书奖（第四届）",
+          "url": "https://book.douban.com/subject/26600540/"
+        }
+      ],
+      "rating": 8.3,
+      "isbn": "9787507219371",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s28284342.jpg",
+      "author_detail": "刘洵",
+      "publisher": "中国中福会出版社",
+      "pub_year": "2014",
+      "desc": "小妞妞的门牙掉了。她的爷爷说过，门牙掉了要赶紧把它扔到屋顶上，这样以后个子才能长得高。可是爷爷不在家，于是妞妞决定独自去找他。妞妞穿行在巷子里，一点也不害怕，因为她熟悉巷子里的每一个人，巷子就是一个好大的家。她找到了爷爷，爷爷一边牵着妞妞往家走，一边告诉她：他们生活的巷子很快就要被拆了，这里会盖起新的大楼房，就像妞妞的牙掉了又会长出新牙一样，那将会是另一种生活……"
+    },
+    {
+      "title": "棉婆婆睡不着",
+      "author": "廖小琴 文",
+      "douban_url": "https://book.douban.com/subject/26282529/",
+      "goodreads_url": "",
+      "blurb": "数着惦念的夜晚，含蓄的中国式亲情",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "丰子恺儿童图画书奖（第四届）",
+          "url": "https://book.douban.com/subject/26282529/"
+        }
+      ],
+      "rating": 8.4,
+      "isbn": "9787533282110",
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s27964771.jpg",
+      "author_detail": "廖小琴 文",
+      "publisher": "明天出版社",
+      "pub_year": "2014",
+      "desc": "第二届信谊图画书奖图画书文字创作奖佳作奖。棉婆婆翻来覆去睡不着，于是，她反复起床，关好门闩，收拾屋子等等。原来，她是在等待棉爷爷的归来。本书以棉婆婆的守候为线索，将陪伴的意义和长久的感情含蓄地传达出来，意味深长。这种陪伴是无声的爱，内心的担心和焦急，都在等待的过程中不露声色的表现出来，感人至深。"
+    },
+    {
+      "title": "盘中餐",
+      "author": "于虹呈",
+      "douban_url": "https://book.douban.com/subject/26757022/",
+      "goodreads_url": "",
+      "blurb": "元阳梯田种稻全程，\"谁知盘中餐\"的写实绘本",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "丰子恺儿童图画书奖（第五届，首奖）",
+          "url": "https://book.douban.com/subject/26757022/"
+        }
+      ],
+      "rating": 9.1,
+      "isbn": "9787514828825",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s28601044.jpg",
+      "author_detail": "于虹呈",
+      "publisher": "中国少年儿童出版社",
+      "pub_year": "2016",
+      "desc": "追寻一粒米的生命之旅，体味悠久的农耕文化！清新画面带我们重返暌违的大自然。 忠实记录、科学解说盘中餐的来之不易。"
+    },
+    {
+      "title": "公主怎么挖鼻屎",
+      "author": "李卓颖",
+      "douban_url": "https://book.douban.com/subject/26774382/",
+      "goodreads_url": "",
+      "blurb": "挖鼻屎的N种猜想，爆笑卫生习惯课",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "丰子恺儿童图画书奖（第五届入围）",
+          "url": "https://book.douban.com/subject/26774382/"
+        }
+      ],
+      "rating": 8.5,
+      "isbn": "9787533288181",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s28637337.jpg",
+      "author_detail": "李卓颖",
+      "publisher": "明天出版社",
+      "pub_year": "2016",
+      "desc": "一本具有童真力量的图画书，以幽默夸张的文图，揭开孩子生活中的“小秘密”，带给孩子坦诚、开放、富有创意的思维方式。"
+    },
+    {
+      "title": "不要和青蛙跳绳",
+      "author": "彭懿 文 / 九儿 图",
+      "douban_url": "https://book.douban.com/subject/26568315/",
+      "goodreads_url": "",
+      "blurb": "幻想心理剧，二胎情绪的出口",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "丰子恺儿童图画书奖（第五届入围）",
+          "url": "https://book.douban.com/subject/26568315/"
+        }
+      ],
+      "rating": 7.1,
+      "isbn": "9787544840712",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s29084685.jpg",
+      "author_detail": "彭懿 著",
+      "publisher": "接力出版社",
+      "pub_year": "2015",
+      "desc": "星期三下午，壳壳放学回到家，发现自己最宝贝的跳棋被妈妈扔掉了。他气呼呼地喊道：“我最讨厌妈妈了！”，扭头跑出屋外。"
+    },
+    {
+      "title": "苏丹的犀角",
+      "author": "戴芸 文 / 李星明 图",
+      "douban_url": "https://book.douban.com/subject/34763394/",
+      "goodreads_url": "",
+      "blurb": "最后一头北白犀的真实故事，生命教育杰作",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "丰子恺儿童图画书奖（第七届，首奖）",
+          "url": "https://book.douban.com/subject/34763394/"
+        }
+      ],
+      "rating": 9.1,
+      "isbn": "9787556839841",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s33444129.jpg",
+      "author_detail": "作者：戴芸",
+      "pub_year": "2019",
+      "desc": "2018年3月19日，苏丹去世了，此前他是世界上最后一头雄性北白犀。苏丹的经历非常奇特，在七十年代一次迁移非洲濒危动物的行动中，3岁的苏丹在苏丹共和国境内被捕获并送往捷克的Dvůr Králové动物园，在那里度过了三十多年的岁月。2009年北白犀在野外绝种。2010年，为了提高北白犀自然繁衍的机会，人们把已经38岁的苏丹和另外三只北白犀一起送回了非洲，居住在肯尼亚的Ol Pejeta自然保护区，苏丹得以在暮年回归故乡。他们都已经丧失了繁衍后代的能力，也就是说我们人类即将亲眼目睹这一物种的灭绝。"
+    },
+    {
+      "title": "纽扣士兵",
+      "author": "九儿",
+      "douban_url": "https://book.douban.com/subject/35068613/",
+      "goodreads_url": "",
+      "blurb": "一颗纽扣的军棋想象，无字叙事细腻",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "丰子恺儿童图画书奖（第七届）",
+          "url": "https://book.douban.com/subject/35068613/"
+        }
+      ],
+      "rating": 8.6,
+      "isbn": "9787221155818",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s33644850.jpg",
+      "author_detail": "九儿",
+      "publisher": "贵州人民出版社",
+      "pub_year": "2020",
+      "desc": "★编辑推荐："
+    },
+    {
+      "title": "驯河童子",
+      "author": "廖小琴 文（乐乐趣出品）",
+      "douban_url": "https://book.douban.com/subject/36882448/",
+      "goodreads_url": "",
+      "blurb": "乐乐趣原创奇幻，黄河驯河少年的传说",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "丰子恺儿童图画书奖（第九届）",
+          "url": "https://book.douban.com/subject/36882448/"
+        }
+      ],
+      "rating": 9.1,
+      "isbn": "9787542271297",
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s35320856.jpg",
+      "author_detail": "廖小琴 文",
+      "publisher": "甘肃少年儿童出版社",
+      "pub_year": "2024",
+      "desc": "传说中，力族人的稻寨，每逢汛期，都会遭遇喜怒无常的怒河吞噬。而只有12岁以下的少年，才有能力驯服怒河，使村庄免于灾难，这些少年被称作“驯河童子”。这一年，轮到在族人看来沉默而弱小的阿牙出征，去驯服怒河。阿牙也感到忐忑不安，以他的力量能驯服狂暴的怒河吗？也许，少年有他自己的方法，他自己也从未意识到的方法……"
+    },
+    {
+      "title": "100层的房子",
+      "author": "[日] 岩井俊雄",
+      "douban_url": "https://book.douban.com/subject/4753975/",
+      "goodreads_url": "",
+      "blurb": "纵翻书十层十户动物邻居，数数与观察",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣豆列「3岁及以上的孩子：图画书类」",
+          "url": "https://book.douban.com/subject/4753975/"
+        }
+      ],
+      "rating": 8.9,
+      "isbn": "9787530446829",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s4506059.jpg",
+      "author_detail": "(日) 岩井俊雄",
+      "publisher": "北京科学技术出版社",
+      "pub_year": "2010",
+      "desc": "有一天，多奇收到了住在100层房子顶层的蜘蛛王子的来信，信上写着“欢迎你来我家玩儿”。多奇按照信上的地图走啊走啊，突然一座房子出现在眼前！多奇使劲向上看，可是怎么也看不到房子的顶层，多奇能顺利地到达第100层吗……？"
+    },
+    {
+      "title": "外婆住在香水村",
+      "author": "方素珍",
+      "douban_url": "https://book.douban.com/subject/26312860/",
+      "goodreads_url": "",
+      "blurb": "思念逝去的外婆，把悲伤化作天上的星星",
+      "is_en_listed": false,
+      "sources": [
+        {
+          "name": "豆瓣豆列「3岁及以上的孩子：图画书类」",
+          "url": "https://book.douban.com/subject/26312860/"
+        }
+      ],
+      "rating": 8.2,
+      "isbn": "9787514819571",
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s27994653.jpg",
+      "author_detail": "方素珍  著",
+      "publisher": "中国少年儿童出版社",
+      "pub_year": "2014"
+    },
+    {
+      "title": "Radiant Child: The Story of Young Artist Jean-Michel Basquiat",
+      "author": "Javaka Steptoe 文/图",
+      "douban_url": "https://book.douban.com/subject/26938592/",
+      "goodreads_url": "https://www.goodreads.com/book/show/18552623",
+      "blurb": "涂鸦少年成为传奇艺术家，拼贴画致敬巴斯奇亚",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2017（金奖）",
+          "url": "https://www.goodreads.com/book/show/18552623"
+        }
+      ],
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s29230416.jpg",
+      "rating": 7.4,
+      "isbn": "9780316213882",
+      "author_detail": "Javaka Steptoe",
+      "pub_year": "2016",
+      "desc": "杰瓦卡·斯特普托，非裔美国艺术家、设计师和插画家。他的首本图画书《在父亲的臂膀里我是一个高个子》获得科丽塔·史葛金插画奖（这个奖项每年颁给杰出的非裔美国作家和插画艺术家），他的另一本图画书《吉米：听着像彩虹一样》荣获科丽塔·史葛金插画荣誉奖。"
+    },
+    {
+      "title": "Leave Me Alone!",
+      "author": "Vera Brosgol 文/图",
+      "douban_url": "",
+      "goodreads_url": "https://www.goodreads.com/book/show/27414464",
+      "blurb": "奶奶为织毛衣跑到宇宙尽头，\"别烦我\"的爆笑祖孙书",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2017（银奖）",
+          "url": "https://www.goodreads.com/book/show/27414464"
+        }
+      ]
+    },
+    {
+      "title": "Freedom in Congo Square",
+      "author": "Carole Boston Weatherford 文 / R. Gregory Christie 图",
+      "douban_url": "https://book.douban.com/subject/26985143/",
+      "goodreads_url": "https://www.goodreads.com/book/show/25785628",
+      "blurb": "奴隶们唯一的自由午后，新奥尔良刚果广场的真实历史",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2017（银奖）",
+          "url": "https://www.goodreads.com/book/show/25785628"
+        }
+      ],
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s29920886.jpg",
+      "isbn": "9781499801033",
+      "author_detail": "Carole Boston Weatherford",
+      "pub_year": "2016",
+      "desc": "Chosen as a New York Times Best Illustrated Book of 2016, this poetic, nonfiction story about a little-known piece of African American history captures a human s capacity to find hope and joy in difficult circumstances and demonstrates how New Orleans&#39; Congo Square was truly freedom s heart."
+    },
+    {
+      "title": "Du Iz Tak?",
+      "author": "Carson Ellis 文/图",
+      "douban_url": "https://book.douban.com/subject/26931267/",
+      "goodreads_url": "https://www.goodreads.com/book/show/28250952",
+      "blurb": "昆虫语\"朵依兹塔克\"到底啥意思，自造语言的观察游戏",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2017（银奖）",
+          "url": "https://www.goodreads.com/book/show/28250952"
+        }
+      ],
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s29205305.jpg",
+      "rating": 9.0,
+      "isbn": "9780763665302",
+      "author_detail": "Carson Ellis",
+      "pub_year": "2016",
+      "desc": "卡森．埃利斯 (Carson Ellis)"
+    },
+    {
+      "title": "They All Saw a Cat",
+      "author": "Brendan Wenzel 文/图",
+      "douban_url": "https://book.douban.com/subject/26928022/",
+      "goodreads_url": "https://www.goodreads.com/book/show/28645670",
+      "blurb": "猫在不同动物眼里完全不同，视角与偏见的启蒙",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2017（银奖）",
+          "url": "https://www.goodreads.com/book/show/28645670"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34318160.jpg",
+      "rating": 9.4,
+      "isbn": "9781452150130",
+      "author_detail": "Brendan Wenzel",
+      "pub_year": "2016",
+      "desc": "The cat walked through the world, with its whiskers, ears, and paws . . . In this glorious celebration of observation, curiosity, and imagination, Brendan Wenzel shows us the many lives of one cat, and how perspective shapes what we see. When you see a cat, what do you see?"
+    },
+    {
+      "title": "Wolf in the Snow",
+      "author": "Matthew Cordell 文/图",
+      "douban_url": "https://book.douban.com/subject/27159700/",
+      "goodreads_url": "https://www.goodreads.com/book/show/29102937",
+      "blurb": "雪夜里女孩与小狼互救，几乎无字的信任故事",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2018（金奖）",
+          "url": "https://www.goodreads.com/book/show/29102937"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s33783017.jpg",
+      "rating": 7.0,
+      "isbn": "9781250076366",
+      "author_detail": "Matthew Cordell",
+      "pub_year": "2017",
+      "desc": "A girl is lost in a snowstorm. A wolf cub is lost, too. How will they find their way home?"
+    },
+    {
+      "title": "Big Cat, Little Cat",
+      "author": "Elisha Cooper 文/图",
+      "douban_url": "https://book.douban.com/subject/27151949/",
+      "goodreads_url": "https://www.goodreads.com/book/show/26158605",
+      "blurb": "大猫带小猫，直到大猫老去——生命循环的温柔一课",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2018（银奖）",
+          "url": "https://www.goodreads.com/book/show/26158605"
+        }
+      ],
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s33814274.jpg",
+      "rating": 8.7,
+      "isbn": "9781626723719",
+      "author_detail": "Elisha Cooper",
+      "pub_year": "2017",
+      "desc": "A 2018 Caldecott Honor book"
+    },
+    {
+      "title": "Crown: An Ode to the Fresh Cut",
+      "author": "Derrick Barnes 文 / Gordon C. James 图",
+      "douban_url": "https://book.douban.com/subject/30167318/",
+      "goodreads_url": "https://www.goodreads.com/book/show/34144489",
+      "blurb": "理发店里的\"加冕礼\"，剪完头发我就是国王",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2018（银奖）",
+          "url": "https://www.goodreads.com/book/show/34144489"
+        }
+      ],
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s29777104.jpg",
+      "isbn": "9781572842243",
+      "author_detail": "Derrick Barnes",
+      "pub_year": "2017",
+      "desc": "A Newbery Honor Book"
+    },
+    {
+      "title": "A Different Pond",
+      "author": "Bao Phi 文 / Thi Bui 图",
+      "douban_url": "https://book.douban.com/subject/27617427/",
+      "goodreads_url": "https://www.goodreads.com/book/show/34137106",
+      "blurb": "越南裔父子清晨钓鱼，为糊口也为传承",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2018（银奖）",
+          "url": "https://www.goodreads.com/book/show/34137106"
+        }
+      ],
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s29653325.jpg",
+      "isbn": "9781623708030",
+      "author_detail": "Bao Phi",
+      "pub_year": "2017",
+      "desc": "A 2018 Caldecott Honor Book that Kirkus Reviews calls &#34;a must-read for our times,&#34; A Different Pond is an unforgettable story about a simple event - a long-ago fishing trip. Graphic novelist Thi Bui and acclaimed poet Bao Phi deliver a powerful, honest glimpse into a relationship between fat"
+    },
+    {
+      "title": "Grand Canyon",
+      "author": "Jason Chin 文/图",
+      "douban_url": "",
+      "goodreads_url": "https://www.goodreads.com/book/show/29102876",
+      "blurb": "父女徒步大峡谷，水彩+剖面图的自然博物课",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2018（银奖）",
+          "url": "https://www.goodreads.com/book/show/29102876"
+        }
+      ]
+    },
+    {
+      "title": "Hello Lighthouse",
+      "author": "Sophie Blackall 文/图",
+      "douban_url": "https://book.douban.com/subject/30192767/",
+      "goodreads_url": "https://www.goodreads.com/book/show/35580105",
+      "blurb": "守塔人一家与灯塔的四季，2019年金奖水墨环形构图",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2019（金奖）",
+          "url": "https://www.goodreads.com/book/show/35580105"
+        }
+      ],
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s33999545.jpg",
+      "rating": 9.8,
+      "isbn": "9780316362382",
+      "author_detail": "Sophie Blackall",
+      "pub_year": "2018",
+      "desc": "Watch the days and seasons pass as the wind blows, the fog rolls in, and icebergs drift by. Outside, there is water all around. Inside, the daily life of a lighthouse keeper and his family unfolds as the keeper boils water for tea, lights the lamp&#39;s wick, and writes every detail in his logbook."
+    },
+    {
+      "title": "Alma and How She Got Her Name",
+      "author": "Juana Martinez-Neal 文/图",
+      "douban_url": "https://book.douban.com/subject/30446730/",
+      "goodreads_url": "https://www.goodreads.com/book/show/28234753",
+      "blurb": "名字太长的女孩发现每个名字都是一位家人",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2019（银奖）",
+          "url": "https://www.goodreads.com/book/show/28234753"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s29992152.jpg",
+      "rating": 7.5,
+      "isbn": "9780763693558",
+      "author_detail": "Juana Martinez-Neal",
+      "pub_year": "2018",
+      "desc": "如果你问女孩Alma名字的事，"
+    },
+    {
+      "title": "A Big Mooncake for Little Star",
+      "author": "Grace Lin 文/图",
+      "douban_url": "https://book.douban.com/subject/30449006/",
+      "goodreads_url": "https://www.goodreads.com/book/show/34362953",
+      "blurb": "小星星偷咬月夜宵饼，月亮圆缺的童话解释",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2019（银奖）",
+          "url": "https://www.goodreads.com/book/show/34362953"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34323020.jpg",
+      "rating": 7.6,
+      "isbn": "9780316404488",
+      "author_detail": "Grace Lin",
+      "pub_year": "2018",
+      "desc": "When Little Star&#39;s mother bakes a delicious-looking mooncake, she leaves it in the night sky to cool. But it looks so tasty that Little Star can&#39;t wait, and every night she must take a little nibble of the perfectly round confection until instead of a glowing, round cookie, there is only a s"
+    },
+    {
+      "title": "The Rough Patch",
+      "author": "Brian Lies 文/图",
+      "douban_url": "https://book.douban.com/subject/30448998/",
+      "goodreads_url": "https://www.goodreads.com/book/show/35887584",
+      "blurb": "失去爱犬的农夫从荒芜菜园重新长出希望",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2019（银奖）",
+          "url": "https://www.goodreads.com/book/show/35887584"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s29994360.jpg",
+      "rating": 9.3,
+      "isbn": "9780062671271",
+      "author_detail": "Brian Lies",
+      "pub_year": "2018",
+      "desc": "A breathtakingly beautiful and luminescent book about loss and grief, love and hope, and the healing power of friendship and nature, from New York Times–bestselling picture book creator Brian Lies."
+    },
+    {
+      "title": "Thank You, Omu!",
+      "author": "Oge Mora 文/图",
+      "douban_url": "https://book.douban.com/subject/30448999/",
+      "goodreads_url": "https://www.goodreads.com/book/show/34642482",
+      "blurb": "一锅炖汤喂遍全街，分享最后转回自己",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2019（银奖）",
+          "url": "https://www.goodreads.com/book/show/34642482"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s33783013.jpg",
+      "isbn": "9780316431248",
+      "author_detail": "Oge Mora",
+      "pub_year": "2018",
+      "desc": "A generous woman is rewarded by her community in this remarkable author-illustrator debut that&#39;s perfect for the Thanksgiving season, perfect for fans of Last Stop on Market Street. Everyone in the neighborhood dreams of a taste of Omu&#39;s delicious stew! One by one, they follow their noses to"
+    },
+    {
+      "title": "The Undefeated",
+      "author": "Kwame Alexander 文 / Kadir Nelson 图",
+      "douban_url": "https://book.douban.com/subject/30907295/",
+      "goodreads_url": "https://www.goodreads.com/book/show/40796177",
+      "blurb": "献给美国黑人历史的诗与肖像，2020年金奖",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2020（金奖）",
+          "url": "https://www.goodreads.com/book/show/40796177"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s30055668.jpg",
+      "isbn": "9781328780966",
+      "author_detail": "Kwame Alexander",
+      "pub_year": "2019",
+      "desc": "The Newbery Award-winning author of THE CROSSOVER pens an ode to black American triumph and tribulation, with art from a two-time Caldecott Honoree."
+    },
+    {
+      "title": "Bear Came Along",
+      "author": "Richard T. Morris 文 / LeUyen Pham 图",
+      "douban_url": "https://book.douban.com/subject/31631859/",
+      "goodreads_url": "https://www.goodreads.com/book/show/31933081",
+      "blurb": "一根木头把森林动物串成漂流冒险",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2020（银奖）",
+          "url": "https://www.goodreads.com/book/show/31933081"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34005210.jpg",
+      "isbn": "9780316464475",
+      "author_detail": "Richard T. Morris",
+      "pub_year": "2019",
+      "desc": "Once there was a river flowing through a forest. The river didn&#39;t know it was capable of adventures until a big bear came along. But adventures aren&#39;t any fun by yourself, and so enters Froggy, Turtles, Beaver, Racoons, and Duck."
+    },
+    {
+      "title": "Double Bass Blues",
+      "author": "Andrea J. Loney 文 / Rudy Gutierrez 图",
+      "douban_url": "https://book.douban.com/subject/34958388/",
+      "goodreads_url": "https://www.goodreads.com/book/show/36817104",
+      "blurb": "抱着低音提琴穿过城市去爷爷家合奏，音乐流动感十足",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2020（银奖）",
+          "url": "https://www.goodreads.com/book/show/36817104"
+        }
+      ],
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s33568391.jpg",
+      "isbn": "9781524718534",
+      "author_detail": "Andrea J. Loney",
+      "pub_year": "2019",
+      "desc": "安德烈娅·J.洛尼（Andrea J. Loney），在新泽西州长大，从小酷爱音乐。她是学校乐队里的萨克斯手。从纽约大学研究生毕业后，她参加了一个马戏团，然后去好莱坞为电影和电视写剧本。她之前的绘本作品包括新声奖获奖传记《给我拍张照》（Take a Picture of Me）、《詹姆斯·范德齐！》（James Van Der Zee! ）和《兔熊》（Bunnybear）。"
+    },
+    {
+      "title": "Going Down Home with Daddy",
+      "author": "Kelly Starling Lyons 文 / Daniel Minter 图",
+      "douban_url": "https://book.douban.com/subject/34956973/",
+      "goodreads_url": "https://www.goodreads.com/book/show/40685673",
+      "blurb": "回乡祭祖的家族之旅，孩子找到自己的\"献礼\"",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2020（银奖）",
+          "url": "https://www.goodreads.com/book/show/40685673"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s33566797.jpg",
+      "isbn": "9781561459384",
+      "author_detail": "Kelly Starling Lyons",
+      "pub_year": "2019",
+      "desc": "作者简介："
+    },
+    {
+      "title": "We Are Water Protectors",
+      "author": "Carole Lindstrom 文 / Michaela Goade 图",
+      "douban_url": "https://book.douban.com/subject/35285513/",
+      "goodreads_url": "https://www.goodreads.com/book/show/44581496",
+      "blurb": "\"水即生命\"，原住民少女守护河流的宣言，2021年金奖",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2021（金奖）",
+          "url": "https://www.goodreads.com/book/show/44581496"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s33997890.jpg",
+      "rating": 7.3,
+      "isbn": "9781250203557",
+      "author_detail": "Carole Lindstrom",
+      "pub_year": "2020",
+      "desc": "Water is the first medicine."
+    },
+    {
+      "title": "A Place Inside of Me",
+      "author": "Zetta Elliott 文 / Noa Denmon 图",
+      "douban_url": "https://book.douban.com/subject/35343489/",
+      "goodreads_url": "https://www.goodreads.com/book/show/46223315",
+      "blurb": "一首安放悲伤与希望的诗，情绪词汇拓展",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2021（银奖）",
+          "url": "https://www.goodreads.com/book/show/46223315"
+        }
+      ],
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s33815246.jpg",
+      "isbn": "9780374307417",
+      "author_detail": "Zetta Elliott",
+      "pub_year": "2020",
+      "desc": "In this powerful, affirming poem by award-winning author Zetta Elliott, a Black child explores his shifting emotions throughout the year. There is a place inside of me. a space deep down inside of me. where all my feelings hide."
+    },
+    {
+      "title": "The Cat Man of Aleppo",
+      "author": "Irene Latham & Karim Shamsi-Basha 文 / Yuko Shimizu 图",
+      "douban_url": "https://book.douban.com/subject/35343491/",
+      "goodreads_url": "https://www.goodreads.com/book/show/49946473",
+      "blurb": "战火中救护车司机喂养猫群的真人故事",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2021（银奖）",
+          "url": "https://www.goodreads.com/book/show/49946473"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s33815248.jpg",
+      "isbn": "9781984813787",
+      "author_detail": "Karim Shamsi-Basha",
+      "pub_year": "2020",
+      "desc": "Based on the true story of Mohammad Alaa Aljaleel, The Cat Man of Aleppo provides a poignant account of one man&#39;s struggle to save the lives of cats abandoned in the wake of the Syrian war, which started in 2011 and is still ongoing."
+    },
+    {
+      "title": "Me & Mama",
+      "author": "Cozbi A. Cabrera 文/图",
+      "douban_url": "https://book.douban.com/subject/35343487/",
+      "goodreads_url": "https://www.goodreads.com/book/show/52376907",
+      "blurb": "雨天里妈妈的一切都值得孩子描述，质感如布艺",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2021（银奖）",
+          "url": "https://www.goodreads.com/book/show/52376907"
+        }
+      ],
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s33815244.jpg",
+      "isbn": "9781534454217",
+      "author_detail": "Cozbi A. Cabrera",
+      "pub_year": "2020",
+      "desc": "On a rainy day when the house smells like cinnamon and Papa and Luca are still asleep, when the clouds are wearing shadows and the wind paints the window with beads of water, I want to be everywhere Mama is."
+    },
+    {
+      "title": "Outside In",
+      "author": "Deborah Underwood 文 / Cindy Derby 图",
+      "douban_url": "",
+      "goodreads_url": "https://www.goodreads.com/book/show/44493709",
+      "blurb": "屏幕时代被遗忘的\"户外\"，自然如何悄悄进来",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2021（银奖）",
+          "url": "https://www.goodreads.com/book/show/44493709"
+        }
+      ]
+    },
+    {
+      "title": "Watercress",
+      "author": "Andrea Wang 文 / Jason Chin 图",
+      "douban_url": "https://book.douban.com/subject/35425714/",
+      "goodreads_url": "https://www.goodreads.com/book/show/54502238",
+      "blurb": "路边拔野菜的女孩与家族乡愁，2022年金奖",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2022（金奖）",
+          "url": "https://www.goodreads.com/book/show/54502238"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s33869662.jpg",
+      "rating": 7.7,
+      "isbn": "9780823446247",
+      "author_detail": "Andrea Wang",
+      "pub_year": "2021",
+      "desc": "Gathering watercress by the side of the road brings a girl closer to her family&#39;s Chinese Heritage."
+    },
+    {
+      "title": "Have You Ever Seen a Flower?",
+      "author": "Shawn Harris 文/图",
+      "douban_url": "https://book.douban.com/subject/35473557/",
+      "goodreads_url": "https://www.goodreads.com/book/show/54711226",
+      "blurb": "用鼻子、耳朵和心看一朵花，感官放大到极致",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2022（银奖）",
+          "url": "https://www.goodreads.com/book/show/54711226"
+        }
+      ],
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s33906746.jpg",
+      "rating": 9.3,
+      "isbn": "9781452182704",
+      "author_detail": "Shawn Harris",
+      "pub_year": "2021",
+      "desc": "Have You Ever Seen a Flower? is an enchanting picture book exploring the relationship between childhood and nature. In this simple yet profound story, one child experiences a flower with all five senses—from its color to its fragrance to the entire universe it evokes—revealing how a single flower ca"
+    },
+    {
+      "title": "Mel Fell",
+      "author": "Corey R. Tabor 文/图",
+      "douban_url": "https://book.douban.com/subject/35751818/",
+      "goodreads_url": "https://www.goodreads.com/book/show/53327848",
+      "blurb": "小鸟第一次\"坠\"向天空，竖翻书的勇气练习",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2022（银奖）",
+          "url": "https://www.goodreads.com/book/show/53327848"
+        }
+      ],
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s34107904.jpg",
+      "isbn": "9780062878014",
+      "author_detail": "Corey R. Tabor",
+      "pub_year": "2021",
+      "desc": "Readers will delight in turning their book sideways and upside down to follow Mel on her journey from downward fall to triumphant flight in this tale of self-confidence and taking a leap of faith."
+    },
+    {
+      "title": "Unspeakable: The Tulsa Race Massacre",
+      "author": "Carole Boston Weatherford 文 / Floyd Cooper 图",
+      "douban_url": "https://book.douban.com/subject/35414825/",
+      "goodreads_url": "https://www.goodreads.com/book/show/54222468",
+      "blurb": "塔尔萨种族屠杀的历史课，克制而有力",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2022（银奖）",
+          "url": "https://www.goodreads.com/book/show/54222468"
+        }
+      ],
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s33861524.jpg",
+      "isbn": "9781541581203",
+      "author_detail": "Carole Boston Weatherford",
+      "pub_year": "2021",
+      "desc": "Celebrated author Carole Boston Weatherford and illustrator Floyd Cooper provide a powerful look at the Tulsa Race Massacre, one of the worst incidents of racial violence in our nation&#39;s history. The book traces the history of African Americans in Tulsa&#39;s Greenwood district and chronicles th"
+    },
+    {
+      "title": "Wonder Walkers",
+      "author": "Micha Archer 文/图",
+      "douban_url": "https://book.douban.com/subject/35702769/",
+      "goodreads_url": "https://www.goodreads.com/book/show/54735137",
+      "blurb": "两个孩子边走边问\"山有骨头吗\"，拼贴自然问答",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2022（银奖）",
+          "url": "https://www.goodreads.com/book/show/54735137"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34693717.jpg",
+      "isbn": "9780593109649",
+      "author_detail": "Micha Archer",
+      "pub_year": "2021",
+      "desc": "Micha Archer&#39;s gorgeous, detailed collages give readers a fresh outlook on the splendors of nature."
+    },
+    {
+      "title": "Hot Dog",
+      "author": "Doug Salati 文/图",
+      "douban_url": "",
+      "goodreads_url": "https://www.goodreads.com/book/show/58065383",
+      "blurb": "热到炸毛的小狗去海边降温，2023年金奖的夏日凉风",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2023（金奖）",
+          "url": "https://www.goodreads.com/book/show/58065383"
+        }
+      ]
+    },
+    {
+      "title": "Ain't Burned All the Bright",
+      "author": "Jason Reynolds 文 / Jason Griffin 图",
+      "douban_url": "https://book.douban.com/subject/36133526/",
+      "goodreads_url": "https://www.goodreads.com/book/show/58437699",
+      "blurb": "三口之家在时代里的喘息，诗画混合体（偏大童）",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2023（银奖）",
+          "url": "https://www.goodreads.com/book/show/58437699"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34337227.jpg",
+      "isbn": "9781534439467",
+      "author_detail": "Jason Reynolds",
+      "pub_year": "2022",
+      "desc": "Prepare yourself for something unlike anything: A smash-up of art and text for teens that viscerally captures what it is to be Black. In America. Right Now. Written by #1 New York Times bestselling and award-winning author Jason Reynolds."
+    },
+    {
+      "title": "Berry Song",
+      "author": "Michaela Goade 文/图",
+      "douban_url": "https://book.douban.com/subject/36234659/",
+      "goodreads_url": "https://www.goodreads.com/book/show/58064775",
+      "blurb": "特林吉特祖孙采莓子的森林之歌，感恩大地",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2023（银奖）",
+          "url": "https://www.goodreads.com/book/show/58064775"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34408920.jpg",
+      "isbn": "9780316494175",
+      "author_detail": "Michaela Goade",
+      "pub_year": "2022",
+      "desc": "On an island at the edge of a wide, wild sea, a girl and her grandmother gather gifts from the earth. Salmon from the stream, herring eggs from the ocean, and in the forest, a world of berries."
+    },
+    {
+      "title": "Choosing Brave",
+      "author": "Angela Joy 文 / Janelle Washington 图",
+      "douban_url": "https://book.douban.com/subject/36235984/",
+      "goodreads_url": "https://www.goodreads.com/book/show/58484134",
+      "blurb": "埃米特·蒂尔母亲化悲恸为勇气的传记",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2023（银奖）",
+          "url": "https://www.goodreads.com/book/show/58484134"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34408668.jpg",
+      "isbn": "9781250220950",
+      "author_detail": "Angela Joy",
+      "pub_year": "2022",
+      "desc": "Mamie Till-Mobley is the mother of Emmett Till, the 14-year-old boy who was brutally murdered while visiting the South in 1955. His death became a rallying point for the civil rights movement, but few know that it was his mother who was the catalyst for bringing his name to the forefront of history."
+    },
+    {
+      "title": "Knight Owl",
+      "author": "Christopher Denise 文/图",
+      "douban_url": "https://book.douban.com/subject/36214051/",
+      "goodreads_url": "https://www.goodreads.com/book/show/57007688",
+      "blurb": "最小个头的猫头鹰骑士用智慧退敌，夜班萌骑",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2023（银奖）",
+          "url": "https://www.goodreads.com/book/show/57007688"
+        }
+      ],
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s34392741.jpg",
+      "isbn": "9780316310628",
+      "author_detail": "Christopher Denise",
+      "pub_year": "2022",
+      "desc": "A NEW YORK TIMES BESTSELLER • A CALDECOTT HONOR AWARD WINNER"
+    },
+    {
+      "title": "Big",
+      "author": "Vashti Harrison 文/图",
+      "douban_url": "",
+      "goodreads_url": "https://www.goodreads.com/book/show/229264547",
+      "blurb": "关于身材、评价与自我接纳，2024年金奖",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2024（金奖）",
+          "url": "https://www.goodreads.com/book/show/229264547"
+        }
+      ]
+    },
+    {
+      "title": "In Every Life",
+      "author": "Marla Frazee 文/图",
+      "douban_url": "https://book.douban.com/subject/36747856/",
+      "goodreads_url": "https://www.goodreads.com/book/show/61273116",
+      "blurb": "\"生命中的每一天都有爱\"，两页一景的诗意集锦",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2024（银奖）",
+          "url": "https://www.goodreads.com/book/show/61273116"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34771207.jpg",
+      "isbn": "9781665912488",
+      "author_detail": "Marla Frazee",
+      "pub_year": "2023",
+      "desc": "A simple and profound meditation on the many wonders of life from two-time Caldecott Honor recipient Marla Frazee.In every life, there is love and loss, hope and joy, wonder and mystery. With glowing art and spare, powerful text, Caldecott Honor-winning creator Marla Frazee celebrates the moments, f"
+    },
+    {
+      "title": "Jovita Wore Pants",
+      "author": "Aida Salazar 文 / Molly Mendoza 图",
+      "douban_url": "https://book.douban.com/subject/36746594/",
+      "goodreads_url": "https://www.goodreads.com/book/show/58719111",
+      "blurb": "女扮裤装投身革命的墨西哥女杰",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2024（银奖）",
+          "url": "https://www.goodreads.com/book/show/58719111"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34768092.jpg",
+      "isbn": "9781338283419",
+      "author_detail": "Salazar Aida",
+      "pub_year": "2023",
+      "desc": "The remarkable true story of Jovita Valdovinos a Mexican revolutionary who disguised herself as a man to fight for her rights Graceful deft mesmerizing Bravery and determination prevail in this inspiring tale Kirkus Reviews starred review Gorgeous hits the perfect balance of lively and lyrical outst"
+    },
+    {
+      "title": "There Was a Party for Langston",
+      "author": "Jason Reynolds 文 / Jerome & Jarrett Pumphrey 图",
+      "douban_url": "https://book.douban.com/subject/36748161/",
+      "goodreads_url": "https://www.goodreads.com/book/show/101008178",
+      "blurb": "图书馆为诗人兰斯顿开派对，字母在墙上跳舞",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2024（银奖）",
+          "url": "https://www.goodreads.com/book/show/101008178"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34768799.jpg",
+      "isbn": "9781534439443",
+      "author_detail": "Jason Reynolds",
+      "pub_year": "2023",
+      "desc": "Back in the day, there was a heckuva party, a jam, for a word-making man. The King of Letters. Langston Hughes. His ABCs became drums, bumping jumping thumping like a heart the size of the whole country. They sent some people yelling and others, his word-children, to write their own glory."
+    },
+    {
+      "title": "The Truth About Dragons",
+      "author": "Julie Leung 文 / Hanna Cha 图",
+      "douban_url": "https://book.douban.com/subject/36751859/",
+      "goodreads_url": "https://www.goodreads.com/book/show/61317660",
+      "blurb": "东西方两位外婆教孩子认识两种龙的传说",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2024（银奖）",
+          "url": "https://www.goodreads.com/book/show/61317660"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34771437.jpg",
+      "isbn": "9781250820587",
+      "author_detail": "Julie Leung",
+      "pub_year": "2023",
+      "desc": "Brought to life with lavish and ornate illustrations, The Truth About Dragons follows a young child on a journey guided by his mother&#39;s bedtime storytelling. He quests into two very different forests, as his two grandmothers help him discover two different, but equally enchanting, truths about d"
+    },
+    {
+      "title": "Chooch Helped",
+      "author": "Andrea L. Rogers 文 / Rebecca Lee Kunz 图",
+      "douban_url": "https://book.douban.com/subject/37206241/",
+      "goodreads_url": "https://www.goodreads.com/book/show/207567587",
+      "blurb": "切罗基家庭里\"好心帮倒忙\"的弟弟，2025年金奖",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2025（金奖）",
+          "url": "https://www.goodreads.com/book/show/207567587"
+        }
+      ],
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s35076341.jpg",
+      "isbn": "9781646144549",
+      "author_detail": "Andrea L. Rogers",
+      "pub_year": "2024",
+      "desc": "Two-year-old Chooch seeks to help everyone, often with disastrous results, in this tender familial picture book from Cherokee creators Rogers and Kunz. The child’s older sibling, Sissy, relates how “Chooch helped” as Elisi paints a mural, Etsi sews pucker-toe moccasins, and Edutsi makes grape dumpli"
+    },
+    {
+      "title": "My Daddy Is a Cowboy",
+      "author": "Stephanie Seales 文 / C. G. Esperanza 图",
+      "douban_url": "https://book.douban.com/subject/37206242/",
+      "goodreads_url": "https://www.goodreads.com/book/show/195660496",
+      "blurb": "天亮前的城市骑行，爸爸与女儿的牛仔梦",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2025（银奖）",
+          "url": "https://www.goodreads.com/book/show/195660496"
+        }
+      ],
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s35076344.jpg",
+      "isbn": "9781419760815",
+      "author_detail": "Stephanie Seales",
+      "pub_year": "2024",
+      "desc": "In the early hours before dawn, a young girl and her father greet their horses and ride together through the waking city streets. As they trot along, Daddy tells cowboy stories filled with fun and community, friendship, discovery, and pride."
+    },
+    {
+      "title": "Noodles on a Bicycle",
+      "author": "Kyo Maclear 文 / Gracey Zhang 图",
+      "douban_url": "https://book.douban.com/subject/37219955/",
+      "goodreads_url": "https://www.goodreads.com/book/show/205181039",
+      "blurb": "东京送荞麦面的自行车外送员群像",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2025（银奖）",
+          "url": "https://www.goodreads.com/book/show/205181039"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s35071170.jpg",
+      "isbn": "9780593706084",
+      "author_detail": "Kyo Maclear",
+      "pub_year": "2024",
+      "desc": "When the deliverymen set off in the morning, the children wait for the flicker of pedal and wheel. It&#39;s the demae-- delivery men-- setting off to deliver steaming trays of noodles to hungry customers all over the city. They are acrobats: whizzing past other bicycles, soaring around curves, avoid"
+    },
+    {
+      "title": "Home in a Lunchbox",
+      "author": "Cherry Mo 文/图",
+      "douban_url": "https://book.douban.com/subject/37219899/",
+      "goodreads_url": "https://www.goodreads.com/book/show/200150490",
+      "blurb": "新移民女孩的饭盒里装着家乡话，几乎无字的思乡记",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2025（银奖）",
+          "url": "https://www.goodreads.com/book/show/200150490"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s35071133.jpg",
+      "isbn": "9780593661345",
+      "author_detail": "Cherry Mo",
+      "pub_year": "2024",
+      "desc": "When Jun moves from Hong Kong to America, the only words she knows are hello, thank you, I don’t know, and toilet. Her new school feels foreign and terrifying."
+    },
+    {
+      "title": "Up, Up, Ever Up! Junko Tabei",
+      "author": "Anita Yasuda 文 / Yuko Shimizu 图",
+      "douban_url": "https://book.douban.com/subject/37147073/",
+      "goodreads_url": "https://www.goodreads.com/book/show/199531846",
+      "blurb": "首位登顶珠峰的女性田部井淳子传记",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2025（银奖）",
+          "url": "https://www.goodreads.com/book/show/199531846"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s35048592.jpg",
+      "isbn": "9780063242418",
+      "author_detail": "Anita Yasuda",
+      "pub_year": "2024",
+      "desc": "Anita Yasuda&#39;s evocative picture book biography about Junko Tabei, the first woman to summit Everest, is equal parts grit and grace. Dazzlingly illustrated by Caldecott Honor artist Yuko Shimizu."
+    },
+    {
+      "title": "Fireworks",
+      "author": "Matthew Burgess 文 / Cátia Chien 图",
+      "douban_url": "",
+      "goodreads_url": "https://www.goodreads.com/book/show/205592098",
+      "blurb": "等烟花的夏夜姐弟，2026年金奖",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2026（金奖）",
+          "url": "https://www.goodreads.com/book/show/205592098"
+        }
+      ]
+    },
+    {
+      "title": "Every Monday Mabel",
+      "author": "Jashar Awan 文/图",
+      "douban_url": "https://book.douban.com/subject/37920744/",
+      "goodreads_url": "https://www.goodreads.com/book/show/214152183",
+      "blurb": "每周一雷打不动看垃圾车的小女孩，热爱小事的力量",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2026（银奖）",
+          "url": "https://www.goodreads.com/book/show/214152183"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s35337439.jpg",
+      "isbn": "9781665938150",
+      "author_detail": "Jashar Awan",
+      "pub_year": "2025",
+      "desc": "Every Monday, Mabel wakes up early and peeks out her window to make sure she didn’t miss the one thing she’s been looking forward to the whole week. She drags her chair down the hallway, past her big sister and Mom and Dad, out the door, and waits."
+    },
+    {
+      "title": "Our Lake",
+      "author": "Angie Kang 文/图",
+      "douban_url": "https://book.douban.com/subject/37920855/",
+      "goodreads_url": "https://www.goodreads.com/book/show/214269016",
+      "blurb": "兄弟姊妹重游与爸爸有关的高山湖，安静的生命课",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2026（银奖）",
+          "url": "https://www.goodreads.com/book/show/214269016"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s35337827.jpg",
+      "isbn": "9780593698235",
+      "author_detail": "Angie Kang",
+      "pub_year": "2025",
+      "desc": "A tender and vulnerable exploration of love and loss that follows two boys as they take their first trip back to the lake without their father, from debut author-illustrator Angie Kang. Today, Brother is taking me up to swim in the lake like Father used to. I want to thank him for bringing us here, "
+    },
+    {
+      "title": "Stalactite & Stalagmite: A Big Tale from a Little Cave",
+      "author": "Drew Beckmeyer 文/图",
+      "douban_url": "https://book.douban.com/subject/37821891/",
+      "goodreads_url": "https://www.goodreads.com/book/show/219687598",
+      "blurb": "两根钟乳石等了几万年终于碰面，地质时间童话",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2026（银奖）",
+          "url": "https://www.goodreads.com/book/show/219687598"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s35404313.jpg",
+      "isbn": "9781665926638",
+      "author_detail": "Drew Beckmeyer",
+      "pub_year": "2025",
+      "desc": "A hilarious and thought-provoking picture book about two little cave rock formations who witness the entire history of the world, perfect for fans of Oliver Jeffers, Jon Klassen, and Mac Barnett."
+    },
+    {
+      "title": "Sundust",
+      "author": "Zeke Peña 文/图",
+      "douban_url": "https://book.douban.com/subject/37920745/",
+      "goodreads_url": "https://www.goodreads.com/book/show/221251770",
+      "blurb": "沙漠阳光的味道，甜到心里的边境童年",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "ALA Caldecott 2026（银奖）",
+          "url": "https://www.goodreads.com/book/show/221251770"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s35337440.jpg",
+      "isbn": "9780593700112",
+      "author_detail": "Zeke Peña",
+      "pub_year": "2025",
+      "desc": "CALDECOTT HONOR BOOK • In his striking author-illustrator debut, the award-winning illustrator of My Papi Has a Motorcycle offers an immersive and fantastical desert adventure, where the sun reigns over the vast landscape and shapes all that it touches."
+    },
+    {
+      "title": "The Very Hungry Caterpillar",
+      "author": "Eric Carle 文/图",
+      "douban_url": "https://book.douban.com/subject/1341007/",
+      "goodreads_url": "https://www.goodreads.com/book/show/4948",
+      "blurb": "从星期一吃到星期日变蝴蝶，洞洞书鼻祖",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "Goodreads Listopia「Best Picture Books」",
+          "url": "https://www.goodreads.com/book/show/4948"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s29695570.jpg",
+      "rating": 9.2,
+      "isbn": "9780241003008",
+      "author_detail": "Eric Carle",
+      "pub_year": "1994",
+      "desc": "饥饿的毛毛虫，从周一到周日，从一个苹果两个梨……到十种杂食到一大片叶子，最后蜕变成美丽花蝴蝶。"
+    },
+    {
+      "title": "Where the Wild Things Are",
+      "author": "Maurice Sendak 文/图",
+      "douban_url": "https://book.douban.com/subject/25872646/",
+      "goodreads_url": "https://www.goodreads.com/book/show/19543",
+      "blurb": "愤怒的小男孩在野兽国称王又回家，现代绘本开山作",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "Goodreads Listopia「Best Picture Books」",
+          "url": "https://www.goodreads.com/book/show/19543"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34745423.jpg",
+      "rating": 9.0,
+      "isbn": "9787221119308",
+      "author_detail": "[美] 莫里斯·桑达克",
+      "publisher": "贵州人民出版社",
+      "pub_year": "2014",
+      "desc": "《野兽国》以简单诗意的语言讲述了调皮男孩迈克斯的故事：他与妈妈大闹了一场，没吃晚饭就被关进了自己的房间。就像孤身一人的奥德修斯，迈克斯旋即开始了远航：一波波的海浪为迈克斯带来一艘小船，他驾着小船出发，过了晚上，到了白天，过了一周有一周，过了几乎一整年，终于来到野兽国。"
+    },
+    {
+      "title": "Goodnight Moon",
+      "author": "Margaret Wise Brown 文 / Clement Hurd 图",
+      "douban_url": "https://book.douban.com/subject/6011211/",
+      "goodreads_url": "https://www.goodreads.com/book/show/32929",
+      "blurb": "对房间逐一说晚安，英语睡前韵文必备",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "Goodreads Listopia「Best Picture Books」",
+          "url": "https://www.goodreads.com/book/show/32929"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s29875707.jpg",
+      "rating": 9.2,
+      "isbn": "9780808593867",
+      "author_detail": "Margaret Wise Brown",
+      "pub_year": "1999",
+      "desc": "A little rabbit bids goodnight to each familiar thing in his room, in this classic story told with gently lulling words and soothing illustrations. 1988 Choices (Association of Booksellers for Children). Full color."
+    },
+    {
+      "title": "The Giving Tree",
+      "author": "Shel Silverstein 文/图",
+      "douban_url": "https://book.douban.com/subject/1059503/",
+      "goodreads_url": "https://www.goodreads.com/book/show/370493",
+      "blurb": "一棵树的无尽给予，关于爱与付出的永恒之问",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "Goodreads Listopia「Best Picture Books」",
+          "url": "https://www.goodreads.com/book/show/370493"
+        }
+      ],
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s1112624.jpg",
+      "rating": 9.0,
+      "isbn": "9787544225151",
+      "author_detail": "谢尔・希尔弗斯坦",
+      "publisher": "南海出版公司",
+      "pub_year": "2003",
+      "desc": "本书是世界绘本的经典作品之一，出版30年来，一直是绘本世界的著名典范，历久不衰，魅力惊人，销量超过550万册。 这是一个由一棵有求必应的苹果树和一个贪求不厌的孩子，共同组成的温馨，又略带哀伤的动人故事。爱心树的英文 “The Giving Tree”，顾名思义便是牺牲奉献的意思，但它亦是一本述说友谊的书。树并未因为男孩的予取予求感到难过，即使后来只剩下残干的他，是那么凄凉孤寂，但当男孩回到他身边只求一个安静的歇脚处时，树竟是满欣喜乐将自己奉献给他，这样的喜悦比起男孩小时在树上刻的 “M.E. + T.”那些甜蜜文字，更令他感到真切舒心。天才的绘本艺术家希尔弗斯坦以简单俐落的线条和充满诗意又带有"
+    },
+    {
+      "title": "The Cat in the Hat",
+      "author": "Dr. Seuss 文/图",
+      "douban_url": "",
+      "goodreads_url": "https://www.goodreads.com/book/show/233093",
+      "blurb": "雨天闯入的帽子猫，自主阅读第一课",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "Goodreads Listopia「Best Picture Books」",
+          "url": "https://www.goodreads.com/book/show/233093"
+        }
+      ]
+    },
+    {
+      "title": "Green Eggs and Ham",
+      "author": "Dr. Seuss 文/图",
+      "douban_url": "https://book.douban.com/subject/2334838/",
+      "goodreads_url": "https://www.goodreads.com/book/show/23772",
+      "blurb": "50个单词写出的\"先尝尝再说\"，挑食娃破防神器",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "Goodreads Listopia「Best Picture Books」",
+          "url": "https://www.goodreads.com/book/show/23772"
+        }
+      ],
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s4573411.jpg",
+      "rating": 8.8,
+      "isbn": "9780394800165",
+      "author_detail": "Dr. Seuss",
+      "pub_year": "1960",
+      "desc": "《绿鸡蛋和火腿》的创作源于苏斯博士和一位朋友打赌，能否用五十个单词写成一个故事。于是便有了这本脍炙人口的书。故事是容易引起孩子共鸣的熟悉话题——要不要尝试新食物。故事情节发展激烈，一个拼命劝，一个玩命躲，最后的结局出人意料。苏斯博士的语言是节奏感很强的韵文，朗朗上口，书中所用词汇很少，而且句子结构大量重复，只置换少量单词，孩子一旦记住了第一句，后边的句子很容易读出来，让孩子颇有成就感。"
+    },
+    {
+      "title": "Madeline",
+      "author": "Ludwig Bemelmans 文/图",
+      "douban_url": "",
+      "goodreads_url": "https://www.goodreads.com/book/show/475339",
+      "blurb": "巴黎最小的女孩\"不怕老鼠\"，韵文名句传百年",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "Goodreads Listopia「Best Picture Books」",
+          "url": "https://www.goodreads.com/book/show/475339"
+        }
+      ]
+    },
+    {
+      "title": "Corduroy",
+      "author": "Don Freeman 文/图",
+      "douban_url": "https://book.douban.com/subject/2342906/",
+      "goodreads_url": "https://www.goodreads.com/book/show/231850",
+      "blurb": "缺纽扣的小熊夜游百货商场找到家",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "Goodreads Listopia「Best Picture Books」",
+          "url": "https://www.goodreads.com/book/show/231850"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s2802207.jpg",
+      "rating": 8.6,
+      "isbn": "9780590757751",
+      "author_detail": "Don Freeman",
+      "pub_year": "1968",
+      "desc": "Don Freeman&#39;s classic character, Corduroy, is even more popular today then he was when he first came on the scene over thirty years ago. These favorite titles are ready for another generation of children to love."
+    },
+    {
+      "title": "Harold and the Purple Crayon",
+      "author": "Crockett Johnson 文/图",
+      "douban_url": "",
+      "goodreads_url": "https://www.goodreads.com/book/show/98573",
+      "blurb": "一支紫蜡笔画出整个世界，创造力启蒙原点",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "Goodreads Listopia「Best Picture Books」",
+          "url": "https://www.goodreads.com/book/show/98573"
+        }
+      ]
+    },
+    {
+      "title": "Chicka Chicka Boom Boom",
+      "author": "Bill Martin Jr. & John Archambault 文 / Lois Ehlert 图",
+      "douban_url": "https://book.douban.com/subject/1840279/",
+      "goodreads_url": "https://www.goodreads.com/book/show/293595",
+      "blurb": "字母爬椰子树，ABC韵律节奏神书",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "Goodreads Listopia「Best Picture Books」",
+          "url": "https://www.goodreads.com/book/show/293595"
+        }
+      ],
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s6576674.jpg",
+      "rating": 8.5,
+      "isbn": "9780689835681",
+      "author_detail": "Bill Martin Jr.",
+      "pub_year": "2000",
+      "desc": "A told B,"
+    },
+    {
+      "title": "Brown Bear, Brown Bear, What Do You See?",
+      "author": "Bill Martin Jr. 文 / Eric Carle 图",
+      "douban_url": "https://book.douban.com/subject/1840280/",
+      "goodreads_url": "https://www.goodreads.com/book/show/759611",
+      "blurb": "颜色动物一问一答循环，英语启蒙第一书",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "Goodreads Listopia「Best Picture Books」",
+          "url": "https://www.goodreads.com/book/show/759611"
+        }
+      ],
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s7003351.jpg",
+      "rating": 9.1,
+      "isbn": "9780805047905",
+      "author_detail": "Bill Martin Jr.",
+      "pub_year": "1996",
+      "desc": "A treasured classic in an all-new format! Nearly 30 years--and more than 2.5 million copies--after its conception, Brown Bear, Brown Bear, What Do You See? remains one of the most beloved children&#39;s books of all time. Now, this charming tale is available in a board book format--just right for th"
+    },
+    {
+      "title": "Guess How Much I Love You",
+      "author": "Sam McBratney 文 / Anita Jeram 图",
+      "douban_url": "https://book.douban.com/subject/1433640/",
+      "goodreads_url": "https://www.goodreads.com/book/show/301736",
+      "blurb": "\"我爱你到月亮再绕回来\"，亲子告白英文原版",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "Goodreads Listopia「Best Picture Books」",
+          "url": "https://www.goodreads.com/book/show/301736"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s24549957.jpg",
+      "rating": 9.4,
+      "isbn": "9787532463459",
+      "author_detail": "[英] 山姆·麦克布雷尼 文",
+      "publisher": "少年儿童出版社",
+      "pub_year": "2005",
+      "desc": "孩子总喜欢和别人比较，在《猜猜我有多爱你》这本图画书中的小兔子就是个典型的例子。小兔子认真的告诉大兔子“我好爱你”，而大兔子回应小兔子说：“我更爱你！”如此一来，不仅确定大兔子很爱自己，更希望自己的爱能胜过大兔子的爱。牠想尽办法用各种身体动作、看得见的景物来描述自己的爱意，直到牠累得在大兔子的怀中睡着了。"
+    },
+    {
+      "title": "The Tale of Peter Rabbit",
+      "author": "Beatrix Potter 文/图",
+      "douban_url": "https://book.douban.com/subject/1768128/",
+      "goodreads_url": "https://www.goodreads.com/book/show/19321",
+      "blurb": "菜园里闯祸的小兔子，百年田园经典",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "Goodreads Listopia「Best Picture Books」",
+          "url": "https://www.goodreads.com/book/show/19321"
+        }
+      ],
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s4312181.jpg",
+      "rating": 8.4,
+      "isbn": "9780723247708",
+      "author_detail": "Beatrix Potter",
+      "pub_year": "2002",
+      "desc": "2002 marks the 100th anniversary of one of the best-loved children&#39;s books of all time. Since 1902, over 40 million copies of The Tale of Peter Rabbit have been sold worldwide, in more than 35 languages. Recently, it was named the second best-selling children&#39;s book of all time by Publishers"
+    },
+    {
+      "title": "Make Way for Ducklings",
+      "author": "Robert McCloskey 文/图",
+      "douban_url": "https://book.douban.com/subject/1354158/",
+      "goodreads_url": "https://www.goodreads.com/book/show/29291",
+      "blurb": "警察为鸭子一家拦下车流，1942年凯迪克金奖",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "Goodreads Listopia「Best Picture Books」",
+          "url": "https://www.goodreads.com/book/show/29291"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s3393713.jpg",
+      "rating": 9.6,
+      "isbn": "9780140564341",
+      "author_detail": "Robert McClosky",
+      "pub_year": "1999",
+      "desc": "This classic tale of the famous Mallard ducks of Boston is available for the first time in a full-sized paperback edition. Awarded the Caldecott Medal in 1941, Make Way for Ducklings has been described as &#34;one of the merriest picture books ever&#34; ( The New York Times ). Ideal for reading alou"
+    },
+    {
+      "title": "The Snowy Day",
+      "author": "Ezra Jack Keats 文/图",
+      "douban_url": "https://book.douban.com/subject/2626056/",
+      "goodreads_url": "https://www.goodreads.com/book/show/310258",
+      "blurb": "小男孩雪天的一日冒险，拼贴雪景",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "Goodreads Listopia「Best Picture Books」",
+          "url": "https://www.goodreads.com/book/show/310258"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s6870043.jpg",
+      "rating": 8.7,
+      "isbn": "9780140501827",
+      "author_detail": "Ezra Jack Keats",
+      "pub_year": "1976",
+      "desc": "&#34;In this book sparkling with atmosphere, a small boy experiences the joys of a snowy day. The brief, vividly expressed text points out his new awareness.&#34;--The Horn Book. A Caldecott Honor Book. Full color."
+    },
+    {
+      "title": "Curious George",
+      "author": "H. A. Rey & Margret Rey 文/图",
+      "douban_url": "",
+      "goodreads_url": "https://www.goodreads.com/book/show/420297",
+      "blurb": "猴子乔治的\"好奇闯祸学\"，经典形象80年",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "Goodreads Listopia「Best Picture Books」",
+          "url": "https://www.goodreads.com/book/show/420297"
+        }
+      ]
+    },
+    {
+      "title": "Alexander and the Terrible, Horrible, No Good, Very Bad Day",
+      "author": "Judith Viorst 文 / Ray Cruz 图",
+      "douban_url": "https://book.douban.com/subject/2141827/",
+      "goodreads_url": "https://www.goodreads.com/book/show/46677",
+      "blurb": "倒霉透顶的一天，教孩子接纳坏情绪",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "Goodreads Listopia「Best Picture Books」",
+          "url": "https://www.goodreads.com/book/show/46677"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s4825248.jpg",
+      "rating": 8.5,
+      "isbn": "9780689711732",
+      "author_detail": "Judith Viorst",
+      "pub_year": "1987",
+      "desc": "A Latino-centric movie adaptation is coming soon to Disney+!"
+    },
+    {
+      "title": "Don't Let the Pigeon Drive the Bus!",
+      "author": "Mo Willems 文/图",
+      "douban_url": "https://book.douban.com/subject/2244365/",
+      "goodreads_url": "https://www.goodreads.com/book/show/191113",
+      "blurb": "赖皮鸽子疯狂恳求，互动式共读笑场之王",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "Goodreads Listopia「Best Picture Books」",
+          "url": "https://www.goodreads.com/book/show/191113"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34742699.jpg",
+      "rating": 8.9,
+      "isbn": "9780786819881",
+      "author_detail": "Mo Willems",
+      "pub_year": "2003",
+      "desc": "When a bus driver takes a break from his route, a very unlikely volunteer springs up to take his place-a pigeon! But you&#39;ve never met one like this before. As he pleads, wheedles, and begs his way through the book, children will love being able to answer back and decide his fate. In his hilariou"
+    },
+    {
+      "title": "The Gruffalo",
+      "author": "Julia Donaldson 文 / Axel Scheffler 图",
+      "douban_url": "https://book.douban.com/subject/1346213/",
+      "goodreads_url": "https://www.goodreads.com/book/show/1013383",
+      "blurb": "小鼠编出咕噜牛吓退天敌，英国韵文冒险国民书",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "Goodreads Listopia「Best Picture Books」",
+          "url": "https://www.goodreads.com/book/show/1013383"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s4628613.jpg",
+      "rating": 9.2,
+      "isbn": "9780333710937",
+      "author_detail": "Julia Donaldson",
+      "pub_year": "1999",
+      "desc": "A rhyming story of a mouse and a monster. Little mouse goes for a walk in a dangerous forest. To scare off his enemies, he invents tales of a fantastical creature called the Gruffalo. Imagine his surprise when he meets the real Gruffalo!"
+    },
+    {
+      "title": "Room on the Broom",
+      "author": "Julia Donaldson 文 / Axel Scheffler 图",
+      "douban_url": "https://book.douban.com/subject/2616061/",
+      "goodreads_url": "https://www.goodreads.com/book/show/177246",
+      "blurb": "女巫的扫帚越坐越挤，分享与回报",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "Goodreads Listopia「Best Picture Books」",
+          "url": "https://www.goodreads.com/book/show/177246"
+        }
+      ],
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s29444345.jpg",
+      "rating": 9.3,
+      "isbn": "9780142501122",
+      "author_detail": "Julia Donaldson",
+      "pub_year": "2003",
+      "desc": "The witch and her cat are happily flying through the sky on a broomstick when the wind picks up and blows away the witch&#39;s hat, then her bow, and then her wand! Luckily, three helpful animals find the missing items, and all they want in return is a ride on the broom. But is there room on the bro"
+    },
+    {
+      "title": "The Rainbow Fish",
+      "author": "Marcus Pfister 文/图",
+      "douban_url": "https://book.douban.com/subject/2809305/",
+      "goodreads_url": "https://www.goodreads.com/book/show/766020",
+      "blurb": "分出亮鳞片才交到朋友，闪光锡纸质感",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "Goodreads Listopia「Best Picture Books」",
+          "url": "https://www.goodreads.com/book/show/766020"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s24942492.jpg",
+      "rating": 7.3,
+      "isbn": "9781558585362",
+      "author_detail": "Pfister, Marcus",
+      "pub_year": "1999",
+      "desc": "A board book edition of a popular modern classic follows the tale of a beautiful iridescent fish, who suffers a life of loneliness until he decides to share his glittering scales with a catch of new friends."
+    },
+    {
+      "title": "The Kissing Hand",
+      "author": "Audrey Penn 文 / Ruth E. Harper & Nancy M. Leak 图",
+      "douban_url": "https://book.douban.com/subject/5995627/",
+      "goodreads_url": "https://www.goodreads.com/book/show/18419",
+      "blurb": "妈妈掌心的吻，分离焦虑入园神器",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "Goodreads Listopia「Best Picture Books」",
+          "url": "https://www.goodreads.com/book/show/18419"
+        }
+      ],
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s4846464.jpg",
+      "rating": 9.2,
+      "isbn": "9780756992996",
+      "author_detail": "Penn, Audrey; Harper, Ruth E.; Leak, Nancy M.",
+      "pub_year": "2010",
+      "desc": "In this contemporary classic Chester Raccoon seeks love and reassurance from his mother as he ventures out into the world to attend his very first day of school."
+    },
+    {
+      "title": "Love You Forever",
+      "author": "Robert Munsch 文 / Sheila McGraw 图",
+      "douban_url": "https://book.douban.com/subject/1498976/",
+      "goodreads_url": "https://www.goodreads.com/book/show/310259",
+      "blurb": "从摇篮到摇篮的循环之歌，\"我永远爱你\"",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "Goodreads Listopia「Best Picture Books」",
+          "url": "https://www.goodreads.com/book/show/310259"
+        }
+      ],
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s1505901.jpg",
+      "rating": 8.5,
+      "isbn": "9780920668375",
+      "author_detail": "Robert N. Munsch",
+      "pub_year": "1986",
+      "desc": "A young woman holds her newborn son"
+    },
+    {
+      "title": "Good Night, Gorilla",
+      "author": "Peggy Rathmann 文/图",
+      "douban_url": "https://book.douban.com/subject/1340613/",
+      "goodreads_url": "https://www.goodreads.com/book/show/773276",
+      "blurb": "晚安大猩猩英文原版，几乎无字的睡前喜剧",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "Goodreads Listopia「Best Picture Books」",
+          "url": "https://www.goodreads.com/book/show/773276"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s3996147.jpg",
+      "rating": 9.5,
+      "isbn": "9780698116498",
+      "author_detail": "Peggy Rathmann",
+      "pub_year": "2000",
+      "desc": "&#34;Good night, Gorilla&#34;, says the zookeeper. But mischievous Gorilla isn&#39;t quite ready to go to sleep. He&#39;d rather follow the zookeeper on his rounds and let all of the other animals out of their cages. Little night owls can sneak along with Gorilla and see who gets the last laugh in t"
+    },
+    {
+      "title": "The Dot",
+      "author": "Peter H. Reynolds 文/图",
+      "douban_url": "https://book.douban.com/subject/1345028/",
+      "goodreads_url": "https://www.goodreads.com/book/show/825377",
+      "blurb": "\"签名就是开始\"，艺术自信启蒙",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "Goodreads Listopia「Best Picture Books」",
+          "url": "https://www.goodreads.com/book/show/825377"
+        }
+      ],
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s21268005.jpg",
+      "rating": 9.2,
+      "isbn": "9781844281695",
+      "author_detail": "Peter H. Reynolds",
+      "pub_year": "2004",
+      "desc": "美术课下课啦，葳葳的图画纸上空白一片，她对老师说：「我就是不 会画图呀！」幸好老师很聪明，她平静温和地鼓励葳葳试着画几笔。 没想到火气不小的葳葳抓起笔来，用力往纸上点了一下，「喏！」顺 手把画纸递给老师交差了事。老师没半点不高兴，看了看纸上那一个 点，想了想，把画纸推回葳葳面前，轻轻说了句：「请签名。」葳葳 想她虽然不会画画，但签名难不倒她，就在纸上签了名。"
+    },
+    {
+      "title": "Owl Moon",
+      "author": "Jane Yolen 文 / John Schoenherr 图",
+      "douban_url": "https://book.douban.com/subject/1831059/",
+      "goodreads_url": "https://www.goodreads.com/book/show/228696",
+      "blurb": "月夜寻猫头鹰的父女静默之旅，1988年凯迪克金奖",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "Goodreads Listopia「Best Picture Books」",
+          "url": "https://www.goodreads.com/book/show/228696"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s1691177.jpg",
+      "rating": 8.9,
+      "isbn": "9780399214578",
+      "author_detail": "Jane Yolen",
+      "pub_year": "1987",
+      "desc": "&#34;As expansive as the broad sweep of the great owl&#39;s wings and as close and comforting as a small hand held on a wintry night . . . The visual images have a sense of depth and seem to invite readers into this special nighttime world.&#34;--School Library Journal, starred review. Full color. 1"
+    },
+    {
+      "title": "Tuesday",
+      "author": "David Wiesner 文/图",
+      "douban_url": "",
+      "goodreads_url": "https://www.goodreads.com/book/show/97860",
+      "blurb": "青蛙乘荷叶夜空飞行，1992年凯迪克金奖无字幽默",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "Goodreads Listopia「Best Picture Books」",
+          "url": "https://www.goodreads.com/book/show/97860"
+        }
+      ]
+    },
+    {
+      "title": "Knuffle Bunny: A Cautionary Tale",
+      "author": "Mo Willems 文/图",
+      "douban_url": "https://book.douban.com/subject/1345672/",
+      "goodreads_url": "https://www.goodreads.com/book/show/490867",
+      "blurb": "学说话前的第一次大崩溃，实景+手绘混搭",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "Goodreads Listopia「Best Picture Books」",
+          "url": "https://www.goodreads.com/book/show/490867"
+        }
+      ],
+      "cover": "https://img2.doubanio.com/view/subject/l/public/s11246461.jpg",
+      "rating": 8.8,
+      "isbn": "9780786818709",
+      "author_detail": "Mo Willems",
+      "pub_year": "2004",
+      "desc": "Trixie, Daddy, and Knuffle Bunny take a trip to the neighborhood Laundromat. But the exciting adventure takes a dramatic turn when Trixie realizes somebunny was left behind . . . This 2005 Caldecott Honor book uses a combination of muted black-and-white photographs and expressive illustrations and t"
+    },
+    {
+      "title": "The Search for the Giant Arctic Jellyfish",
+      "author": "Chloe Savage 文/图",
+      "douban_url": "https://book.douban.com/subject/36620866/",
+      "goodreads_url": "https://www.goodreads.com/book/show/62595184",
+      "blurb": "科考队北上寻找传说中的巨型水母，找没找到看到最后",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "The School Reading List (UK) Year 1",
+          "url": "https://www.goodreads.com/book/show/62595184"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34679768.jpg",
+      "isbn": "9781529512878",
+      "author_detail": "Chloe Savage",
+      "pub_year": "2023",
+      "desc": "Dr Morley is about to embark on a quest to the northernmost tip of the world, to discover a creature that everyone talks about but nobody has ever seen: The Giant Arctic Jellyfish. After years of research and hard graft, she gathers together a highly trained crew and a boat full of specialist equipm"
+    },
+    {
+      "title": "Don't Trust Fish!",
+      "author": "Neil Sharpson 文 / Dan Santat 图",
+      "douban_url": "https://book.douban.com/subject/37325476/",
+      "goodreads_url": "https://www.goodreads.com/book/show/216247491",
+      "blurb": "一本\"科普书\"冷静吐槽鱼的诡计，冷面幽默",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "The School Reading List (UK) Year 1",
+          "url": "https://www.goodreads.com/book/show/216247491"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s35134673.jpg",
+      "isbn": "9780593616673",
+      "author_detail": "Neil Sharpson",
+      "pub_year": "2025",
+      "desc": "Why, dear reader, must you NEVER EVER trust fish?"
+    },
+    {
+      "title": "The Midnight Panther",
+      "author": "Poonam Mistry 文/图",
+      "douban_url": "https://book.douban.com/subject/36633073/",
+      "goodreads_url": "https://www.goodreads.com/book/show/63944246",
+      "blurb": "想学会吼叫的小豹四处拜师，印度细密画美学",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "The School Reading List (UK) Year 1",
+          "url": "https://www.goodreads.com/book/show/63944246"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s34691152.jpg",
+      "isbn": "9781787418929",
+      "author_detail": "Poonam Mistry",
+      "pub_year": "2022",
+      "desc": "Panther is not like the other cats: Leopard has beautiful spots, Tiger has impressive stripes, and Lion has a magnificent mane. But Panther is small, shy, and plain. The other cats say he is not special."
+    },
+    {
+      "title": "Goodnight Everyone",
+      "author": "Chris Haughton 文/图",
+      "douban_url": "https://book.douban.com/subject/27002696/",
+      "goodreads_url": "https://www.goodreads.com/book/show/29662496",
+      "blurb": "蓝调星空下的睡前书，\"我还不困\"的小熊",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "The School Reading List (UK) Year 1",
+          "url": "https://www.goodreads.com/book/show/29662496"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s29407742.jpg",
+      "isbn": "9780763690793",
+      "author_detail": "Chris Haughton",
+      "pub_year": "2016",
+      "desc": "From the creator of Shh! We Have a Plan comes a mesmerizing bedtime tale of a forest settling into slumber and one little bear trying to stay awake."
+    },
+    {
+      "title": "Hairy Maclary from Donaldson's Dairy",
+      "author": "Lynley Dodd 文/图",
+      "douban_url": "https://book.douban.com/subject/7047397/",
+      "goodreads_url": "https://www.goodreads.com/book/show/1153709",
+      "blurb": "新西兰国民狗狗出门遛弯，叠句韵文",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "The School Reading List (UK) Year 1",
+          "url": "https://www.goodreads.com/book/show/1153709"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s7991299.jpg",
+      "isbn": "9780140569971",
+      "author_detail": "Lynley Dodd",
+      "pub_year": "2005",
+      "desc": "This bestselling story has now been brilliantly adapted for audio CD and there are two readings - the first is a straight reading with music and the second has a &#39;special sound&#39; to indicate where to turn the page as you read along. Hairy Maclary goes off for a walk with a few of his friends "
+    },
+    {
+      "title": "Cinnamon",
+      "author": "Neil Gaiman 文 / Divya Srinivasan 图",
+      "douban_url": "",
+      "goodreads_url": "https://www.goodreads.com/book/show/13389825",
+      "blurb": "不说话的公主与虎的相遇，吉曼寓言童话",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "The School Reading List (UK) Year 1",
+          "url": "https://www.goodreads.com/book/show/13389825"
+        }
+      ]
+    },
+    {
+      "title": "That Rabbit Belongs to Emily Brown",
+      "author": "Cressida Cowell 文 / Neal Layton 图",
+      "douban_url": "https://book.douban.com/subject/2608305/",
+      "goodreads_url": "https://www.goodreads.com/book/show/671427",
+      "blurb": "王后想买走玩具兔，捍卫旧玩具的宣言",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "The School Reading List (UK) Year 1",
+          "url": "https://www.goodreads.com/book/show/671427"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s3988440.jpg",
+      "isbn": "9781423106456",
+      "author_detail": "Cressida Cowell",
+      "desc": "A stunning reissue of this classic picture book. When the Queen steals Emily Brown&#39;s favourite toy and erstwhile companion, a toy rabbit called Stanley, Emily sets out to get him back and teach that naughty queen a valuable lesson!"
+    },
+    {
+      "title": "The Smile Shop",
+      "author": "Satoshi Kitamura 文/图",
+      "douban_url": "",
+      "goodreads_url": "https://www.goodreads.com/book/show/54697245",
+      "blurb": "攒钱买微笑的男孩发现微笑无法买卖",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "The School Reading List (UK) Year 1",
+          "url": "https://www.goodreads.com/book/show/54697245"
+        }
+      ]
+    },
+    {
+      "title": "You Choose!",
+      "author": "Pippa Goodhart 文 / Nick Sharratt 图",
+      "douban_url": "https://book.douban.com/subject/6574957/",
+      "goodreads_url": "https://www.goodreads.com/book/show/1113991",
+      "blurb": "每页几百个选项的想象游戏书，开口神器",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "The School Reading List (UK) Year 1",
+          "url": "https://www.goodreads.com/book/show/1113991"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s6574562.jpg",
+      "isbn": "9780385601764",
+      "author_detail": "Goodhart, Pippa",
+      "pub_year": "2003"
+    },
+    {
+      "title": "A Dark, Dark Tale",
+      "author": "Ruth Brown 文/图",
+      "douban_url": "https://book.douban.com/subject/1340562/",
+      "goodreads_url": "https://www.goodreads.com/book/show/849139",
+      "blurb": "层层逼近的黑盒子里是一只小猫，胆量游戏",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "The School Reading List (UK) Year 1",
+          "url": "https://www.goodreads.com/book/show/849139"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s4736140.jpg",
+      "rating": 9.3,
+      "isbn": "9780140546217",
+      "author_detail": "Brown, Ruth",
+      "pub_year": "1992",
+      "desc": "Journeying through a dark, dark house, a black cat surprises the only inhabitant of the abandoned residence"
+    },
+    {
+      "title": "Cops and Robbers",
+      "author": "Janet & Allan Ahlberg 图/文",
+      "douban_url": "https://book.douban.com/subject/6430758/",
+      "goodreads_url": "https://www.goodreads.com/book/show/1208494",
+      "blurb": "圣诞节抢劫犯与警察的追逐，英式节奏经典",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "The School Reading List (UK) Year 1",
+          "url": "https://www.goodreads.com/book/show/1208494"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s6384782.jpg",
+      "isbn": "9780821853474",
+      "author_detail": "Anthony Bonato",
+      "pub_year": "2011",
+      "desc": "This book is the first and only one of its kind on the topic of Cops and Robbers games, and more generally, on the field of vertex pursuit games on graphs. The book is written in a lively and highly readable fashion, which should appeal to both senior undergraduates and experts in the field (and eve"
+    },
+    {
+      "title": "The Bad-Tempered Ladybird",
+      "author": "Eric Carle 文/图",
+      "douban_url": "https://book.douban.com/subject/1341212/",
+      "goodreads_url": "https://www.goodreads.com/book/show/695781",
+      "blurb": "越吵对手越大的坏脾气瓢虫，学会说\"请\"",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "The School Reading List (UK) Year 1",
+          "url": "https://www.goodreads.com/book/show/695781"
+        }
+      ],
+      "cover": "https://img3.doubanio.com/view/subject/l/public/s4217320.jpg",
+      "isbn": "9780140503982",
+      "author_detail": "Eric Carle",
+      "pub_year": "1999",
+      "desc": "The bad-tempered ladybird picks fights with every animal he meets, but soon learns the importance of friends and turns into a far nicer, happier bug. The beautifully illustrated pages of this entertaining book demonstrate the sizes of the different animals and the sun&#39;s path across the sky as ti"
+    },
+    {
+      "title": "King of the Classroom",
+      "author": "Derrick Barnes 文 / Vanessa Brantley-Newton 图",
+      "douban_url": "",
+      "goodreads_url": "https://www.goodreads.com/book/show/58060040",
+      "blurb": "入园首日的自信宣言",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "The School Reading List (UK) Year 1",
+          "url": "https://www.goodreads.com/book/show/58060040"
+        }
+      ]
+    },
+    {
+      "title": "Chocolate Cake",
+      "author": "Michael Rosen 文 / Kevin Waldron 图",
+      "douban_url": "https://book.douban.com/subject/6894439/",
+      "goodreads_url": "https://www.goodreads.com/book/show/32509782",
+      "blurb": "半夜偷吃巧克力蛋糕的声效叙事，Rosen 朗读名场面",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "The School Reading List (UK) Year 1",
+          "url": "https://www.goodreads.com/book/show/32509782"
+        }
+      ],
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s7139276.jpg",
+      "isbn": "9780803734074",
+      "author_detail": "Kaplan, Michael B.; Jorisch, Stephane;",
+      "pub_year": "2011"
+    },
+    {
+      "title": "Beansprout",
+      "author": "Sarah Lynne Reul 文/图",
+      "douban_url": "https://book.douban.com/subject/33002520/",
+      "goodreads_url": "https://www.goodreads.com/book/show/216390783",
+      "blurb": "小园丁种出\"豆芽怪\"，社区花园的诚实与勇气",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "NYPL Best Books for Kids 2025",
+          "url": "https://www.goodreads.com/book/show/216390783"
+        }
+      ],
+      "cover": "https://img9.doubanio.com/view/subject/l/public/s31892654.jpg",
+      "isbn": "9781541101982",
+      "desc": "A life worth living is worth recording, and what better place than this journal? These lined pages crave your scribbled notes, thoughts, ideas, experiences, and notions. Fill the lines, remember your life, don&#39;t lose your ideas, and keep reaching higher to live the best life you can. It all star"
+    },
+    {
+      "title": "Are You a Friend of Dorothy?",
+      "author": "Kyle Lukoff 文 / Levi Hastings 图",
+      "douban_url": "",
+      "goodreads_url": "https://www.goodreads.com/book/show/214152361",
+      "blurb": "真实历史：\"多萝西的朋友们\"如何守望彼此",
+      "is_en_listed": true,
+      "sources": [
+        {
+          "name": "NYPL Best Books for Kids 2025",
+          "url": "https://www.goodreads.com/book/show/214152361"
+        }
+      ]
+    }
+  ]
 }
