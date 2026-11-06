@@ -90,8 +90,9 @@ def main():
     notes_path = ROOT / "data/blogger-notes.json"
     if notes_path.exists():
         overlay = json.loads(notes_path.read_text(encoding="utf-8")).get("bloggers", {})
-    theme_labels = {t["id"]: t["label"] for t in json.loads(
-        (ROOT / "src/data/taxonomy.json").read_text(encoding="utf-8"))["themes"]}
+    taxo = json.loads((ROOT / "src/data/taxonomy.json").read_text(encoding="utf-8"))
+    theme_labels = {t["id"]: t["label"] for t in taxo["themes"]}
+    theme_labels_en = {t["id"]: t["label_en"] for t in taxo["themes"]}
     by_up = {}
     for v in videos:
         by_up.setdefault(v["up"] or "未知UP主", []).append(v)
@@ -105,12 +106,18 @@ def main():
                     if pool.get(_vidkey(v), {}).get("mid")), None)
         themes = [t for v in vids for t in v["tags"]["theme"]]
         top_themes = [theme_labels[t] for t, _ in Counter(themes).most_common(2)]
+        top_themes_en = [theme_labels_en[t] for t, _ in Counter(themes).most_common(2)]
         info = overlay.get(up, {})
         source_name = info.get("source") or "社区精选"
         source_url = info.get("source_url") or SOURCE_URLS.get(source_name, "")
-        reason = info.get("reason") or (
+        # 推荐理由：手工覆盖层优先；否则按主题分布自动生成中英两版
+        reason_zh = info.get("reason") or (
             f"收录 {len(vids)} 条视频，主打{'、'.join(top_themes)}" if top_themes
             else f"收录 {len(vids)} 条视频"
+        )
+        reason_en = info.get("reason_en") or (
+            f"{len(vids)} videos, mainly {' and '.join(top_themes_en)}" if top_themes_en
+            else f"{len(vids)} videos"
         )
         bloggers.append({
             "up": up,
@@ -118,7 +125,8 @@ def main():
             "video_count": len(vids),
             "themes": [t for t, _ in Counter(themes).most_common(3)],
             "platforms": sorted({v.get("source") or "bilibili" for v in vids}),
-            "reason": reason,
+            "reason": reason_zh,
+            "reason_en": reason_en,
             "source": source_name,
             "source_url": source_url,
             "mid": mid,

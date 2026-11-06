@@ -61,7 +61,7 @@ const { title = '童心岛 · 为孩子精选的中文视频片单', description
 	<body>
 		<header class="site-header">
 			<div class="site-header-inner">
-				<a class="logo" href={base}>🏝️ 童心岛</a>
+				<a class="logo" href={base}>🏝️ <span data-i18n="brand_name">童心岛</span></a>
 				<nav class="navtabs">
 					<a href={base} aria-current={Astro.url.pathname === base || Astro.url.pathname === `${base}index.html` ? 'page' : undefined}>
 						<span data-i18n="nav_videos">视频</span>
@@ -94,7 +94,11 @@ const { title = '童心岛 · 为孩子精选的中文视频片单', description
 				document.querySelectorAll<HTMLElement>('[data-i18n]').forEach((el) => {
 					let text = t(el.dataset.i18n!, lang);
 					for (const [k, v] of Object.entries(el.dataset)) {
-						if (k.startsWith('i18nVar')) text = text.replace(`{${k.slice(7).toLowerCase()}}`, v);
+						// data-i18n-var-reason-zh → {reason_zh}
+						if (k.startsWith('i18nVar')) {
+							const name = k.slice(7).replace(/^([A-Z])/, (m) => m.toLowerCase()).replace(/-/g, '_');
+							text = text.replace(`{${name}}`, v);
+						}
 					}
 					el.textContent = text;
 				});

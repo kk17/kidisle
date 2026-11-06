@@ -40,7 +40,7 @@ const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]
 										<span class="bcount"><span data-i18n-var-n={String(b.video_count)} data-i18n="videos_count">{b.video_count} 条视频</span></span>
 									</span>
 								</span>
-								<span class="breason">{b.reason}</span>
+								<span class="breason" data-i18n="blogger_reason" data-i18n-var-reason-zh={b.reason} data-i18n-var-reason-en={b.reason_en ?? b.reason}>{b.reason}</span>
 								<span class="tagrow">
 									{(b.themes ?? []).map((t) => <span class="tag">{themeLabel[t] ?? t}</span>)}
 								</span>

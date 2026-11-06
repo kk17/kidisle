@@ -19,7 +19,7 @@ const list = videos.videos.filter((v) => v.up === blogger.up);
 			</span>
 			<div class="binfo">
 				<h1>{blogger.up}</h1>
-				<p class="breason">{blogger.reason}</p>
+				<p class="breason" data-i18n="blogger_reason" data-i18n-var-reason-zh={blogger.reason} data-i18n-var-reason-en={blogger.reason_en ?? blogger.reason}>{blogger.reason}</p>
 				<p class="bmeta">
 					<span data-i18n="videos_count" data-i18n-var-n={String(list.length)}>{list.length} 条视频</span> · <span data-i18n="source_label">来源</span>：
 					{blogger.source_url ? (
