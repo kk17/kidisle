@@ -9,12 +9,13 @@ interface Props {
 	book: any;
 }
 const { book: b } = Astro.props;
-import { base } from '../lib/base.ts';
+import { base, assetUrl } from '../lib/base.ts';
 const href = `${base}book/${b.id}/`;
+const coverSrc = assetUrl(b.cover);
 ---
 <a class="bkcard" href={href}>
 	<div class="bkcover">
-		{b.cover && <img src={b.cover} loading="lazy" alt="" onerror="this.style.display='none'" />}
+		{coverSrc && <img src={coverSrc} loading="lazy" alt="" onerror="this.style.display='none'" />}
 		{b.rating && <span class="bkrating">★ {b.rating}</span>}
 	</div>
 	<div class="bkbody">

@@ -1,19 +1,22 @@
 ---
-// 共用页面外壳：头部导航 + 页脚 + 设计变量 + 中英切换
+// 共用页面外壳：头部导航（含数据类型下拉）+ 页脚 + 设计变量 + 中英切换
 interface Props {
 	title?: string;
+	titleEn?: string;
 	description?: string;
+	/** 页面所属数据模式：详情页固定（视频/图书）；首页由 URL hash 决定，不传 */
+	mode?: 'video' | 'book';
 }
 import { base } from '../lib/base.ts';
 import taxonomy from '../data/taxonomy.json';
-const { title = '童心岛 · 为孩子精选的中文视频片单', description = '童心岛：为小朋友精选的中文视频片单，按年龄段、语言、主题筛选，B 站官方播放。' } = Astro.props;
+const { title = '童心岛 · 精选儿童视频与绘本', titleEn = 'KidiIsle · Curated videos & picture books for kids', description = '童心岛：为孩子精选的儿童视频与绘本，按年龄段、语言、主题筛选。', mode } = Astro.props;
 ---
 <!doctype html>
 <html lang="zh-CN">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
-		<link rel="icon" href={`${base}favicon.ico`} />
+		<link rel="apple-touch-icon" href={`${base}apple-touch-icon.png`} />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="generator" content={Astro.generator} />
 		<meta name="description" content={description} />
@@ -38,9 +41,16 @@ const { title = '童心岛 · 为孩子精选的中文视频片单', description
 			}
 			.site-header-inner {
 				max-width: var(--maxw); margin: 0 auto; padding: 0.6rem 1rem;
-				display: flex; align-items: center; gap: 1rem;
+				display: flex; align-items: center; gap: 0.8rem;
 			}
 			.logo { font-size: 1.15rem; font-weight: 700; text-decoration: none; color: var(--ink); white-space: nowrap; }
+			/* 数据类型下拉（顶栏，logo 右侧） */
+			.modebar select {
+				font-size: 0.85rem; font-weight: 600; padding: 0.3rem 1.8rem 0.3rem 0.7rem;
+				border: 1px solid var(--line); border-radius: 10px;
+				background: var(--card) url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%230284c7' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat right 0.55rem center;
+				color: var(--ink); cursor: pointer; appearance: none;
+			}
 			.navtabs { display: flex; gap: 0.25rem; flex: 1; }
 			.navtabs a {
 				font-size: 0.9rem; padding: 0.35rem 0.9rem; border-radius: 999px;
@@ -51,6 +61,9 @@ const { title = '童心岛 · 为孩子精选的中文视频片单', description
 				font-size: 0.8rem; font-weight: 600; padding: 0.3rem 0.8rem; border-radius: 999px;
 				border: 1px solid var(--line); background: var(--card); color: var(--sea); cursor: pointer;
 			}
+			@media (max-width: 560px) {
+				.modebar select { max-width: 8.5em; }
+			}
 			.site-footer { text-align: center; color: var(--muted); font-size: 0.8rem; padding: 1.5rem 0 2rem; }
 			.tag {
 				font-size: 0.7rem; padding: 0.08rem 0.5rem; border-radius: 999px;
@@ -58,11 +71,17 @@ const { title = '童心岛 · 为孩子精选的中文视频片单', description
 			}
 		</style>
 	</head>
-	<body>
+	<body data-title-zh={title} data-title-en={titleEn} data-desc-zh={description} data-desc-en={`${titleEn} — curated videos & picture books for kids`} data-mode={mode}>
 		<header class="site-header">
 			<div class="site-header-inner">
 				<a class="logo" href={base}>🏝️ <span data-i18n="brand_name">童心岛</span></a>
-				<nav class="navtabs">
+				<div class="modebar">
+					<select id="datatype" aria-label="数据类型 / Data type">
+						<option value="video" data-i18n="mode_video">视频片单</option>
+						<option value="book" data-i18n="mode_book">绘本书单</option>
+					</select>
+				</div>
+				<nav class="navtabs" id="navtabs">
 					<a href={base} aria-current={Astro.url.pathname === base || Astro.url.pathname === `${base}index.html` ? 'page' : undefined}>
 						<span data-i18n="nav_videos">视频</span>
 					</a>
@@ -75,7 +94,7 @@ const { title = '童心岛 · 为孩子精选的中文视频片单', description
 		</header>
 		<slot />
 		<footer class="site-footer">
-			童心岛 (kidisle) · 独立开源项目 · <a href="https://github.com/kk17/kidisle">GitHub</a> · MIT · <span data-i18n="footer_rights">视频版权归原 UP 主所有</span>
+			童心岛 (kidisle) · 独立开源项目 · <a href="https://github.com/kk17/kidisle">GitHub</a> · MIT · <span data-i18n="footer_rights">视频与图书信息版权归原作者所有</span>
 		</footer>
 
 		<!-- 标签双语字典（taxonomy），供全局切换脚本使用 -->
@@ -88,9 +107,56 @@ const { title = '童心岛 · 为孩子精选的中文视频片单', description
 
 		<script>
 			import { getLang, setLang, t, SOURCE_EN } from '../lib/i18n.ts';
+			import { base } from '../lib/base.ts';
 
+			// ---- 数据模式（video/book）：状态源 = body data-mode（详情页）或 URL hash（首页）----
+			const modeSel = document.getElementById('datatype') as HTMLSelectElement;
+			const navtabs = document.getElementById('navtabs')!;
+			const isIndex = () => !!document.getElementById('video-section');
+			function currentMode(): 'video' | 'book' {
+				if (document.body.dataset.mode) return document.body.dataset.mode as 'video' | 'book';
+				if (isIndex()) return location.hash === '#books' ? 'book' : 'video';
+				return 'video';
+			}
+			function syncModeUI(mode: 'video' | 'book') {
+				if (modeSel) modeSel.value = mode;
+				// 图书模式不显示 视频/博主 tab
+				if (navtabs) navtabs.style.display = mode === 'book' ? 'none' : '';
+			}
+			function dispatchMode(mode: 'video' | 'book') {
+				window.dispatchEvent(new CustomEvent('kidisle:modechange', { detail: { mode } }));
+			}
+			modeSel?.addEventListener('change', () => {
+				const mode = modeSel.value as 'video' | 'book';
+				if (isIndex()) {
+					history.replaceState(null, '', mode === 'book' ? location.pathname + '#books' : location.pathname);
+					dispatchMode(mode);
+				} else {
+					// 详情页/目录页切模式 → 回首页对应模式
+					location.href = base + (mode === 'book' ? '#books' : '');
+					return;
+				}
+				syncModeUI(mode);
+			});
+			window.addEventListener('hashchange', () => {
+				if (isIndex()) {
+					const m = currentMode();
+					syncModeUI(m);
+					dispatchMode(m);
+				}
+			});
+
+			// ---- 中英切换 ----
 			function apply(lang: 'zh' | 'en') {
 				document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+				const body = document.body;
+				if (body.dataset.titleZh) {
+					document.title = lang === 'en' ? (body.dataset.titleEn || body.dataset.titleZh) : body.dataset.titleZh;
+				}
+				const desc = document.querySelector('meta[name="description"]');
+				if (desc && body.dataset.descZh) {
+					desc.setAttribute('content', lang === 'en' ? (body.dataset.descEn || body.dataset.descZh) : body.dataset.descZh);
+				}
 				document.querySelectorAll<HTMLElement>('[data-i18n]').forEach((el) => {
 					let text = t(el.dataset.i18n!, lang);
 					// source_name：英文态查 SOURCE_EN 映射（中文态原样）
@@ -99,9 +165,8 @@ const { title = '童心岛 · 为孩子精选的中文视频片单', description
 						text = SOURCE_EN[name] || name;
 					}
 					for (const [k, v] of Object.entries(el.dataset)) {
-						// data-i18n-var-reason-zh → {reason_zh}
+						// data-i18n-var-reason-zh → dataset key "i18nVarReasonZh" → {reason_zh}
 						if (k.startsWith('i18nVar')) {
-							// data-i18n-var-reason-zh → dataset key "i18nVarReasonZh" → {reason_zh}
 							const name = k
 								.slice(7)
 								.replace(/([a-z0-9])([A-Z])/g, '$1_$2')
@@ -129,6 +194,11 @@ const { title = '童心岛 · 为孩子精选的中文视频片单', description
 				apply(next);
 			});
 			apply(getLang());
+
+			// 初始模式同步（放最后：先让各页面的 modechange 监听器挂好）
+			const initMode = currentMode();
+			syncModeUI(initMode);
+			if (isIndex()) dispatchMode(initMode);
 		</script>
 	</body>
 </html>

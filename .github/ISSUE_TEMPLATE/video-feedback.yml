@@ -1,0 +1,41 @@
+name: 视频反馈
+description: 反馈视频失效、内容不适合小朋友、信息有误等问题
+title: "[视频反馈] "
+labels: ["feedback", "video"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！带 `*` 的字段会由页面跳转自动填入，可直接核对补充。
+  - type: input
+    id: bvid
+    attributes:
+      label: 视频 BV 号
+      description: 从详情页跳转时自动填入
+    validations:
+      required: true
+  - type: input
+    id: video-title
+    attributes:
+      label: 视频标题
+    validations:
+      required: true
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: 问题类型
+      options:
+        - 视频失效了（无法播放）
+        - 内容不适合小朋友
+        - 信息有误（标题/UP主/标签/时长）
+        - 封面显示异常
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: 详细说明
+      description: 具体是什么问题？在什么设备/浏览器上发生的？
+    validations:
+      required: true

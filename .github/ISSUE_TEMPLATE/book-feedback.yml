@@ -1,0 +1,40 @@
+name: 图书反馈
+description: 反馈绘本无封面、信息不准确、链接失效、不适宜儿童等问题
+title: "[图书反馈] "
+labels: ["feedback", "book"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！带 `*` 的字段会由页面跳转自动填入，可直接核对补充。
+  - type: input
+    id: book-title
+    attributes:
+      label: 书名
+      description: 从详情页跳转时自动填入
+    validations:
+      required: true
+  - type: input
+    id: isbn
+    attributes:
+      label: ISBN
+    validations:
+      required: false
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: 问题类型
+      options:
+        - 没有封面 / 封面显示异常
+        - 信息不准确（书名/作者/评分/标签）
+        - 豆瓣或 Goodreads 链接失效
+        - 内容不适宜儿童
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: 详细说明
+    validations:
+      required: true

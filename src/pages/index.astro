@@ -10,15 +10,7 @@ const ageBands = taxonomy.age_bands;
 const languages = taxonomy.languages;
 const themes = taxonomy.themes;
 ---
-<Base>
-	<div class="modebar">
-		<label for="datatype" data-i18n="datatype_label">数据类型</label>
-		<select id="datatype">
-			<option value="video" data-i18n="mode_video">视频片单</option>
-			<option value="book" data-i18n="mode_book">绘本书单</option>
-		</select>
-	</div>
-
+<Base titleEn='KidiIsle · Curated videos & picture books for kids'>
 	<section class="filters" id="video-filters">
 		<div class="filter-row">
 			<span class="dim" data-i18n="filter_platform">平台</span>
@@ -169,20 +161,23 @@ const themes = taxonomy.themes;
 	</style>
 
 	<script>
-		// ---- 模式切换：视频 / 图书 ----
-		const modeSel = document.getElementById('datatype') as HTMLSelectElement;
+		// ---- 模式切换：由顶栏下拉（Base）派发 kidisle:modechange ----
 		const videoFilters = document.getElementById('video-filters')!;
 		const bookFilters = document.getElementById('book-filters')!;
 		const videoSection = document.getElementById('video-section')!;
 		const bookSection = document.getElementById('book-section')!;
 
-		modeSel.addEventListener('change', () => {
-			const mode = modeSel.value;
+		function setMode(mode: 'video' | 'book') {
 			videoFilters.hidden = mode !== 'video';
 			bookFilters.hidden = mode !== 'book';
 			videoSection.hidden = mode !== 'video';
 			bookSection.hidden = mode !== 'book';
-		});
+			// URL hash 与顶栏状态保持同步（replaceState，避免触发 hashchange 循环）
+			history.replaceState(null, '', location.pathname + (mode === 'book' ? '#books' : ''));
+		}
+		window.addEventListener('kidisle:modechange', (e) => setMode((e as CustomEvent).detail.mode));
+		// 初始模式：Base 脚本会在挂载后派发；这里先按 hash 兜底一次
+		setMode(location.hash === '#books' ? 'book' : 'video');
 
 		// ---- 视频筛选 ----
 		const state: Record<string, Set<string>> = {

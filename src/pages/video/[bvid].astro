@@ -47,7 +47,7 @@ const related = (() => {
 })();
 
 ---
-<Base title={`${v.title} · 童心岛`} description={`${v.title} — 童心岛精选儿童视频，UP主：${v.up}`}>
+<Base mode="video" title={`${v.title} · 童心岛`} titleEn={`${v.title} · KidiIsle`}> description={`${v.title} — 童心岛精选儿童视频，UP主：${v.up}`}>
 	<main class="watch">
 		<div class="primary">
 			<div class="player">
@@ -209,6 +209,7 @@ const related = (() => {
 	.copy:active { background: var(--sea); color: #fff; }
 	.kiki { border: 1px solid #f59e0b; background: var(--card); color: #b45309; }
 	.bili { border: 1px solid var(--line); background: var(--card); color: var(--muted); }
+	.feedback { border: 1px dashed var(--line); background: var(--card); color: var(--muted); }
 	.plat-tag { background: #1f2937; color: #fff; }
 	.tip { font-size: 0.75rem; color: var(--muted); margin-top: 0.8rem; }
 	.related h2 { font-size: 1rem; margin: 0 0 0.7rem; }

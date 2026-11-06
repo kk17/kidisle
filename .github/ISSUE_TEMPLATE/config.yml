@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 交流与建议
+    url: https://github.com/kk17/kidisle/discussions
+    about: 一般性讨论、功能建议请到这里（不占用 issue 反馈通道）

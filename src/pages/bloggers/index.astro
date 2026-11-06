@@ -6,7 +6,7 @@ import bloggers from '../../data/bloggers.json';
 
 const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]));
 ---
-<Base title="博主目录 · 童心岛" description="童心岛收录的优质儿童向 B 站博主目录，附推荐理由与来源，可按主题筛选。">
+<Base mode="video" title="博主目录 · 童心岛" titleEn="KidiIsle · Curated creators"> description="童心岛收录的优质儿童向 B 站博主目录，附推荐理由与来源，可按主题筛选。">
 	<main>
 		<p class="intro" data-i18n="creators_intro_full" data-i18n-var-n={String(bloggers.bloggers.length)}>共收录 {bloggers.bloggers.length} 位博主，点进博主查看全部视频。</p>
 		<div class="themebar" id="platformbar">

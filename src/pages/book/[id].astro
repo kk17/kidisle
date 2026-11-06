@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import books from '../../data/books.json';
-import { base } from '../../lib/base.ts';
+import { base, assetUrl } from '../../lib/base.ts';
 
 export function getStaticPaths() {
 	return books.books.map((b) => ({ params: { id: b.id }, props: { book: b } }));
@@ -22,11 +22,11 @@ const themeEn = {
 	social: 'Social-Emotional', craft: 'Crafts',
 };
 ---
-<Base title={`${b.title} · 童心岛绘本`} description={`${b.title} — ${b.reason ?? ''}`}>
+<Base mode="book" title={`${b.title} · 童心岛绘本`} description={`${b.title} — ${b.reason ?? ''}`}>
 	<main class="bookpage">
 		<div class="left">
 			<div class="coverwrap">
-				{b.cover && <img src={b.cover} referrerpolicy="no-referrer" alt={b.title} />}
+				{b.cover && <img src={assetUrl(b.cover)} alt={b.title} onerror="this.style.visibility='hidden'" />}
 			</div>
 		</div>
 		<div class="right">
@@ -67,6 +67,15 @@ const themeEn = {
 				<div class="linkrow">
 					{b.douban_url && <a href={b.douban_url} target="_blank" rel="noopener" data-i18n="douban_page">豆瓣页面 ↗</a>}
 					{b.goodreads_url && <a href={b.goodreads_url} target="_blank" rel="noopener">Goodreads ↗</a>}
+					<a
+						class="feedback"
+						href={`https://github.com/kk17/kidisle/issues/new?template=book-feedback.yml&title=${encodeURIComponent(`[图书反馈] ${b.title}`)}&book-title=${encodeURIComponent(b.title)}&isbn=${b.isbn ?? ""}`}
+						target="_blank"
+						rel="noopener"
+						data-i18n="feedback_btn"
+					>
+						🗣️ 反馈问题
+					</a>
 					{b.source_url && (
 						<a class="srcbadge" href={b.source_url} target="_blank" rel="noopener">
 							📎 <span data-i18n="source_name" data-i18n-var-name={b.source_name}>{b.source_name}</span> ↗
@@ -116,6 +125,10 @@ const themeEn = {
 	.facts dd { margin: 0; font-size: 0.9rem; }
 	.linkrow { display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; }
 	.linkrow a { font-size: 0.9rem; }
+	.feedback {
+		border: 1px dashed var(--line); border-radius: 8px;
+		padding: 0.15rem 0.7rem; color: var(--muted); text-decoration: none;
+	}
 	.srcbadge {
 		background: #fef3c7; color: #92400e;
 		padding: 0.15rem 0.7rem; border-radius: 999px; font-size: 0.8rem;
