@@ -80,6 +80,94 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-12s4y1u75v",
+      "source": "bilibili",
+      "bvid": "BV12S4y1u75V",
+      "vid": null,
+      "title": "《中国唱诗班》-中国古诗启蒙课程",
+      "up": "45度未来",
+      "duration_seconds": 2963,
+      "cover": "http://i0.hdslb.com/bfs/archive/c202e1cfcab5d7e6f47fdf38eb17cd764c62b2a3.png",
+      "total_pages": 12,
+      "pages": [
+        {
+          "page": 1,
+          "part": "第2话 《元日》_高清 1080P",
+          "duration": 351
+        },
+        {
+          "page": 2,
+          "part": "第3话 《游子吟》_高清 1080P",
+          "duration": 460
+        },
+        {
+          "page": 3,
+          "part": "第7话 《芊芊》_高清 720P",
+          "duration": 239
+        },
+        {
+          "page": 4,
+          "part": "第8话 《探清水河》_高清 1080P",
+          "duration": 282
+        },
+        {
+          "page": 5,
+          "part": "第9话 《兰亭序》_高清 1080P",
+          "duration": 255
+        },
+        {
+          "page": 6,
+          "part": "第10话 《一生至爱》_高清 1080P",
+          "duration": 134
+        },
+        {
+          "page": 7,
+          "part": "第11话 《忆江南》_高清 1080P",
+          "duration": 106
+        },
+        {
+          "page": 8,
+          "part": "第12话 《燕归巢》_高清 1080P",
+          "duration": 300
+        },
+        {
+          "page": 9,
+          "part": "第13话 《庐州月》_高清 1080P",
+          "duration": 257
+        },
+        {
+          "page": 10,
+          "part": "第14话 《过年谣》_高清 1080P",
+          "duration": 158
+        },
+        {
+          "page": 11,
+          "part": "第16话 《白蛇缘起》_高清 1080P",
+          "duration": 157
+        },
+        {
+          "page": 12,
+          "part": "第18话 《中国唱诗班》_高清 1080P",
+          "duration": 264
+        }
+      ],
+      "note": "中国唱诗班古诗动画，建议增设人文主题",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "animation",
+          "music"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-12w5x6xex7",
       "source": "bilibili",
       "bvid": "BV12W5x6XEX7",
@@ -2357,6 +2445,98 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-17garztehs",
+      "source": "bilibili",
+      "bvid": "BV17GArzTEHS",
+      "vid": null,
+      "title": "【4K】葫芦兄弟 全13集",
+      "up": "花大叔Baymax",
+      "duration_seconds": 11841,
+      "cover": "http://i1.hdslb.com/bfs/archive/29c9f520c36f020a7553cc61b853c17795207150.jpg",
+      "total_pages": 13,
+      "pages": [
+        {
+          "page": 1,
+          "part": "第1集 神峰奇遇",
+          "duration": 907
+        },
+        {
+          "page": 2,
+          "part": "第2集 七色葫芦",
+          "duration": 924
+        },
+        {
+          "page": 3,
+          "part": "第3集 误入泥潭",
+          "duration": 902
+        },
+        {
+          "page": 4,
+          "part": "第4集 梦窟迷境",
+          "duration": 909
+        },
+        {
+          "page": 5,
+          "part": "第5集 绝路逢生",
+          "duration": 915
+        },
+        {
+          "page": 6,
+          "part": "第6集 钢筋铁骨",
+          "duration": 900
+        },
+        {
+          "page": 7,
+          "part": "第7集 水火奇功",
+          "duration": 934
+        },
+        {
+          "page": 8,
+          "part": "第8集 酒酣心冰",
+          "duration": 929
+        },
+        {
+          "page": 9,
+          "part": "第9集 幽谷彩莲",
+          "duration": 917
+        },
+        {
+          "page": 10,
+          "part": "第10集 捕风捉影",
+          "duration": 932
+        },
+        {
+          "page": 11,
+          "part": "第11集 巧夺如意",
+          "duration": 905
+        },
+        {
+          "page": 12,
+          "part": "第12集 妖迷心窍",
+          "duration": 882
+        },
+        {
+          "page": 13,
+          "part": "第13集 七子连心",
+          "duration": 885
+        }
+      ],
+      "note": "葫芦兄弟全13集，与上条同类内容标签一致",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-17pd5ynee6",
       "source": "bilibili",
       "bvid": "BV17PD5YNEE6",
@@ -2403,6 +2583,33 @@
         "theme": [
           "story",
           "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-17b411y7kk",
+      "source": "bilibili",
+      "bvid": "BV17b411Y7kk",
+      "vid": null,
+      "title": "中国唱诗班系列动画《游子吟》",
+      "up": "喝喝不会醉",
+      "duration_seconds": 460,
+      "cover": "http://i1.hdslb.com/bfs/archive/bca5aa865207196ddafe7495a4270409556b3fa0.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "唱诗班游子吟，母爱主题古诗词动画",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "animation",
+          "music"
         ]
       },
       "added_at": "2026-11-06"
@@ -3226,6 +3433,533 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-18x411b7vr",
+      "source": "bilibili",
+      "bvid": "BV18x411B7vR",
+      "vid": null,
+      "title": "【合集】大头儿子和小头爸爸/大头儿子小头爸爸 151集全",
+      "up": "经典影视剧-刘诗诗",
+      "duration_seconds": 63781,
+      "cover": "http://i2.hdslb.com/bfs/archive/8351067e54f55844b788ecc97d286f319435e3cc.jpg",
+      "total_pages": 151,
+      "pages": [
+        {
+          "page": 1,
+          "part": "小鸽子",
+          "duration": 484
+        },
+        {
+          "page": 2,
+          "part": "结婚纪念日",
+          "duration": 423
+        },
+        {
+          "page": 3,
+          "part": "大家的美食",
+          "duration": 422
+        },
+        {
+          "page": 4,
+          "part": "大狼灰",
+          "duration": 423
+        },
+        {
+          "page": 5,
+          "part": "大皮靴",
+          "duration": 424
+        },
+        {
+          "page": 6,
+          "part": "等爸爸",
+          "duration": 425
+        },
+        {
+          "page": 7,
+          "part": "烦恼的高兴事",
+          "duration": 425
+        },
+        {
+          "page": 8,
+          "part": "旱鸭子下海",
+          "duration": 424
+        },
+        {
+          "page": 9,
+          "part": "花伞植物园",
+          "duration": 423
+        },
+        {
+          "page": 10,
+          "part": "两座小房子",
+          "duration": 424
+        },
+        {
+          "page": 11,
+          "part": "路遇小偷",
+          "duration": 424
+        },
+        {
+          "page": 12,
+          "part": "妈妈迷路",
+          "duration": 424
+        },
+        {
+          "page": 13,
+          "part": "买卖风波",
+          "duration": 424
+        },
+        {
+          "page": 14,
+          "part": "买帽子的故事",
+          "duration": 424
+        },
+        {
+          "page": 15,
+          "part": "奇妙的娃娃",
+          "duration": 420
+        },
+        {
+          "page": 16,
+          "part": "送名字",
+          "duration": 424
+        },
+        {
+          "page": 17,
+          "part": "外面没老虎",
+          "duration": 423
+        },
+        {
+          "page": 18,
+          "part": "外星车",
+          "duration": 424
+        },
+        {
+          "page": 19,
+          "part": "危险的游戏",
+          "duration": 425
+        },
+        {
+          "page": 20,
+          "part": "我们的风筝",
+          "duration": 424
+        },
+        {
+          "page": 21,
+          "part": "五个吻",
+          "duration": 424
+        },
+        {
+          "page": 22,
+          "part": "想象的和真实的",
+          "duration": 424
+        },
+        {
+          "page": 23,
+          "part": "写信的快乐",
+          "duration": 425
+        },
+        {
+          "page": 24,
+          "part": "新邻居",
+          "duration": 423
+        },
+        {
+          "page": 25,
+          "part": "雄家婆",
+          "duration": 423
+        },
+        {
+          "page": 26,
+          "part": "熊猫帮忙",
+          "duration": 424
+        },
+        {
+          "page": 27,
+          "part": "夜捕狮子",
+          "duration": 424
+        },
+        {
+          "page": 28,
+          "part": "一起哈哈笑",
+          "duration": 422
+        },
+        {
+          "page": 29,
+          "part": "一条香路",
+          "duration": 424
+        },
+        {
+          "page": 30,
+          "part": "一只橄榄球",
+          "duration": 424
+        },
+        {
+          "page": 31,
+          "part": "有趣的午餐",
+          "duration": 426
+        },
+        {
+          "page": 32,
+          "part": "爸爸妈妈拉勾勾",
+          "duration": 424
+        },
+        {
+          "page": 33,
+          "part": "棒棒食品",
+          "duration": 420
+        },
+        {
+          "page": 34,
+          "part": "冰淇淋车",
+          "duration": 424
+        },
+        {
+          "page": 35,
+          "part": "彩虹桥",
+          "duration": 424
+        },
+        {
+          "page": 36,
+          "part": "大头捶背器",
+          "duration": 423
+        },
+        {
+          "page": 37,
+          "part": "大头小头钓大鱼",
+          "duration": 424
+        },
+        {
+          "page": 38,
+          "part": "动物旅店",
+          "duration": 424
+        },
+        {
+          "page": 39,
+          "part": "果子树",
+          "duration": 420
+        },
+        {
+          "page": 40,
+          "part": "可爱的小屋",
+          "duration": 423
+        },
+        {
+          "page": 41,
+          "part": "客轮上的故事",
+          "duration": 424
+        },
+        {
+          "page": 42,
+          "part": "妈妈的“空屋子”",
+          "duration": 424
+        },
+        {
+          "page": 43,
+          "part": "棉花糖与丰收娃娃",
+          "duration": 424
+        },
+        {
+          "page": 44,
+          "part": "巧克力蘑菇汤",
+          "duration": 423
+        },
+        {
+          "page": 45,
+          "part": "水上世界",
+          "duration": 424
+        },
+        {
+          "page": 46,
+          "part": "特殊的年夜饭",
+          "duration": 423
+        },
+        {
+          "page": 47,
+          "part": "土豆叔叔饭店",
+          "duration": 424
+        },
+        {
+          "page": 48,
+          "part": "温情的“白色世界”",
+          "duration": 424
+        },
+        {
+          "page": 49,
+          "part": "想做哥哥",
+          "duration": 423
+        },
+        {
+          "page": 50,
+          "part": "小狗的弄堂",
+          "duration": 424
+        },
+        {
+          "page": 51,
+          "part": "小海军中尉",
+          "duration": 423
+        },
+        {
+          "page": 52,
+          "part": "小面人",
+          "duration": 420
+        },
+        {
+          "page": 53,
+          "part": "星星灯月亮灯",
+          "duration": 421
+        },
+        {
+          "page": 54,
+          "part": "学礼貌的故事",
+          "duration": 423
+        },
+        {
+          "page": 55,
+          "part": "雪地上的绿点",
+          "duration": 423
+        },
+        {
+          "page": 56,
+          "part": "寻找宇宙人",
+          "duration": 423
+        },
+        {
+          "page": 57,
+          "part": "一天没精神",
+          "duration": 424
+        },
+        {
+          "page": 58,
+          "part": "愉快的旅行",
+          "duration": 424
+        },
+        {
+          "page": 59,
+          "part": "种葱和送葱",
+          "duration": 423
+        },
+        {
+          "page": 60,
+          "part": "抓蟋蟀",
+          "duration": 420
+        },
+        {
+          "page": 61,
+          "part": "做名人的烦恼",
+          "duration": 424
+        },
+        {
+          "page": 62,
+          "part": "闯进恐龙世界",
+          "duration": 424
+        },
+        {
+          "page": 63,
+          "part": "吃不胖的冰淇淋",
+          "duration": 421
+        },
+        {
+          "page": 64,
+          "part": "池塘边的绿青蛙",
+          "duration": 424
+        },
+        {
+          "page": 65,
+          "part": "大人们的节日",
+          "duration": 421
+        },
+        {
+          "page": 66,
+          "part": "大头失踪",
+          "duration": 424
+        },
+        {
+          "page": 67,
+          "part": "大头小头报",
+          "duration": 421
+        },
+        {
+          "page": 68,
+          "part": "大头小头足球场",
+          "duration": 424
+        },
+        {
+          "page": 69,
+          "part": "地底下的邻居",
+          "duration": 421
+        },
+        {
+          "page": 70,
+          "part": "地铁马戏团",
+          "duration": 424
+        },
+        {
+          "page": 71,
+          "part": "父子修理工",
+          "duration": 424
+        },
+        {
+          "page": 72,
+          "part": "合家欢",
+          "duration": 421
+        },
+        {
+          "page": 73,
+          "part": "红衣骑士",
+          "duration": 424
+        },
+        {
+          "page": 74,
+          "part": "橘子灯",
+          "duration": 421
+        },
+        {
+          "page": 75,
+          "part": "瞌睡虫",
+          "duration": 421
+        },
+        {
+          "page": 76,
+          "part": "理发遭遇",
+          "duration": 421
+        },
+        {
+          "page": 77,
+          "part": "买回来的小狗",
+          "duration": 422
+        },
+        {
+          "page": 78,
+          "part": "魔术帽",
+          "duration": 424
+        },
+        {
+          "page": 79,
+          "part": "奶牛和牛奶",
+          "duration": 421
+        },
+        {
+          "page": 80,
+          "part": "奇遇三胞胎",
+          "duration": 424
+        },
+        {
+          "page": 81,
+          "part": "神奇的眼镜",
+          "duration": 423
+        },
+        {
+          "page": 82,
+          "part": "失物招领",
+          "duration": 421
+        },
+        {
+          "page": 83,
+          "part": "玩具医院",
+          "duration": 421
+        },
+        {
+          "page": 84,
+          "part": "围裙妈妈减肥",
+          "duration": 422
+        },
+        {
+          "page": 85,
+          "part": "我要回家",
+          "duration": 424
+        },
+        {
+          "page": 86,
+          "part": "握握手",
+          "duration": 424
+        },
+        {
+          "page": 87,
+          "part": "喜欢的玩具",
+          "duration": 421
+        },
+        {
+          "page": 88,
+          "part": "小板凳火车",
+          "duration": 421
+        },
+        {
+          "page": 89,
+          "part": "小鸡的花园",
+          "duration": 423
+        },
+        {
+          "page": 90,
+          "part": "学数迷",
+          "duration": 423
+        },
+        {
+          "page": 91,
+          "part": "寻找宝藏",
+          "duration": 423
+        },
+        {
+          "page": 92,
+          "part": "迎新年",
+          "duration": 422
+        },
+        {
+          "page": 93,
+          "part": "雨中生日会",
+          "duration": 422
+        },
+        {
+          "page": 94,
+          "part": "拔萝卜",
+          "duration": 420
+        },
+        {
+          "page": 95,
+          "part": "爸爸的诺言",
+          "duration": 420
+        },
+        {
+          "page": 96,
+          "part": "斑狗骑兵队",
+          "duration": 421
+        },
+        {
+          "page": 97,
+          "part": "采蘑菇",
+          "duration": 420
+        },
+        {
+          "page": 98,
+          "part": "船长爸爸",
+          "duration": 419
+        },
+        {
+          "page": 99,
+          "part": "大人的玩具",
+          "duration": 420
+        },
+        {
+          "page": 100,
+          "part": "大头和拉拉",
+          "duration": 420
+        }
+      ],
+      "note": "经典家庭生活动画，亲子关系与日常童趣",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "social"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-19f4m1j7yv",
       "source": "bilibili",
       "bvid": "BV19F4m1j7yv",
@@ -3508,6 +4242,32 @@
         "theme": [
           "story",
           "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1blqlybeuq",
+      "source": "bilibili",
+      "bvid": "BV1BLqLYBEuQ",
+      "vid": null,
+      "title": "第一集【第一天上幼儿园（上）】大耳朵图图第二季超清修复",
+      "up": "赤石动漫",
+      "duration_seconds": 993,
+      "cover": "http://i2.hdslb.com/bfs/archive/4c22f4fb4df24345609016b0b50eb96d3d0038b3.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "大耳朵图图幼儿园适应单集，情感社交启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "social"
         ]
       },
       "added_at": "2026-11-06"
@@ -4365,6 +5125,158 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1esqfboe5a",
+      "source": "bilibili",
+      "bvid": "BV1EsQFBoE5A",
+      "vid": null,
+      "title": "【安迪的史前冒险】中文版 25集全｜儿童趣味探险科普",
+      "up": "柚子优学社",
+      "duration_seconds": 28115,
+      "cover": "http://i1.hdslb.com/bfs/archive/d3b52f9a4fa13c2fb02c00ee5cb0644f0413facd.jpg",
+      "total_pages": 25,
+      "pages": [
+        {
+          "page": 1,
+          "part": "安迪的史前冒险 中文版 第1集",
+          "duration": 1134
+        },
+        {
+          "page": 2,
+          "part": "安迪的史前冒险 中文版 第2集",
+          "duration": 1115
+        },
+        {
+          "page": 3,
+          "part": "安迪的史前冒险 中文版 第3集",
+          "duration": 1116
+        },
+        {
+          "page": 4,
+          "part": "安迪的史前冒险 中文版 第4集",
+          "duration": 1125
+        },
+        {
+          "page": 5,
+          "part": "安迪的史前冒险 中文版 第5集",
+          "duration": 1121
+        },
+        {
+          "page": 6,
+          "part": "安迪的史前冒险 中文版 第6集",
+          "duration": 1132
+        },
+        {
+          "page": 7,
+          "part": "安迪的史前冒险 中文版 第7集",
+          "duration": 1136
+        },
+        {
+          "page": 8,
+          "part": "安迪的史前冒险 中文版 第8集",
+          "duration": 1127
+        },
+        {
+          "page": 9,
+          "part": "安迪的史前冒险 中文版 第9集",
+          "duration": 1120
+        },
+        {
+          "page": 10,
+          "part": "安迪的史前冒险 中文版 第10集",
+          "duration": 1129
+        },
+        {
+          "page": 11,
+          "part": "安迪的史前冒险 中文版 第11集",
+          "duration": 1132
+        },
+        {
+          "page": 12,
+          "part": "安迪的史前冒险 中文版 第12集",
+          "duration": 1128
+        },
+        {
+          "page": 13,
+          "part": "安迪的史前冒险 中文版 第13集",
+          "duration": 1129
+        },
+        {
+          "page": 14,
+          "part": "安迪的史前冒险 中文版 第14集",
+          "duration": 1119
+        },
+        {
+          "page": 15,
+          "part": "安迪的史前冒险 中文版 第15集",
+          "duration": 1127
+        },
+        {
+          "page": 16,
+          "part": "安迪的史前冒险 中文版 第16集",
+          "duration": 1133
+        },
+        {
+          "page": 17,
+          "part": "安迪的史前冒险 中文版 第17集",
+          "duration": 1106
+        },
+        {
+          "page": 18,
+          "part": "安迪的史前冒险 中文版 第18集",
+          "duration": 1132
+        },
+        {
+          "page": 19,
+          "part": "安迪的史前冒险 中文版 第19集",
+          "duration": 1110
+        },
+        {
+          "page": 20,
+          "part": "安迪的史前冒险 中文版 第20集",
+          "duration": 1137
+        },
+        {
+          "page": 21,
+          "part": "安迪的史前冒险 中文版 第21集",
+          "duration": 1133
+        },
+        {
+          "page": 22,
+          "part": "安迪的史前冒险 中文版 第22集",
+          "duration": 1107
+        },
+        {
+          "page": 23,
+          "part": "安迪的史前冒险 中文版 第23集",
+          "duration": 1128
+        },
+        {
+          "page": 24,
+          "part": "安迪的史前冒险 中文版 第24集",
+          "duration": 1127
+        },
+        {
+          "page": 25,
+          "part": "安迪的史前冒险 中文版 第25集",
+          "duration": 1112
+        }
+      ],
+      "note": "BBC安迪史前冒险中文版，史前自然探险科普",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "nature"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1fnvqzqevq",
       "source": "bilibili",
       "bvid": "BV1FNVqzQEVq",
@@ -4460,6 +5372,98 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1fk4y1v7lf",
+      "source": "bilibili",
+      "bvid": "BV1Fk4y1V7Lf",
+      "vid": null,
+      "title": "【4K修复中字】【国产动画】葫芦兄弟 上美",
+      "up": "前尘UP",
+      "duration_seconds": 8001,
+      "cover": "http://i2.hdslb.com/bfs/archive/e41b7ff5fbbdc1e330ec7ee724b9e24eea6f6388.jpg",
+      "total_pages": 13,
+      "pages": [
+        {
+          "page": 1,
+          "part": "第1集 神峰奇遇",
+          "duration": 612
+        },
+        {
+          "page": 2,
+          "part": "第2集 七色葫芦",
+          "duration": 629
+        },
+        {
+          "page": 3,
+          "part": "第3集 误入泥潭",
+          "duration": 607
+        },
+        {
+          "page": 4,
+          "part": "第4集 梦窟迷境",
+          "duration": 614
+        },
+        {
+          "page": 5,
+          "part": "第5集 绝路逢生",
+          "duration": 619
+        },
+        {
+          "page": 6,
+          "part": "第6集 钢筋铁骨",
+          "duration": 604
+        },
+        {
+          "page": 7,
+          "part": "第7集 水火奇功",
+          "duration": 638
+        },
+        {
+          "page": 8,
+          "part": "第8集 酒酣心冰",
+          "duration": 634
+        },
+        {
+          "page": 9,
+          "part": "第9集 幽谷彩莲",
+          "duration": 622
+        },
+        {
+          "page": 10,
+          "part": "第10集 捕风捉影",
+          "duration": 636
+        },
+        {
+          "page": 11,
+          "part": "第11集 巧夺如意",
+          "duration": 610
+        },
+        {
+          "page": 12,
+          "part": "第12集 妖迷心窍",
+          "duration": 587
+        },
+        {
+          "page": 13,
+          "part": "第13集 七子连心",
+          "duration": 589
+        }
+      ],
+      "note": "上美经典葫芦兄弟，含降妖情节适合6岁以上",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1fxjizfe4a",
       "source": "bilibili",
       "bvid": "BV1FxjizFE4A",
@@ -4481,6 +5485,32 @@
         "theme": [
           "life",
           "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1gf411c7ge",
+      "source": "bilibili",
+      "bvid": "BV1GF411C7ge",
+      "vid": null,
+      "title": "【4K修复】【国产动画】没头脑和不高兴 上美",
+      "up": "前尘UP",
+      "duration_seconds": 1255,
+      "cover": "http://i2.hdslb.com/bfs/archive/186e1b239471fc13df9dd96b1059e7222c7c0c64.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "上美经典没头脑和不高兴，习惯与性格教育",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "story"
         ]
       },
       "added_at": "2026-11-06"
@@ -4737,6 +5767,183 @@
         ],
         "theme": [
           "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1gjclzueqi",
+      "source": "bilibili",
+      "bvid": "BV1GJcLzUEQi",
+      "vid": null,
+      "title": "中文版【安迪的水上冒险】30集全 | BBC 科普神作，孩子一看就入迷！",
+      "up": "柚子优学社",
+      "duration_seconds": 61659,
+      "cover": "http://i0.hdslb.com/bfs/archive/0f062bce1ab79353681c120392bb07246b045625.jpg",
+      "total_pages": 30,
+      "pages": [
+        {
+          "page": 1,
+          "part": "第1集 安迪和蓝鲸",
+          "duration": 2056
+        },
+        {
+          "page": 2,
+          "part": "第2集 安迪和海蛇",
+          "duration": 2065
+        },
+        {
+          "page": 3,
+          "part": "第3集 安迪和弹涂鱼",
+          "duration": 2064
+        },
+        {
+          "page": 4,
+          "part": "第4集 安迪和林鸳鸯",
+          "duration": 2065
+        },
+        {
+          "page": 5,
+          "part": "第5集 安迪和海狮",
+          "duration": 2055
+        },
+        {
+          "page": 6,
+          "part": "第6集 安迪和勃氏新热鳚",
+          "duration": 2056
+        },
+        {
+          "page": 7,
+          "part": "第7集 安迪和火烈鸟",
+          "duration": 2053
+        },
+        {
+          "page": 8,
+          "part": "第8集 安迪和豆娘",
+          "duration": 2046
+        },
+        {
+          "page": 9,
+          "part": "第9集 安迪和玻璃蛙",
+          "duration": 2063
+        },
+        {
+          "page": 10,
+          "part": "第10集 安迪和威德尔海豹",
+          "duration": 2056
+        },
+        {
+          "page": 11,
+          "part": "第11集 安迪和宽吻海豚",
+          "duration": 2064
+        },
+        {
+          "page": 12,
+          "part": "第12集 安迪和凯门鳄",
+          "duration": 2039
+        },
+        {
+          "page": 13,
+          "part": "第13集 安迪和帽带企鹅",
+          "duration": 2061
+        },
+        {
+          "page": 14,
+          "part": "第14集 安迪和巴西秋趾虎",
+          "duration": 2041
+        },
+        {
+          "page": 15,
+          "part": "第15集 安迪和玳瑁",
+          "duration": 2055
+        },
+        {
+          "page": 16,
+          "part": "第16集 安迪和绿海龟",
+          "duration": 2039
+        },
+        {
+          "page": 17,
+          "part": "第17集 安迪和海狗",
+          "duration": 2056
+        },
+        {
+          "page": 18,
+          "part": "第18集 安迪和加岛信天翁",
+          "duration": 2057
+        },
+        {
+          "page": 19,
+          "part": "第19集 安迪和短吻鳄宝宝",
+          "duration": 2061
+        },
+        {
+          "page": 20,
+          "part": "第20集 安迪和草海龙",
+          "duration": 2040
+        },
+        {
+          "page": 21,
+          "part": "第21集 安迪和海象宝宝",
+          "duration": 2061
+        },
+        {
+          "page": 22,
+          "part": "第22集 安迪和普通章鱼",
+          "duration": 2051
+        },
+        {
+          "page": 23,
+          "part": "第23集 安迪和海燕",
+          "duration": 2052
+        },
+        {
+          "page": 24,
+          "part": "第24集 安迪和猪齿鱼",
+          "duration": 2043
+        },
+        {
+          "page": 25,
+          "part": "第25集 安迪和非洲大象",
+          "duration": 2064
+        },
+        {
+          "page": 26,
+          "part": "第26集 安迪和鞍背小丑鱼",
+          "duration": 2061
+        },
+        {
+          "page": 27,
+          "part": "第27集 安迪和白头海雕",
+          "duration": 2060
+        },
+        {
+          "page": 28,
+          "part": "第28集 安迪和乌燕鸥",
+          "duration": 2048
+        },
+        {
+          "page": 29,
+          "part": "第29集 安迪和亚马孙慈鲷鱼",
+          "duration": 2063
+        },
+        {
+          "page": 30,
+          "part": "第30集 安迪和海胆",
+          "duration": 2064
+        }
+      ],
+      "note": "BBC安迪水上冒险中文版，海洋动物科普",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "nature"
         ]
       },
       "added_at": "2026-11-06"
@@ -5337,6 +6544,135 @@
         ],
         "theme": [
           "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1jl4y1v7gc",
+      "source": "bilibili",
+      "bvid": "BV1JL4y1v7Gc",
+      "vid": null,
+      "title": "有声国学馆——声律启蒙",
+      "up": "T博士云课堂",
+      "duration_seconds": 2924,
+      "cover": "http://i0.hdslb.com/bfs/archive/ce487b99b5974595d19f0cbf89fc6f03f7265857.png",
+      "total_pages": 15,
+      "pages": [
+        {
+          "page": 1,
+          "part": "01 有声国学馆-声律启蒙-一东",
+          "duration": 196
+        },
+        {
+          "page": 2,
+          "part": "02 有声国学馆-声律启蒙-二东",
+          "duration": 195
+        },
+        {
+          "page": 3,
+          "part": "03 有声国学馆-声律启蒙-三江",
+          "duration": 194
+        },
+        {
+          "page": 4,
+          "part": "04 有声国学馆-声律启蒙-四支",
+          "duration": 195
+        },
+        {
+          "page": 5,
+          "part": "05 有声国学馆-声律启蒙-五微",
+          "duration": 194
+        },
+        {
+          "page": 6,
+          "part": "06 有声国学馆-声律启蒙-六鱼",
+          "duration": 194
+        },
+        {
+          "page": 7,
+          "part": "07 有声国学馆-声律启蒙-七虞-改",
+          "duration": 196
+        },
+        {
+          "page": 8,
+          "part": "08 有声国学馆-声律启蒙-八齐",
+          "duration": 193
+        },
+        {
+          "page": 9,
+          "part": "09 有声国学馆-声律启蒙-九佳",
+          "duration": 196
+        },
+        {
+          "page": 10,
+          "part": "10 有声国学馆-声律启蒙-十灰",
+          "duration": 195
+        },
+        {
+          "page": 11,
+          "part": "11 有声国学馆-声律启蒙.十一真",
+          "duration": 195
+        },
+        {
+          "page": 12,
+          "part": "12 有声国学馆-声律启蒙-十二文",
+          "duration": 196
+        },
+        {
+          "page": 13,
+          "part": "13 有声国学馆-声律启蒙-十三元",
+          "duration": 196
+        },
+        {
+          "page": 14,
+          "part": "14 有声国学馆-声律启蒙-十四寒",
+          "duration": 195
+        },
+        {
+          "page": 15,
+          "part": "15 有声国学馆-声律启蒙-十五删",
+          "duration": 194
+        }
+      ],
+      "note": "声律启蒙有声国学，韵律语感启蒙，建议增设人文主题",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1jqtmzbedu",
+      "source": "bilibili",
+      "bvid": "BV1JQTmzBEdU",
+      "vid": null,
+      "title": "《九色鹿》8.9分 国产动画短片佳作 上美 4K中字",
+      "up": "经典珍藏系列",
+      "duration_seconds": 2279,
+      "cover": "http://i1.hdslb.com/bfs/archive/ffc693109cae2ea0ded61381b98778498be5b27f.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "上美经典九色鹿，敦煌壁画故事，建议增设人文主题",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "animation"
         ]
       },
       "added_at": "2026-11-06"
@@ -6554,6 +7890,32 @@
         ],
         "theme": [
           "social"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1km411r7hr",
+      "source": "bilibili",
+      "bvid": "BV1KM411r7hr",
+      "vid": null,
+      "title": "酷杰的科学之旅-海洋探秘   01——孤独的鲸歌 （公益展播）中科数创（北京）数字传媒有限公司",
+      "up": "中国科教电影电视协会",
+      "duration_seconds": 377,
+      "cover": "http://i0.hdslb.com/bfs/archive/5eed57fba92b0c30c5d3b3080b4d6f8b45837abb.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "科教协会公益科普动画，海洋探秘鲸歌",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "nature"
         ]
       },
       "added_at": "2026-11-06"
@@ -8749,6 +10111,32 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1qs411m7sx",
+      "source": "bilibili",
+      "bvid": "BV1Qs411m7sX",
+      "vid": null,
+      "title": "世界上最小的大冒险",
+      "up": "翻车虾",
+      "duration_seconds": 157,
+      "cover": "http://i0.hdslb.com/bfs/archive/2c6134fdcb0e6ed2adad9608fd4587731a80c448.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "NHK毕达哥拉斯装置片段，原声配中文字幕口译",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1r841147zr",
       "source": "bilibili",
       "bvid": "BV1R841147ZR",
@@ -10757,6 +12145,31 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1t34y147f4",
+      "source": "bilibili",
+      "bvid": "BV1T34y147F4",
+      "vid": null,
+      "title": "【萌凤杂谈】11 一本图书是怎样被做出来的",
+      "up": "真·凤舞九天",
+      "duration_seconds": 462,
+      "cover": "http://i1.hdslb.com/bfs/archive/4f9e9a2c77ae927eb365122ddc71830f1ee136d9.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "图书制作过程趣味科普，语言偏成人待人工复核",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1tp4y147z4",
       "source": "bilibili",
       "bvid": "BV1TP4y147Z4",
@@ -11903,6 +13316,32 @@
         ],
         "theme": [
           "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1vx411l7mk",
+      "source": "bilibili",
+      "bvid": "BV1Vx411L7mk",
+      "vid": null,
+      "title": "【1962上美动画片】没头脑和不高兴【高清重制无删减版】",
+      "up": "博士之影",
+      "duration_seconds": 1253,
+      "cover": "http://i1.hdslb.com/bfs/archive/d7f0c5d7b8978bec522073339f86352871bc303a.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "1962上美经典重制，同片重复条目标签一致",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "story"
         ]
       },
       "added_at": "2026-11-06"
@@ -13070,6 +14509,49 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1ax41127np",
+      "source": "bilibili",
+      "bvid": "BV1ax41127Np",
+      "vid": null,
+      "title": "【海底小纵队】海底报告 1-3季合辑 英文版",
+      "up": "玖凉豆浆机",
+      "duration_seconds": 5946,
+      "cover": "http://i1.hdslb.com/bfs/archive/ab631b54c2b7284d7e52efbc2e3fd40c29760ea3.jpg",
+      "total_pages": 3,
+      "pages": [
+        {
+          "page": 1,
+          "part": "第一季",
+          "duration": 3003
+        },
+        {
+          "page": 2,
+          "part": "第二季",
+          "duration": 1542
+        },
+        {
+          "page": 3,
+          "part": "第三季",
+          "duration": 1401
+        }
+      ],
+      "note": "海底小纵队海底报告英文版，唱打油诗介绍动物",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "nature",
+          "music",
+          "english"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1b64y1x77x",
       "source": "bilibili",
       "bvid": "BV1b64y1x77x",
@@ -13170,6 +14652,418 @@
         ],
         "theme": [
           "music"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1bx411c7fc",
+      "source": "bilibili",
+      "bvid": "BV1bx411C7fc",
+      "vid": null,
+      "title": "大头儿子和小头爸爸1995年版（77集）",
+      "up": "mmy5213",
+      "duration_seconds": 35954,
+      "cover": "http://i0.hdslb.com/bfs/archive/4d8d3ab7860662e37fc5ef31a6118e494aa488d2.png",
+      "total_pages": 77,
+      "pages": [
+        {
+          "page": 1,
+          "part": "爸爸妈妈拉钩钩",
+          "duration": 466
+        },
+        {
+          "page": 2,
+          "part": "冰激凌车",
+          "duration": 466
+        },
+        {
+          "page": 3,
+          "part": "彩虹桥",
+          "duration": 466
+        },
+        {
+          "page": 4,
+          "part": "池塘边的绿青蛙",
+          "duration": 467
+        },
+        {
+          "page": 5,
+          "part": "闯进恐龙世界",
+          "duration": 467
+        },
+        {
+          "page": 6,
+          "part": "大家的美食",
+          "duration": 466
+        },
+        {
+          "page": 7,
+          "part": "大狼灰",
+          "duration": 466
+        },
+        {
+          "page": 8,
+          "part": "大皮靴",
+          "duration": 467
+        },
+        {
+          "page": 9,
+          "part": "大头捶背器",
+          "duration": 466
+        },
+        {
+          "page": 10,
+          "part": "大头失踪",
+          "duration": 467
+        },
+        {
+          "page": 11,
+          "part": "大头小头洗房子",
+          "duration": 469
+        },
+        {
+          "page": 12,
+          "part": "大头小头钓大鱼",
+          "duration": 466
+        },
+        {
+          "page": 13,
+          "part": "大头小头足球场",
+          "duration": 467
+        },
+        {
+          "page": 14,
+          "part": "等爸爸",
+          "duration": 467
+        },
+        {
+          "page": 15,
+          "part": "地铁马戏团",
+          "duration": 465
+        },
+        {
+          "page": 16,
+          "part": "动物旅店",
+          "duration": 466
+        },
+        {
+          "page": 17,
+          "part": "烦恼的高兴事",
+          "duration": 467
+        },
+        {
+          "page": 18,
+          "part": "父子修理工",
+          "duration": 466
+        },
+        {
+          "page": 19,
+          "part": "旱鸭子下海",
+          "duration": 468
+        },
+        {
+          "page": 20,
+          "part": "红衣骑士",
+          "duration": 465
+        },
+        {
+          "page": 21,
+          "part": "花伞植物园",
+          "duration": 466
+        },
+        {
+          "page": 22,
+          "part": "结婚纪念日",
+          "duration": 464
+        },
+        {
+          "page": 23,
+          "part": "可爱的小屋",
+          "duration": 466
+        },
+        {
+          "page": 24,
+          "part": "瞌睡虫",
+          "duration": 467
+        },
+        {
+          "page": 25,
+          "part": "客轮上的故事",
+          "duration": 469
+        },
+        {
+          "page": 26,
+          "part": "两座小房子",
+          "duration": 469
+        },
+        {
+          "page": 27,
+          "part": "路遇小偷",
+          "duration": 469
+        },
+        {
+          "page": 28,
+          "part": "妈妈的空屋子",
+          "duration": 468
+        },
+        {
+          "page": 29,
+          "part": "妈妈迷路",
+          "duration": 468
+        },
+        {
+          "page": 30,
+          "part": "买卖风波",
+          "duration": 466
+        },
+        {
+          "page": 31,
+          "part": "买帽子的故事",
+          "duration": 466
+        },
+        {
+          "page": 32,
+          "part": "魔术帽",
+          "duration": 466
+        },
+        {
+          "page": 33,
+          "part": "棉花糖与丰收娃娃",
+          "duration": 467
+        },
+        {
+          "page": 34,
+          "part": "奇遇三胞胎",
+          "duration": 466
+        },
+        {
+          "page": 35,
+          "part": "奇妙的娃娃",
+          "duration": 467
+        },
+        {
+          "page": 36,
+          "part": "神奇的眼镜",
+          "duration": 467
+        },
+        {
+          "page": 37,
+          "part": "巧克力蘑菇汤",
+          "duration": 466
+        },
+        {
+          "page": 38,
+          "part": "送名字",
+          "duration": 466
+        },
+        {
+          "page": 39,
+          "part": "水上世界",
+          "duration": 467
+        },
+        {
+          "page": 40,
+          "part": "糖果牙医",
+          "duration": 468
+        },
+        {
+          "page": 41,
+          "part": "特殊的年夜饭",
+          "duration": 469
+        },
+        {
+          "page": 42,
+          "part": "外面没老虎",
+          "duration": 465
+        },
+        {
+          "page": 43,
+          "part": "土豆叔叔饭店",
+          "duration": 465
+        },
+        {
+          "page": 44,
+          "part": "外星车",
+          "duration": 468
+        },
+        {
+          "page": 45,
+          "part": "危险的游戏",
+          "duration": 466
+        },
+        {
+          "page": 46,
+          "part": "围裙妈妈减肥",
+          "duration": 467
+        },
+        {
+          "page": 47,
+          "part": "温情的白色世界",
+          "duration": 466
+        },
+        {
+          "page": 48,
+          "part": "我们的风筝",
+          "duration": 469
+        },
+        {
+          "page": 49,
+          "part": "握握手",
+          "duration": 466
+        },
+        {
+          "page": 50,
+          "part": "五个吻",
+          "duration": 466
+        },
+        {
+          "page": 51,
+          "part": "我要回家",
+          "duration": 467
+        },
+        {
+          "page": 52,
+          "part": "想象的和真实的",
+          "duration": 469
+        },
+        {
+          "page": 53,
+          "part": "想做哥哥",
+          "duration": 465
+        },
+        {
+          "page": 54,
+          "part": "小鸽子",
+          "duration": 468
+        },
+        {
+          "page": 55,
+          "part": "小狗的弄堂",
+          "duration": 467
+        },
+        {
+          "page": 56,
+          "part": "小海军中尉",
+          "duration": 468
+        },
+        {
+          "page": 57,
+          "part": "小鸡的花园",
+          "duration": 466
+        },
+        {
+          "page": 58,
+          "part": "写信的快乐",
+          "duration": 466
+        },
+        {
+          "page": 59,
+          "part": "新邻居",
+          "duration": 471
+        },
+        {
+          "page": 60,
+          "part": "熊猫帮忙",
+          "duration": 469
+        },
+        {
+          "page": 61,
+          "part": "学礼貌的故事",
+          "duration": 469
+        },
+        {
+          "page": 62,
+          "part": "学数迷",
+          "duration": 466
+        },
+        {
+          "page": 63,
+          "part": "雪地上的绿点",
+          "duration": 468
+        },
+        {
+          "page": 64,
+          "part": "寻找宝藏",
+          "duration": 467
+        },
+        {
+          "page": 65,
+          "part": "寻找宇宙人",
+          "duration": 468
+        },
+        {
+          "page": 66,
+          "part": "夜捕狮子",
+          "duration": 467
+        },
+        {
+          "page": 67,
+          "part": "一起哈哈笑",
+          "duration": 470
+        },
+        {
+          "page": 68,
+          "part": "一天没精神",
+          "duration": 468
+        },
+        {
+          "page": 69,
+          "part": "一条香路",
+          "duration": 466
+        },
+        {
+          "page": 70,
+          "part": "一只橄榄球",
+          "duration": 468
+        },
+        {
+          "page": 71,
+          "part": "有趣的午餐",
+          "duration": 467
+        },
+        {
+          "page": 72,
+          "part": "愉快的旅行",
+          "duration": 468
+        },
+        {
+          "page": 73,
+          "part": "找回来的秋千",
+          "duration": 467
+        },
+        {
+          "page": 74,
+          "part": "种葱和送葱",
+          "duration": 466
+        },
+        {
+          "page": 75,
+          "part": "追赶减速伞",
+          "duration": 466
+        },
+        {
+          "page": 76,
+          "part": "最开心的节日",
+          "duration": 465
+        },
+        {
+          "page": 77,
+          "part": "做名人的烦恼",
+          "duration": 467
+        }
+      ],
+      "note": "1995童年版大头儿子，与上条同类标签一致",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "social"
         ]
       },
       "added_at": "2026-11-06"
@@ -15419,6 +17313,133 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1hq4y1h7uq",
+      "source": "bilibili",
+      "bvid": "BV1hQ4y1h7uQ",
+      "vid": null,
+      "title": "《安迪的恐龙冒险中文版》穿越时空恐龙迷",
+      "up": "圆滚滚与长条儿",
+      "duration_seconds": 16659,
+      "cover": "http://i2.hdslb.com/bfs/archive/109d43fe261c6ba417b10d653b64aae55ddfc196.png",
+      "total_pages": 20,
+      "pages": [
+        {
+          "page": 1,
+          "part": "第1集 暴龙",
+          "duration": 844
+        },
+        {
+          "page": 2,
+          "part": "第2集 梁龙",
+          "duration": 830
+        },
+        {
+          "page": 3,
+          "part": "第3集 丽阿琳龙",
+          "duration": 853
+        },
+        {
+          "page": 4,
+          "part": "第4集 菊石",
+          "duration": 837
+        },
+        {
+          "page": 5,
+          "part": "第5集 伊比利亚鸟",
+          "duration": 849
+        },
+        {
+          "page": 6,
+          "part": "第6集 三角龙",
+          "duration": 819
+        },
+        {
+          "page": 7,
+          "part": "第7集 犬齿兽",
+          "duration": 829
+        },
+        {
+          "page": 8,
+          "part": "第8集 禽龙",
+          "duration": 825
+        },
+        {
+          "page": 9,
+          "part": "第9集 腔骨龙",
+          "duration": 824
+        },
+        {
+          "page": 10,
+          "part": "第10集 鸟掌翼龙",
+          "duration": 811
+        },
+        {
+          "page": 11,
+          "part": "第11集 异特龙",
+          "duration": 831
+        },
+        {
+          "page": 12,
+          "part": "第12集 扁肯氏兽",
+          "duration": 828
+        },
+        {
+          "page": 13,
+          "part": "第13集 穆塔布拉龙",
+          "duration": 840
+        },
+        {
+          "page": 14,
+          "part": "第14集 腕龙",
+          "duration": 828
+        },
+        {
+          "page": 15,
+          "part": "第15集 暴龙 二",
+          "duration": 836
+        },
+        {
+          "page": 16,
+          "part": "第16集 剑龙",
+          "duration": 820
+        },
+        {
+          "page": 17,
+          "part": "第17集 梁龙 二",
+          "duration": 850
+        },
+        {
+          "page": 18,
+          "part": "第18集 波斯特鳄",
+          "duration": 818
+        },
+        {
+          "page": 19,
+          "part": "第19集 暴龙的叫声",
+          "duration": 836
+        },
+        {
+          "page": 20,
+          "part": "第20集 异特龙 二",
+          "duration": 851
+        }
+      ],
+      "note": "BBC安迪恐龙冒险中文版，恐龙知识启蒙",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "nature"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1hm421g74f",
       "source": "bilibili",
       "bvid": "BV1hm421g74F",
@@ -15440,6 +17461,32 @@
         "theme": [
           "music",
           "math"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1hr421f77a",
+      "source": "bilibili",
+      "bvid": "BV1hr421F77a",
+      "vid": null,
+      "title": "动画片《神笔马良》上海美术电影制片厂1955年制作的的木偶人动画片，靳夕、尤磊担任导演，洪汛涛任编剧，一部表现劳动人民“惩恶扬善”意愿的神话木偶片。",
+      "up": "Max放映厅",
+      "duration_seconds": 1152,
+      "cover": "http://i1.hdslb.com/bfs/archive/660ad58b17924866848fd75bee102f0e05de8e6d.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "上美1955木偶经典神笔马良，惩恶扬善",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "animation"
         ]
       },
       "added_at": "2026-11-06"
@@ -16347,6 +18394,33 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1mw411n7vb",
+      "source": "bilibili",
+      "bvid": "BV1mW411N7Vb",
+      "vid": null,
+      "title": "中国唱诗班--《相思》",
+      "up": "唐亦然_",
+      "duration_seconds": 577,
+      "cover": "http://i0.hdslb.com/bfs/archive/d94553f4ac5593bc2bc983a82e9fe41e5a6b93e3.png",
+      "total_pages": 1,
+      "pages": [],
+      "note": "唱诗班相思篇，爱情线偏成熟建议人工复核",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story",
+          "animation",
+          "music"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1mz4y1d7c6",
       "source": "bilibili",
       "bvid": "BV1mZ4y1d7C6",
@@ -16517,6 +18591,32 @@
           "zh"
         ],
         "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1n2sye2eoj",
+      "source": "bilibili",
+      "bvid": "BV1n2sye2Eoj",
+      "vid": null,
+      "title": "少儿口才表演《笠翁对韵歌》完整版来了，快收藏吧！",
+      "up": "无眠三点半",
+      "duration_seconds": 189,
+      "cover": "http://i2.hdslb.com/bfs/archive/8d19020b7b542ea3353371433ccc03903dcb8377.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "少儿口才表演版对韵歌，账号为剪辑号待人工复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
           "story"
         ]
       },
@@ -16727,6 +18827,58 @@
           "english",
           "story",
           "music"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1nw4y1k7ys",
+      "source": "bilibili",
+      "bvid": "BV1nW4y1K7ys",
+      "vid": null,
+      "title": "海底小纵队中文版超清",
+      "up": "账号已注销",
+      "duration_seconds": 3615,
+      "cover": "http://i0.hdslb.com/bfs/archive/e8e32e33b860133a65bb75951cb9bf78ab5a29f5.png",
+      "total_pages": 5,
+      "pages": [
+        {
+          "page": 1,
+          "part": "07",
+          "duration": 723
+        },
+        {
+          "page": 2,
+          "part": "09",
+          "duration": 723
+        },
+        {
+          "page": 3,
+          "part": "10",
+          "duration": 723
+        },
+        {
+          "page": 4,
+          "part": "23",
+          "duration": 723
+        },
+        {
+          "page": 5,
+          "part": "28",
+          "duration": 723
+        }
+      ],
+      "note": "海底小纵队中文版，海洋探险与海洋生物知识",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "nature",
+          "animation"
         ]
       },
       "added_at": "2026-11-06"
@@ -17873,6 +20025,58 @@
           "zh"
         ],
         "theme": [
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1pa411p79t",
+      "source": "bilibili",
+      "bvid": "BV1pa411P79t",
+      "vid": null,
+      "title": "黑猫警长全5集4K修复|一只耳||食猴鹰|痛歼搬仓鼠|空中擒敌|吃红土的小偷|吃丈夫的螳螂|会吃猫的娘舅",
+      "up": "求知若渴谦虚若愚",
+      "duration_seconds": 5745,
+      "cover": "http://i2.hdslb.com/bfs/archive/b7a939ba79e8e488ae4bcbb671e10ef078a10462.jpg",
+      "total_pages": 5,
+      "pages": [
+        {
+          "page": 1,
+          "part": "痛歼搬仓鼠",
+          "duration": 1166
+        },
+        {
+          "page": 2,
+          "part": "空中擒敌",
+          "duration": 1167
+        },
+        {
+          "page": 3,
+          "part": "吃红土的小偷",
+          "duration": 1102
+        },
+        {
+          "page": 4,
+          "part": "吃丈夫的螳螂",
+          "duration": 1119
+        },
+        {
+          "page": 5,
+          "part": "会吃猫的娘舅",
+          "duration": 1191
+        }
+      ],
+      "note": "上美经典黑猫警长，个别情节略惊悚建议6岁以上",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
           "story"
         ]
       },
@@ -19592,6 +21796,133 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1txsoecexv",
+      "source": "bilibili",
+      "bvid": "BV1tXsoecExv",
+      "vid": null,
+      "title": "20集全【 中文配音   完整版】《像乌鸦一样思考》让孩子学会观察和独立思考！",
+      "up": "B站动画学院",
+      "duration_seconds": 11827,
+      "cover": "http://i1.hdslb.com/bfs/archive/bf3262cc1344fd8a483db11e2c8bb2daaa4c88ac.png",
+      "total_pages": 20,
+      "pages": [
+        {
+          "page": 1,
+          "part": "001. 中文配音   完整版《像乌鸦一样思考》 第一集",
+          "duration": 592
+        },
+        {
+          "page": 2,
+          "part": "002. 中文配音   完整版《像乌鸦一样思考》 第二集",
+          "duration": 591
+        },
+        {
+          "page": 3,
+          "part": "003. 中文配音   完整版《像乌鸦一样思考》 第三集",
+          "duration": 591
+        },
+        {
+          "page": 4,
+          "part": "004. 中文配音   完整版《像乌鸦一样思考》 第四集",
+          "duration": 591
+        },
+        {
+          "page": 5,
+          "part": "005. 中文配音   完整版《像乌鸦一样思考》 第五集",
+          "duration": 590
+        },
+        {
+          "page": 6,
+          "part": "006. 中文配音   完整版《像乌鸦一样思考》 第六集",
+          "duration": 590
+        },
+        {
+          "page": 7,
+          "part": "007. 中文配音   完整版《像乌鸦一样思考》 第七集",
+          "duration": 590
+        },
+        {
+          "page": 8,
+          "part": "008.中文配音   完整版《像乌鸦一样思考》 第八集",
+          "duration": 590
+        },
+        {
+          "page": 9,
+          "part": "009.中文配音   完整版《像乌鸦一样思考》 第九集",
+          "duration": 590
+        },
+        {
+          "page": 10,
+          "part": "010.中文配音   完整版《像乌鸦一样思考》 第十集",
+          "duration": 592
+        },
+        {
+          "page": 11,
+          "part": "011.中文配音   完整版《像乌鸦一样思考》 第十一集",
+          "duration": 592
+        },
+        {
+          "page": 12,
+          "part": "012.中文配音   完整版《像乌鸦一样思考》 第十二集",
+          "duration": 592
+        },
+        {
+          "page": 13,
+          "part": "013.中文配音   完整版《像乌鸦一样思考》 第十三集",
+          "duration": 593
+        },
+        {
+          "page": 14,
+          "part": "014.中文配音   完整版《像乌鸦一样思考》 第十四集",
+          "duration": 592
+        },
+        {
+          "page": 15,
+          "part": "015.中文配音   完整版《像乌鸦一样思考》 第十五集",
+          "duration": 592
+        },
+        {
+          "page": 16,
+          "part": "016.中文配音   完整版《像乌鸦一样思考》 第十六集",
+          "duration": 592
+        },
+        {
+          "page": 17,
+          "part": "017.中文配音   完整版《像乌鸦一样思考》 第十七集",
+          "duration": 592
+        },
+        {
+          "page": 18,
+          "part": "018.中文配音   完整版《像乌鸦一样思考》 第十八集",
+          "duration": 591
+        },
+        {
+          "page": 19,
+          "part": "019.中文配音   完整版《像乌鸦一样思考》 第十九集",
+          "duration": 592
+        },
+        {
+          "page": 20,
+          "part": "020.中文配音   完整版《像乌鸦一样思考》 第二十集",
+          "duration": 592
+        }
+      ],
+      "note": "NHK科学思维启蒙，观察与独立思考，中文配音",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1tt411w72a",
       "source": "bilibili",
       "bvid": "BV1tt411w72A",
@@ -20331,6 +22662,33 @@
       "added_at": "2026-11-06"
     },
     {
+      "id": "bv-1um411r7fr",
+      "source": "bilibili",
+      "bvid": "BV1um411R7Fr",
+      "vid": null,
+      "title": "李渔《笠翁对韵》上卷：天对地，雨对风，大陆对长空。",
+      "up": "诵读客",
+      "duration_seconds": 1904,
+      "cover": "http://i0.hdslb.com/bfs/archive/8dd11c1856b7abb41c1c7ce5ca464114884b7281.jpg",
+      "total_pages": 1,
+      "pages": [],
+      "note": "笠翁对韵诵读磨耳朵，建议增设人文主题",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "story"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
       "id": "bv-1uv4y1k7xz",
       "source": "bilibili",
       "bvid": "BV1uv4y1k7XZ",
@@ -20684,6 +23042,89 @@
         ],
         "theme": [
           "science"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1vm4y1e7kz",
+      "source": "bilibili",
+      "bvid": "BV1vm4y1E7KZ",
+      "vid": null,
+      "title": "创造力爆棚的儿童节目《毕达哥拉斯装置》",
+      "up": "诺诺妈宝藏库",
+      "duration_seconds": 3371,
+      "cover": "http://i0.hdslb.com/bfs/archive/1abc1d4fa3769a2278bf750b90831d8e7fc5c8ba.jpg",
+      "total_pages": 11,
+      "pages": [
+        {
+          "page": 1,
+          "part": "第1集",
+          "duration": 310
+        },
+        {
+          "page": 2,
+          "part": "2-第2集",
+          "duration": 296
+        },
+        {
+          "page": 3,
+          "part": "3-第3集",
+          "duration": 309
+        },
+        {
+          "page": 4,
+          "part": "4-第4集",
+          "duration": 351
+        },
+        {
+          "page": 5,
+          "part": "5-第5集",
+          "duration": 310
+        },
+        {
+          "page": 6,
+          "part": "6-第6集",
+          "duration": 297
+        },
+        {
+          "page": 7,
+          "part": "7-第7集",
+          "duration": 315
+        },
+        {
+          "page": 8,
+          "part": "8-第8集",
+          "duration": 295
+        },
+        {
+          "page": 9,
+          "part": "9-第9集",
+          "duration": 296
+        },
+        {
+          "page": 10,
+          "part": "10-第10集",
+          "duration": 296
+        },
+        {
+          "page": 11,
+          "part": "11-第11集",
+          "duration": 296
+        }
+      ],
+      "note": "NHK创意装置科普，动手动脑，语言版本待人工复核",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "craft"
         ]
       },
       "added_at": "2026-11-06"
@@ -22817,6 +25258,301 @@
         "theme": [
           "story",
           "life"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1zbdgyhew9",
+      "source": "bilibili",
+      "bvid": "BV1zbDgYhEW9",
+      "vid": null,
+      "title": "【古诗词】超好听的唐诗300首古诗词唱游动画版  翻译   唐诗宋词三百首   幼儿古诗 幼小衔接 一年级",
+      "up": "爱学百宝箱",
+      "duration_seconds": 2102,
+      "cover": "http://i0.hdslb.com/bfs/archive/42ed4c6cbe047bb9597e2b188b059a88172c7431.png",
+      "total_pages": 11,
+      "pages": [
+        {
+          "page": 1,
+          "part": "咏鹅 春晓 画",
+          "duration": 190
+        },
+        {
+          "page": 2,
+          "part": "一去二三里  池上  回乡偶书",
+          "duration": 196
+        },
+        {
+          "page": 3,
+          "part": "江南 九月九日忆山东兄弟 小儿垂钓",
+          "duration": 194
+        },
+        {
+          "page": 4,
+          "part": "咏柳 望庐山瀑布 敕勒歌",
+          "duration": 207
+        },
+        {
+          "page": 5,
+          "part": "早发白帝城 夜宿山寺 晓出净慈寺送林子方",
+          "duration": 198
+        },
+        {
+          "page": 6,
+          "part": "相思 渡汉江 绝句",
+          "duration": 187
+        },
+        {
+          "page": 7,
+          "part": "清明 逢雪宿芙蓉山主人 独坐敬亭山",
+          "duration": 198
+        },
+        {
+          "page": 8,
+          "part": "雪梅 赠花卿 山行",
+          "duration": 190
+        },
+        {
+          "page": 9,
+          "part": "古朗月行 江上渔者 所见",
+          "duration": 184
+        },
+        {
+          "page": 10,
+          "part": "绝句 悯农 悯农二首",
+          "duration": 181
+        },
+        {
+          "page": 11,
+          "part": "元日 江雪 登鹳雀楼",
+          "duration": 177
+        }
+      ],
+      "note": "唐诗三百首唱游动画，幼儿古诗启蒙，建议增设人文主题",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "story",
+          "animation"
+        ]
+      },
+      "added_at": "2026-11-06"
+    },
+    {
+      "id": "bv-1zkhgzcesd",
+      "source": "bilibili",
+      "bvid": "BV1zkhGzcESD",
+      "vid": null,
+      "title": "安迪的野外冒险 中文版 40集1080超清",
+      "up": "杰克船长爸爸爱学习",
+      "duration_seconds": 31112,
+      "cover": "http://i0.hdslb.com/bfs/archive/8fd96ba202f3af1103a0cca28c16a59b9c503c6d.jpg",
+      "total_pages": 37,
+      "pages": [
+        {
+          "page": 1,
+          "part": "安迪的野外冒险 中文版 第1集",
+          "duration": 849
+        },
+        {
+          "page": 2,
+          "part": "安迪的野外冒险 中文版 第2集",
+          "duration": 850
+        },
+        {
+          "page": 3,
+          "part": "安迪的野外冒险 中文版 第4集",
+          "duration": 840
+        },
+        {
+          "page": 4,
+          "part": "安迪的野外冒险 中文版 第5集",
+          "duration": 843
+        },
+        {
+          "page": 5,
+          "part": "安迪的野外冒险 中文版 第6集",
+          "duration": 847
+        },
+        {
+          "page": 6,
+          "part": "安迪的野外冒险 中文版 第7集",
+          "duration": 833
+        },
+        {
+          "page": 7,
+          "part": "安迪的野外冒险 中文版 第8集",
+          "duration": 849
+        },
+        {
+          "page": 8,
+          "part": "安迪的野外冒险 中文版 第9集",
+          "duration": 835
+        },
+        {
+          "page": 9,
+          "part": "安迪的野外冒险 中文版 第10集",
+          "duration": 844
+        },
+        {
+          "page": 10,
+          "part": "安迪的野外冒险 中文版 第11集",
+          "duration": 851
+        },
+        {
+          "page": 11,
+          "part": "安迪的野外冒险 中文版 第12集",
+          "duration": 846
+        },
+        {
+          "page": 12,
+          "part": "安迪的野外冒险 中文版 第13集",
+          "duration": 829
+        },
+        {
+          "page": 13,
+          "part": "安迪的野外冒险 中文版 第14集",
+          "duration": 811
+        },
+        {
+          "page": 14,
+          "part": "安迪的野外冒险 中文版 第16集",
+          "duration": 832
+        },
+        {
+          "page": 15,
+          "part": "安迪的野外冒险 中文版 第18集",
+          "duration": 850
+        },
+        {
+          "page": 16,
+          "part": "安迪的野外冒险 中文版 第19集",
+          "duration": 849
+        },
+        {
+          "page": 17,
+          "part": "安迪的野外冒险 中文版 第20集",
+          "duration": 850
+        },
+        {
+          "page": 18,
+          "part": "安迪的野外冒险 中文版 第21集",
+          "duration": 849
+        },
+        {
+          "page": 19,
+          "part": "安迪的野外冒险 中文版 第22集",
+          "duration": 837
+        },
+        {
+          "page": 20,
+          "part": "安迪的野外冒险 中文版 第23集",
+          "duration": 840
+        },
+        {
+          "page": 21,
+          "part": "安迪的野外冒险 中文版 第24集",
+          "duration": 845
+        },
+        {
+          "page": 22,
+          "part": "安迪的野外冒险 中文版 第25集",
+          "duration": 839
+        },
+        {
+          "page": 23,
+          "part": "安迪的野外冒险 中文版 第26集",
+          "duration": 850
+        },
+        {
+          "page": 24,
+          "part": "安迪的野外冒险 中文版 第27集",
+          "duration": 850
+        },
+        {
+          "page": 25,
+          "part": "安迪的野外冒险 中文版 第28集",
+          "duration": 839
+        },
+        {
+          "page": 26,
+          "part": "安迪的野外冒险 中文版 第29集",
+          "duration": 836
+        },
+        {
+          "page": 27,
+          "part": "安迪的野外冒险 中文版 第30集",
+          "duration": 839
+        },
+        {
+          "page": 28,
+          "part": "安迪的野外冒险 中文版 第31集",
+          "duration": 828
+        },
+        {
+          "page": 29,
+          "part": "安迪的野外冒险 中文版 第32集",
+          "duration": 831
+        },
+        {
+          "page": 30,
+          "part": "安迪的野外冒险 中文版 第33集",
+          "duration": 828
+        },
+        {
+          "page": 31,
+          "part": "安迪的野外冒险 中文版 第34集",
+          "duration": 849
+        },
+        {
+          "page": 32,
+          "part": "安迪的野外冒险 中文版 第35集",
+          "duration": 858
+        },
+        {
+          "page": 33,
+          "part": "安迪的野外冒险 中文版 第36集",
+          "duration": 848
+        },
+        {
+          "page": 34,
+          "part": "安迪的野外冒险 中文版 第37集",
+          "duration": 836
+        },
+        {
+          "page": 35,
+          "part": "安迪的野外冒险 中文版 第38集",
+          "duration": 833
+        },
+        {
+          "page": 36,
+          "part": "安迪的野外冒险 中文版 第39集",
+          "duration": 833
+        },
+        {
+          "page": 37,
+          "part": "安迪的野外冒险 中文版 第40集",
+          "duration": 836
+        }
+      ],
+      "note": "BBC安迪野外冒险中文版，野生动物科普",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "nature"
         ]
       },
       "added_at": "2026-11-06"

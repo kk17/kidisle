@@ -117,6 +117,7 @@ def main():
             "avatar": face,
             "video_count": len(vids),
             "themes": [t for t, _ in Counter(themes).most_common(3)],
+            "platforms": sorted({v.get("source") or "bilibili" for v in vids}),
             "reason": reason,
             "source": source_name,
             "source_url": source_url,

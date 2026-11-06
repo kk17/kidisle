@@ -11,6 +11,12 @@ const themes = taxonomy.themes;
 <Base>
 	<section class="filters" id="filters">
 		<div class="filter-row">
+			<span class="dim" data-i18n="filter_platform">平台</span>
+			<button class="chip" data-dim="platform" data-v="bilibili" data-tag="bilibili" data-tag-dim="platform" aria-pressed="false">B站</button>
+			<button class="chip" data-dim="platform" data-v="youtube" data-tag="youtube" data-tag-dim="platform" aria-pressed="false">YouTube</button>
+			<button class="chip-clear" data-clear="platform" data-i18n="clear">清空</button>
+		</div>
+		<div class="filter-row">
 			<span class="dim" data-i18n="filter_age">年龄段</span>
 			{ageBands.map((t) => <button class="chip" data-dim="age" data-v={t.id} data-tag={t.id} data-tag-dim="age" aria-pressed="false">{t.label}</button>)}
 			<button class="chip-clear" data-clear="age" data-i18n="clear">清空</button>
@@ -34,6 +40,7 @@ const themes = taxonomy.themes;
 				videos.videos.map((v) => (
 					<li
 						class="cell"
+						data-platform={v.source}
 						data-age={JSON.stringify(v.tags.age)}
 						data-language={JSON.stringify(v.tags.language)}
 						data-theme={JSON.stringify(v.tags.theme)}
@@ -77,7 +84,7 @@ const themes = taxonomy.themes;
 </style>
 
 <script>
-	const state: Record<string, Set<string>> = { age: new Set(), language: new Set(), theme: new Set() };
+	const state: Record<string, Set<string>> = { platform: new Set(), age: new Set(), language: new Set(), theme: new Set() };
 	const cells = Array.from(document.querySelectorAll<HTMLLIElement>('.cell'));
 	const countEl = document.getElementById('count')!;
 	const emptyEl = document.getElementById('empty')!;
@@ -86,10 +93,10 @@ const themes = taxonomy.themes;
 		let shown = 0;
 		for (const cell of cells) {
 			const ok = (['age', 'language', 'theme'] as const).every((dim) => {
-				if (state[dim].size === 0) return true;
-				const vals: string[] = JSON.parse(cell.dataset[dim] || '[]');
-				return vals.some((v) => state[dim].has(v));
-			});
+					if (state[dim].size === 0) return true;
+					const vals: string[] = JSON.parse(cell.dataset[dim] || '[]');
+					return vals.some((v) => state[dim].has(v));
+				}) && (state.platform.size === 0 || state.platform.has(cell.dataset.platform));
 			cell.style.display = ok ? '' : 'none';
 			if (ok) shown++;
 		}

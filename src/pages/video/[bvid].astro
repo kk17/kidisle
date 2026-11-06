@@ -89,6 +89,7 @@ const related = (() => {
 			}
 			<h1 class="wtitle">{v.title}</h1>
 			<div class="tagrow">
+				<span class="tag plat-tag" data-tag={v.source} data-tag-dim="platform">{v.source === 'youtube' ? 'YouTube' : 'B站'}</span>
 				{v.tags.age.map((a) => <span class="tag">{ageLabel[a] ?? a}</span>)}
 				{v.tags.language.map((l) => <span class="tag">{langLabel[l] ?? l}</span>)}
 				{v.tags.theme.map((t) => <span class="tag">{themeLabel[t] ?? t}</span>)}
@@ -206,6 +207,7 @@ const related = (() => {
 	.copy:active { background: var(--sea); color: #fff; }
 	.kiki { border: 1px solid #f59e0b; background: var(--card); color: #b45309; }
 	.bili { border: 1px solid var(--line); background: var(--card); color: var(--muted); }
+	.plat-tag { background: #1f2937; color: #fff; }
 	.tip { font-size: 0.75rem; color: var(--muted); margin-top: 0.8rem; }
 	.related h2 { font-size: 1rem; margin: 0 0 0.7rem; }
 	.related ul { margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.6rem; }

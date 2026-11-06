@@ -9,6 +9,12 @@ const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]
 <Base title="博主目录 · 童心岛" description="童心岛收录的优质儿童向 B 站博主目录，附推荐理由与来源，可按主题筛选。">
 	<main>
 		<p class="intro" data-i18n="creators_intro_full" data-i18n-var-n={String(bloggers.bloggers.length)}>共收录 {bloggers.bloggers.length} 位博主，点进博主查看全部视频。</p>
+		<div class="themebar" id="platformbar">
+			<span class="dim" data-i18n="filter_platform">平台</span>
+			<button class="chip" data-v="bilibili" data-tag="bilibili" data-tag-dim="platform" aria-pressed="false">B站</button>
+			<button class="chip" data-v="youtube" data-tag="youtube" data-tag-dim="platform" aria-pressed="false">YouTube</button>
+			<button class="chip-clear" id="clear-platform" data-i18n="clear">清空</button>
+		</div>
 		<div class="themebar" id="themebar">
 			<span class="dim" data-i18n="filter_theme">主题</span>
 			{taxonomy.themes.map((t) => <button class="chip" data-v={t.id} data-tag={t.id} data-tag-dim="theme" aria-pressed="false">{t.label}</button>)}
@@ -20,6 +26,7 @@ const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]
 					<li
 						class="bcell"
 						data-themes={JSON.stringify(b.themes ?? [])}
+						data-platforms={JSON.stringify(b.platforms ?? ['bilibili'])}
 					>
 						<div class="bcard">
 							<a class="bmain" href={`${base}blogger/${encodeURIComponent(b.up)}/`} aria-label={`查看 ${b.up} 的视频`}>
@@ -95,6 +102,10 @@ const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]
 	.bavatar img { width: 100%; height: 100%; object-fit: cover; }
 	.bname { font-weight: 600; font-size: 0.95rem; display: block; }
 	.bcount { font-size: 0.75rem; color: var(--muted); display: block; }
+	.plat {
+		display: inline-block; font-size: 0.65rem; font-weight: 600; color: #fff;
+		background: var(--muted); border-radius: 4px; padding: 0.02rem 0.35rem; margin-right: 0.3rem;
+	}
 	.breason { font-size: 0.8rem; color: var(--muted); line-height: 1.45; }
 	.tagrow { display: flex; flex-wrap: wrap; gap: 0.28rem; }
 	.bsrc {
@@ -108,6 +119,7 @@ const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]
 
 <script>
 	const selected = new Set<string>();
+	const selectedPlat = new Set<string>();
 	const cells = Array.from(document.querySelectorAll<HTMLElement>('.bcell'));
 	const emptyEl = document.getElementById('empty')!;
 
@@ -115,7 +127,9 @@ const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]
 		let shown = 0;
 		for (const cell of cells) {
 			const themes: string[] = JSON.parse(cell.dataset.themes || '[]');
-			const ok = selected.size === 0 || themes.some((t) => selected.has(t));
+			const platforms: string[] = JSON.parse(cell.dataset.platforms || '[]');
+			const ok = (selected.size === 0 || themes.some((t) => selected.has(t)))
+				&& (selectedPlat.size === 0 || platforms.some((p) => selectedPlat.has(p)));
 			cell.style.display = ok ? '' : 'none';
 			if (ok) shown++;
 		}
@@ -132,6 +146,19 @@ const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]
 	document.getElementById('clear')!.addEventListener('click', () => {
 		selected.clear();
 		document.querySelectorAll<HTMLButtonElement>('#themebar .chip').forEach((c) => c.setAttribute('aria-pressed', 'false'));
+		apply();
+	});
+	document.querySelectorAll<HTMLButtonElement>('#platformbar .chip').forEach((chip) => {
+		chip.addEventListener('click', () => {
+			const v = chip.dataset.v!;
+			if (selectedPlat.has(v)) { selectedPlat.delete(v); chip.setAttribute('aria-pressed', 'false'); }
+			else { selectedPlat.add(v); chip.setAttribute('aria-pressed', 'true'); }
+			apply();
+		});
+	});
+	document.getElementById('clear-platform')!.addEventListener('click', () => {
+		selectedPlat.clear();
+		document.querySelectorAll<HTMLButtonElement>('#platformbar .chip').forEach((c) => c.setAttribute('aria-pressed', 'false'));
 		apply();
 	});
 	apply();

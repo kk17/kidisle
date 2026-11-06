@@ -83,6 +83,7 @@ const { title = '童心岛 · 为孩子精选的中文视频片单', description
 			age: Object.fromEntries(taxonomy.age_bands.map((t) => [t.id, { zh: t.label, en: t.label_en }])),
 			language: Object.fromEntries(taxonomy.languages.map((t) => [t.id, { zh: t.label, en: t.label_en }])),
 			theme: Object.fromEntries(taxonomy.themes.map((t) => [t.id, { zh: t.label, en: t.label_en }])),
+			platform: { bilibili: { zh: 'B站', en: 'Bilibili' }, youtube: { zh: 'YouTube', en: 'YouTube' } },
 		})} />
 
 		<script>
