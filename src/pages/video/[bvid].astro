@@ -127,6 +127,15 @@ const related = (() => {
 				<a class="bili" href={originalUrl} target="_blank" rel="noopener">
 						<span data-i18n={isYouTube ? 'open_youtube' : 'open_bilibili'}>{isYouTube ? '↗ 在 YouTube 打开' : '↗ 在 B 站打开'}</span>
 					</a>
+				<a
+					class="feedback"
+					href={`https://github.com/kk17/kidisle/issues/new?template=video-feedback.yml&title=${encodeURIComponent(`[视频反馈] ${v.title}`)}&bvid=${v.bvid}&video-title=${encodeURIComponent(v.title)}`}
+					target="_blank"
+					rel="noopener"
+					data-i18n="feedback_btn"
+				>
+					🗣️ 反馈问题
+				</a>
 			</div>
 			<p class="tip">
 				<span data-i18n={isYouTube ? 'tip_youtube' : 'tip_bili'}>
