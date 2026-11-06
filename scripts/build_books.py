@@ -170,6 +170,21 @@ def collect():
     print(f"完成：{len(pool)} 本（详情成功 {n}）→ {out}")
 
 
+def ol_search_cover(title, author):
+    """Open Library 搜索 + 封面（英文书豆瓣无条目时的封面兜底）。"""
+    # 作者字段经豆瓣富化常带中文（如 "Vera Brosgol 文/图"），OL 只认 ASCII
+    author_ascii = re.sub(r"[^\x20-\x7e]", "", author or "").strip()
+    params = {"title": title, "limit": 1, "fields": "cover_i"}
+    if author_ascii:
+        params["author"] = author_ascii
+    q = urllib.parse.urlencode(params)
+    raw = fetch(f"https://openlibrary.org/search.json?{q}")
+    docs = json.loads(raw).get("docs") or []
+    if docs and docs[0].get("cover_i"):
+        return f"https://covers.openlibrary.org/b/id/{docs[0]['cover_i']}-L.jpg"
+    return ""
+
+
 def covers():
     """把豆瓣封面下载到 public/covers/（豆瓣图床对无 Referer 热链返回 418，
     浏览器端无法伪造 Referer，故构建时自托管）。"""
@@ -183,6 +198,15 @@ def covers():
         if local.exists():
             continue
         url = b.get("cover") or ""
+        if not url:
+            # 英文书豆瓣无条目：Open Library 兜底
+            try:
+                url = ol_search_cover(b["title"], b.get("author") or "")
+                if url:
+                    b["cover"] = url
+            except Exception as e:
+                print(f"  ! OpenLibrary 失败 {b['title']}: {e}")
+                continue
         if not url:
             continue
         try:
