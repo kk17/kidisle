@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 895,
+  "count": 942,
   "videos": [
     {
       "bvid": "-FvvHcNRF7s",
@@ -13890,6 +13890,78 @@
       }
     },
     {
+      "bvid": "fEqst9O6WkE",
+      "suitable": true,
+      "note": "Barney官方经典儿歌合集，幼儿跟唱",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "fU1KKvbCrRI",
+      "suitable": true,
+      "note": "Pinkfong官方动物律动儿歌",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "fdPu-wvl3KE",
+      "suitable": true,
+      "note": "CoComelon官方亲子互动儿歌",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "fhEaWF09baY",
+      "suitable": true,
+      "note": "NuNuTv官方数数童谣，英语磨耳朵",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
       "bvid": "fkiPxXjalqs",
       "suitable": true,
       "note": "小猪佩奇官方新剧集动画，低幼友好",
@@ -13903,6 +13975,40 @@
         ],
         "theme": [
           "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "frDB0McZYmc",
+      "suitable": true,
+      "note": "SuperSimpleSongs官方季节儿歌",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "g8Gadvafi9k",
+      "suitable": true,
+      "note": "动画绘本《给你一根鼠饼干》，搬运号待复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
         ]
       }
     },
@@ -13924,6 +14030,22 @@
       }
     },
     {
+      "bvid": "gVlFizd7f98",
+      "suitable": true,
+      "note": "RTEKIDSjr少儿英语片段，教师频道上传待复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english"
+        ]
+      }
+    },
+    {
       "bvid": "ganqsmwN8tw",
       "suitable": true,
       "note": "佩奇正片合集动画，低幼友好",
@@ -13937,6 +14059,39 @@
         ],
         "theme": [
           "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "gj1IB6lLdDE",
+      "suitable": true,
+      "note": "《特务欧宝》动画片段，搬运号待复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "gnbdn_UsX-g",
+      "suitable": true,
+      "note": "LittleAngel官方万圣节儿歌，无惊悚",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music"
         ]
       }
     },
@@ -13958,6 +14113,153 @@
       }
     },
     {
+      "bvid": "h6kssBH6rPo",
+      "suitable": true,
+      "note": "HooplaKidz官方动物声音童谣",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "hKoPzY43iBc",
+      "suitable": true,
+      "note": "Blippi官方迷你高尔夫英语启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "hMsczKmxrLg",
+      "suitable": false,
+      "note": "明星婚恋八卦资讯，非儿童内容",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "hR2TUcYps_s",
+      "suitable": true,
+      "note": "《飘叶》中配版，聚合搬运号待复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "nature"
+        ]
+      }
+    },
+    {
+      "bvid": "hhKuZCs3Hjc",
+      "suitable": true,
+      "note": "Pinkfong官方万圣节找妈妈儿歌",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music"
+        ]
+      }
+    },
+    {
+      "bvid": "hjrw5h2frAY",
+      "suitable": true,
+      "note": "YakkaDee官方字母单词启蒙",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "i5XoJKr-de4",
+      "suitable": true,
+      "note": "Cyberchase数学思维动画，AkiliTV",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "math",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "i9PanLaXO1c",
+      "suitable": true,
+      "note": "AmazonKids+官方《鼠小弟》跟唱",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "music"
+        ]
+      }
+    },
+    {
+      "bvid": "iCOA6d1ZrJs",
+      "suitable": true,
+      "note": "LittleAngel官方救援主题儿歌",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music"
+        ]
+      }
+    },
+    {
       "bvid": "iqhBuvcQ1A8",
       "suitable": true,
       "note": "StorylineOnline 名人朗读绘本故事",
@@ -13971,6 +14273,125 @@
         ],
         "theme": [
           "story"
+        ]
+      }
+    },
+    {
+      "bvid": "j0DMBBYcABs",
+      "suitable": true,
+      "note": "CoComelon蜘蛛童谣，聚合频道搬运待复核",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music"
+        ]
+      }
+    },
+    {
+      "bvid": "j8P4WjNAhZ8",
+      "suitable": true,
+      "note": "Netflix官方《最后的孩子在地球》",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "j8z7UjET1Is",
+      "suitable": true,
+      "note": "BouncePatrol官方动物儿歌",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music"
+        ]
+      }
+    },
+    {
+      "bvid": "jaIzsCZktX8",
+      "suitable": true,
+      "note": "LittleAngel官方午餐盒主题儿歌",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music"
+        ]
+      }
+    },
+    {
+      "bvid": "jh7z-_iUWCc",
+      "suitable": true,
+      "note": "LittleAngel儿歌合集，搬运号待复核",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music"
+        ]
+      }
+    },
+    {
+      "bvid": "jrf39Y_ny9k",
+      "suitable": true,
+      "note": "LittleFox官方沙漠动物科普",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "nature"
+        ]
+      }
+    },
+    {
+      "bvid": "jsyNNJoxAUY",
+      "suitable": true,
+      "note": "LittleFox官方夜行动物科普",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "nature"
         ]
       }
     },
@@ -13992,6 +14413,23 @@
       }
     },
     {
+      "bvid": "jw7YsPeb-c0",
+      "suitable": true,
+      "note": "WordGirl词汇动画，AkiliTV",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "jyYrHQvvqy8",
       "suitable": true,
       "note": "SciShow Kids 制岩糖实验，生活化科普",
@@ -14004,6 +14442,77 @@
         ],
         "theme": [
           "science"
+        ]
+      }
+    },
+    {
+      "bvid": "kDw26kqzotE",
+      "suitable": true,
+      "note": "AmazonKids+《飘叶》第四季自然启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "nature"
+        ]
+      }
+    },
+    {
+      "bvid": "kNrPP599V9Q",
+      "suitable": true,
+      "note": "Steve and Maggie官方情景英语动画",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "kdWnG0eMQRI",
+      "suitable": true,
+      "note": "Alphablocks官方拼读故事",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "kiakd1Havg0",
+      "suitable": true,
+      "note": "PBS KIDS《莫莉》正剧全集",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "nature"
         ]
       }
     },
@@ -14025,6 +14534,125 @@
       }
     },
     {
+      "bvid": "lwV0MOd2ZWA",
+      "suitable": true,
+      "note": "TumbleLeaf官方磁力科学小剧场",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "ly-cJjI-9k0",
+      "suitable": true,
+      "note": "HooplaKidz官方经典童谣合集",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music"
+        ]
+      }
+    },
+    {
+      "bvid": "m74C6hzHPP8",
+      "suitable": true,
+      "note": "Alphablocks官方字母故事，童趣无惊悚",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "m84hlfXz9uE",
+      "suitable": true,
+      "note": "Dora官方故事集，幼儿英语启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "mG4GiVw6FyA",
+      "suitable": true,
+      "note": "Blippi颜色认知，聚合频道搬运待复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "mO2tQvrqYHk",
+      "suitable": true,
+      "note": "EnglishSingsing自然拼读故事",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "mjd0hnEt3LU",
+      "suitable": true,
+      "note": "Barney官方《Easy as ABC》字母集",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "english"
+        ]
+      }
+    },
+    {
       "bvid": "myDRecuhRgk",
       "suitable": true,
       "note": "Numberblocks 正片，数学启蒙动画",
@@ -14038,6 +14666,66 @@
         "theme": [
           "math",
           "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "mzYYqfBjcwM",
+      "suitable": false,
+      "note": "低质搬运号，WEB-DL/1080p打包标记",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "nJaNdbMz90w",
+      "suitable": true,
+      "note": "BabyTV幼儿动画，搬运号待复核",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "nbCsb73gJqg",
+      "suitable": true,
+      "note": "Dora官方剧集泰米尔语版，语种待复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "nocyaoZ7xv0",
+      "suitable": true,
+      "note": "AumSum官方趣味科学动画",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science"
         ]
       }
     },
@@ -14060,6 +14748,42 @@
       }
     },
     {
+      "bvid": "oFGorR6-9Hc",
+      "suitable": true,
+      "note": "Pinkfong官方健康习惯儿歌",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "oGMCBtJZ3CU",
+      "suitable": true,
+      "note": "WildBrain官方低幼探索动画",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "nature"
+        ]
+      }
+    },
+    {
       "bvid": "oVOnRPefcno",
       "suitable": true,
       "note": "SciShow Kids 桥梁工程原理，STEAM 科普",
@@ -14072,6 +14796,74 @@
         ],
         "theme": [
           "science"
+        ]
+      }
+    },
+    {
+      "bvid": "pHNr1XdH-NM",
+      "suitable": true,
+      "note": "Blippi室内游乐场，聚合频道搬运待复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "pZijedFRUvc",
+      "suitable": true,
+      "note": "《鼠小弟》动画绘本，搬运号待复核",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "pbX8NPQlyVs",
+      "suitable": true,
+      "note": "Bubu小猫头鹰温馨动画短片",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "pf93hIE1xBU",
+      "suitable": true,
+      "note": "Barney官方洗澡歌幼儿动画",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "music"
         ]
       }
     },
