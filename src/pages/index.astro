@@ -14,7 +14,7 @@ const themes = taxonomy.themes;
 			<span class="dim" data-i18n="filter_platform">平台</span>
 			<button class="chip" data-dim="platform" data-v="bilibili" data-tag="bilibili" data-tag-dim="platform" aria-pressed="false">B站</button>
 			<button class="chip" data-dim="platform" data-v="youtube" data-tag="youtube" data-tag-dim="platform" aria-pressed="false">YouTube</button>
-			<button class="chip-clear" data-clear="platform" data-i18n="clear">清空</button>
+			<button class="chip" id="plat-all" aria-pressed="true" data-i18n="all">全部</button>
 		</div>
 		<div class="filter-row">
 			<span class="dim" data-i18n="filter_age">年龄段</span>
@@ -85,6 +85,11 @@ const themes = taxonomy.themes;
 
 <script>
 	const state: Record<string, Set<string>> = { platform: new Set(), age: new Set(), language: new Set(), theme: new Set() };
+	const platAllBtn = document.getElementById('plat-all')!;
+
+	function syncPlatAll() {
+		if (platAllBtn) platAllBtn.setAttribute('aria-pressed', String(state.platform.size === 0));
+	}
 	const cells = Array.from(document.querySelectorAll<HTMLLIElement>('.cell'));
 	const countEl = document.getElementById('count')!;
 	const emptyEl = document.getElementById('empty')!;

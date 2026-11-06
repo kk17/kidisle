@@ -12,6 +12,7 @@ export const UI: Record<string, { zh: string; en: string }> = {
 	filter_theme: { zh: '主题', en: 'Topic' },
 	filter_platform: { zh: '平台', en: 'Platform' },
 	clear: { zh: '清空', en: 'Clear' },
+	all: { zh: '全部', en: 'All' },
 	empty_home: { zh: '这个组合下暂时没有视频，换个筛选试试～', en: 'No videos match this combination — try different filters.' },
 	empty_creators: { zh: '这个主题下暂时没有博主～', en: 'No creators under this topic yet.' },
 	creators_intro: { zh: '位博主，点进博主查看全部视频。', en: 'curated creators. Open one to see all their videos.' },

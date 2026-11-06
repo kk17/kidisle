@@ -13,7 +13,7 @@ const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]
 			<span class="dim" data-i18n="filter_platform">平台</span>
 			<button class="chip" data-v="bilibili" data-tag="bilibili" data-tag-dim="platform" aria-pressed="false">B站</button>
 			<button class="chip" data-v="youtube" data-tag="youtube" data-tag-dim="platform" aria-pressed="false">YouTube</button>
-			<button class="chip-clear" id="clear-platform" data-i18n="clear">清空</button>
+			<button class="chip" id="clear-platform" aria-pressed="true" data-i18n="all">全部</button>
 		</div>
 		<div class="themebar" id="themebar">
 			<span class="dim" data-i18n="filter_theme">主题</span>
@@ -156,10 +156,19 @@ const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]
 			apply();
 		});
 	});
-	document.getElementById('clear-platform')!.addEventListener('click', () => {
+	const platAllBtn = document.getElementById('clear-platform')!;
+	function syncPlatAll() {
+		platAllBtn.setAttribute('aria-pressed', String(selectedPlat.size === 0));
+	}
+	platAllBtn.addEventListener('click', () => {
 		selectedPlat.clear();
-		document.querySelectorAll<HTMLButtonElement>('#platformbar .chip').forEach((c) => c.setAttribute('aria-pressed', 'false'));
+		document.querySelectorAll<HTMLButtonElement>('#platformbar .chip[data-v]').forEach((c) => c.setAttribute('aria-pressed', 'false'));
+		syncPlatAll();
 		apply();
+	});
+	document.querySelectorAll<HTMLButtonElement>('#platformbar .chip[data-v]').forEach((chip) => {
+		const orig = chip.addEventListener.bind(chip);
+		orig('click', () => setTimeout(syncPlatAll, 0));
 	});
 	apply();
 </script>
