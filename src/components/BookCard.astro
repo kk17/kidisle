@@ -1,0 +1,87 @@
+---
+// 绘本卡片：封面 + 七要素 + 豆瓣/Goodreads 链接
+import taxonomy from '../data/taxonomy.json';
+const ageLabel = Object.fromEntries(taxonomy.age_bands.map((t) => [t.id, t.label]));
+const langLabel = Object.fromEntries(taxonomy.languages.map((t) => [t.id, t.label]));
+const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]));
+
+interface Props {
+	book: any;
+}
+const { book: b } = Astro.props;
+---
+<div
+	class="bkcard"
+	data-age={JSON.stringify(b.tags.age)}
+	data-language={JSON.stringify(b.tags.language)}
+	data-theme={JSON.stringify(b.tags.theme)}
+>
+	<div class="bkcover">
+		{b.cover && <img src={b.cover} loading="lazy" referrerpolicy="no-referrer" alt={b.title} />}
+		{b.rating && <span class="bkrating">★ {b.rating}</span>}
+	</div>
+	<div class="bkbody">
+		<h2 class="bktitle">{b.title}</h2>
+		{b.title_en && <div class="bktitle-en">{b.title_en}</div>}
+		{b.author && <div class="bkauthor">{b.author}</div>}
+		<div class="tagrow">
+			{b.tags.age.map((a) => <span class="tag" data-tag={a} data-tag-dim="age">{ageLabel[a] ?? a}</span>)}
+			{b.tags.language.map((l) => <span class="tag" data-tag={l} data-tag-dim="language">{langLabel[l] ?? l}</span>)}
+			{b.tags.theme.map((t) => <span class="tag" data-tag={t} data-tag-dim="theme">{themeLabel[t] ?? t}</span>)}
+		</div>
+		{b.reason && <p class="bkreason">{b.reason}</p>}
+		<div class="bkmeta">
+			{b.isbn && <span class="bkisbn">ISBN {b.isbn}</span>}
+			{b.publisher && <span> · {b.publisher}</span>}
+		</div>
+		<div class="bklinks">
+			{b.douban_url && <a href={b.douban_url} target="_blank" rel="noopener" data-i18n="douban_page">豆瓣页面</a>}
+			{b.goodreads_url && <a href={b.goodreads_url} target="_blank" rel="noopener">Goodreads</a>}
+			{b.source_url && (
+				<a class="bksrc" href={b.source_url} target="_blank" rel="noopener">
+					📎 <span data-i18n="source_name" data-i18n-var-name={b.source_name}>{b.source_name}</span> ↗
+				</a>
+			)}
+		</div>
+	</div>
+</div>
+
+<style>
+	.bkcard {
+		background: var(--card); border-radius: 12px; overflow: hidden;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+		display: flex; flex-direction: column;
+	}
+	.bkcover {
+		position: relative; aspect-ratio: 4 / 5; background: #f1f5f9;
+		display: grid; place-items: center;
+	}
+	.bkcover img {
+		position: absolute; inset: 0; width: 100%; height: 100%;
+		object-fit: contain; padding: 0.5rem;
+	}
+	.bkrating {
+		position: absolute; left: 6px; top: 6px;
+		font-size: 0.75rem; font-weight: 700; color: #92400e;
+		background: rgba(255, 251, 235, 0.95); padding: 0.1rem 0.45rem; border-radius: 6px;
+	}
+	.bkbody { padding: 0.7rem 0.9rem 0.9rem; display: flex; flex-direction: column; gap: 0.4rem; flex: 1; }
+	.bktitle {
+		margin: 0; font-size: 0.95rem; font-weight: 600; line-height: 1.4;
+		display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+	}
+	.bktitle-en { font-size: 0.75rem; color: var(--muted); margin-top: -0.3rem; }
+	.bkauthor { font-size: 0.78rem; color: var(--muted); }
+	.bkreason {
+		margin: 0; font-size: 0.78rem; color: var(--muted); line-height: 1.5;
+		display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+	}
+	.bkmeta { font-size: 0.7rem; color: var(--muted); }
+	.bklinks { margin-top: auto; display: flex; gap: 0.7rem; align-items: center; flex-wrap: wrap; }
+	.bklinks a { font-size: 0.78rem; color: var(--sea); text-decoration: none; }
+	.bklinks a:hover { text-decoration: underline; }
+	.bksrc {
+		background: #fef3c7; color: #92400e !important;
+		padding: 0.08rem 0.5rem; border-radius: 999px;
+	}
+</style>
