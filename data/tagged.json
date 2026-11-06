@@ -1,7 +1,283 @@
 {
   "schema_version": 1,
-  "count": 389,
+  "count": 417,
   "videos": [
+    {
+      "bvid": "02E1468SdHg",
+      "suitable": true,
+      "note": "Cosmic Kids瑜伽冒险，运动启蒙；建议增设体育主题",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "0n_J2z-ILXo",
+      "suitable": true,
+      "note": "Super Simple Songs英文儿歌合集，低幼启蒙",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "1DXQgrH8hOc",
+      "suitable": true,
+      "note": "Bounce Patrol字母歌系列，ABC基础英语启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "1Wqv-kUX8ao",
+      "suitable": true,
+      "note": "芝麻街看牙医整集，健康习惯与情绪引导",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "life",
+          "social"
+        ]
+      }
+    },
+    {
+      "bvid": "1xgb2fcMWP0",
+      "suitable": true,
+      "note": "Alphablocks自然拼读动画，字母启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "3Zc1UJ68wSQ",
+      "suitable": true,
+      "note": "Art for Kids Hub跟画教程，小鸭子简笔画",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "craft"
+        ]
+      }
+    },
+    {
+      "bvid": "5ISKUMy1980",
+      "suitable": true,
+      "note": "StorylineOnline名人朗读绘本，故事类",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "6FB0rDsR_rc",
+      "suitable": true,
+      "note": "Crash Course Kids太阳科普，体系化讲解",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "7CghDWUJRI0",
+      "suitable": true,
+      "note": "Nat Geo Kids国家公园水下动物，自然纪录片",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "nature"
+        ]
+      }
+    },
+    {
+      "bvid": "8a4sYTueSJE",
+      "suitable": true,
+      "note": "Numberblocks数与形状整集合，数学启蒙动画",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "math",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "96IRzYOGtps",
+      "suitable": true,
+      "note": "Bounce Patrol水果认知儿歌，互动找水果",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "9XQSFLMpn_c",
+      "suitable": true,
+      "note": "Super Simple Songs恐龙数数儿歌合集",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "9m1Ui-3Nt_4",
+      "suitable": true,
+      "note": "StorylineOnline名人朗读绘本，故事类",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "9x9SCgFSmaY",
+      "suitable": true,
+      "note": "Cosmic Kids魔法满屋主题瑜伽；建议增设体育主题",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "A7LU5Wxc_0Y",
+      "suitable": true,
+      "note": "SciShow Kids水滴鱼生物科普，面向儿童",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "AOvcW8l3RzE",
+      "suitable": true,
+      "note": "Kiboomers环保回收儿歌，地球日习惯培养",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "life",
+          "english"
+        ]
+      }
+    },
     {
       "bvid": "BV11341157Wz",
       "suitable": true,
@@ -6169,6 +6445,214 @@
         "age": [],
         "language": [],
         "theme": []
+      }
+    },
+    {
+      "bvid": "C3c8fzbsfOE",
+      "suitable": true,
+      "note": "Kiboomers拍手律动儿歌，幼儿圆圈时间",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "C4CaR0syf1g",
+      "suitable": true,
+      "note": "Cosmic Kids丛林探险瑜伽；建议增设体育主题",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "CZhE2p46vJk",
+      "suitable": true,
+      "note": "Crash Course Kids食物链科普合集",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "DEHBrmZxAf8",
+      "suitable": true,
+      "note": "Kiboomers登月主题儿歌，幼儿律动",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "DS_PQYIGrTc",
+      "suitable": true,
+      "note": "Art for Kids Hub跟画教程，Pusheen猫简笔画",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "craft"
+        ]
+      }
+    },
+    {
+      "bvid": "DpedQ_vbI18",
+      "suitable": true,
+      "note": "芝麻街露营整集，社交与探索主题",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "life",
+          "social"
+        ]
+      }
+    },
+    {
+      "bvid": "EwY6p-r_hyU",
+      "suitable": true,
+      "note": "Crash Course Kids重力物理科普合集",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "GHj-C7TfgkE",
+      "suitable": true,
+      "note": "Super Simple Songs山歌儿歌合集，低幼",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "HWfl_jXJg74",
+      "suitable": true,
+      "note": "Alphablocks拼读儿歌，字母拼写启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "ImUgAzHSyIc",
+      "suitable": true,
+      "note": "Nat Geo Kids眼镜蛇动物短片，自然认知",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "nature"
+        ]
+      }
+    },
+    {
+      "bvid": "KAT5NiWHFIU",
+      "suitable": true,
+      "note": "Cosmic Kids熊出没绘本瑜伽；建议增设体育主题",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "LPNetMgYeJU",
+      "suitable": true,
+      "note": "Bounce Patrol动物叫声儿歌，低幼认知",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
       }
     }
   ]
