@@ -29,9 +29,17 @@ def oembed(vid):
 
 
 def main():
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--only", default="", help="只处理匹配的文件名片段，如 wx")
+    ap.add_argument("--out", default="candidates-y.json")
+    args = ap.parse_args()
+
     pool = {}
     theme_hint = {}
-    for md in sorted((ROOT / "data/curated").glob("yt-links-*.md")):
+    files = [f for f in sorted((ROOT / "data/curated").glob("yt-links-*.md"))
+             if args.only in f.name]
+    for md in files:
         for line in md.read_text(encoding="utf-8").splitlines():
             line = line.strip()
             if not line or line.startswith("#") or "|" not in line:
@@ -81,7 +89,7 @@ def main():
         if hint:
             item["desc"] = f"[topic hint: {hint}]"
 
-    out = ROOT / "data/candidates-y.json"
+    out = ROOT / "data" / args.out
     out.write_text(
         json.dumps(
             {
