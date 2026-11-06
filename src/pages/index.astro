@@ -109,11 +109,22 @@ const themes = taxonomy.themes;
 		emptyEl.hidden = shown > 0;
 	}
 	document.querySelectorAll<HTMLButtonElement>('.chip').forEach((chip) => {
+		// 「全部」按钮单独处理：与 B站/YouTube 互斥（选中任一平台即取消全部）
+		if (chip.id === 'plat-all') {
+			chip.addEventListener('click', () => {
+				state.platform.clear();
+				document.querySelectorAll<HTMLButtonElement>('.chip[data-dim="platform"]').forEach((c) => c.setAttribute('aria-pressed', 'false'));
+				syncPlatAll();
+				apply();
+			});
+			return;
+		}
 		chip.addEventListener('click', () => {
 			const set = state[chip.dataset.dim!];
 			const v = chip.dataset.v!;
 			if (set.has(v)) { set.delete(v); chip.setAttribute('aria-pressed', 'false'); }
 			else { set.add(v); chip.setAttribute('aria-pressed', 'true'); }
+			syncPlatAll();
 			apply();
 		});
 	});
