@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 692,
+  "count": 744,
   "videos": [
     {
       "bvid": "-FvvHcNRF7s",
@@ -1403,6 +1403,25 @@
       }
     },
     {
+      "bvid": "BV11a4y1n7Hs",
+      "suitable": true,
+      "note": "《瑞奇宝宝》系列英文动画，低幼友好",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "english",
+          "music"
+        ]
+      }
+    },
+    {
       "bvid": "BV11bFjzqEwB",
       "suitable": true,
       "note": "金典早教益智儿歌系列，低龄磨耳朵",
@@ -1679,6 +1698,24 @@
       }
     },
     {
+      "bvid": "BV13Y411N7Hm",
+      "suitable": true,
+      "note": "英文数字儿歌动画，学前数学启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "math",
+          "animation",
+          "music"
+        ]
+      }
+    },
+    {
       "bvid": "BV13a4y1V7tr",
       "suitable": true,
       "note": "名著人物解读健康，建议增设人文主题",
@@ -1894,6 +1931,24 @@
       }
     },
     {
+      "bvid": "BV15dr5BiEh2",
+      "suitable": true,
+      "note": "《If I Were an Animal》系列双语全104集",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "animation",
+          "nature"
+        ]
+      }
+    },
+    {
       "bvid": "BV15q4y1u7ET",
       "suitable": true,
       "note": "官方低幼儿歌动画，进阶生活技能启蒙",
@@ -1942,6 +1997,25 @@
         ],
         "theme": [
           "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV16AL6zqEk3",
+      "suitable": true,
+      "note": "九九乘法口诀动画儿歌，数学启蒙",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "math",
+          "animation",
+          "music"
         ]
       }
     },
@@ -2252,6 +2326,16 @@
       }
     },
     {
+      "bvid": "BV17o4y1E7vq",
+      "suitable": false,
+      "note": "标题宣称万集可分享的资源合集引流号",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
       "bvid": "BV17p4y1W7KA",
       "suitable": true,
       "note": "菲菲生气了，引导孩子处理愤怒情绪",
@@ -2335,6 +2419,24 @@
       }
     },
     {
+      "bvid": "BV18H4y1L7Fb",
+      "suitable": true,
+      "note": "《汽车世界工程车好伙伴》系列英语动画",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "english"
+        ]
+      }
+    },
+    {
       "bvid": "BV18V4y1T7Kz",
       "suitable": true,
       "note": "官方经典儿歌数鸭子",
@@ -2365,6 +2467,24 @@
         "theme": [
           "animation",
           "life"
+        ]
+      }
+    },
+    {
+      "bvid": "BV18d4y1a7WT",
+      "suitable": true,
+      "note": "《好奇小恐龙》系列英文动画，恐龙科普",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "nature"
         ]
       }
     },
@@ -2400,6 +2520,25 @@
         "theme": [
           "science",
           "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV18m4y1M7jw",
+      "suitable": true,
+      "note": "《SuperJoJo》系列英文动画全集带字幕",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "english",
+          "music"
         ]
       }
     },
@@ -2461,6 +2600,41 @@
           "music",
           "animation",
           "nature"
+        ]
+      }
+    },
+    {
+      "bvid": "BV19M4m167kF",
+      "suitable": true,
+      "note": "认识颜色英语启蒙，低幼认知",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "BV19N41197CG",
+      "suitable": true,
+      "note": "水果主题英文儿歌100集，学龄前适用",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
         ]
       }
     },
@@ -2550,6 +2724,24 @@
       }
     },
     {
+      "bvid": "BV1A64y1Y7Tx",
+      "suitable": true,
+      "note": "《Didi's day》系列低幼英语启蒙动画",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "english"
+        ]
+      }
+    },
+    {
       "bvid": "BV1AK4jzBEQm",
       "suitable": false,
       "note": "时长仅12秒，疑似碎片引流剪辑，内容不完整",
@@ -2582,6 +2774,61 @@
         ],
         "theme": [
           "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1ArwVegEN5",
+      "suitable": true,
+      "note": "恐龙系列儿童动画，航海历险故事",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1B6421c7k7",
+      "suitable": true,
+      "note": "《Maisy小鼠波波》系列英语启蒙动画绘本",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "english",
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1B7UWYbE9o",
+      "suitable": true,
+      "note": "《If I Were an Animal》系列双语儿童科普片",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "animation",
+          "nature"
         ]
       }
     },
@@ -2728,6 +2975,22 @@
         "theme": [
           "story",
           "social"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1CL411C7jC",
+      "suitable": true,
+      "note": "《金鱼男孩》英文儿童文学有声书，建议增设人文主题",
+      "tags": {
+        "age": [
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
         ]
       }
     },
@@ -3058,6 +3321,24 @@
         ],
         "theme": [
           "nature"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Ev411h7zW",
+      "suitable": true,
+      "note": "英文字母歌ABC，基础启蒙",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
         ]
       }
     },
@@ -3555,6 +3836,25 @@
       }
     },
     {
+      "bvid": "BV1J8411g74T",
+      "suitable": true,
+      "note": "《超级JOJO》系列低龄英语启蒙动画",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "english",
+          "music"
+        ]
+      }
+    },
+    {
       "bvid": "BV1J94y137Pw",
       "suitable": false,
       "note": "资源搬运分享号，外链引流",
@@ -3646,6 +3946,24 @@
         ],
         "theme": [
           "craft"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Jp4y1h7KU",
+      "suitable": true,
+      "note": "英文交通单词儿歌024，学龄前适用",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
         ]
       }
     },
@@ -3853,6 +4171,24 @@
       }
     },
     {
+      "bvid": "BV1LDeFeBE8k",
+      "suitable": true,
+      "note": "恐龙系列儿童动画，卡通打斗无血腥",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "nature"
+        ]
+      }
+    },
+    {
       "bvid": "BV1LE411e7jx",
       "suitable": false,
       "note": "中考真题应试讲解,受众超龄",
@@ -4014,6 +4350,24 @@
       }
     },
     {
+      "bvid": "BV1MnvAzFEYP",
+      "suitable": true,
+      "note": "早教儿歌《小鱼找朋友》，兼社交启蒙",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "animation",
+          "social"
+        ]
+      }
+    },
+    {
       "bvid": "BV1NBiSBMEjG",
       "suitable": true,
       "note": "经典低幼动画绘本，高清流畅，内容健康",
@@ -4029,6 +4383,52 @@
           "story",
           "animation"
         ]
+      }
+    },
+    {
+      "bvid": "BV1NJ1yB7EvT",
+      "suitable": true,
+      "note": "恐龙认知英语启蒙，语句简单适合幼儿",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "nature"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1NU4y1a7zA",
+      "suitable": true,
+      "note": "《Super JOJO》系列蹦跳主题英文儿歌",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Nb411R7Aw",
+      "suitable": false,
+      "note": "标题含合集与可分享的资源号引流",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
       }
     },
     {
@@ -4151,6 +4551,24 @@
       }
     },
     {
+      "bvid": "BV1Nz421C79A",
+      "suitable": true,
+      "note": "《超级宝贝JoJo》系列中文版启蒙儿歌",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV1P4411p7nb",
       "suitable": false,
       "note": "时长仅22秒碎片剪辑，内容不完整，低质",
@@ -4222,6 +4640,24 @@
       }
     },
     {
+      "bvid": "BV1PV411v7Fr",
+      "suitable": true,
+      "note": "《Super JOJO》系列果汁主题英文儿歌",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english",
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV1PX4y1E7z7",
       "suitable": true,
       "note": "流行歌曲舞蹈律动，受众存疑，待人工复核",
@@ -4251,6 +4687,25 @@
         "theme": [
           "animation",
           "music"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Pj411977a",
+      "suitable": true,
+      "note": "《巴塔木儿歌》55集英语启蒙动画",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english",
+          "animation"
         ]
       }
     },
@@ -4450,6 +4905,16 @@
       }
     },
     {
+      "bvid": "BV1R44y1Y7s2",
+      "suitable": false,
+      "note": "标题含全套资源、超长合集的搬运号",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
       "bvid": "BV1R54y147N8",
       "suitable": false,
       "note": "非官方搬运巴塔木儿歌合集，淘汰",
@@ -4492,6 +4957,25 @@
         "theme": [
           "music",
           "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1RJ4m1T7KV",
+      "suitable": true,
+      "note": "《超级宝贝JOJO》系列中英双语启蒙动画",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "animation",
+          "english",
+          "music"
         ]
       }
     },
@@ -4562,6 +5046,24 @@
       }
     },
     {
+      "bvid": "BV1RX4y1p7Yu",
+      "suitable": true,
+      "note": "《宝宝巴士》恐龙世界，低幼科普动画",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "nature",
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV1Rj421m7Ew",
       "suitable": true,
       "note": "花园宝宝系列，叮叮车过桥",
@@ -4574,6 +5076,23 @@
         ],
         "theme": [
           "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1RnoBBrERA",
+      "suitable": true,
+      "note": "《瑞奇宝宝》儿歌手指家族，中文儿歌",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
         ]
       }
     },
@@ -4738,6 +5257,25 @@
       }
     },
     {
+      "bvid": "BV1SrE2z1E4Q",
+      "suitable": true,
+      "note": "《超级宝贝JOJO》系列儿歌，标题堆砌待复核",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english",
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV1Ss411j7Fo",
       "suitable": true,
       "note": "经典英语儿歌，磨耳朵数数启蒙",
@@ -4789,6 +5327,25 @@
       }
     },
     {
+      "bvid": "BV1T4411B7jj",
+      "suitable": true,
+      "note": "英文海洋小动物儿歌，低幼适用",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english",
+          "nature"
+        ]
+      }
+    },
+    {
       "bvid": "BV1TP4y147Z4",
       "suitable": true,
       "note": "人工引雷实验纪实短片,科普健康",
@@ -4836,6 +5393,24 @@
         ],
         "theme": [
           "science"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1TXLXzQEkX",
+      "suitable": true,
+      "note": "五只小恐龙英文童谣，低幼可跟唱",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
         ]
       }
     },
@@ -4970,6 +5545,24 @@
         ],
         "theme": [
           "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1UzpxzwESW",
+      "suitable": true,
+      "note": "《小熊猫老师》恐龙科普动画，中文讲解",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "nature",
+          "animation"
         ]
       }
     },
@@ -5178,6 +5771,24 @@
       }
     },
     {
+      "bvid": "BV1X1EEzuE57",
+      "suitable": true,
+      "note": "神奇画笔主题中文儿歌，低幼亲子共看",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV1X7411Z7Ae",
       "suitable": true,
       "note": "改编自儿童节目啊设计的浓缩设计课",
@@ -5190,6 +5801,24 @@
         ],
         "theme": [
           "craft"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1XGUGBkEeJ",
+      "suitable": true,
+      "note": "幼儿启蒙英文儿歌精选合集",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
         ]
       }
     },
@@ -5357,6 +5986,22 @@
         ],
         "theme": [
           "craft"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1YKHG6VEMZ",
+      "suitable": true,
+      "note": "自然拼读系统课，中文讲解字母音标",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "english"
         ]
       }
     },
@@ -5563,6 +6208,23 @@
         "age": [],
         "language": [],
         "theme": []
+      }
+    },
+    {
+      "bvid": "BV1aD6UYeEne",
+      "suitable": true,
+      "note": "Bebefinn英文童谣儿歌，0到3岁启蒙",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
       }
     },
     {
@@ -5980,6 +6642,24 @@
       }
     },
     {
+      "bvid": "BV1dKc2eEE8H",
+      "suitable": true,
+      "note": "大猩猩早教英语动画，0到3岁认知",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "english"
+        ]
+      }
+    },
+    {
       "bvid": "BV1dRJk6PEy1",
       "suitable": true,
       "note": "超级飞侠冰岛幕后短片，宣传向待人工复核",
@@ -6141,6 +6821,23 @@
       }
     },
     {
+      "bvid": "BV1fTmyBGEXj",
+      "suitable": true,
+      "note": "2-6岁睡前故事《动物王国》，亲子助眠",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
       "bvid": "BV1fV411H7VK",
       "suitable": true,
       "note": "长征历史沙盘合集，健康历史科普",
@@ -6218,6 +6915,25 @@
         ],
         "theme": [
           "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1gLubzMEJF",
+      "suitable": true,
+      "note": "农场动物声音儿歌动画，中英双语待复核",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "nature",
+          "music",
+          "animation"
         ]
       }
     },
@@ -6800,6 +7516,42 @@
       }
     },
     {
+      "bvid": "BV1kLgDewEcp",
+      "suitable": true,
+      "note": "水果蔬菜英文单词动画合集",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1kW411D7Pc",
+      "suitable": true,
+      "note": "《宝贝杰克》系列英文儿歌动画合集",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english",
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV1km421M7Zp",
       "suitable": false,
       "note": "中国地理桌游产品推广视频，软广带货",
@@ -6964,6 +7716,24 @@
       }
     },
     {
+      "bvid": "BV1mY411A7fW",
+      "suitable": true,
+      "note": "啵乐乐英文儿歌带字幕，低幼适用",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
       "bvid": "BV1mZ4y1d7C6",
       "suitable": true,
       "note": "历史讲史内容健康，适合大童亲子共看",
@@ -6992,6 +7762,24 @@
         ],
         "theme": [
           "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1mioBBhEe1",
+      "suitable": true,
+      "note": "《瑞奇宝宝》儿歌字母歌，中文教唱字母",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "english"
         ]
       }
     },
@@ -7378,6 +8166,24 @@
         "theme": [
           "animation",
           "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1ph411Q7A6",
+      "suitable": true,
+      "note": "英文交通单词儿歌013，学龄前适用",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
         ]
       }
     },
@@ -7780,6 +8586,25 @@
       }
     },
     {
+      "bvid": "BV1sM4y197vY",
+      "suitable": true,
+      "note": "《Super JoJo》系列英文儿歌启蒙合集",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english",
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV1sN411M7dc",
       "suitable": false,
       "note": "54秒秒数碎片，内容单薄不成体系",
@@ -7904,6 +8729,24 @@
       }
     },
     {
+      "bvid": "BV1tPQeBuESx",
+      "suitable": true,
+      "note": "《宝贝多米》系列0到3岁英文启蒙儿歌",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english",
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV1tRu16vEbY",
       "suitable": true,
       "note": "尊重他人边界社交启蒙，幼儿园情景剧",
@@ -7950,6 +8793,42 @@
         ],
         "theme": [
           "science"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1tYXpBCE4X",
+      "suitable": true,
+      "note": "《宝宝巴士》恐龙世界大冒险中文动画",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "nature"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1tZ4y1P71P",
+      "suitable": true,
+      "note": "英文交通单词儿歌016，学龄前适用",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
         ]
       }
     },
@@ -8220,6 +9099,43 @@
         ],
         "theme": [
           "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1vM41127pj",
+      "suitable": true,
+      "note": "《宝贝赳赳》第三季中文儿歌动画",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "music",
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1vM4y1h7eM",
+      "suitable": true,
+      "note": "《如果我是一只动物》系列英文动画",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "nature"
         ]
       }
     },
