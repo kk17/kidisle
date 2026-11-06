@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 640,
+  "count": 692,
   "videos": [
     {
       "bvid": "-FvvHcNRF7s",
@@ -1393,6 +1393,32 @@
       }
     },
     {
+      "bvid": "BV11P411m7TS",
+      "suitable": false,
+      "note": "育儿资源号搬运合集，附音频绘本资源包",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "BV11bFjzqEwB",
+      "suitable": true,
+      "note": "金典早教益智儿歌系列，低龄磨耳朵",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music"
+        ]
+      }
+    },
+    {
       "bvid": "BV11m4y1J7or",
       "suitable": false,
       "note": "网盘搬运资源号，简介空洞，低质搬运",
@@ -1410,6 +1436,55 @@
         "age": [],
         "language": [],
         "theme": []
+      }
+    },
+    {
+      "bvid": "BV1214y1J72j",
+      "suitable": true,
+      "note": "花园宝宝跳舞时间，央视播出版",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "BV125411a79p",
+      "suitable": true,
+      "note": "花园宝宝叮叮车，认角色",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "BV12741127gy",
+      "suitable": true,
+      "note": "花园宝宝系列片段",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation"
+        ]
       }
     },
     {
@@ -1474,6 +1549,22 @@
       }
     },
     {
+      "bvid": "BV12i421D7gm",
+      "suitable": true,
+      "note": "幼儿颜色认知英语启蒙小课",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "english"
+        ]
+      }
+    },
+    {
       "bvid": "BV12x411E7xp",
       "suitable": true,
       "note": "如厕训练儿歌，生活自理启蒙，低幼友好",
@@ -1487,6 +1578,23 @@
         "theme": [
           "music",
           "life"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1354y1b7bs",
+      "suitable": true,
+      "note": "花园宝宝米卡巴卡之歌",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "animation"
         ]
       }
     },
@@ -1621,6 +1729,23 @@
       }
     },
     {
+      "bvid": "BV13sgrzCEA5",
+      "suitable": true,
+      "note": "花园宝宝晚安版，助眠",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "music"
+        ]
+      }
+    },
+    {
       "bvid": "BV13u41117r8",
       "suitable": true,
       "note": "历史讲解单集未超45分钟，内容健康",
@@ -1649,6 +1774,23 @@
         ],
         "theme": [
           "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV14G41167aH",
+      "suitable": true,
+      "note": "花园宝宝系列，石头相碰出音乐",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "music"
         ]
       }
     },
@@ -2210,6 +2352,23 @@
       }
     },
     {
+      "bvid": "BV18c411d7C7",
+      "suitable": true,
+      "note": "花园宝宝玩蔬菜水果切切乐",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "life"
+        ]
+      }
+    },
+    {
       "bvid": "BV18jXUBnEdX",
       "suitable": true,
       "note": "侦探推理喜剧动画合集，台配国语",
@@ -2635,6 +2794,22 @@
       }
     },
     {
+      "bvid": "BV1DC4y1w7qz",
+      "suitable": true,
+      "note": "花园宝宝系列，捉迷藏",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV1DJ411w7Th",
       "suitable": false,
       "note": "初二教材同步应试课,超龄且超长搬运",
@@ -2761,6 +2936,22 @@
       }
     },
     {
+      "bvid": "BV1E3QLYGEUr",
+      "suitable": true,
+      "note": "幼儿三字经启蒙，建议增设人文主题",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
       "bvid": "BV1EK411y7e5",
       "suitable": true,
       "note": "情绪认知绘本，帮助孩子认识管理情绪",
@@ -2791,6 +2982,23 @@
         "theme": [
           "story",
           "social"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1EW421P74M",
+      "suitable": true,
+      "note": "三字经经典儿歌，建议增设人文主题",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "story"
         ]
       }
     },
@@ -3078,6 +3286,24 @@
       }
     },
     {
+      "bvid": "BV1H8411D7kq",
+      "suitable": true,
+      "note": "海草舞儿歌动画MV，幼儿舞蹈启蒙",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "music",
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV1HD421J74U",
       "suitable": true,
       "note": "陌生人识别安全教育，短小实用",
@@ -3149,6 +3375,39 @@
       }
     },
     {
+      "bvid": "BV1HMpM6JEdv",
+      "suitable": true,
+      "note": "瑞奇宝宝系列，认动物角色短片",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1HXmLYzENR",
+      "suitable": true,
+      "note": "小鼠波波绘本系列，Makes Lemonade",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "english"
+        ]
+      }
+    },
+    {
       "bvid": "BV1Hh411q7tX",
       "suitable": false,
       "note": "网盘资源引流，超长搬运拼盘，淘汰",
@@ -3156,6 +3415,22 @@
         "age": [],
         "language": [],
         "theme": []
+      }
+    },
+    {
+      "bvid": "BV1HkA6e7EGK",
+      "suitable": true,
+      "note": "花园宝宝系列片段",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation"
+        ]
       }
     },
     {
@@ -3259,6 +3534,23 @@
         ],
         "theme": [
           "music"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1J7T6zUE8G",
+      "suitable": true,
+      "note": "花园宝宝系列合集，内容健康",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation"
         ]
       }
     },
@@ -3465,6 +3757,66 @@
         "theme": [
           "science",
           "nature"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1KTBfBTE3g",
+      "suitable": true,
+      "note": "小鼠波波绘本系列，Sweet Dreams",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Kb4y1G7Yv",
+      "suitable": true,
+      "note": "花园宝宝系列，垒石头认知",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1KcQrBsEej",
+      "suitable": false,
+      "note": "英语精听精讲连读弱读，面向成人学习者",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "BV1Kg4y1m79r",
+      "suitable": true,
+      "note": "花园宝宝系列，小点点与叮叮车",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation"
         ]
       }
     },
@@ -3699,6 +4051,22 @@
       }
     },
     {
+      "bvid": "BV1NhKdzwEcF",
+      "suitable": true,
+      "note": "花园宝宝系列角色片段",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV1Ni4y1k7sm",
       "suitable": true,
       "note": "日常场景英语跟读训练，基础表达",
@@ -3810,6 +4178,23 @@
       }
     },
     {
+      "bvid": "BV1PC411j7HQ",
+      "suitable": true,
+      "note": "Amber救护车Troy火车英文启蒙动画",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "english"
+        ]
+      }
+    },
+    {
       "bvid": "BV1PKdFByE2P",
       "suitable": true,
       "note": "SSS英文儿歌原声,零基础启蒙",
@@ -3848,6 +4233,23 @@
           "zh"
         ],
         "theme": [
+          "music"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1PYAAzuEsP",
+      "suitable": true,
+      "note": "花园宝宝晚安纯享版，助眠",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
           "music"
         ]
       }
@@ -4160,6 +4562,22 @@
       }
     },
     {
+      "bvid": "BV1Rj421m7Ew",
+      "suitable": true,
+      "note": "花园宝宝系列，叮叮车过桥",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV1Rt4y1a7xc",
       "suitable": true,
       "note": "英文儿童瑜伽故事合集，运动兼英语启蒙，建议增设体育主题",
@@ -4237,6 +4655,23 @@
         ],
         "theme": [
           "math"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1SM411Q7Fo",
+      "suitable": true,
+      "note": "小猪佩奇英文版片段，低幼英语启蒙",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "english"
         ]
       }
     },
@@ -4644,6 +5079,22 @@
       }
     },
     {
+      "bvid": "BV1W94y1J7Cb",
+      "suitable": true,
+      "note": "花园宝宝系列，角色挥手告别",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV1WNrTBtEJ3",
       "suitable": true,
       "note": "巧虎幼幼版2-3岁合集，习惯与认知启蒙",
@@ -4743,6 +5194,22 @@
       }
     },
     {
+      "bvid": "BV1XT4y1b7sM",
+      "suitable": true,
+      "note": "花园宝宝系列，角色互访",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV1XUoUBAEnv",
       "suitable": true,
       "note": "我的世界主题互动跑酷热身，建议增设体育主题",
@@ -4831,6 +5298,22 @@
         "theme": [
           "music",
           "life"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Xr4y1t7DQ",
+      "suitable": true,
+      "note": "花园宝宝系列，角色乘叮叮车",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation"
         ]
       }
     },
@@ -4968,6 +5451,23 @@
         ],
         "theme": [
           "math"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1ZH4y1j7ck",
+      "suitable": true,
+      "note": "小鼠波波逛书店，英文绘本阅读",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "english",
+          "story"
         ]
       }
     },
@@ -5540,6 +6040,22 @@
       }
     },
     {
+      "bvid": "BV1et4y1279R",
+      "suitable": true,
+      "note": "花园宝宝系列，玛卡巴卡抱枕",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV1f5411n7bD",
       "suitable": true,
       "note": "小汤1钢琴启蒙教学合集，素质音乐课",
@@ -5723,6 +6239,16 @@
       }
     },
     {
+      "bvid": "BV1gUCXBkE9j",
+      "suitable": false,
+      "note": "亲子桌广告，软广带货",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
       "bvid": "BV1gb411A7Pv",
       "suitable": true,
       "note": "经典刷牙儿歌，卫生习惯启蒙",
@@ -5736,6 +6262,23 @@
         ],
         "theme": [
           "music",
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1ge411p7CZ",
+      "suitable": true,
+      "note": "花园宝宝系列，分食与小豆豆",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
           "life"
         ]
       }
@@ -6081,6 +6624,16 @@
       }
     },
     {
+      "bvid": "BV1ip421X7KU",
+      "suitable": false,
+      "note": "3500词幼小初高词汇应试导向，非启蒙内容",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
       "bvid": "BV1ithn6YEGw",
       "suitable": true,
       "note": "中国地理100核心知识点，系统化讲解",
@@ -6094,6 +6647,22 @@
         ],
         "theme": [
           "nature"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1jC4y1i7ZE",
+      "suitable": true,
+      "note": "花园宝宝系列，唔西迪西与依古比古",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation"
         ]
       }
     },
@@ -6178,6 +6747,38 @@
         ],
         "theme": [
           "craft"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1jb4y167m7",
+      "suitable": true,
+      "note": "花园宝宝配音，哄睡片段",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1jje4e2EMC",
+      "suitable": true,
+      "note": "瑞奇宝宝系列，跳跳跳舞情节",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation"
         ]
       }
     },
@@ -6465,6 +7066,23 @@
       }
     },
     {
+      "bvid": "BV1nK4y1i79k",
+      "suitable": true,
+      "note": "花园宝宝系列，汤姆布利柏睡前故事",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "story"
+        ]
+      }
+    },
+    {
       "bvid": "BV1nW4y1K7ys",
       "suitable": true,
       "note": "海底小纵队中文版，海洋探险与海洋生物知识",
@@ -6478,6 +7096,24 @@
         "theme": [
           "nature",
           "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1nX36zbE8c",
+      "suitable": true,
+      "note": "英语启蒙跟读跟唱，数字字母儿歌",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "english",
+          "music"
         ]
       }
     },
@@ -6646,6 +7282,22 @@
       }
     },
     {
+      "bvid": "BV1oi421276V",
+      "suitable": true,
+      "note": "花园宝宝系列，角色告别",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV1oi4y1F76r",
       "suitable": true,
       "note": "学术词汇跟读挑战，偏进阶，适合大童",
@@ -6793,6 +7445,23 @@
       }
     },
     {
+      "bvid": "BV1qC411s7kD",
+      "suitable": true,
+      "note": "人体奥秘科普动画系列，讲抵抗病菌",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "science",
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV1qE411H7Uv",
       "suitable": false,
       "note": "中考应试复习,超龄,简介含公众号小程序引流",
@@ -6896,6 +7565,40 @@
       }
     },
     {
+      "bvid": "BV1rECxBjEpP",
+      "suitable": true,
+      "note": "小鼠波波绘本系列，Doctor Maisy",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1rM41187Ag",
+      "suitable": true,
+      "note": "Maisy交通工具绘本共读系列",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "english",
+          "story"
+        ]
+      }
+    },
+    {
       "bvid": "BV1rP411F7ya",
       "suitable": false,
       "note": "网盘引流搬运号",
@@ -6980,6 +7683,23 @@
         ],
         "theme": [
           "science"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1rvPrz5EUx",
+      "suitable": true,
+      "note": "SSS英语启蒙系列，1-2岁磨耳朵英文儿歌",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "english",
+          "music"
         ]
       }
     },
@@ -7084,6 +7804,24 @@
         "theme": [
           "english",
           "science"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1sXdmBmEy1",
+      "suitable": true,
+      "note": "清华附小英语动画启蒙课程系列",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "animation"
         ]
       }
     },
@@ -7232,6 +7970,23 @@
       }
     },
     {
+      "bvid": "BV1ti42117nz",
+      "suitable": true,
+      "note": "花园宝宝片头片尾曲中英对照",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "bilingual"
+        ],
+        "theme": [
+          "music",
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV1tt411w72A",
       "suitable": true,
       "note": "剑桥初级语法讲解，内容健康，大童适用",
@@ -7255,6 +8010,24 @@
         "age": [],
         "language": [],
         "theme": []
+      }
+    },
+    {
+      "bvid": "BV1tvMQzfEPk",
+      "suitable": true,
+      "note": "Super Pandobi亲子英文动画系列",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "animation"
+        ]
       }
     },
     {
@@ -7305,6 +8078,23 @@
         ],
         "theme": [
           "math"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1uW4y1s7ZB",
+      "suitable": true,
+      "note": "英语启蒙词汇1000动画系列",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "animation"
         ]
       }
     },
@@ -7430,6 +8220,23 @@
         ],
         "theme": [
           "story"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1vWaBzAEjv",
+      "suitable": true,
+      "note": "瑞奇宝宝系列，白色颜料痕迹启蒙",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "science"
         ]
       }
     },
@@ -7740,6 +8547,24 @@
       }
     },
     {
+      "bvid": "BV1yC411a7PW",
+      "suitable": true,
+      "note": "清华慢速英语语感启蒙动画系列",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "BV1yW411M7b4",
       "suitable": true,
       "note": "唱学李白古朗月行，建议增设人文主题",
@@ -7841,6 +8666,23 @@
         "age": [],
         "language": [],
         "theme": []
+      }
+    },
+    {
+      "bvid": "BV1zZxczXE9G",
+      "suitable": true,
+      "note": "瑞奇宝宝系列，小农场与奶牛",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
+          "nature"
+        ]
       }
     },
     {
