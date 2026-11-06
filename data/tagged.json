@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 444,
+  "count": 472,
   "videos": [
     {
       "bvid": "02E1468SdHg",
@@ -7083,6 +7083,488 @@
         "theme": [
           "music",
           "english"
+        ]
+      }
+    },
+    {
+      "bvid": "LhYtcadR9nw",
+      "suitable": true,
+      "note": "Cosmic Kids儿童瑜伽冒险，建议增设体育主题",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "LrAtBtQnvCE",
+      "suitable": true,
+      "note": "SSS英文儿歌合集Five Little Ducks，低幼经典",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "Mbxq29__WAU",
+      "suitable": true,
+      "note": "Nat Geo Kids动物知识合集，自然科普",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "nature"
+        ]
+      }
+    },
+    {
+      "bvid": "N2s7KjzcoKg",
+      "suitable": true,
+      "note": "SciShow Kids古海洋生物科普，儿童向讲解",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "Qe350nm_odA",
+      "suitable": true,
+      "note": "SciShow Kids天气科普：洪水成因",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "RE29EUeJAb0",
+      "suitable": true,
+      "note": "SSS情绪儿歌My Happy Song，低幼启蒙",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "Stj804acO_Y",
+      "suitable": true,
+      "note": "芝麻街整集：Elmo学轮流等待，社交情感启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "social"
+        ]
+      }
+    },
+    {
+      "bvid": "T18NCobS43c",
+      "suitable": true,
+      "note": "StorylineOnline名人朗读绘本Library Lion",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "Td_A9H69eE8",
+      "suitable": true,
+      "note": "Crash Course Kids太空主题科普合集",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "TzifMl12ahk",
+      "suitable": true,
+      "note": "Art for Kids Hub进阶画冰龙，美术教学",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "craft"
+        ]
+      }
+    },
+    {
+      "bvid": "UW6H5dAPuhY",
+      "suitable": true,
+      "note": "Art for Kids Hub简笔画冰淇淋，儿童美术",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "craft"
+        ]
+      }
+    },
+    {
+      "bvid": "VFrgWPn_Sk4",
+      "suitable": true,
+      "note": "Numberblocks数数启蒙动画整集",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "math",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "VLpSxHwfU04",
+      "suitable": true,
+      "note": "SciShow Kids飞机飞行原理科普",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "VTmmoaO2M_U",
+      "suitable": true,
+      "note": "SSS英文儿歌Five Little Monkeys合集",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "WLZWyasxaI8",
+      "suitable": true,
+      "note": "StorylineOnline名人朗读绘本How I Met My Monster",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "WX_E1CAZjaQ",
+      "suitable": true,
+      "note": "SciShow Kids火山科普合集",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "XtSq1wcFSEI",
+      "suitable": true,
+      "note": "SciShow Kids人体感官科普合集",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "YAdHHRNmACc",
+      "suitable": true,
+      "note": "Bounce Patrol英文儿歌Wheels on the Bus",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "YSlX8W9vW5w",
+      "suitable": true,
+      "note": "Bounce Patrol洗手习惯养成儿歌",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "life",
+          "music"
+        ]
+      }
+    },
+    {
+      "bvid": "ZFk0xhqT5fQ",
+      "suitable": true,
+      "note": "SciShow Kids鲨鱼动物科普",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "nature"
+        ]
+      }
+    },
+    {
+      "bvid": "aVmlAbhZ0Po",
+      "suitable": true,
+      "note": "Art for Kids Hub画春天树屋，儿童美术",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "craft"
+        ]
+      }
+    },
+    {
+      "bvid": "b3aut0dYw54",
+      "suitable": true,
+      "note": "Kiboomers学前学习歌：ABC数字颜色认知",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "b8qe06QXi1Q",
+      "suitable": true,
+      "note": "Numberblocks数学思维动画整集S5",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "math",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "bY4FWXqxTlc",
+      "suitable": true,
+      "note": "StorylineOnline名人朗读三只小猪改编绘本",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "cfANfhjHc6Y",
+      "suitable": true,
+      "note": "Alphablocks自然拼读启蒙动画",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "cutROw_NJvE",
+      "suitable": true,
+      "note": "StorylineOnline名人朗读绘本A Tale of Two Beasts",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "eBVqcTEC3zQ",
+      "suitable": true,
+      "note": "SSS低幼律动儿歌One Little Finger",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "eT89nvkYNDM",
+      "suitable": true,
+      "note": "Nat Geo Kids蝎子动物短片，自然科普",
+      "tags": {
+        "age": [
+          "6-9",
+          "9-12"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "nature"
         ]
       }
     }
