@@ -1,0 +1,968 @@
+{
+ "schema_version": 1,
+ "books": [
+  {
+   "title": "猜猜我有多爱你",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "0-3",
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "把爱说出口的经典范本，大小兔子用身边事物比爱，睡前亲子共读必收。",
+   "reason_en": "The classic for saying 'I love you' in concrete ways; perfect bedtime bonding read."
+  },
+  {
+   "title": "爷爷变成了幽灵",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "把死亡讲得温柔又幽默，祖孙情动人，孩子生命教育绕不开的经典。",
+   "reason_en": "Gently and humorously opens the door to death and remembrance; essential life education."
+  },
+  {
+   "title": "狐狸的窗户",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "安房直子唯美童话，桔梗花汁搭出魔法小窗，意境忧伤诗意，大童文学启蒙佳作。",
+   "reason_en": "Awa's poetic fairy tale of a magic window and longing; a beautiful literary read for older kids."
+  },
+  {
+   "title": "后来呢后来怎么了",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "用天马行空的想象聊死亡与天堂，轻松不沉重，孩子笑着学会直面生命课题。",
+   "reason_en": "Death imagined with wild humor and warmth; kids learn to face big questions with a smile."
+  },
+  {
+   "title": "你看起来好像很好吃",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "凶猛霸王龙被小甲龙叫爸爸，反差萌催泪又温暖，宫西达也爱与善良代表作。",
+   "reason_en": "A fierce T. rex becomes a dad; tear-jerking and warm, Miyajima's signature tale of love."
+  },
+  {
+   "title": "活了100万次的猫",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "死了100万次的猫第一次为自己流泪，爱与生命的哲学寓言，常读常新。",
+   "reason_en": "A cat that died a million times finally learns to love; a fable that stays with you."
+  },
+  {
+   "title": "抵岸",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "9-12"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "无字图像小说，电影般画面讲述移民的艰辛与希望，大童审美与共情进阶之选。",
+   "reason_en": "Wordless graphic novel of migration and hope; cinematic art for mature young readers."
+  },
+  {
+   "title": "不一样的卡梅拉（1-10册）",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "敢想敢做的母鸡一家笑点密集，从共读到自读的桥梁书，法式幽默启蒙首选。",
+   "reason_en": "A bold little hen's funny adventures; ideal bridge books from read-aloud to solo reading."
+  },
+  {
+   "title": "海底的秘密",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "一台神奇相机串起海底奇观，无字书大师的想象力盛宴，细节百看不厌。",
+   "reason_en": "Wiesner's wordless fantasy of a magical undersea camera; endless details to pore over."
+  },
+  {
+   "title": "四季时光",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "0-3",
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "life"
+    ]
+   },
+   "reason_zh": "无字情境认知书天花板，一座小镇四季流转，每页都能编出新故事，超耐读。",
+   "reason_en": "Wordless seasonal town where every page births a new story; endlessly re-readable."
+  },
+  {
+   "title": "永远永远爱你",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "慈母龙妈妈养育霸王龙宝宝，讲透爱无关血缘，亲情主题催泪经典。",
+   "reason_en": "A mother dinosaur raises a T. rex; love beyond blood, deeply moving."
+  },
+  {
+   "title": "月亮忘记了",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "坠落的月亮与孤独男孩互相陪伴，几米诗意治愈，适合大童读出温柔与勇气。",
+   "reason_en": "Ji Mi's poetic tale of a lonely boy and the fallen moon; gentle comfort for growing hearts."
+  },
+  {
+   "title": "小熊宝宝绘本（全15册）",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "0-3"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "life",
+     "story"
+    ]
+   },
+   "reason_zh": "低幼生活习惯启蒙鼻祖，吃饭刷牙问好全覆盖，圆滚滚画风宝宝一看就爱。",
+   "reason_en": "Toddler classic covering meals, brushing and greetings; adorable and gentle."
+  },
+  {
+   "title": "时光电影院",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9",
+     "9-12"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "用一场场电影串起对妈妈的思念与成长，几米治愈长篇，共读有泪点。",
+   "reason_en": "Movies weave a girl's longing for her lost mother; a moving Ji Mi growth story."
+  },
+  {
+   "title": "妈妈，买绿豆！",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "0-3",
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "life",
+     "story"
+    ]
+   },
+   "reason_zh": "买绿豆煮绿豆种绿豆，平凡日常写出最浓母子情，生活气息满分的经典。",
+   "reason_en": "Buying, cooking and planting mung beans; everyday warmth between mother and son."
+  },
+  {
+   "title": "这是苹果吗也许是吧",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "一个苹果引出上百种可能，脑洞与哲思兼备，点燃孩子发散思维的想象力神书。",
+   "reason_en": "One apple sparks a hundred possibilities; a wonder-machine for divergent thinking."
+  },
+  {
+   "title": "星空",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "9-12"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "两个孤独少年逃离城市共赏星空，几米成长治愈代表作，适合小学高年级。",
+   "reason_en": "Two lonely teens find healing under the stars; Ji Mi's coming-of-age classic."
+  },
+  {
+   "title": "失落的一角遇见大圆满",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "极简线条寓言讲成熟与依赖，大人孩子各有读法，谢尔经典的人生启蒙课。",
+   "reason_en": "A minimalist fable on maturity and independence; new meaning at every age."
+  },
+  {
+   "title": "田鼠阿佛",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "收集阳光颜色和词语的小田鼠，肯定精神生活的价值，李欧·李奥尼哲学绘本。",
+   "reason_en": "The mouse who gathers sunshine and words; celebrates imagination and self-worth."
+  },
+  {
+   "title": "爱心树",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "一棵有求必应的树陪男孩一生，付出与索取的经典寓言，亲子谈爱的入口。",
+   "reason_en": "A giving tree and a boy across a lifetime; the classic parable of love and giving."
+  },
+  {
+   "title": "爷爷一定有办法",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "旧毯子变外套背心领带，重复节奏朗朗上口，画面里老鼠一家藏双线彩蛋。",
+   "reason_en": "Grandpa turns a blanket into treasures; rhythmic text plus a hidden mouse subplot."
+  },
+  {
+   "title": "奥菲利娅的影子剧院",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "平凡老姑娘收留影子办剧院，米切尔·恩德诗意哲理，教孩子优雅面对孤独与死亡。",
+   "reason_en": "A humble woman shelters shadows and finds light; Ende's poetic wisdom on loss."
+  },
+  {
+   "title": "花婆婆",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "「做一件让世界更美的事」，花婆婆一生践行的浪漫约定，价值观启蒙必收。",
+   "reason_en": "'Do something to make the world more beautiful'; a lifelong promise kept."
+  },
+  {
+   "title": "我的爸爸叫焦尼",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "单亲孩子与爸爸相聚的一天，不卖惨只讲爱，离异家庭孩子的温柔安慰。",
+   "reason_en": "A boy's precious day with his dad; tender comfort for children of split families."
+  },
+  {
+   "title": "晚安，大猩猩",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "0-3",
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "调皮大猩猩偷钥匙放出全动物园，几乎无字却笑点满满，睡前共读神器。",
+   "reason_en": "A gorilla's near-wordless zoo breakout; pure bedtime comedy gold."
+  },
+  {
+   "title": "夏天守则",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "哥哥的奇怪规则与弟弟的挫败爆发，超现实画面讲透手足关系，话题感十足。",
+   "reason_en": "Weird brotherly rules and a little brother's breaking point; surreal sibling insight."
+  },
+  {
+   "title": "不可思议的旅程",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "红笔画什么成什么，无字冒险如电影般流畅，想象力与观察力双练，三部曲开篇。",
+   "reason_en": "A magic red pen opens a wordless cinematic quest; fuels imagination and focus."
+  },
+  {
+   "title": "7号梦工厂",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "小男孩闯入云端梦工厂管起不听话的云，无字书想象力狂欢，百看不厌。",
+   "reason_en": "A boy runs the cloud factory in the sky; Wiesner's wordless wonder."
+  },
+  {
+   "title": "坏狐狸",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "装凶失败的狐狸孵蛋当了鸡妈妈，法式冷幽默加反差萌，同名动画电影也好看。",
+   "reason_en": "A fox who fails at being fierce raises chicks; French deadpan humor, pure charm."
+  },
+  {
+   "title": "铁丝网上的小花",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "9-12"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "二战题材经典，女孩视角见证集中营悲剧，灰冷画面震撼，和平与良知教育必读。",
+   "reason_en": "A girl's quiet witness to WWII horror; powerful peace and conscience education."
+  },
+  {
+   "title": "点点点",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "0-3",
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "按一按摇一摇点点就变魔术，互动性拉满的魔法书，把娃从屏幕前拉回书前。",
+   "reason_en": "Press, shake and the dots work magic; irresistible interactive fun, screen-free."
+  },
+  {
+   "title": "小兔彼得和他的朋友们（全3册）",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "波特小姐23篇田园童话全收录，小兔彼得百年经典，文学美育双重滋养。",
+   "reason_en": "Beatrix Potter's complete pastoral tales; a century of literary and visual nourishment."
+  },
+  {
+   "title": "好饿的毛毛虫",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "0-3",
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "science"
+    ]
+   },
+   "reason_zh": "洞洞书加变蝴蝶，数数认星期认食物全囊括，低幼认知启蒙第一书。",
+   "reason_en": "Die-cut pages and metamorphosis; counting, weekdays and food in one classic."
+  },
+  {
+   "title": "松鼠先生和月亮",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "「月亮」掉进屋里原来是块奶酪，荒诞误会喜剧，钢笔线描画风笑点密集。",
+   "reason_en": "The 'fallen moon' is just cheese; an absurd, hilarious misunderstanding comedy."
+  },
+  {
+   "title": "白兔夫人",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "爱丽丝白兔家的番外日常，精致画面埋满幽默细节，读爱丽丝后更有味。",
+   "reason_en": "The White Rabbit family's witty home life; richer fun after reading Alice."
+  },
+  {
+   "title": "朱家故事",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "妈妈罢工后父子变猪的超现实讽喻，轻松聊家务分工与家庭平等，安东尼·布朗代表作。",
+   "reason_en": "When Mom leaves, dad and sons turn into pigs; witty lesson on sharing housework."
+  },
+  {
+   "title": "小房子",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "nature"
+    ]
+   },
+   "reason_zh": "小房子看乡村变城市又回归自然，城市化议题诗意图景，凯迪克金奖经典。",
+   "reason_en": "A house watches the countryside become city; poetic Caldecott classic on change."
+  },
+  {
+   "title": "逃家小兔",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "0-3",
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "妈妈永远追得上逃跑的小兔，爱的捉迷藏流行一甲子，低幼安全感奠基之作。",
+   "reason_en": "Every runaway bunny is found; the original game of love, sixty years strong."
+  },
+  {
+   "title": "桃花源的故事",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "陶渊明《桃花源记》绘本版，蔡皋画风古朴动人，古典文学启蒙（建议增设人文主题）。",
+   "reason_en": "Tao Yuanming's Peach Blossom Spring in pictures; gateway to Chinese classics (suggest humanities theme)."
+  },
+  {
+   "title": "蓝莲花",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9",
+     "9-12"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "丁丁远赴中国历险结识挚友张，经典冒险漫画（章节式桥梁书），适合大童自主阅读。",
+   "reason_en": "Tintin's China adventure with his lifelong friend Chang; classic comic for independent readers."
+  },
+  {
+   "title": "野兽国",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "撒野男孩在野兽国称王又想回家，直面孩子怒气的凯迪克金奖，情绪教育鼻祖。",
+   "reason_en": "A wild boy kings the beasts and sails home; Caldecott gold on handling anger."
+  },
+  {
+   "title": "雪人",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "0-3",
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "全无字却温暖满格，男孩与雪人的奇妙一夜，搭配同名动画更佳。",
+   "reason_en": "Wordless winter magic between a boy and his snowman; pair with the beloved film."
+  },
+  {
+   "title": "爱德华的奇妙之旅",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9",
+     "9-12"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "瓷兔子学会爱与被爱的旅程，纽伯瑞银奖章节书，适合大童自主阅读。",
+   "reason_en": "A china rabbit learns to love; Newbery Honor chapter book for solo readers."
+  },
+  {
+   "title": "小金鱼逃走了",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "0-3"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "在窗帘糖果罐里找小金鱼，专注力观察力训练鼻祖，低幼游戏书天花板。",
+   "reason_en": "Hunt the runaway goldfish through every page; the original toddler seek-and-find."
+  },
+  {
+   "title": "当鸭子遇见死神",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "死神温柔陪伴鸭子走完最后旅程，哲思版生命教育，安徒生奖作者之作。",
+   "reason_en": "Death gently walks with a duck; a philosophical, tender classic on mortality."
+  },
+  {
+   "title": "小狐狸买手套",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "狐狸妈妈放手让小狐狸独自进城，温柔讲信任与善意，入选小学语文课本。",
+   "reason_en": "A mother fox lets her kit brave town alone; tender trust and kindness, textbook favorite."
+  },
+  {
+   "title": "鳄鱼怕怕牙医怕怕",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "0-3",
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "life",
+     "story"
+    ]
+   },
+   "reason_zh": "病人牙医互相害怕的双视角神作，幽默化解看牙恐惧，刷牙教育必收。",
+   "reason_en": "Scared patient, scared dentist; humor melts dentist fear and builds brushing habits."
+  },
+  {
+   "title": "肚子里有个火车站",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "science",
+     "life"
+    ]
+   },
+   "reason_zh": "把消化系统画成肚子火车站，吃太快小精灵会罢工，饮食习惯科普神书。",
+   "reason_en": "Digestion as a busy train station in your belly; science that fixes eating habits."
+  },
+  {
+   "title": "不可思议的朋友",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "真实故事改编，与自闭症男孩二十年的友谊，同理心与包容教育首选绘本。",
+   "reason_en": "A true-story friendship with an autistic boy spanning twenty years; empathy at its best."
+  },
+  {
+   "title": "小蓝和小黄",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "0-3",
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "小蓝小黄抱在一起变绿，用色块讲友谊与自我，李欧·李奥尼天才成名作。",
+   "reason_en": "Little Blue hugs Little Yellow and turns green; Lionni's genius debut on friendship."
+  },
+  {
+   "title": "大猩猩",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "冷冰冰的爸爸和有魔法的大猩猩，超现实讲孩子对陪伴的渴望，安东尼·布朗经典。",
+   "reason_en": "A magical gorilla answers a lonely girl's wish for dad; Browne's classic on companionship."
+  },
+  {
+   "title": "你好灯塔",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "守塔人一家与世隔绝的坚守，凯迪克金奖，细腻画面讲责任与爱。",
+   "reason_en": "A lighthouse keeper family's devoted life; Caldecott Medal art of duty and love."
+  },
+  {
+   "title": "糖球",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "吃下糖球能听见他人心声，从孤单到主动交朋友，白希那共情治愈神作。",
+   "reason_en": "Magic candies let a boy hear others' hearts; Baek Heena's empathy-filled healing tale."
+  }
+ ]
+}
