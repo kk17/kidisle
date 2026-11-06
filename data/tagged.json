@@ -1,7 +1,127 @@
 {
   "schema_version": 1,
-  "count": 499,
+  "count": 593,
   "videos": [
+    {
+      "bvid": "-FvvHcNRF7s",
+      "suitable": true,
+      "note": "Alphablocks字母拼读动画，学前英语启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "-SBSgVo-W9U",
+      "suitable": true,
+      "note": "Pinkfong恐龙系列儿歌动画，低幼适用",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "nature",
+          "animation",
+          "music"
+        ]
+      }
+    },
+    {
+      "bvid": "-WRnCURI2ak",
+      "suitable": true,
+      "note": "HooplaKidz经典童谣儿歌合集",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "-lSNNMjVG3U",
+      "suitable": true,
+      "note": "The Last Kids on Earth动画剧集片段",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "-ukxPbYadws",
+      "suitable": true,
+      "note": "Steve and Maggie英语启蒙教日常词汇",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "-y6MhiiVZL0",
+      "suitable": true,
+      "note": "NuNu Tv英文儿歌合集，节奏欢快",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "020g-0hhCAU",
+      "suitable": true,
+      "note": "CoComelon Baby Shark经典儿歌",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
     {
       "bvid": "02E1468SdHg",
       "suitable": true,
@@ -20,6 +140,73 @@
       }
     },
     {
+      "bvid": "05tZe7KpqYM",
+      "suitable": true,
+      "note": "El Deafo童书作者分享，内容健康待复核",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "078IuGGDpRw",
+      "suitable": true,
+      "note": "HooplaKidz五只小猴子童谣",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "0PEdSE-E_AY",
+      "suitable": true,
+      "note": "Alphablocks A到Z拼读动画",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "0j_gAUpaWcA",
+      "suitable": true,
+      "note": "Molly of Denali PBS动画，校园生活故事",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "life"
+        ]
+      }
+    },
+    {
       "bvid": "0n_J2z-ILXo",
       "suitable": true,
       "note": "Super Simple Songs英文儿歌合集，低幼启蒙",
@@ -27,6 +214,23 @@
         "age": [
           "0-3",
           "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "11mKj_VLkeQ",
+      "suitable": true,
+      "note": "Little Angel欢迎新成员儿歌",
+      "tags": {
+        "age": [
+          "0-3"
         ],
         "language": [
           "en"
@@ -72,6 +276,58 @@
       }
     },
     {
+      "bvid": "1_Rqj-Zb2eQ",
+      "suitable": true,
+      "note": "Tumble Leaf飘飘叶多集合辑，仅中文标题",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "1mHUIubkTDA",
+      "suitable": true,
+      "note": "HooplaKidz气球手指家族儿歌",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "1vsxt1zgD8c",
+      "suitable": true,
+      "note": "Cyberchase减法数学动画合辑",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "math",
+          "animation"
+        ]
+      }
+    },
+    {
       "bvid": "1xgb2fcMWP0",
       "suitable": true,
       "note": "Alphablocks自然拼读动画，字母启蒙",
@@ -89,6 +345,103 @@
       }
     },
     {
+      "bvid": "1xiU5bkuGnM",
+      "suitable": true,
+      "note": "English Singsing字母歌幼儿园英语",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "music"
+        ]
+      }
+    },
+    {
+      "bvid": "20CA39bqwF0",
+      "suitable": true,
+      "note": "棒棒糖颜色歌，幼儿颜色认知儿歌",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "22fLOszkemM",
+      "suitable": true,
+      "note": "Let's Go Luna音乐动画正片",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "music",
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "2KoeuNP4Fek",
+      "suitable": true,
+      "note": "Yakka Dee动物名称英语启蒙直播",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "nature",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "2j7RgVDRbEs",
+      "suitable": true,
+      "note": "BabyTV雪地玩耍动画片段，个人转载",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "2t-ls6ekA8E",
+      "suitable": false,
+      "note": "Snowflake数据平台开发课程，面向成人非儿童",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
       "bvid": "3Zc1UJ68wSQ",
       "suitable": true,
       "note": "Art for Kids Hub跟画教程，小鸭子简笔画",
@@ -102,6 +455,119 @@
         ],
         "theme": [
           "craft"
+        ]
+      }
+    },
+    {
+      "bvid": "3adq2yQ1W1Q",
+      "suitable": true,
+      "note": "Peg + Cat数学问题动画正片",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "math",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "3lilmJMqmHU",
+      "suitable": true,
+      "note": "Tumble Leaf藤壶保姆记动画",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "4DawLO8RdHI",
+      "suitable": false,
+      "note": "剧压制片名格式的盗版Dump号，非官方搬运",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "4TdWNgpRAQc",
+      "suitable": true,
+      "note": "Let's Go Luna动画正片，VTuber转播",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "music",
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "4bMOTTJqGgM",
+      "suitable": true,
+      "note": "Baby Shark官方60分钟儿歌合集",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "51eEg4Ke3Xw",
+      "suitable": true,
+      "note": "Little Lantern World儿童物理科普课",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "5CJkWFCEpIU",
+      "suitable": true,
+      "note": "AumSum素食科普动画问答",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science",
+          "animation"
         ]
       }
     },
@@ -123,6 +589,109 @@
       }
     },
     {
+      "bvid": "5WSjNG3igu4",
+      "suitable": true,
+      "note": "HooplaKidz手指家族儿歌EP1",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "5cWh6hyuUHs",
+      "suitable": true,
+      "note": "Molly of Denali动画正片，习惯养成",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "5xZYFPJ0fps",
+      "suitable": true,
+      "note": "English Singsing健康症状词汇教学",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "5zkeYpP4d7o",
+      "suitable": true,
+      "note": "Tumble Leaf多集动画合辑，中文标题",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "6-G10RgUnDk",
+      "suitable": true,
+      "note": "Little Angel动物认知儿歌",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "69Z5z64ETrk",
+      "suitable": true,
+      "note": "Twirlywoos喝茶时间学龄前动画",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "life"
+        ]
+      }
+    },
+    {
       "bvid": "6FB0rDsR_rc",
       "suitable": true,
       "note": "Crash Course Kids太阳科普，体系化讲解",
@@ -136,6 +705,57 @@
         ],
         "theme": [
           "science"
+        ]
+      }
+    },
+    {
+      "bvid": "71h8MZshGSs",
+      "suitable": true,
+      "note": "CoComelon ABC字母歌儿歌",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "74pZSsDMvgA",
+      "suitable": true,
+      "note": "AumSum药丸替代食物科普动画",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "7AeiwLhFuFQ",
+      "suitable": true,
+      "note": "Dr Binocs雪花科普动画",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science",
+          "animation"
         ]
       }
     },
@@ -157,6 +777,170 @@
       }
     },
     {
+      "bvid": "7HME9LoZ7NI",
+      "suitable": true,
+      "note": "Hogi小猪受伤医院扮演儿歌，不恐怖",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "7J9V7j6JCNg",
+      "suitable": true,
+      "note": "The Last Kids on Earth官方动画片段",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "social"
+        ]
+      }
+    },
+    {
+      "bvid": "7KQrbvaNhgc",
+      "suitable": true,
+      "note": "AumSum蜜蜂消亡原因科普动画",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science",
+          "nature",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "7L-32lWtfz0",
+      "suitable": true,
+      "note": "Toopy and Binoo低刺激安静故事",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "7ML9H1-GE5E",
+      "suitable": false,
+      "note": "BLACKPINK成人向歌曲歌词MV，非儿童内容",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
+      "bvid": "7lwEqUr-wYQ",
+      "suitable": true,
+      "note": "Baby Shark万圣节搞怪儿歌，不恐怖",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "7zSCza_2Eok",
+      "suitable": true,
+      "note": "HooplaKidz摇篮曲哄睡儿歌",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music"
+        ]
+      }
+    },
+    {
+      "bvid": "7zW_68MbhgA",
+      "suitable": true,
+      "note": "Alphablocks ABC学习动画，中文账号搬运",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "8BKkKmxs_L8",
+      "suitable": true,
+      "note": "Dora字母森林历险英语儿歌合集",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "music",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "8LmixLAASGI",
+      "suitable": true,
+      "note": "Little Angel户外露营儿歌",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
       "bvid": "8a4sYTueSJE",
       "suitable": true,
       "note": "Numberblocks数与形状整集合，数学启蒙动画",
@@ -174,12 +958,80 @@
       }
     },
     {
+      "bvid": "8grhBcSl9O4",
+      "suitable": true,
+      "note": "《Peg+Cat》系列,数学思维动画,学龄前",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "math",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "8irSFvoyLHQ",
+      "suitable": true,
+      "note": "English Singsing 幼儿英语日常对话",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english"
+        ]
+      }
+    },
+    {
       "bvid": "96IRzYOGtps",
       "suitable": true,
       "note": "Bounce Patrol水果认知儿歌，互动找水果",
       "tags": {
         "age": [
           "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "9HKbQ1QyLaU",
+      "suitable": true,
+      "note": "Alphablocks 字母拼读动画合集",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "9KJEOYuTTxw",
+      "suitable": true,
+      "note": "Pinkfong 儿歌合集,节奏欢快",
+      "tags": {
+        "age": [
+          "0-3"
         ],
         "language": [
           "en"
@@ -209,6 +1061,22 @@
       }
     },
     {
+      "bvid": "9Xt-zt5d7zY",
+      "suitable": true,
+      "note": "Little Angel 经典英文儿歌串烧",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music"
+        ]
+      }
+    },
+    {
       "bvid": "9m1Ui-3Nt_4",
       "suitable": true,
       "note": "StorylineOnline名人朗读绘本，故事类",
@@ -222,6 +1090,55 @@
         ],
         "theme": [
           "story"
+        ]
+      }
+    },
+    {
+      "bvid": "9pHIqDb9_Lc",
+      "suitable": true,
+      "note": "Yakka Dee 万圣节主题,幼儿认知单词",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "9qHqG6FgkI8",
+      "suitable": true,
+      "note": "CoComelon《Bananaphone》儿歌",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "9uHFH5l-uTg",
+      "suitable": true,
+      "note": "Blippi 浮沉实验,亲子科学",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science"
         ]
       }
     },
@@ -243,6 +1160,23 @@
       }
     },
     {
+      "bvid": "A65YUhlkXwQ",
+      "suitable": true,
+      "note": "Blippi 挖掘机主题儿歌",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music"
+        ]
+      }
+    },
+    {
       "bvid": "A7LU5Wxc_0Y",
       "suitable": true,
       "note": "SciShow Kids水滴鱼生物科普，面向儿童",
@@ -256,6 +1190,39 @@
         ],
         "theme": [
           "science"
+        ]
+      }
+    },
+    {
+      "bvid": "ABLOAO2x4Fo",
+      "suitable": true,
+      "note": "AumSum 科普,死后身体变化偏大童",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "AM3WiToBwdY",
+      "suitable": true,
+      "note": "Steve&Maggie 暑期英语故事",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "english"
         ]
       }
     },
@@ -275,6 +1242,92 @@
           "music",
           "life",
           "english"
+        ]
+      }
+    },
+    {
+      "bvid": "APef6_jdEJg",
+      "suitable": true,
+      "note": "Steve&Maggie 睡前英语故事",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "AqjC8fVcmDY",
+      "suitable": true,
+      "note": "CoComelon 字母歌闯关儿歌",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "B2iEwh9VUpA",
+      "suitable": true,
+      "note": "Pinkfong 鲨鱼故事儿歌合集",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BGMXpB6vE9M",
+      "suitable": true,
+      "note": "Yakka Dee 身体部位单词认知",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "BScgKbbxObk",
+      "suitable": true,
+      "note": "Alphablocks A-Z 整集,拼读启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "animation"
         ]
       }
     },
@@ -6879,6 +7932,40 @@
       }
     },
     {
+      "bvid": "BbMs2Zq-oSg",
+      "suitable": true,
+      "note": "AumSum 科普,怕黑的原因",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "C-_yYZI6a2w",
+      "suitable": true,
+      "note": "Barney 经典英文儿歌合集",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
       "bvid": "C3c8fzbsfOE",
       "suitable": true,
       "note": "Kiboomers拍手律动儿歌，幼儿圆圈时间",
@@ -6931,6 +8018,50 @@
       }
     },
     {
+      "bvid": "CZwqZWYILe8",
+      "suitable": true,
+      "note": "Pinkfong&Ninimo 儿歌合集",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "CgFvSxIq-Z4",
+      "suitable": true,
+      "note": "HooplaKidz 巴士儿歌等英文童谣",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "ChoOiUbXNi4",
+      "suitable": false,
+      "note": "疑似盗版搬运号,片源命名带 WEB-DL 压制标签",
+      "tags": {
+        "age": [],
+        "language": [],
+        "theme": []
+      }
+    },
+    {
       "bvid": "DEHBrmZxAf8",
       "suitable": true,
       "note": "Kiboomers登月主题儿歌，幼儿律动",
@@ -6945,6 +8076,23 @@
         "theme": [
           "music",
           "english"
+        ]
+      }
+    },
+    {
+      "bvid": "DGQnUJhKRyo",
+      "suitable": true,
+      "note": "Nelly&Nora 秋日绘本朗读",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "story",
+          "nature"
         ]
       }
     },
@@ -6966,6 +8114,23 @@
       }
     },
     {
+      "bvid": "DhJ5Ld-LpUE",
+      "suitable": true,
+      "note": "Blippi 认识交通工具",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "science"
+        ]
+      }
+    },
+    {
       "bvid": "DpedQ_vbI18",
       "suitable": true,
       "note": "芝麻街露营整集，社交与探索主题",
@@ -6978,6 +8143,40 @@
         ],
         "theme": [
           "life",
+          "social"
+        ]
+      }
+    },
+    {
+      "bvid": "EJG2SZtSbFg",
+      "suitable": true,
+      "note": "Pinkfong 动画小剧场,僵尸主题温和",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "music"
+        ]
+      }
+    },
+    {
+      "bvid": "EQCSi6Jmi6o",
+      "suitable": true,
+      "note": "《小猪噜噜》系列,规则习惯教育",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "animation",
           "social"
         ]
       }
@@ -7000,6 +8199,75 @@
       }
     },
     {
+      "bvid": "FIm6q3rB4Oc",
+      "suitable": true,
+      "note": "Special Agent Oso 消防演习主题",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "life"
+        ]
+      }
+    },
+    {
+      "bvid": "FKHDRkgxBJM",
+      "suitable": true,
+      "note": "Dora&Friends 艺术启蒙合集",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "craft"
+        ]
+      }
+    },
+    {
+      "bvid": "Feo0NL6cJz0",
+      "suitable": true,
+      "note": "Molly of Denali 整集,原声动画",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "GDHx5Ds87uA",
+      "suitable": true,
+      "note": "English Singsing 恐龙词汇",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "nature"
+        ]
+      }
+    },
+    {
       "bvid": "GHj-C7TfgkE",
       "suitable": true,
       "note": "Super Simple Songs山歌儿歌合集，低幼",
@@ -7018,9 +8286,228 @@
       }
     },
     {
+      "bvid": "GR2o6k8aPlI",
+      "suitable": true,
+      "note": "Super Simple Songs 鲨鱼儿歌",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "GWtuzPlZj_I",
+      "suitable": true,
+      "note": "Pinkfong&Hogi 唱跳儿歌合集",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music"
+        ]
+      }
+    },
+    {
+      "bvid": "Gh-XKNuvvC4",
+      "suitable": true,
+      "note": "Blippi 室内游乐场情景学习",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "GmAEvSfYBf8",
+      "suitable": true,
+      "note": "Pinkfong 小汽车主题儿歌",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music"
+        ]
+      }
+    },
+    {
+      "bvid": "Gmrj5-70xV4",
+      "suitable": true,
+      "note": "CoComelon 小黑羊等经典儿歌",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "GscYM-SKJr4",
+      "suitable": true,
+      "note": "Little Angel 烘焙主题儿歌",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music"
+        ]
+      }
+    },
+    {
+      "bvid": "H-g0Q6zGeF0",
+      "suitable": true,
+      "note": "Wow English 真人幼儿英语情景秀",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "H0xZ9DThon0",
+      "suitable": true,
+      "note": "English Singsing 动物园词汇",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "nature"
+        ]
+      }
+    },
+    {
       "bvid": "HWfl_jXJg74",
       "suitable": true,
       "note": "Alphablocks拼读儿歌，字母拼写启蒙",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "animation"
+        ]
+      }
+    },
+    {
+      "bvid": "HlvK6DLwCz4",
+      "suitable": true,
+      "note": "Nat Geo Kids 3D打印原理解说",
+      "tags": {
+        "age": [
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "ICpR9n8Qhzc",
+      "suitable": true,
+      "note": "Baby Shark 万圣节装扮儿歌,无惊吓",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "IUnGsvqHXP0",
+      "suitable": true,
+      "note": "Blippi 颜色与形状认知",
+      "tags": {
+        "age": [
+          "0-3",
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "english",
+          "math"
+        ]
+      }
+    },
+    {
+      "bvid": "Ig0LQRbHQHc",
+      "suitable": true,
+      "note": "Molly of Denali 温泉整集",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
+          "nature"
+        ]
+      }
+    },
+    {
+      "bvid": "IhEUzFFrp7c",
+      "suitable": true,
+      "note": "布拉格幼儿园英语教学动画系列",
       "tags": {
         "age": [
           "3-6"
@@ -7047,6 +8534,90 @@
           "en"
         ],
         "theme": [
+          "nature"
+        ]
+      }
+    },
+    {
+      "bvid": "Inu3rITpCOA",
+      "suitable": true,
+      "note": "AumSum 科普,眼泪为何是咸的",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "Iv2KvVXEFUY",
+      "suitable": true,
+      "note": "Cocomelon 苹果香蕉儿歌",
+      "tags": {
+        "age": [
+          "0-3"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "music",
+          "english"
+        ]
+      }
+    },
+    {
+      "bvid": "J_8Xsr6Wl24",
+      "suitable": true,
+      "note": "AumSum 科普,水换成软饮会怎样",
+      "tags": {
+        "age": [
+          "3-6",
+          "6-9"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "science"
+        ]
+      }
+    },
+    {
+      "bvid": "Jo0knprwcUI",
+      "suitable": true,
+      "note": "廣東話繪本故事,《如果給老鼠一塊餅乾》",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "zh"
+        ],
+        "theme": [
+          "story"
+        ]
+      }
+    },
+    {
+      "bvid": "JvCJH0_t7tc",
+      "suitable": true,
+      "note": "Molly of Denali 鹰巢寻蛋整集",
+      "tags": {
+        "age": [
+          "3-6"
+        ],
+        "language": [
+          "en"
+        ],
+        "theme": [
+          "animation",
           "nature"
         ]
       }
