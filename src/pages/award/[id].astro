@@ -22,7 +22,7 @@ const byYear = (() => {
 })();
 const totalBooks = byYear.reduce((n, [, list]) => n + list.length, 0);
 ---
-<Base title={`${award.name} · 童心岛奖项`} titleEn={`${award.name_en} · KidiIsle`} description={`${award.name}（${award.region}）— ${award.intro}`}>
+<Base mode="book" title={`${award.name} · 童心岛奖项`} titleEn={`${award.name_en} · KidiIsle`} description={`${award.name}（${award.region}）— ${award.intro}`}>
 	<main class="awardpage">
 		<div class="ahead">
 			<div class="ahead-main">
