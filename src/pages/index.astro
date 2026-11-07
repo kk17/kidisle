@@ -165,7 +165,8 @@ const bookThemes = taxonomy.book_themes;
 			max-width: var(--maxw); margin: 0 auto;
 		}
 		/* 每个筛选维度占一行：标签按内容自适应宽度（英文长词不溢出），选项在其右侧换行 */
-		.filter-row { display: flex; align-items: flex-start; gap: 0.5rem; }
+		.filter-row[hidden] { display: none; }
+	.filter-row { display: flex; align-items: flex-start; gap: 0.5rem; }
 		.filter-row .dim {
 			font-size: 0.78rem; color: var(--muted);
 			white-space: nowrap; flex: 0 0 auto;
