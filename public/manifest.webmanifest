@@ -1,0 +1,16 @@
+{
+  "name": "童心岛 KidiIsle",
+  "short_name": "童心岛",
+  "description": "为孩子精选的儿童视频与绘本，按年龄段、语言、主题筛选。",
+  "lang": "zh-CN",
+  "start_url": "/kidisle/",
+  "scope": "/kidisle/",
+  "display": "standalone",
+  "theme_color": "#38bdf8",
+  "background_color": "#f0f9ff",
+  "icons": [
+    { "src": "/kidisle/pwa-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/kidisle/pwa-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/kidisle/pwa-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

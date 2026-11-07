@@ -108,12 +108,13 @@ const { title = '童心岛 · 精选儿童视频与绘本', titleEn = 'KidiIsle 
 		})} />
 
 		<script>
-			// PWA Service Worker 注册（autoUpdate：新版本发布后自动接管）
-			import { registerSW } from 'virtual:pwa-register';
-			registerSW({ immediate: true });
-
 			import { getLang, setLang, t, SOURCE_EN } from '../lib/i18n.ts';
 			import { base } from '../lib/base.ts';
+
+			// PWA Service Worker 注册（手写 sw.js，skipWaiting+clients.claim 实现 autoUpdate 语义）
+			if ('serviceWorker' in navigator) {
+				navigator.serviceWorker.register(base + 'sw.js').catch(() => {});
+			}
 
 			// ---- 数据模式（video/book）：状态源 = body data-mode（详情页）或 URL hash（首页）----
 			const modeSel = document.getElementById('datatype') as HTMLSelectElement;
