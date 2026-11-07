@@ -5107,6 +5107,776 @@
    },
    "reason_zh": "一块炸面包串起美洲原住民的食物、家与文化，诗意科普奖作品。",
    "reason_en": "Fry bread carries Native family and culture."
+  },
+  {
+   "title": "What If Everybody Thought That?",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "social",
+     "story"
+    ]
+   },
+   "reason_zh": "用校园场景教孩子三思而后言，培养同理心与善意。",
+   "reason_en": "Teaches kids to think before they speak."
+  },
+  {
+   "title": "Vacation for Dexter!",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "小狗Dexter跟着小主人去度假，温馨幽默的宠物友谊故事。",
+   "reason_en": "A warm, funny pup vacation friendship tale."
+  },
+  {
+   "title": "Rosie the Dragon and Charlie Make Waves",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "小龙Rosie泳池大闹的欢脱故事，顺带学会泳池安全规矩。",
+   "reason_en": "A splashy dragon pool day with safety tips."
+  },
+  {
+   "title": "Snow Globe Wishes",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "暴雪之夜的许愿与邻里温情，押韵绘本安静又治愈。",
+   "reason_en": "Lyrical rhyme about wishes, kindness, calm."
+  },
+  {
+   "title": "I Am Enough",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "social"
+    ]
+   },
+   "reason_zh": "自我肯定金句绘本，帮孩子建立自信与自我接纳。",
+   "reason_en": "Affirming rhymes that build self-worth."
+  },
+  {
+   "title": "A Day in the Life of Marlon Bundo",
+   "suitable": false,
+   "tags": {},
+   "reason_zh": "同性恋题材叠加政治讽刺背景，敏感争议内容，不收录。",
+   "reason_en": "Political satire with LGBTQ romance; excluded."
+  },
+  {
+   "title": "Little Leaders",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "40位黑人女性先锋小传，激励孩子追梦的人文启蒙（建议增设人文主题）。",
+   "reason_en": "Short bios of bold women; inspiring history."
+  },
+  {
+   "title": "We Don't Eat Our Classmates",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "小霸王龙上学的爆笑故事，教孩子换位思考、好好交朋友。",
+   "reason_en": "A T. rex learns empathy at school; hilarious."
+  },
+  {
+   "title": "Petra",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "一块小石头的百变想象，让孩子发现换个视角世界大不同。",
+   "reason_en": "A little rock's big imagination."
+  },
+  {
+   "title": "The Rabbit Listened",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "social",
+     "story"
+    ]
+   },
+   "reason_zh": "受伤时最需要的只是倾听，情绪安抚类绘本经典之作。",
+   "reason_en": "A gentle classic on comfort and empathy."
+  },
+  {
+   "title": "Ocean Meets Sky",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "追忆爷爷的海天奇幻之旅，华丽想象力与生命教育兼顾。",
+   "reason_en": "A dreamlike voyage honoring grandpa."
+  },
+  {
+   "title": "Love",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "social",
+     "story"
+    ]
+   },
+   "reason_zh": "从日常瞬间看见爱的模样，诗意语言适合亲子共读。",
+   "reason_en": "Poetic scenes of love in everyday moments."
+  },
+  {
+   "title": "Julián Is a Mermaid",
+   "suitable": false,
+   "tags": {},
+   "reason_zh": "涉及性别认同等敏感争议题材，不收录。",
+   "reason_en": "Gender-identity theme; sensitive, excluded."
+  },
+  {
+   "title": "The Word Collector",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "收集词语的小男孩，让孩子爱上语言与分享表达的力量。",
+   "reason_en": "A boy collects words; celebrates sharing."
+  },
+  {
+   "title": "Baby Monkey, Private Eye",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "穿裤子都费劲的小猴侦探，图文桥梁书入门好选择。",
+   "reason_en": "A fumbling baby detective; fun first reader."
+  },
+  {
+   "title": "Drawn Together",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "语言不通的祖孙靠画笔走近彼此，亲情感人、画风惊艳。",
+   "reason_en": "Grandpa and grandson bond through drawing."
+  },
+  {
+   "title": "Islandborn",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "借邻里记忆画出故乡的模样，乡愁与想象力交织的美绘本。",
+   "reason_en": "A girl paints her island from memories."
+  },
+  {
+   "title": "Lulu is a Rhinoceros",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "斗牛犬坚信自己是犀牛，勇敢做自己、接纳他人的暖心故事。",
+   "reason_en": "A bulldog who knows she's a rhino; be yourself."
+  },
+  {
+   "title": "The Day You Begin",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "social",
+     "story"
+    ]
+   },
+   "reason_zh": "凯迪克奖作家告诉孩子：勇敢讲出自己的故事就不孤单。",
+   "reason_en": "The courage to share your own story."
+  },
+  {
+   "title": "Prince & Knight",
+   "suitable": false,
+   "tags": {},
+   "reason_zh": "王子与骑士的同性恋爱题材，敏感争议内容，不收录。",
+   "reason_en": "Same-sex romance fairy tale; excluded."
+  },
+  {
+   "title": "They Say Blue",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "跟随小女孩探索四季色彩，诗意画面的美感启蒙。",
+   "reason_en": "Poetic wonder at the world's colors."
+  },
+  {
+   "title": "The Truth Pixie",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "只会说真话的小精灵，押韵故事教孩子诚实面对生活。",
+   "reason_en": "A rhyming tale of honesty and hope."
+  },
+  {
+   "title": "Franklin and Luna Go to the Moon",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "爱书的龙和女孩月球冒险，脑洞大开的童话之旅。",
+   "reason_en": "A bookish dragon and Luna moon adventure."
+  },
+  {
+   "title": "We're All Wonders",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "social",
+     "story"
+    ]
+   },
+   "reason_zh": "奇迹男孩绘本版，教孩子用善良的心看待与众不同。",
+   "reason_en": "Kindness to those who look different."
+  },
+  {
+   "title": "Malala's Magic Pencil",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "诺奖得主马拉拉童年自述，激励孩子勇敢追梦、珍惜上学。",
+   "reason_en": "Malala's inspiring childhood true story."
+  },
+  {
+   "title": "She Persisted",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "十三位坚持到底的女性小传，给孩子的勇气与榜样（建议增设人文主题）。",
+   "reason_en": "Thirteen women role models of grit."
+  },
+  {
+   "title": "Over and Under the Pond",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "nature",
+     "story"
+    ]
+   },
+   "reason_zh": "泛舟池塘看上下两个生态世界，细腻优美的自然科普。",
+   "reason_en": "Lyrical pond ecosystem nature science."
+  },
+  {
+   "title": "A Greyhound, a Groundhog",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "绕口令式语言游戏，灵缇与土拨鼠的欢乐追逐大战。",
+   "reason_en": "A tongue-twister chase with wordplay."
+  },
+  {
+   "title": "Triangle",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "形状三人组恶作剧开篇，冷幽默让孩子咯咯大笑。",
+   "reason_en": "Triangle's sneaky tricks; deadpan laughs."
+  },
+  {
+   "title": "The Book of Mistakes",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "craft"
+    ]
+   },
+   "reason_zh": "画错的一笔也能变成惊喜，呵护孩子的创造力与试错勇气。",
+   "reason_en": "Mistakes become wonders; sparks creativity."
+  },
+  {
+   "title": "Little Fox in the Forest",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "近乎无字的森林寻狐狸之旅，细节丰富的观察型图画书。",
+   "reason_en": "A nearly wordless forest fox chase."
+  },
+  {
+   "title": "The Legend of Rock Paper Scissors",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "石头剪刀布的爆笑起源传说，游戏感十足的亲子共读。",
+   "reason_en": "The hilarious origin legend of the game."
+  },
+  {
+   "title": "The Youngest Marcher",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "美国民权运动真实小传，最小的入狱者教孩子勇敢与平等（建议增设人文主题）。",
+   "reason_en": "True civil rights story of brave young girl."
+  },
+  {
+   "title": "Duck and Hippo in the Rainstorm",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "鸭子与河马雨天共伞的滑稽搭档戏，友谊满满。",
+   "reason_en": "Silly stormy umbrella friendship fun."
+  },
+  {
+   "title": "Spunky Little Monkey",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "赖床小猴跟着节奏舞动起来，韵律感十足带动亲子运动。",
+   "reason_en": "A lazy monkey dances to rhythm; fun aloud."
+  },
+  {
+   "title": "Franklin's Flying Bookshop",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "女孩与爱读书的龙合伙开飞行书店，献给爱故事的孩子。",
+   "reason_en": "A girl and a dragon open a flying bookshop."
+  },
+  {
+   "title": "Be Quiet!",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "豆瓣链接疑似错配成人书；同名绘本爆笑，教孩子安静与合作。",
+   "reason_en": "A hilarious wordless-book flop; giggles."
+  },
+  {
+   "title": "Not Quite Narwhal",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "在独角鲸群里长大的小独角兽，归属感与做自己的温柔故事。",
+   "reason_en": "A unicorn raised by narwhals; belonging."
+  },
+  {
+   "title": "Jabari Jumps",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "克服恐惧勇敢跳水的一跳，给孩子面对挑战的勇气。",
+   "reason_en": "Jabari finds courage for his big dive."
+  },
+  {
+   "title": "The Case of the Stinky Stench",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "冰箱美食侦探破获臭味案，悬念与幽默两不误。",
+   "reason_en": "Foodie detectives crack a fridge mystery."
+  },
+  {
+   "title": "Trollbella Throws a Party",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "故事之地番外，小精灵女王开派对的热闹图画书。",
+   "reason_en": "A troll queen's party romp; fun tie-in."
+  },
+  {
+   "title": "After the Fall",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "蛋先生跌倒后重拾勇气，关于害怕与再站起来的现代寓言。",
+   "reason_en": "Humpty Dumpty faces his fear; resilience."
+  },
+  {
+   "title": "The Thank You Book",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "大象小猪系列收官之作，跟小猪一起学会说谢谢、懂感恩。",
+   "reason_en": "Elephant and Piggie finale; gratitude."
+  },
+  {
+   "title": "Are We There Yet?",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "去奶奶家的路上时间玩起魔术，想象飞扬的公路冒险。",
+   "reason_en": "A road trip where time goes wild; fun."
+  },
+  {
+   "title": "What Do You Do With a Problem?",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "social",
+     "story"
+    ]
+   },
+   "reason_zh": "直面问题会发现它是机会，帮孩子化解烦恼的成长寓言。",
+   "reason_en": "A problem becomes an opportunity."
+  },
+  {
+   "title": "Ida, Always",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "social",
+     "story"
+    ]
+   },
+   "reason_zh": "基于真实北极熊情谊，温柔讲述离别与思念，安抚失去。",
+   "reason_en": "True polar-bear friends; gentle grief tale."
   }
  ]
 }
