@@ -3729,6 +3729,600 @@
    },
    "reason_zh": "题材为'多萝西的朋友们'性少数暗语的真实历史，内容敏感，不适合国内儿童平台，暂不收录。",
    "reason_en": "LGBTQ-history topic; not fit for this platform."
+  },
+  {
+   "title": "采集日期：2026-11-07。共 **57 本**。格式与站点其他书单一致：`书名",
+   "suitable": false,
+   "tags": {},
+   "reason_zh": "采集表头残留，非书目条目，不参与打标。",
+   "reason_en": "Scraping header artifact, not a book."
+  },
+  {
+   "title": "Small in the City",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "小个子孩子在喧嚣城市里的温柔牵挂，画面叙事细腻，适合亲子共读。",
+   "reason_en": "A small child's tender city wander; rich visuals."
+  },
+  {
+   "title": "Starbird",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "被囚禁的神鸟飞向自由，绿纳威奖作品，插画灵动寓意温暖。",
+   "reason_en": "Greenaway winner; a caged bird's lyrical freedom."
+  },
+  {
+   "title": "Long Way Down",
+   "suitable": false,
+   "tags": {},
+   "reason_zh": "复仇与枪支暴力题材，图像小说偏成人敏感内容，不收录。",
+   "reason_en": "Gun-violence revenge; adult themes, not for kids."
+  },
+  {
+   "title": "The Midnight Fair",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "深夜游园会迎来森林动物，无字画面是想象力的盛宴。",
+   "reason_en": "Wordless night fair of wild animal wonder."
+  },
+  {
+   "title": "Saving Sorya: Chang and the Sun Bear",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "nature",
+     "story"
+    ]
+   },
+   "reason_zh": "真实动物保护经历改编，图像小说兼具冒险与自然科普。",
+   "reason_en": "True sun-bear rescue in vivid graphic form."
+  },
+  {
+   "title": "The Comet",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "搬进城市的女孩借想象化解乡愁，明亮温暖，共情之作。",
+   "reason_en": "Warm tale of moving homes and wonder."
+  },
+  {
+   "title": "The Tree and the River",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "nature"
+    ]
+   },
+   "reason_zh": "一棵树看尽文明兴衰与四季变迁，无字大场面适合大童观察思考。",
+   "reason_en": "Wordless epic of land through time."
+  },
+  {
+   "title": "Clever Crow",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "nature"
+    ]
+   },
+   "reason_zh": "乌鸦的智慧与生存本领，画面精美，自然启蒙佳作。",
+   "reason_en": "Lovely nonfiction on crow smarts."
+  },
+  {
+   "title": "Homebody",
+   "suitable": false,
+   "tags": {},
+   "reason_zh": "简介显示为成人诗歌集，非儿童绘本，不收录。",
+   "reason_en": "Adult poetry collection, not a picture book."
+  },
+  {
+   "title": "HOME",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "拉加兹故事类首奖，废纸拼贴里安静地讲“家”的温度。",
+   "reason_en": "Ragazzi winner; collage art celebrates home."
+  },
+  {
+   "title": "One of a Kind",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "science"
+    ]
+   },
+   "reason_zh": "拉加兹知识类首奖，万物分类图鉴，满足孩子的好奇与观察欲。",
+   "reason_en": "Ragazzi-winning visual catalog to spark curiosity."
+  },
+  {
+   "title": "Who Do the Clouds Belong To?（À qui appartiennent les nuages?，云朵属于谁）",
+   "suitable": false,
+   "tags": {},
+   "reason_zh": "战争创伤记忆主题沉重压抑，超出儿童适宜范围，不收录。",
+   "reason_en": "War-memory themes too heavy for children."
+  },
+  {
+   "title": "Les Reflets d'Hariett（哈丽特的倒影）",
+   "suitable": false,
+   "tags": {},
+   "reason_zh": "法语原版，语言不在zh/en/bilingual收录范围，暂不收录。",
+   "reason_en": "French original; outside supported languages."
+  },
+  {
+   "title": "Everything That Happened Before You Arrived（Todo lo que pasó antes de que llegaras）",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "拉加兹故事类首奖，出生前世界发生过的事，诗意又安心。",
+   "reason_en": "Poetic story of the world before you arrived."
+  },
+  {
+   "title": "谁的袜子",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "life"
+    ]
+   },
+   "reason_zh": "漫画绘本里的市井烟火气，一场找袜子的暖意旅程。",
+   "reason_en": "Comic picture book of neighbourhood warmth."
+  },
+  {
+   "title": "Kintsugi（金缮）",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "拉加兹故事类首奖，碎处镶金的治愈故事，画面唯美留白。",
+   "reason_en": "Ragazzi winner; a tender tale of mending and hope."
+  },
+  {
+   "title": "What to Do If You Are Naked in a City?（Ko darīt, ja esi kails pilsētā?）",
+   "suitable": false,
+   "tags": {},
+   "reason_zh": "拉脱维亚语原版，语言不在收录范围，暂不收录。",
+   "reason_en": "Latvian original; outside supported languages."
+  },
+  {
+   "title": "Hikma: House of Wisdom（智慧之屋）",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "拉加兹故事类首奖，智慧之屋图书馆点亮的知识之光，人文启蒙。",
+   "reason_en": "Ragazzi winner on the light of learning."
+  },
+  {
+   "title": "Unsere Grube（我们的坑）",
+   "suitable": false,
+   "tags": {},
+   "reason_zh": "德语版本（原版瑞典语），语言不在收录范围，暂不收录。",
+   "reason_en": "German edition; outside supported languages."
+  },
+  {
+   "title": "Spinne spielt Klavier（蜘蛛弹钢琴）",
+   "suitable": false,
+   "tags": {},
+   "reason_zh": "德语原版，语言不在收录范围，暂不收录。",
+   "reason_en": "German original; outside supported languages."
+  },
+  {
+   "title": "Wünsche（愿望）",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "英文原版Wishes，一只木筏载着愿望跨越大海回家，诗意动人。",
+   "reason_en": "Poetic tale of a wish carried home across the sea."
+  },
+  {
+   "title": "Regentag（雨天）",
+   "suitable": false,
+   "tags": {},
+   "reason_zh": "德语版本，语言不在收录范围，暂不收录。",
+   "reason_en": "German edition; outside supported languages."
+  },
+  {
+   "title": "たまごのはなし（蛋的故事）",
+   "suitable": false,
+   "tags": {},
+   "reason_zh": "日语原版，语言不在收录范围，暂不收录。",
+   "reason_en": "Japanese original; outside supported languages."
+  },
+  {
+   "title": "橋の上で（在桥上）",
+   "suitable": false,
+   "tags": {},
+   "reason_zh": "日语原版，语言不在收录范围，暂不收录。",
+   "reason_en": "Japanese original; outside supported languages."
+  },
+  {
+   "title": "PIHOTEK：北極を風と歩く（PIHOTEK：迎着北极的风）",
+   "suitable": false,
+   "tags": {},
+   "reason_zh": "日语原版，语言不在收录范围，暂不收录。",
+   "reason_en": "Japanese original; outside supported languages."
+  },
+  {
+   "title": "がっこうにまにあわない（上学要迟到了）",
+   "suitable": false,
+   "tags": {},
+   "reason_zh": "日语原版，语言不在收录范围，暂不收录。",
+   "reason_en": "Japanese original; outside supported languages."
+  },
+  {
+   "title": "ゆうやけにとけていく（融进黄昏里）",
+   "suitable": false,
+   "tags": {},
+   "reason_zh": "日语原版，语言不在收录范围，暂不收录。",
+   "reason_en": "Japanese original; outside supported languages."
+  },
+  {
+   "title": "おきにいりのしろいドレスをきてレストランにいきました（穿着最爱的白裙子去餐厅）",
+   "suitable": false,
+   "tags": {},
+   "reason_zh": "日语原版，语言不在收录范围，暂不收录。",
+   "reason_en": "Japanese original; outside supported languages."
+  },
+  {
+   "title": "ぼくは ふね（我是船）",
+   "suitable": false,
+   "tags": {},
+   "reason_zh": "日语原版，语言不在收录范围，暂不收录。",
+   "reason_en": "Japanese original; outside supported languages."
+  },
+  {
+   "title": "ゆきのこえ（雪的声音）",
+   "suitable": false,
+   "tags": {},
+   "reason_zh": "日语原版，语言不在收录范围，暂不收录。",
+   "reason_en": "Japanese original; outside supported languages."
+  },
+  {
+   "title": "ある星の汽車（某颗星球的火车）",
+   "suitable": false,
+   "tags": {},
+   "reason_zh": "日语原版，语言不在收录范围，暂不收录。",
+   "reason_en": "Japanese original; outside supported languages."
+  },
+  {
+   "title": "もりのあさ（森林的早晨）",
+   "suitable": false,
+   "tags": {},
+   "reason_zh": "日语原版，语言不在收录范围，暂不收录。",
+   "reason_en": "Japanese original; outside supported languages."
+  },
+  {
+   "title": "雪英奶奶的故事",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "BIB金苹果奖，跨越海峡的家族思念，情感深挚，适合大童共读。",
+   "reason_en": "BIB Golden Apple winner; tender family memory."
+  },
+  {
+   "title": "牛王节",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "布依族牛王传说，民族风情与勇气故事，民间文化启蒙。",
+   "reason_en": "Vibrant Buyi folk tale of the sacred ox."
+  },
+  {
+   "title": "水与墨·色彩的秘密",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "craft"
+    ]
+   },
+   "reason_zh": "在水与墨的故事里认识国画奥秘，传统艺术启蒙佳作。",
+   "reason_en": "Charming introduction to Chinese ink-and-wash art."
+  },
+  {
+   "title": "小舞狮",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "新年舞狮遇上迷路小动物，喜庆热闹，节日民俗启蒙。",
+   "reason_en": "Festive lion-dance romp to greet the New Year."
+  },
+  {
+   "title": "大流行",
+   "suitable": false,
+   "tags": {},
+   "reason_zh": "豆瓣简介显示为公共卫生史学术著作，非儿童绘本，不收录。",
+   "reason_en": "Adult public-health history, not a picture book."
+  },
+  {
+   "title": "可怜虫蚯蚓的生活",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "nature",
+     "story"
+    ]
+   },
+   "reason_zh": "平凡小蚯蚓的爆笑日常，幽默里带自然观察，孩子会咯咯笑。",
+   "reason_en": "Funny earthworm tale with a nature twist."
+  },
+  {
+   "title": "泥叫叫",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "民间泥塑手艺的温暖传说，泥叫叫齐心叫出太阳，质朴可爱。",
+   "reason_en": "Warm folk tale of clay whistles and sun."
+  },
+  {
+   "title": "三个朋友",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "陈伯吹年度绘本奖，三个朋友的故事，画面大气叙事温暖。",
+   "reason_en": "Chen Bochui award-winning tale of friendship."
+  },
+  {
+   "title": "喜鹊窝",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "nature",
+     "story"
+    ]
+   },
+   "reason_zh": "沙尘暴里的喜鹊窝藏着生命之水，一堂人与自然的动人课程。",
+   "reason_en": "Desert tale of nature's power and resilience."
+  },
+  {
+   "title": "不一样的1",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "每个孩子写出的1都不一样，鼓励大胆表达与众不同的自己。",
+   "reason_en": "Celebrates each child's wonderfully different way."
+  },
+  {
+   "title": "夏天的故事",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "陈伯吹最佳绘本奖，蒲蒲兰出品，老夏天的生活记忆闲适动人。",
+   "reason_en": "Nostalgic memories of an old-fashioned summer."
+  },
+  {
+   "title": "爸爸和我",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "life",
+     "story"
+    ]
+   },
+   "reason_zh": "围绕日常生活的亲子绘本，八个主题适合和爸爸一起读。",
+   "reason_en": "Daily-life moments to share with dad."
+  },
+  {
+   "title": "某某物（Thingamabob）",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "陈伯吹最佳绘本奖，一个叫不出名字的小玩意引发大想象。",
+   "reason_en": "Award-winning tale of a nameless thingamabob."
   }
  ]
 }
