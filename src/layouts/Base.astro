@@ -30,6 +30,7 @@ const { title = '童心岛 · 精选儿童视频与绘本', titleEn = 'KidiIsle 
 				--maxw: 72rem;
 			}
 			* { box-sizing: border-box; }
+			[hidden] { display: none !important; }
 			body {
 				margin: 0;
 				font-family: system-ui, -apple-system, 'PingFang SC', 'Noto Sans SC', sans-serif;
@@ -53,10 +54,12 @@ const { title = '童心岛 · 精选儿童视频与绘本', titleEn = 'KidiIsle 
 				background: var(--card) url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%230284c7' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat right 0.55rem center;
 				color: var(--ink); cursor: pointer; appearance: none;
 			}
-			.bookview-chips { display: flex; gap: 0.3rem; }
+			.bookview-chips { display: flex; gap: 0.25rem; flex: 1; }
 			.bookview-chips .chip {
-				font-size: 0.85rem; padding: 0.32rem 0.9rem; border-radius: 999px;
+				font-size: 0.9rem; padding: 0.35rem 0.9rem; border-radius: 999px;
+				border: none; background: transparent; color: var(--muted);
 			}
+			.bookview-chips .chip[aria-pressed='true'] { background: var(--sea); color: #fff; }
 			.navtabs { display: flex; gap: 0.25rem; flex: 1; }
 			.navtabs a {
 				font-size: 0.9rem; padding: 0.35rem 0.9rem; border-radius: 999px;

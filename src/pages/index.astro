@@ -155,7 +155,6 @@ const bookThemes = taxonomy.book_themes;
 			background: var(--card) url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%230284c7' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat right 0.6rem center;
 			color: var(--ink); cursor: pointer; appearance: none;
 		}
-		.filters[hidden] { display: none; }
 		.filters {
 			position: sticky; top: 52px; z-index: 10;
 			background: rgba(240, 249, 255, 0.92); backdrop-filter: blur(6px);
@@ -165,7 +164,6 @@ const bookThemes = taxonomy.book_themes;
 			max-width: var(--maxw); margin: 0 auto;
 		}
 		/* 每个筛选维度占一行：标签按内容自适应宽度（英文长词不溢出），选项在其右侧换行 */
-		.filter-row[hidden] { display: none; }
 	.filter-row { display: flex; align-items: flex-start; gap: 0.5rem; }
 		.filter-row .dim {
 			font-size: 0.78rem; color: var(--muted);
@@ -193,7 +191,6 @@ const bookThemes = taxonomy.book_themes;
 			display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem;
 		}
 		.bgrid { grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); }
-		.grid[hidden] { display: none; }
 		.awardcard {
 			display: flex; flex-direction: column; gap: 0.45rem; height: 100%;
 			background: var(--card); border-radius: 12px; padding: 1rem;
