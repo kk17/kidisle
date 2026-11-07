@@ -129,7 +129,7 @@ const related = (() => {
 					</a>
 				<a
 					class="feedback"
-					href={`https://github.com/kk17/kidisle/issues/new?template=video-feedback.yml&title=${encodeURIComponent(`[视频反馈] ${v.title}`)}&bvid=${v.bvid}&video-title=${encodeURIComponent(v.title)}`}
+					href={`https://github.com/kk17/kidisle/issues/new?template=video-feedback.yml&title=${encodeURIComponent(`[视频反馈] ${v.title}`)}&bvid=${videoKey}&video-title=${encodeURIComponent(v.title)}`}
 					target="_blank"
 					rel="noopener"
 					data-i18n="feedback_btn"
@@ -226,8 +226,10 @@ const related = (() => {
 </style>
 
 <script>
+	import { t, getLang } from '../../lib/i18n.ts';
+
 	// 选集切换：重载播放器 iframe 到对应分 P
-		const player = document.getElementById('bili-player') || document.getElementById('yt-player');
+	const player = document.getElementById('bili-player') || document.getElementById('yt-player');
 	document.getElementById('episodes')?.addEventListener('click', (e) => {
 		const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('.ep');
 		if (!btn || !player) return;
