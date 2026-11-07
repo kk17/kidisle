@@ -47,3 +47,4 @@
 - Review/QA 由主 agent 派发独立 sub agent 完成，**结果以评论形式记入对应 Multica issue**
 - Review 发现的问题直接修复后复审；QA 失败阻断发布
 - 清单随 bug 库更新：每修一个新类型 bug，把它的「检查方法」加进对应清单
+- QA 状态矩阵细则见 [docs/qa-matrix.md](qa-matrix.md)
