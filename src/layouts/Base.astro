@@ -106,6 +106,10 @@ const { title = '童心岛 · 精选儿童视频与绘本', titleEn = 'KidiIsle 
 		})} />
 
 		<script>
+			// PWA Service Worker 注册（autoUpdate：新版本发布后自动接管）
+			import { registerSW } from 'virtual:pwa-register';
+			registerSW({ immediate: true });
+
 			import { getLang, setLang, t, SOURCE_EN } from '../lib/i18n.ts';
 			import { base } from '../lib/base.ts';
 
