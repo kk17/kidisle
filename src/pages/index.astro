@@ -5,6 +5,8 @@ import BookCard from '../components/BookCard.astro';
 import taxonomy from '../data/taxonomy.json';
 import videos from '../data/videos.json';
 import books from '../data/books.json';
+import awards from '../data/awards.json';
+import { base } from '../lib/base.ts';
 
 const ageBands = taxonomy.age_bands;
 const languages = taxonomy.languages;
@@ -45,6 +47,22 @@ const themes = taxonomy.themes;
 	</section>
 
 	<section class="filters" id="book-filters" hidden>
+		<div class="filter-row">
+			<span class="dim" data-i18n="bookview_label">浏览方式</span>
+			<div class="options">
+				<button class="chip" id="bv-books" aria-pressed="true" data-i18n="bookview_books">书目</button>
+				<button class="chip" id="bv-awards" aria-pressed="false" data-i18n="bookview_awards">奖项</button>
+			</div>
+		</div>
+		<div class="filter-row" id="book-award-lang-row" hidden>
+			<span class="dim" data-i18n="filter_platform">奖项语言</span>
+			<div class="options">
+				<button class="chip" id="award-lang-all" aria-pressed="true" data-i18n="award_lang_all">全部</button>
+				<button class="chip" id="award-lang-zh" data-i18n="award_lang_zh" aria-pressed="false">中文奖项</button>
+				<button class="chip" id="award-lang-en" data-i18n="award_lang_en" aria-pressed="false">英文奖项</button>
+				<button class="chip" id="award-lang-intl" data-i18n="award_lang_intl" aria-pressed="false">国际奖项</button>
+			</div>
+		</div>
 		<div class="filter-row">
 			<span class="dim" data-i18n="filter_age">年龄段</span>
 			<div class="options">
@@ -90,7 +108,7 @@ const themes = taxonomy.themes;
 		</div>
 
 		<div id="book-section" hidden>
-			<ul class="grid bgrid" id="book-grid" style="list-style:none">
+			<ul class="grid bgrid" id="book-grid" style="list-style:none" data-bview="books">
 				{
 					books.books.map((b) => (
 						<li
@@ -105,6 +123,29 @@ const themes = taxonomy.themes;
 				}
 			</ul>
 			<div class="empty" id="book-empty" hidden data-i18n="empty_books">这个组合下暂时没有绘本，换个筛选试试～</div>
+
+			<div id="awards-grid" hidden>
+				<ul class="grid bgrid" id="award-grid" style="list-style:none">
+					{
+						awards.awards.map((a) => (
+							<li class="awardcell" data-alang={a.lang}>
+								<a class="awardcard" href={`${base}award/${a.id}/`}>
+									<div class="awardbody">
+										<h2 class="awardname">{a.name}</h2>
+										<div class="awardname-en">{a.name_en}</div>
+										<p class="awardintro">{a.intro}</p>
+										<div class="awardmeta">
+											<span class="alangchip">{a.lang === 'zh' ? '中文奖项' : a.lang === 'en' ? '英文奖项' : '国际奖项'}</span>
+											<span>📍 {a.region}</span>
+										</div>
+									</div>
+								</a>
+							</li>
+						))
+					}
+				</ul>
+				<div class="empty" id="awards-empty" hidden>没有该类别的奖项～</div>
+			</div>
 		</div>
 	</main>
 
@@ -157,6 +198,19 @@ const themes = taxonomy.themes;
 			display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem;
 		}
 		.bgrid { grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); }
+		.awardcard {
+			display: flex; flex-direction: column; gap: 0.45rem; height: 100%;
+			background: var(--card); border-radius: 12px; padding: 1rem;
+			box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+			text-decoration: none; color: inherit;
+		}
+		.awardcard:hover { outline: 2px solid var(--sea); }
+		.awardname { margin: 0; font-size: 1rem; font-weight: 700; }
+		.awardname-en { font-size: 0.75rem; color: var(--muted); }
+		.awardintro { margin: 0; font-size: 0.8rem; color: var(--muted); line-height: 1.5;
+			display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+		.awardmeta { display: flex; gap: 0.5rem; align-items: center; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; }
+		.alangchip { background: var(--sea-soft); color: #0369a1; padding: 0.08rem 0.55rem; border-radius: 999px; }
 		.empty { text-align: center; color: var(--muted); padding: 3rem 1rem; }
 	</style>
 
@@ -273,5 +327,55 @@ const themes = taxonomy.themes;
 			});
 		});
 		applyBooks();
+
+		// ---- 图书模式双视图：书目 / 奖项 ----
+		const bvBooksBtn = document.getElementById('bv-books')!;
+		const bvAwardsBtn = document.getElementById('bv-awards')!;
+		const bookBooksView = document.getElementById('book-grid')!;
+		const bookEmpty = document.getElementById('book-empty')!;
+		const awardsGridView = document.getElementById('awards-grid')!;
+		const awardsEmpty = document.getElementById('awards-empty')!;
+		const awardLangRow = document.getElementById('book-award-lang-row')!;
+
+		function setBookView(view: 'books' | 'awards') {
+			const isAwards = view === 'awards';
+			bvBooksBtn.setAttribute('aria-pressed', String(!isAwards));
+			bvAwardsBtn.setAttribute('aria-pressed', String(isAwards));
+			bookBooksView.hidden = isAwards;
+			bookEmpty.hidden = isAwards;
+			awardsGridView.hidden = !isAwards;
+			awardLangRow.hidden = !isAwards;
+		}
+		bvBooksBtn.addEventListener('click', () => setBookView('books'));
+		bvAwardsBtn.addEventListener('click', () => setBookView('awards'));
+
+		// 奖项语言筛选
+		const awardLang = new Set<string>();
+		const awardCells = Array.from(document.querySelectorAll<HTMLElement>('.awardcell'));
+		function applyAwardLang() {
+			let shown = 0;
+			for (const cell of awardCells) {
+				const ok = awardLang.size === 0 || awardLang.has(cell.dataset.alang!);
+				cell.style.display = ok ? '' : 'none';
+				if (ok) shown++;
+			}
+			awardsEmpty.hidden = shown > 0;
+		}
+		document.querySelectorAll<HTMLButtonElement>('#book-award-lang-row .chip').forEach((chip) => {
+			chip.addEventListener('click', () => {
+				if (chip.id === 'award-lang-all') {
+					awardLang.clear();
+					document.querySelectorAll<HTMLButtonElement>('#book-award-lang-row .chip[data-i18n]').forEach((c) => c.setAttribute('aria-pressed', c.id === 'award-lang-all' ? 'true' : 'false'));
+				} else {
+					const v = chip.dataset.i18n!; // award_lang_zh/en/intl
+					const key = v.replace('award_lang_', '');
+					if (awardLang.has(key)) { awardLang.delete(key); chip.setAttribute('aria-pressed', 'false'); }
+					else { awardLang.add(key); chip.setAttribute('aria-pressed', 'true'); }
+					const allBtn = document.getElementById('award-lang-all')!;
+					allBtn.setAttribute('aria-pressed', String(awardLang.size === 0));
+				}
+				applyAwardLang();
+			});
+		});
 	</script>
 </Base>

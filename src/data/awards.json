@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "awards": [
+    {
+      "id": "caldecott",
+      "name": "凯迪克奖",
+      "name_en": "Caldecott Medal",
+      "lang": "en",
+      "region": "美国",
+      "official_url": "https://www.ala.org/alsc/awardsgrants/bookmedia/caldecott",
+      "intro": "美国图书馆协会（ALA）下设的绘本插画最高奖，1938 年起每年颁发金奖一名、银奖若干，被誉为绘本界的「奥斯卡」。"
+    },
+    {
+      "id": "greenaway",
+      "name": "凯特·格林纳威奖",
+      "name_en": "Kate Greenaway Medal (Yoto)",
+      "lang": "en",
+      "region": "英国",
+      "official_url": "https://carnegies.co.uk/",
+      "intro": "英国图书馆协会（CILIP）1955 年创立的绘本插画奖，英国最负盛名的童书奖项之一；2022 年与卡内基奖合并运营并增设小读者票选奖。"
+    },
+    {
+      "id": "grca",
+      "name": "Goodreads 选择奖",
+      "name_en": "Goodreads Choice Awards",
+      "lang": "en",
+      "region": "美国（全球读者票选）",
+      "official_url": "https://www.goodreads.com/choiceawards",
+      "intro": "全球最大读书社区 Goodreads 的年度读者票选奖；绘本分类存在于 2010-2020 年，每年由读者投票决出最佳绘本。"
+    },
+    {
+      "id": "bologna",
+      "name": "博洛尼亚最佳童书奖",
+      "name_en": "Bologna Ragazzi Award (BRAW)",
+      "lang": "intl",
+      "region": "意大利（国际）",
+      "official_url": "https://bolognachildrensbookfair.com/en/awards/bologna-ragazzi-award",
+      "intro": "博洛尼亚国际童书展颁发的最高策划奖，以艺术与设计水准著称，每年从全球数千种童书中选出 Fiction、Non-Fiction、Comics 等类别优胜者。"
+    },
+    {
+      "id": "german",
+      "name": "德国青少年文学奖·绘本奖",
+      "name_en": "Deutscher Jugendliteraturpreis (Picture Book)",
+      "lang": "intl",
+      "region": "德国",
+      "official_url": "https://www.jugendliteratur.org/",
+      "intro": "德国唯一的国家级青少年文学奖，1956 年创立；绘本奖（Bilderalbuch）类别由独立评审团从德语区出版作品中选出。"
+    },
+    {
+      "id": "japan",
+      "name": "日本绘本赏",
+      "name_en": "Japan Picture Book Awards",
+      "lang": "intl",
+      "region": "日本",
+      "official_url": "https://www.jpic.or.jp/jpa/",
+      "intro": "日本学校图书馆协会与每日新闻社主办的绘本大奖，每年评选大赏与日本绘本赏，兼顾本土创作与海外引进。"
+    },
+    {
+      "id": "bib",
+      "name": "BIB 金苹果奖",
+      "name_en": "BIB Golden Apple (Bratislava)",
+      "lang": "intl",
+      "region": "斯洛伐克（国际双年展）",
+      "official_url": "https://www.bibiana.sk/en",
+      "intro": "布拉迪斯拉发国际插画双年展（BIB）奖项，1967 年创立，是全球历史最悠久的原创插画竞赛之一；金苹果奖授予插画成就突出的作品。"
+    },
+    {
+      "id": "chen-bochui",
+      "name": "陈伯吹国际儿童文学奖",
+      "name_en": "Chen Bochui International Children's Literature Award",
+      "lang": "zh",
+      "region": "中国上海",
+      "official_url": "",
+      "intro": "以「东方安徒生」陈伯吹命名的国际儿童文学奖，1981 年创立；年度图书（绘本）奖覆盖华语原创与国际引进，是中国最具影响力的童书奖之一。"
+    },
+    {
+      "id": "xinyi",
+      "name": "信谊图画书奖",
+      "name_en": "Xinyi Picture Book Award",
+      "lang": "zh",
+      "region": "中国",
+      "official_url": "https://www.xinyibooks.com/",
+      "intro": "信谊基金会 2009 年创立的华文原创图画书奖，首奖空缺常态化以坚持高标准，是推动华语原创绘本的重要力量。"
+    },
+    {
+      "id": "fengzikai",
+      "name": "丰子恺儿童图画书奖",
+      "name_en": "Feng Zikai Chinese Children's Picture Book Award",
+      "lang": "zh",
+      "region": "华语（国际）",
+      "official_url": "https://www.fengzikaibookaward.org/",
+      "intro": "2008 年创立的第一个国际性华语原创图画书奖，两年一届，表彰华语原创图画书的文学与艺术成就。"
+    }
+  ]
+}

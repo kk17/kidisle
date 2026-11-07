@@ -50,6 +50,33 @@ TITLE_EN_OVERRIDES = {
 }
 
 
+# 来源列文本 → 奖项 id（awards.json 与 /award/{id}/ 路由用）
+AWARD_MAP = [
+    ("goodreads choice awards", "grca"),
+    ("caldecott", "caldecott"),
+    ("凯特·格林纳威", "greenaway"), ("格林纳威", "greenaway"),
+    ("carnegie", "greenaway"), ("卡内基", "greenaway"),
+    ("博洛尼亚", "bologna"), ("bologna", "bologna"), ("braw", "bologna"),
+    ("德国青少年文学奖", "german"), ("deutscher", "german"), ("德国绘本大奖", "german"),
+    ("日本绘本赏", "japan"), ("日本絵本賞", "japan"),
+    ("bib", "bib"), ("金苹果", "bib"),
+    ("陈伯吹", "chen-bochui"),
+    ("信谊", "xinyi"),
+    ("丰子恺", "fengzikai"),
+]
+
+
+def parse_award(src_text, year_hint=""):
+    """从来源列（和年份提示列）解析奖项 id/名称/年份。"""
+    text = f"{src_text} {year_hint}".lower()
+    for key, aid in AWARD_MAP:
+        if key in text:
+            years = re.findall(r"(20\d{2})", f"{year_hint} {src_text}")
+            year = int(years[0]) if years else None
+            return aid, src_text.strip(), year
+    return None, src_text.strip(), None
+
+
 def book_id(title: str) -> str:
     """中文书名经 ascii 清洗会退化为空串，改用标题 MD5 作稳定 id。"""
     return "bk-" + hashlib.md5(title.encode("utf-8")).hexdigest()[:12]
@@ -127,13 +154,18 @@ def collect():
             title, author, link, blurb, src = [x.strip() for x in line.split("|", 4)]
             title = title.lstrip("- ").strip()  # 剥掉 Markdown 列表符
             is_gr = "goodreads.com" in link
-            douban_url = "" if is_gr else (link if link.startswith("http") else "")
+            is_douban = "douban.com/subject/" in link
+            douban_url = link if is_douban else ""
             gr_url = link if is_gr else ""
             if title in pool:
                 if gr_url and not pool[title].get("goodreads_url"):
                     pool[title]["goodreads_url"] = gr_url
+                if aid and not pool[title].get("award_id"):
+                    pool[title]["award_id"] = aid
+                    pool[title]["award_year"] = aid_year
                 pool[title]["sources"].append({"name": src, "url": link if link.startswith("http") else ""})
                 continue
+            aid, aid_name, aid_year = parse_award(src, blurb)
             pool[title] = {
                 "title": title,
                 "author": author,
@@ -141,6 +173,9 @@ def collect():
                 "goodreads_url": gr_url,
                 "blurb": blurb,
                 "is_en_listed": is_gr,
+                "award_id": aid,
+                "award_name": aid_name,
+                "award_year": aid_year,
                 "sources": [{"name": src, "url": link if link.startswith("http") else ""}],
             }
     print(f"清单解析 {len(pool)} 本，豆瓣富化中…")
@@ -152,7 +187,7 @@ def collect():
                 b["douban_url"] = hit["url"]
                 b["cover"] = hit.get("pic", "").replace("/s/", "/l/")
                 b["author"] = b["author"] or hit.get("author_name", "")
-        if b["douban_url"]:
+        if b["douban_url"] and not b.get("isbn"):
             try:
                 d = detail(b["douban_url"])
                 b.update({k: v for k, v in d.items() if v})
@@ -268,6 +303,8 @@ def merge():
             "reason_en": t.get("reason_en") or "",
             "source_name": src0.get("name", ""),
             "source_url": src0.get("url", ""),
+            "award": ({"id": b["award_id"], "name": b.get("award_name") or "", "year": b.get("award_year")}
+                      if b.get("award_id") else None),
             "douban_url": b.get("douban_url") or "",
             "goodreads_url": goodreads_url(b),
         })

@@ -1,0 +1,110 @@
+---
+import Base from '../../layouts/Base.astro';
+import BookCard from '../../components/BookCard.astro';
+import { base, assetUrl } from '../../lib/base.ts';
+import awards from '../../data/awards.json';
+import books from '../../data/books.json';
+
+export function getStaticPaths() {
+	return awards.awards.map((a) => ({ params: { id: a.id }, props: { award: a } }));
+}
+const { award } = Astro.props;
+// 该奖项的历年获奖书（按年份倒序分组）
+const byYear = (() => {
+	const m = new Map<number, any[]>();
+	for (const b of books.books) {
+		if (b.award?.id !== award.id) continue;
+		const y = b.award.year || 0;
+		if (!m.has(y)) m.set(y, []);
+		m.get(y)!.push(b);
+	}
+	return [...m.entries()].sort((a, b2) => b2[0] - a[0]);
+})();
+const totalBooks = byYear.reduce((n, [, list]) => n + list.length, 0);
+---
+<Base title={`${award.name} · 童心岛奖项`} titleEn={`${award.name_en} · KidiIsle`} description={`${award.name}（${award.region}）— ${award.intro}`}>
+	<main class="awardpage">
+		<div class="ahead">
+			<div class="ahead-main">
+				<h1>{award.name}</h1>
+				<div class="aen">{award.name_en}</div>
+				<p class="aintro">{award.intro}</p>
+				<div class="ameta">
+					<span class="alang" data-award-lang={award.lang}></span>
+					<span class="aregion">📍 {award.region}</span>
+					<span class="acount" data-i18n="award_books_count" data-i18n-var-n={String(totalBooks)}>{totalBooks} 本获奖绘本</span>
+					{award.official_url && <a class="aofficial" href={award.official_url} target="_blank" rel="noopener" data-i18n="award_official">官方网站 ↗</a>}
+				</div>
+			</div>
+		</div>
+
+		<h2 class="yrs-title" data-i18n="award_winners_title">历届获奖绘本</h2>
+		{
+			byYear.map(([year, list]) => (
+				<section class="ygroup">
+					<details open={year === byYear[0][0]}>
+						<summary>
+							<span class="yyear">{year || '年份待考'}</span>
+							<span class="ycount" data-i18n="award_books_count" data-i18n-var-n={String(list.length)}>{list.length} 本获奖绘本</span>
+						</summary>
+						<ul class="ylist" style="list-style:none">
+							{list.map((b) => (
+								<li>
+									<BookCard book={b} />
+								</li>
+							))}
+						</ul>
+					</details>
+				</section>
+			))
+		}
+		{byYear.length === 0 && <div class="empty">该奖项的获奖书目尚未收录～</div>}
+	</main>
+</Base>
+
+<style>
+	.awardpage { max-width: var(--maxw); margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+	.ahead { border-bottom: 1px solid var(--line); padding-bottom: 1rem; }
+	.ahead h1 { margin: 0; font-size: 1.5rem; }
+	.aen { color: var(--muted); font-size: 0.9rem; margin-top: 0.15rem; }
+	.aintro { margin: 0.6rem 0 0; line-height: 1.7; max-width: 56em; }
+	.ameta { display: flex; align-items: center; gap: 0.8rem; flex-wrap: wrap; margin-top: 0.7rem; font-size: 0.82rem; color: var(--muted); }
+	.alang { background: var(--sea-soft); color: #0369a1; padding: 0.1rem 0.55rem; border-radius: 999px; }
+	.aofficial { font-size: 0.82rem; }
+	.yrs-title { max-width: var(--maxw); margin: 1.5rem auto 0.6rem; padding: 0 1rem; font-size: 1.05rem; }
+	.ygroup {
+		max-width: var(--maxw); margin: 0 auto 0.9rem; padding: 0 1rem;
+	}
+	.ygroup details {
+		background: var(--card); border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+		overflow: hidden;
+	}
+	.ygroup summary {
+		cursor: pointer; padding: 0.75rem 1rem; font-weight: 600;
+		display: flex; align-items: center; gap: 0.7rem;
+		list-style: none;
+	}
+	.ygroup summary::-webkit-details-marker { display: none; }
+	.ygroup summary::before { content: '▸'; color: var(--muted); transition: transform 0.15s; }
+	.ygroup details[open] summary::before { transform: rotate(90deg); }
+	.yyear { font-size: 1rem; }
+	.ycount { color: var(--muted); font-weight: 400; font-size: 0.8rem; }
+	.ylist {
+		margin: 0; padding: 0.25rem 0.75rem 0.75rem;
+		display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 0.75rem;
+	}
+	.empty { text-align: center; color: var(--muted); padding: 3rem 1rem; }
+</style>
+
+<script>
+	// 奖项语言徽章双语（data-award-lang → 字典）
+	function syncLangBadge(lang) {
+		const dict = { zh: ['中文奖项', 'Chinese award'], en: ['英文奖项', 'English award'], intl: ['国际奖项', 'International award'] };
+		document.querySelectorAll('[data-award-lang]').forEach((el) => {
+			const e = dict[el.dataset.awardLang];
+			if (e) el.textContent = lang === 'en' ? e[1] : e[0];
+		});
+	}
+	window.addEventListener('kidisle:langchange', (e) => syncLangBadge(e.detail.lang));
+	syncLangBadge((localStorage.getItem('kidisle-lang') as 'zh' | 'en') || 'zh');
+</script>
