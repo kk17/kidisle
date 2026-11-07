@@ -29,11 +29,30 @@ export default defineConfig({
 				],
 			},
 			workbox: {
-				// GitHub Pages 子路径部署
-				globDirectory: 'dist',
-				navigateFallback: '/kidisle/index.html',
-				navigateFallbackDenylist: [/^\/kidisle\/covers\//],
+				// 注意：blogger/<UP主>/ 目录名含单引号/方括号/中文，
+				// Workbox 生成的预缓存清单未转义会导致 sw.js 求值崩溃——
+				// 因此预缓存只收安全路径，页面导航走 NetworkFirst 运行时缓存。
+				globPatterns: [
+					'_astro/**/*.{js,css,woff2}',
+					'*.html',
+					'favicon.svg',
+					'pwa-192.png',
+					'pwa-512.png',
+					'pwa-maskable-512.png',
+					'apple-touch-icon.png',
+				],
 				runtimeCaching: [
+					{
+						// 页面导航：网络优先（内容随部署更新），离线回退缓存
+						urlPattern: ({ request }) => request.mode === 'navigate',
+						handler: 'NetworkFirst',
+						options: {
+							cacheName: 'kidisle-pages',
+							networkTimeoutSeconds: 3,
+							expiration: { maxEntries: 200, maxAgeSeconds: 60 * 60 * 24 * 30 },
+							cacheableResponse: { statuses: [200] },
+						},
+					},
 					{
 						// 封面图片：缓存优先（自托管静态资源）
 						urlPattern: /\/kidisle\/covers\/.*/i,
@@ -41,6 +60,16 @@ export default defineConfig({
 						options: {
 							cacheName: 'kidisle-covers',
 							expiration: { maxEntries: 800, maxAgeSeconds: 60 * 60 * 24 * 90 },
+							cacheableResponse: { statuses: [200] },
+						},
+					},
+					{
+						// 哈希命名的静态资源：缓存优先
+						urlPattern: /\/kidisle\/_astro\/.*/i,
+						handler: 'CacheFirst',
+						options: {
+							cacheName: 'kidisle-assets',
+							expiration: { maxEntries: 100, maxAgeSeconds: 60 * 60 * 24 * 90 },
 							cacheableResponse: { statuses: [200] },
 						},
 					},
