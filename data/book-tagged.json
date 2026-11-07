@@ -6680,6 +6680,807 @@
    },
    "reason_zh": "想象朋友踏上寻找孩子的旅程，凯迪克金奖讲友谊与勇气。",
    "reason_en": "An imaginary friend journeys to find his child. Caldecott Medal winner."
+  },
+  {
+   "title": "Maple",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "小女孩与新生弟弟分享心爱的枫树，温柔的手足与新生命故事。",
+   "reason_en": "Sharing a beloved tree with a new baby sibling."
+  },
+  {
+   "title": "Knock Knock",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "以敲门游戏讲述父亲缺席的孩子如何思念与坚强，情感真挚动人。",
+   "reason_en": "A boy finds strength through his father's absence."
+  },
+  {
+   "title": "I Am Otter",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "网红水獭Otter的爆笑日常，调皮捣蛋让孩子咯咯笑不停。",
+   "reason_en": "The internet-famous Otter's hilarious debut."
+  },
+  {
+   "title": "Firefly July",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "36首超短诗寥寥数语勾勒画面，英语美感与想象力的启蒙佳作。",
+   "reason_en": "Thirty-six tiny poems painting big pictures."
+  },
+  {
+   "title": "The Girl and the Bicycle",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "无字书：小女孩为心爱的自行车坚持攒钱，结尾充满善意惊喜。",
+   "reason_en": "Wordless tale of persistence with a sweet twist."
+  },
+  {
+   "title": "Gaston",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "斗牛犬Gaston在贵宾犬家长大，萌趣画风讲述家的意义与自我。",
+   "reason_en": "A bulldog among poodles learns family is love."
+  },
+  {
+   "title": "The Scraps Book",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "craft",
+     "story"
+    ]
+   },
+   "reason_zh": "拼贴艺术大师Ehlert的创作手记，还能带孩子动手玩拼贴。",
+   "reason_en": "Collage master Lois Ehlert shares her art."
+  },
+  {
+   "title": "Bird of the Soul",
+   "suitable": false,
+   "tags": {},
+   "reason_zh": "灵修冥想类成人向内容，不属于儿童绘本，予以淘汰。",
+   "reason_en": "Adult spiritual content, not a children's book."
+  },
+  {
+   "title": "Sam & Dave Dig a Hole",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "挖洞寻宝却总与宝藏擦肩而过，反转结局妙趣横生的经典。",
+   "reason_en": "Two diggers keep missing treasure — funny twist."
+  },
+  {
+   "title": "The Day the Crayons Quit",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "蜡笔们集体写信“罢工”吐槽，爆笑中教孩子换位思考与创意。",
+   "reason_en": "Crayons go on strike with hilarious letters."
+  },
+  {
+   "title": "The Dark",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "和“黑暗”做朋友的温柔故事，帮怕黑的孩子告别恐惧。",
+   "reason_en": "A gentle story helping kids make peace with dark."
+  },
+  {
+   "title": "Chu's Day",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "0-3",
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "爱打喷嚏的小熊猫，情节简单重复，低幼亲子共读首选。",
+   "reason_en": "A panda's big sneeze — simple fun for toddlers."
+  },
+  {
+   "title": "A Little Book of Sloth",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "nature"
+    ]
+   },
+   "reason_zh": "树懒保育园萌照写真，慵懒树懒萌翻孩子，自然认知入门。",
+   "reason_en": "Adorable baby sloth photos for nature lovers."
+  },
+  {
+   "title": "Journey",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "无字奇幻冒险，一支红笔画出瑰丽世界，激发想象力与观察力。",
+   "reason_en": "Wordless fantasy sparked by a magic red crayon."
+  },
+  {
+   "title": "Unicorn Thinks He's Pretty Great",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "山羊从嫉妒独角兽到成为好友，幽默化解孩子的羡慕情绪。",
+   "reason_en": "Goat and Unicorn turn jealousy into friendship."
+  },
+  {
+   "title": "My Brother's Book",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "桑达克悼念亡兄的诗与画，深情隽永，适合大童亲子共读。",
+   "reason_en": "Sendak's tender verse elegy for his brother."
+  },
+  {
+   "title": "Count the Monkeys",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "math",
+     "story"
+    ]
+   },
+   "reason_zh": "数猴子却被各路动物搅局，互动满满的爆笑数数启蒙书。",
+   "reason_en": "Laugh-out-loud interactive counting fun."
+  },
+  {
+   "title": "Flora and the Flamingo",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "无字翻翻书：小女孩与火烈鸟共舞，优雅诠释友谊与坚持。",
+   "reason_en": "Wordless dance of friendship with fun flaps."
+  },
+  {
+   "title": "That Is Not a Good Idea!",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "默片式悬念层层推进，结局大反转，威廉斯式幽默百读不厌。",
+   "reason_en": "Silent-movie suspense with a hilarious twist."
+  },
+  {
+   "title": "The Matchbox Diary",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "祖孙对话，火柴盒里的小物件串起移民往事，人文与亲情交织。",
+   "reason_en": "A grandfather's story told in matchbox treasures."
+  },
+  {
+   "title": "Mr. Tiger Goes Wild",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "受够“讲礼貌”的老虎想做回自己，教孩子在规矩与个性间平衡。",
+   "reason_en": "Mr. Tiger learns balance between rules and self."
+  },
+  {
+   "title": "Exclamation Mark",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "english",
+     "story"
+    ]
+   },
+   "reason_zh": "感叹号寻找自我的故事，标点启蒙与自我认同一举两得。",
+   "reason_en": "Punctuation fun with a self-esteem twist."
+  },
+  {
+   "title": "Open This Little Book",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "书中书层层嵌套，大小颜色递进，越翻越惊喜的创意绘本。",
+   "reason_en": "Books inside books — nested reading surprises."
+  },
+  {
+   "title": "On a Beam of Light",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "science",
+     "story"
+    ]
+   },
+   "reason_zh": "爱因斯坦的童年传记，好奇男孩如何用思想照亮世界。",
+   "reason_en": "Young Einstein's curiosity lights up the world."
+  },
+  {
+   "title": "Mr. Wuffles!",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "大猫与外星小玩具的无声大战，威斯纳脑洞之作，细节满满。",
+   "reason_en": "A cat vs tiny aliens — Wiesner's wordless romp."
+  },
+  {
+   "title": "Mustache Baby",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "长胡子宝宝在好坏间摇摆的爆笑寓言，教孩子分清对错。",
+   "reason_en": "Hilarious tale of a baby with a telling mustache."
+  },
+  {
+   "title": "Deck the Walls",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "music",
+     "story"
+    ]
+   },
+   "reason_zh": "圣诞颂歌的爆笑改写版，全家唱读两相宜，节日气氛拉满。",
+   "reason_en": "A wacky Christmas carol parody to sing along."
+  },
+  {
+   "title": "If You Want to See a Whale",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "想看鲸鱼就要学会专注等待，诗意舒缓，睡前共读好选择。",
+   "reason_en": "A poetic lesson in patience and wonder."
+  },
+  {
+   "title": "Sophie's Squash",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "苏菲把南瓜当成挚友，温柔讲述依恋、友谊与放手。",
+   "reason_en": "Sophie loves her squash — tender friendship tale."
+  },
+  {
+   "title": "Olivia and the Fairy Princesses",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "Olivia拒绝当千篇一律的公主，独立个性启蒙必读。",
+   "reason_en": "Olivia refuses to follow the princess crowd."
+  },
+  {
+   "title": "The Duckling Gets a Cookie!?",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "小鸽子因饼干嫉妒炸毛的名场面，爆笑中学会分享与感谢。",
+   "reason_en": "Pigeon's cookie meltdown — hilarious manners tale."
+  },
+  {
+   "title": "Pete the Cat and His Four Groovy Buttons",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "math"
+    ]
+   },
+   "reason_zh": "纽扣掉了也不哭闹，数数、歌谣加抗挫力三合一的经典。",
+   "reason_en": "Pete stays cool as buttons pop — counting fun."
+  },
+  {
+   "title": "This Is Not My Hat",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "偷帽子的小鱼自以为万事大吉，凯奖经典，黑色幽默恰到好处。",
+   "reason_en": "A tiny thief fish learns lessons — Caldecott win."
+  },
+  {
+   "title": "Creepy Carrots!",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "胡萝卜“阴魂不散”的悬疑喜剧，吓人却好笑，反转超治愈。",
+   "reason_en": "Spooky-funny tale of carrots getting revenge."
+  },
+  {
+   "title": "Listen to My Trumpet!",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "小猪吹喇叭考验大象的诚实与友谊，桥梁书入门经典。",
+   "reason_en": "Piggie's trumpet tests Gerald's honest kindness."
+  },
+  {
+   "title": "Extra Yarn",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "会变出彩色毛线的女孩温暖小镇，关于慷慨与坚持的童话。",
+   "reason_en": "A girl's endless yarn warms a whole town."
+  },
+  {
+   "title": "Boy + Bot",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "0-3",
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "男孩与机器人互相照顾，文字简洁暖心，低幼友好。",
+   "reason_en": "A boy and a robot care for each other — sweet."
+  },
+  {
+   "title": "One Cool Friend",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "绅士男孩偷带企鹅回家，冷面幽默加意外结局，凯奖荣誉作品。",
+   "reason_en": "Elliot smuggles a penguin home — droll comedy."
+  },
+  {
+   "title": "Goldilocks and the Three Dinosaurs",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "金发姑娘误闯恐龙陷阱的经典改编，反转笑料不断。",
+   "reason_en": "Goldilocks almost becomes dino dinner — hilarious."
+  },
+  {
+   "title": "Chopsticks",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "筷子分开后各自成长的拟人故事，英文双关幽默适合大童。",
+   "reason_en": "Split chopsticks learn independence, with puns."
+  },
+  {
+   "title": "Green",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "0-3",
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "镂空设计呈现万般绿色，色彩认知与自然之美的低幼佳作。",
+   "reason_en": "Die-cut pages reveal many shades of green."
+  },
+  {
+   "title": "Z Is for Moose",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "english",
+     "story"
+    ]
+   },
+   "reason_zh": "字母书里乱入抢戏的Moose，爆笑中轻松认识26个字母。",
+   "reason_en": "Moose hijacks the alphabet — hilarious ABC fun."
+  },
+  {
+   "title": "And Then It's Spring",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "nature",
+     "story"
+    ]
+   },
+   "reason_zh": "冬末种下种子静静等待春天，文字诗意，自然启蒙佳作。",
+   "reason_en": "Planting seeds and waiting for green to come."
+  },
+  {
+   "title": "The Fantastic Flying Books of Mr. Morris Lessmore",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "奥斯卡同名动画原著，爱书人的奇幻一生，阅读启蒙首选。",
+   "reason_en": "An Oscar-inspired ode to the love of books."
+  },
+  {
+   "title": "Chloe and the Lion",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "作者与插画师当场吵起来的打破次元壁喜剧，创意十足。",
+   "reason_en": "Author and illustrator argue in a meta comedy."
+  },
+  {
+   "title": "Nightsong",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "nature",
+     "story"
+    ]
+   },
+   "reason_zh": "小蝙蝠用回声“看见”世界，关于勇气与感官探索的自然故事。",
+   "reason_en": "A little bat learns to trust his own senses."
   }
  ]
 }
