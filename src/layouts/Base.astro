@@ -35,6 +35,7 @@ const { title = '童心岛 · 精选儿童视频与绘本', titleEn = 'KidiIsle 
 				margin: 0;
 				font-family: system-ui, -apple-system, 'PingFang SC', 'Noto Sans SC', sans-serif;
 				background: var(--bg); color: var(--ink);
+				overflow-x: clip;
 			}
 			a { color: var(--sea); }
 			.site-header {
@@ -61,6 +62,20 @@ const { title = '童心岛 · 精选儿童视频与绘本', titleEn = 'KidiIsle 
 			}
 			.bookview-chips .chip[aria-pressed='true'] { background: var(--sea); color: #fff; }
 			.navtabs { display: flex; gap: 0.25rem; flex: 1; }
+			.navtabs a span, .bookview-chips .chip { white-space: nowrap; }
+			@media (max-width: 640px) {
+				.site-header-inner { flex-wrap: wrap; row-gap: 0.45rem; }
+				.logo { order: 1; }
+				.langtoggle { order: 2; margin-left: auto; }
+				.modebar { order: 3; }
+				.navtabs { order: 4; }
+				.bookview-chips { order: 4; }
+				.navtabs, .bookview-chips {
+					flex: 1 1 auto; min-width: 0;
+					overflow-x: auto; scrollbar-width: none;
+				}
+				.navtabs::-webkit-scrollbar, .bookview-chips::-webkit-scrollbar { display: none; }
+			}
 			.navtabs a {
 				font-size: 0.9rem; padding: 0.35rem 0.9rem; border-radius: 999px;
 				text-decoration: none; color: var(--muted);
@@ -143,11 +158,19 @@ const { title = '童心岛 · 精选儿童视频与绘本', titleEn = 'KidiIsle 
 				// 图书模式：隐藏 视频/博主 tab，显示 书目/奖项 chips；视频模式相反
 				if (navtabs) navtabs.style.display = mode === 'book' ? 'none' : '';
 				if (bookviewChips) bookviewChips.hidden = mode !== 'book';
+				syncBookviewChips(mode);
 			}
 			function dispatchMode(mode: 'video' | 'book') {
 				window.dispatchEvent(new CustomEvent('kidisle:modechange', { detail: { mode } }));
 			}
+			function syncBookviewChips(view: 'books' | 'awards') {
+				const bb = document.getElementById('bv-books');
+				const ba = document.getElementById('bv-awards');
+				if (bb) bb.setAttribute('aria-pressed', String(view === 'books'));
+				if (ba) ba.setAttribute('aria-pressed', String(view === 'awards'));
+			}
 			document.getElementById('bv-books')?.addEventListener('click', () => {
+				syncBookviewChips('books');
 				if (isIndex()) {
 					history.replaceState(null, '', location.pathname);
 					dispatchMode('book');
@@ -155,6 +178,7 @@ const { title = '童心岛 · 精选儿童视频与绘本', titleEn = 'KidiIsle 
 				} else { location.href = base + '#books'; }
 			});
 			document.getElementById('bv-awards')?.addEventListener('click', () => {
+				syncBookviewChips('awards');
 				if (isIndex()) {
 					history.replaceState(null, '', location.pathname + '#awards');
 					dispatchMode('book');
