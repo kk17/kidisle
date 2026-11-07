@@ -91,5 +91,57 @@
       "label_en": "Crafts"
     }
   ],
-  "ui_note": "label=中文展示，label_en=英文展示（i18n 用）"
+  "ui_note": "label=中文展示，label_en=英文展示（i18n 用）",
+  "book_themes": [
+    {
+      "id": "stories",
+      "label": "成长故事",
+      "label_en": "Stories & Growing Up"
+    },
+    {
+      "id": "emotions",
+      "label": "情绪社交",
+      "label_en": "Emotions & Social"
+    },
+    {
+      "id": "knowledge",
+      "label": "科普认知",
+      "label_en": "Science & Knowledge"
+    },
+    {
+      "id": "nature",
+      "label": "自然动物",
+      "label_en": "Nature & Animals"
+    },
+    {
+      "id": "math",
+      "label": "数学逻辑",
+      "label_en": "Math & Logic"
+    },
+    {
+      "id": "english",
+      "label": "英语启蒙",
+      "label_en": "English Learning"
+    },
+    {
+      "id": "literacy",
+      "label": "语言人文",
+      "label_en": "Language & Humanities"
+    },
+    {
+      "id": "habits",
+      "label": "生活习惯",
+      "label_en": "Life Habits"
+    },
+    {
+      "id": "art",
+      "label": "艺术美育",
+      "label_en": "Art & Aesthetics"
+    },
+    {
+      "id": "interactive",
+      "label": "游戏互动",
+      "label_en": "Interactive & Play"
+    }
+  ]
 }

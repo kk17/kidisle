@@ -264,6 +264,36 @@ def covers():
     print(f"封面下载：成功 {done}，失败 {fail} → {out_dir}")
 
 
+# 图书主题迁移：打标用的是视频主题枚举，发布时迁移到图书专属枚举
+BOOK_THEME_MAP = {
+    "story": "stories", "social": "emotions", "science": "knowledge",
+    "nature": "nature", "math": "math", "english": "english",
+    "life": "habits", "music": "art", "craft": "art", "animation": "stories",
+}
+# 打标时被迫暂归 story 且 reason 注明的人文/国学/历史类 → 语言人文
+HUMANITIES_MARK = ("人文", "语文", "古诗", "历史", "民俗", "国学", "汉语")
+# 管线产物注释不面向家长，展示前剥掉
+PIPELINE_NOTE_RE = re.compile(r"[,，;；、\s]*建议增设(人文|体育|语文)主题[了]?[,，;；、]?\s*")
+
+
+def migrate_book_themes(tags, reason):
+    """视频主题枚举 → 图书主题枚举；人文标记升级为 literacy。"""
+    humanities = any(k in reason for k in HUMANITIES_MARK)
+    out = []
+    for t in tags.get("theme", []):
+        if t == "story" and humanities:
+            tid = "literacy"
+        else:
+            tid = BOOK_THEME_MAP.get(t, "stories")
+        if tid not in out:
+            out.append(tid)
+    return out[:3]
+
+
+def clean_reason(reason):
+    return PIPELINE_NOTE_RE.sub("", reason).strip(" ,，;；、")
+
+
 def merge():
     """合并 book-tagged.json（打标结果）→ src/data/books.json。"""
     cands = json.loads((ROOT / "data/book-candidates.json").read_text(encoding="utf-8"))["books"]
@@ -283,6 +313,14 @@ def merge():
             continue
         if not t.get("suitable"):
             continue
+        t = tagged.get(b["title"])
+        # 视频主题 → 图书主题迁移（含人文标记识别），并剥掉管线注释
+        book_tags = {
+            "age": t["tags"]["age"],
+            "language": t["tags"]["language"],
+            "theme": migrate_book_themes(t["tags"], t.get("reason_zh") or ""),
+        }
+        reason_zh = clean_reason(t.get("reason_zh") or "")
         src0 = (b.get("sources") or [{}])[0]
         isbn = b.get("isbn") or ""
         bid = book_id(b["title"])
@@ -297,9 +335,8 @@ def merge():
             "cover": cover,
             "isbn": isbn,
             "publisher": b.get("publisher") or "",
-            "tags": {"age": t["tags"]["age"], "language": t["tags"]["language"],
-                     "theme": t["tags"]["theme"]},
-            "reason": t.get("reason_zh") or b.get("blurb", ""),
+            "tags": book_tags,
+            "reason": reason_zh or b.get("blurb", ""),
             "reason_en": t.get("reason_en") or "",
             "source_name": src0.get("name", ""),
             "source_url": src0.get("url", ""),

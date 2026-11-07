@@ -3,7 +3,7 @@
 import taxonomy from '../data/taxonomy.json';
 const ageLabel = Object.fromEntries(taxonomy.age_bands.map((t) => [t.id, t.label]));
 const langLabel = Object.fromEntries(taxonomy.languages.map((t) => [t.id, t.label]));
-const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]));
+const themeLabel = Object.fromEntries(taxonomy.book_themes.map((t) => [t.id, t.label]));
 
 interface Props {
 	book: any;
@@ -25,7 +25,7 @@ const coverSrc = assetUrl(b.cover);
 		<div class="tagrow">
 			{b.tags.age.map((a) => <span class="tag" data-tag={a} data-tag-dim="age">{ageLabel[a] ?? a}</span>)}
 			{b.tags.language.map((l) => <span class="tag" data-tag={l} data-tag-dim="language">{langLabel[l] ?? l}</span>)}
-			{b.tags.theme.map((t) => <span class="tag" data-tag={t} data-tag-dim="theme">{themeLabel[t] ?? t}</span>)}
+			{b.tags.theme.map((t) => <span class="tag" data-tag={t} data-tag-dim="book_theme">{themeLabel[t] ?? t}</span>)}
 		</div>
 	</div>
 </a>

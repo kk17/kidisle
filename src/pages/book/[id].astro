@@ -11,16 +11,19 @@ const taxoUrl = `${base}lib/taxonomy-url.json`;
 const ageLabel = { '0-3': '0–3 岁', '3-6': '3–6 岁', '6-9': '6–9 岁', '9-12': '9–12 岁' };
 const langLabel = { zh: '中文', en: '英文', bilingual: '双语' };
 const themeLabel = {
-	science: '科普', animation: '动画', story: '绘本故事', music: '音乐', math: '数学思维',
-	english: '英语启蒙', nature: '自然', life: '生活习惯', social: '情感与社交', craft: '手工',
+	science: '科普', story: '成长故事', music: '音乐', math: '数学逻辑',
+	english: '英语启蒙', nature: '自然动物', life: '生活习惯', social: '情绪社交', craft: '手工',
+	stories: '成长故事', emotions: '情绪社交', knowledge: '科普认知', literacy: '语言人文',
+	habits: '生活习惯', art: '艺术美育', interactive: '游戏互动',
+};
+const themeEn = {
+	science: 'Science', story: 'Stories', music: 'Music', math: 'Math',
+	english: 'English', nature: 'Nature', life: 'Life Skills', social: 'Social', craft: 'Crafts',
+	stories: 'Stories', emotions: 'Emotions', knowledge: 'Science', literacy: 'Language & Humanities',
+	habits: 'Life Habits', art: 'Art', interactive: 'Interactive',
 };
 const ageEn = { '0-3': '0–3 yrs', '3-6': '3–6 yrs', '6-9': '6–9 yrs', '9-12': '9–12 yrs' };
 const langEn = { zh: 'Chinese', en: 'English', bilingual: 'Bilingual' };
-const themeEn = {
-	science: 'Science', animation: 'Animation', story: 'Stories', music: 'Music', math: 'Math',
-	english: 'English Learning', nature: 'Nature', life: 'Life Skills',
-	social: 'Social-Emotional', craft: 'Crafts',
-};
 ---
 <Base mode="book" title={`${b.title} · 童心岛绘本`} description={`${b.title} — ${b.reason ?? ''}`}>
 	<main class="bookpage">
@@ -44,7 +47,7 @@ const themeEn = {
 					<span class="tag" data-tag={l} data-tag-dim="language" data-zh={langLabel[l]} data-en={langEn[l]}>{langLabel[l]}</span>
 				))}
 				{b.tags.theme.map((t) => (
-					<span class="tag" data-tag={t} data-tag-dim="theme" data-zh={themeLabel[t]} data-en={themeEn[t]}>{themeLabel[t]}</span>
+					<span class="tag" data-tag={t} data-tag-dim="book_theme" data-zh={themeLabel[t]} data-en={themeEn[t]}>{themeLabel[t]}</span>
 				))}
 			</div>
 

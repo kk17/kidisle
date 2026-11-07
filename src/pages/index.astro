@@ -11,6 +11,7 @@ import { base } from '../lib/base.ts';
 const ageBands = taxonomy.age_bands;
 const languages = taxonomy.languages;
 const themes = taxonomy.themes;
+const bookThemes = taxonomy.book_themes;
 ---
 <Base titleEn='KidiIsle · Curated videos & picture books for kids'>
 	<section class="filters" id="video-filters">
@@ -81,7 +82,7 @@ const themes = taxonomy.themes;
 		<div class="filter-row">
 			<span class="dim" data-i18n="filter_theme">主题</span>
 			<div class="options">
-				{themes.map((t) => <button class="chip" data-bdim="theme" data-v={t.id} data-tag={t.id} data-tag-dim="theme" aria-pressed="false">{t.label}</button>)}
+				{bookThemes.map((t) => <button class="chip" data-bdim="theme" data-v={t.id} data-tag={t.id} data-tag-dim="book_theme" aria-pressed="false">{t.label}</button>)}
 				<button class="chip-clear" data-bclear="theme" data-i18n="clear">清空</button>
 			</div>
 		</div>

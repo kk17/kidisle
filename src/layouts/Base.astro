@@ -104,6 +104,7 @@ const { title = '童心岛 · 精选儿童视频与绘本', titleEn = 'KidiIsle 
 			age: Object.fromEntries(taxonomy.age_bands.map((t) => [t.id, { zh: t.label, en: t.label_en }])),
 			language: Object.fromEntries(taxonomy.languages.map((t) => [t.id, { zh: t.label, en: t.label_en }])),
 			theme: Object.fromEntries(taxonomy.themes.map((t) => [t.id, { zh: t.label, en: t.label_en }])),
+			book_theme: Object.fromEntries(taxonomy.book_themes.map((t) => [t.id, { zh: t.label, en: t.label_en }])),
 			platform: { bilibili: { zh: 'B站', en: 'Bilibili' }, youtube: { zh: 'YouTube', en: 'YouTube' } },
 		})} />
 

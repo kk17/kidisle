@@ -86,6 +86,20 @@
 - 音乐儿歌 → `music`；英文儿歌 → `music` + `english`
 - 手工/折纸/美术 → `craft`
 
+## 四-B、绘本（图书）打标补充
+
+绘本书单（build_books 管线）的"主题"使用**图书专属枚举**，与视频枚举不同：
+
+枚举：`stories` 成长故事 / `emotions` 情绪社交 / `knowledge` 科普认知 /
+`nature` 自然动物 / `math` 数学逻辑 / `english` 英语启蒙 /
+`literacy` 语言人文 / `habits` 生活习惯 / `art` 艺术美育 / `interactive` 游戏互动
+
+- 故事主线、成长、想象 → `stories`；情绪管理、友谊、生命教育 → `emotions`
+- 百科/科学/身体 → `knowledge`；动物/自然/环保 → `nature`
+- 古诗、国学、历史、民俗、语文 → **`literacy`**（视频枚举的欠账已在图书侧补上）
+- 刷牙/如厕/安全 → `habits`；音乐/美术/创意 → `art`；翻翻书/游戏书 → `interactive`
+- reason_zh 里**不要再写**"建议增设人文主题"之类的备注（枚举已齐）
+
 ## 五、一致性要求
 
 - 同一 UP 主的同类视频标签应一致（同一判据）
