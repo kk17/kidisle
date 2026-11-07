@@ -11,7 +11,6 @@ export default defineConfig({
 		AstroPWAIntegration({
 			// PWA：可安装 + 离线可用（Workbox generateSW 预缓存全部构建产物）
 			registerType: 'autoUpdate',
-			includeAssets: ['favicon.svg', 'apple-touch-icon.png'],
 			manifest: {
 				name: '童心岛 KidiIsle',
 				short_name: '童心岛',
