@@ -4323,6 +4323,790 @@
    },
    "reason_zh": "陈伯吹最佳绘本奖，一个叫不出名字的小玩意引发大想象。",
    "reason_en": "Award-winning tale of a nameless thingamabob."
+  },
+  {
+   "title": "一小块天空（A Piece of the Sky）",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "陈伯吹奖韩国绘本，窗玻璃里的一小块天空装着四季与远方，安静诗意。",
+   "reason_en": "Award-winning Korean story of sky-gazing, poetic."
+  },
+  {
+   "title": "火城1938",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "蔡皋铅笔素描重现1938长沙大火，黑白笔触里长出顽强与希望，历史题材温和，适合大童共读。",
+   "reason_en": "1938 Changsha fire in pencil art; hope amid war."
+  },
+  {
+   "title": "外婆的菜园（My Baba's Garden）",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "西德尼·史密斯插画，外婆、菜园与早餐里的隔代亲情，温柔治愈的祖孙告白。",
+   "reason_en": "Sydney Smith art; warm grandma-grandchild love."
+  },
+  {
+   "title": "吸呼",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "0-3",
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "极简诗意的\"吸—呼\"节奏绘本，一吸一呼间安放情绪，适合低幼亲子共读。",
+   "reason_en": "A minimal, poetic breathing book; calming read."
+  },
+  {
+   "title": "炒豆粉，香喷喷",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "life"
+    ]
+   },
+   "reason_zh": "湘味民俗绘本，两姐妹穿街过巷做炒豆粉，老长沙烟火气与童趣满满。",
+   "reason_en": "Sisters make fried bean powder; Hunan folk charm."
+  },
+  {
+   "title": "恐龙先生流鼻涕以后（原奖名《打喷嚏的恐龙先生》）",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "喷火大明星变成喷水后重拾闪光自我，幽默绘本教孩子接纳挫折与不完美。",
+   "reason_en": "Fire turns to water; a dino learns self-worth."
+  },
+  {
+   "title": "牛言·蜚语",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "一句牛话越传越走样，上下翻页的反转幽默，让孩子学会不轻信传言。",
+   "reason_en": "Cow's words twist as they spread; doubt rumor."
+  },
+  {
+   "title": "捉",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "信谊佳作奖作品，一场你追我赶的捉游戏，反转结局妙趣横生。",
+   "reason_en": "Award-winning chase game story with a fun twist."
+  },
+  {
+   "title": "电线杆去哪儿了？",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "life"
+    ]
+   },
+   "reason_zh": "以一根电线杆的视角看山村通电变迁，怀旧故事里藏着时代记忆与光明。",
+   "reason_en": "A power pole lights a village; warm, nostalgic."
+  },
+  {
+   "title": "芽芽去哪儿",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "信谊佳作奖新作，芽芽的小旅程里藏着童趣与成长，画风亲切。",
+   "reason_en": "Award-winning tale of Sprout's journey and growth."
+  },
+  {
+   "title": "哈哈的心事",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "小小的心事慢慢被人听见，温柔的绘本帮孩子把情绪说出口。",
+   "reason_en": "A small worry is gently heard; feelings set free."
+  },
+  {
+   "title": "睡吧！熊熊",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "0-3",
+     "3-6"
+    ],
+    "language": [
+     "zh"
+    ],
+    "theme": [
+     "story",
+     "life"
+    ]
+   },
+   "reason_zh": "哄熊熊入睡的温柔睡前仪式，哄着哄着孩子也困了，哄睡好帮手。",
+   "reason_en": "A bedtime ritual story; lulls little ones asleep."
+  },
+  {
+   "title": "Antiracist Baby",
+   "suitable": false,
+   "tags": {},
+   "reason_zh": "反种族主义主题政治争议大，议题成人化说教化，不适合作儿童书目。",
+   "reason_en": "Politically charged activism book; excluded."
+  },
+  {
+   "title": "Just Like Me",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "33首女孩主题小诗，多元日常里学会爱自己，自信与共情启蒙。",
+   "reason_en": "33 poems of diverse girls; warm self-love lessons."
+  },
+  {
+   "title": "The Cool Bean",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "酷就是善良加做自己，校园社交与自信的经典食物组系列绘本。",
+   "reason_en": "Cool means being kind and yourself; school social."
+  },
+  {
+   "title": "The Serious Goose",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "想方设法逗笑严肃鹅先生的爆笑互动书，孩子会咯咯笑个不停。",
+   "reason_en": "Interactive humor: making a serious goose smile."
+  },
+  {
+   "title": "This Book Is Gray",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "灰色嫌自己不够出彩，颜色认知里学会接纳独特的自己。",
+   "reason_en": "Gray feels left out; colors and self-acceptance."
+  },
+  {
+   "title": "Sweet Child o' Mine",
+   "suitable": false,
+   "tags": {},
+   "reason_zh": "摇滚乐队情歌歌词改编的周边绘本，内容面向成人歌迷，非儿童故事。",
+   "reason_en": "Rock love-song lyrics for adult fans; excluded."
+  },
+  {
+   "title": "I Am Every Good Thing",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "黑人男孩的自信宣言，句句都是\"我很棒\"，元气满满的自我肯定。",
+   "reason_en": "A Black boy's joyful affirmations; 'I am great!'"
+  },
+  {
+   "title": "The Seed of Compassion",
+   "suitable": false,
+   "tags": {},
+   "reason_zh": "作者为达赖喇嘛，政治敏感人物，不宜收录。",
+   "reason_en": "Authored by the politically sensitive Dalai Lama."
+  },
+  {
+   "title": "The Oldest Student",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "116岁才学会认字的真实故事，终身学习最动人的注脚，励志传记绘本。",
+   "reason_en": "True story of learning to read at 116; inspiring."
+  },
+  {
+   "title": "Bird Hugs",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "翅膀太长飞不起来的小鸟，用大大的拥抱找到了自己的价值。",
+   "reason_en": "A bird who can't fly finds his wings are for hugs."
+  },
+  {
+   "title": "Julián at the Wedding",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "婚礼上新结识的朋友与装扮游戏，包容接纳的温和议题绘本，建议大童共读。",
+   "reason_en": "Wedding day, new friends; gentle inclusion themes."
+  },
+  {
+   "title": "Bedtime Bonnet",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "life"
+    ]
+   },
+   "reason_zh": "一家人睡前护发戴帽的温馨仪式，日常里满满的爱与睡意。",
+   "reason_en": "A family's sweet bedtime hair rituals; cozy love."
+  },
+  {
+   "title": "Coronavirus",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "science"
+    ]
+   },
+   "reason_zh": "疫情期间写给孩子的病毒科普绘本，图文清晰，安抚不安与好奇。",
+   "reason_en": "Clear, kid-friendly science book on the virus."
+  },
+  {
+   "title": "Grandma's Gardens",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "nature"
+    ]
+   },
+   "reason_zh": "祖孙三代的花园记忆，把所爱分享给所爱的人，亲情传承与自然之美。",
+   "reason_en": "Three generations of women bonded by a garden."
+  },
+  {
+   "title": "The World Needs More Purple People",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "做好奇、善良、肯干事的\"紫色人\"，积极社交与好奇心启蒙。",
+   "reason_en": "Curious and kind purple people; social skills fun."
+  },
+  {
+   "title": "Think Outside the Box",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "鼓励孩子跳出框框想问题，天马行空的创意思维启蒙绘本。",
+   "reason_en": "Encourages creative, out-of-the-box thinking."
+  },
+  {
+   "title": "Dewdrop",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "蝾螈宝宝Dewdrop的池塘小日常，画风治愈，温柔鼓励小小的自己。",
+   "reason_en": "An axolotl's gentle pond day; soothing and kind."
+  },
+  {
+   "title": "We Will Rock Our Classmates",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "霸王龙佩内洛普登台才艺秀，朋友们助力勇敢做自己。",
+   "reason_en": "A T. rex rocks the talent show; be yourself."
+  },
+  {
+   "title": "Wild Symphony",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "music",
+     "story"
+    ]
+   },
+   "reason_zh": "丹·布朗童书首秀，老鼠乐队巡演里藏着音乐与字母谜题。",
+   "reason_en": "Musical mice and hidden letters; a treasure hunt."
+  },
+  {
+   "title": "A Beautiful Day in the Neighborhood: The Poetry of Mister Rogers",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "music",
+     "story"
+    ]
+   },
+   "reason_zh": "罗杰斯先生的暖心诗句，像儿歌一样教孩子表达情感与善意。",
+   "reason_en": "Mister Rogers' warm poems on feelings, kindness."
+  },
+  {
+   "title": "Sulwe",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "肤色最深的女孩找到属于自己的光，自我认同议题温和，建议亲子共读。",
+   "reason_en": "The darkest girl finds her light; read together."
+  },
+  {
+   "title": "The Good Egg",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "拼命做\"完美好鸡蛋\"的它终于学会松弛，情商与自洽启蒙。",
+   "reason_en": "A perfectionist egg learns to relax; EQ booster."
+  },
+  {
+   "title": "Hair Love",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "爸爸为女儿编出爆炸头造型，浓浓父爱，也教孩子悦纳自己。",
+   "reason_en": "A dad styles his daughter's hair; love and pride."
+  },
+  {
+   "title": "Unicorn Day",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "独角兽们的狂欢派对，押韵热闹，读起来欢腾开心的书。",
+   "reason_en": "A rhyming unicorn party bursting with joy."
+  },
+  {
+   "title": "A Tiger Like Me",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "小男孩一整天假扮老虎过生活，想象力游戏里藏着温柔亲情。",
+   "reason_en": "A boy plays tiger all day; imagination and family."
+  },
+  {
+   "title": "Because",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "music",
+     "story"
+    ]
+   },
+   "reason_zh": "一连串\"因为\"把女孩送上卡内基音乐厅，音乐、灵感与传承之美。",
+   "reason_en": "A chain of becauses leads to Carnegie Hall music."
+  },
+  {
+   "title": "We Are (Not) Friends",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "新朋友加入后的小情绪，友谊里的接纳与分享。",
+   "reason_en": "A new friend; jealousy, acceptance and sharing."
+  },
+  {
+   "title": "Just Because",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "\"为什么天是蓝的？\"爸爸用想象力回答，好好呵护孩子的好奇心。",
+   "reason_en": "Imaginative dad answers keep curiosity alive."
+  },
+  {
+   "title": "A Piglet Named Mercy",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "小猪梅西的诞生记，幽默温馨，经典章节书系列的最佳起点。",
+   "reason_en": "The origin of Mercy Watson; a funny warm classic."
+  },
+  {
+   "title": "Pirates Don't Go to Kindergarten!",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "life"
+    ]
+   },
+   "reason_zh": "海盗女孩上幼儿园啦，用角色扮演化解入学焦虑。",
+   "reason_en": "A pirate girl starts kindergarten; eases jitters."
+  },
+  {
+   "title": "The Proudest Blue",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "姐姐第一天戴头巾上学，自信面对他人目光，温和议题建议亲子共读。",
+   "reason_en": "First day of hijab, standing proud; read together."
+  },
+  {
+   "title": "How to Read a Book",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "Kwame Alexander以诗歌礼赞阅读之美，翻开一本书的仪式感，点燃爱书之心。",
+   "reason_en": "Poetry celebrating reading; sparks book love."
+  },
+  {
+   "title": "It's Not Hansel and Gretel",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "反转版糖果屋童话，换个视角重讲经典，笑点密集。",
+   "reason_en": "Hilarious fractured-fairy-tale Hansel and Gretel."
+  },
+  {
+   "title": "Fry Bread",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "life"
+    ]
+   },
+   "reason_zh": "一块炸面包串起美洲原住民的食物、家与文化，诗意科普奖作品。",
+   "reason_en": "Fry bread carries Native family and culture."
   }
  ]
 }
