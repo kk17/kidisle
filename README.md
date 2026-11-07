@@ -98,6 +98,11 @@ https://play.kk17.net/family/video-search/?keyword={url}&source={source}#/search
 欢迎 PR！修改数据快照前请先阅读 `scripts/tagging-guidelines.md` 的标签口径；
 新增内容请走数据管线而非手工编辑。站点 UI 改动请跑 `npm run build` 确认通过。
 
+### Agent 协作工作流
+
+本项目采用 dev / review / QA 三角色协作：UI 改动需经独立 review agent 按清单审查，
+部署后由 QA agent 按状态矩阵在真实浏览器验证。详见 [docs/agent-workflow.md](docs/agent-workflow.md)。
+
 ## License
 
 [MIT](./LICENSE) · 视频与图书信息版权归原权利人所有，站点仅做链接索引与官方播放器嵌入

@@ -102,6 +102,12 @@ PRs welcome! Please read `scripts/tagging-guidelines.md` before touching data sn
 and add content through the pipeline rather than editing snapshots by hand.
 Run `npm run build` to verify UI changes.
 
+### Agent workflow
+
+This project uses a dev / review / QA three-role workflow: UI changes go through an
+independent review agent against a checklist, and deployments are verified by a QA agent
+running a state matrix in a real browser. See [docs/agent-workflow.md](docs/agent-workflow.md).
+
 ## License
 
 [MIT](./LICENSE) · Video and book metadata belong to their original owners; this site only indexes links and embeds official players.
