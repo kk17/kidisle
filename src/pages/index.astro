@@ -48,23 +48,16 @@ const bookThemes = taxonomy.book_themes;
 	</section>
 
 	<section class="filters" id="book-filters" hidden>
-		<div class="filter-row">
-			<span class="dim" data-i18n="bookview_label">浏览方式</span>
-			<div class="options">
-				<button class="chip" id="bv-books" aria-pressed="true" data-i18n="bookview_books">书目</button>
-				<button class="chip" id="bv-awards" aria-pressed="false" data-i18n="bookview_awards">奖项</button>
-			</div>
-		</div>
-		<div class="filter-row" id="book-award-lang-row" hidden>
+		<div class="filter-row" data-bview="awards">
 			<span class="dim" data-i18n="award_lang_label">奖项语言</span>
 			<div class="options">
 				<button class="chip" id="award-lang-all" aria-pressed="true" data-i18n="award_lang_all">全部</button>
-				<button class="chip" id="award-lang-zh" data-i18n="award_lang_zh" aria-pressed="false">中文奖项</button>
-				<button class="chip" id="award-lang-en" data-i18n="award_lang_en" aria-pressed="false">英文奖项</button>
-				<button class="chip" id="award-lang-intl" data-i18n="award_lang_intl" aria-pressed="false">国际奖项</button>
+				<button class="chip" data-award-lang="zh" data-i18n="award_lang_zh" aria-pressed="false">中文奖项</button>
+				<button class="chip" data-award-lang="en" data-i18n="award_lang_en" aria-pressed="false">英文奖项</button>
+				<button class="chip" data-award-lang="intl" data-i18n="award_lang_intl" aria-pressed="false">国际奖项</button>
 			</div>
 		</div>
-		<div class="filter-row">
+		<div class="filter-row" data-bview="books">
 			<span class="dim" data-i18n="filter_age">年龄段</span>
 			<div class="options">
 				{ageBands.map((t) => <button class="chip" data-bdim="age" data-v={t.id} data-tag={t.id} data-tag-dim="age" aria-pressed="false">{t.label}</button>)}
@@ -72,14 +65,14 @@ const bookThemes = taxonomy.book_themes;
 				<span class="count" id="book-count"></span>
 			</div>
 		</div>
-		<div class="filter-row">
+		<div class="filter-row" data-bview="books">
 			<span class="dim" data-i18n="filter_language">语言</span>
 			<div class="options">
 				{languages.map((t) => <button class="chip" data-bdim="language" data-v={t.id} data-tag={t.id} data-tag-dim="language" aria-pressed="false">{t.label}</button>)}
 				<button class="chip-clear" data-bclear="language" data-i18n="clear">清空</button>
 			</div>
 		</div>
-		<div class="filter-row">
+		<div class="filter-row" data-bview="books">
 			<span class="dim" data-i18n="filter_theme">主题</span>
 			<div class="options">
 				{bookThemes.map((t) => <button class="chip" data-bdim="theme" data-v={t.id} data-tag={t.id} data-tag-dim="book_theme" aria-pressed="false">{t.label}</button>)}
@@ -233,7 +226,12 @@ const bookThemes = taxonomy.book_themes;
 		}
 		window.addEventListener('kidisle:modechange', (e) => setMode((e as CustomEvent).detail.mode));
 		// 初始模式：Base 脚本会在挂载后派发；这里先按 hash 兜底一次
-		setMode(location.hash === '#books' ? 'book' : 'video');
+		if (location.hash === '#books' || location.hash === '#awards') {
+			setMode('book');
+			if (location.hash === '#awards') setBookView('awards');
+		} else {
+			setMode('video');
+		}
 
 		// ---- 视频筛选 ----
 		const state: Record<string, Set<string>> = {
@@ -330,26 +328,23 @@ const bookThemes = taxonomy.book_themes;
 		});
 		applyBooks();
 
-		// ---- 图书模式双视图：书目 / 奖项 ----
-		const bvBooksBtn = document.getElementById('bv-books')!;
-		const bvAwardsBtn = document.getElementById('bv-awards')!;
+		// ---- 图书模式双视图：书目 / 奖项（chips 在顶栏，Base 派发事件）----
 		const bookBooksView = document.getElementById('book-grid')!;
 		const bookEmpty = document.getElementById('book-empty')!;
 		const awardsGridView = document.getElementById('awards-grid')!;
 		const awardsEmpty = document.getElementById('awards-empty')!;
-		const awardLangRow = document.getElementById('book-award-lang-row')!;
 
 		function setBookView(view: 'books' | 'awards') {
 			const isAwards = view === 'awards';
-			bvBooksBtn.setAttribute('aria-pressed', String(!isAwards));
-			bvAwardsBtn.setAttribute('aria-pressed', String(isAwards));
 			bookBooksView.hidden = isAwards;
 			bookEmpty.hidden = isAwards;
 			awardsGridView.hidden = !isAwards;
-			awardLangRow.hidden = !isAwards;
+			// 行按视图显隐：书目视图显示 年龄/语言/主题；奖项视图仅 奖项语言
+			document.querySelectorAll('#book-filters [data-bview]').forEach((row) => {
+				(row as HTMLElement).hidden = (row as HTMLElement).dataset.bview !== view;
+			});
 		}
-		bvBooksBtn.addEventListener('click', () => setBookView('books'));
-		bvAwardsBtn.addEventListener('click', () => setBookView('awards'));
+		window.addEventListener('kidisle:bookview', (e) => setBookView((e as CustomEvent).detail.view));
 
 		// 奖项语言筛选
 		const awardLang = new Set<string>();
@@ -367,10 +362,9 @@ const bookThemes = taxonomy.book_themes;
 			chip.addEventListener('click', () => {
 				if (chip.id === 'award-lang-all') {
 					awardLang.clear();
-					document.querySelectorAll<HTMLButtonElement>('#book-award-lang-row .chip[data-i18n]').forEach((c) => c.setAttribute('aria-pressed', c.id === 'award-lang-all' ? 'true' : 'false'));
+					document.querySelectorAll<HTMLButtonElement>('#book-award-lang-row .chip[data-award-lang]').forEach((c) => c.setAttribute('aria-pressed', 'false'));
 				} else {
-					const v = chip.dataset.i18n!; // award_lang_zh/en/intl
-					const key = v.replace('award_lang_', '');
+					const key = chip.dataset.awardLang!;
 					if (awardLang.has(key)) { awardLang.delete(key); chip.setAttribute('aria-pressed', 'false'); }
 					else { awardLang.add(key); chip.setAttribute('aria-pressed', 'true'); }
 					const allBtn = document.getElementById('award-lang-all')!;
@@ -379,5 +373,6 @@ const bookThemes = taxonomy.book_themes;
 				applyAwardLang();
 			});
 		});
+		applyAwardLang();
 	</script>
 </Base>

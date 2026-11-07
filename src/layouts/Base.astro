@@ -53,6 +53,10 @@ const { title = '童心岛 · 精选儿童视频与绘本', titleEn = 'KidiIsle 
 				background: var(--card) url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%230284c7' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat right 0.55rem center;
 				color: var(--ink); cursor: pointer; appearance: none;
 			}
+			.bookview-chips { display: flex; gap: 0.3rem; }
+			.bookview-chips .chip {
+				font-size: 0.85rem; padding: 0.32rem 0.9rem; border-radius: 999px;
+			}
 			.navtabs { display: flex; gap: 0.25rem; flex: 1; }
 			.navtabs a {
 				font-size: 0.9rem; padding: 0.35rem 0.9rem; border-radius: 999px;
@@ -82,6 +86,10 @@ const { title = '童心岛 · 精选儿童视频与绘本', titleEn = 'KidiIsle 
 						<option value="video" data-i18n="mode_video">视频片单</option>
 						<option value="book" data-i18n="mode_book">绘本书单</option>
 					</select>
+				</div>
+				<div class="bookview-chips" id="bookview-chips" hidden>
+					<button class="chip" id="bv-books" aria-pressed="true" data-i18n="bookview_books">书目</button>
+					<button class="chip" id="bv-awards" aria-pressed="false" data-i18n="bookview_awards">奖项</button>
 				</div>
 				<nav class="navtabs" id="navtabs">
 					<a href={base} aria-current={Astro.url.pathname === base || Astro.url.pathname === `${base}index.html` ? 'page' : undefined}>
@@ -126,14 +134,30 @@ const { title = '童心岛 · 精选儿童视频与绘本', titleEn = 'KidiIsle 
 				if (isIndex()) return location.hash === '#books' ? 'book' : 'video';
 				return 'video';
 			}
+			const bookviewChips = document.getElementById('bookview-chips');
 			function syncModeUI(mode: 'video' | 'book') {
 				if (modeSel) modeSel.value = mode;
-				// 图书模式不显示 视频/博主 tab
+				// 图书模式：隐藏 视频/博主 tab，显示 书目/奖项 chips；视频模式相反
 				if (navtabs) navtabs.style.display = mode === 'book' ? 'none' : '';
+				if (bookviewChips) bookviewChips.hidden = mode !== 'book';
 			}
 			function dispatchMode(mode: 'video' | 'book') {
 				window.dispatchEvent(new CustomEvent('kidisle:modechange', { detail: { mode } }));
 			}
+			document.getElementById('bv-books')?.addEventListener('click', () => {
+				if (isIndex()) {
+					history.replaceState(null, '', location.pathname);
+					dispatchMode('book');
+					window.dispatchEvent(new CustomEvent('kidisle:bookview', { detail: { view: 'books' } }));
+				} else { location.href = base + '#books'; }
+			});
+			document.getElementById('bv-awards')?.addEventListener('click', () => {
+				if (isIndex()) {
+					history.replaceState(null, '', location.pathname + '#awards');
+					dispatchMode('book');
+					window.dispatchEvent(new CustomEvent('kidisle:bookview', { detail: { view: 'awards' } }));
+				} else { location.href = base + '#awards'; }
+			});
 			modeSel?.addEventListener('change', () => {
 				const mode = modeSel.value as 'video' | 'book';
 				if (isIndex()) {
