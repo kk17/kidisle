@@ -55,7 +55,7 @@ const themes = taxonomy.themes;
 			</div>
 		</div>
 		<div class="filter-row" id="book-award-lang-row" hidden>
-			<span class="dim" data-i18n="filter_platform">奖项语言</span>
+			<span class="dim" data-i18n="award_lang_label">奖项语言</span>
 			<div class="options">
 				<button class="chip" id="award-lang-all" aria-pressed="true" data-i18n="award_lang_all">全部</button>
 				<button class="chip" id="award-lang-zh" data-i18n="award_lang_zh" aria-pressed="false">中文奖项</button>
@@ -135,7 +135,7 @@ const themes = taxonomy.themes;
 										<div class="awardname-en">{a.name_en}</div>
 										<p class="awardintro">{a.intro}</p>
 										<div class="awardmeta">
-											<span class="alangchip">{a.lang === 'zh' ? '中文奖项' : a.lang === 'en' ? '英文奖项' : '国际奖项'}</span>
+											<span class="alangchip" data-i18n={`award_lang_${a.lang}`}>{a.lang === 'zh' ? '中文奖项' : a.lang === 'en' ? '英文奖项' : '国际奖项'}</span>
 											<span>📍 {a.region}</span>
 										</div>
 									</div>
@@ -198,6 +198,7 @@ const themes = taxonomy.themes;
 			display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem;
 		}
 		.bgrid { grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); }
+		.grid[hidden] { display: none; }
 		.awardcard {
 			display: flex; flex-direction: column; gap: 0.45rem; height: 100%;
 			background: var(--card); border-radius: 12px; padding: 1rem;
