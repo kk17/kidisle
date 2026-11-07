@@ -314,6 +314,8 @@ def merge():
         if not t.get("suitable"):
             continue
         t = tagged.get(b["title"])
+        # 平台判定：collect_yt 产出的候选带 vid，B站候选带 bvid
+        is_yt = "vid" in b or b.get("source") == "youtube"
         # 视频主题 → 图书主题迁移（含人文标记识别），并剥掉管线注释
         book_tags = {
             "age": t["tags"]["age"],
@@ -328,6 +330,9 @@ def merge():
         cover = f"covers/{bid}.jpg" if local_cover.exists() else (b.get("cover") or "")
         books.append({
             "id": bid,
+            "source": "youtube" if is_yt else "bilibili",
+            "bvid": None if is_yt else b.get("bvid"),
+            "vid": b["vid"] if is_yt else None,
             "title": b["title"],
             "title_en": b.get("title_en") or TITLE_EN_OVERRIDES.get(b["title"], ""),
             "author": b.get("author") or "",

@@ -4,6 +4,9 @@
   "books": [
     {
       "id": "bk-2c634c61c964",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "四季时光",
       "title_en": "",
       "author": "[德] 罗特劳特·苏珊娜·贝尔纳",
@@ -34,6 +37,9 @@
     },
     {
       "id": "bk-4772b08c14a1",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Hello Lighthouse",
       "title_en": "",
       "author": "Sophie Blackall 文/图",
@@ -66,6 +72,9 @@
     },
     {
       "id": "bk-7c4b1d14b45b",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Me... Jane",
       "title_en": "",
       "author": "Patrick McDonnell",
@@ -99,6 +108,9 @@
     },
     {
       "id": "bk-8019a3d441af",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Small in the City",
       "title_en": "",
       "author": "Sydney Smith 文/图",
@@ -131,6 +143,9 @@
     },
     {
       "id": "bk-12b052ee6764",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "后来呢后来怎么了",
       "title_en": "",
       "author": "[日] 吉竹伸介",
@@ -161,6 +176,9 @@
     },
     {
       "id": "bk-99bc5c9cd6d6",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Make Way for Ducklings",
       "title_en": "",
       "author": "Robert McCloskey 文/图",
@@ -189,6 +207,9 @@
     },
     {
       "id": "bk-0e65da8bd821",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Ocean Meets Sky",
       "title_en": "",
       "author": "Terry Fan",
@@ -221,6 +242,9 @@
     },
     {
       "id": "bk-1c9e4d1ee9cd",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Listen to My Trumpet!",
       "title_en": "",
       "author": "Mo Willems",
@@ -253,6 +277,9 @@
     },
     {
       "id": "bk-d407f7efe1cd",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "I Broke My Trunk!",
       "title_en": "",
       "author": "Mo Willems",
@@ -286,6 +313,9 @@
     },
     {
       "id": "bk-f06c0855a806",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "爸爸和我",
       "title_en": "",
       "author": "张雅铃 文/图",
@@ -319,6 +349,9 @@
     },
     {
       "id": "bk-1395c93456fb",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "海底的秘密",
       "title_en": "",
       "author": "[美] 大卫·威斯纳",
@@ -348,6 +381,9 @@
     },
     {
       "id": "bk-2b523e5ea708",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Good Night, Gorilla",
       "title_en": "",
       "author": "Peggy Rathmann 文/图",
@@ -377,6 +413,9 @@
     },
     {
       "id": "bk-ec9d2515e856",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Rabbit Listened",
       "title_en": "",
       "author": "Cori Doerrfeld",
@@ -410,6 +449,9 @@
     },
     {
       "id": "bk-2458ad4aca89",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Thank You Book",
       "title_en": "",
       "author": "Mo Willems",
@@ -443,6 +485,9 @@
     },
     {
       "id": "bk-d9f2e7ef7383",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "I Will Take a Nap!",
       "title_en": "",
       "author": "Mo Willems",
@@ -476,6 +521,9 @@
     },
     {
       "id": "bk-a5daea1d077d",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "猜猜我有多爱你",
       "title_en": "Guess How Much I Love You",
       "author": "[英] 山姆·麦克布雷尼 文 / 安妮塔·婕朗 图",
@@ -506,6 +554,9 @@
     },
     {
       "id": "bk-8ef6889ebbda",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "狐狸的窗户",
       "title_en": "",
       "author": "[日] 安房直子 文 / [日] 织茂恭子 绘",
@@ -534,6 +585,9 @@
     },
     {
       "id": "bk-c3fed024cdd5",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "抵岸",
       "title_en": "",
       "author": "[澳] 陈志勇",
@@ -562,6 +616,9 @@
     },
     {
       "id": "bk-b91f7aca2e02",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "不一样的卡梅拉（1-10册）",
       "title_en": "",
       "author": "[法] 克利斯提昂·约里波瓦 文 / 艾利施 绘",
@@ -591,6 +648,9 @@
     },
     {
       "id": "bk-ccca4e46d832",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "小熊宝宝绘本（全15册）",
       "title_en": "",
       "author": "[日] 佐佐木洋子",
@@ -620,6 +680,9 @@
     },
     {
       "id": "bk-006da2b4263d",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "奥菲利娅的影子剧院",
       "title_en": "",
       "author": "[德] 米切尔·恩德",
@@ -649,6 +712,9 @@
     },
     {
       "id": "bk-47478206e33b",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "They All Saw a Cat",
       "title_en": "",
       "author": "Brendan Wenzel 文/图",
@@ -682,6 +748,9 @@
     },
     {
       "id": "bk-9a9cf7a5b27a",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Guess How Much I Love You",
       "title_en": "",
       "author": "Sam McBratney 文 / Anita Jeram 图",
@@ -712,6 +781,9 @@
     },
     {
       "id": "bk-a20de26ca481",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "When I Grow Up",
       "title_en": "",
       "author": "Al Yankovic",
@@ -744,6 +816,9 @@
     },
     {
       "id": "bk-3ca50ebc8dfe",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "We are in a Book!",
       "title_en": "",
       "author": "Mo Willems",
@@ -777,6 +852,9 @@
     },
     {
       "id": "bk-7d4dae96c111",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "牛王节",
       "title_en": "",
       "author": "陈巽如 绘",
@@ -809,6 +887,9 @@
     },
     {
       "id": "bk-1ba076fccb89",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "不一样的1",
       "title_en": "",
       "author": "吴亚男 文 / 柳垄沙 图",
@@ -842,6 +923,9 @@
     },
     {
       "id": "bk-06c6041c5f75",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "爷爷变成了幽灵",
       "title_en": "",
       "author": "[丹麦] 金·弗珀兹·艾克松 文 / [瑞典] 爱娃·艾瑞克松 图",
@@ -872,6 +956,9 @@
     },
     {
       "id": "bk-bcdc3e84c4cf",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "妈妈，买绿豆！",
       "title_en": "",
       "author": "曾阳晴 文 / 万华国 图",
@@ -902,6 +989,9 @@
     },
     {
       "id": "bk-711ffd9b2c24",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "7号梦工厂",
       "title_en": "",
       "author": "[美] 大卫·威斯纳",
@@ -931,6 +1021,9 @@
     },
     {
       "id": "bk-cbbc260f1bcb",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "桃花源的故事",
       "title_en": "",
       "author": "松居直 编 / 蔡皋 绘",
@@ -960,6 +1053,9 @@
     },
     {
       "id": "bk-3bec86443387",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Rough Patch",
       "title_en": "",
       "author": "Brian Lies 文/图",
@@ -993,6 +1089,9 @@
     },
     {
       "id": "bk-4a6f99d71647",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Have You Ever Seen a Flower?",
       "title_en": "",
       "author": "Shawn Harris 文/图",
@@ -1026,6 +1125,9 @@
     },
     {
       "id": "bk-613c0f0560ef",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Room on the Broom",
       "title_en": "",
       "author": "Julia Donaldson 文 / Axel Scheffler 图",
@@ -1054,6 +1156,9 @@
     },
     {
       "id": "bk-047d663b9399",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "A Dark, Dark Tale",
       "title_en": "",
       "author": "Ruth Brown 文/图",
@@ -1082,6 +1187,9 @@
     },
     {
       "id": "bk-0d199e4abe2b",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "外婆的菜园（My Baba's Garden）",
       "title_en": "",
       "author": "[加] 乔丹·斯科特 文 / [加] 西德尼·史密斯 图",
@@ -1115,6 +1223,9 @@
     },
     {
       "id": "bk-e53dd704ccd1",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "永远永远爱你",
       "title_en": "",
       "author": "[日] 宫西达也",
@@ -1144,6 +1255,9 @@
     },
     {
       "id": "bk-2daa314bc19b",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "这是苹果吗也许是吧",
       "title_en": "",
       "author": "[日] 吉竹伸介",
@@ -1172,6 +1286,9 @@
     },
     {
       "id": "bk-acb7422225b5",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "田鼠阿佛",
       "title_en": "Frederick",
       "author": "[美] 李欧·李奥尼",
@@ -1201,6 +1318,9 @@
     },
     {
       "id": "bk-812bfc9bd84b",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "晚安，大猩猩",
       "title_en": "",
       "author": "[美] 佩吉·拉特曼",
@@ -1230,6 +1350,9 @@
     },
     {
       "id": "bk-bfd266541e3f",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "夏天守则",
       "title_en": "",
       "author": "[澳] 陈志勇",
@@ -1259,6 +1382,9 @@
     },
     {
       "id": "bk-ede17225a101",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "不可思议的旅程",
       "title_en": "",
       "author": "[美] 艾伦·贝克尔",
@@ -1288,6 +1414,9 @@
     },
     {
       "id": "bk-e1f32d6672b1",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Very Hungry Caterpillar",
       "title_en": "",
       "author": "Eric Carle 文/图",
@@ -1317,6 +1446,9 @@
     },
     {
       "id": "bk-3859b0573f14",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Goodnight Moon",
       "title_en": "",
       "author": "Margaret Wise Brown 文 / Clement Hurd 图",
@@ -1346,6 +1478,9 @@
     },
     {
       "id": "bk-cc7ef0d8e26a",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Gruffalo",
       "title_en": "",
       "author": "Julia Donaldson 文 / Axel Scheffler 图",
@@ -1374,6 +1509,9 @@
     },
     {
       "id": "bk-aeb7ad7e1c76",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Kissing Hand",
       "title_en": "",
       "author": "Audrey Penn 文 / Ruth E. Harper & Nancy M. Leak 图",
@@ -1403,6 +1541,9 @@
     },
     {
       "id": "bk-43f36086303b",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Dot",
       "title_en": "",
       "author": "Peter H. Reynolds 文/图",
@@ -1432,6 +1573,9 @@
     },
     {
       "id": "bk-1763c01f5069",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Sidewalk Flowers",
       "title_en": "",
       "author": "JonArno Lawson",
@@ -1465,6 +1609,9 @@
     },
     {
       "id": "bk-5706de961fb3",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Waiting",
       "title_en": "",
       "author": "Kevin Henkes",
@@ -1497,6 +1644,9 @@
     },
     {
       "id": "bk-36275f834986",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Pigeon Needs a Bath!",
       "title_en": "",
       "author": "Mo Willems",
@@ -1530,6 +1680,9 @@
     },
     {
       "id": "bk-5f4385093a92",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Quiet Book",
       "title_en": "",
       "author": "Deborah Underwood",
@@ -1562,6 +1715,9 @@
     },
     {
       "id": "bk-0ef187b3e4fe",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "A Sick Day for Amos McGee",
       "title_en": "",
       "author": "Philip C. Stead",
@@ -1595,6 +1751,9 @@
     },
     {
       "id": "bk-56aaeaeac432",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "可怜虫蚯蚓的生活",
       "title_en": "",
       "author": "[意] 诺埃米·沃拉 文/图",
@@ -1628,6 +1787,9 @@
     },
     {
       "id": "bk-0c5655ca4e42",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "吸呼",
       "title_en": "",
       "author": "胡一凡 文/图",
@@ -1661,6 +1823,9 @@
     },
     {
       "id": "bk-43324a0ba4cd",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "你看起来好像很好吃",
       "title_en": "You Look Yummy",
       "author": "[日] 宫西达也",
@@ -1690,6 +1855,9 @@
     },
     {
       "id": "bk-bbfb4160d1c4",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "月亮忘记了",
       "title_en": "",
       "author": "幾米",
@@ -1719,6 +1887,9 @@
     },
     {
       "id": "bk-b4e0fd485a06",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "我的爸爸叫焦尼",
       "title_en": "",
       "author": "[瑞典] 波·R·汉伯格 文 / 爱娃·艾瑞克松 图",
@@ -1749,6 +1920,9 @@
     },
     {
       "id": "bk-3c47ce1bcd92",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "坏狐狸",
       "title_en": "",
       "author": "[法] 本杰明·雷内",
@@ -1778,6 +1952,9 @@
     },
     {
       "id": "bk-658fb7b30577",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "铁丝网上的小花",
       "title_en": "",
       "author": "[意] 格莱兹 文 / 英诺森提 绘",
@@ -1807,6 +1984,9 @@
     },
     {
       "id": "bk-4e65101acf7a",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "点点点",
       "title_en": "",
       "author": "[法] 埃尔维·杜莱",
@@ -1836,6 +2016,9 @@
     },
     {
       "id": "bk-448a4eed0929",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "小兔彼得和他的朋友们（全3册）",
       "title_en": "",
       "author": "[英] 毕翠克丝·波特",
@@ -1865,6 +2048,9 @@
     },
     {
       "id": "bk-9e634183e04d",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "松鼠先生和月亮",
       "title_en": "",
       "author": "[德] 塞巴斯蒂安·麦什莫泽",
@@ -1893,6 +2079,9 @@
     },
     {
       "id": "bk-7811c5fc900b",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "朱家故事",
       "title_en": "",
       "author": "[英] 安东尼·布朗",
@@ -1922,6 +2111,9 @@
     },
     {
       "id": "bk-21c5e242b1c2",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "蓝莲花",
       "title_en": "",
       "author": "[比] 埃尔热",
@@ -1951,6 +2143,9 @@
     },
     {
       "id": "bk-5932e562fe25",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "小金鱼逃走了",
       "title_en": "",
       "author": "[日] 五味太郎",
@@ -1979,6 +2174,9 @@
     },
     {
       "id": "bk-692ed399d451",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "当鸭子遇见死神",
       "title_en": "",
       "author": "[德] 沃尔夫·埃布鲁赫",
@@ -2008,6 +2206,9 @@
     },
     {
       "id": "bk-157a64464150",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "小蓝和小黄",
       "title_en": "",
       "author": "[美] 李欧·李奥尼",
@@ -2038,6 +2239,9 @@
     },
     {
       "id": "bk-aaeb81c822c8",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "你好灯塔",
       "title_en": "",
       "author": "[澳] 苏菲·布莱科尔",
@@ -2066,6 +2270,9 @@
     },
     {
       "id": "bk-87f5d078440a",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "我变成一只喷火龙了",
       "title_en": "",
       "author": "赖马",
@@ -2099,6 +2306,9 @@
     },
     {
       "id": "bk-cc020f000676",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "盘中餐",
       "title_en": "",
       "author": "于虹呈",
@@ -2133,6 +2343,9 @@
     },
     {
       "id": "bk-373dcbd0a8e3",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "苏丹的犀角",
       "title_en": "",
       "author": "戴芸 文 / 李星明 图",
@@ -2167,6 +2380,9 @@
     },
     {
       "id": "bk-d3a33224ab4e",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "驯河童子",
       "title_en": "",
       "author": "廖小琴 文（乐乐趣出品）",
@@ -2199,6 +2415,9 @@
     },
     {
       "id": "bk-8509e36b4b7b",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Brown Bear, Brown Bear, What Do You See?",
       "title_en": "",
       "author": "Bill Martin Jr. 文 / Eric Carle 图",
@@ -2229,6 +2448,9 @@
     },
     {
       "id": "bk-d54393c5829e",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "We Don't Eat Our Classmates",
       "title_en": "",
       "author": "Ryan T. Higgins",
@@ -2262,6 +2484,9 @@
     },
     {
       "id": "bk-8eb6cb2561ed",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "We Found a Hat",
       "title_en": "",
       "author": "Jon Klassen",
@@ -2295,6 +2520,9 @@
     },
     {
       "id": "bk-eee776cd966b",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Day the Crayons Quit",
       "title_en": "",
       "author": "Drew Daywalt",
@@ -2327,6 +2555,9 @@
     },
     {
       "id": "bk-19487c23140e",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Open This Little Book",
       "title_en": "",
       "author": "Jesse Klausmeier",
@@ -2359,6 +2590,9 @@
     },
     {
       "id": "bk-2a929a8b34ce",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Olivia and the Fairy Princesses",
       "title_en": "",
       "author": "Ian Falconer",
@@ -2392,6 +2626,9 @@
     },
     {
       "id": "bk-0dd55da19444",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Fantastic Flying Books of Mr. Morris Lessmore",
       "title_en": "",
       "author": "William Joyce",
@@ -2424,6 +2661,9 @@
     },
     {
       "id": "bk-4601e2d01360",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Midnight Fair",
       "title_en": "",
       "author": "Gideon Sterer 文 / Mariachiara Di Giorgio 图",
@@ -2456,6 +2696,9 @@
     },
     {
       "id": "bk-b74fda638561",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "火城1938",
       "title_en": "",
       "author": "蔡皋 文 / 蔡皋、萧翱子 图",
@@ -2488,6 +2731,9 @@
     },
     {
       "id": "bk-f8efc380a2d5",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "活了100万次的猫",
       "title_en": "The Cat That Lived a Million Times",
       "author": "[日] 佐野洋子",
@@ -2518,6 +2764,9 @@
     },
     {
       "id": "bk-b75d3218992d",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "时光电影院",
       "title_en": "",
       "author": "几米",
@@ -2548,6 +2797,9 @@
     },
     {
       "id": "bk-5ecfbb8fa7d5",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "星空",
       "title_en": "",
       "author": "幾米",
@@ -2577,6 +2829,9 @@
     },
     {
       "id": "bk-7af8c12b5238",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "失落的一角遇见大圆满",
       "title_en": "",
       "author": "[美] 谢尔·希尔弗斯坦",
@@ -2606,6 +2861,9 @@
     },
     {
       "id": "bk-98acc186c12c",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "爱心树",
       "title_en": "The Giving Tree",
       "author": "[美] 谢尔·希尔弗斯坦",
@@ -2636,6 +2894,9 @@
     },
     {
       "id": "bk-ff8698e9408d",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "花婆婆",
       "title_en": "Miss Rumphius",
       "author": "[美] 芭芭拉·库尼",
@@ -2666,6 +2927,9 @@
     },
     {
       "id": "bk-a53204f743b9",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "好饿的毛毛虫",
       "title_en": "The Very Hungry Caterpillar",
       "author": "[美] 艾瑞·卡尔",
@@ -2696,6 +2960,9 @@
     },
     {
       "id": "bk-99b04374f577",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "白兔夫人",
       "title_en": "",
       "author": "[法] 吉尔·巴什莱",
@@ -2724,6 +2991,9 @@
     },
     {
       "id": "bk-297ed985d6ea",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "小房子",
       "title_en": "",
       "author": "[美] 维吉尼亚·李·伯顿",
@@ -2754,6 +3024,9 @@
     },
     {
       "id": "bk-516cac3a8b09",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "野兽国",
       "title_en": "Where the Wild Things Are",
       "author": "[美] 莫里斯·桑达克",
@@ -2783,6 +3056,9 @@
     },
     {
       "id": "bk-b19d30b5f0c4",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "雪人",
       "title_en": "",
       "author": "[英] 雷蒙·布力格",
@@ -2812,6 +3088,9 @@
     },
     {
       "id": "bk-e238df3d4dad",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "小狐狸买手套",
       "title_en": "",
       "author": "[日] 新美南吉 文 / 黑井健 绘",
@@ -2841,6 +3120,9 @@
     },
     {
       "id": "bk-77a7c2c6aa19",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "大猩猩",
       "title_en": "",
       "author": "[英] 安东尼·布朗",
@@ -2870,6 +3152,9 @@
     },
     {
       "id": "bk-cd3f1f573048",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "糖球",
       "title_en": "",
       "author": "[韩] 白希那",
@@ -2899,6 +3184,9 @@
     },
     {
       "id": "bk-6b3721cc5aa6",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "小黑鱼",
       "title_en": "Swimmy",
       "author": "[美] 李欧·李奥尼",
@@ -2928,6 +3216,9 @@
     },
     {
       "id": "bk-ef92c3dc9341",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "亲爱的小鱼",
       "title_en": "",
       "author": "[法] 安德烈·德昂",
@@ -2956,6 +3247,9 @@
     },
     {
       "id": "bk-27f47224d040",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "蹦!",
       "title_en": "",
       "author": "[日] 松冈达英",
@@ -2984,6 +3278,9 @@
     },
     {
       "id": "bk-a94dba59e62a",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "玛德琳",
       "title_en": "",
       "author": "[美] 路德维希·贝梅尔曼斯",
@@ -3012,6 +3309,9 @@
     },
     {
       "id": "bk-68abc79cda46",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Du Iz Tak?",
       "title_en": "",
       "author": "Carson Ellis 文/图",
@@ -3045,6 +3345,9 @@
     },
     {
       "id": "bk-65882f88bee0",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Where the Wild Things Are",
       "title_en": "",
       "author": "Maurice Sendak 文/图",
@@ -3074,6 +3377,9 @@
     },
     {
       "id": "bk-23d56b61e665",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Giving Tree",
       "title_en": "",
       "author": "Shel Silverstein 文/图",
@@ -3104,6 +3410,9 @@
     },
     {
       "id": "bk-631dac4d2683",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Day the Crayons Came Home",
       "title_en": "",
       "author": "Drew Daywalt",
@@ -3136,6 +3445,9 @@
     },
     {
       "id": "bk-692a45e22906",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "What Do You Do With an Idea?",
       "title_en": "",
       "author": "Kobi Yamada",
@@ -3170,6 +3482,9 @@
     },
     {
       "id": "bk-99518c55647b",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "This Is Not My Hat",
       "title_en": "",
       "author": "Jon Klassen",
@@ -3202,6 +3517,9 @@
     },
     {
       "id": "bk-4e8ea526472c",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "牛言·蜚语",
       "title_en": "",
       "author": "黄奇伟 文/图",
@@ -3235,6 +3553,9 @@
     },
     {
       "id": "bk-2261d21f24d9",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "爷爷一定有办法",
       "title_en": "Something from Nothing",
       "author": "[加] 菲比·吉尔曼",
@@ -3263,6 +3584,9 @@
     },
     {
       "id": "bk-c6876daff910",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "逃家小兔",
       "title_en": "The Runaway Bunny",
       "author": "[美] 玛格丽特·怀兹·布朗 文 / 克雷门·赫德 图",
@@ -3293,6 +3617,9 @@
     },
     {
       "id": "bk-1a637fc316e9",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "肚子里有个火车站",
       "title_en": "",
       "author": "[德] 安娜·鲁斯曼",
@@ -3322,6 +3649,9 @@
     },
     {
       "id": "bk-9d05e76a698c",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "不可思议的朋友",
       "title_en": "",
       "author": "[日] 田岛征彦",
@@ -3352,6 +3682,9 @@
     },
     {
       "id": "bk-ffe702c0b7b0",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "蚯蚓的日记",
       "title_en": "Diary of a Worm",
       "author": "[美] 朵琳·克罗宁 文 / 哈利·布里斯 图",
@@ -3381,6 +3714,9 @@
     },
     {
       "id": "bk-66c88882e47d",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "团圆",
       "title_en": "",
       "author": "余丽琼 文 / 朱成梁 图",
@@ -3410,6 +3746,9 @@
     },
     {
       "id": "bk-4177dbc6f591",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "O先生",
       "title_en": "",
       "author": "[法] 刘易斯·特隆赫姆",
@@ -3439,6 +3778,9 @@
     },
     {
       "id": "bk-435309075592",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "獾的礼物",
       "title_en": "Badger's Parting Gifts",
       "author": "[英] 苏珊·华莱",
@@ -3468,6 +3810,9 @@
     },
     {
       "id": "bk-dc6a33c5279d",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "迟到大王",
       "title_en": "",
       "author": "[英] 约翰·伯宁罕",
@@ -3497,6 +3842,9 @@
     },
     {
       "id": "bk-43e9288b83ba",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "100层的房子",
       "title_en": "",
       "author": "[日] 岩井俊雄",
@@ -3526,6 +3874,9 @@
     },
     {
       "id": "bk-38c0c79ff4e1",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Don't Let the Pigeon Drive the Bus!",
       "title_en": "",
       "author": "Mo Willems 文/图",
@@ -3554,6 +3905,9 @@
     },
     {
       "id": "bk-9187ee81a0d3",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Owl Moon",
       "title_en": "",
       "author": "Jane Yolen 文 / John Schoenherr 图",
@@ -3584,6 +3938,9 @@
     },
     {
       "id": "bk-1ea603583264",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Good Egg",
       "title_en": "",
       "author": "Jory John",
@@ -3617,6 +3974,9 @@
     },
     {
       "id": "bk-0bd4e181ba9b",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Mr. Wuffles!",
       "title_en": "",
       "author": "David Wiesner",
@@ -3649,6 +4009,9 @@
     },
     {
       "id": "bk-133bdb993dc5",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Pete the Cat and His Four Groovy Buttons",
       "title_en": "",
       "author": "Eric Litwin",
@@ -3682,6 +4045,9 @@
     },
     {
       "id": "bk-2120ef5a1243",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Extra Yarn",
       "title_en": "",
       "author": "Mac Barnett",
@@ -3714,6 +4080,9 @@
     },
     {
       "id": "bk-531bb9bb4dab",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "鳄鱼怕怕牙医怕怕",
       "title_en": "",
       "author": "[日] 五味太郎",
@@ -3744,6 +4113,9 @@
     },
     {
       "id": "bk-a53ba5da880a",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "我讨厌妈妈",
       "title_en": "",
       "author": "[日] 酒井驹子",
@@ -3773,6 +4145,9 @@
     },
     {
       "id": "bk-54fd64319e46",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "我爸爸",
       "title_en": "My Dad",
       "author": "[英] 安东尼·布朗",
@@ -3802,6 +4177,9 @@
     },
     {
       "id": "bk-c40ea4334f53",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "我妈妈",
       "title_en": "My Mum",
       "author": "[英] 安东尼·布朗",
@@ -3831,6 +4209,9 @@
     },
     {
       "id": "bk-ed9588ba2c62",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "棕色的熊、棕色的熊，你在看什么？",
       "title_en": "",
       "author": "[美] 比尔·马丁 文 / 艾瑞·卡尔 绘",
@@ -3859,6 +4240,9 @@
     },
     {
       "id": "bk-e6a30f442546",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "和甘伯伯去游河",
       "title_en": "",
       "author": "[英] 约翰·伯宁罕",
@@ -3888,6 +4272,9 @@
     },
     {
       "id": "bk-fa03519da647",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "抱抱",
       "title_en": "",
       "author": "[英] 杰兹·阿波罗",
@@ -3917,6 +4304,9 @@
     },
     {
       "id": "bk-bfc0be3da60e",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "让路给小鸭子",
       "title_en": "",
       "author": "[美] 罗伯特·麦克洛斯基",
@@ -3946,6 +4336,9 @@
     },
     {
       "id": "bk-f1b29b3d8a03",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "牙齿大街的新鲜事",
       "title_en": "",
       "author": "[德] 安娜·鲁斯曼",
@@ -3974,6 +4367,9 @@
     },
     {
       "id": "bk-90863ce79d6d",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "小石狮",
       "title_en": "",
       "author": "熊亮",
@@ -4002,6 +4398,9 @@
     },
     {
       "id": "bk-d730da773948",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "要是你给老鼠吃饼干",
       "title_en": "",
       "author": "[美] 劳拉·乔菲·努梅罗夫 文 / 费利西亚·邦德 图",
@@ -4030,6 +4429,9 @@
     },
     {
       "id": "bk-75c4f8363b64",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "约瑟夫有件旧外套",
       "title_en": "",
       "author": "[美] 西姆斯·塔贝克",
@@ -4058,6 +4460,9 @@
     },
     {
       "id": "bk-a7f4a9068892",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Green Eggs and Ham",
       "title_en": "",
       "author": "Dr. Seuss 文/图",
@@ -4088,6 +4493,9 @@
     },
     {
       "id": "bk-c420917ecfc9",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Knuffle Bunny: A Cautionary Tale",
       "title_en": "",
       "author": "Mo Willems 文/图",
@@ -4117,6 +4525,9 @@
     },
     {
       "id": "bk-d2eea4c20a38",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Be Quiet!",
       "title_en": "",
       "author": "Ryan T. Higgins",
@@ -4149,6 +4560,9 @@
     },
     {
       "id": "bk-105195498c74",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Flora and the Flamingo",
       "title_en": "",
       "author": "Molly Idle",
@@ -4182,6 +4596,9 @@
     },
     {
       "id": "bk-2881bc558fbb",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Creepy Carrots!",
       "title_en": "",
       "author": "Aaron Reynolds",
@@ -4214,6 +4631,9 @@
     },
     {
       "id": "bk-1d2cdd08d02b",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "I Want My Hat Back",
       "title_en": "",
       "author": "Jon Klassen",
@@ -4246,6 +4666,9 @@
     },
     {
       "id": "bk-7734e2d35c53",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Grandpa Green",
       "title_en": "",
       "author": "Lane Smith",
@@ -4278,6 +4701,9 @@
     },
     {
       "id": "bk-6f96e97a893b",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "爱德华的奇妙之旅",
       "title_en": "",
       "author": "[美] 凯特·迪卡米洛 文 / 马格拉姆·伊巴图林 绘",
@@ -4308,6 +4734,9 @@
     },
     {
       "id": "bk-d5fd3e5b8137",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "当世界年纪还小的时候",
       "title_en": "",
       "author": "[德] 于尔克·舒比格 文 / 罗特劳特·苏珊娜·贝尔纳 图",
@@ -4336,6 +4765,9 @@
     },
     {
       "id": "bk-0025c540bc91",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "是谁嗯嗯在我的头上",
       "title_en": "",
       "author": "[德] 维尔纳·霍尔茨瓦特 文 / 沃尔夫·埃布鲁赫 图",
@@ -4365,6 +4797,9 @@
     },
     {
       "id": "bk-7c3b911a9e6f",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "大卫，不可以",
       "title_en": "No, David!",
       "author": "[美] 大卫·香农",
@@ -4393,6 +4828,9 @@
     },
     {
       "id": "bk-781301cb89f8",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "勇气",
       "title_en": "",
       "author": "[美] 伯纳德·韦伯",
@@ -4421,6 +4859,9 @@
     },
     {
       "id": "bk-ed710b1d63f0",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "月亮的味道",
       "title_en": "A Taste of the Moon",
       "author": "[瑞士] 麦克·格雷涅茨",
@@ -4449,6 +4890,9 @@
     },
     {
       "id": "bk-0b6d4592f4c3",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "当世界还不存在的时候",
       "title_en": "",
       "author": "[德] 弗朗茨·霍勒 文 / 尤塔·鲍尔 图",
@@ -4477,6 +4921,9 @@
     },
     {
       "id": "bk-048893a9ee3c",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "爱花的牛",
       "title_en": "",
       "author": "[美] 曼罗·里夫 文 / 罗伯特·劳森 图",
@@ -4506,6 +4953,9 @@
     },
     {
       "id": "bk-81fbaa817628",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "我喜欢你",
       "title_en": "",
       "author": "[美] 桑德尔·斯托达德·沃伯格",
@@ -4534,6 +4984,9 @@
     },
     {
       "id": "bk-5b8c77c52853",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Big Cat, Little Cat",
       "title_en": "",
       "author": "Elisha Cooper 文/图",
@@ -4567,6 +5020,9 @@
     },
     {
       "id": "bk-8694cac63e09",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Snowy Day",
       "title_en": "",
       "author": "Ezra Jack Keats 文/图",
@@ -4595,6 +5051,9 @@
     },
     {
       "id": "bk-30d5e5817f06",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Last Stop on Market Street",
       "title_en": "",
       "author": "Matt de la Peña",
@@ -4628,6 +5087,9 @@
     },
     {
       "id": "bk-153ab400ce40",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "谁的袜子",
       "title_en": "",
       "author": "孙俊 文/图",
@@ -4661,6 +5123,9 @@
     },
     {
       "id": "bk-cc7338855de1",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "喜鹊窝",
       "title_en": "",
       "author": "海飞 文 / 杨鹁 图",
@@ -4694,6 +5159,9 @@
     },
     {
       "id": "bk-8f0131910bb7",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "月亮，生日快乐",
       "title_en": "",
       "author": "[美] 法兰克·艾许",
@@ -4723,6 +5191,9 @@
     },
     {
       "id": "bk-a1a53b8e286e",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "风到哪里去了",
       "title_en": "",
       "author": "[美] 夏洛特·左罗托夫 文 / 斯蒂芬诺·维塔 图",
@@ -4752,6 +5223,9 @@
     },
     {
       "id": "bk-37f199747e21",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "一片叶子落下来",
       "title_en": "",
       "author": "[美] 利奥·巴斯卡利亚",
@@ -4780,6 +5254,9 @@
     },
     {
       "id": "bk-bebb24d87a39",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "我不知道我是谁",
       "title_en": "",
       "author": "[英] 乔恩·布莱克 文 / 阿克塞尔·舍夫勒 图",
@@ -4809,6 +5286,9 @@
     },
     {
       "id": "bk-d472478b9193",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "奥莉薇",
       "title_en": "",
       "author": "[美] 伊恩·福尔克纳",
@@ -4837,6 +5317,9 @@
     },
     {
       "id": "bk-a0bcb59b1203",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "安的种子",
       "title_en": "",
       "author": "王早早 文 / 黄丽 图",
@@ -4866,6 +5349,9 @@
     },
     {
       "id": "bk-a1c6a18e179f",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "纽扣士兵",
       "title_en": "",
       "author": "九儿",
@@ -4898,6 +5384,9 @@
     },
     {
       "id": "bk-7f2669e5e1a2",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Corduroy",
       "title_en": "",
       "author": "Don Freeman 文/图",
@@ -4926,6 +5415,9 @@
     },
     {
       "id": "bk-de1d2dd6cb5c",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "A Child of Books",
       "title_en": "",
       "author": "Oliver Jeffers",
@@ -4959,6 +5451,9 @@
     },
     {
       "id": "bk-406af8e9c848",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Mr. Tiger Goes Wild",
       "title_en": "",
       "author": "Peter Brown",
@@ -4992,6 +5487,9 @@
     },
     {
       "id": "bk-e7135c715357",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "One Cool Friend",
       "title_en": "",
       "author": "Toni Buzzeo",
@@ -5024,6 +5522,9 @@
     },
     {
       "id": "bk-161babb55abf",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "石头汤",
       "title_en": "Stone Soup",
       "author": "[美] 琼·穆特",
@@ -5053,6 +5554,9 @@
     },
     {
       "id": "bk-c29b35c2de65",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "母鸡萝丝去散步",
       "title_en": "Rosie's Walk",
       "author": "[英] 佩特·哈群斯",
@@ -5082,6 +5586,9 @@
     },
     {
       "id": "bk-48b5947f34ec",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "孤单的小狗",
       "title_en": "",
       "author": "[日] 奈良美智",
@@ -5111,6 +5618,9 @@
     },
     {
       "id": "bk-5f256c3910dc",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "大脚丫跳芭蕾",
       "title_en": "",
       "author": "[美] 埃米·扬",
@@ -5140,6 +5650,9 @@
     },
     {
       "id": "bk-e63d80554623",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "菲菲生气了",
       "title_en": "",
       "author": "[美] 莫莉·卞",
@@ -5168,6 +5681,9 @@
     },
     {
       "id": "bk-e2622eaaeca6",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "第五个",
       "title_en": "",
       "author": "[奥] 恩斯特·杨德尔 文 / [德] 诺尔曼·荣格 图",
@@ -5197,6 +5713,9 @@
     },
     {
       "id": "bk-b167cf0762c2",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "驴小弟变石头",
       "title_en": "",
       "author": "[美] 威廉·史塔克",
@@ -5225,6 +5744,9 @@
     },
     {
       "id": "bk-002cea27941d",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "彩虹色的花",
       "title_en": "The Rainbow Flower",
       "author": "[波兰] 麦克·格雷涅茨 图 / 细野绫子 文",
@@ -5254,6 +5776,9 @@
     },
     {
       "id": "bk-8d0dddb74886",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "瞬间收藏家",
       "title_en": "",
       "author": "[德] 布赫兹",
@@ -5282,6 +5807,9 @@
     },
     {
       "id": "bk-bd675e872cb5",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "灶王爷",
       "title_en": "",
       "author": "熊亮",
@@ -5314,6 +5842,9 @@
     },
     {
       "id": "bk-c1407d6d2f5e",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "公主怎么挖鼻屎",
       "title_en": "",
       "author": "李卓颖",
@@ -5347,6 +5878,9 @@
     },
     {
       "id": "bk-c8e3e9eb4afc",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Chicka Chicka Boom Boom",
       "title_en": "",
       "author": "Bill Martin Jr. & John Archambault 文 / Lois Ehlert 图",
@@ -5377,6 +5911,9 @@
     },
     {
       "id": "bk-ce8f63fa4d36",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Alexander and the Terrible, Horrible, No Good, Very Bad Day",
       "title_en": "",
       "author": "Judith Viorst 文 / Ray Cruz 图",
@@ -5407,6 +5944,9 @@
     },
     {
       "id": "bk-abf1f4008c06",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Love You Forever",
       "title_en": "",
       "author": "Robert Munsch 文 / Sheila McGraw 图",
@@ -5437,6 +5977,9 @@
     },
     {
       "id": "bk-424e9d441eb1",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Franklin's Flying Bookshop",
       "title_en": "",
       "author": "Jen Campbell",
@@ -5469,6 +6012,9 @@
     },
     {
       "id": "bk-5f6ea7253e9a",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Adventures of Beekle",
       "title_en": "",
       "author": "Dan Santat",
@@ -5502,6 +6048,9 @@
     },
     {
       "id": "bk-3149748be5be",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "恐龙先生流鼻涕以后（原奖名《打喷嚏的恐龙先生》）",
       "title_en": "",
       "author": "童言 文 / 刘佩佩、常博文 图",
@@ -5535,6 +6084,9 @@
     },
     {
       "id": "bk-d79b7102fc5e",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "独生小孩",
       "title_en": "",
       "author": "郭婧",
@@ -5564,6 +6116,9 @@
     },
     {
       "id": "bk-44a5a0c8d47c",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "三只小猪的真实故事",
       "title_en": "",
       "author": "[美] 约翰·席斯卡 文 / 兰·史密斯 图",
@@ -5594,6 +6149,9 @@
     },
     {
       "id": "bk-f3182b389347",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "三个强盗",
       "title_en": "",
       "author": "[法] 汤米·温格尔",
@@ -5623,6 +6181,9 @@
     },
     {
       "id": "bk-3ba75625376b",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "小小的王国",
       "title_en": "",
       "author": "[以色列] 埃特加·凯雷特 文 / 塔米·巴扎雷利 图",
@@ -5652,6 +6213,9 @@
     },
     {
       "id": "bk-4ce14b901528",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "棉婆婆睡不着",
       "title_en": "",
       "author": "廖小琴 文",
@@ -5685,6 +6249,9 @@
     },
     {
       "id": "bk-1f8cc5bd770f",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Tale of Peter Rabbit",
       "title_en": "",
       "author": "Beatrix Potter 文/图",
@@ -5713,6 +6280,9 @@
     },
     {
       "id": "bk-e4b282c67bad",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Dragons Love Tacos",
       "title_en": "",
       "author": "Adam Rubin",
@@ -5745,6 +6315,9 @@
     },
     {
       "id": "bk-59999a278dec",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "电线杆去哪儿了？",
       "title_en": "",
       "author": "李含 文/图",
@@ -5778,6 +6351,9 @@
     },
     {
       "id": "bk-647e4d980978",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "牙齿，牙齿，扔屋顶",
       "title_en": "",
       "author": "刘洵",
@@ -5810,6 +6386,9 @@
     },
     {
       "id": "bk-ca90ec8797b7",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "How to Read a Book",
       "title_en": "",
       "author": "Kwame Alexander",
@@ -5842,6 +6421,9 @@
     },
     {
       "id": "bk-9c2bd6bbc270",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "She Persisted",
       "title_en": "",
       "author": "Chelsea Clinton",
@@ -5874,6 +6456,9 @@
     },
     {
       "id": "bk-8c3a4e4f9b55",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Goodnight Already!",
       "title_en": "",
       "author": "Jory John",
@@ -5907,6 +6492,9 @@
     },
     {
       "id": "bk-b6ef35b85312",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "It's a Book",
       "title_en": "",
       "author": "Lane Smith",
@@ -5939,6 +6527,9 @@
     },
     {
       "id": "bk-e552f4e93a1e",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "一园青菜成了精",
       "title_en": "",
       "author": "周翔 绘",
@@ -5971,6 +6562,9 @@
     },
     {
       "id": "bk-857c4d28218f",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "喀哒喀哒喀哒",
       "title_en": "",
       "author": "林小杯",
@@ -6003,6 +6597,9 @@
     },
     {
       "id": "bk-e7b916304cfb",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "外婆住在香水村",
       "title_en": "",
       "author": "方素珍",
@@ -6032,6 +6629,9 @@
     },
     {
       "id": "bk-49cc8e622024",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Instructions",
       "title_en": "",
       "author": "Neil Gaiman",
@@ -6064,6 +6664,9 @@
     },
     {
       "id": "bk-1400af20d0fa",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Children Make Terrible Pets",
       "title_en": "",
       "author": "Peter Brown",
@@ -6096,6 +6699,9 @@
     },
     {
       "id": "bk-791540a02bc4",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "荷花镇的早市",
       "title_en": "",
       "author": "周翔",
@@ -6128,6 +6734,9 @@
     },
     {
       "id": "bk-7314631829c9",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "We're All Wonders",
       "title_en": "",
       "author": "R.J. Palacio",
@@ -6161,6 +6770,9 @@
     },
     {
       "id": "bk-3c69d8835293",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "我看见一只鸟",
       "title_en": "",
       "author": "刘伯乐",
@@ -6193,6 +6805,9 @@
     },
     {
       "id": "bk-95e330e7f3f7",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "雪英奶奶的故事",
       "title_en": "",
       "author": "周逸芬 文 / 乌猫 图",
@@ -6226,6 +6841,9 @@
     },
     {
       "id": "bk-f834e201d40b",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "泥叫叫",
       "title_en": "",
       "author": "王祖民 文/图",
@@ -6258,6 +6876,9 @@
     },
     {
       "id": "bk-48e181e97da6",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Watercress",
       "title_en": "",
       "author": "Andrea Wang 文 / Jason Chin 图",
@@ -6292,6 +6913,9 @@
     },
     {
       "id": "bk-09e230c72852",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "A Big Mooncake for Little Star",
       "title_en": "",
       "author": "Grace Lin 文/图",
@@ -6325,6 +6949,9 @@
     },
     {
       "id": "bk-0e3cd203c02f",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "小舞狮",
       "title_en": "",
       "author": "董昕昱 文/图",
@@ -6357,6 +6984,9 @@
     },
     {
       "id": "bk-32713550bca2",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Alma and How She Got Her Name",
       "title_en": "",
       "author": "Juana Martinez-Neal 文/图",
@@ -6390,6 +7020,9 @@
     },
     {
       "id": "bk-bf7f2861d62d",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Radiant Child: The Story of Young Artist Jean-Michel Basquiat",
       "title_en": "",
       "author": "Javaka Steptoe 文/图",
@@ -6424,6 +7057,9 @@
     },
     {
       "id": "bk-923af3ed1a49",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "We Are Water Protectors",
       "title_en": "",
       "author": "Carole Lindstrom 文 / Michaela Goade 图",
@@ -6457,6 +7093,9 @@
     },
     {
       "id": "bk-b102c3d104e7",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Rainbow Fish",
       "title_en": "",
       "author": "Marcus Pfister 文/图",
@@ -6486,6 +7125,9 @@
     },
     {
       "id": "bk-5aec7450a42f",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "不要和青蛙跳绳",
       "title_en": "",
       "author": "彭懿 文 / 九儿 图",
@@ -6520,6 +7162,9 @@
     },
     {
       "id": "bk-2771c3d0431d",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "If You Give a Dog a Donut",
       "title_en": "",
       "author": "Laura Joffe Numeroff",
@@ -6552,6 +7197,9 @@
     },
     {
       "id": "bk-1b7bbeac4e57",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "最可怕的一天",
       "title_en": "",
       "author": "汤姆牛",
@@ -6584,6 +7232,9 @@
     },
     {
       "id": "bk-cc906ef3f157",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Wolf in the Snow",
       "title_en": "",
       "author": "Matthew Cordell 文/图",
@@ -6616,6 +7267,9 @@
     },
     {
       "id": "bk-a1eeaa98f6c8",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Book With No Pictures",
       "title_en": "",
       "author": "B.J. Novak",
@@ -6649,6 +7303,9 @@
     },
     {
       "id": "bk-56c377d856b1",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Chalk",
       "title_en": "",
       "author": "Bill Thomson",
@@ -6681,6 +7338,9 @@
     },
     {
       "id": "bk-9777805ec283",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Starbird",
       "title_en": "",
       "author": "Sharon King-Chai 文/图",
@@ -6713,6 +7373,9 @@
     },
     {
       "id": "bk-259c0435a262",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Saving Sorya: Chang and the Sun Bear",
       "title_en": "",
       "author": "Trang Nguyen 文 / Jeet Zdung 图",
@@ -6746,6 +7409,9 @@
     },
     {
       "id": "bk-d99db1e9f133",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Comet",
       "title_en": "",
       "author": "Joe Todd-Stanton 文/图",
@@ -6779,6 +7445,9 @@
     },
     {
       "id": "bk-14659380b3c3",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Tree and the River",
       "title_en": "",
       "author": "Aaron Becker 文/图",
@@ -6812,6 +7481,9 @@
     },
     {
       "id": "bk-0e28a715f1d3",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Clever Crow",
       "title_en": "",
       "author": "Chris Butterworth 文 / Olivia Lomenech Gill 图",
@@ -6844,6 +7516,9 @@
     },
     {
       "id": "bk-710533dd879d",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "HOME",
       "title_en": "",
       "author": "林廉恩 文/图",
@@ -6876,6 +7551,9 @@
     },
     {
       "id": "bk-5af0bb7e5306",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "One of a Kind",
       "title_en": "",
       "author": "Neil Packer 文/图",
@@ -6908,6 +7586,9 @@
     },
     {
       "id": "bk-eae07da159f1",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Everything That Happened Before You Arrived（Todo lo que pasó antes de que llegaras）",
       "title_en": "",
       "author": "Yael Frankel 文/图",
@@ -6940,6 +7621,9 @@
     },
     {
       "id": "bk-18105574fc65",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Kintsugi（金缮）",
       "title_en": "",
       "author": "Issa Watanabe 文/图",
@@ -6973,6 +7657,9 @@
     },
     {
       "id": "bk-f513891b52ae",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Hikma: House of Wisdom（智慧之屋）",
       "title_en": "",
       "author": "Bodour Al Qasimi 文 / Majid Zakeri Younesi 图",
@@ -7005,6 +7692,9 @@
     },
     {
       "id": "bk-ca3bcadf4689",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Wünsche（愿望）",
       "title_en": "",
       "author": "Mượn Thị Văn 文 / Victo Ngai 图",
@@ -7038,6 +7728,9 @@
     },
     {
       "id": "bk-d30d30064e3d",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "水与墨·色彩的秘密",
       "title_en": "",
       "author": "李青叶 文 / 梁培龙 图",
@@ -7071,6 +7764,9 @@
     },
     {
       "id": "bk-74ef6af26cba",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "三个朋友",
       "title_en": "",
       "author": "刘海栖 文 / 罗玲 图",
@@ -7103,6 +7799,9 @@
     },
     {
       "id": "bk-b1f3e68bbb0d",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "夏天的故事",
       "title_en": "",
       "author": "魏捷 文 / 李小光 图",
@@ -7135,6 +7834,9 @@
     },
     {
       "id": "bk-4a1a84cb99d8",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "某某物（Thingamabob）",
       "title_en": "",
       "author": "[意] 玛丽安娜·科波 文/图",
@@ -7167,6 +7869,9 @@
     },
     {
       "id": "bk-60cca96e3d28",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "一小块天空（A Piece of the Sky）",
       "title_en": "",
       "author": "[韩] 李顺玉 文/图",
@@ -7199,6 +7904,9 @@
     },
     {
       "id": "bk-80313fbe3e1c",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "炒豆粉，香喷喷",
       "title_en": "",
       "author": "陈巽如 绘",
@@ -7232,6 +7940,9 @@
     },
     {
       "id": "bk-3a7ea533b5e8",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "捉",
       "title_en": "",
       "author": "刘畅、赵飞 文/图",
@@ -7264,6 +7975,9 @@
     },
     {
       "id": "bk-435dc23b615b",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "芽芽去哪儿",
       "title_en": "",
       "author": "赵新蕾 文/图",
@@ -7296,6 +8010,9 @@
     },
     {
       "id": "bk-93ebc24023c1",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "哈哈的心事",
       "title_en": "",
       "author": "赵婉琦 文/图",
@@ -7329,6 +8046,9 @@
     },
     {
       "id": "bk-3c95372d918e",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "睡吧！熊熊",
       "title_en": "",
       "author": "朱离 文/图",
@@ -7363,6 +8083,9 @@
     },
     {
       "id": "bk-2cdb9ac47f59",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Leave Me Alone!",
       "title_en": "",
       "author": "Vera Brosgol 文/图",
@@ -7395,6 +8118,9 @@
     },
     {
       "id": "bk-27fbff4828c6",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Freedom in Congo Square",
       "title_en": "",
       "author": "Carole Boston Weatherford 文 / R. Gregory Christie 图",
@@ -7427,6 +8153,9 @@
     },
     {
       "id": "bk-02f1f9093fde",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Crown: An Ode to the Fresh Cut",
       "title_en": "",
       "author": "Derrick Barnes 文 / Gordon C. James 图",
@@ -7460,6 +8189,9 @@
     },
     {
       "id": "bk-d9ddc0884210",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "A Different Pond",
       "title_en": "",
       "author": "Bao Phi 文 / Thi Bui 图",
@@ -7494,6 +8226,9 @@
     },
     {
       "id": "bk-9167398895f4",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Grand Canyon",
       "title_en": "",
       "author": "Jason Chin 文/图",
@@ -7527,6 +8262,9 @@
     },
     {
       "id": "bk-85927f6e02b5",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Thank You, Omu!",
       "title_en": "",
       "author": "Oge Mora 文/图",
@@ -7560,6 +8298,9 @@
     },
     {
       "id": "bk-41e3e3d944fe",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Undefeated",
       "title_en": "",
       "author": "Kwame Alexander 文 / Kadir Nelson 图",
@@ -7592,6 +8333,9 @@
     },
     {
       "id": "bk-39846fb40e99",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Bear Came Along",
       "title_en": "",
       "author": "Richard T. Morris 文 / LeUyen Pham 图",
@@ -7625,6 +8369,9 @@
     },
     {
       "id": "bk-643afa2953c6",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Double Bass Blues",
       "title_en": "",
       "author": "Andrea J. Loney 文 / Rudy Gutierrez 图",
@@ -7658,6 +8405,9 @@
     },
     {
       "id": "bk-2dc7da77a00e",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Going Down Home with Daddy",
       "title_en": "",
       "author": "Kelly Starling Lyons 文 / Daniel Minter 图",
@@ -7692,6 +8442,9 @@
     },
     {
       "id": "bk-a3596aea01bb",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "A Place Inside of Me",
       "title_en": "",
       "author": "Zetta Elliott 文 / Noa Denmon 图",
@@ -7725,6 +8478,9 @@
     },
     {
       "id": "bk-e7bd45ddc162",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Cat Man of Aleppo",
       "title_en": "",
       "author": "Irene Latham & Karim Shamsi-Basha 文 / Yuko Shimizu 图",
@@ -7758,6 +8514,9 @@
     },
     {
       "id": "bk-2ea1dcd1fd0b",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Me & Mama",
       "title_en": "",
       "author": "Cozbi A. Cabrera 文/图",
@@ -7790,6 +8549,9 @@
     },
     {
       "id": "bk-eca0ec658ec9",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Outside In",
       "title_en": "",
       "author": "Deborah Underwood 文 / Cindy Derby 图",
@@ -7823,6 +8585,9 @@
     },
     {
       "id": "bk-bf7f5cf5f1b4",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Mel Fell",
       "title_en": "",
       "author": "Corey R. Tabor 文/图",
@@ -7855,6 +8620,9 @@
     },
     {
       "id": "bk-b94cfe49c37b",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Unspeakable: The Tulsa Race Massacre",
       "title_en": "",
       "author": "Carole Boston Weatherford 文 / Floyd Cooper 图",
@@ -7887,6 +8655,9 @@
     },
     {
       "id": "bk-c5744c22a59d",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Wonder Walkers",
       "title_en": "",
       "author": "Micha Archer 文/图",
@@ -7920,6 +8691,9 @@
     },
     {
       "id": "bk-30729c4e70c1",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Hot Dog",
       "title_en": "",
       "author": "Doug Salati 文/图",
@@ -7952,6 +8726,9 @@
     },
     {
       "id": "bk-2fe66405bf16",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Ain't Burned All the Bright",
       "title_en": "",
       "author": "Jason Reynolds 文 / Jason Griffin 图",
@@ -7985,6 +8762,9 @@
     },
     {
       "id": "bk-c1e03143cb4e",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Berry Song",
       "title_en": "",
       "author": "Michaela Goade 文/图",
@@ -8018,6 +8798,9 @@
     },
     {
       "id": "bk-ed6d58075fb1",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Choosing Brave",
       "title_en": "",
       "author": "Angela Joy 文 / Janelle Washington 图",
@@ -8050,6 +8833,9 @@
     },
     {
       "id": "bk-25ea99f5799c",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Knight Owl",
       "title_en": "",
       "author": "Christopher Denise 文/图",
@@ -8082,6 +8868,9 @@
     },
     {
       "id": "bk-d491538da818",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Big",
       "title_en": "",
       "author": "Vashti Harrison 文/图",
@@ -8115,6 +8904,9 @@
     },
     {
       "id": "bk-87ae5772ab8b",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "In Every Life",
       "title_en": "",
       "author": "Marla Frazee 文/图",
@@ -8147,6 +8939,9 @@
     },
     {
       "id": "bk-70b99eab4929",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Jovita Wore Pants",
       "title_en": "",
       "author": "Aida Salazar 文 / Molly Mendoza 图",
@@ -8179,6 +8974,9 @@
     },
     {
       "id": "bk-8fb1c504777a",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "There Was a Party for Langston",
       "title_en": "",
       "author": "Jason Reynolds 文 / Jerome & Jarrett Pumphrey 图",
@@ -8211,6 +9009,9 @@
     },
     {
       "id": "bk-2f3de0c847ba",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Truth About Dragons",
       "title_en": "",
       "author": "Julie Leung 文 / Hanna Cha 图",
@@ -8244,6 +9045,9 @@
     },
     {
       "id": "bk-120489f0f6f9",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Chooch Helped",
       "title_en": "",
       "author": "Andrea L. Rogers 文 / Rebecca Lee Kunz 图",
@@ -8277,6 +9081,9 @@
     },
     {
       "id": "bk-6f9c4b1a9693",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "My Daddy Is a Cowboy",
       "title_en": "",
       "author": "Stephanie Seales 文 / C. G. Esperanza 图",
@@ -8309,6 +9116,9 @@
     },
     {
       "id": "bk-848f8d679ec7",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Noodles on a Bicycle",
       "title_en": "",
       "author": "Kyo Maclear 文 / Gracey Zhang 图",
@@ -8341,6 +9151,9 @@
     },
     {
       "id": "bk-fc53d5bc2cdc",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Home in a Lunchbox",
       "title_en": "",
       "author": "Cherry Mo 文/图",
@@ -8375,6 +9188,9 @@
     },
     {
       "id": "bk-b5569c149be3",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Up, Up, Ever Up! Junko Tabei",
       "title_en": "",
       "author": "Anita Yasuda 文 / Yuko Shimizu 图",
@@ -8409,6 +9225,9 @@
     },
     {
       "id": "bk-10721d3ee4b8",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Fireworks",
       "title_en": "",
       "author": "Matthew Burgess 文 / Cátia Chien 图",
@@ -8441,6 +9260,9 @@
     },
     {
       "id": "bk-5259ef8acfd5",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Every Monday Mabel",
       "title_en": "",
       "author": "Jashar Awan 文/图",
@@ -8473,6 +9295,9 @@
     },
     {
       "id": "bk-ae3b670f30fe",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Our Lake",
       "title_en": "",
       "author": "Angie Kang 文/图",
@@ -8507,6 +9332,9 @@
     },
     {
       "id": "bk-0f17e483cfcf",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Stalactite & Stalagmite: A Big Tale from a Little Cave",
       "title_en": "",
       "author": "Drew Beckmeyer 文/图",
@@ -8541,6 +9369,9 @@
     },
     {
       "id": "bk-d86727abb902",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Sundust",
       "title_en": "",
       "author": "Zeke Peña 文/图",
@@ -8573,6 +9404,9 @@
     },
     {
       "id": "bk-b240223dabda",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Cat in the Hat",
       "title_en": "",
       "author": "Dr. Seuss 文/图",
@@ -8603,6 +9437,9 @@
     },
     {
       "id": "bk-5e5a1ffcf620",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Madeline",
       "title_en": "",
       "author": "Ludwig Bemelmans 文/图",
@@ -8631,6 +9468,9 @@
     },
     {
       "id": "bk-b5e3108b0d58",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Harold and the Purple Crayon",
       "title_en": "",
       "author": "Crockett Johnson 文/图",
@@ -8659,6 +9499,9 @@
     },
     {
       "id": "bk-d1d953a6970d",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Curious George",
       "title_en": "",
       "author": "H. A. Rey & Margret Rey 文/图",
@@ -8687,6 +9530,9 @@
     },
     {
       "id": "bk-5792315f09a5",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Tuesday",
       "title_en": "",
       "author": "David Wiesner 文/图",
@@ -8715,6 +9561,9 @@
     },
     {
       "id": "bk-5b50ac706144",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Search for the Giant Arctic Jellyfish",
       "title_en": "",
       "author": "Chloe Savage 文/图",
@@ -8745,6 +9594,9 @@
     },
     {
       "id": "bk-bd9d38c1458e",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Don't Trust Fish!",
       "title_en": "",
       "author": "Neil Sharpson 文 / Dan Santat 图",
@@ -8774,6 +9626,9 @@
     },
     {
       "id": "bk-4979deddb4fe",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Midnight Panther",
       "title_en": "",
       "author": "Poonam Mistry 文/图",
@@ -8804,6 +9659,9 @@
     },
     {
       "id": "bk-9b63bd4ece17",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Goodnight Everyone",
       "title_en": "",
       "author": "Chris Haughton 文/图",
@@ -8833,6 +9691,9 @@
     },
     {
       "id": "bk-2c43b411b782",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Hairy Maclary from Donaldson's Dairy",
       "title_en": "",
       "author": "Lynley Dodd 文/图",
@@ -8861,6 +9722,9 @@
     },
     {
       "id": "bk-fb4c74d473f8",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Cinnamon",
       "title_en": "",
       "author": "Neil Gaiman 文 / Divya Srinivasan 图",
@@ -8890,6 +9754,9 @@
     },
     {
       "id": "bk-9e9f85fe7003",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "That Rabbit Belongs to Emily Brown",
       "title_en": "",
       "author": "Cressida Cowell 文 / Neal Layton 图",
@@ -8918,6 +9785,9 @@
     },
     {
       "id": "bk-52bde5536e33",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Smile Shop",
       "title_en": "",
       "author": "Satoshi Kitamura 文/图",
@@ -8947,6 +9817,9 @@
     },
     {
       "id": "bk-65cfa544d217",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "You Choose!",
       "title_en": "",
       "author": "Pippa Goodhart 文 / Nick Sharratt 图",
@@ -8976,6 +9849,9 @@
     },
     {
       "id": "bk-8051b08ef2a7",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Bad-Tempered Ladybird",
       "title_en": "",
       "author": "Eric Carle 文/图",
@@ -9005,6 +9881,9 @@
     },
     {
       "id": "bk-580b1c3b2efc",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "King of the Classroom",
       "title_en": "",
       "author": "Derrick Barnes 文 / Vanessa Brantley-Newton 图",
@@ -9034,6 +9913,9 @@
     },
     {
       "id": "bk-c04a3655ad5d",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Chocolate Cake",
       "title_en": "",
       "author": "Michael Rosen 文 / Kevin Waldron 图",
@@ -9062,6 +9944,9 @@
     },
     {
       "id": "bk-a964b52acfdc",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Just Like Me",
       "title_en": "",
       "author": "Vanessa Brantley-Newton",
@@ -9095,6 +9980,9 @@
     },
     {
       "id": "bk-ef5b2991ff0e",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Cool Bean",
       "title_en": "",
       "author": "Jory John",
@@ -9128,6 +10016,9 @@
     },
     {
       "id": "bk-66af6e2152a9",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Serious Goose",
       "title_en": "",
       "author": "Jimmy Kimmel",
@@ -9160,6 +10051,9 @@
     },
     {
       "id": "bk-f6237b7c6d2f",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "This Book Is Gray",
       "title_en": "",
       "author": "Lindsay Ward",
@@ -9192,6 +10086,9 @@
     },
     {
       "id": "bk-1e9bbde22036",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "I Am Every Good Thing",
       "title_en": "",
       "author": "Derrick Barnes",
@@ -9225,6 +10122,9 @@
     },
     {
       "id": "bk-c9e41072864a",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Oldest Student",
       "title_en": "",
       "author": "Rita Lorraine Hubbard",
@@ -9258,6 +10158,9 @@
     },
     {
       "id": "bk-93203cce2e94",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Bird Hugs",
       "title_en": "",
       "author": "Ged Adamson",
@@ -9291,6 +10194,9 @@
     },
     {
       "id": "bk-8e661497a695",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Julián at the Wedding",
       "title_en": "",
       "author": "Jessica Love",
@@ -9324,6 +10230,9 @@
     },
     {
       "id": "bk-1339e322054e",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Bedtime Bonnet",
       "title_en": "",
       "author": "Nancy Redd",
@@ -9357,6 +10266,9 @@
     },
     {
       "id": "bk-0dea05a1a0dd",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Coronavirus",
       "title_en": "",
       "author": "Elizabeth Jenner",
@@ -9390,6 +10302,9 @@
     },
     {
       "id": "bk-4814a775eb39",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Grandma's Gardens",
       "title_en": "",
       "author": "Hillary Rodham Clinton",
@@ -9423,6 +10338,9 @@
     },
     {
       "id": "bk-87a46b2b4983",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The World Needs More Purple People",
       "title_en": "",
       "author": "Kristen Bell",
@@ -9456,6 +10374,9 @@
     },
     {
       "id": "bk-452cca15a0d5",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Think Outside the Box",
       "title_en": "",
       "author": "Justine Avery",
@@ -9488,6 +10409,9 @@
     },
     {
       "id": "bk-c1c8d1b8933d",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Dewdrop",
       "title_en": "",
       "author": "K. O'Neill",
@@ -9520,6 +10444,9 @@
     },
     {
       "id": "bk-47f05a1bc47d",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "We Will Rock Our Classmates",
       "title_en": "",
       "author": "Ryan T. Higgins",
@@ -9553,6 +10480,9 @@
     },
     {
       "id": "bk-9efc48248aae",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Wild Symphony",
       "title_en": "",
       "author": "Dan Brown",
@@ -9586,6 +10516,9 @@
     },
     {
       "id": "bk-9a1d4eec3f69",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "A Beautiful Day in the Neighborhood: The Poetry of Mister Rogers",
       "title_en": "",
       "author": "Fred Rogers",
@@ -9619,6 +10552,9 @@
     },
     {
       "id": "bk-ef2810ea4e1c",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Sulwe",
       "title_en": "",
       "author": "Lupita Nyong'o",
@@ -9653,6 +10589,9 @@
     },
     {
       "id": "bk-47c4ee1e0caa",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Hair Love",
       "title_en": "",
       "author": "Matthew A. Cherry",
@@ -9686,6 +10625,9 @@
     },
     {
       "id": "bk-f56c1e29bf98",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Unicorn Day",
       "title_en": "",
       "author": "Diana Murray",
@@ -9718,6 +10660,9 @@
     },
     {
       "id": "bk-fb802fd9087d",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "A Tiger Like Me",
       "title_en": "",
       "author": "Michael Engler",
@@ -9750,6 +10695,9 @@
     },
     {
       "id": "bk-7e4ce1356f82",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Because",
       "title_en": "",
       "author": "Mo Willems",
@@ -9783,6 +10731,9 @@
     },
     {
       "id": "bk-5e73c25a00f2",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "We Are (Not) Friends",
       "title_en": "",
       "author": "Anna Kang",
@@ -9816,6 +10767,9 @@
     },
     {
       "id": "bk-5dbf55c19966",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Just Because",
       "title_en": "",
       "author": "Mac Barnett",
@@ -9848,6 +10802,9 @@
     },
     {
       "id": "bk-772d7aca0aaa",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "A Piglet Named Mercy",
       "title_en": "",
       "author": "Kate DiCamillo",
@@ -9880,6 +10837,9 @@
     },
     {
       "id": "bk-139e89707d62",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Pirates Don't Go to Kindergarten!",
       "title_en": "",
       "author": "Lisa Robinson",
@@ -9913,6 +10873,9 @@
     },
     {
       "id": "bk-42ab5d908767",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Proudest Blue",
       "title_en": "",
       "author": "Ibtihaj Muhammad",
@@ -9946,6 +10909,9 @@
     },
     {
       "id": "bk-64287d038d79",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "It's Not Hansel and Gretel",
       "title_en": "",
       "author": "Josh Funk",
@@ -9978,6 +10944,9 @@
     },
     {
       "id": "bk-f5d3bf8193b1",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Fry Bread",
       "title_en": "",
       "author": "Kevin Noble Maillard",
@@ -10012,6 +10981,9 @@
     },
     {
       "id": "bk-ea323a05a3fc",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "What If Everybody Thought That?",
       "title_en": "",
       "author": "Ellen Javernick",
@@ -10045,6 +11017,9 @@
     },
     {
       "id": "bk-0c71de739624",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Vacation for Dexter!",
       "title_en": "",
       "author": "Lindsay Ward",
@@ -10077,6 +11052,9 @@
     },
     {
       "id": "bk-8eff2b762da2",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Rosie the Dragon and Charlie Make Waves",
       "title_en": "",
       "author": "Lauren H. Kerstein",
@@ -10109,6 +11087,9 @@
     },
     {
       "id": "bk-d08d6b5da9f0",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Snow Globe Wishes",
       "title_en": "",
       "author": "Erin Dealey",
@@ -10142,6 +11123,9 @@
     },
     {
       "id": "bk-caed697431dd",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "I Am Enough",
       "title_en": "",
       "author": "Grace Byers",
@@ -10174,6 +11158,9 @@
     },
     {
       "id": "bk-455d34da8ca6",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Little Leaders",
       "title_en": "",
       "author": "Vashti Harrison",
@@ -10206,6 +11193,9 @@
     },
     {
       "id": "bk-a2289681db3b",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Petra",
       "title_en": "",
       "author": "Marianna Coppo",
@@ -10238,6 +11228,9 @@
     },
     {
       "id": "bk-8bd7a1153a88",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Love",
       "title_en": "",
       "author": "Matt de la Peña",
@@ -10271,6 +11264,9 @@
     },
     {
       "id": "bk-d6957aa17fe0",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Word Collector",
       "title_en": "",
       "author": "Peter H. Reynolds",
@@ -10303,6 +11299,9 @@
     },
     {
       "id": "bk-a8b1f496dae2",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Baby Monkey, Private Eye",
       "title_en": "",
       "author": "Brian Selznick",
@@ -10335,6 +11334,9 @@
     },
     {
       "id": "bk-346a0b41a875",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Drawn Together",
       "title_en": "",
       "author": "Minh Lê",
@@ -10368,6 +11370,9 @@
     },
     {
       "id": "bk-2c84b98e45bb",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Islandborn",
       "title_en": "",
       "author": "Junot Díaz",
@@ -10400,6 +11405,9 @@
     },
     {
       "id": "bk-84f12b8de1b1",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Lulu is a Rhinoceros",
       "title_en": "",
       "author": "Jason Flom",
@@ -10433,6 +11441,9 @@
     },
     {
       "id": "bk-4d4a519cadf1",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Day You Begin",
       "title_en": "",
       "author": "Jacqueline Woodson",
@@ -10466,6 +11477,9 @@
     },
     {
       "id": "bk-2ce817a6aec0",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "They Say Blue",
       "title_en": "",
       "author": "Jillian Tamaki",
@@ -10498,6 +11512,9 @@
     },
     {
       "id": "bk-b36127623f66",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Truth Pixie",
       "title_en": "",
       "author": "Matt Haig",
@@ -10530,6 +11547,9 @@
     },
     {
       "id": "bk-8b06280412ef",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Franklin and Luna Go to the Moon",
       "title_en": "",
       "author": "Jen Campbell",
@@ -10562,6 +11582,9 @@
     },
     {
       "id": "bk-aee5217179cd",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Malala's Magic Pencil",
       "title_en": "",
       "author": "Malala Yousafzai",
@@ -10594,6 +11617,9 @@
     },
     {
       "id": "bk-622d2554484b",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Over and Under the Pond",
       "title_en": "",
       "author": "Kate Messner",
@@ -10627,6 +11653,9 @@
     },
     {
       "id": "bk-54e609f75c00",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "A Greyhound, a Groundhog",
       "title_en": "",
       "author": "Emily Jenkins",
@@ -10659,6 +11688,9 @@
     },
     {
       "id": "bk-5e5500cb2b82",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Triangle",
       "title_en": "",
       "author": "Mac Barnett",
@@ -10691,6 +11723,9 @@
     },
     {
       "id": "bk-a90a1d1cd35a",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Book of Mistakes",
       "title_en": "",
       "author": "Corinna Luyken",
@@ -10724,6 +11759,9 @@
     },
     {
       "id": "bk-4e3b06d4cbcd",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Little Fox in the Forest",
       "title_en": "",
       "author": "Stephanie Graegin",
@@ -10757,6 +11795,9 @@
     },
     {
       "id": "bk-96c02179631e",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Legend of Rock Paper Scissors",
       "title_en": "",
       "author": "Drew Daywalt",
@@ -10789,6 +11830,9 @@
     },
     {
       "id": "bk-1d0ea65168d3",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Youngest Marcher",
       "title_en": "",
       "author": "Cynthia Levinson",
@@ -10821,6 +11865,9 @@
     },
     {
       "id": "bk-5f3e35c7fefd",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Duck and Hippo in the Rainstorm",
       "title_en": "",
       "author": "Jonathan London",
@@ -10853,6 +11900,9 @@
     },
     {
       "id": "bk-c07081bdb01d",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Spunky Little Monkey",
       "title_en": "",
       "author": "Bill Martin Jr.",
@@ -10885,6 +11935,9 @@
     },
     {
       "id": "bk-d1f5ee354594",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Not Quite Narwhal",
       "title_en": "",
       "author": "Jessie Sima",
@@ -10918,6 +11971,9 @@
     },
     {
       "id": "bk-9c4a8fef3bc7",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Jabari Jumps",
       "title_en": "",
       "author": "Gaia Cornwall",
@@ -10951,6 +12007,9 @@
     },
     {
       "id": "bk-274d7a7d347f",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Case of the Stinky Stench",
       "title_en": "",
       "author": "Josh Funk",
@@ -10983,6 +12042,9 @@
     },
     {
       "id": "bk-b7e5075f4d8e",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Trollbella Throws a Party",
       "title_en": "",
       "author": "Chris Colfer",
@@ -11015,6 +12077,9 @@
     },
     {
       "id": "bk-7193597d2c9c",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "After the Fall",
       "title_en": "",
       "author": "Dan Santat",
@@ -11048,6 +12113,9 @@
     },
     {
       "id": "bk-9c74a48073e6",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Are We There Yet?",
       "title_en": "",
       "author": "Dan Santat",
@@ -11080,6 +12148,9 @@
     },
     {
       "id": "bk-f0d8f799dab2",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "What Do You Do With a Problem?",
       "title_en": "",
       "author": "Kobi Yamada",
@@ -11113,6 +12184,9 @@
     },
     {
       "id": "bk-da030eab3492",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Ida, Always",
       "title_en": "",
       "author": "Caron Levis",
@@ -11146,6 +12220,9 @@
     },
     {
       "id": "bk-3cb52486b2f6",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Nobody Likes a Goblin",
       "title_en": "",
       "author": "Ben Hatke",
@@ -11178,6 +12255,9 @@
     },
     {
       "id": "bk-d0584715d258",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Ada Twist, Scientist (The Questioneers)",
       "title_en": "",
       "author": "Andrea Beaty",
@@ -11212,6 +12292,9 @@
     },
     {
       "id": "bk-e8bb31e5edaa",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Otter Goes to School",
       "title_en": "",
       "author": "Sam Garton",
@@ -11244,6 +12327,9 @@
     },
     {
       "id": "bk-186687d18dae",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Thunder Boy Jr.",
       "title_en": "",
       "author": "Sherman Alexie",
@@ -11277,6 +12363,9 @@
     },
     {
       "id": "bk-187635954bd5",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "When Green Becomes Tomatoes",
       "title_en": "",
       "author": "Julie Fogliano",
@@ -11310,6 +12399,9 @@
     },
     {
       "id": "bk-42c2798441df",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Snappsy the Alligator",
       "title_en": "",
       "author": "Julie Falatko",
@@ -11342,6 +12434,9 @@
     },
     {
       "id": "bk-2ed6232cdf2d",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "School's First Day of School",
       "title_en": "",
       "author": "Adam Rex",
@@ -11375,6 +12470,9 @@
     },
     {
       "id": "bk-cb3a9241935a",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "A Hungry Lion, or A Dwindling Assortment of Animals",
       "title_en": "",
       "author": "Lucy Ruth Cummins",
@@ -11407,6 +12505,9 @@
     },
     {
       "id": "bk-e9c17d8a026b",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Twenty Yawns",
       "title_en": "",
       "author": "Jane Smiley",
@@ -11440,6 +12541,9 @@
     },
     {
       "id": "bk-f7ef260dfe94",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Flora and the Peacocks",
       "title_en": "",
       "author": "Molly Idle",
@@ -11472,6 +12576,9 @@
     },
     {
       "id": "bk-363ec4dc37e6",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "King Baby",
       "title_en": "",
       "author": "Kate Beaton",
@@ -11505,6 +12612,9 @@
     },
     {
       "id": "bk-a84ed09c618e",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Maybe Something Beautiful",
       "title_en": "",
       "author": "F. Isabel Campoy",
@@ -11538,6 +12648,9 @@
     },
     {
       "id": "bk-63c7eb7ae6ff",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Winnie",
       "title_en": "",
       "author": "Sally M. Walker",
@@ -11572,6 +12685,9 @@
     },
     {
       "id": "bk-d65343c0d7cc",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "What Pet Should I Get?",
       "title_en": "",
       "author": "Dr. Seuss",
@@ -11605,6 +12721,9 @@
     },
     {
       "id": "bk-f5027b44f60f",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Princess and the Pony",
       "title_en": "",
       "author": "Kate Beaton",
@@ -11637,6 +12756,9 @@
     },
     {
       "id": "bk-72c8e4ece2e0",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "If You Plant a Seed",
       "title_en": "",
       "author": "Kadir Nelson",
@@ -11670,6 +12792,9 @@
     },
     {
       "id": "bk-ee38e4d5dd68",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Red",
       "title_en": "",
       "author": "Michael Hall",
@@ -11703,6 +12828,9 @@
     },
     {
       "id": "bk-c2b9fd8e4793",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "I Wish You More",
       "title_en": "",
       "author": "Amy Krouse Rosenthal",
@@ -11736,6 +12864,9 @@
     },
     {
       "id": "bk-b8aa1b03c8b7",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Wolfie the Bunny",
       "title_en": "",
       "author": "Ame Dyckman",
@@ -11769,6 +12900,9 @@
     },
     {
       "id": "bk-f040de43ca3b",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Mesmerized",
       "title_en": "",
       "author": "Mara Rockliff",
@@ -11802,6 +12936,9 @@
     },
     {
       "id": "bk-07a7c0aaef09",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "This Is Sadie",
       "title_en": "",
       "author": "Sara O'Leary",
@@ -11834,6 +12971,9 @@
     },
     {
       "id": "bk-bfd8b449ba20",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Your Baby's First Word Will Be DADA",
       "title_en": "",
       "author": "Jimmy Fallon",
@@ -11866,6 +13006,9 @@
     },
     {
       "id": "bk-42d8cfeea42d",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Interstellar Cinderella",
       "title_en": "",
       "author": "Deborah Underwood",
@@ -11898,6 +13041,9 @@
     },
     {
       "id": "bk-cbaf2ba7e923",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "A Fine Dessert",
       "title_en": "",
       "author": "Emily Jenkins",
@@ -11931,6 +13077,9 @@
     },
     {
       "id": "bk-42f50fd7e764",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Otter in Space",
       "title_en": "",
       "author": "Sam Garton",
@@ -11963,6 +13112,9 @@
     },
     {
       "id": "bk-22ae0e2b89e5",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Float",
       "title_en": "",
       "author": "Daniel Miyares",
@@ -11995,6 +13147,9 @@
     },
     {
       "id": "bk-1bbff8e05a6a",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Julia's House for Lost Creatures",
       "title_en": "",
       "author": "Ben Hatke",
@@ -12027,6 +13182,9 @@
     },
     {
       "id": "bk-54e97d21d964",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Tuesday Tucks Me In",
       "title_en": "",
       "author": "Luis Carlos Montalván",
@@ -12060,6 +13218,9 @@
     },
     {
       "id": "bk-c5add2aada83",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Sparky!",
       "title_en": "",
       "author": "Jenny Offill",
@@ -12092,6 +13253,9 @@
     },
     {
       "id": "bk-8a0d597aaf17",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Josephine",
       "title_en": "",
       "author": "Patricia Hruby Powell",
@@ -12124,6 +13288,9 @@
     },
     {
       "id": "bk-96a83deea40c",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Hi, Koo!",
       "title_en": "",
       "author": "Jon J. Muth",
@@ -12157,6 +13324,9 @@
     },
     {
       "id": "bk-893399f139e1",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Here Comes the Easter Cat",
       "title_en": "",
       "author": "Deborah Underwood",
@@ -12189,6 +13359,9 @@
     },
     {
       "id": "bk-07bf513a88c3",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Quest",
       "title_en": "",
       "author": "Aaron Becker",
@@ -12222,6 +13395,9 @@
     },
     {
       "id": "bk-4004507e320e",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Maple",
       "title_en": "",
       "author": "Lori Nichols",
@@ -12255,6 +13431,9 @@
     },
     {
       "id": "bk-b07edc1b9917",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Knock Knock",
       "title_en": "",
       "author": "Daniel Beaty",
@@ -12288,6 +13467,9 @@
     },
     {
       "id": "bk-abf8d97f7ee2",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "I Am Otter",
       "title_en": "",
       "author": "Sam Garton",
@@ -12320,6 +13502,9 @@
     },
     {
       "id": "bk-57279fd4bd52",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Firefly July",
       "title_en": "",
       "author": "Paul B. Janeczko",
@@ -12353,6 +13538,9 @@
     },
     {
       "id": "bk-29890b785590",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Girl and the Bicycle",
       "title_en": "",
       "author": "Mark Pett",
@@ -12386,6 +13574,9 @@
     },
     {
       "id": "bk-f5b13112b816",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Gaston",
       "title_en": "",
       "author": "Kelly DiPucchio",
@@ -12419,6 +13610,9 @@
     },
     {
       "id": "bk-b5abc1501208",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Scraps Book",
       "title_en": "",
       "author": "Lois Ehlert",
@@ -12453,6 +13647,9 @@
     },
     {
       "id": "bk-25d65b2f8e64",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Sam & Dave Dig a Hole",
       "title_en": "",
       "author": "Mac Barnett",
@@ -12485,6 +13682,9 @@
     },
     {
       "id": "bk-1a684d11c529",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Dark",
       "title_en": "",
       "author": "Lemony Snicket",
@@ -12518,6 +13718,9 @@
     },
     {
       "id": "bk-943be68c1f71",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Chu's Day",
       "title_en": "",
       "author": "Neil Gaiman",
@@ -12551,6 +13754,9 @@
     },
     {
       "id": "bk-078a6b0df66c",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "A Little Book of Sloth",
       "title_en": "",
       "author": "Lucy Cooke",
@@ -12584,6 +13790,9 @@
     },
     {
       "id": "bk-375b06b70e34",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Journey",
       "title_en": "",
       "author": "Aaron Becker",
@@ -12616,6 +13825,9 @@
     },
     {
       "id": "bk-0872b9a5b466",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Unicorn Thinks He's Pretty Great",
       "title_en": "",
       "author": "Bob Shea",
@@ -12649,6 +13861,9 @@
     },
     {
       "id": "bk-09785ead4b1b",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "My Brother's Book",
       "title_en": "",
       "author": "Maurice Sendak",
@@ -12681,6 +13896,9 @@
     },
     {
       "id": "bk-82c35cabdb6a",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Count the Monkeys",
       "title_en": "",
       "author": "Mac Barnett",
@@ -12714,6 +13932,9 @@
     },
     {
       "id": "bk-c5efda282fc4",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "That Is Not a Good Idea!",
       "title_en": "",
       "author": "Mo Willems",
@@ -12746,6 +13967,9 @@
     },
     {
       "id": "bk-098e502bd256",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Matchbox Diary",
       "title_en": "",
       "author": "Paul Fleischman",
@@ -12778,6 +14002,9 @@
     },
     {
       "id": "bk-6f58b6f9eb53",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Exclamation Mark",
       "title_en": "",
       "author": "Amy Krouse Rosenthal",
@@ -12812,6 +14039,9 @@
     },
     {
       "id": "bk-4be0694f2e75",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "On a Beam of Light",
       "title_en": "",
       "author": "Jennifer Berne",
@@ -12846,6 +14076,9 @@
     },
     {
       "id": "bk-215831c12382",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Mustache Baby",
       "title_en": "",
       "author": "Bridget Heos",
@@ -12878,6 +14111,9 @@
     },
     {
       "id": "bk-2ab53fd4226c",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Deck the Walls",
       "title_en": "",
       "author": "Erin Dealey",
@@ -12911,6 +14147,9 @@
     },
     {
       "id": "bk-2ea813ab4d1e",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "If You Want to See a Whale",
       "title_en": "",
       "author": "Julie Fogliano",
@@ -12943,6 +14182,9 @@
     },
     {
       "id": "bk-a06f41ec101d",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Sophie's Squash",
       "title_en": "",
       "author": "Pat Zietlow Miller",
@@ -12976,6 +14218,9 @@
     },
     {
       "id": "bk-62ba4ace2276",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Duckling Gets a Cookie!?",
       "title_en": "",
       "author": "Mo Willems",
@@ -13009,6 +14254,9 @@
     },
     {
       "id": "bk-390ad7d80399",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Boy + Bot",
       "title_en": "",
       "author": "Ame Dyckman",
@@ -13042,6 +14290,9 @@
     },
     {
       "id": "bk-144b585c82bc",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Goldilocks and the Three Dinosaurs",
       "title_en": "",
       "author": "Mo Willems",
@@ -13074,6 +14325,9 @@
     },
     {
       "id": "bk-3a466c2eb376",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Chopsticks",
       "title_en": "",
       "author": "Amy Krouse Rosenthal",
@@ -13107,6 +14361,9 @@
     },
     {
       "id": "bk-d382816a3cbe",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Green",
       "title_en": "",
       "author": "Laura Vaccaro Seeger",
@@ -13140,6 +14397,9 @@
     },
     {
       "id": "bk-ac54735998ca",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Z Is for Moose",
       "title_en": "",
       "author": "Kelly Bingham",
@@ -13173,6 +14433,9 @@
     },
     {
       "id": "bk-92c8392c6d82",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "And Then It's Spring",
       "title_en": "",
       "author": "Julie Fogliano",
@@ -13206,6 +14469,9 @@
     },
     {
       "id": "bk-f0b55db0993e",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Chloe and the Lion",
       "title_en": "",
       "author": "Mac Barnett",
@@ -13238,6 +14504,9 @@
     },
     {
       "id": "bk-4a8dd2d942a1",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Nightsong",
       "title_en": "",
       "author": "Ari Berk",
@@ -13271,6 +14540,9 @@
     },
     {
       "id": "bk-93ea710603c3",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Wheel-Mouse vs All The Crazy Robots",
       "title_en": "",
       "author": "Celyn Lawrence",
@@ -13303,6 +14575,9 @@
     },
     {
       "id": "bk-a240b0f7340b",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Kel Gilligan's Daredevil Stunt Show",
       "title_en": "",
       "author": "Michael Buckley",
@@ -13336,6 +14611,9 @@
     },
     {
       "id": "bk-a5763da08ef7",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Scaredy Squirrel Has a Birthday Party",
       "title_en": "",
       "author": "Mélanie Watt",
@@ -13369,6 +14647,9 @@
     },
     {
       "id": "bk-133a21e53408",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Little White Rabbit",
       "title_en": "",
       "author": "Kevin Henkes",
@@ -13402,6 +14683,9 @@
     },
     {
       "id": "bk-b2ed229384a2",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Cat Secrets",
       "title_en": "",
       "author": "Jef Czekaj",
@@ -13434,6 +14718,9 @@
     },
     {
       "id": "bk-0d23276394dd",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Cloudette",
       "title_en": "",
       "author": "Tom Lichtenheld",
@@ -13467,6 +14754,9 @@
     },
     {
       "id": "bk-15a44af42092",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Queen of the Falls",
       "title_en": "",
       "author": "Chris Van Allsburg",
@@ -13499,6 +14789,9 @@
     },
     {
       "id": "bk-c49ffb7c6124",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Hooray for Amanda & Her Alligator!",
       "title_en": "",
       "author": "Mo Willems",
@@ -13532,6 +14825,9 @@
     },
     {
       "id": "bk-9f46237472e7",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Blackout",
       "title_en": "",
       "author": "John Rocco",
@@ -13564,6 +14860,9 @@
     },
     {
       "id": "bk-036af1bf506d",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Say Hello to Zorro!",
       "title_en": "",
       "author": "Carter Goodrich",
@@ -13597,6 +14896,9 @@
     },
     {
       "id": "bk-65eb77c73e39",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Won-Ton",
       "title_en": "",
       "author": "Lee Wardlaw",
@@ -13629,6 +14931,9 @@
     },
     {
       "id": "bk-8a7acffdf54b",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Where's Walrus?",
       "title_en": "",
       "author": "Stephen A. Savage",
@@ -13662,6 +14967,9 @@
     },
     {
       "id": "bk-05b55ebe7abf",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Llama Llama Home with Mama",
       "title_en": "",
       "author": "Anna Dewdney",
@@ -13695,6 +15003,9 @@
     },
     {
       "id": "bk-9fbfe3e9f0b7",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Skippyjon Jones, Class Action",
       "title_en": "",
       "author": "Judy Schachner",
@@ -13727,6 +15038,9 @@
     },
     {
       "id": "bk-878458271053",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Perfect Square",
       "title_en": "",
       "author": "Michael Hall",
@@ -13761,6 +15075,9 @@
     },
     {
       "id": "bk-dc9a9bf42b17",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "You Will Be My Friend!",
       "title_en": "",
       "author": "Peter Brown",
@@ -13794,6 +15111,9 @@
     },
     {
       "id": "bk-7ac9590ce3e3",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Knuffle Bunny Free",
       "title_en": "",
       "author": "Mo Willems",
@@ -13827,6 +15147,9 @@
     },
     {
       "id": "bk-9d1206583cad",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Mirror Mirror",
       "title_en": "",
       "author": "Marilyn Singer",
@@ -13859,6 +15182,9 @@
     },
     {
       "id": "bk-50161f95b462",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "City Dog, Country Frog",
       "title_en": "",
       "author": "Mo Willems",
@@ -13892,6 +15218,9 @@
     },
     {
       "id": "bk-f7e395e05844",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "How Rocket Learned to Read",
       "title_en": "",
       "author": "Tad Hills",
@@ -13925,6 +15254,9 @@
     },
     {
       "id": "bk-3eef6ea727dc",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Art & Max",
       "title_en": "",
       "author": "David Wiesner",
@@ -13958,6 +15290,9 @@
     },
     {
       "id": "bk-0af1c82d593e",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Shark vs. Train",
       "title_en": "",
       "author": "Chris Barton",
@@ -13990,6 +15325,9 @@
     },
     {
       "id": "bk-61481e09d544",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Bink & Gollie",
       "title_en": "",
       "author": "Kate DiCamillo",
@@ -14023,6 +15361,9 @@
     },
     {
       "id": "bk-ef9e3171c79c",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Boss Baby",
       "title_en": "",
       "author": "Marla Frazee",
@@ -14055,6 +15396,9 @@
     },
     {
       "id": "bk-c2612303157f",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "The Cow Loves Cookies",
       "title_en": "",
       "author": "Karma Wilson",
@@ -14087,6 +15431,9 @@
     },
     {
       "id": "bk-5355933236a3",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "My Garden",
       "title_en": "",
       "author": "Kevin Henkes",
@@ -14120,6 +15467,9 @@
     },
     {
       "id": "bk-e230eab7aeaf",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Mostly Monsterly",
       "title_en": "",
       "author": "Tammi Sauer",
@@ -14153,6 +15503,9 @@
     },
     {
       "id": "bk-6a5bcda04264",
+      "source": "bilibili",
+      "bvid": null,
+      "vid": null,
       "title": "Here Comes the Garbage Barge!",
       "title_en": "",
       "author": "Jonah Winter",
