@@ -5877,6 +5877,809 @@
    },
    "reason_zh": "基于真实北极熊情谊，温柔讲述离别与思念，安抚失去。",
    "reason_en": "True polar-bear friends; gentle grief tale."
+  },
+  {
+   "title": "A Child of Books",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "在文字之海扬帆的想象之旅，让孩子从此爱上阅读与故事。",
+   "reason_en": "A poetic ode to imagination, sailing across a sea of stories."
+  },
+  {
+   "title": "Nobody Likes a Goblin",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "小妖精勇敢救友的奇幻冒险，告诉孩子坚持做自己的可贵。",
+   "reason_en": "A brave little goblin sets out to rescue his friend."
+  },
+  {
+   "title": "Ada Twist, Scientist (The Questioneers)",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "science"
+    ]
+   },
+   "reason_zh": "爱问为什么的小科学家阿达，用韵文点燃孩子的好奇心。",
+   "reason_en": "A curious little scientist whose questions spark STEM wonder."
+  },
+  {
+   "title": "Otter Goes to School",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "可爱的水獭老师上学记，轻松化解孩子入园入学的紧张感。",
+   "reason_en": "Otter's funny school day eases first-day jitters for kids."
+  },
+  {
+   "title": "We Found a Hat",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "两只乌龟与一顶帽子的经典故事，幽默中教孩子分享与克制。",
+   "reason_en": "Two turtles, one hat: a witty tale of friendship and restraint."
+  },
+  {
+   "title": "Thunder Boy Jr.",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "小男孩想拥有属于自己的名字，温暖讲述自我认同与父子情。",
+   "reason_en": "A boy seeks a name of his own in this warm identity tale."
+  },
+  {
+   "title": "When Green Becomes Tomatoes",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "跟随四季流转的诗意绘本，让孩子在诗句里感受春夏秋冬。",
+   "reason_en": "Seasonal poems that walk children through the year in verse."
+  },
+  {
+   "title": "Worm Loves Worm",
+   "suitable": false,
+   "tags": {},
+   "reason_zh": "以同性婚约为核心议题，属社会争议敏感内容，不予收录。",
+   "reason_en": "Centers on a contested social issue; not suitable for the platform."
+  },
+  {
+   "title": "Snappsy the Alligator",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "被旁白吐槽的鳄鱼爆笑抗议，打破叙事的幽默让孩子笑不停。",
+   "reason_en": "An alligator argues with his own narrator in this meta-humor romp."
+  },
+  {
+   "title": "School's First Day of School",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "连学校都会紧张的开学第一天，幽默化解孩子的入园焦虑。",
+   "reason_en": "Even the school is nervous on the first day—a perfect back-to-school read."
+  },
+  {
+   "title": "A Hungry Lion, or A Dwindling Assortment of Animals",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "动物接连消失的悬念反转幽默绘本，孩子会迫不及待猜结局。",
+   "reason_en": "A darkly funny twist tale that keeps kids guessing to the last page."
+  },
+  {
+   "title": "Twenty Yawns",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "life"
+    ]
+   },
+   "reason_zh": "数着哈欠慢慢入睡的安静绘本，是温馨的睡前共读之选。",
+   "reason_en": "A soothing bedtime story of counting yawns toward sleep."
+  },
+  {
+   "title": "Flora and the Peacocks",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "几乎无字的舞蹈绘本，翻页互动里藏满优雅与惊喜。",
+   "reason_en": "A nearly wordless dance story full of grace and lift-the-flap surprise."
+  },
+  {
+   "title": "King Baby",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "从「国王宝宝」视角看新家庭成员，二胎家庭读来会心一笑。",
+   "reason_en": "A hilarious look at a new baby, great for growing families."
+  },
+  {
+   "title": "Maybe Something Beautiful",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "壁画点亮灰色街区，真实故事让孩子相信美能改变世界。",
+   "reason_en": "A true story of how art transforms a gray neighborhood."
+  },
+  {
+   "title": "The Day the Crayons Came Home",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "蜡笔们寄来抱怨明信片，天马行空的色彩幽默深受孩子喜爱。",
+   "reason_en": "Crayons send funny postcards home in this beloved color comedy."
+  },
+  {
+   "title": "Winnie",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "nature"
+    ]
+   },
+   "reason_zh": "维尼熊原型的真实故事，一段小熊与士兵的暖心情谊。",
+   "reason_en": "The true story of the bear who inspired Winnie-the-Pooh."
+  },
+  {
+   "title": "I Will Take a Nap!",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "english"
+    ]
+   },
+   "reason_zh": "大象小猪经典对话绘本，简单句式让孩子笑着迈入英语阅读。",
+   "reason_en": "Elephant and Piggie's funny nap drama, ideal early English reading."
+  },
+  {
+   "title": "What Pet Should I Get?",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "english"
+    ]
+   },
+   "reason_zh": "苏斯博士经典韵文，选宠物难题读来朗朗上口，英语启蒙佳品。",
+   "reason_en": "Classic Seuss rhyme about finding the perfect pet."
+  },
+  {
+   "title": "The Princess and the Pony",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "爱打架的公主与爱放屁的小马，反套路幽默逗笑小骑士迷。",
+   "reason_en": "A battle-loving princess and her flatulent pony delight kids."
+  },
+  {
+   "title": "Goodnight Already!",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "life"
+    ]
+   },
+   "reason_zh": "困到极点的熊与精力旺盛的鸭子斗嘴，睡前共读爆笑首选。",
+   "reason_en": "A sleepy bear and a wide-awake duck battle over bedtime."
+  },
+  {
+   "title": "If You Plant a Seed",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "种下一颗种子长出善意，美到窒息的分享与包容之课。",
+   "reason_en": "Gorgeous art shows how kindness, once planted, keeps growing."
+  },
+  {
+   "title": "Red",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "被贴错标签的蜡笔找回自我，温柔有力地教孩子接纳自己。",
+   "reason_en": "A mislabeled crayon finds his true self—an ode to being you."
+  },
+  {
+   "title": "I Wish You More",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "0-3",
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "句句祝福的暖心绘本，适合作为送给孩子的礼物书。",
+   "reason_en": "A tender wish-book, perfect as a gift for little ones."
+  },
+  {
+   "title": "Sidewalk Flowers",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "无字书的温柔力量：小女孩把采到的花分给城市每个角落。",
+   "reason_en": "A wordless story of a girl who gives flowers to the whole city."
+  },
+  {
+   "title": "Wolfie the Bunny",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "兔子家领养狼宝宝，姐姐从担心到守护，讲透手足情与偏见。",
+   "reason_en": "A bunny family adopts a wolf cub—funny, warm and bighearted."
+  },
+  {
+   "title": "Mesmerized",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "science",
+     "story"
+    ]
+   },
+   "reason_zh": "富兰克林用科学方法拆穿催眠骗局，科学思维启蒙的绝佳故事。",
+   "reason_en": "Ben Franklin tests a mesmerist—the scientific method at its most fun."
+  },
+  {
+   "title": "This Is Sadie",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "爱幻想的小女孩在故事里上天入地，致敬每个爱读书的孩子。",
+   "reason_en": "Sadie lives a thousand lives through her imagination and books."
+  },
+  {
+   "title": "Last Stop on Market Street",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "乘巴士看世界的祖孙对话，教会孩子发现平凡中的美好。",
+   "reason_en": "A boy and his nana find beauty in the ordinary bus ride."
+  },
+  {
+   "title": "Your Baby's First Word Will Be DADA",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "0-3"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "动物爸爸们教宝宝喊DADA的搞笑哄读，适合低幼亲子互动。",
+   "reason_en": "Animal daddies coach babies to say DADA—pure toddler fun."
+  },
+  {
+   "title": "Interstellar Cinderella",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "太空版灰姑娘自己修飞船去舞会，反套路童话女孩必读。",
+   "reason_en": "A space-age Cinderella fixes her own ship—no prince needed."
+  },
+  {
+   "title": "A Fine Dessert",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "同一道甜点跨越四个世纪，从厨房看历史与家庭变迁。",
+   "reason_en": "One dessert shared across four centuries—a delicious slice of history."
+  },
+  {
+   "title": "Otter in Space",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "水獭造飞船去月球找石头的爆笑冒险，守护孩子的太空梦。",
+   "reason_en": "Otter builds a spaceship to fetch a moon rock. Adorable chaos."
+  },
+  {
+   "title": "Float",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "纸船漂走的雨天无字绘本，孩子自己就能讲出完整故事。",
+   "reason_en": "A wordless rain-day adventure of a runaway paper boat."
+  },
+  {
+   "title": "Waiting",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "窗台上五个玩具安静等待，凯迪克银奖的温柔诗意之作。",
+   "reason_en": "Toys on a windowsill wait for wonders—quiet, dreamy Caldecott Honor art."
+  },
+  {
+   "title": "The Pigeon Needs a Bath!",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "life"
+    ]
+   },
+   "reason_zh": "鸽子千方百计逃避洗澡，读着读着孩子就主动去泡澡了。",
+   "reason_en": "The pigeon dodges bath time until he finally falls in. Hilarious."
+  },
+  {
+   "title": "The Book With No Pictures",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "没有图却能让全场爆笑的朗读魔法书，亲子共读气氛担当。",
+   "reason_en": "A read-aloud trick that makes kids beg for the silly words again."
+  },
+  {
+   "title": "Julia's House for Lost Creatures",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "朱莉娅收留迷路怪物的热闹故事，规矩与包容的快乐一课。",
+   "reason_en": "Julia hosts a houseful of lost creatures with warmth and house rules."
+  },
+  {
+   "title": "Tuesday Tucks Me In",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "退役军人与服务犬星期二的真实日常，温暖治愈的狗狗之书。",
+   "reason_en": "The true story of a veteran and his devoted service dog Tuesday."
+  },
+  {
+   "title": "What Do You Do With an Idea?",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "呵护一个小主意慢慢长大，鼓励孩子相信并坚持自己的想法。",
+   "reason_en": "A beloved tale of nurturing an idea until it takes flight."
+  },
+  {
+   "title": "Sparky!",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "养一只树懒当宠物慢得让人发笑，冷幽默教孩子接纳不同。",
+   "reason_en": "A girl's pet sloth is gloriously slow—deadpan humor kids adore."
+  },
+  {
+   "title": "Josephine",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "舞蹈家约瑟芬·贝克的自由人生诗传，用勇气与音乐打动大童。",
+   "reason_en": "The dazzling life of dancer Josephine Baker told in free verse."
+  },
+  {
+   "title": "Hi, Koo!",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "熊猫Koo的四季俳句，在诗与画里安静感受季节之美。",
+   "reason_en": "Twenty-six haiku seasons with a charming little panda named Koo."
+  },
+  {
+   "title": "Here Comes the Easter Cat",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "傲娇猫咪想抢复活节兔的活儿，与旁白抬杠的互动式幽默。",
+   "reason_en": "A stylish cat vies for the Easter Bunny's job with hilarious flair."
+  },
+  {
+   "title": "Quest",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6",
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "神奇彩笔开启的寻宝解谜之旅，无字幻想激发观察与想象。",
+   "reason_en": "A wordless quest with a magic crayon—pure visual fantasy."
+  },
+  {
+   "title": "The Adventures of Beekle",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "想象朋友踏上寻找孩子的旅程，凯迪克金奖讲友谊与勇气。",
+   "reason_en": "An imaginary friend journeys to find his child. Caldecott Medal winner."
   }
  ]
 }
