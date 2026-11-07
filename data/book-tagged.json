@@ -7481,6 +7481,750 @@
    },
    "reason_zh": "小蝙蝠用回声“看见”世界，关于勇气与感官探索的自然故事。",
    "reason_en": "A little bat learns to trust his own senses."
+  },
+  {
+   "title": "Dragons Love Tacos",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "龙最爱塔可却碰不得辣酱，一场爆笑塔可派对，孩子百听不厌。",
+   "reason_en": "Dragons love tacos but hate salsa - hilarious fun."
+  },
+  {
+   "title": "Wheel-Mouse vs All The Crazy Robots",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "八岁小作者笔下轮子老鼠大战疯狂机器人，童趣脑洞又励志。",
+   "reason_en": "A wheel-mouse battles wacky robots - playful fun."
+  },
+  {
+   "title": "Kel Gilligan's Daredevil Stunt Show",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "life"
+    ]
+   },
+   "reason_zh": "学龄前小孩的惊险特技：自己穿衣吃西兰花，小事变英雄壮举。",
+   "reason_en": "A preschooler's small feats become daring stunts."
+  },
+  {
+   "title": "When I Grow Up",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "怪艾尔押韵童书，孩子畅想五花八门的长大梦想，欢乐有想象力。",
+   "reason_en": "Weird Al's rhyming tale of big career dreams."
+  },
+  {
+   "title": "I Want My Hat Back",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "大熊逐个问谁见过帽子，克制对白藏意外结局，黑色幽默经典。",
+   "reason_en": "A bear politely hunts his hat - deadpan classic."
+  },
+  {
+   "title": "Scaredy Squirrel Has a Birthday Party",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "胆小松鼠为生日派对制定周密应急计划，笑点密集又治愈焦虑。",
+   "reason_en": "A worried squirrel's party - funny and sweet."
+  },
+  {
+   "title": "Little White Rabbit",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "nature"
+    ]
+   },
+   "reason_zh": "小白兔春日探险处处新奇，凯迪克银奖的温柔想象之作。",
+   "reason_en": "A bunny's springtime wonder - Caldecott Honor."
+  },
+  {
+   "title": "Cat Secrets",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "想读猫咪秘籍？先证明你是猫！互动式幽默，孩子抢着演。",
+   "reason_en": "Prove you are a cat - an interactive giggle."
+  },
+  {
+   "title": "Grandpa Green",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "爷爷的花园绿雕藏着一生记忆，祖孙情深，凯迪克银奖。",
+   "reason_en": "Grandpa's life told in topiary - Caldecott Honor."
+  },
+  {
+   "title": "Cloudette",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "nature"
+    ]
+   },
+   "reason_zh": "小云朵也能做大事情，温柔故事顺带讲清云与雨。",
+   "reason_en": "A little cloud finds her big purpose - sweet."
+  },
+  {
+   "title": "Queen of the Falls",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "62岁女教师乘木桶挑战尼亚加拉瀑布的真实传奇，历史绘本佳作。",
+   "reason_en": "True 1901 barrel ride over Niagara Falls."
+  },
+  {
+   "title": "Hooray for Amanda & Her Alligator!",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "小女孩与玩具鳄的六个小故事，讲友情与耐心，妙趣横生。",
+   "reason_en": "Amanda and her toy gator - funny friendship tales."
+  },
+  {
+   "title": "Blackout",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "停电之夜全家点蜡烛上屋顶看星，凯迪克银奖温情之作。",
+   "reason_en": "A blackout brings family closer - Caldecott Honor."
+  },
+  {
+   "title": "If You Give a Dog a Donut",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "经典如果你给系列，一个甜甜圈引发一串欢乐因果连锁。",
+   "reason_en": "A donut sets off a circular chain of silly fun."
+  },
+  {
+   "title": "Say Hello to Zorro!",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "按部就班的小狗迎来新室友，学着分享与接纳，画风讨喜。",
+   "reason_en": "A routine-loving dog learns to share with Zorro."
+  },
+  {
+   "title": "Won-Ton",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "收容所猫咪用俳句自述心事，直到遇见新主人，诗意温暖。",
+   "reason_en": "A shelter cat tells his tale in haiku - warm."
+  },
+  {
+   "title": "I Broke My Trunk!",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "english"
+    ]
+   },
+   "reason_zh": "小猪小象爆笑对话，大象鼻子怎么弄伤的，短句适合英语启蒙。",
+   "reason_en": "Gerald's hilarious story - easy English reading."
+  },
+  {
+   "title": "Where's Walrus?",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "0-3",
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "海象逃出动物园乔装躲猫猫，无字考验眼力，零语言门槛。",
+   "reason_en": "Wordless hide-and-seek with a runaway walrus."
+  },
+  {
+   "title": "Me... Jane",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "nature"
+    ]
+   },
+   "reason_zh": "珍·古道尔的童年梦想绘本，与玩具黑猩猩一起观察自然。",
+   "reason_en": "Young Jane Goodall's dream begins - inspiring."
+  },
+  {
+   "title": "Llama Llama Home with Mama",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "life"
+    ]
+   },
+   "reason_zh": "羊驼宝宝生病在家妈妈悉心照顾，押韵安抚生病中的小朋友。",
+   "reason_en": "Llama Llama's sick day soothed by Mama - rhyming."
+  },
+  {
+   "title": "Skippyjon Jones, Class Action",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "小猫自认吉娃娃混进狗狗学校，押韵闹剧想象力爆棚。",
+   "reason_en": "A kitty who thinks he is a chihuahua - fun rhymes."
+  },
+  {
+   "title": "Perfect Square",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "0-3",
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "craft"
+    ]
+   },
+   "reason_zh": "一个正方形七十二变，形状认知加创意手工灵感，低幼经典。",
+   "reason_en": "A square transforms all week - shapes into art."
+  },
+  {
+   "title": "You Will Be My Friend!",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "热情过头的露西四处找朋友，学会温柔交友，爆笑又暖心。",
+   "reason_en": "Overeager Lucy learns how to make friends - sweet."
+  },
+  {
+   "title": "It's a Book",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "驴子埋头电脑，猴子安静读书，致敬纸质书的幽默宣言。",
+   "reason_en": "Screen vs book - a witty tribute to printed pages."
+  },
+  {
+   "title": "Knuffle Bunny Free",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "翠西与心爱兔兔的告别之旅，成长与放手，三部曲温柔终章。",
+   "reason_en": "Trixie's bittersweet goodbye to Knuffle Bunny."
+  },
+  {
+   "title": "Instructions",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "盖曼的诗意奇幻旅程指南，温柔指点孩子走进想象世界。",
+   "reason_en": "Gaiman's poetic guide through a fairyland journey."
+  },
+  {
+   "title": "Mirror Mirror",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "正读反读皆成诗的镜像诗重讲经典童话，文字游戏妙极。",
+   "reason_en": "Fairy tales as reverso poems - brilliant wordplay."
+  },
+  {
+   "title": "City Dog, Country Frog",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "城市狗与乡下蛙的四季友情，讲陪伴失去与新生，隽永温柔。",
+   "reason_en": "Dog and frog friendship across seasons - tender."
+  },
+  {
+   "title": "How Rocket Learned to Read",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "english"
+    ]
+   },
+   "reason_zh": "小狗跟着小鸟老师学字母学读书，识字启蒙绘本经典之选。",
+   "reason_en": "Rocket the dog learns to read - literacy joy."
+  },
+  {
+   "title": "Art & Max",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "craft"
+    ]
+   },
+   "reason_zh": "威斯纳奇想：颜料乱涂把朋友变成艺术品，点燃美术兴趣。",
+   "reason_en": "Painting turns messy into magic - art adventure."
+  },
+  {
+   "title": "Chalk",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "魔法粉笔画什么活什么，无字想象力冒险，紧张又好玩。",
+   "reason_en": "Magic chalk drawings come alive - wordless fun."
+  },
+  {
+   "title": "The Quiet Book",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "数不清的安静时刻：睡前各种静谧瞬间，安抚情绪助眠。",
+   "reason_en": "All the many kinds of quiet - a cozy bedtime read."
+  },
+  {
+   "title": "Shark vs. Train",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "鲨鱼和火车上天入地大比拼，谁会赢？孩子最爱的爆笑对决。",
+   "reason_en": "Shark versus train in absurd contests - who wins?"
+  },
+  {
+   "title": "Bink & Gollie",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "一高一矮两个好友的三段小故事，盖塞尔奖桂冠桥梁书。",
+   "reason_en": "Two very different friends - Geisel Award winner."
+  },
+  {
+   "title": "The Boss Baby",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "一本正经的老板宝宝接管全家，二胎家庭的幽默视角。",
+   "reason_en": "A bossy baby runs the household - funny tale."
+  },
+  {
+   "title": "The Cow Loves Cookies",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "农场动物各吃各的粮，唯独奶牛偏爱饼干，朗朗上口韵文。",
+   "reason_en": "All eat their feed, but the cow loves cookies."
+  },
+  {
+   "title": "A Sick Day for Amos McGee",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "动物园管理员病了，动物们排队探望，凯迪克金奖暖心之作。",
+   "reason_en": "Animals visit a sick zookeeper - Caldecott Medal."
+  },
+  {
+   "title": "My Garden",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "nature"
+    ]
+   },
+   "reason_zh": "女孩幻想魔法花园：巧克力兔子和糖果挂枝头，天真烂漫。",
+   "reason_en": "A girl imagines a garden of candy and wonders."
+  },
+  {
+   "title": "Of Thee I Sing",
+   "suitable": false,
+   "tags": {},
+   "reason_zh": "美国总统写给女儿的美国人物赞颂信，涉政治人物与意识形态，不收录。",
+   "reason_en": "A president's political tribute - not for kids."
+  },
+  {
+   "title": "Children Make Terrible Pets",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story"
+    ]
+   },
+   "reason_zh": "小熊把男孩当宠物养，角色反转爆笑，尾页笑点满满。",
+   "reason_en": "A bear cub adopts a boy as her pet - funny twist."
+  },
+  {
+   "title": "We are in a Book!",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "english"
+    ]
+   },
+   "reason_zh": "小猪小象发现自己在书里还能逗读者笑，互动妙趣英语入门。",
+   "reason_en": "Piggie and Gerald know you are reading - meta fun."
+  },
+  {
+   "title": "Mostly Monsterly",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "3-6"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "social"
+    ]
+   },
+   "reason_zh": "威风小怪物也有软萌一面，做自己与合群的平衡，反差萌。",
+   "reason_en": "A sweet monster learns to fit in - charming."
+  },
+  {
+   "title": "Here Comes the Garbage Barge!",
+   "suitable": true,
+   "tags": {
+    "age": [
+     "6-9"
+    ],
+    "language": [
+     "en"
+    ],
+    "theme": [
+     "story",
+     "nature"
+    ]
+   },
+   "reason_zh": "真实垃圾船漂泊无人肯收事件改编，环保启蒙笑中带思考。",
+   "reason_en": "A true garbage barge odyssey - funny green lesson."
   }
  ]
 }
