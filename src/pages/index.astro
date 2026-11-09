@@ -214,13 +214,15 @@ const bookThemes = taxonomy.book_themes;
 		const videoSection = document.getElementById('video-section')!;
 		const bookSection = document.getElementById('book-section')!;
 
+		let currentBookView: 'books' | 'awards' = 'books';
 		function setMode(mode: 'video' | 'book') {
 			videoFilters.hidden = mode !== 'video';
 			bookFilters.hidden = mode !== 'book';
 			videoSection.hidden = mode !== 'video';
 			bookSection.hidden = mode !== 'book';
+			if (mode === 'book') setBookView(currentBookView);
 			// URL hash 与顶栏状态保持同步（replaceState，避免触发 hashchange 循环）
-			history.replaceState(null, '', location.pathname + (mode === 'book' ? '#books' : ''));
+			history.replaceState(null, '', location.pathname + (mode === 'book' ? (currentBookView === 'awards' ? '#awards' : '#books') : ''));
 		}
 		window.addEventListener('kidisle:modechange', (e) => setMode((e as CustomEvent).detail.mode));
 		// 初始模式：Base 脚本会在挂载后派发；这里先按 hash 兜底一次
@@ -333,6 +335,7 @@ const bookThemes = taxonomy.book_themes;
 		const awardsEmpty = document.getElementById('awards-empty')!;
 
 		function setBookView(view: 'books' | 'awards') {
+			currentBookView = view;
 			const isAwards = view === 'awards';
 			bookBooksView.hidden = isAwards;
 			bookEmpty.hidden = isAwards;

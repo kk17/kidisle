@@ -9,9 +9,14 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "qa": "node scripts/qa-check.mjs",
+    "qa:local": "BASE=http://localhost:8766/kidisle node scripts/qa-check.mjs"
   },
   "dependencies": {
     "astro": "^7.4.5"
+  },
+  "devDependencies": {
+    "playwright": "^1.65.0"
   }
 }
