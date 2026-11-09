@@ -137,11 +137,6 @@
       "id": "art",
       "label": "艺术美育",
       "label_en": "Art & Aesthetics"
-    },
-    {
-      "id": "interactive",
-      "label": "游戏互动",
-      "label_en": "Interactive & Play"
     }
   ]
 }

@@ -337,7 +337,7 @@ const bookThemes = taxonomy.book_themes;
 			bookBooksView.hidden = isAwards;
 			bookEmpty.hidden = isAwards;
 			awardsGridView.hidden = !isAwards;
-			// 行按视图显隐：书目视图显示 年龄/语言/主题；奖项视图仅 奖项语言
+			// 行按视图显隐：书目视图显示 年龄/语言/主题；奖项视图仅 奖项语言（年龄对奖项无意义）
 			document.querySelectorAll('#book-filters [data-bview]').forEach((row) => {
 				(row as HTMLElement).hidden = (row as HTMLElement).dataset.bview !== view;
 			});

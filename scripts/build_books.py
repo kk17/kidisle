@@ -233,8 +233,12 @@ def covers():
         if local.exists():
             continue
         url = b.get("cover") or ""
+        if not url and b.get("isbn"):
+            # 有 ISBN：Open Library 封面接口直接按 ISBN 取
+            url = f"https://covers.openlibrary.org/b/isbn/{b['isbn']}-L.jpg"
+            b["cover"] = url
         if not url:
-            # 英文书豆瓣无条目：Open Library 兜底
+            # 英文书豆瓣无条目：Open Library 搜索兜底
             try:
                 url = ol_search_cover(b["title"], b.get("author") or "")
                 if url:
@@ -252,7 +256,7 @@ def covers():
             })
             with urllib.request.urlopen(req, timeout=20) as resp:
                 data = resp.read()
-            if data[:2] == b"\xff\xd8":
+            if data[:2] == b"\xff\xd8" and len(data) > 2000:
                 local.write_bytes(data)
                 done += 1
             else:
