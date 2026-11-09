@@ -208,6 +208,19 @@ async function testAwardDetail(page) {
 	record('A-4 官网链接', d.official);
 }
 
+async function testMobileBloggers(page) {
+	await page.goto(`${target}/bloggers/?v=${Date.now()}`);
+	await page.waitForLoadState('domcontentloaded');
+	await page.waitForTimeout(600);
+	const m = await page.evaluate(() => {
+		const chips = [...document.querySelectorAll('#themebar .chip')].map(c => Math.round(c.getBoundingClientRect().height));
+		return { noHScroll: document.documentElement.scrollWidth <= window.innerWidth + 1,
+			maxChipH: Math.max(...chips), chipCount: chips.length };
+	});
+	record('M-C-1 博主页主题行无溢出', m.noHScroll);
+	record('M-C-2 主题 chips 文字不竖排', m.chipCount >= 9 && m.maxChipH > 20 && m.maxChipH < 50, `${m.chipCount} chips max ${m.maxChipH}px`);
+}
+
 async function testMobile(page) {
 	await page.setViewportSize({ width: 375, height: 812 });
 	await page.goto(`${target}/?v=${Date.now()}`);
@@ -267,6 +280,7 @@ async function testPWA(page) {
 		await testBookDetail(page);
 		await testAwardDetail(page);
 		await testMobile(page);
+		await testMobileBloggers(page);
 		await testPWA(page);
 	} catch (e) {
 		record('FATAL', false, e.message.slice(0, 200));
