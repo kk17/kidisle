@@ -10,6 +10,8 @@ interface Props {
 import { base } from '../lib/base.ts';
 import taxonomy from '../data/taxonomy.json';
 const { title = '童心岛 · 精选儿童视频与绘本', titleEn = 'KidiIsle · Curated videos & picture books for kids', description = '童心岛：为孩子精选的儿童视频与绘本，按年龄段、语言、主题筛选。', mode } = Astro.props;
+// 构建时间（构建时烘焙，页脚可见——用于确认浏览器加载的是最新版本）
+const buildVer = new Date().toISOString().slice(0, 16).replace('T', ' ');
 ---
 <!doctype html>
 <html lang="zh-CN">
@@ -89,6 +91,7 @@ const { title = '童心岛 · 精选儿童视频与绘本', titleEn = 'KidiIsle 
 				.modebar select { max-width: 8.5em; }
 			}
 			.site-footer { text-align: center; color: var(--muted); font-size: 0.8rem; padding: 1.5rem 0 2rem; }
+			.build-ver { opacity: 0.65; }
 			.tag {
 				font-size: 0.7rem; padding: 0.08rem 0.5rem; border-radius: 999px;
 				background: var(--sea-soft); color: #0369a1; white-space: nowrap;
@@ -122,7 +125,7 @@ const { title = '童心岛 · 精选儿童视频与绘本', titleEn = 'KidiIsle 
 		</header>
 		<slot />
 		<footer class="site-footer">
-			童心岛 (kidisle) · 独立开源项目 · <a href="https://github.com/kk17/kidisle">GitHub</a> · MIT · <span data-i18n="footer_rights">视频与图书信息版权归原作者所有</span>
+			童心岛 (kidisle) · 独立开源项目 · <a href="https://github.com/kk17/kidisle">GitHub</a> · MIT · <span data-i18n="footer_rights">视频与图书信息版权归原作者所有</span> · <span class="build-ver">build {buildVer}</span>
 		</footer>
 
 		<!-- 标签双语字典（taxonomy），供全局切换脚本使用 -->

@@ -11,7 +11,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "qa": "node scripts/qa-check.mjs",
-    "qa:local": "BASE=http://localhost:8766/kidisle node scripts/qa-check.mjs"
+    "qa:local": "npm run build && node scripts/qa-check.mjs --local"
   },
   "dependencies": {
     "astro": "^7.4.5"

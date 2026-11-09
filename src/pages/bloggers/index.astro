@@ -66,7 +66,7 @@ const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]
 	}
 	.themebar {
 		max-width: var(--maxw); margin: 0 auto; padding: 0.6rem 1rem;
-		display: flex; align-items: flex-start; gap: 0.5rem;
+		display: flex; align-items: flex-start; gap: 0.5rem; flex-wrap: wrap;
 	}
 	.themebar .dim {
 		font-size: 0.78rem; color: var(--muted);
@@ -76,7 +76,7 @@ const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]
 	.chip {
 		font-size: 0.82rem; padding: 0.26rem 0.8rem; border-radius: 999px;
 		border: 1px solid var(--line); background: var(--card); color: var(--ink);
-		cursor: pointer; user-select: none;
+		cursor: pointer; user-select: none; white-space: nowrap;
 	}
 	.chip[aria-pressed='true'] { background: var(--sea); border-color: var(--sea); color: #fff; }
 	.chip-clear {

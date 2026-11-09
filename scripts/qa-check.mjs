@@ -4,15 +4,48 @@
  *
  * 维度：模式(video/book) × 语言(zh/en) × 视口(desktop/mobile) × 关键页面
  * 用法：
- *   node scripts/qa-check.mjs                          # 测线上 https://kk17.github.io/kidisle/
- *   BASE=http://localhost:8766/kidisle node scripts/qa-check.mjs   # 测本地构建
+ *   node scripts/qa-check.mjs                # 测线上 https://kk17.github.io/kidisle/
+ *   node scripts/qa-check.mjs --local        # 先构建？否——需先 npm run build，脚本自带静态服务器测 dist/
+ *   BASE=http://host/kidisle node scripts/qa-check.mjs   # 测任意已部署地址
  * 退出码：全部通过 0，任一失败 1
  */
+import http from 'node:http';
+import { fileURLToPath } from 'node:url';
 import { chromium } from 'playwright';
+import { readFileSync } from 'node:fs';
 
-const BASE = (process.env.BASE || 'https://kk17.github.io/kidisle').replace(/\/$/, '');
+const LOCAL = process.argv.includes('--local');
+let target = (process.env.BASE || 'https://kk17.github.io/kidisle').replace(/\/$/, '');
 const results = [];
 let browser;
+let localServer;
+
+// --local：把 dist/ 挂载到 /kidisle 子路径（与 GitHub Pages 结构一致）
+function startLocalServer(prefix = '/kidisle') {
+	const root = fileURLToPath(new URL('../dist/', import.meta.url));
+	return new Promise((resolve) => {
+		const srv = http.createServer((req, res) => {
+			const u = new URL(req.url, 'http://x');
+			let p = decodeURIComponent(u.pathname);
+			if (p.startsWith(prefix)) p = p.slice(prefix.length) || '/';
+			let file = root + p.split('?')[0];
+			if (file.endsWith('/')) file += 'index.html';
+			const mime = { '.html': 'text/html', '.js': 'text/javascript', '.mjs': 'text/javascript',
+				'.css': 'text/css', '.json': 'application/json', '.svg': 'image/svg+xml',
+				'.png': 'image/png', '.jpg': 'image/jpeg', '.webp': 'image/webp',
+				'.woff2': 'font/woff2', '.ico': 'image/x-icon' }[file.slice(file.lastIndexOf('.'))] || 'application/octet-stream';
+			try {
+				const c = readFileSync(file);
+				res.writeHead(200, { 'Content-Type': mime });
+				res.end(c);
+			} catch {
+				res.writeHead(404);
+				res.end('not found');
+			}
+		});
+		srv.listen(0, () => resolve(`http://localhost:${srv.address().port}`));
+	});
+}
 
 function record(id, ok, detail = '') {
 	results.push({ id, ok, detail });
@@ -28,7 +61,7 @@ async function noHScroll(page) {
 }
 
 async function testDesktopVideoZh(page) {
-	await page.goto(`${BASE}/?v=${Date.now()}`);
+	await page.goto(`${target}/?v=${Date.now()}`);
 	await page.waitForLoadState('domcontentloaded');
 	await page.waitForTimeout(800);
 	const sel = page.locator('#datatype');
@@ -94,7 +127,7 @@ async function testDesktopBookZh(page) {
 }
 
 async function testDesktopEn(page) {
-	await page.goto(`${BASE}/?v=${Date.now()}`);
+	await page.goto(`${target}/?v=${Date.now()}`);
 	await page.waitForLoadState('domcontentloaded');
 	await page.click('#lang-toggle');
 	await page.waitForTimeout(400);
@@ -112,7 +145,7 @@ async function testDesktopEn(page) {
 }
 
 async function testVideoDetail(page) {
-	await page.goto(`${BASE}/video/BV11341157Wz/?v=${Date.now()}`);
+	await page.goto(`${target}/video/BV11341157Wz/?v=${Date.now()}`);
 	await page.waitForLoadState('domcontentloaded');
 	await page.waitForTimeout(1000);
 	const d = await page.evaluate(() => {
@@ -135,7 +168,7 @@ async function testVideoDetail(page) {
 }
 
 async function testBookDetail(page) {
-	await page.goto(`${BASE}/book/bk-2c634c61c964/?v=${Date.now()}`);
+	await page.goto(`${target}/book/bk-2c634c61c964/?v=${Date.now()}`);
 	await page.waitForLoadState('domcontentloaded');
 	await page.waitForTimeout(1000);
 	const d = await page.evaluate(() => {
@@ -160,7 +193,7 @@ async function testBookDetail(page) {
 }
 
 async function testAwardDetail(page) {
-	await page.goto(`${BASE}/award/caldecott/?v=${Date.now()}`);
+	await page.goto(`${target}/award/caldecott/?v=${Date.now()}`);
 	await page.waitForLoadState('domcontentloaded');
 	await page.waitForTimeout(1000);
 	const d = await page.evaluate(() => ({
@@ -177,7 +210,7 @@ async function testAwardDetail(page) {
 
 async function testMobile(page) {
 	await page.setViewportSize({ width: 375, height: 812 });
-	await page.goto(`${BASE}/?v=${Date.now()}`);
+	await page.goto(`${target}/?v=${Date.now()}`);
 	await page.waitForLoadState('domcontentloaded');
 	await page.waitForTimeout(600);
 	const video = await page.evaluate(() => ({
@@ -203,7 +236,7 @@ async function testMobile(page) {
 }
 
 async function testPWA(page) {
-	await page.goto(`${BASE}/?v=${Date.now()}`);
+	await page.goto(`${target}/?v=${Date.now()}`);
 	await page.waitForLoadState('domcontentloaded');
 	await page.waitForTimeout(4000);
 	const pwa = await page.evaluate(async () => {
@@ -218,8 +251,14 @@ async function testPWA(page) {
 
 // ---- 主流程 ----
 (async () => {
+	if (LOCAL) {
+		target = await startLocalServer() + '/kidisle';
+		console.log(`本地模式：${target}`);
+	}
 	browser = await chromium.launch();
 	const page = await browser.newPage({ viewport: { width: 1280, height: 800 } });
+	await page.goto(`${target}/?v=${Date.now()}`);
+	await page.waitForLoadState('domcontentloaded');
 	try {
 		await testDesktopVideoZh(page);
 		await testDesktopBookZh(page);
@@ -233,6 +272,7 @@ async function testPWA(page) {
 		record('FATAL', false, e.message.slice(0, 200));
 	}
 	await browser.close();
+	if (localServer) localServer.close();
 
 	const failed = results.filter(r => !r.ok);
 	console.log('\n========== QA 报告 ==========');
