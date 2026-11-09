@@ -331,7 +331,8 @@ def merge():
         isbn = b.get("isbn") or ""
         bid = book_id(b["title"])
         local_cover = (ROOT / f"public/covers/{bid}.jpg")
-        cover = f"covers/{bid}.jpg" if local_cover.exists() else (b.get("cover") or "")
+        # 本地无封面时不回退远程 doubanio URL（图床 418 拒绝热链，浏览器必破图）——走占位符
+        cover = f"covers/{bid}.jpg" if local_cover.exists() else ""
         books.append({
             "id": bid,
             "source": "youtube" if is_yt else "bilibili",
