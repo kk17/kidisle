@@ -152,7 +152,7 @@ const buildVer = new Date().toISOString().slice(0, 16).replace('T', ' ');
 			const isIndex = () => !!document.getElementById('video-section');
 			function currentMode(): 'video' | 'book' {
 				if (document.body.dataset.mode) return document.body.dataset.mode as 'video' | 'book';
-				if (isIndex()) return location.hash === '#books' ? 'book' : 'video';
+				if (isIndex()) return (location.hash === '#books' || location.hash === '#awards') ? 'book' : 'video';
 				return 'video';
 			}
 			const bookviewChips = document.getElementById('bookview-chips');
@@ -161,7 +161,7 @@ const buildVer = new Date().toISOString().slice(0, 16).replace('T', ' ');
 				// 图书模式：隐藏 视频/博主 tab，显示 书目/奖项 chips；视频模式相反
 				if (navtabs) navtabs.style.display = mode === 'book' ? 'none' : '';
 				if (bookviewChips) bookviewChips.hidden = mode !== 'book';
-				syncBookviewChips(mode);
+				if (mode === 'book') syncBookviewChips(location.hash === '#awards' ? 'awards' : 'books');
 			}
 			function dispatchMode(mode: 'video' | 'book') {
 				window.dispatchEvent(new CustomEvent('kidisle:modechange', { detail: { mode } }));
@@ -199,6 +199,10 @@ const buildVer = new Date().toISOString().slice(0, 16).replace('T', ' ');
 					return;
 				}
 				syncModeUI(mode);
+			});
+			window.addEventListener('kidisle:bookview', (e) => {
+				if (!isIndex()) return;
+				syncBookviewChips((e as CustomEvent).detail.view);
 			});
 			window.addEventListener('hashchange', () => {
 				if (isIndex()) {
@@ -238,6 +242,10 @@ const buildVer = new Date().toISOString().slice(0, 16).replace('T', ' ');
 						}
 					}
 					el.textContent = text;
+				});
+				// 双语内容元素（data-zh/data-en）
+				document.querySelectorAll<HTMLElement>('[data-zh][data-en]').forEach((el) => {
+					el.textContent = lang === 'en' ? (el.dataset.en || el.dataset.zh) : el.dataset.zh;
 				});
 				// 标签（年龄段/语言/主题 chip 与卡片上的 tag）
 				const tags = JSON.parse(document.getElementById('tag-i18n')!.textContent || '{}');

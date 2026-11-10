@@ -127,7 +127,7 @@ const bookThemes = taxonomy.book_themes;
 									<div class="awardbody">
 										<h2 class="awardname">{a.name}</h2>
 										<div class="awardname-en">{a.name_en}</div>
-										<p class="awardintro">{a.intro}</p>
+										<p class="awardintro" data-zh={a.intro} data-en={a.intro_en || a.intro}>{a.intro}</p>
 										<div class="awardmeta">
 											<span class="alangchip" data-i18n={`award_lang_${a.lang}`}>{a.lang === 'zh' ? '中文奖项' : a.lang === 'en' ? '英文奖项' : '国际奖项'}</span>
 											<span>📍 {a.region}</span>
@@ -220,9 +220,6 @@ const bookThemes = taxonomy.book_themes;
 			bookFilters.hidden = mode !== 'book';
 			videoSection.hidden = mode !== 'video';
 			bookSection.hidden = mode !== 'book';
-			if (mode === 'book') setBookView(currentBookView);
-			// URL hash 与顶栏状态保持同步（replaceState，避免触发 hashchange 循环）
-			history.replaceState(null, '', location.pathname + (mode === 'book' ? (currentBookView === 'awards' ? '#awards' : '#books') : ''));
 		}
 		window.addEventListener('kidisle:modechange', (e) => setMode((e as CustomEvent).detail.mode));
 		// 初始模式：Base 脚本会在挂载后派发；这里先按 hash 兜底一次
@@ -336,6 +333,7 @@ const bookThemes = taxonomy.book_themes;
 
 		function setBookView(view: 'books' | 'awards') {
 			currentBookView = view;
+			history.replaceState(null, '', location.pathname + (view === 'awards' ? '#awards' : '#books'));
 			const isAwards = view === 'awards';
 			bookBooksView.hidden = isAwards;
 			bookEmpty.hidden = isAwards;
