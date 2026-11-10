@@ -21,7 +21,17 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npx playwright install --with-deps chromium
-      - name: 状态矩阵 QA（线上）
-        run: node scripts/qa-check.mjs
+      - name: 状态矩阵 QA（线上，CDN 传播竞态自动重试）
+        run: |
+          for i in 1 2 3; do
+            if node scripts/qa-check.mjs; then
+              echo "QA 通过（第 $i 次尝试）"
+              exit 0
+            fi
+            echo "第 $i 次失败（可能是 CDN 未传播新版本），60s 后重试"
+            sleep 60
+          done
+          echo "三次尝试均失败"
+          exit 1
         env:
           BASE: https://kk17.github.io/kidisle
