@@ -52,7 +52,7 @@ export const UI: Record<string, { zh: string; en: string }> = {
 	publisher_label: { zh: '出版社', en: 'Publisher' },
 	rating_label: { zh: '评分', en: 'Rating' },
 	links_title: { zh: '链接与来源', en: 'Links & source' },
-	brand_name: { zh: '童心岛', en: 'KidiIsle' },
+	brand_name: { zh: '童心湾', en: 'TinyCove' },
 	open_bilibili: { zh: '↗ 在 B 站打开', en: '↗ Open on Bilibili' },
 	open_youtube: { zh: '↗ 在 YouTube 打开', en: '↗ Open on YouTube' },
 	copy_link: { zh: '🔗 复制链接', en: '🔗 Copy link' },
@@ -93,11 +93,12 @@ export const SOURCE_EN: Record<string, string> = {
 };
 
 export function getLang(): Lang {
-	return (localStorage.getItem('kidisle-lang') as Lang) || 'zh';
+	// 旧 key 兜底：改名（kidisle→tinycove）前已存的语言偏好不丢
+	return ((localStorage.getItem('tinycove-lang') || localStorage.getItem('kidisle-lang')) as Lang) || 'zh';
 }
 
 export function setLang(lang: Lang) {
-	localStorage.setItem('kidisle-lang', lang);
+	localStorage.setItem('tinycove-lang', lang);
 }
 
 export function t(key: string, lang: Lang, vars?: Record<string, string | number>): string {

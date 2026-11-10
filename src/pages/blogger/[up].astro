@@ -10,7 +10,7 @@ export function getStaticPaths() {
 const { blogger } = Astro.props;
 const list = videos.videos.filter((v) => v.up === blogger.up);
 ---
-<Base mode="video" title={`${blogger.up} · 童心岛博主`} titleEn={`${blogger.up} · KidiIsle`} description={`${blogger.up} — ${blogger.reason}`}>
+<Base mode="video" title={`${blogger.up} · 童心湾博主`} titleEn={`${blogger.up} · TinyCove`} description={`${blogger.up} — ${blogger.reason}`}>
 	<main>
 		<div class="bhead">
 			<span class="bavatar">

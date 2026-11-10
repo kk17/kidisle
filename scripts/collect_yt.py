@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""kidisle YouTube 采集（英文区）。
+"""tinycove YouTube 采集（英文区）。
 
 从精选清单 data/curated/yt-links-*.md 提取 vid，用 oEmbed 补全标题/频道，
 缩略图用 i.ytimg.com 固定地址，产出 data/candidates-y.json。

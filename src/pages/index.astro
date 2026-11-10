@@ -13,7 +13,7 @@ const languages = taxonomy.languages;
 const themes = taxonomy.themes;
 const bookThemes = taxonomy.book_themes;
 ---
-<Base titleEn='KidiIsle · Curated videos & picture books for kids'>
+<Base titleEn='TinyCove · Curated videos & picture books for kids'>
 	<section class="filters" id="video-filters">
 		<div class="filter-row">
 			<span class="dim" data-i18n="filter_platform">平台</span>
@@ -208,7 +208,7 @@ const bookThemes = taxonomy.book_themes;
 	</style>
 
 	<script>
-		// ---- 模式切换：由顶栏下拉（Base）派发 kidisle:modechange ----
+		// ---- 模式切换：由顶栏下拉（Base）派发 tinycove:modechange ----
 		const videoFilters = document.getElementById('video-filters')!;
 		const bookFilters = document.getElementById('book-filters')!;
 		const videoSection = document.getElementById('video-section')!;
@@ -222,7 +222,7 @@ const bookThemes = taxonomy.book_themes;
 			bookSection.hidden = mode !== 'book';
 			if (mode === 'book') setBookView(currentBookView);
 		}
-		window.addEventListener('kidisle:modechange', (e) => setMode((e as CustomEvent).detail.mode));
+		window.addEventListener('tinycove:modechange', (e) => setMode((e as CustomEvent).detail.mode));
 		// 初始模式：Base 脚本会在挂载后派发；这里先按 hash 兜底一次
 		if (location.hash === '#books' || location.hash === '#awards') {
 			setMode('book');
@@ -344,7 +344,7 @@ const bookThemes = taxonomy.book_themes;
 				(row as HTMLElement).hidden = (row as HTMLElement).dataset.bview !== view;
 			});
 		}
-		window.addEventListener('kidisle:bookview', (e) => setBookView((e as CustomEvent).detail.view));
+		window.addEventListener('tinycove:bookview', (e) => setBookView((e as CustomEvent).detail.view));
 
 		// 奖项语言筛选
 		const awardLang = new Set<string>();

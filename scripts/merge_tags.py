@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""kidisle 打标结果合并校验器（stage 3，子 agent 流）。
+"""tinycove 打标结果合并校验器（stage 3，子 agent 流）。
 
 把若干打标 chunk JSON（打标子 agent 的产出）合并成 data/tagged.json，
 逐条过 schema 校验（枚举、字段类型），非法条目丢弃并报告。
@@ -9,7 +9,7 @@ chunk 文件格式（打标 agent 的输出）：JSON 数组，元素形如
 
 用法：
     python3 scripts/merge_tags.py chunk1.json chunk2.json ...
-    python3 scripts/merge_tags.py /tmp/kidisle-research/tags-chunk-*.json
+    python3 scripts/merge_tags.py /tmp/tinycove-research/tags-chunk-*.json
 """
 
 import json

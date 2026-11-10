@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""kidisle 绘本采集与富化（RIGE-815）。
+"""tinycove 绘本采集与富化（RIGE-815）。
 
 读 data/curated/book-links-*.md（书名 | 作者 | 豆瓣链接 | 推荐语 | 出处），
 经豆瓣 suggest + 详情页富化（评分/ISBN/封面/出版社），产 data/book-candidates.json。

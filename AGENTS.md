@@ -1,4 +1,4 @@
-# AGENTS.md — 童心岛 (kidisle)
+# AGENTS.md — 童心湾 (tinycove)
 
 > 面向 agent 的项目指南。人看的文档在 [README.md](README.md) 与 [docs/](docs/)。
 > 中文版为本源；英文说明见各文件内注释。
@@ -8,16 +8,16 @@
 儿童内容精选站：**796 条视频**（B站 519 + YouTube 277）+ **451 本绘本**，
 双语（中/EN）、PWA 可安装、静态快照模式（无运行时 API 依赖）。
 
-- 线上：https://kk17.github.io/kidisle/
+- 线上：https://tinycove.github.io/
 - 技术栈：Astro 7 + 原生 TS，无框架依赖
 
 ## 常用命令
 
 ```bash
-npm run dev          # 开发服务器（源码热更新，http://localhost:4321/kidisle）
+npm run dev          # 开发服务器（源码热更新，http://localhost:4321/）
 npm run build        # 构建静态站到 dist/
 npm run preview      # 预览构建产物
-npm run qa           # QA 状态矩阵（对线上 https://kk17.github.io/kidisle/）
+npm run qa           # QA 状态矩阵（对线上 https://tinycove.github.io/）
 npm run qa:local     # QA 状态矩阵（对本地 dist/，自动 build）
 ```
 

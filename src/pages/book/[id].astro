@@ -25,7 +25,7 @@ const themeEn = {
 const ageEn = { '0-3': '0–3 yrs', '3-6': '3–6 yrs', '6-9': '6–9 yrs', '9-12': '9–12 yrs' };
 const langEn = { zh: 'Chinese', en: 'English', bilingual: 'Bilingual' };
 ---
-<Base mode="book" title={`${b.title} · 童心岛绘本`} titleEn={`${b.title} · KidiIsle`} description={`${b.title} — ${b.reason ?? ''}`}>
+<Base mode="book" title={`${b.title} · 童心湾绘本`} titleEn={`${b.title} · TinyCove`} description={`${b.title} — ${b.reason ?? ''}`}>
 	<main class="bookpage">
 		<div class="left">
 			<div class="coverwrap">
@@ -72,7 +72,7 @@ const langEn = { zh: 'Chinese', en: 'English', bilingual: 'Bilingual' };
 					{b.goodreads_url && <a href={b.goodreads_url} target="_blank" rel="noopener">Goodreads ↗</a>}
 					<a
 						class="feedback"
-						href={`https://github.com/kk17/kidisle/issues/new?template=book-feedback.yml&title=${encodeURIComponent(`[图书反馈] ${b.title}`)}&book-title=${encodeURIComponent(b.title)}&isbn=${b.isbn ?? ""}`}
+						href={`https://github.com/tinycove/tinycove.github.io/issues/new?template=book-feedback.yml&title=${encodeURIComponent(`[图书反馈] ${b.title}`)}&book-title=${encodeURIComponent(b.title)}&isbn=${b.isbn ?? ""}`}
 						target="_blank"
 						rel="noopener"
 						data-i18n="feedback_btn"
@@ -142,15 +142,15 @@ const langEn = { zh: 'Chinese', en: 'English', bilingual: 'Bilingual' };
 </style>
 
 <script>
-	// 标签双语：跟全局 kidisle:langchange 事件走（Base 的 data-i18n 覆盖不了 data-zh/data-en 内容标签）
+	// 标签双语：跟全局 tinycove:langchange 事件走（Base 的 data-i18n 覆盖不了 data-zh/data-en 内容标签）
 	function applyLang(e) {
-		const lang = e?.detail?.lang || localStorage.getItem('kidisle-lang') || 'zh';
+		const lang = e?.detail?.lang || localStorage.getItem('tinycove-lang') || localStorage.getItem('kidisle-lang') || 'zh';
 		document.querySelectorAll('[data-zh][data-en]').forEach((el) => {
 			el.textContent = lang === 'en' ? el.dataset.en! : el.dataset.zh!;
 		});
 	}
 	document.addEventListener('DOMContentLoaded', applyLang);
-	window.addEventListener('kidisle:langchange', applyLang);
+	window.addEventListener('tinycove:langchange', applyLang);
 	// Base 脚本先跑（module），DOMContentLoaded 前可能已派发过一次；直接再应用一次
 	applyLang(undefined as any);
 </script>

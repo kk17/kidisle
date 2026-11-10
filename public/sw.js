@@ -1,4 +1,4 @@
-/* 童心岛 Service Worker（手写极简版）
+/* 童心湾 Service Worker（手写极简版）
  * 策略：
  * - 页面导航：NetworkFirst（3s 超时回退缓存），离线可回访已浏览页面
  * - 封面图片：CacheFirst（自托管静态资源，90 天）
@@ -6,10 +6,10 @@
  * - 其他同源 GET：NetworkFirst
  * 版本号变更时 activate 清理旧缓存
  */
-const VERSION = 'v2026-11-07';
-const PAGES_CACHE = `kidisle-pages-${VERSION}`;
-const COVERS_CACHE = `kidisle-covers-${VERSION}`;
-const ASSETS_CACHE = `kidisle-assets-${VERSION}`;
+const VERSION = 'v2026-11-11';
+const PAGES_CACHE = `tinycove-pages-${VERSION}`;
+const COVERS_CACHE = `tinycove-covers-${VERSION}`;
+const ASSETS_CACHE = `tinycove-assets-${VERSION}`;
 const NAV_TIMEOUT_MS = 3000;
 
 self.addEventListener('install', (event) => {

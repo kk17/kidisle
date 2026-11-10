@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""kidisle LLM 过滤打标管线（stage 3）。
+"""tinycove LLM 过滤打标管线（stage 3）。
 
 读入 data/candidates.json（collect.py 产出），用 OpenAI 兼容接口对每条候选做：
 1. 儿童适宜性过滤（kida_safe=false 的直接淘汰）

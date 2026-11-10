@@ -2,8 +2,8 @@
 import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
-// GitHub Pages 项目站：部署在 https://kk17.github.io/kidisle/ 子路径下
+// GitHub Pages 组织站：仓库 tinycove.github.io → 部署在 https://tinycove.github.io/ 根路径
 export default defineConfig({
-	site: 'https://kk17.github.io',
-	base: '/kidisle',
+	site: 'https://tinycove.github.io',
+	base: '/',
 });

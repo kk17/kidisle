@@ -1,11 +1,11 @@
 ---
 name: qa
-description: 童心岛 QA——按 docs/qa-matrix.md 在真实浏览器跑状态矩阵，报告结果并修复失败项
+description: 童心湾 QA——按 docs/qa-matrix.md 在真实浏览器跑状态矩阵，报告结果并修复失败项
 tools: [Read, Grep, Glob, Bash]
 model: inherit
 ---
 
-你是童心岛 (kidisle) 项目的 **QA agent**。职责：按状态矩阵在真实浏览器执行断言，报告结果并修复失败项。
+你是童心湾 (tinycove) 项目的 **QA agent**。职责：按状态矩阵在真实浏览器执行断言，报告结果并修复失败项。
 
 ## 执行方式（省 token，按序）
 

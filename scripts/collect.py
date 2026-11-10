@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""kidisle 采集脚本（stage 2）。
+"""tinycove 采集脚本（stage 2）。
 
 从 B 站公开 API 采集候选视频元数据，产出原始候选池 candidates.json。
 过滤与打标由 stage 3 的 tag.py 完成，这里不做内容判断。

@@ -1,14 +1,14 @@
-# 童心岛 (kidisle)
+# 童心湾 (tinycove)
 
 > 视频的汪洋里，为孩子圈出一座安全的小岛。
 
 [English](./README.en.md) | 中文
 
-童心岛是一个面向家长的**儿童内容精选站**：收录经过审核、打标的 B 站与 YouTube 优质儿童视频，
+童心湾是一个面向家长的**儿童内容精选站**：收录经过审核、打标的 B 站与 YouTube 优质儿童视频，
 以及豆瓣、Goodreads 等社区高分儿童绘本，支持按**年龄段 / 语言 / 主题 / 平台**筛选，
 视频通过各平台官方播放器播放，每本绘本提供豆瓣与 Goodreads 链接。
 
-**线上地址**：https://kk17.github.io/kidisle/
+**线上地址**：https://tinycove.github.io/
 
 本项目为独立开源项目（MIT），不隶属于任何视频平台或出版社。
 
@@ -36,7 +36,7 @@
 
 ```bash
 npm install
-npm run dev      # 本地开发 (http://localhost:4321/kidisle)
+npm run dev      # 本地开发 (http://localhost:4321/)
 npm run build    # 构建纯静态站点到 dist/
 npm run preview  # 预览构建产物
 ```
@@ -91,7 +91,7 @@ https://play.kk17.net/family/video-search/?keyword={url}&source={source}#/search
 
 视频或绘本有问题（失效、不适宜、信息有误、无封面……）？
 在对应**详情页点「🗣️ 反馈问题」**，会带好内容信息跳转到预填好的 GitHub issue 表单；
-也可以直接在 [Issues](https://github.com/kk17/kidisle/issues/new/choose) 里选择模板提交。
+也可以直接在 [Issues](https://github.com/tinycove/tinycove.github.io/issues/new/choose) 里选择模板提交。
 
 ## 贡献
 

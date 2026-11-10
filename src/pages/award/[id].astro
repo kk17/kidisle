@@ -22,7 +22,7 @@ const byYear = (() => {
 })();
 const totalBooks = byYear.reduce((n, [, list]) => n + list.length, 0);
 ---
-<Base mode="book" title={`${award.name} · 童心岛奖项`} titleEn={`${award.name_en} · KidiIsle`} description={`${award.name}（${award.region}）— ${award.intro_en || award.intro}`}>
+<Base mode="book" title={`${award.name} · 童心湾奖项`} titleEn={`${award.name_en} · TinyCove`} description={`${award.name}（${award.region}）— ${award.intro_en || award.intro}`}>
 	<main class="awardpage">
 		<div class="ahead">
 			<div class="ahead-main">
@@ -105,6 +105,6 @@ const totalBooks = byYear.reduce((n, [, list]) => n + list.length, 0);
 			if (e) el.textContent = lang === 'en' ? e[1] : e[0];
 		});
 	}
-	window.addEventListener('kidisle:langchange', (e) => syncLangBadge(e.detail.lang));
-	syncLangBadge((localStorage.getItem('kidisle-lang') as 'zh' | 'en') || 'zh');
+	window.addEventListener('tinycove:langchange', (e) => syncLangBadge(e.detail.lang));
+	syncLangBadge(((localStorage.getItem('tinycove-lang') || localStorage.getItem('kidisle-lang')) as 'zh' | 'en') || 'zh');
 </script>

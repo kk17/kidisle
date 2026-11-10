@@ -8,7 +8,6 @@ import { fileURLToPath } from 'node:url';
 const root = fileURLToPath(new URL('../dist/', import.meta.url));
 const server = http.createServer((req, res) => {
 	let p = decodeURIComponent(new URL(req.url, 'http://x').pathname);
-	if (p.startsWith('/kidisle')) p = p.slice('/kidisle'.length) || '/';
 	let f = root + p;
 	if (f.endsWith('/')) f += 'index.html';
 	try { res.writeHead(200); res.end(readFileSync(f)); } catch { res.writeHead(404); res.end(); }
@@ -21,7 +20,7 @@ page.on('console', m => console.log('[console]', m.type(), m.text().slice(0, 150
 page.on('pageerror', e => console.log('[pageerror]', String(e).slice(0, 200)));
 page.on('requestfailed', r => console.log('[reqfail]', r.url().slice(0, 90), r.failure()?.errorText));
 
-await page.goto('http://localhost:' + server.address().port + '/kidisle/?v=' + Date.now());
+await page.goto('http://localhost:' + server.address().port + '/?v=' + Date.now());
 await page.waitForLoadState('domcontentloaded');
 await page.waitForTimeout(1500);
 

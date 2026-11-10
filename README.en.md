@@ -1,16 +1,16 @@
-# KidiIsle (kidisle)
+# TinyCove (tinycove)
 
 [中文](./README.md) | English
 
 > A safe little island in the ocean of online video — for kids.
 
-KidiIsle is a **curated kids-content directory for parents**: hand-reviewed, tagged
+TinyCove is a **curated kids-content directory for parents**: hand-reviewed, tagged
 children's videos from Bilibili and YouTube, plus high-rated children's picture books
 from Douban and Goodreads communities. Filter by **age / language / topic / platform**;
 videos play through the platforms' official embeds, and every picture book links to
 Douban and Goodreads.
 
-**Live site**: https://kk17.github.io/kidisle/
+**Live site**: https://tinycove.github.io/
 
 An independent open-source project (MIT), not affiliated with any video platform or publisher.
 
@@ -38,7 +38,7 @@ An independent open-source project (MIT), not affiliated with any video platform
 
 ```bash
 npm install
-npm run dev      # dev server (http://localhost:4321/kidisle)
+npm run dev      # dev server (http://localhost:4321/)
 npm run build    # build static site to dist/
 npm run preview  # preview the build
 ```
@@ -94,7 +94,7 @@ https://play.kk17.net/family/video-search/?keyword={url}&source={source}#/search
 
 Something wrong with a video or book (broken, unsuitable, bad metadata, missing cover…)?
 Hit **"🗣️ Report an issue"** on its detail page — it opens a pre-filled GitHub issue form.
-Or pick a template directly from [Issues](https://github.com/kk17/kidisle/issues/new/choose).
+Or pick a template directly from [Issues](https://github.com/tinycove/tinycove.github.io/issues/new/choose).
 
 ## Contributing
 

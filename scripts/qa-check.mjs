@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 /**
- * 童心岛 QA 状态矩阵自动化检查（零 LLM token）
+ * 童心湾 QA 状态矩阵自动化检查（零 LLM token）
  *
  * 维度：模式(video/book) × 语言(zh/en) × 视口(desktop/mobile) × 关键页面
  * 用法：
- *   node scripts/qa-check.mjs                # 测线上 https://kk17.github.io/kidisle/
+ *   node scripts/qa-check.mjs                # 测线上 https://tinycove.github.io/
  *   node scripts/qa-check.mjs --local        # 先构建？否——需先 npm run build，脚本自带静态服务器测 dist/
- *   BASE=http://host/kidisle node scripts/qa-check.mjs   # 测任意已部署地址
+ *   BASE=http://host/ node scripts/qa-check.mjs            # 测任意已部署地址
  * 退出码：全部通过 0，任一失败 1
  */
 import http from 'node:http';
@@ -15,13 +15,13 @@ import { chromium } from 'playwright';
 import { readFileSync } from 'node:fs';
 
 const LOCAL = process.argv.includes('--local');
-let target = (process.env.BASE || 'https://kk17.github.io/kidisle').replace(/\/$/, '');
+let target = (process.env.BASE || 'https://tinycove.github.io').replace(/\/$/, '');
 const results = [];
 let browser;
 let localServer;
 
-// --local：把 dist/ 挂载到 /kidisle 子路径（与 GitHub Pages 结构一致）
-function startLocalServer(prefix = '/kidisle') {
+// --local：把 dist/ 服务在根路径（与 GitHub Pages 组织站一致）
+function startLocalServer(prefix = '') {
 	const root = fileURLToPath(new URL('../dist/', import.meta.url));
 	return new Promise((resolve) => {
 		const srv = http.createServer((req, res) => {
@@ -89,7 +89,7 @@ async function testDesktopVideoZh(page) {
 	});
 	record('D-V-5 YouTube 筛选联动', parseInt(yt) > 0, yt);
 	const title = await text(page);
-	record('D-V-6 标题双语（zh 默认）', title.includes('童心岛'), title);
+	record('D-V-6 标题双语（zh 默认）', title.includes('童心湾'), title);
 }
 
 async function testDesktopBookZh(page) {
@@ -137,10 +137,10 @@ async function testDesktopEn(page) {
 		brand: document.querySelector('.logo').textContent.trim(),
 		leak: [...document.querySelectorAll('.site-header span, #book-filters .dim, #video-filters .dim')].filter(el => /[\u4e00-\u9fa5]/.test(el.textContent)).map(e => e.textContent),
 	}));
-	record('D-E-1 标题英文', /KidiIsle/.test(en.title), en.title);
+	record('D-E-1 标题英文', /TinyCove/.test(en.title), en.title);
 	record('D-E-2 导航英文', en.nav === 'Videos', en.nav);
 	record('D-E-3 顶栏无残留中文', en.leak.length === 0, en.leak.join(','));
-	record('D-E-4 品牌名 KidiIsle', en.brand.includes('KidiIsle'), en.brand);
+	record('D-E-4 品牌名 TinyCove', en.brand.includes('TinyCove'), en.brand);
 	await page.click('#lang-toggle'); // 切回中文
 }
 
@@ -164,7 +164,7 @@ async function testVideoDetail(page) {
 	record('V-3 反馈按钮（预填模板）', d.feedback);
 	record('V-4 B站原链存在', d.bili);
 	record('V-5 相关推荐存在', d.related > 0, `${d.related} 条`);
-	record('V-6 标题含视频名', d.title.includes('童心岛'), d.title);
+	record('V-6 标题含视频名', d.title.includes('童心湾'), d.title);
 }
 
 async function testBookDetail(page) {
@@ -253,7 +253,7 @@ async function testPWA(page) {
 	await page.waitForLoadState('domcontentloaded');
 	await page.waitForTimeout(4000);
 	const pwa = await page.evaluate(async () => {
-		const reg = await navigator.serviceWorker.getRegistration('/kidisle/');
+		const reg = await navigator.serviceWorker.getRegistration('/');
 		const m = await (await fetch(document.querySelector('link[rel="manifest"]').href)).json();
 		return { sw: Boolean(reg?.active || reg?.installing), scope: reg?.scope || null,
 			manifestIcons: m.icons?.length || 0, display: m.display };
@@ -265,7 +265,7 @@ async function testPWA(page) {
 // ---- 主流程 ----
 (async () => {
 	if (LOCAL) {
-		target = await startLocalServer() + '/kidisle';
+		target = await startLocalServer();
 		console.log(`本地模式：${target}`);
 	}
 	browser = await chromium.launch();

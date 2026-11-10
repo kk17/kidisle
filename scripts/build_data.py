@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""kidisle 数据发布脚本（stage 3 → 站点之间的桥）。
+"""tinycove 数据发布脚本（stage 3 → 站点之间的桥）。
 
 把 tag.py 的打标结果（data/tagged.json）合入站点数据源 src/data/videos.json：
 - 只收录 suitable=true 的条目

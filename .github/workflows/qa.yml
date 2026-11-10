@@ -34,4 +34,4 @@ jobs:
           echo "三次尝试均失败"
           exit 1
         env:
-          BASE: https://kk17.github.io/kidisle
+          BASE: https://tinycove.github.io
