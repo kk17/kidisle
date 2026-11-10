@@ -220,6 +220,7 @@ const bookThemes = taxonomy.book_themes;
 			bookFilters.hidden = mode !== 'book';
 			videoSection.hidden = mode !== 'video';
 			bookSection.hidden = mode !== 'book';
+			if (mode === 'book') setBookView(currentBookView);
 		}
 		window.addEventListener('kidisle:modechange', (e) => setMode((e as CustomEvent).detail.mode));
 		// 初始模式：Base 脚本会在挂载后派发；这里先按 hash 兜底一次
