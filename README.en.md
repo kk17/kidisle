@@ -2,7 +2,7 @@
 
 [中文](./README.md) | English
 
-> A safe little island in the ocean of online video — for kids.
+> A quiet little cove in the ocean of online content — for kids.
 
 TinyCove is a **curated kids-content directory for parents**: hand-reviewed, tagged
 children's videos from Bilibili and YouTube, plus high-rated children's picture books
