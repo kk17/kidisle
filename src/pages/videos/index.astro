@@ -1,0 +1,159 @@
+---
+// 视频片单（RIGE-1021 URL 统一：原首页视频模式迁到 /videos/，根路径 / 重定向至此）
+import Base from '../../layouts/Base.astro';
+import VideoCard from '../../components/VideoCard.astro';
+import taxonomy from '../../data/taxonomy.json';
+import videos from '../../data/videos.json';
+
+const ageBands = taxonomy.age_bands;
+const languages = taxonomy.languages;
+const themes = taxonomy.themes;
+---
+<Base description="童心湾精选的 796 条儿童视频（B站 + YouTube），按年龄段、语言、主题筛选。">
+	<section class="filters" id="video-filters">
+		<div class="filter-row">
+			<span class="dim" data-i18n="filter_platform">平台</span>
+			<div class="options">
+				<button class="chip" data-dim="platform" data-v="bilibili" data-tag="bilibili" data-tag-dim="platform" aria-pressed="false">B站</button>
+				<button class="chip" data-dim="platform" data-v="youtube" data-tag="youtube" data-tag-dim="platform" aria-pressed="false">YouTube</button>
+				<button class="chip" id="plat-all" aria-pressed="true" data-i18n="all">全部</button>
+			</div>
+		</div>
+		<div class="filter-row">
+			<span class="dim" data-i18n="filter_age">年龄段</span>
+			<div class="options">
+				{ageBands.map((t) => <button class="chip" data-dim="age" data-v={t.id} data-tag={t.id} data-tag-dim="age" aria-pressed="false">{t.label}</button>)}
+				<button class="chip-clear" data-clear="age" data-i18n="clear">清空</button>
+				<span class="count" id="count"></span>
+			</div>
+		</div>
+		<div class="filter-row">
+			<span class="dim" data-i18n="filter_language">语言</span>
+			<div class="options">
+				{languages.map((t) => <button class="chip" data-dim="language" data-v={t.id} data-tag={t.id} data-tag-dim="language" aria-pressed="false">{t.label}</button>)}
+				<button class="chip-clear" data-clear="language" data-i18n="clear">清空</button>
+			</div>
+		</div>
+		<div class="filter-row">
+			<span class="dim" data-i18n="filter_theme">主题</span>
+			<div class="options">
+				{themes.map((t) => <button class="chip" data-dim="theme" data-v={t.id} data-tag={t.id} data-tag-dim="theme" aria-pressed="false">{t.label}</button>)}
+				<button class="chip-clear" data-clear="theme" data-i18n="clear">清空</button>
+			</div>
+		</div>
+	</section>
+
+	<main>
+		<ul class="grid" id="grid" style="list-style:none">
+			{
+				videos.videos.map((v) => (
+					<li
+						class="cell"
+						data-platform={v.source}
+						data-age={JSON.stringify(v.tags.age)}
+						data-language={JSON.stringify(v.tags.language)}
+						data-theme={JSON.stringify(v.tags.theme)}
+					>
+						<VideoCard video={v} />
+					</li>
+				))
+			}
+		</ul>
+		<div class="empty" id="empty" hidden data-i18n="empty_home">这个组合下暂时没有视频，换个筛选试试～</div>
+	</main>
+
+	<style>
+		.filters {
+			position: sticky; top: 52px; z-index: 10;
+			background: rgba(240, 249, 255, 0.92); backdrop-filter: blur(6px);
+			border-bottom: 1px solid var(--line);
+			padding: 0.6rem 1rem;
+			display: flex; flex-direction: column; gap: 0.4rem;
+			max-width: var(--maxw); margin: 0 auto;
+		}
+		/* 每个筛选维度占一行：标签按内容自适应宽度（英文长词不溢出），选项在其右侧换行 */
+		.filter-row { display: flex; align-items: flex-start; gap: 0.5rem; }
+		.filter-row .dim {
+			font-size: 0.78rem; color: var(--muted);
+			white-space: nowrap; flex: 0 0 auto;
+			min-width: 3.2em; padding-top: 0.28rem;
+		}
+		.filter-row .options {
+			display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap;
+			flex: 1 1 auto; min-width: 0;
+		}
+		.filter-row .count { margin-left: auto; }
+		.chip {
+			font-size: 0.82rem; padding: 0.26rem 0.8rem; border-radius: 999px;
+			border: 1px solid var(--line); background: var(--card); color: var(--ink);
+			cursor: pointer; user-select: none;
+		}
+		.chip[aria-pressed='true'] { background: var(--sea); border-color: var(--sea); color: #fff; }
+		.chip-clear {
+			font-size: 0.78rem; color: var(--sea); background: none; border: none;
+			cursor: pointer; text-decoration: underline;
+		}
+		.count { font-size: 0.8rem; color: var(--muted); margin-left: auto; }
+		.grid {
+			margin: 0 auto; padding: 1rem 1rem 3rem; max-width: var(--maxw);
+			display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem;
+		}
+		.empty { text-align: center; color: var(--muted); padding: 3rem 1rem; }
+	</style>
+
+	<script>
+		const state: Record<string, Set<string>> = {
+			platform: new Set(),
+			age: new Set(),
+			language: new Set(),
+			theme: new Set(),
+		};
+		const platAllBtn = document.getElementById('plat-all')!;
+		function syncPlatAll() {
+			platAllBtn.setAttribute('aria-pressed', String(state.platform.size === 0));
+		}
+		const cells = Array.from(document.querySelectorAll<HTMLLIElement>('.cell'));
+		const countEl = document.getElementById('count')!;
+		const emptyEl = document.getElementById('empty')!;
+
+		function apply() {
+			let shown = 0;
+			for (const cell of cells) {
+				const ok = (['age', 'language', 'theme'] as const).every((dim) => {
+						if (state[dim].size === 0) return true;
+						const vals: string[] = JSON.parse(cell.dataset[dim] || '[]');
+						return vals.some((v) => state[dim].has(v));
+					}) && (state.platform.size === 0 || state.platform.has(cell.dataset.platform));
+				cell.style.display = ok ? '' : 'none';
+				if (ok) shown++;
+			}
+			countEl.textContent = `${shown} / ${cells.length}`;
+			emptyEl.hidden = shown > 0;
+		}
+		// 平台「全部」：单独绑定——它没有 data-dim，进不了下面的 [data-dim] 循环（review 2026-11-11 发现的死按钮）
+		platAllBtn.addEventListener('click', () => {
+			state.platform.clear();
+			document.querySelectorAll<HTMLButtonElement>('.chip[data-dim="platform"]').forEach((c) => c.setAttribute('aria-pressed', 'false'));
+			syncPlatAll();
+			apply();
+		});
+		document.querySelectorAll<HTMLButtonElement>('.chip[data-dim]').forEach((chip) => {
+			chip.addEventListener('click', () => {
+				const set = state[chip.dataset.dim!];
+				const v = chip.dataset.v!;
+				if (set.has(v)) { set.delete(v); chip.setAttribute('aria-pressed', 'false'); }
+				else { set.add(v); chip.setAttribute('aria-pressed', 'true'); }
+				syncPlatAll();
+				apply();
+			});
+		});
+		document.querySelectorAll<HTMLButtonElement>('.chip-clear[data-clear]').forEach((btn) => {
+			btn.addEventListener('click', () => {
+				state[btn.dataset.clear!].clear();
+				document.querySelectorAll<HTMLButtonElement>(`.chip[data-dim="${btn.dataset.clear}"]`).forEach((c) => c.setAttribute('aria-pressed', 'false'));
+				apply();
+			});
+		});
+		apply();
+	</script>
+</Base>

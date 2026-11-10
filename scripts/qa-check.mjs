@@ -2,11 +2,12 @@
 /**
  * 童心湾 QA 状态矩阵自动化检查（零 LLM token）
  *
- * 维度：模式(video/book) × 语言(zh/en) × 视口(desktop/mobile) × 关键页面
+ * 维度：页面(videos/books/awards/bloggers/详情页) × 语言(zh/en) × 视口(desktop/mobile)
+ * URL 方案（RIGE-1021）：每个视图一张真实静态页（/videos/ /books/ /awards/ /bloggers/），/ 重定向到 /videos/
  * 用法：
- *   node scripts/qa-check.mjs                # 测线上 https://tinycove.github.io/
- *   node scripts/qa-check.mjs --local        # 先构建？否——需先 npm run build，脚本自带静态服务器测 dist/
- *   BASE=http://host/ node scripts/qa-check.mjs            # 测任意已部署地址
+ *   node scripts/qa-check.mjs                # 测线上 https://tinycove.github.io
+ *   node scripts/qa-check.mjs --local        # 测 dist/（需先 npm run build，脚本自带静态服务器）
+ *   BASE=http://host node scripts/qa-check.mjs   # 测任意已部署地址
  * 退出码：全部通过 0，任一失败 1
  */
 import http from 'node:http';
@@ -43,7 +44,10 @@ function startLocalServer(prefix = '') {
 				res.end('not found');
 			}
 		});
-		srv.listen(0, () => resolve(`http://localhost:${srv.address().port}`));
+		srv.listen(0, () => {
+			localServer = srv; // 捕获服务器对象，跑完关闭让进程正常退出
+			resolve(`http://localhost:${srv.address().port}`);
+		});
 	});
 }
 
@@ -52,82 +56,138 @@ function record(id, ok, detail = '') {
 	console.log(`${ok ? '✅' : '❌'} ${id}${detail ? ' — ' + detail : ''}`);
 }
 
-async function text(page) { return page.evaluate(() => document.title); }
+async function title(page) { return page.evaluate(() => document.title); }
+async function pathName(page) { return new URL(page.url()).pathname; }
 async function noLeak(page) {
 	return page.evaluate(() => !document.body.innerText.slice(0, 300).includes('description='));
 }
-async function noHScroll(page) {
-	return page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1);
-}
 
-async function testDesktopVideoZh(page) {
+// ---- 根路径重定向 ----
+async function testRootRedirect(page) {
 	await page.goto(`${target}/?v=${Date.now()}`);
 	await page.waitForLoadState('domcontentloaded');
+	await page.waitForTimeout(1200);
+	const p = await pathName(page);
+	record('R-1 根路径 / 重定向到 /videos/', p === '/videos/', p);
+}
+
+// ---- 视频片单 /videos/（中文桌面）----
+async function testVideosZh(page) {
+	await page.goto(`${target}/videos/?v=${Date.now()}`);
+	await page.waitForLoadState('domcontentloaded');
 	await page.waitForTimeout(800);
-	const sel = page.locator('#datatype');
-	await sel.selectOption('video');
-	const state = await page.evaluate(() => {
-		const vis = (id) => getComputedStyle(document.getElementById(id)).display !== 'none';
-		const rows = [...document.querySelectorAll('#video-filters .filter-row')].filter(r => getComputedStyle(r).display !== 'none').length;
+	const s = await page.evaluate(() => {
+		const vis = (id) => { const el = document.getElementById(id); return el && getComputedStyle(el).display !== 'none'; };
 		return {
+			sel: document.getElementById('datatype').value,
 			navtabs: vis('navtabs'), chipsHidden: !vis('bookview-chips'),
-			videoSection: vis('video-section'), bookSectionHidden: !vis('book-section'),
-			filterRows: rows,
+			cur: document.querySelector('#navtabs a[aria-current="page"] span')?.textContent,
+			rows: document.querySelectorAll('#video-filters .filter-row').length,
 			cards: document.querySelectorAll('#grid .cell:not([style*="none"])').length,
 			badges: document.querySelectorAll('#grid .vplat').length,
 			count: document.getElementById('count').textContent,
 		};
 	});
-	record('D-V-1 顶栏：tab 可见 / chips 隐藏', state.navtabs && state.chipsHidden);
-	record('D-V-2 视频区可见 / 图书区隐藏', state.videoSection && state.bookSectionHidden);
-	record('D-V-3 四行筛选可见', state.filterRows === 4, `实际 ${state.filterRows}`);
-	record('D-V-4 卡片数 = 796 且平台角标齐全', state.cards === 796 && state.badges >= 796, `cards=${state.cards} badges=${state.badges}`);
+	record('D-V-1 下拉=video / tab 可见 / chips 隐藏', s.sel === 'video' && s.navtabs && s.chipsHidden, `sel=${s.sel}`);
+	record('D-V-2 视频 tab aria-current', s.cur === '视频', s.cur);
+	record('D-V-3 四行筛选可见', s.rows === 4, `实际 ${s.rows}`);
+	record('D-V-4 卡片数 = 796 且平台角标齐全', s.cards === 796 && s.badges >= 796, `cards=${s.cards} badges=${s.badges}`);
+	record('D-V-5 计数样式 shown / total', s.count === '796 / 796', s.count);
 	const yt = await page.evaluate(() => {
 		const chip = [...document.querySelectorAll('#video-filters .chip')].find(c => c.dataset.v === 'youtube');
 		chip.click();
 		return document.getElementById('count').textContent;
 	});
-	record('D-V-5 YouTube 筛选联动', parseInt(yt) > 0, yt);
-	const title = await text(page);
-	record('D-V-6 标题双语（zh 默认）', title.includes('童心湾'), title);
-}
-
-async function testDesktopBookZh(page) {
-	const sel = page.locator('#datatype');
-	await sel.selectOption('book');
-	const state = await page.evaluate(() => {
-		const vis = (id) => getComputedStyle(document.getElementById(id)).display !== 'none';
-		const rows = [...document.querySelectorAll('#book-filters .filter-row')].filter(r => getComputedStyle(r).display !== 'none').map(r => r.dataset.bview);
+	record('D-V-6 YouTube 筛选联动', parseInt(yt) > 0 && yt !== '796 / 796', yt);
+	// 平台「全部」复位（RIGE-1021 review：plat-all 此前是死按钮，补回归断言）
+	const reset = await page.evaluate(() => {
+		const chip = [...document.querySelectorAll('#video-filters .chip')].find(c => c.dataset.v === 'bilibili');
+		chip.click();
+		document.getElementById('plat-all').click();
 		return {
-			navtabsHidden: getComputedStyle(document.getElementById('navtabs')).display === 'none',
-			chipsVisible: vis('bookview-chips'),
-			bookSection: vis('book-section'),
-			rows,
-			bookCards: document.querySelectorAll('#book-grid .bookcell').length,
-			awardCards: document.querySelectorAll('#award-grid .awardcell').length,
-			themeChips: [...document.querySelectorAll('#book-filters .chip[data-bdim="theme"]')].map(c => c.textContent.trim()),
+			count: document.getElementById('count').textContent,
+			pressed: document.getElementById('plat-all').getAttribute('aria-pressed'),
 		};
 	});
-	record('D-B-1 tab 隐藏 / chips 显示', state.navtabsHidden && state.chipsVisible);
-	record('D-B-2 书目视图行 = 年龄/语言/主题（无奖项语言）', state.rows.filter(r => r === 'books').length === 3 && !state.rows.includes('awards'), state.rows.join(','));
-	record('D-B-3 绘本 451 本', state.bookCards === 451, `实际 ${state.bookCards}`);
-	record('D-B-4 奖项 10 张卡片', state.awardCards === 10);
-	record('D-B-5 图书专属主题 9 类（interactive 已移除）', state.themeChips.length === 9 && !state.themeChips.includes('动画'), state.themeChips.join('/'));
-
-	// 奖项视图
-	await page.click('#bv-awards');
-	const awardView = await page.evaluate(() => {
-		const rows = [...document.querySelectorAll('#book-filters .filter-row')].filter(r => getComputedStyle(r).display !== 'none').map(r => r.dataset.bview);
-		const grid = getComputedStyle(document.getElementById('awards-grid')).display !== 'none';
-		const bookGridHidden = getComputedStyle(document.getElementById('book-grid')).display === 'none';
-		return { rows, grid, bookGridHidden };
-	});
-	record('D-B-6 奖项视图：仅奖项语言行 + 卡片墙可见', awardView.rows.length === 1 && awardView.rows[0] === 'awards' && awardView.grid && awardView.bookGridHidden);
-	await page.click('#bv-books');
+	record('D-V-7 平台「全部」复位联动', reset.count === '796 / 796' && reset.pressed === 'true', `${reset.count} pressed=${reset.pressed}`);
+	const t1 = await title(page);
+	record('D-V-8 标题双语（zh 默认）', t1.includes('童心湾'), t1);
+	record('D-V-9 无裸文本泄漏', await noLeak(page));
 }
 
-async function testDesktopEn(page) {
-	await page.goto(`${target}/?v=${Date.now()}`);
+// ---- 绘本书单 /books/（中文桌面）----
+async function testBooksZh(page) {
+	await page.goto(`${target}/books/?v=${Date.now()}`);
+	await page.waitForLoadState('domcontentloaded');
+	await page.waitForTimeout(800);
+	const s = await page.evaluate(() => {
+		const vis = (id) => { const el = document.getElementById(id); return el && getComputedStyle(el).display !== 'none'; };
+		const dims = [...document.querySelectorAll('#book-filters .dim')].map(d => d.textContent.trim());
+		return {
+			sel: document.getElementById('datatype').value,
+			navtabsHidden: !vis('navtabs'), chips: vis('bookview-chips'),
+			booksChipCur: document.getElementById('bv-books')?.getAttribute('aria-current'),
+			dims,
+			bookCards: document.querySelectorAll('#book-grid .bookcell:not([style*="none"])').length,
+			count: document.getElementById('book-count').textContent,
+			themeChips: [...document.querySelectorAll('#book-filters .chip[data-dim="theme"]')].map(c => c.textContent.trim()),
+		};
+	});
+	record('D-B-1 下拉=book / tab 隐藏 / chips 显示', s.sel === 'book' && s.navtabsHidden && s.chips, `sel=${s.sel}`);
+	record('D-B-2 书目 chip aria-current', s.booksChipCur === 'page', String(s.booksChipCur));
+	record('D-B-3 筛选行 = 年龄/语言/主题（无奖项语言）', s.dims.length === 3 && !s.dims.includes('奖项语言'), s.dims.join(','));
+	record('D-B-4 绘本 451 本', s.bookCards === 451, `实际 ${s.bookCards}`);
+	record('D-B-5 计数样式 shown / total', s.count === '451 / 451', s.count);
+	record('D-B-6 图书专属主题 9 类（interactive 已移除）', s.themeChips.length === 9 && !s.themeChips.includes('动画'), s.themeChips.join('/'));
+	// 顶栏 奖项 chip → 导航到 /awards/
+	await page.click('#bv-awards');
+	await page.waitForLoadState('domcontentloaded');
+	const p = await pathName(page);
+	record('D-B-7 顶栏「奖项」chip 跳转 /awards/', p === '/awards/', p);
+}
+
+// ---- 奖项目录 /awards/（中文桌面）----
+async function testAwardsZh(page) {
+	await page.goto(`${target}/awards/?v=${Date.now()}`);
+	await page.waitForLoadState('domcontentloaded');
+	await page.waitForTimeout(800);
+	const s = await page.evaluate(() => {
+		const vis = (id) => { const el = document.getElementById(id); return el && getComputedStyle(el).display !== 'none'; };
+		return {
+			sel: document.getElementById('datatype').value,
+			navtabsHidden: !vis('navtabs'), chips: vis('bookview-chips'),
+			awardsChipCur: document.getElementById('bv-awards')?.getAttribute('aria-current'),
+			dim: document.querySelector('#award-filters .dim')?.textContent.trim(),
+			awardCards: document.querySelectorAll('#award-grid .awardcell:not([style*="none"])').length,
+			count: document.getElementById('award-count').textContent,
+		};
+	});
+	record('D-A-1 下拉=book / tab 隐藏 / chips 显示', s.sel === 'book' && s.navtabsHidden && s.chips, `sel=${s.sel}`);
+	record('D-A-2 奖项 chip aria-current', s.awardsChipCur === 'page', String(s.awardsChipCur));
+	record('D-A-3 仅奖项语言一行筛选', s.dim === '奖项语言', s.dim);
+	record('D-A-4 奖项 10 张卡片', s.awardCards === 10, `实际 ${s.awardCards}`);
+	record('D-A-5 计数样式 shown / total', s.count === '10 / 10', s.count);
+	// 英文奖项筛选联动
+	const en = await page.evaluate(() => {
+		const chip = [...document.querySelectorAll('#award-filters .chip')].find(c => c.dataset.awardLang === 'en');
+		chip.click();
+		return {
+			shown: document.querySelectorAll('#award-grid .awardcell:not([style*="none"])').length,
+			count: document.getElementById('award-count').textContent,
+		};
+	});
+	record('D-A-6 英文奖项筛选 = 3 张', en.shown === 3 && en.count === '3 / 10', `${en.shown} ${en.count}`);
+	await page.evaluate(() => document.getElementById('award-lang-all').click());
+	// 顶栏 书目 chip → 导航回 /books/
+	await page.click('#bv-books');
+	await page.waitForLoadState('domcontentloaded');
+	const p = await pathName(page);
+	record('D-A-7 顶栏「书目」chip 跳转 /books/', p === '/books/', p);
+}
+
+// ---- 英文态（videos / books / awards）----
+async function testEn(page) {
+	await page.goto(`${target}/videos/?v=${Date.now()}`);
 	await page.waitForLoadState('domcontentloaded');
 	await page.click('#lang-toggle');
 	await page.waitForTimeout(400);
@@ -135,15 +195,34 @@ async function testDesktopEn(page) {
 		title: document.title,
 		nav: document.querySelector('[data-i18n="nav_videos"]').textContent,
 		brand: document.querySelector('.logo').textContent.trim(),
-		leak: [...document.querySelectorAll('.site-header span, #book-filters .dim, #video-filters .dim')].filter(el => /[\u4e00-\u9fa5]/.test(el.textContent)).map(e => e.textContent),
+		leak: [...document.querySelectorAll('.site-header span, #video-filters .dim')].filter(el => /[\u4e00-\u9fa5]/.test(el.textContent)).map(e => e.textContent),
 	}));
 	record('D-E-1 标题英文', /TinyCove/.test(en.title), en.title);
 	record('D-E-2 导航英文', en.nav === 'Videos', en.nav);
 	record('D-E-3 顶栏无残留中文', en.leak.length === 0, en.leak.join(','));
 	record('D-E-4 品牌名 TinyCove', en.brand.includes('TinyCove'), en.brand);
+
+	await page.goto(`${target}/books/?v=${Date.now()}`);
+	await page.waitForLoadState('domcontentloaded');
+	await page.waitForTimeout(400);
+	const bk = await page.evaluate(() => ({
+		dims: [...document.querySelectorAll('#book-filters .dim')].map(d => d.textContent.trim()),
+	}));
+	record('D-E-5 书目页维度英文', bk.dims.join(',') === 'Age,Language,Topic', bk.dims.join(','));
+
+	await page.goto(`${target}/awards/?v=${Date.now()}`);
+	await page.waitForLoadState('domcontentloaded');
+	await page.waitForTimeout(400);
+	const aw = await page.evaluate(() => ({
+		dim: document.querySelector('#award-filters .dim').textContent.trim(),
+		chip: [...document.querySelectorAll('#award-filters .chip')].map(c => c.textContent.trim()),
+	}));
+	record('D-E-6 奖项页筛选英文', aw.dim === 'Award language' && aw.chip.join(',') === 'All,Chinese awards,English awards,International awards', `${aw.dim} ${aw.chip.join(',')}`);
+
 	await page.click('#lang-toggle'); // 切回中文
 }
 
+// ---- 详情页 ----
 async function testVideoDetail(page) {
 	await page.goto(`${target}/video/BV11341157Wz/?v=${Date.now()}`);
 	await page.waitForLoadState('domcontentloaded');
@@ -208,48 +287,55 @@ async function testAwardDetail(page) {
 	record('A-4 官网链接', d.official);
 }
 
-async function testMobileBloggers(page) {
-	await page.goto(`${target}/bloggers/?v=${Date.now()}`);
-	await page.waitForLoadState('domcontentloaded');
-	await page.waitForTimeout(600);
-	const m = await page.evaluate(() => {
-		const chips = [...document.querySelectorAll('#themebar .chip')].map(c => Math.round(c.getBoundingClientRect().height));
-		return { noHScroll: document.documentElement.scrollWidth <= window.innerWidth + 1,
-			maxChipH: Math.max(...chips), chipCount: chips.length };
-	});
-	record('M-C-1 博主页主题行无溢出', m.noHScroll);
-	record('M-C-2 主题 chips 文字不竖排', m.chipCount >= 9 && m.maxChipH > 20 && m.maxChipH < 50, `${m.chipCount} chips max ${m.maxChipH}px`);
-}
-
+// ---- 移动端 ----
 async function testMobile(page) {
 	await page.setViewportSize({ width: 375, height: 812 });
-	await page.goto(`${target}/?v=${Date.now()}`);
+	await page.goto(`${target}/videos/?v=${Date.now()}`);
 	await page.waitForLoadState('domcontentloaded');
 	await page.waitForTimeout(600);
 	const video = await page.evaluate(() => ({
 		noHScroll: document.documentElement.scrollWidth <= window.innerWidth + 1,
-		navtabs: getComputedStyle(document.getElementById('navtabs')).display,
-		chipH: Math.round(document.getElementById('bv-books').getBoundingClientRect().height),
 	}));
 	record('M-V-1 无横向滚动', video.noHScroll);
 	const tabH = await page.evaluate(() => Math.round(document.querySelector('.navtabs a').getBoundingClientRect().height));
 	record('M-V-2 tab 文字不竖排（高度正常）', tabH > 20 && tabH < 50, `${tabH}px`);
-	await page.click('#datatype');
+	// 下拉切图书 → 跳转 /books/
 	await page.selectOption('#datatype', 'book');
-	await page.waitForTimeout(300);
+	await page.waitForLoadState('domcontentloaded');
+	await page.waitForTimeout(600);
+	const murl = await pathName(page);
 	const book = await page.evaluate(() => ({
 		chipsShown: getComputedStyle(document.getElementById('bookview-chips')).display !== 'none',
 		navtabsHidden: getComputedStyle(document.getElementById('navtabs')).display === 'none',
 		noHScroll: document.documentElement.scrollWidth <= window.innerWidth + 1,
 	}));
+	record('M-B-0 下拉切图书跳转 /books/', murl === '/books/', murl);
 	record('M-B-1 图书模式 chips 顶栏显示', book.chipsShown);
 	record('M-B-2 tab 隐藏', book.navtabsHidden);
 	record('M-B-3 无横向滚动', book.noHScroll);
 	await page.setViewportSize({ width: 1280, height: 800 });
 }
 
+async function testMobileBloggers(page) {
+	await page.setViewportSize({ width: 375, height: 812 });
+	await page.goto(`${target}/bloggers/?v=${Date.now()}`);
+	await page.waitForLoadState('domcontentloaded');
+	await page.waitForTimeout(600);
+	const m = await page.evaluate(() => {
+		const chips = [...document.querySelectorAll('#themebar .chip')].map(c => Math.round(c.getBoundingClientRect().height));
+		return { noHScroll: document.documentElement.scrollWidth <= window.innerWidth + 1,
+			maxChipH: Math.max(...chips), chipCount: chips.length,
+			count: document.getElementById('count')?.textContent || '' };
+	});
+	record('M-C-1 博主页主题行无溢出', m.noHScroll);
+	record('M-C-2 主题 chips 文字不竖排', m.chipCount >= 9 && m.maxChipH > 20 && m.maxChipH < 50, `${m.chipCount} chips max ${m.maxChipH}px`);
+	record('M-C-3 博主页计数样式 shown / total', /^467 \/ 467$/.test(m.count.trim()), m.count);
+	await page.setViewportSize({ width: 1280, height: 800 });
+}
+
 async function testPWA(page) {
-	await page.goto(`${target}/?v=${Date.now()}`);
+	await page.setViewportSize({ width: 1280, height: 800 });
+	await page.goto(`${target}/videos/?v=${Date.now()}`);
 	await page.waitForLoadState('domcontentloaded');
 	await page.waitForTimeout(4000);
 	const pwa = await page.evaluate(async () => {
@@ -258,7 +344,7 @@ async function testPWA(page) {
 		return { sw: Boolean(reg?.active || reg?.installing), scope: reg?.scope || null,
 			manifestIcons: m.icons?.length || 0, display: m.display };
 	});
-	record('P-1 SW 注册/安装', pwa.sw, pwa.swScope || '');
+	record('P-1 SW 注册/安装', pwa.sw, pwa.scope || '');
 	record('P-2 manifest 3 图标 + standalone', pwa.manifestIcons >= 3 && pwa.display === 'standalone');
 }
 
@@ -270,12 +356,12 @@ async function testPWA(page) {
 	}
 	browser = await chromium.launch();
 	const page = await browser.newPage({ viewport: { width: 1280, height: 800 } });
-	await page.goto(`${target}/?v=${Date.now()}`);
-	await page.waitForLoadState('domcontentloaded');
 	try {
-		await testDesktopVideoZh(page);
-		await testDesktopBookZh(page);
-		await testDesktopEn(page);
+		await testRootRedirect(page);
+		await testVideosZh(page);
+		await testBooksZh(page);
+		await testAwardsZh(page);
+		await testEn(page);
 		await testVideoDetail(page);
 		await testBookDetail(page);
 		await testAwardDetail(page);

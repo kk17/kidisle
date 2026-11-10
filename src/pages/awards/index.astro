@@ -1,0 +1,123 @@
+---
+// 奖项目录（RIGE-1021 URL 统一：原首页图书模式·奖项视图迁到 /awards/）
+import Base from '../../layouts/Base.astro';
+import awards from '../../data/awards.json';
+import { base } from '../../lib/base.ts';
+---
+<Base title="奖项 · 童心湾" titleEn="TinyCove · Awards" description="童心湾收录的 10 个绘本奖项：凯迪克、格林纳威、信谊、陈伯吹等，按奖项语言筛选，含历届获奖绘本。">
+	<section class="filters" id="award-filters">
+		<div class="filter-row">
+			<span class="dim" data-i18n="award_lang_label">奖项语言</span>
+			<div class="options">
+				<button class="chip" id="award-lang-all" aria-pressed="true" data-i18n="award_lang_all">全部</button>
+				<button class="chip" data-award-lang="zh" data-i18n="award_lang_zh" aria-pressed="false">中文奖项</button>
+				<button class="chip" data-award-lang="en" data-i18n="award_lang_en" aria-pressed="false">英文奖项</button>
+				<button class="chip" data-award-lang="intl" data-i18n="award_lang_intl" aria-pressed="false">国际奖项</button>
+				<span class="count" id="award-count"></span>
+			</div>
+		</div>
+	</section>
+
+	<main>
+		<ul class="grid bgrid" id="award-grid" style="list-style:none">
+			{
+				awards.awards.map((a) => (
+					<li class="awardcell" data-alang={a.lang}>
+						<a class="awardcard" href={`${base}award/${a.id}/`}>
+							<div class="awardbody">
+								<h2 class="awardname">{a.name}</h2>
+								<div class="awardname-en">{a.name_en}</div>
+								<p class="awardintro" data-zh={a.intro} data-en={a.intro_en || a.intro}>{a.intro}</p>
+								<div class="awardmeta">
+									<span class="alangchip" data-i18n={`award_lang_${a.lang}`}>{a.lang === 'zh' ? '中文奖项' : a.lang === 'en' ? '英文奖项' : '国际奖项'}</span>
+									<span>📍 {a.region}</span>
+								</div>
+							</div>
+						</a>
+					</li>
+				))
+			}
+		</ul>
+		<div class="empty" id="awards-empty" hidden data-i18n="awards_empty">没有该类别的奖项～</div>
+	</main>
+
+	<style>
+		.filters {
+			position: sticky; top: 52px; z-index: 10;
+			background: rgba(240, 249, 255, 0.92); backdrop-filter: blur(6px);
+			border-bottom: 1px solid var(--line);
+			padding: 0.6rem 1rem;
+			display: flex; flex-direction: column; gap: 0.4rem;
+			max-width: var(--maxw); margin: 0 auto;
+		}
+		.filter-row { display: flex; align-items: flex-start; gap: 0.5rem; }
+		.filter-row .dim {
+			font-size: 0.78rem; color: var(--muted);
+			white-space: nowrap; flex: 0 0 auto;
+			min-width: 3.2em; padding-top: 0.28rem;
+		}
+		.filter-row .options {
+			display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap;
+			flex: 1 1 auto; min-width: 0;
+		}
+		.chip {
+			font-size: 0.82rem; padding: 0.26rem 0.8rem; border-radius: 999px;
+			border: 1px solid var(--line); background: var(--card); color: var(--ink);
+			cursor: pointer; user-select: none;
+		}
+		.chip[aria-pressed='true'] { background: var(--sea); border-color: var(--sea); color: #fff; }
+		.count { font-size: 0.8rem; color: var(--muted); margin-left: auto; }
+		.grid {
+			margin: 0 auto; padding: 1rem 1rem 3rem; max-width: var(--maxw);
+			display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 1rem;
+		}
+		.awardcard {
+			display: flex; flex-direction: column; gap: 0.45rem; height: 100%;
+			background: var(--card); border-radius: 12px; padding: 1rem;
+			box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+			text-decoration: none; color: inherit;
+		}
+		.awardcard:hover { outline: 2px solid var(--sea); }
+		.awardname { margin: 0; font-size: 1rem; font-weight: 700; }
+		.awardname-en { font-size: 0.75rem; color: var(--muted); }
+		.awardintro { margin: 0; font-size: 0.8rem; color: var(--muted); line-height: 1.5;
+			display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+		.awardmeta { display: flex; gap: 0.5rem; align-items: center; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; }
+		.alangchip { background: var(--sea-soft); color: #0369a1; padding: 0.08rem 0.55rem; border-radius: 999px; }
+		.empty { text-align: center; color: var(--muted); padding: 3rem 1rem; }
+	</style>
+
+	<script>
+		const awardLang = new Set<string>();
+		const awardCells = Array.from(document.querySelectorAll<HTMLElement>('.awardcell'));
+		const awardCountEl = document.getElementById('award-count')!;
+		const awardsEmptyEl = document.getElementById('awards-empty')!;
+
+		function applyAwardLang() {
+			let shown = 0;
+			for (const cell of awardCells) {
+				const ok = awardLang.size === 0 || awardLang.has(cell.dataset.alang!);
+				cell.style.display = ok ? '' : 'none';
+				if (ok) shown++;
+			}
+			awardCountEl.textContent = `${shown} / ${awardCells.length}`;
+			awardsEmptyEl.hidden = shown > 0;
+		}
+		document.querySelectorAll<HTMLButtonElement>('.chip[data-award-lang], #award-lang-all').forEach((chip) => {
+			chip.addEventListener('click', () => {
+				if (chip.id === 'award-lang-all') {
+					awardLang.clear();
+					document.querySelectorAll<HTMLButtonElement>('.chip[data-award-lang]').forEach((c) => c.setAttribute('aria-pressed', 'false'));
+				} else {
+					const key = chip.dataset.awardLang!;
+					if (awardLang.has(key)) { awardLang.delete(key); chip.setAttribute('aria-pressed', 'false'); }
+					else { awardLang.add(key); chip.setAttribute('aria-pressed', 'true'); }
+					const allBtn = document.getElementById('award-lang-all')!;
+					allBtn.setAttribute('aria-pressed', String(awardLang.size === 0));
+				}
+				applyAwardLang();
+			});
+		});
+		applyAwardLang();
+	</script>
+</Base>

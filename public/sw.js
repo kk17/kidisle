@@ -6,7 +6,7 @@
  * - 其他同源 GET：NetworkFirst
  * 版本号变更时 activate 清理旧缓存
  */
-const VERSION = 'v2026-11-11';
+const VERSION = 'v2026-11-11-r2'; // URL 方案重构（RIGE-1021）：/videos/ /books/ /awards/ 真实路径
 const PAGES_CACHE = `tinycove-pages-${VERSION}`;
 const COVERS_CACHE = `tinycove-covers-${VERSION}`;
 const ASSETS_CACHE = `tinycove-assets-${VERSION}`;
@@ -16,7 +16,8 @@ self.addEventListener('install', (event) => {
 	event.waitUntil((async () => {
 		try {
 			const cache = await caches.open(PAGES_CACHE);
-			await cache.addAll(['./']);
+			// 根路径是重定向页：离线首访时直接落地视频片单（review 2026-11-11 建议）
+			await cache.addAll(['./', './videos/']);
 		} catch (e) { /* 首屏预缓存失败不阻塞安装 */ }
 		await self.skipWaiting();
 	})());

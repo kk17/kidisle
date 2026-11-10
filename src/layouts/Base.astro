@@ -1,15 +1,24 @@
 ---
 // 共用页面外壳：头部导航（含数据类型下拉）+ 页脚 + 设计变量 + 中英切换
+// URL 方案（RIGE-1021）：每个视图一张真实静态页，顶栏全部用链接导航，
+// 不再有 hash 模式（#books/#awards）与跨脚本事件同步。
 interface Props {
 	title?: string;
 	titleEn?: string;
 	description?: string;
-	/** 页面所属数据模式：详情页固定（视频/图书）；首页由 URL hash 决定，不传 */
-	mode?: 'video' | 'book';
 }
 import { base } from '../lib/base.ts';
 import taxonomy from '../data/taxonomy.json';
-const { title = '童心湾 · 精选儿童视频与绘本', titleEn = 'TinyCove · Curated videos & picture books for kids', description = '童心湾：为孩子精选的儿童视频与绘本，按年龄段、语言、主题筛选。', mode } = Astro.props;
+const { title = '童心湾 · 精选儿童视频与绘本', titleEn = 'TinyCove · Curated videos & picture books for kids', description = '童心湾：为孩子精选的儿童视频与绘本，按年龄段、语言、主题筛选。' } = Astro.props;
+
+// 当前页面归属（服务端即定，无需 JS 同步）：/ 重定向页不经 Base
+const seg = Astro.url.pathname.slice(base.length);
+const onVideos = seg.startsWith('videos') || seg.startsWith('video/');
+const onBloggers = seg.startsWith('bloggers') || seg.startsWith('blogger/');
+const onBooks = seg.startsWith('books') || seg.startsWith('book/');
+const onAwards = seg.startsWith('awards') || seg.startsWith('award/');
+const isBookMode = onBooks || onAwards;
+const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : undefined;
 // 构建时间（构建时烘焙，页脚可见——用于确认浏览器加载的是最新版本）
 const buildVer = new Date().toISOString().slice(0, 16).replace('T', ' ');
 ---
@@ -24,6 +33,7 @@ const buildVer = new Date().toISOString().slice(0, 16).replace('T', ' ');
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="generator" content={Astro.generator} />
 		<meta name="description" content={description} />
+		{canonical && <link rel="canonical" href={canonical} />}
 		<title>{title}</title>
 		<style is:global>
 			:root {
@@ -61,8 +71,9 @@ const buildVer = new Date().toISOString().slice(0, 16).replace('T', ' ');
 			.bookview-chips .chip {
 				font-size: 0.9rem; padding: 0.35rem 0.9rem; border-radius: 999px;
 				border: none; background: transparent; color: var(--muted);
+				text-decoration: none;
 			}
-			.bookview-chips .chip[aria-pressed='true'] { background: var(--sea); color: #fff; }
+			.bookview-chips .chip[aria-current='page'] { background: var(--sea); color: #fff; }
 			.navtabs { display: flex; gap: 0.25rem; flex: 1; }
 			.navtabs a span, .bookview-chips .chip { white-space: nowrap; }
 			@media (max-width: 640px) {
@@ -98,25 +109,25 @@ const buildVer = new Date().toISOString().slice(0, 16).replace('T', ' ');
 			}
 		</style>
 	</head>
-	<body data-title-zh={title} data-title-en={titleEn} data-desc-zh={description} data-desc-en={`${titleEn} — curated videos & picture books for kids`} data-mode={mode}>
+	<body data-title-zh={title} data-title-en={titleEn} data-desc-zh={description} data-desc-en={`${titleEn} — curated videos & picture books for kids`}>
 		<header class="site-header">
 			<div class="site-header-inner">
-				<a class="logo" href={base}>🏝️ <span data-i18n="brand_name">童心湾</span></a>
+				<a class="logo" href={`${base}videos/`}>🏝️ <span data-i18n="brand_name">童心湾</span></a>
 				<div class="modebar">
 					<select id="datatype" aria-label="数据类型 / Data type">
-						<option value="video" data-i18n="mode_video">视频片单</option>
-						<option value="book" data-i18n="mode_book">绘本书单</option>
+						<option value="video" selected={!isBookMode} data-i18n="mode_video">视频片单</option>
+						<option value="book" selected={isBookMode} data-i18n="mode_book">绘本书单</option>
 					</select>
 				</div>
-				<div class="bookview-chips" id="bookview-chips" hidden>
-					<button class="chip" id="bv-books" aria-pressed="true" data-i18n="bookview_books">书目</button>
-					<button class="chip" id="bv-awards" aria-pressed="false" data-i18n="bookview_awards">奖项</button>
+				<div class="bookview-chips" id="bookview-chips" hidden={!isBookMode}>
+					<a class="chip" id="bv-books" href={`${base}books/`} aria-current={onBooks ? 'page' : undefined} data-i18n="bookview_books">书目</a>
+					<a class="chip" id="bv-awards" href={`${base}awards/`} aria-current={onAwards ? 'page' : undefined} data-i18n="bookview_awards">奖项</a>
 				</div>
-				<nav class="navtabs" id="navtabs">
-					<a href={base} aria-current={Astro.url.pathname === base || Astro.url.pathname === `${base}index.html` ? 'page' : undefined}>
+				<nav class="navtabs" id="navtabs" hidden={isBookMode}>
+					<a href={`${base}videos/`} aria-current={onVideos ? 'page' : undefined}>
 						<span data-i18n="nav_videos">视频</span>
 					</a>
-					<a href={`${base}bloggers/`} aria-current={Astro.url.pathname.startsWith(`${base}bloggers`) || Astro.url.pathname.startsWith(`${base}blogger/`) ? 'page' : undefined}>
+					<a href={`${base}bloggers/`} aria-current={onBloggers ? 'page' : undefined}>
 						<span data-i18n="nav_creators">博主</span>
 					</a>
 				</nav>
@@ -146,70 +157,12 @@ const buildVer = new Date().toISOString().slice(0, 16).replace('T', ' ');
 				navigator.serviceWorker.register(base + 'sw.js').catch(() => {});
 			}
 
-			// ---- 数据模式（video/book）：状态源 = body data-mode（详情页）或 URL hash（首页）----
-			const modeSel = document.getElementById('datatype') as HTMLSelectElement;
-			const navtabs = document.getElementById('navtabs')!;
-			const isIndex = () => !!document.getElementById('video-section');
-			function currentMode(): 'video' | 'book' {
-				if (document.body.dataset.mode) return document.body.dataset.mode as 'video' | 'book';
-				if (isIndex()) return (location.hash === '#books' || location.hash === '#awards') ? 'book' : 'video';
-				return 'video';
-			}
-			const bookviewChips = document.getElementById('bookview-chips');
-			function syncModeUI(mode: 'video' | 'book') {
-				if (modeSel) modeSel.value = mode;
-				// 图书模式：隐藏 视频/博主 tab，显示 书目/奖项 chips；视频模式相反
-				if (navtabs) navtabs.style.display = mode === 'book' ? 'none' : '';
-				if (bookviewChips) bookviewChips.hidden = mode !== 'book';
-				if (mode === 'book') syncBookviewChips(location.hash === '#awards' ? 'awards' : 'books');
-			}
-			function dispatchMode(mode: 'video' | 'book') {
-				window.dispatchEvent(new CustomEvent('tinycove:modechange', { detail: { mode } }));
-			}
-			function syncBookviewChips(view: 'books' | 'awards') {
-				const bb = document.getElementById('bv-books');
-				const ba = document.getElementById('bv-awards');
-				if (bb) bb.setAttribute('aria-pressed', String(view === 'books'));
-				if (ba) ba.setAttribute('aria-pressed', String(view === 'awards'));
-			}
-			document.getElementById('bv-books')?.addEventListener('click', () => {
-				syncBookviewChips('books');
-				if (isIndex()) {
-					history.replaceState(null, '', location.pathname);
-					dispatchMode('book');
-					window.dispatchEvent(new CustomEvent('tinycove:bookview', { detail: { view: 'books' } }));
-				} else { location.href = base + '#books'; }
-			});
-			document.getElementById('bv-awards')?.addEventListener('click', () => {
-				syncBookviewChips('awards');
-				if (isIndex()) {
-					history.replaceState(null, '', location.pathname + '#awards');
-					dispatchMode('book');
-					window.dispatchEvent(new CustomEvent('tinycove:bookview', { detail: { view: 'awards' } }));
-				} else { location.href = base + '#awards'; }
-			});
+			// ---- 数据类型下拉：切换即跳转对应列表页（每个视图一张真实静态页）----
+			const modeSel = document.getElementById('datatype') as HTMLSelectElement | null;
+			const initialMode = modeSel?.value;
 			modeSel?.addEventListener('change', () => {
-				const mode = modeSel.value as 'video' | 'book';
-				if (isIndex()) {
-					history.replaceState(null, '', mode === 'book' ? location.pathname + '#books' : location.pathname);
-					dispatchMode(mode);
-				} else {
-					// 详情页/目录页切模式 → 回首页对应模式
-					location.href = base + (mode === 'book' ? '#books' : '');
-					return;
-				}
-				syncModeUI(mode);
-			});
-			window.addEventListener('tinycove:bookview', (e) => {
-				if (!isIndex()) return;
-				syncBookviewChips((e as CustomEvent).detail.view);
-			});
-			window.addEventListener('hashchange', () => {
-				if (isIndex()) {
-					const m = currentMode();
-					syncModeUI(m);
-					dispatchMode(m);
-				}
+				if (modeSel.value === initialMode) return;
+				location.href = base + (modeSel.value === 'book' ? 'books/' : 'videos/');
 			});
 
 			// ---- 中英切换 ----
@@ -264,11 +217,6 @@ const buildVer = new Date().toISOString().slice(0, 16).replace('T', ' ');
 				apply(next);
 			});
 			apply(getLang());
-
-			// 初始模式同步（放最后：先让各页面的 modechange 监听器挂好）
-			const initMode = currentMode();
-			syncModeUI(initMode);
-			if (isIndex()) dispatchMode(initMode);
 		</script>
 	</body>
 </html>

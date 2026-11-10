@@ -45,12 +45,18 @@ npm run preview  # preview the build
 
 ## Site structure
 
+One real static page per view (URLs unified as paths, SEO-friendly):
+
 ```
-/                       Home: data-type dropdown (videos / books) + filters + grid
+/                       Redirects to /videos/ (meta refresh, noindex)
+/videos/                Video list: platform / age / language / topic filters
 /bloggers/              Creator directory: platform / topic filters
+/books/                 Picture books: age / language / topic filters
+/awards/                Award directory: filter by award language
 /blogger/{up}/          Creator page: avatar, reasons, sources, all videos
 /video/{bvid|vid}/      Watch page: big player + episodes + related + report button
 /book/{id}/             Book detail: cover, recommendation, publication info, links, report button
+/award/{id}/            Award detail: introduction + winning books by year
 ```
 
 ## Data pipeline (static snapshot mode)

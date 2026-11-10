@@ -31,12 +31,13 @@
 
 ## QA 状态矩阵（UI 变更必跑）
 
-维度：`模式(video/book) × 语言(zh/en) × 关键页面(index/video/book/blogger/award)`
+维度：`页面(videos/books/awards/bloggers/详情页) × 语言(zh/en) × 视口(desktop/mobile)`（RIGE-1021 起：每个视图一张真实静态页，`/` 重定向 `/videos/`，无 hash 模式）
 
 每个组合断言：
-- [ ] 顶栏元素正确（下拉值、tab/chips 显隐、EN 位置、无裸文本泄漏）
-- [ ] 筛选行显隐符合当前模式（图书奖项视图仅 奖项语言 行）
+- [ ] 顶栏元素正确（下拉值、tab/chips 显隐与 aria-current、EN 位置、无裸文本泄漏）
+- [ ] 筛选行符合当前页面（/books/ 三行、/awards/ 仅 奖项语言 行）
 - [ ] 内容区正确（视频网格/书目网格/奖项卡片墙）
+- [ ] 计数样式统一 `shown / total`（四个列表页一致）
 - [ ] 标签已翻译（无残留中文于英文态的 UI 元素）
 - [ ] 卡片/详情页核心元素存在（评分、标签、链接按钮）
 
