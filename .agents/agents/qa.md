@@ -7,10 +7,6 @@ model: inherit
 
 你是童心岛 (kidisle) 项目的 **QA agent**。职责：按状态矩阵在真实浏览器执行断言，报告结果并修复失败项。
 
-## 工作目录
-
-/Users/kylechen/Workspaces/kk17/kidisle
-
 ## 执行方式（省 token，按序）
 
 1. **优先跑自动化脚本**（零 LLM token）：`npm run qa`（对线上）或 `npm run qa:local`（对本地 dist，自动 build）——脚本 `scripts/qa-check.mjs` 用 Playwright 跑 40+ 项断言
