@@ -85,14 +85,14 @@ async function testVideosZh(page) {
 			logomark: Boolean(document.querySelector('.logo img.logomark')),
 			rows: document.querySelectorAll('#video-filters .filter-row').length,
 			cards: document.querySelectorAll('#grid .cell:not([style*="none"])').length,
-			badges: document.querySelectorAll('#grid .vplat').length,
+			badges: document.querySelectorAll('#grid .vtitle .vsrc').length,
 			count: document.getElementById('count').textContent,
 		};
 	});
 	record('D-V-1 下拉=video / tab 可见 / chips 隐藏', s.sel === 'video' && s.navtabs && s.chipsHidden, `sel=${s.sel}`);
 	record('D-V-2 视频 tab aria-current + 顶栏 logo 图标', s.cur === '视频' && s.logomark, s.cur);
 	record('D-V-3 四行筛选可见', s.rows === 4, `实际 ${s.rows}`);
-	record('D-V-4 卡片数 = 796 且平台角标齐全', s.cards === 796 && s.badges >= 796, `cards=${s.cards} badges=${s.badges}`);
+	record('D-V-4 卡片数 = 796 且标题来源图标齐全', s.cards === 796 && s.badges >= 796, `cards=${s.cards} badges=${s.badges}`);
 	record('D-V-5 计数样式 shown / total', s.count === '796 / 796', s.count);
 	const yt = await page.evaluate(() => {
 		const chip = [...document.querySelectorAll('#video-filters .chip')].find(c => c.dataset.v === 'youtube');

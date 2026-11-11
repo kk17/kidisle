@@ -6,7 +6,7 @@
  * - 其他同源 GET：NetworkFirst
  * 版本号变更时 activate 清理旧缓存
  */
-const VERSION = 'v2026-11-11-r3'; // 新图标 + 奖项双语/footer i18n/移动端顶栏（RIGE-1021 反馈轮）
+const VERSION = 'v2026-11-12-r1'; // 海湾清新主题 + 慢页面不再 ERR_FAILED（RIGE-1073）
 const PAGES_CACHE = `tinycove-pages-${VERSION}`;
 const COVERS_CACHE = `tinycove-covers-${VERSION}`;
 const ASSETS_CACHE = `tinycove-assets-${VERSION}`;
@@ -32,19 +32,25 @@ self.addEventListener('activate', (event) => {
 	})());
 });
 
+// 超时只用于「有缓存时尽快回退到缓存」；没有缓存就继续等网络。
+// 旧版超时后无缓存直接抛错 → respondWith 拿到 undefined → 浏览器 ERR_FAILED
+// （「This site can't be reached / might be temporarily down」），首访慢页面必现（RIGE-1073）。
 async function networkFirst(request, cacheName, timeoutMs) {
 	const cache = await caches.open(cacheName);
-	try {
-		const fresh = await Promise.race([
-			fetch(request),
-			new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), timeoutMs)),
-		]);
+	const network = fetch(request).then((fresh) => {
 		if (fresh && fresh.ok) cache.put(request, fresh.clone());
 		return fresh;
+	});
+	network.catch(() => {}); // 已回退到缓存时，避免后台网络失败变成未处理的 rejection
+	try {
+		return await Promise.race([
+			network,
+			new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), timeoutMs)),
+		]);
 	} catch (e) {
 		const cached = await cache.match(request);
 		if (cached) return cached;
-		throw e;
+		return network; // 无缓存：等网络结果（网络本身失败时由调用方兜底）
 	}
 }
 
@@ -65,7 +71,7 @@ self.addEventListener('fetch', (event) => {
 	if (url.origin !== self.location.origin) return;
 
 	if (req.mode === 'navigate') {
-		event.respondWith(networkFirst(req, PAGES_CACHE, NAV_TIMEOUT_MS).catch(() => caches.match(url.pathname)));
+		event.respondWith(networkFirst(req, PAGES_CACHE, NAV_TIMEOUT_MS).catch(async () => (await caches.match(url.pathname)) || Response.error()));
 		return;
 	}
 	if (url.pathname.includes('/covers/')) {

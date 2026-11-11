@@ -1,0 +1,77 @@
+/*
+ * 站点主题「海湾清新」（RIGE-1073，家长 2026-11-12 选定）
+ * 沿用 logo 的天蓝/湖绿/草绿；标签按维度着色；手机端筛选每行横向滑动。
+ *
+ * 选择器统一带 html[data-theme='cove']（Base.astro 的 <html> 上静态写死）：
+ * 组件的 Astro 作用域样式形如 .chip[data-astro-cid-xxx]（优先级 0,2,0），
+ * 这里多一个属性选择器 + 元素选择器才能稳定覆盖，不依赖样式表加载顺序。
+ */
+
+html[data-theme='cove'] {
+	--ink: #0f2a3a; --muted: #5b7083; --sea: #0891b2; --sea-soft: #e3f6fb; --sea-ink: #0e7490;
+	--card: #ffffff; --bg: #f5fbfd; --line: #d5ecf3;
+	--glass: rgba(255, 255, 255, 0.88);
+	--radius: 16px; --shadow: 0 1px 2px rgba(15, 42, 58, 0.06), 0 4px 14px rgba(15, 42, 58, 0.06);
+	--placeholder: #e3f0f5;
+	--font-head: system-ui, -apple-system, 'PingFang SC', 'Noto Sans SC', sans-serif;
+}
+html[data-theme='cove'] body {
+	background:
+		radial-gradient(1200px 380px at 10% -120px, #d9f3fb 0%, transparent 70%),
+		radial-gradient(900px 320px at 100% -80px, #e6f7e7 0%, transparent 70%),
+		var(--bg);
+	background-repeat: no-repeat;
+}
+html[data-theme='cove'] .site-header { border-bottom-color: transparent; box-shadow: 0 1px 0 var(--line); }
+html[data-theme='cove'] .navtabs a[aria-current='page'],
+html[data-theme='cove'] .bookview-chips .chip[aria-current='page'] {
+	background: linear-gradient(135deg, #22b8d6, #0891b2); box-shadow: 0 2px 8px rgba(8, 145, 178, 0.3);
+}
+html[data-theme='cove'] .filters {
+	margin-top: 0.75rem !important; border: 1px solid var(--line); border-radius: var(--radius);
+	box-shadow: var(--shadow); padding: 0.75rem 1rem;
+}
+@media (min-width: 1px) { html[data-theme='cove'] .filters { max-width: calc(var(--maxw) - 2rem); } }
+html[data-theme='cove'] .chip { border-color: var(--line); transition: background 0.15s, border-color 0.15s; }
+html[data-theme='cove'] .chip:hover { border-color: var(--sea); }
+html[data-theme='cove'] .chip[aria-pressed='true'] { background: var(--sea); border-color: var(--sea); }
+/* 标签按维度着色：年龄=绿、语言=紫、主题=蓝，一眼分清 */
+html[data-theme='cove'] .tag[data-tag-dim='age'] { background: #e7f6e7; color: #2f7d32; }
+html[data-theme='cove'] .tag[data-tag-dim='language'] { background: #efeafd; color: #6d4bc9; }
+html[data-theme='cove'] .tag[data-tag-dim='theme'],
+html[data-theme='cove'] .tag[data-tag-dim='book_theme'] { background: var(--sea-soft); color: var(--sea-ink); }
+html[data-theme='cove'] .vcard:hover, html[data-theme='cove'] .bkcard:hover {
+	box-shadow: 0 2px 4px rgba(15, 42, 58, 0.06), 0 12px 28px rgba(8, 145, 178, 0.16);
+}
+html[data-theme='cove'] .vtitle { font-size: 0.95rem; }
+html[data-theme='cove'] .grid { gap: 1.1rem; }
+html[data-theme='cove'] .player { box-shadow: 0 10px 30px rgba(15, 42, 58, 0.18); }
+html[data-theme='cove'] .actions .copy { background: var(--sea); color: #fff; border-color: var(--sea); }
+html[data-theme='cove'] .actions button, html[data-theme='cove'] .actions a { border-radius: 999px; }
+
+/* 卡片悬停微动效 */
+html[data-theme='cove'] .vcard, html[data-theme='cove'] .bkcard, html[data-theme='cove'] .bcard, html[data-theme='cove'] .awardcard {
+	transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+@media (hover: hover) {
+	html[data-theme='cove'] .vcard:hover, html[data-theme='cove'] .bkcard:hover,
+	html[data-theme='cove'] .bcard:hover, html[data-theme='cove'] .awardcard:hover { transform: translateY(-3px); }
+}
+html[data-theme='cove'] .vcover img, html[data-theme='cove'] .bkcover img { transition: transform 0.3s ease; }
+@media (hover: hover) {
+	html[data-theme='cove'] .vcard:hover .vcover img { transform: scale(1.04); }
+}
+@media (prefers-reduced-motion: reduce) {
+	html[data-theme='cove'] * { transition: none !important; }
+	html[data-theme='cove'] .vcard:hover, html[data-theme='cove'] .bkcard:hover { transform: none; }
+}
+
+/* 手机端筛选每行横向滑动（原 4 行筛选会占掉大半屏）。
+ * 需高于 Astro 作用域选择器 .filter-row[data-astro-cid] .options[data-astro-cid] 的优先级 */
+@media (max-width: 640px) {
+	html[data-theme='cove'] .filters .filter-row .options { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+	html[data-theme='cove'] .filters .filter-row .options::-webkit-scrollbar { display: none; }
+	html[data-theme='cove'] .filters .filter-row .options > * { flex-shrink: 0; }
+	html[data-theme='cove'] .filters .filter-row { align-items: center; }
+	html[data-theme='cove'] .filters .filter-row .dim { padding-top: 0; }
+}
