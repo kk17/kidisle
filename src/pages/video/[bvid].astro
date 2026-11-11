@@ -5,6 +5,7 @@ import taxonomy from '../../data/taxonomy.json';
 import videos from '../../data/videos.json';
 import bloggers from '../../data/bloggers.json';
 import siteConfig from '../../data/site-config.json';
+import seasonsData from '../../data/seasons.json';
 
 export function getStaticPaths() {
 	// params.bvid 是通用视频键：B站=bvid，YouTube=vid
@@ -21,12 +22,29 @@ import { t, getLang } from '../../lib/i18n.ts';
 const ageLabel = Object.fromEntries(taxonomy.age_bands.map((t) => [t.id, t.label]));
 const langLabel = Object.fromEntries(taxonomy.languages.map((t) => [t.id, t.label]));
 const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]));
-const pages = (v.pages ?? []) as { page: number; part: string; duration: number }[];
+const pages = (v.pages ?? []) as { page: number; part: string; duration: number; cid?: number }[];
 const totalPages = v.total_pages || pages.length;
-const embedBase = isYouTube
+// B 站官方 embed：必须同时带 aid+cid。只给 bvid 时，移动端播放器会先调 view 接口反查 cid，
+// 该接口常被 B 站风控拦截（412），播放器直接显示「非常抱歉…无法正常播放」（RIGE-1071）。
+function biliEmbed(bvid: string, aid?: number | null, cid?: number | null, p = 1) {
+	const q = new URLSearchParams({ isOutside: 'true', bvid });
+	if (aid) q.set('aid', String(aid));
+	if (cid) q.set('cid', String(cid));
+	q.set('p', String(p));
+	q.set('autoplay', '0');
+	q.set('high_quality', '1');
+	q.set('danmaku', '0');
+	return `https://player.bilibili.com/player.html?${q}`;
+}
+const embedUrl = isYouTube
 	? `https://www.youtube-nocookie.com/embed/${v.vid}?rel=0`
-	: `https://player.bilibili.com/player.html?bvid=${v.bvid}&autoplay=0&high_quality=1&danmaku=0&page=`;
-const embedUrl = isYouTube ? embedBase : embedBase + '1';
+	: biliEmbed(v.bvid, v.aid, pages[0]?.cid ?? v.cid, 1);
+// 合集（ugc_season）：每集是独立 BV 号，显示整个合集供切换
+type Episode = { bvid: string; aid: number; cid: number; title: string; duration: number };
+const season = (!isYouTube && v.season_id
+	? (seasonsData.seasons as Record<string, { id: number; title: string; episodes: Episode[] }>)[String(v.season_id)]
+	: undefined);
+const fmtDur = (d: number) => `${Math.floor(d / 60)}:${String(d % 60).padStart(2, '0')}`;
 const originalUrl = isYouTube
 	? `https://www.youtube.com/watch?v=${v.vid}`
 	: `https://www.bilibili.com/video/${v.bvid}`;
@@ -54,7 +72,6 @@ const related = (() => {
 				<iframe
 					id="bili-player"
 					src={embedUrl}
-					data-embed-base={embedBase}
 					allowfullscreen
 					scrolling="no"
 					frameborder="0"
@@ -76,10 +93,35 @@ const related = (() => {
 								<li>
 									<button
 										class={`ep${p.page === 1 ? ' active' : ''}`}
-										data-page={p.page}
+										data-src={biliEmbed(v.bvid, v.aid, p.cid, p.page)}
 									>
 										<span class="ep-title">{p.page}. {p.part || `第 ${p.page} 集`}</span>
-										<span class="ep-dur">{Math.floor(p.duration / 60)}:{String(p.duration % 60).padStart(2, '0')}</span>
+										<span class="ep-dur">{fmtDur(p.duration)}</span>
+									</button>
+								</li>
+							))}
+						</ul>
+					</div>
+				)
+			}
+			{
+				season && season.episodes.length > 1 && (
+					<div class="episodes" id="season">
+						<div class="ep-head">
+							<h2><span data-i18n="season">合集</span> · {season.title}</h2>
+							<span class="meta" data-i18n="episodes_total" data-i18n-var-n={String(season.episodes.length)}>共 {season.episodes.length} 集</span>
+						</div>
+						<ul class="ep-list" style="list-style:none">
+							{season.episodes.map((e, i) => (
+								<li>
+									<button
+										class={`ep${e.bvid === v.bvid ? ' active' : ''}`}
+										data-src={biliEmbed(e.bvid, e.aid, e.cid, 1)}
+										data-url={`https://www.bilibili.com/video/${e.bvid}`}
+										title={e.title}
+									>
+										<span class="ep-title">{i + 1}. {e.title}</span>
+										<span class="ep-dur">{fmtDur(e.duration)}</span>
 									</button>
 								</li>
 							))}
@@ -164,7 +206,7 @@ const related = (() => {
 		align-items: start;
 	}
 	@media (max-width: 900px) {
-		.watch { grid-template-columns: 1fr; }
+		.watch { grid-template-columns: minmax(0, 1fr); }
 		.related { order: 2; }
 	}
 	.player {
@@ -178,7 +220,9 @@ const related = (() => {
 		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08); padding: 0.75rem 1rem;
 	}
 	.ep-head { display: flex; align-items: baseline; gap: 0.6rem; }
-	.ep-head h2 { font-size: 1rem; margin: 0; }
+	.ep-head h2 { font-size: 1rem; margin: 0; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+	.ep-head .meta { flex-shrink: 0; }
+	#season { margin-top: 0.6rem; }
 	.ep-head a { font-size: 0.78rem; }
 	.ep-list {
 		margin: 0.6rem 0 0; padding: 0; max-height: 240px; overflow-y: auto;
@@ -228,15 +272,26 @@ const related = (() => {
 <script>
 	import { t, getLang } from '../../lib/i18n.ts';
 
-	// 选集切换：重载播放器 iframe 到对应分 P
-	const player = document.getElementById('bili-player') || document.getElementById('yt-player');
-	document.getElementById('episodes')?.addEventListener('click', (e) => {
-		const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('.ep');
-		if (!btn || !player) return;
-		player.src = `${player.dataset.embedBase}${btn.dataset.page}`;
-		document.querySelectorAll<HTMLButtonElement>('.ep').forEach((b) => b.classList.remove('active'));
-		btn.classList.add('active');
-		btn.scrollIntoView({ block: 'nearest' });
+	// 选集切换（分 P / 合集）：把播放器 iframe 换成按钮上预生成的官方 embed 地址
+	const player = document.getElementById('bili-player') as HTMLIFrameElement | null;
+	const panels = ['episodes', 'season'].map((id) => document.getElementById(id)).filter(Boolean) as HTMLElement[];
+	panels.forEach((panel) => {
+		// 合集很长时，把当前这一集滚到列表可见区（只滚列表，不滚页面）
+		const list = panel.querySelector<HTMLElement>('.ep-list');
+		const cur = panel.querySelector<HTMLElement>('.ep.active');
+		if (list && cur) list.scrollTop = cur.offsetTop - list.offsetTop - 8;
+		panel.addEventListener('click', (e) => {
+			const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('.ep');
+			if (!btn || !player || !btn.dataset.src) return;
+			player.src = btn.dataset.src;
+			document.querySelectorAll<HTMLButtonElement>('.ep').forEach((b) => b.classList.remove('active'));
+			btn.classList.add('active');
+			// 合集里切到别的 BV 号：「复制链接」「在 B 站打开」跟着指向正在播放的那一集
+			if (btn.dataset.url) {
+				document.querySelectorAll<HTMLElement>('.copy').forEach((c) => (c.dataset.url = btn.dataset.url));
+				document.querySelectorAll<HTMLAnchorElement>('a.bili').forEach((a) => (a.href = btn.dataset.url!));
+			}
+		});
 	});
 
 	function flash(btn, text) {
