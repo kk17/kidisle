@@ -45,6 +45,7 @@ npm run qa:local     # QA 状态矩阵（对本地 dist/，自动 build）
 - **视频主题 ≠ 图书主题**：视频用 `taxonomy.themes`，绘本用 `taxonomy.book_themes`（两套独立枚举）
 - **封面**：豆瓣图床拒绝热链（418），一律用 `public/covers/` 自托管（build_books.py --covers 生成）
 - **数据快照**：`videos.json`/`books.json` 由管线生成，禁止手工编辑
+- **B 站 embed 必须带 aid+cid**：只给 bvid 时移动端播放器会被 B 站风控（412）拦截并显示「非常抱歉…无法正常播放」。新增 B 站视频后先跑 `scripts/backfill_embed.py`（补 aid/cid/合集，写 data/seasons.json）再跑 `build_data.py`
 - **sub agent 定义**：`.zcode/agents/` 下的 reviewer / qa；修改清单后同步更新
 
 ## 数据管线

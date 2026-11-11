@@ -53,6 +53,7 @@ export const UI: Record<string, { zh: string; en: string }> = {
 	save_kiki: { zh: '⭐ 收藏到 KikiReel', en: '⭐ Save to KikiReel' },
 	episodes: { zh: '选集', en: 'Episodes' },
 	episodes_total: { zh: '共 {n} 集', en: '{n} episodes' },
+	season: { zh: '合集', en: 'Series' },
 	footer_rights: { zh: '视频版权归原 UP 主所有', en: 'Video rights belong to the original creators' },
 	footer_open_source: { zh: '独立开源项目', en: 'Independent open-source project' },
 	bilibili_home: { zh: '↗ B站主页', en: '↗ Bilibili space' },

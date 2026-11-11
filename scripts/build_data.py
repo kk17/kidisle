@@ -48,6 +48,12 @@ def main():
                 v["_key"] = key
                 pool.setdefault(key, v)
 
+    # 保留已发布条目的 added_at（重跑管线不应把所有视频都刷成"今天新增"）
+    prev_added = {}
+    if args.out.exists():
+        for v in json.loads(args.out.read_text(encoding="utf-8")).get("videos", []):
+            prev_added[v["id"]] = v.get("added_at")
+
     videos = []
     for t in suitable:
         cand = pool.get(t["bvid"])
@@ -66,6 +72,10 @@ def main():
                 "up": cand.get("up") or "",
                 "duration_seconds": cand.get("duration_seconds") or 0,
                 "cover": cand.get("cover") or "",
+                # embed 播放器需要 aid+cid（只给 bvid 时移动端会被 B 站风控 412，RIGE-1071）
+                "aid": None if is_yt else cand.get("aid"),
+                "cid": None if is_yt else cand.get("cid"),
+                "season_id": None if is_yt else (cand.get("season") or {}).get("id"),
                 "total_pages": cand.get("total_pages") or 0,
                 "pages": cand.get("pages") or [],
                 "note": t.get("note") or "",
@@ -74,7 +84,7 @@ def main():
                     "language": langs[:1],
                     "theme": t["tags"]["theme"],
                 },
-                "added_at": time.strftime("%Y-%m-%d"),
+                "added_at": prev_added.get(entry_id) or time.strftime("%Y-%m-%d"),
         }
         videos.append(entry)
 
@@ -165,6 +175,25 @@ def main():
         ),
         encoding="utf-8",
     )
+
+    # ---- 合集（ugc_season）：只发布被收录视频引用到的合集，供详情页「合集选集」面板 ----
+    seasons_src = ROOT / "data/seasons.json"
+    all_seasons = json.loads(seasons_src.read_text(encoding="utf-8")) if seasons_src.exists() else {}
+    used = {str(v["season_id"]) for v in videos if v.get("season_id")}
+    seasons_out = {k: all_seasons[k] for k in sorted(used) if k in all_seasons}
+    (ROOT / "src/data/seasons.json").write_text(
+        json.dumps(
+            {
+                "schema_version": 1,
+                "note": "由 scripts/build_data.py 从 data/seasons.json（scripts/backfill_embed.py 抓取）生成，请勿手工编辑。",
+                "seasons": seasons_out,
+            },
+            ensure_ascii=False,
+            separators=(",", ":"),
+        ),
+        encoding="utf-8",
+    )
+    print(f"合集 {len(seasons_out)} 个")
 
     args.out.write_text(
         json.dumps(
