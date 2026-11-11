@@ -64,7 +64,7 @@ const themes = taxonomy.themes;
 
 	<style>
 		.filters {
-			position: sticky; top: 52px; z-index: 10;
+			position: sticky; top: var(--header-h); z-index: 10; /* 紧贴顶栏实际高度（RIGE-1073） */
 			background: var(--glass); backdrop-filter: blur(6px);
 			border-bottom: 1px solid var(--line);
 			padding: 0.6rem 1rem;
