@@ -11,6 +11,7 @@ interface Props {
 }
 const { video: v, compact = false } = Astro.props;
 import { base } from '../lib/base.ts';
+const isYT = v.source === 'youtube';
 const href = `${base}video/${v.source === 'youtube' ? v.vid : v.bvid}/`;
 const pad = (n: number) => String(n).padStart(2, '0');
 const dur = v.duration_seconds > 0
@@ -21,12 +22,15 @@ const dur = v.duration_seconds > 0
 ---
 <a class={`vcard${compact ? ' compact' : ''}`} href={href}>
 	<span class="vcover">
-		<span class="vplat" data-tag={v.source} data-tag-dim="platform">{v.source === 'youtube' ? 'YouTube' : 'B站'}</span>
 		{v.cover && <img src={v.cover} loading="lazy" referrerpolicy="no-referrer" alt="" />}
 		{dur && <span class="vdur">{dur}</span>}
 	</span>
 	<span class="vbody">
-		<span class="vtitle">{v.title}</span>
+		<span class="vtitle">{isYT ? (
+			<svg class="vsrc" viewBox="0 0 24 24" role="img" aria-label="YouTube"><title>YouTube</title><rect x="1" y="4.5" width="22" height="15" rx="4.5" fill="#ff0033"/><path d="M10 8.6v6.8l5.8-3.4z" fill="#fff"/></svg>
+		) : (
+			<svg class="vsrc" viewBox="0 0 24 24" role="img" aria-label="B站 / Bilibili"><title>B站 / Bilibili</title><path d="M7.2 2.6l2.6 2.6M16.8 2.6l-2.6 2.6" stroke="#00a1d6" stroke-width="1.9" stroke-linecap="round"/><rect x="1.5" y="5.4" width="21" height="15.6" rx="4" fill="#00a1d6"/><rect x="4.2" y="8.1" width="15.6" height="10.2" rx="2.2" fill="#fff"/><path d="M8 11.4l2.2 1M16 11.4l-2.2 1" stroke="#00a1d6" stroke-width="1.7" stroke-linecap="round"/></svg>
+		)}{v.title}</span>
 		{!compact && <span class="vup">{v.up}</span>}
 		<span class="vtagrow">
 			{v.tags.age.map((a) => <span class="tag" data-tag={a} data-tag-dim="age">{ageLabel[a] ?? a}</span>)}
@@ -47,10 +51,10 @@ const dur = v.duration_seconds > 0
 		position: relative; display: block; aspect-ratio: 16 / 9; background: var(--placeholder);
 	}
 	.vcover img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
-	.vplat {
-		position: absolute; left: 6px; top: 6px; z-index: 1;
-		font-size: 0.68rem; font-weight: 600; color: #fff;
-		background: rgba(0, 0, 0, 0.62); padding: 0.08rem 0.45rem; border-radius: 5px;
+	/* 来源图标：标题第一个字符位置，不再压在封面左上角（RIGE-1073） */
+	.vsrc {
+		display: inline-block; width: 1.15em; height: 1.15em; vertical-align: -0.2em;
+		margin-right: 0.3em; flex-shrink: 0;
 	}
 	.vdur {
 		position: absolute; right: 6px; bottom: 6px;
