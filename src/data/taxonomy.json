@@ -71,6 +71,16 @@
       "label_en": "English Learning"
     },
     {
+      "id": "chinese",
+      "label": "语文启蒙",
+      "label_en": "Chinese Learning"
+    },
+    {
+      "id": "humanities",
+      "label": "人文历史",
+      "label_en": "History & Humanities"
+    },
+    {
       "id": "nature",
       "label": "自然",
       "label_en": "Nature"
@@ -79,6 +89,11 @@
       "id": "life",
       "label": "生活习惯",
       "label_en": "Life Skills"
+    },
+    {
+      "id": "sports",
+      "label": "体育运动",
+      "label_en": "Sports"
     },
     {
       "id": "social",

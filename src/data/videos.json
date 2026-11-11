@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "note": "由 scripts/build_data.py 从采集/打标管线生成，请勿手工编辑。",
-  "updated_at": "2026-11-11",
+  "updated_at": "2026-11-12",
   "videos": [
     {
       "id": "yt--FvvHcNRF7s",
@@ -837,7 +837,7 @@
       "season_id": null,
       "total_pages": 0,
       "pages": [],
-      "note": "Cosmic Kids瑜伽冒险，运动启蒙；建议增设体育主题",
+      "note": "Cosmic Kids瑜伽冒险，运动启蒙",
       "tags": {
         "age": [
           "3-6",
@@ -847,7 +847,7 @@
           "en"
         ],
         "theme": [
-          "life"
+          "sports"
         ]
       },
       "added_at": "2026-11-06"
@@ -866,7 +866,7 @@
       "season_id": null,
       "total_pages": 0,
       "pages": [],
-      "note": "Cosmic Kids魔法满屋主题瑜伽；建议增设体育主题",
+      "note": "Cosmic Kids魔法满屋主题瑜伽",
       "tags": {
         "age": [
           "3-6",
@@ -876,7 +876,7 @@
           "en"
         ],
         "theme": [
-          "life"
+          "sports"
         ]
       },
       "added_at": "2026-11-06"
@@ -895,7 +895,7 @@
       "season_id": null,
       "total_pages": 0,
       "pages": [],
-      "note": "Cosmic Kids丛林探险瑜伽；建议增设体育主题",
+      "note": "Cosmic Kids丛林探险瑜伽",
       "tags": {
         "age": [
           "3-6",
@@ -905,7 +905,7 @@
           "en"
         ],
         "theme": [
-          "life"
+          "sports"
         ]
       },
       "added_at": "2026-11-06"
@@ -924,7 +924,7 @@
       "season_id": null,
       "total_pages": 0,
       "pages": [],
-      "note": "Cosmic Kids熊出没绘本瑜伽；建议增设体育主题",
+      "note": "Cosmic Kids熊出没绘本瑜伽",
       "tags": {
         "age": [
           "3-6",
@@ -934,7 +934,7 @@
           "en"
         ],
         "theme": [
-          "life"
+          "sports"
         ]
       },
       "added_at": "2026-11-06"
@@ -953,7 +953,7 @@
       "season_id": null,
       "total_pages": 0,
       "pages": [],
-      "note": "Cosmic Kids儿童瑜伽冒险，建议增设体育主题",
+      "note": "Cosmic Kids儿童瑜伽冒险",
       "tags": {
         "age": [
           "3-6",
@@ -963,7 +963,7 @@
           "en"
         ],
         "theme": [
-          "life"
+          "sports"
         ]
       },
       "added_at": "2026-11-06"
@@ -982,7 +982,7 @@
       "season_id": null,
       "total_pages": 0,
       "pages": [],
-      "note": "Cosmic Kids 冰雪奇缘瑜伽；建议增设体育主题",
+      "note": "Cosmic Kids 冰雪奇缘瑜伽",
       "tags": {
         "age": [
           "3-6",
@@ -992,7 +992,7 @@
           "en"
         ],
         "theme": [
-          "life"
+          "sports"
         ]
       },
       "added_at": "2026-11-06"
@@ -5183,7 +5183,7 @@
         ],
         "theme": [
           "music",
-          "life"
+          "sports"
         ]
       },
       "added_at": "2026-11-06"
@@ -6317,7 +6317,7 @@
           "cid": 549980028
         }
       ],
-      "note": "中国唱诗班古诗动画，建议增设人文主题",
+      "note": "中国唱诗班古诗动画",
       "tags": {
         "age": [
           "6-9"
@@ -6326,7 +6326,7 @@
           "zh"
         ],
         "theme": [
-          "story",
+          "humanities",
           "animation",
           "music"
         ]
@@ -7249,7 +7249,7 @@
           "cid": 447986250
         }
       ],
-      "note": "汉字启蒙益智动画；语文暂归story，建议增设人文主题",
+      "note": "汉字启蒙益智动画",
       "tags": {
         "age": [
           "3-6"
@@ -7259,7 +7259,7 @@
         ],
         "theme": [
           "animation",
-          "story"
+          "chinese"
         ]
       },
       "added_at": "2026-11-06"
@@ -11184,7 +11184,7 @@
       "season_id": null,
       "total_pages": 0,
       "pages": [],
-      "note": "动画讲蝗灾历史成因，人文历史，建议增设人文主题",
+      "note": "动画讲蝗灾历史成因，人文历史",
       "tags": {
         "age": [
           "6-9",
@@ -11194,7 +11194,7 @@
           "zh"
         ],
         "theme": [
-          "story",
+          "humanities",
           "animation"
         ]
       },
@@ -11214,7 +11214,7 @@
       "season_id": null,
       "total_pages": 0,
       "pages": [],
-      "note": "各国国宴文化科普，亲子可看，建议增设人文主题",
+      "note": "各国国宴文化科普，亲子可看",
       "tags": {
         "age": [
           "6-9",
@@ -11224,7 +11224,7 @@
           "zh"
         ],
         "theme": [
-          "story",
+          "humanities",
           "animation"
         ]
       },
@@ -11244,7 +11244,7 @@
       "season_id": null,
       "total_pages": 0,
       "pages": [],
-      "note": "人文地理科普讲国界，建议增设人文主题",
+      "note": "人文地理科普讲国界",
       "tags": {
         "age": [
           "6-9",
@@ -11254,7 +11254,7 @@
           "zh"
         ],
         "theme": [
-          "story",
+          "humanities",
           "animation"
         ]
       },
@@ -11455,7 +11455,7 @@
           "cid": 29556646
         }
       ],
-      "note": "央视国宝纪录片,人文历史归story,建议增设人文主题",
+      "note": "央视国宝纪录片",
       "tags": {
         "age": [
           "6-9",
@@ -11465,7 +11465,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -11514,7 +11514,7 @@
       "season_id": null,
       "total_pages": 0,
       "pages": [],
-      "note": "名著人物解读健康，建议增设人文主题",
+      "note": "名著人物解读健康",
       "tags": {
         "age": [
           "9-12"
@@ -11523,7 +11523,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -11636,7 +11636,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -11664,7 +11664,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -11692,7 +11692,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -11711,7 +11711,7 @@
       "season_id": null,
       "total_pages": 0,
       "pages": [],
-      "note": "诗词感悟短片,健康,人文类暂归story",
+      "note": "诗词感悟短片,健康",
       "tags": {
         "age": [
           "9-12"
@@ -11720,7 +11720,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -11748,7 +11748,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -11767,7 +11767,7 @@
       "season_id": null,
       "total_pages": 0,
       "pages": [],
-      "note": "诗词情感解读,健康,建议增设人文主题",
+      "note": "诗词情感解读,健康",
       "tags": {
         "age": [
           "9-12"
@@ -11776,7 +11776,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -11824,7 +11824,7 @@
       "season_id": 2171933,
       "total_pages": 1,
       "pages": [],
-      "note": "三字经经典儿歌，建议增设人文主题",
+      "note": "三字经经典儿歌",
       "tags": {
         "age": [
           "3-6"
@@ -11834,7 +11834,7 @@
         ],
         "theme": [
           "music",
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -12138,7 +12138,7 @@
       "season_id": null,
       "total_pages": 1,
       "pages": [],
-      "note": "走近叶圣陶，儿童文学史科普，建议增设人文主题",
+      "note": "走近叶圣陶，儿童文学史科普",
       "tags": {
         "age": [
           "6-9"
@@ -12147,7 +12147,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -12354,7 +12354,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -14815,7 +14815,7 @@
       "season_id": 615,
       "total_pages": 0,
       "pages": [],
-      "note": "汉字文化设计科普,人文类归story,建议增设人文主题",
+      "note": "汉字文化设计科普",
       "tags": {
         "age": [
           "9-12"
@@ -14824,7 +14824,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -14843,7 +14843,7 @@
       "season_id": 615,
       "total_pages": 0,
       "pages": [],
-      "note": "中文字体设计科普,人文类归story,建议增设人文主题",
+      "note": "中文字体设计科普",
       "tags": {
         "age": [
           "9-12"
@@ -14852,7 +14852,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -17182,7 +17182,7 @@
           "zh"
         ],
         "theme": [
-          "story",
+          "humanities",
           "animation",
           "music"
         ]
@@ -17804,7 +17804,7 @@
       "season_id": null,
       "total_pages": 1,
       "pages": [],
-      "note": "儿童启蒙读物三字经，建议增设人文主题",
+      "note": "儿童启蒙读物三字经",
       "tags": {
         "age": [
           "3-6",
@@ -17814,7 +17814,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -19342,7 +19342,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -20165,7 +20165,7 @@
       "season_id": null,
       "total_pages": 1,
       "pages": [],
-      "note": "秒懂人物讲曹文轩，人文科普，建议增设人文主题",
+      "note": "秒懂人物讲曹文轩，人文科普",
       "tags": {
         "age": [
           "6-9"
@@ -20174,7 +20174,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -20193,7 +20193,7 @@
       "season_id": null,
       "total_pages": 1,
       "pages": [],
-      "note": "秒懂人物讲冰心，人文科普，建议增设人文主题",
+      "note": "秒懂人物讲冰心，人文科普",
       "tags": {
         "age": [
           "6-9"
@@ -20202,7 +20202,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -21095,7 +21095,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -21114,7 +21114,7 @@
       "season_id": 212639,
       "total_pages": 0,
       "pages": [],
-      "note": "动画讲春节来历习俗，传统文化，建议增设人文主题",
+      "note": "动画讲春节来历习俗，传统文化",
       "tags": {
         "age": [
           "3-6",
@@ -21124,7 +21124,7 @@
           "zh"
         ],
         "theme": [
-          "story",
+          "humanities",
           "animation"
         ]
       },
@@ -21997,7 +21997,7 @@
           "cid": 1594543985
         }
       ],
-      "note": "故宫历史建筑科普，人文暂归story，建议增设人文主题",
+      "note": "故宫历史建筑科普",
       "tags": {
         "age": [
           "6-9"
@@ -22006,7 +22006,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -22934,7 +22934,7 @@
         ],
         "theme": [
           "animation",
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -23858,7 +23858,7 @@
           "cid": 1043532351
         }
       ],
-      "note": "《金鱼男孩》英文儿童文学有声书，建议增设人文主题",
+      "note": "《金鱼男孩》英文儿童文学有声书",
       "tags": {
         "age": [
           "9-12"
@@ -23867,7 +23867,7 @@
           "en"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -24299,7 +24299,7 @@
         ],
         "theme": [
           "music",
-          "life"
+          "sports"
         ]
       },
       "added_at": "2026-11-06"
@@ -24481,7 +24481,7 @@
       "season_id": 5727169,
       "total_pages": 0,
       "pages": [],
-      "note": "故宫陶瓷馆云看展,亲子共看,人文归story",
+      "note": "故宫陶瓷馆云看展,亲子共看",
       "tags": {
         "age": [
           "9-12"
@@ -24490,7 +24490,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -24509,7 +24509,7 @@
       "season_id": 5727169,
       "total_pages": 0,
       "pages": [],
-      "note": "故宫人物画云看展,亲子共看,人文归story",
+      "note": "故宫人物画云看展,亲子共看",
       "tags": {
         "age": [
           "9-12"
@@ -24518,7 +24518,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -24537,7 +24537,7 @@
       "season_id": null,
       "total_pages": 1,
       "pages": [],
-      "note": "幼儿三字经启蒙，建议增设人文主题",
+      "note": "幼儿三字经启蒙",
       "tags": {
         "age": [
           "3-6"
@@ -24546,7 +24546,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -24689,7 +24689,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -25272,7 +25272,7 @@
       "season_id": null,
       "total_pages": 1,
       "pages": [],
-      "note": "国学经典三字经朗读，建议增设人文主题",
+      "note": "国学经典三字经朗读",
       "tags": {
         "age": [
           "3-6",
@@ -25282,7 +25282,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -26382,7 +26382,7 @@
         ],
         "theme": [
           "animation",
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -26558,7 +26558,7 @@
           "cid": 57193502
         }
       ],
-      "note": "瑞奇宝宝运动主题，体育启蒙暂归life",
+      "note": "瑞奇宝宝运动主题",
       "tags": {
         "age": [
           "3-6"
@@ -26568,7 +26568,7 @@
         ],
         "theme": [
           "animation",
-          "life"
+          "sports"
         ]
       },
       "added_at": "2026-11-06"
@@ -27063,7 +27063,7 @@
           "cid": 32789301602
         }
       ],
-      "note": "三十六计国学历史动画，建议增设人文主题",
+      "note": "三十六计国学历史动画",
       "tags": {
         "age": [
           "6-9"
@@ -27072,7 +27072,7 @@
           "zh"
         ],
         "theme": [
-          "story",
+          "humanities",
           "animation"
         ]
       },
@@ -28377,7 +28377,7 @@
           "cid": 437130176
         }
       ],
-      "note": "声律启蒙有声国学，韵律语感启蒙，建议增设人文主题",
+      "note": "声律启蒙有声国学，韵律语感启蒙",
       "tags": {
         "age": [
           "3-6",
@@ -28388,7 +28388,7 @@
         ],
         "theme": [
           "music",
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -28407,7 +28407,7 @@
       "season_id": 5536206,
       "total_pages": 1,
       "pages": [],
-      "note": "上美经典九色鹿，敦煌壁画故事，建议增设人文主题",
+      "note": "上美经典九色鹿，敦煌壁画故事",
       "tags": {
         "age": [
           "6-9"
@@ -28416,7 +28416,7 @@
           "zh"
         ],
         "theme": [
-          "story",
+          "humanities",
           "animation"
         ]
       },
@@ -30246,7 +30246,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -30265,7 +30265,7 @@
       "season_id": null,
       "total_pages": 0,
       "pages": [],
-      "note": "语文人文解读，建议增设人文主题",
+      "note": "语文人文解读",
       "tags": {
         "age": [
           "9-12"
@@ -30274,7 +30274,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -30703,7 +30703,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -31173,7 +31173,7 @@
           "cid": 105811189
         }
       ],
-      "note": "经典乒乓球教学合集,内容健康,建议增设体育主题",
+      "note": "经典乒乓球教学合集,内容健康",
       "tags": {
         "age": [
           "6-9",
@@ -31183,7 +31183,7 @@
           "zh"
         ],
         "theme": [
-          "life"
+          "sports"
         ]
       },
       "added_at": "2026-11-06"
@@ -31353,7 +31353,7 @@
           "cid": 107590181
         }
       ],
-      "note": "乒乓球入门教学,内容健康,建议增设体育主题",
+      "note": "乒乓球入门教学,内容健康",
       "tags": {
         "age": [
           "6-9",
@@ -31363,7 +31363,7 @@
           "zh"
         ],
         "theme": [
-          "life"
+          "sports"
         ]
       },
       "added_at": "2026-11-06"
@@ -34043,7 +34043,7 @@
           "cid": 9811072
         }
       ],
-      "note": "游泳技能教学,内容健康,枚举无体育归life",
+      "note": "游泳技能教学,内容健康",
       "tags": {
         "age": [
           "6-9",
@@ -34053,7 +34053,7 @@
           "zh"
         ],
         "theme": [
-          "life"
+          "sports"
         ]
       },
       "added_at": "2026-11-06"
@@ -34331,7 +34331,7 @@
           "cid": 27663852
         }
       ],
-      "note": "游泳技能教学，体育暂归life主题",
+      "note": "游泳技能教学",
       "tags": {
         "age": [
           "6-9"
@@ -34340,7 +34340,7 @@
           "zh"
         ],
         "theme": [
-          "life"
+          "sports"
         ]
       },
       "added_at": "2026-11-06"
@@ -37718,7 +37718,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -37737,7 +37737,7 @@
       "season_id": 404471,
       "total_pages": 0,
       "pages": [],
-      "note": "鲁迅散文导读，建议增设人文主题",
+      "note": "鲁迅散文导读",
       "tags": {
         "age": [
           "9-12"
@@ -37746,7 +37746,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -38455,7 +38455,7 @@
           "cid": 1176947325
         }
       ],
-      "note": "成语典故趣味动画，贴近小学认知；建议增设人文主题",
+      "note": "成语典故趣味动画，贴近小学认知",
       "tags": {
         "age": [
           "6-9"
@@ -38464,7 +38464,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -38683,7 +38683,7 @@
           "cid": 259218446
         }
       ],
-      "note": "英文儿童瑜伽故事合集，运动兼英语启蒙，建议增设体育主题",
+      "note": "英文儿童瑜伽故事合集，运动兼英语启蒙",
       "tags": {
         "age": [
           "3-6"
@@ -38692,7 +38692,7 @@
           "en"
         ],
         "theme": [
-          "life",
+          "sports",
           "english"
         ]
       },
@@ -38770,7 +38770,7 @@
       "season_id": null,
       "total_pages": 0,
       "pages": [],
-      "note": "纳兰词讲解,健康,人文类暂归story",
+      "note": "纳兰词讲解,健康",
       "tags": {
         "age": [
           "9-12"
@@ -38779,7 +38779,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -38798,7 +38798,7 @@
       "season_id": 10484,
       "total_pages": 0,
       "pages": [],
-      "note": "古诗词讲解内容健康，建议增设人文主题",
+      "note": "古诗词讲解内容健康",
       "tags": {
         "age": [
           "9-12"
@@ -38807,7 +38807,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -39345,7 +39345,7 @@
           "zh"
         ],
         "theme": [
-          "life"
+          "sports"
         ]
       },
       "added_at": "2026-11-06"
@@ -39602,7 +39602,7 @@
           "cid": 31615879884
         }
       ],
-      "note": "米小圈三十六计动画，国学历史故事；建议增设人文主题",
+      "note": "米小圈三十六计动画，国学历史故事",
       "tags": {
         "age": [
           "3-6",
@@ -39613,7 +39613,7 @@
         ],
         "theme": [
           "animation",
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -39825,7 +39825,7 @@
       "season_id": 1711615,
       "total_pages": 1,
       "pages": [],
-      "note": "三字经朗读启蒙，建议增设人文主题",
+      "note": "三字经朗读启蒙",
       "tags": {
         "age": [
           "3-6",
@@ -39835,7 +39835,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -40719,7 +40719,7 @@
           "cid": 20381682
         }
       ],
-      "note": "央视经典成语故事动画，建议增设人文主题",
+      "note": "央视经典成语故事动画",
       "tags": {
         "age": [
           "3-6",
@@ -40729,7 +40729,7 @@
           "zh"
         ],
         "theme": [
-          "story",
+          "humanities",
           "animation"
         ]
       },
@@ -41104,7 +41104,7 @@
           "cid": 786392335
         }
       ],
-      "note": "识字启蒙动画，建议增设人文主题",
+      "note": "识字启蒙动画",
       "tags": {
         "age": [
           "3-6"
@@ -41113,7 +41113,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "chinese"
         ]
       },
       "added_at": "2026-11-06"
@@ -41253,7 +41253,7 @@
           "cid": 790526262
         }
       ],
-      "note": "拼音启蒙动画，建议增设人文主题",
+      "note": "拼音启蒙动画",
       "tags": {
         "age": [
           "3-6"
@@ -41262,7 +41262,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "chinese"
         ]
       },
       "added_at": "2026-11-06"
@@ -41598,7 +41598,7 @@
       "season_id": null,
       "total_pages": 1,
       "pages": [],
-      "note": "国学启蒙《百家姓》朗读；建议增设人文主题",
+      "note": "国学启蒙《百家姓》朗读",
       "tags": {
         "age": [
           "3-6",
@@ -41608,7 +41608,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -41627,7 +41627,7 @@
       "season_id": null,
       "total_pages": 1,
       "pages": [],
-      "note": "三字经全文朗读，国学启蒙；建议增设人文",
+      "note": "三字经全文朗读，国学启蒙",
       "tags": {
         "age": [
           "3-6",
@@ -41637,7 +41637,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -41656,7 +41656,7 @@
       "season_id": 1759603,
       "total_pages": 0,
       "pages": [],
-      "note": "儿童趣味瑜伽健身，建议增设体育主题",
+      "note": "儿童趣味瑜伽健身",
       "tags": {
         "age": [
           "3-6",
@@ -41666,7 +41666,7 @@
           "zh"
         ],
         "theme": [
-          "life"
+          "sports"
         ]
       },
       "added_at": "2026-11-06"
@@ -41773,7 +41773,7 @@
       "season_id": 93490,
       "total_pages": 0,
       "pages": [],
-      "note": "拼音儿歌启蒙，建议增设人文主题",
+      "note": "拼音儿歌启蒙",
       "tags": {
         "age": [
           "3-6"
@@ -41783,7 +41783,7 @@
         ],
         "theme": [
           "music",
-          "story"
+          "chinese"
         ]
       },
       "added_at": "2026-11-06"
@@ -41831,7 +41831,7 @@
       "season_id": 506221,
       "total_pages": 0,
       "pages": [],
-      "note": "三字经儿歌国学启蒙，建议增设人文主题",
+      "note": "三字经儿歌国学启蒙",
       "tags": {
         "age": [
           "3-6"
@@ -41841,7 +41841,7 @@
         ],
         "theme": [
           "music",
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -42815,7 +42815,7 @@
       "season_id": 7249536,
       "total_pages": 0,
       "pages": [],
-      "note": "我的世界主题互动跑酷热身，建议增设体育主题",
+      "note": "我的世界主题互动跑酷热身",
       "tags": {
         "age": [
           "6-9"
@@ -42824,7 +42824,7 @@
           "zh"
         ],
         "theme": [
-          "life"
+          "sports"
         ]
       },
       "added_at": "2026-11-06"
@@ -43472,7 +43472,7 @@
       "season_id": 6201653,
       "total_pages": 0,
       "pages": [],
-      "note": "唱学汉乐府江南，建议增设人文主题",
+      "note": "唱学汉乐府江南",
       "tags": {
         "age": [
           "6-9"
@@ -43482,7 +43482,7 @@
         ],
         "theme": [
           "music",
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -43501,7 +43501,7 @@
       "season_id": 6201653,
       "total_pages": 0,
       "pages": [],
-      "note": "唱学木兰辞，建议增设人文主题",
+      "note": "唱学木兰辞",
       "tags": {
         "age": [
           "6-9"
@@ -43511,7 +43511,7 @@
         ],
         "theme": [
           "music",
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -43530,7 +43530,7 @@
       "season_id": 6201653,
       "total_pages": 0,
       "pages": [],
-      "note": "唱学乐府长歌行，建议增设人文主题",
+      "note": "唱学乐府长歌行",
       "tags": {
         "age": [
           "6-9"
@@ -43540,7 +43540,7 @@
         ],
         "theme": [
           "music",
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -46728,7 +46728,7 @@
       "season_id": 5015256,
       "total_pages": 1,
       "pages": [],
-      "note": "拼音复韵母教学，语文暂归story，建议增设语文主题",
+      "note": "拼音复韵母教学",
       "tags": {
         "age": [
           "6-9"
@@ -46737,7 +46737,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "chinese"
         ]
       },
       "added_at": "2026-11-06"
@@ -47030,7 +47030,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -47058,7 +47058,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -47087,7 +47087,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -47313,7 +47313,7 @@
       "season_id": null,
       "total_pages": 0,
       "pages": [],
-      "note": "三字经诵读注音全文，建议增设人文主题",
+      "note": "三字经诵读注音全文",
       "tags": {
         "age": [
           "3-6"
@@ -47322,7 +47322,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -47402,7 +47402,7 @@
       "season_id": null,
       "total_pages": 0,
       "pages": [],
-      "note": "幼儿古诗手势舞动作助记，建议增设人文主题",
+      "note": "幼儿古诗手势舞动作助记",
       "tags": {
         "age": [
           "3-6"
@@ -47412,7 +47412,7 @@
         ],
         "theme": [
           "music",
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -47552,7 +47552,7 @@
           "cid": 500001655347553
         }
       ],
-      "note": "讲给孩子的汉字故事，建议增设人文主题",
+      "note": "讲给孩子的汉字故事",
       "tags": {
         "age": [
           "3-6",
@@ -47562,7 +47562,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -49564,7 +49564,7 @@
       "season_id": null,
       "total_pages": 0,
       "pages": [],
-      "note": "儿童武术韵律操，建议增设体育主题",
+      "note": "儿童武术韵律操",
       "tags": {
         "age": [
           "3-6"
@@ -49573,7 +49573,7 @@
           "zh"
         ],
         "theme": [
-          "life"
+          "sports"
         ]
       },
       "added_at": "2026-11-06"
@@ -49872,7 +49872,7 @@
           "cid": 37260559386
         }
       ],
-      "note": "讲给孩子的三十六计国学动画系列；建议增设人文主题",
+      "note": "讲给孩子的三十六计国学动画系列",
       "tags": {
         "age": [
           "3-6",
@@ -49883,7 +49883,7 @@
         ],
         "theme": [
           "animation",
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -50960,7 +50960,7 @@
         ],
         "theme": [
           "animation",
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -52228,7 +52228,7 @@
       "season_id": 6483909,
       "total_pages": 0,
       "pages": [],
-      "note": "古诗儿歌串烧幼儿启蒙，建议增设人文主题",
+      "note": "古诗儿歌串烧幼儿启蒙",
       "tags": {
         "age": [
           "3-6"
@@ -52238,7 +52238,7 @@
         ],
         "theme": [
           "music",
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -53550,7 +53550,7 @@
       "season_id": null,
       "total_pages": 0,
       "pages": [],
-      "note": "小小人类星球中文版，世界观启蒙，建议增设人文主题",
+      "note": "小小人类星球中文版，世界观启蒙",
       "tags": {
         "age": [
           "3-6"
@@ -53559,7 +53559,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -53867,7 +53867,7 @@
       "season_id": null,
       "total_pages": 1,
       "pages": [],
-      "note": "趣味拼音ü教学，语文暂归story，建议增设语文主题",
+      "note": "趣味拼音ü教学",
       "tags": {
         "age": [
           "6-9"
@@ -53876,7 +53876,7 @@
           "zh"
         ],
         "theme": [
-          "story"
+          "chinese"
         ]
       },
       "added_at": "2026-11-06"
@@ -56144,7 +56144,7 @@
       "season_id": 2081442,
       "total_pages": 1,
       "pages": [],
-      "note": "笠翁对韵诵读磨耳朵，建议增设人文主题",
+      "note": "笠翁对韵诵读磨耳朵",
       "tags": {
         "age": [
           "3-6",
@@ -56155,7 +56155,7 @@
         ],
         "theme": [
           "music",
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -57231,7 +57231,7 @@
           "cid": 32987612579
         }
       ],
-      "note": "中华寓言故事动画合集；建议增设人文主题",
+      "note": "中华寓言故事动画合集",
       "tags": {
         "age": [
           "3-6",
@@ -57241,7 +57241,7 @@
           "zh"
         ],
         "theme": [
-          "story",
+          "humanities",
           "animation"
         ]
       },
@@ -58214,7 +58214,7 @@
       "season_id": null,
       "total_pages": 0,
       "pages": [],
-      "note": "唱学李白古朗月行，建议增设人文主题",
+      "note": "唱学李白古朗月行",
       "tags": {
         "age": [
           "6-9"
@@ -58224,7 +58224,7 @@
         ],
         "theme": [
           "music",
-          "story"
+          "humanities"
         ]
       },
       "added_at": "2026-11-06"
@@ -58458,7 +58458,7 @@
           "cid": 26722371781
         }
       ],
-      "note": "唐诗三百首唱游动画，幼儿古诗启蒙，建议增设人文主题",
+      "note": "唐诗三百首唱游动画，幼儿古诗启蒙",
       "tags": {
         "age": [
           "3-6"
@@ -58468,7 +58468,7 @@
         ],
         "theme": [
           "music",
-          "story",
+          "humanities",
           "animation"
         ]
       },

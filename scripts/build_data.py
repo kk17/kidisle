@@ -13,6 +13,7 @@
 
 import argparse
 import json
+import re
 import time
 from collections import Counter
 from pathlib import Path
@@ -23,6 +24,25 @@ SOURCE_URLS = {
     "小花生宝藏UP主盘点": "https://www.163.com/dy/article/HIJ32IVO05268AGI.html",
     "外滩教育推荐": "https://www.thepaper.cn/newsDetail_forward_19093414",
 }
+
+# 打标 note 里的管线备注（枚举缺口时期的「暂归/建议增设/枚举无」）不面向家长，
+# 发布前剥掉。句式为 build_books.py PIPELINE_NOTE_RE 的超集（图书侧目前只有
+# 「建议增设…主题」句式）；只吞前或后一个分隔符，避免剥句中备注时粘连两段。
+_NOTE_CORE = (
+    r"建议增设(?:人文|体育|语文)(?:主题)?[了]?"
+    r"|(?:语文|人文|体育)(?:启蒙)?(?:类|历史)?(?:暂归|类归|归)(?:story|life)(?:主题)?"
+    r"|枚举无(?:体育|人文|语文)(?:归|暂归)(?:story|life)(?:主题)?"
+)
+PIPELINE_NOTE_RE = re.compile(
+    rf"(?:[,，;；、]\s*(?:{_NOTE_CORE})|(?:{_NOTE_CORE})\s*[,，;；、]|(?:{_NOTE_CORE}))"
+)
+
+
+def _clean_note(note: str) -> str:
+    note = PIPELINE_NOTE_RE.sub("", note)
+    # 剥离后相邻分隔符合并，再去头尾
+    note = re.sub(r"([,，;；、])\s*[,，;；、\s]+", r"\1", note)
+    return note.strip(" ，,;；、\t")
 
 
 def main():
@@ -78,7 +98,7 @@ def main():
                 "season_id": None if is_yt else (cand.get("season") or {}).get("id"),
                 "total_pages": cand.get("total_pages") or 0,
                 "pages": cand.get("pages") or [],
-                "note": t.get("note") or "",
+                "note": _clean_note(t.get("note") or ""),
                 "tags": {
                     "age": t["tags"]["age"],
                     "language": langs[:1],

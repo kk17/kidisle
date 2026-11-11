@@ -77,13 +77,13 @@
       "avatar": "https://yt3.googleusercontent.com/Yc9p76OfTXkdYN5f0iGJqpfmgTZxZkmwvwmL6S7s63QA8UTuBFyBfjL6xYpsX-XdGiKqxfGWkQ=s900-c-k-c0x00ffffff-no-rj",
       "video_count": 6,
       "themes": [
-        "life"
+        "sports"
       ],
       "platforms": [
         "youtube"
       ],
-      "reason": "收录 6 条视频，主打生活习惯",
-      "reason_en": "6 videos, mainly Life Skills",
+      "reason": "收录 6 条视频，主打体育运动",
+      "reason_en": "6 videos, mainly Sports",
       "source": "Action for Healthy Kids",
       "source_url": "https://www.actionforhealthykids.org/activity/yoga-and-mindfulness",
       "mid": null
@@ -425,7 +425,7 @@
       "themes": [
         "music",
         "social",
-        "story"
+        "chinese"
       ],
       "platforms": [
         "bilibili"
@@ -672,7 +672,7 @@
       "themes": [
         "animation",
         "science",
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
@@ -860,7 +860,7 @@
       "avatar": "https://i1.hdslb.com/bfs/face/4eb764b8c6afc48ad1e7aaf84b0f58db3d4dbb3f.jpg",
       "video_count": 3,
       "themes": [
-        "story",
+        "humanities",
         "animation"
       ],
       "platforms": [
@@ -877,7 +877,7 @@
       "avatar": "https://i2.hdslb.com/bfs/face/731fb5fcf881ff103e735d4e620f9a69363d6d2c.jpg",
       "video_count": 3,
       "themes": [
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
@@ -893,7 +893,7 @@
       "avatar": "https://i0.hdslb.com/bfs/face/61279ce2c0393f1e78c158a11bad1b53bd6dd07a.jpg",
       "video_count": 3,
       "themes": [
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
@@ -1095,7 +1095,7 @@
       "avatar": "https://i2.hdslb.com/bfs/face/fbcd640668be54fd4cc09489c74bb772cd207663.jpg",
       "video_count": 3,
       "themes": [
-        "story",
+        "humanities",
         "social"
       ],
       "platforms": [
@@ -1182,14 +1182,14 @@
       "avatar": "https://i1.hdslb.com/bfs/face/3f6c779ce3978a5ad2e36c6b86664d7a1aae0908.jpg",
       "video_count": 3,
       "themes": [
-        "story",
+        "chinese",
         "math"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 3 条视频，主打绘本故事、数学思维",
-      "reason_en": "3 videos, mainly Stories and Math",
+      "reason": "收录 3 条视频，主打语文启蒙、数学思维",
+      "reason_en": "3 videos, mainly Chinese Learning and Math",
       "source": "社区精选",
       "source_url": "",
       "mid": 2096718553
@@ -1216,13 +1216,13 @@
       "video_count": 3,
       "themes": [
         "music",
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 3 条视频，主打音乐、绘本故事",
-      "reason_en": "3 videos, mainly Music and Stories",
+      "reason": "收录 3 条视频，主打音乐、人文历史",
+      "reason_en": "3 videos, mainly Music and History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 70421020
@@ -1489,13 +1489,13 @@
       "avatar": "https://i2.hdslb.com/bfs/face/54b2cb29d8222be20addda530fe954a53db4744b.jpg",
       "video_count": 2,
       "themes": [
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 2 条视频，主打绘本故事",
-      "reason_en": "2 videos, mainly Stories",
+      "reason": "收录 2 条视频，主打人文历史",
+      "reason_en": "2 videos, mainly History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 38053181
@@ -1556,13 +1556,13 @@
       "avatar": "https://i0.hdslb.com/bfs/face/3eb148dd14f13121cbcf60f46777a7bf59386172.jpg",
       "video_count": 2,
       "themes": [
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 2 条视频，主打绘本故事",
-      "reason_en": "2 videos, mainly Stories",
+      "reason": "收录 2 条视频，主打人文历史",
+      "reason_en": "2 videos, mainly History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 1993542441
@@ -1658,7 +1658,7 @@
       "avatar": "https://i2.hdslb.com/bfs/face/0384ad1fb81d4aa1fbb108e2c37577b3ca759317.jpg",
       "video_count": 2,
       "themes": [
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
@@ -1726,7 +1726,7 @@
       "themes": [
         "animation",
         "social",
-        "life"
+        "sports"
       ],
       "platforms": [
         "bilibili"
@@ -1759,14 +1759,14 @@
       "video_count": 2,
       "themes": [
         "animation",
-        "story",
+        "humanities",
         "nature"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 2 条视频，主打动画、绘本故事",
-      "reason_en": "2 videos, mainly Animation and Stories",
+      "reason": "收录 2 条视频，主打动画、人文历史",
+      "reason_en": "2 videos, mainly Animation and History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 491506683
@@ -1860,13 +1860,13 @@
       "avatar": "https://i2.hdslb.com/bfs/face/986aade5b84e06805f7b40f74119dfe2764a8b94.jpg",
       "video_count": 2,
       "themes": [
-        "life"
+        "sports"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 2 条视频，主打生活习惯",
-      "reason_en": "2 videos, mainly Life Skills",
+      "reason": "收录 2 条视频，主打体育运动",
+      "reason_en": "2 videos, mainly Sports",
       "source": "社区精选",
       "source_url": "",
       "mid": 278030483
@@ -1948,13 +1948,13 @@
       "avatar": "https://i2.hdslb.com/bfs/face/766a529a2d3a4613033cfaae7bfd93ccfb099d99.jpg",
       "video_count": 2,
       "themes": [
-        "life"
+        "sports"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 2 条视频，主打生活习惯",
-      "reason_en": "2 videos, mainly Life Skills",
+      "reason": "收录 2 条视频，主打体育运动",
+      "reason_en": "2 videos, mainly Sports",
       "source": "社区精选",
       "source_url": "",
       "mid": 7283282
@@ -2000,13 +2000,13 @@
       "avatar": "https://i2.hdslb.com/bfs/face/b06d010f3ce54369b2747ebb87a119e136c6ccbd.jpg",
       "video_count": 2,
       "themes": [
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 2 条视频，主打绘本故事",
-      "reason_en": "2 videos, mainly Stories",
+      "reason": "收录 2 条视频，主打人文历史",
+      "reason_en": "2 videos, mainly History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 34579535
@@ -2033,13 +2033,13 @@
       "avatar": "https://i0.hdslb.com/bfs/face/9550799255d8a3d1558757550ac36e31acd10b47.jpg",
       "video_count": 2,
       "themes": [
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 2 条视频，主打绘本故事",
-      "reason_en": "2 videos, mainly Stories",
+      "reason": "收录 2 条视频，主打人文历史",
+      "reason_en": "2 videos, mainly History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 532741557
@@ -2101,13 +2101,13 @@
       "avatar": "https://i0.hdslb.com/bfs/face/c2b30476cbe1b3a69883b033884a23662af5f519.jpg",
       "video_count": 2,
       "themes": [
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 2 条视频，主打绘本故事",
-      "reason_en": "2 videos, mainly Stories",
+      "reason": "收录 2 条视频，主打人文历史",
+      "reason_en": "2 videos, mainly History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 3691001784830730
@@ -2268,13 +2268,13 @@
       "avatar": "https://i0.hdslb.com/bfs/face/204f2f4d44d5c46d48881f78dadb8d21a5118c20.jpg",
       "video_count": 2,
       "themes": [
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 2 条视频，主打绘本故事",
-      "reason_en": "2 videos, mainly Stories",
+      "reason": "收录 2 条视频，主打人文历史",
+      "reason_en": "2 videos, mainly History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 612194373
@@ -2319,14 +2319,14 @@
       "avatar": "https://i2.hdslb.com/bfs/face/1ee9820c98de464de20cdaf54e5be9111395460f.jpg",
       "video_count": 2,
       "themes": [
-        "life",
+        "sports",
         "social"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 2 条视频，主打生活习惯、情感与社交",
-      "reason_en": "2 videos, mainly Life Skills and Social-Emotional",
+      "reason": "收录 2 条视频，主打体育运动、情感与社交",
+      "reason_en": "2 videos, mainly Sports and Social-Emotional",
       "source": "社区精选",
       "source_url": "",
       "mid": 1721646266
@@ -2337,14 +2337,14 @@
       "video_count": 2,
       "themes": [
         "animation",
-        "story",
+        "humanities",
         "music"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 2 条视频，主打动画、绘本故事",
-      "reason_en": "2 videos, mainly Animation and Stories",
+      "reason": "收录 2 条视频，主打动画、人文历史",
+      "reason_en": "2 videos, mainly Animation and History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 3546787231041820
@@ -2953,15 +2953,15 @@
       "avatar": "https://i0.hdslb.com/bfs/face/ea576650f7004ab5a0b08c2640242f3b36bacda7.jpg",
       "video_count": 1,
       "themes": [
-        "story",
+        "humanities",
         "animation",
         "music"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打绘本故事、动画",
-      "reason_en": "1 videos, mainly Stories and Animation",
+      "reason": "收录 1 条视频，主打人文历史、动画",
+      "reason_en": "1 videos, mainly History & Humanities and Animation",
       "source": "社区精选",
       "source_url": "",
       "mid": 2081146728
@@ -3020,13 +3020,13 @@
       "avatar": "https://i0.hdslb.com/bfs/face/8260e44c48ecf9ea4746f907a0fa7e9f87efef23.jpg",
       "video_count": 1,
       "themes": [
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打绘本故事",
-      "reason_en": "1 videos, mainly Stories",
+      "reason": "收录 1 条视频，主打人文历史",
+      "reason_en": "1 videos, mainly History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 72209046
@@ -3054,13 +3054,13 @@
       "avatar": "https://i1.hdslb.com/bfs/face/8295f808583d180d0a85cfa732f812d86e9a3e14.jpg",
       "video_count": 1,
       "themes": [
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打绘本故事",
-      "reason_en": "1 videos, mainly Stories",
+      "reason": "收录 1 条视频，主打人文历史",
+      "reason_en": "1 videos, mainly History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 1774601194
@@ -3103,13 +3103,13 @@
       "avatar": "https://i0.hdslb.com/bfs/face/a402b5c058b4fcfa6f1bc0a91cdbb170efa374cf.jpg",
       "video_count": 1,
       "themes": [
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打绘本故事",
-      "reason_en": "1 videos, mainly Stories",
+      "reason": "收录 1 条视频，主打人文历史",
+      "reason_en": "1 videos, mainly History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 2060191788
@@ -3136,13 +3136,13 @@
       "avatar": "https://i0.hdslb.com/bfs/face/7e72c58637ff26df68fb30939de078d2bbbfcdbe.jpg",
       "video_count": 1,
       "themes": [
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打绘本故事",
-      "reason_en": "1 videos, mainly Stories",
+      "reason": "收录 1 条视频，主打人文历史",
+      "reason_en": "1 videos, mainly History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 486502194
@@ -3386,15 +3386,15 @@
       "avatar": "http://i0.hdslb.com/bfs/face/f1ce847e22b9696dd1570dadeadd9471cf405d50.jpg",
       "video_count": 1,
       "themes": [
-        "story",
+        "humanities",
         "animation",
         "music"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打绘本故事、动画",
-      "reason_en": "1 videos, mainly Stories and Animation",
+      "reason": "收录 1 条视频，主打人文历史、动画",
+      "reason_en": "1 videos, mainly History & Humanities and Animation",
       "source": "社区精选",
       "source_url": "",
       "mid": 286150278
@@ -3454,13 +3454,13 @@
       "avatar": "https://i0.hdslb.com/bfs/face/ec208cc669f6d02d541425dd2d6851c9311d2683.jpg",
       "video_count": 1,
       "themes": [
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打绘本故事",
-      "reason_en": "1 videos, mainly Stories",
+      "reason": "收录 1 条视频，主打人文历史",
+      "reason_en": "1 videos, mainly History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 483628071
@@ -3604,13 +3604,13 @@
       "avatar": "https://i0.hdslb.com/bfs/face/969871dce0690c79d76ed0b199a79e24a1fbe692.jpg",
       "video_count": 1,
       "themes": [
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打绘本故事",
-      "reason_en": "1 videos, mainly Stories",
+      "reason": "收录 1 条视频，主打人文历史",
+      "reason_en": "1 videos, mainly History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 1360180011
@@ -3654,13 +3654,13 @@
       "avatar": "https://i1.hdslb.com/bfs/face/cfc96b5c9f597efce3cf6cf5fe806e2fa038784f.jpg",
       "video_count": 1,
       "themes": [
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打绘本故事",
-      "reason_en": "1 videos, mainly Stories",
+      "reason": "收录 1 条视频，主打人文历史",
+      "reason_en": "1 videos, mainly History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 1660249855
@@ -3757,13 +3757,13 @@
       "video_count": 1,
       "themes": [
         "animation",
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打动画、绘本故事",
-      "reason_en": "1 videos, mainly Animation and Stories",
+      "reason": "收录 1 条视频，主打动画、人文历史",
+      "reason_en": "1 videos, mainly Animation and History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 3690980760881163
@@ -3838,13 +3838,13 @@
       "avatar": "https://i2.hdslb.com/bfs/face/efc640ea02b42564e3b42c6f080aea4c673e8c6e.jpg",
       "video_count": 1,
       "themes": [
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打绘本故事",
-      "reason_en": "1 videos, mainly Stories",
+      "reason": "收录 1 条视频，主打人文历史",
+      "reason_en": "1 videos, mainly History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 1646572394
@@ -3905,13 +3905,13 @@
       "video_count": 1,
       "themes": [
         "music",
-        "life"
+        "sports"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打音乐、生活习惯",
-      "reason_en": "1 videos, mainly Music and Life Skills",
+      "reason": "收录 1 条视频，主打音乐、体育运动",
+      "reason_en": "1 videos, mainly Music and Sports",
       "source": "社区精选",
       "source_url": "",
       "mid": 3546889989393360
@@ -3937,13 +3937,13 @@
       "avatar": "https://i0.hdslb.com/bfs/face/e5a49c804c0200ef9d027c453aa3ef7bc472f20b.jpg",
       "video_count": 1,
       "themes": [
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打绘本故事",
-      "reason_en": "1 videos, mainly Stories",
+      "reason": "收录 1 条视频，主打人文历史",
+      "reason_en": "1 videos, mainly History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 3546796957633458
@@ -3969,13 +3969,13 @@
       "avatar": "https://i1.hdslb.com/bfs/face/e8251f2f2f3facb51857068966303a7914306d8a.jpg",
       "video_count": 1,
       "themes": [
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打绘本故事",
-      "reason_en": "1 videos, mainly Stories",
+      "reason": "收录 1 条视频，主打人文历史",
+      "reason_en": "1 videos, mainly History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 3461565894363772
@@ -4036,13 +4036,13 @@
       "avatar": "https://i2.hdslb.com/bfs/face/f8605425af4f6315f96b6d062a55cccaf4f6b9d2.jpg",
       "video_count": 1,
       "themes": [
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打绘本故事",
-      "reason_en": "1 videos, mainly Stories",
+      "reason": "收录 1 条视频，主打人文历史",
+      "reason_en": "1 videos, mainly History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 509303075
@@ -4069,13 +4069,13 @@
       "video_count": 1,
       "themes": [
         "animation",
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打动画、绘本故事",
-      "reason_en": "1 videos, mainly Animation and Stories",
+      "reason": "收录 1 条视频，主打动画、人文历史",
+      "reason_en": "1 videos, mainly Animation and History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 224255643
@@ -4237,13 +4237,13 @@
       "video_count": 1,
       "themes": [
         "music",
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打音乐、绘本故事",
-      "reason_en": "1 videos, mainly Music and Stories",
+      "reason": "收录 1 条视频，主打音乐、人文历史",
+      "reason_en": "1 videos, mainly Music and History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 1316577108
@@ -4253,14 +4253,14 @@
       "avatar": "https://i0.hdslb.com/bfs/face/04c79c6271c3e4e5bd6c6f6c734c50d72fbb57ee.jpg",
       "video_count": 1,
       "themes": [
-        "story",
+        "humanities",
         "animation"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打绘本故事、动画",
-      "reason_en": "1 videos, mainly Stories and Animation",
+      "reason": "收录 1 条视频，主打人文历史、动画",
+      "reason_en": "1 videos, mainly History & Humanities and Animation",
       "source": "社区精选",
       "source_url": "",
       "mid": 30578334
@@ -4320,13 +4320,13 @@
       "avatar": "https://i0.hdslb.com/bfs/face/c6d3d3f8bbe0565a40a272dbc3fcc2ced247afd5.jpg",
       "video_count": 1,
       "themes": [
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打绘本故事",
-      "reason_en": "1 videos, mainly Stories",
+      "reason": "收录 1 条视频，主打人文历史",
+      "reason_en": "1 videos, mainly History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 529282602
@@ -4787,13 +4787,13 @@
       "avatar": "https://i2.hdslb.com/bfs/face/08191d29fe1a6d8c330cdf89f8124691264bf1ff.jpg",
       "video_count": 1,
       "themes": [
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打绘本故事",
-      "reason_en": "1 videos, mainly Stories",
+      "reason": "收录 1 条视频，主打人文历史",
+      "reason_en": "1 videos, mainly History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 1802117855
@@ -4820,14 +4820,14 @@
       "avatar": "https://i1.hdslb.com/bfs/face/6ddfa94398f1b1374e199b99b23923d07537d347.jpg",
       "video_count": 1,
       "themes": [
-        "life",
+        "sports",
         "english"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打生活习惯、英语启蒙",
-      "reason_en": "1 videos, mainly Life Skills and English Learning",
+      "reason": "收录 1 条视频，主打体育运动、英语启蒙",
+      "reason_en": "1 videos, mainly Sports and English Learning",
       "source": "社区精选",
       "source_url": "",
       "mid": 408423004
@@ -5005,13 +5005,13 @@
       "avatar": "https://i1.hdslb.com/bfs/face/9ac6cad112925a92505e6c315f797a33adde0b0d.jpg",
       "video_count": 1,
       "themes": [
-        "life"
+        "sports"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打生活习惯",
-      "reason_en": "1 videos, mainly Life Skills",
+      "reason": "收录 1 条视频，主打体育运动",
+      "reason_en": "1 videos, mainly Sports",
       "source": "社区精选",
       "source_url": "",
       "mid": 1528288456
@@ -5055,13 +5055,13 @@
       "video_count": 1,
       "themes": [
         "animation",
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打动画、绘本故事",
-      "reason_en": "1 videos, mainly Animation and Stories",
+      "reason": "收录 1 条视频，主打动画、人文历史",
+      "reason_en": "1 videos, mainly Animation and History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 3546664352614466
@@ -5071,13 +5071,13 @@
       "avatar": "https://i2.hdslb.com/bfs/face/c0b69bfe6b206d367bed4c6e00baae630ef96701.jpg",
       "video_count": 1,
       "themes": [
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打绘本故事",
-      "reason_en": "1 videos, mainly Stories",
+      "reason": "收录 1 条视频，主打人文历史",
+      "reason_en": "1 videos, mainly History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 356518193
@@ -5087,14 +5087,14 @@
       "avatar": "https://i1.hdslb.com/bfs/face/024d3806b74a115092a07e12b4602ba8c5d383de.jpg",
       "video_count": 1,
       "themes": [
-        "story",
+        "humanities",
         "animation"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打绘本故事、动画",
-      "reason_en": "1 videos, mainly Stories and Animation",
+      "reason": "收录 1 条视频，主打人文历史、动画",
+      "reason_en": "1 videos, mainly History & Humanities and Animation",
       "source": "社区精选",
       "source_url": "",
       "mid": 29781904
@@ -5137,13 +5137,13 @@
       "avatar": "https://i2.hdslb.com/bfs/face/83048a275a32057f45243b8010e653f51c587070.jpg",
       "video_count": 1,
       "themes": [
-        "life"
+        "sports"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打生活习惯",
-      "reason_en": "1 videos, mainly Life Skills",
+      "reason": "收录 1 条视频，主打体育运动",
+      "reason_en": "1 videos, mainly Sports",
       "source": "社区精选",
       "source_url": "",
       "mid": 543976958
@@ -5187,13 +5187,13 @@
       "avatar": "https://i1.hdslb.com/bfs/face/4d176084af9d1cb4708d5efa5534f5c6235d15eb.jpg",
       "video_count": 1,
       "themes": [
-        "life"
+        "sports"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打生活习惯",
-      "reason_en": "1 videos, mainly Life Skills",
+      "reason": "收录 1 条视频，主打体育运动",
+      "reason_en": "1 videos, mainly Sports",
       "source": "社区精选",
       "source_url": "",
       "mid": 3970750
@@ -5669,13 +5669,13 @@
       "avatar": "https://i2.hdslb.com/bfs/face/e2834edfa57c55a766c925316ad630720f0f8f52.jpg",
       "video_count": 1,
       "themes": [
-        "story"
+        "chinese"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打绘本故事",
-      "reason_en": "1 videos, mainly Stories",
+      "reason": "收录 1 条视频，主打语文启蒙",
+      "reason_en": "1 videos, mainly Chinese Learning",
       "source": "社区精选",
       "source_url": "",
       "mid": 3546804765330008
@@ -5701,13 +5701,13 @@
       "avatar": "https://i2.hdslb.com/bfs/face/1ff998ade22260f748ff8f056467eb6170600d02.jpg",
       "video_count": 1,
       "themes": [
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打绘本故事",
-      "reason_en": "1 videos, mainly Stories",
+      "reason": "收录 1 条视频，主打人文历史",
+      "reason_en": "1 videos, mainly History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 2024460749
@@ -5733,13 +5733,13 @@
       "avatar": "http://i0.hdslb.com/bfs/face/member/noface.jpg",
       "video_count": 1,
       "themes": [
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打绘本故事",
-      "reason_en": "1 videos, mainly Stories",
+      "reason": "收录 1 条视频，主打人文历史",
+      "reason_en": "1 videos, mainly History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 426125598
@@ -5785,13 +5785,13 @@
       "video_count": 1,
       "themes": [
         "music",
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打音乐、绘本故事",
-      "reason_en": "1 videos, mainly Music and Stories",
+      "reason": "收录 1 条视频，主打音乐、人文历史",
+      "reason_en": "1 videos, mainly Music and History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 1152323507
@@ -5801,13 +5801,13 @@
       "avatar": "https://i1.hdslb.com/bfs/face/ac04a33daa6a8364c384eeb211f73c7c97a4ee44.jpg",
       "video_count": 1,
       "themes": [
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打绘本故事",
-      "reason_en": "1 videos, mainly Stories",
+      "reason": "收录 1 条视频，主打人文历史",
+      "reason_en": "1 videos, mainly History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 357157261
@@ -6289,13 +6289,13 @@
       "video_count": 1,
       "themes": [
         "animation",
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打动画、绘本故事",
-      "reason_en": "1 videos, mainly Animation and Stories",
+      "reason": "收录 1 条视频，主打动画、人文历史",
+      "reason_en": "1 videos, mainly Animation and History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 3493268415318402
@@ -6357,13 +6357,13 @@
       "video_count": 1,
       "themes": [
         "music",
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打音乐、绘本故事",
-      "reason_en": "1 videos, mainly Music and Stories",
+      "reason": "收录 1 条视频，主打音乐、人文历史",
+      "reason_en": "1 videos, mainly Music and History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 25572714
@@ -6540,13 +6540,13 @@
       "avatar": "https://i0.hdslb.com/bfs/face/ae724184156204048df2c85382db2eaccd75ba1a.jpg",
       "video_count": 1,
       "themes": [
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打绘本故事",
-      "reason_en": "1 videos, mainly Stories",
+      "reason": "收录 1 条视频，主打人文历史",
+      "reason_en": "1 videos, mainly History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 1902447285
@@ -6639,13 +6639,13 @@
       "avatar": "https://i2.hdslb.com/bfs/face/f13397701edd5386461214688d2c14369ba628ac.jpg",
       "video_count": 1,
       "themes": [
-        "story"
+        "chinese"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打绘本故事",
-      "reason_en": "1 videos, mainly Stories",
+      "reason": "收录 1 条视频，主打语文启蒙",
+      "reason_en": "1 videos, mainly Chinese Learning",
       "source": "社区精选",
       "source_url": "",
       "mid": 519171875
@@ -6943,13 +6943,13 @@
       "video_count": 1,
       "themes": [
         "music",
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打音乐、绘本故事",
-      "reason_en": "1 videos, mainly Music and Stories",
+      "reason": "收录 1 条视频，主打音乐、人文历史",
+      "reason_en": "1 videos, mainly Music and History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 3176828
@@ -7043,14 +7043,14 @@
       "avatar": "https://i1.hdslb.com/bfs/face/02caa29682e6d5c30abbc614f0beb46e330f9d3c.jpg",
       "video_count": 1,
       "themes": [
-        "story",
+        "humanities",
         "animation"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打绘本故事、动画",
-      "reason_en": "1 videos, mainly Stories and Animation",
+      "reason": "收录 1 条视频，主打人文历史、动画",
+      "reason_en": "1 videos, mainly History & Humanities and Animation",
       "source": "社区精选",
       "source_url": "",
       "mid": 3546973296658960
@@ -7128,13 +7128,13 @@
       "video_count": 1,
       "themes": [
         "music",
-        "story"
+        "humanities"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打音乐、绘本故事",
-      "reason_en": "1 videos, mainly Music and Stories",
+      "reason": "收录 1 条视频，主打音乐、人文历史",
+      "reason_en": "1 videos, mainly Music and History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 278871690
@@ -7177,14 +7177,14 @@
       "video_count": 1,
       "themes": [
         "music",
-        "story",
+        "humanities",
         "animation"
       ],
       "platforms": [
         "bilibili"
       ],
-      "reason": "收录 1 条视频，主打音乐、绘本故事",
-      "reason_en": "1 videos, mainly Music and Stories",
+      "reason": "收录 1 条视频，主打音乐、人文历史",
+      "reason_en": "1 videos, mainly Music and History & Humanities",
       "source": "社区精选",
       "source_url": "",
       "mid": 3546646885435685

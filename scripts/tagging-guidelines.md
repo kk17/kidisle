@@ -74,15 +74,22 @@
 ## 四、主题（theme，1-3 个，从枚举取值）
 
 枚举：`science` 科普 / `animation` 动画 / `story` 绘本故事 / `music` 音乐 /
-`math` 数学思维 / `english` 英语启蒙 / `nature` 自然 / `life` 生活习惯 /
-`social` 情感与社交 / `craft` 手工
+`math` 数学思维 / `english` 英语启蒙 / `chinese` 语文启蒙 / `humanities` 人文历史 /
+`nature` 自然 / `life` 生活习惯 / `sports` 体育运动 / `social` 情感与社交 / `craft` 手工
 
 - 主题填**内容的主要从属**，不按标题关键词硬套
 - 数理科普 → `math` 或 `science`（物理化学生物天文 → `science`；数学/逻辑 → `math`）
 - 动物/植物/地球 → `nature`；物理实验演示 → `science`
 - 动画形式的科普（如美丽科学）→ `science` 为主 + `animation`
-- 古诗词/历史/语文 → 枚举里没有对应项时选 `story`（人文叙事类暂归此档）并在
-  note 里注明"建议增设人文主题"——枚举扩展走仓库 issue，不打标 agent 自行扩展
+- 古诗词讲解、历史故事/沙盘、名著导读、博物馆云看展、国学启蒙（三字经/百家姓/
+  三十六计/成语典故）、古典文学讲座、传统文化科普 → `humanities`（不再暂归 `story`）
+- 汉字/拼音/识字、课文精讲等语文教学 → `chinese`（诗词文公开课、唱学古诗归
+  `humanities`；系统识字/拼音/语文课归 `chinese`）
+- 少儿运动教学与体能活动（游泳/球类/武术/体操/瑜伽/体适能/跑酷等）→ `sports`
+  （不再暂归 `life`）
+- **不要**在 note 里写"建议增设 xx 主题"之类的管线备注——枚举扩展一律走仓库
+  issue（humanities/sports/chinese 已于 2026-11 扩表，见 issue#1），不打标 agent
+  自行扩展
 - 音乐儿歌 → `music`；英文儿歌 → `music` + `english`
 - 手工/折纸/美术 → `craft`
 
