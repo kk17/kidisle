@@ -10,6 +10,7 @@ interface Props {
 import { base } from '../lib/base.ts';
 import taxonomy from '../data/taxonomy.json';
 import '../styles/theme.css';
+import InstallGuide from '../components/InstallGuide.astro';
 const { title = '童心湾 · 精选儿童视频与绘本', titleEn = 'TinyCove · Curated videos & picture books for kids', description = '童心湾：为孩子精选的儿童视频与绘本，按年龄段、语言、主题筛选。' } = Astro.props;
 
 // 当前页面归属（服务端即定，无需 JS 同步）：/ 重定向页不经 Base
@@ -112,6 +113,10 @@ const buildVer = new Date().toISOString().slice(0, 16).replace('T', ' ');
 			}
 			.site-footer { text-align: center; color: var(--muted); font-size: 0.8rem; padding: 1.5rem 0 2rem; }
 			.build-ver { opacity: 0.65; }
+			.pwa-guide-open {
+				margin-top: 0.6rem; font-size: 0.8rem; padding: 0.3rem 0.9rem; border-radius: 999px;
+				border: 1px solid var(--line); background: var(--card); color: var(--sea); cursor: pointer;
+			}
 			.tag {
 				font-size: 0.7rem; padding: 0.08rem 0.5rem; border-radius: 999px;
 				background: var(--sea-soft); color: var(--sea-ink); white-space: nowrap;
@@ -158,7 +163,9 @@ const buildVer = new Date().toISOString().slice(0, 16).replace('T', ' ');
 		<slot />
 		<footer class="site-footer">
 			童心湾 (tinycove) · <span data-i18n="footer_open_source">独立开源项目</span> · <a href="https://github.com/tinycove/tinycove.github.io">GitHub</a> · MIT · <span data-i18n="footer_rights">视频与图书信息版权归原作者所有</span> · <span class="build-ver">build {buildVer}</span>
+			<div><button class="pwa-guide-open" id="pwa-guide-open" type="button" hidden data-i18n="pwa_footer_link">📲 添加到主屏幕</button></div>
 		</footer>
+		<InstallGuide />
 
 		<!-- 标签双语字典（taxonomy），供全局切换脚本使用 -->
 		<script is:inline type="application/json" id="tag-i18n" set:html={JSON.stringify({

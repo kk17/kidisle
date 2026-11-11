@@ -1,0 +1,199 @@
+---
+// PWA「添加到主屏幕」引导浮层（RIGE-1078）
+// 仅手机浏览器首次访问时弹出（关闭后记住，不再自动弹）；页脚「📲 添加到主屏幕」可随时再打开。
+// 分三种情况给不同指引——各端添加方式完全不同：
+//   - android：Chrome/Edge/三星等支持 beforeinstallprompt → 一键「安装」按钮；
+//              不支持的浏览器（UC/夸克/华为/小米自带等）→ 菜单手动添加步骤
+//   - ios：Safari 无任何安装 API，只能图示「分享 → 添加到主屏幕」
+//   - inapp：微信/QQ/微博/抖音/小红书/B站等 App 内置浏览器无法安装 → 先引导「在浏览器打开」
+// 已以 PWA 方式打开（display-mode: standalone）时不显示。文案走 data-i18n，由 Base 的 apply() 切换中英。
+import { base } from '../lib/base.ts';
+---
+<div class="ig-backdrop" id="install-guide" hidden>
+	<div class="ig-sheet" tabindex="-1" role="dialog" aria-modal="true" aria-labelledby="ig-title">
+		<button class="ig-close" id="ig-close" type="button" aria-label="关闭 / Close">×</button>
+		<div class="ig-head">
+			<img class="ig-icon" src={`${base}pwa-192.png`} alt="" width="52" height="52" />
+			<div>
+				<h2 class="ig-title" id="ig-title" data-i18n="pwa_title">把童心湾添加到主屏幕</h2>
+				<p class="ig-intro" data-i18n="pwa_intro">像 App 一样从桌面一键打开，全屏浏览，不用每次找网址。</p>
+			</div>
+		</div>
+
+		<!-- Android：支持一键安装 -->
+		<div class="ig-body" data-variant="android-prompt" hidden>
+			<button class="ig-install" id="ig-install" type="button" data-i18n="pwa_install_btn">📲 一键添加到桌面</button>
+		</div>
+
+		<!-- Android：浏览器不支持一键安装，菜单手动添加 -->
+		<ol class="ig-steps" data-variant="android" hidden>
+			<li><span class="ig-ico" aria-hidden="true">
+				<svg viewBox="0 0 24 24" width="20" height="20"><circle cx="12" cy="5" r="2" /><circle cx="12" cy="12" r="2" /><circle cx="12" cy="19" r="2" /></svg>
+			</span><span data-i18n="pwa_android_1">点击浏览器的菜单按钮（右上角 ⋮ 或底部 ≡）</span></li>
+			<li><span class="ig-ico" aria-hidden="true">➕</span><span data-i18n="pwa_android_2">选择「添加到主屏幕」「安装应用」或「添加到桌面」</span></li>
+			<li><span class="ig-ico" aria-hidden="true">✅</span><span data-i18n="pwa_android_3">如提示权限，请允许浏览器「创建桌面快捷方式」</span></li>
+		</ol>
+
+		<!-- iOS：Safari 分享菜单 -->
+		<ol class="ig-steps" data-variant="ios" hidden>
+			<li><span class="ig-ico" aria-hidden="true">
+				<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M6 11H5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1h-1" /></svg>
+			</span><span data-i18n="pwa_ios_1">点击「分享」按钮（底部工具栏，或地址栏旁 ··· 菜单里）</span></li>
+			<li><span class="ig-ico" aria-hidden="true">
+				<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="4" y="4" width="16" height="16" rx="4" /><path d="M12 8v8M8 12h8" /></svg>
+			</span><span data-i18n="pwa_ios_2">在菜单中向下滑，选择「添加到主屏幕」</span></li>
+			<li><span class="ig-ico" aria-hidden="true">✅</span><span data-i18n="pwa_ios_3">点击右上角「添加」即可</span></li>
+		</ol>
+		<p class="ig-note" data-variant="ios-other" hidden data-i18n="pwa_ios_other">找不到「添加到主屏幕」？请复制网址，用 Safari 打开后再添加。</p>
+
+		<!-- App 内置浏览器：先跳到系统浏览器 -->
+		<ol class="ig-steps" data-variant="inapp" hidden>
+			<li><span class="ig-ico" aria-hidden="true">
+				<svg viewBox="0 0 24 24" width="20" height="20"><circle cx="5" cy="12" r="2" /><circle cx="12" cy="12" r="2" /><circle cx="19" cy="12" r="2" /></svg>
+			</span><span data-i18n="pwa_inapp_1">点击右上角 ··· 按钮</span></li>
+			<li><span class="ig-ico" aria-hidden="true">🌐</span><span data-i18n="pwa_inapp_2">选择「在浏览器中打开」</span></li>
+			<li><span class="ig-ico" aria-hidden="true">📲</span><span data-i18n="pwa_inapp_3">在浏览器里再按提示添加到主屏幕</span></li>
+		</ol>
+
+		<button class="ig-ok" id="ig-ok" type="button" data-i18n="pwa_ok">知道了</button>
+	</div>
+</div>
+
+<style>
+	.ig-backdrop {
+		position: fixed; inset: 0; z-index: 50;
+		background: rgba(15, 42, 58, 0.45);
+		display: flex; align-items: flex-end; justify-content: center;
+		animation: ig-fade 0.2s ease;
+	}
+	.ig-sheet {
+		position: relative; width: 100%; max-width: 28rem;
+		background: var(--card); color: var(--ink);
+		border-radius: 20px 20px 0 0;
+		padding: 1.2rem 1.2rem calc(1rem + env(safe-area-inset-bottom));
+		box-shadow: 0 -8px 30px rgba(15, 42, 58, 0.2);
+		animation: ig-up 0.25s ease; outline: none;
+	}
+	.ig-close {
+		position: absolute; top: 0.5rem; right: 0.6rem;
+		width: 2rem; height: 2rem; border: none; border-radius: 999px;
+		background: transparent; color: var(--muted); font-size: 1.4rem; line-height: 1; cursor: pointer;
+	}
+	.ig-head { display: flex; gap: 0.8rem; align-items: center; padding-right: 1.6rem; }
+	.ig-icon { width: 52px; height: 52px; border-radius: 12px; flex: 0 0 auto; box-shadow: var(--shadow); }
+	.ig-title { margin: 0; font-size: 1.05rem; }
+	.ig-intro { margin: 0.25rem 0 0; font-size: 0.85rem; color: var(--muted); line-height: 1.45; }
+	.ig-steps { list-style: none; margin: 1rem 0 0; padding: 0; display: grid; gap: 0.55rem; }
+	.ig-steps li {
+		display: flex; gap: 0.7rem; align-items: center;
+		background: var(--sea-soft); border-radius: 12px; padding: 0.6rem 0.75rem;
+		font-size: 0.9rem; line-height: 1.4;
+	}
+	.ig-ico {
+		flex: 0 0 auto; width: 2rem; height: 2rem; border-radius: 999px;
+		display: inline-flex; align-items: center; justify-content: center;
+		background: var(--card); color: var(--sea); fill: currentColor; font-size: 1rem;
+	}
+	.ig-note { margin: 0.6rem 0 0; font-size: 0.8rem; color: var(--muted); }
+	.ig-body { margin-top: 1rem; }
+	.ig-install, .ig-ok {
+		display: block; width: 100%; font-size: 0.95rem; font-weight: 600;
+		padding: 0.7rem 1rem; border-radius: 999px; cursor: pointer;
+	}
+	.ig-install { border: none; background: var(--sea); color: #fff; }
+	.ig-ok { margin-top: 0.8rem; border: 1px solid var(--line); background: var(--card); color: var(--sea); }
+	@keyframes ig-fade { from { opacity: 0; } }
+	@keyframes ig-up { from { transform: translateY(100%); } }
+	@media (prefers-reduced-motion: reduce) {
+		.ig-backdrop, .ig-sheet { animation: none; }
+	}
+</style>
+
+<script>
+	// 关闭后写入，之后不再自动弹出（页脚入口仍可手动打开）
+	const KEY = 'tinycove-pwa-guide';
+	const AUTO_DELAY_MS = 2500; // 首屏稳定后再弹，也给 beforeinstallprompt 一点到达时间
+
+	const root = document.getElementById('install-guide');
+	const footerBtn = document.getElementById('pwa-guide-open');
+
+	const ua = navigator.userAgent;
+	const isIOS = /iPhone|iPad|iPod/i.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+	const isAndroid = /Android/i.test(ua);
+	// App 内置浏览器：微信/QQ/微博/钉钉/支付宝/抖音/小红书/B站/飞书/Facebook/Instagram/Line
+	const isInApp = /MicroMessenger|\bQQ\/|Weibo|DingTalk|AlipayClient|aweme|BytedanceWebview|xhsdiscover|BiliApp|Lark\/|FBAN|FBAV|Instagram|\bLine\//i.test(ua);
+	// iOS 上非 Safari 的浏览器（Chrome/Firefox/Edge/夸克/UC 等）：部分不提供「添加到主屏幕」
+	const isIOSNonSafari = isIOS && /CriOS|FxiOS|EdgiOS|OPiOS|Quark|UCBrowser|MQQBrowser|baiduboxapp/i.test(ua);
+	const isStandalone = () =>
+		window.matchMedia('(display-mode: standalone)').matches ||
+		(navigator as Navigator & { standalone?: boolean }).standalone === true;
+
+	let stored: string | null = null;
+	try { stored = localStorage.getItem(KEY); } catch { /* 隐私模式 */ }
+	const remember = (v: string) => { try { localStorage.setItem(KEY, v); } catch { /* ignore */ } };
+
+	type BIPEvent = Event & { prompt: () => Promise<void>; userChoice: Promise<{ outcome: string }> };
+	let deferred: BIPEvent | null = null;
+
+	function variant(): string {
+		if (isInApp) return 'inapp';
+		if (isIOS) return 'ios';
+		return deferred ? 'android-prompt' : 'android';
+	}
+
+	function render() {
+		if (!root) return;
+		const v = variant();
+		root.querySelectorAll<HTMLElement>('[data-variant]').forEach((el) => {
+			const want = el.dataset.variant!;
+			el.hidden = !(want === v || (want === 'ios-other' && v === 'ios' && isIOSNonSafari));
+		});
+	}
+
+	function open() {
+		if (!root) return;
+		render();
+		root.hidden = false;
+		root.querySelector<HTMLElement>('.ig-sheet')?.focus({ preventScroll: true });
+	}
+
+	function close() {
+		if (!root || root.hidden) return;
+		root.hidden = true;
+		remember('dismissed');
+	}
+
+	if (root && (isIOS || isAndroid) && !isStandalone()) {
+		// Chrome/Edge 等：拦下默认迷你信息栏，改由引导里的按钮触发系统安装框
+		window.addEventListener('beforeinstallprompt', (e) => {
+			e.preventDefault();
+			deferred = e as BIPEvent;
+			if (!root.hidden) render();
+		});
+		window.addEventListener('appinstalled', () => {
+			remember('installed');
+			root.hidden = true;
+			if (footerBtn) footerBtn.hidden = true;
+		});
+
+		document.getElementById('ig-close')?.addEventListener('click', close);
+		document.getElementById('ig-ok')?.addEventListener('click', close);
+		root.addEventListener('click', (e) => { if (e.target === root) close(); });
+		document.addEventListener('keydown', (e) => { if (e.key === 'Escape') close(); });
+		document.getElementById('ig-install')?.addEventListener('click', async () => {
+			if (!deferred) return;
+			const ev = deferred;
+			deferred = null; // prompt() 每个事件只能调用一次
+			await ev.prompt();
+			const { outcome } = await ev.userChoice;
+			remember(outcome === 'accepted' ? 'installed' : 'dismissed');
+			root.hidden = true;
+		});
+
+		if (footerBtn && stored !== 'installed') {
+			footerBtn.hidden = false;
+			footerBtn.addEventListener('click', open);
+		}
+		if (!stored) setTimeout(() => { if (!isStandalone()) open(); }, AUTO_DELAY_MS);
+	}
+</script>

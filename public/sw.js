@@ -6,7 +6,7 @@
  * - 其他同源 GET：NetworkFirst
  * 版本号变更时 activate 清理旧缓存
  */
-const VERSION = 'v2026-11-12-r1'; // 海湾清新主题 + 慢页面不再 ERR_FAILED（RIGE-1073）
+const VERSION = 'v2026-11-12-r2'; // PWA 添加到主屏幕引导（RIGE-1078）
 const PAGES_CACHE = `tinycove-pages-${VERSION}`;
 const COVERS_CACHE = `tinycove-covers-${VERSION}`;
 const ASSETS_CACHE = `tinycove-assets-${VERSION}`;

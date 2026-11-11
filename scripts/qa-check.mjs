@@ -395,6 +395,43 @@ async function testPWA(page) {
 	record('P-2 manifest 3 图标 + standalone', pwa.manifestIcons >= 3 && pwa.display === 'standalone');
 }
 
+// PWA 添加到主屏幕引导（RIGE-1078）：手机首次访问按端弹出对应指引；关闭后不再自动弹；桌面不弹
+async function testInstallGuide() {
+	const UA = {
+		ios: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1',
+		android: 'Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36',
+		inapp: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.50(0x18003237) NetType/WIFI Language/zh_CN',
+	};
+	const visible = (page, sel) => page.evaluate((s) => {
+		const el = document.querySelector(s);
+		return Boolean(el && !el.closest('[hidden]') && el.getClientRects().length);
+	}, sel);
+	for (const [kind, ua] of Object.entries(UA)) {
+		const ctx = await browser.newContext({ userAgent: ua, viewport: { width: 375, height: 812 }, isMobile: true, hasTouch: true, serviceWorkers: 'block' });
+		const page = await ctx.newPage();
+		await page.goto(`${target}/videos/`);
+		await page.waitForSelector('#install-guide:not([hidden])', { timeout: 6000 }).catch(() => {});
+		const shown = await visible(page, '#install-guide .ig-sheet');
+		const steps = await visible(page, `#install-guide [data-variant="${kind}"]`);
+		const others = await page.evaluate((k) => [...document.querySelectorAll('#install-guide [data-variant]')]
+			.filter((el) => !el.hidden && el.dataset.variant !== k).map((el) => el.dataset.variant), kind);
+		record(`I-1 ${kind} 首访弹出对应指引`, shown && steps && others.length === 0, others.join(','));
+		await page.click('#ig-ok');
+		await page.reload();
+		await page.waitForTimeout(3500);
+		record(`I-2 ${kind} 关闭后不再自动弹`, !(await visible(page, '#install-guide .ig-sheet')));
+		await page.click('#pwa-guide-open');
+		record(`I-3 ${kind} 页脚入口可再次打开`, await visible(page, '#install-guide .ig-sheet'));
+		await ctx.close();
+	}
+	const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 }, serviceWorkers: 'block' });
+	const page = await ctx.newPage();
+	await page.goto(`${target}/videos/`);
+	await page.waitForTimeout(3500);
+	record('I-4 桌面不弹引导、无页脚入口', !(await visible(page, '#install-guide .ig-sheet')) && !(await visible(page, '#pwa-guide-open')));
+	await ctx.close();
+}
+
 // ---- 主流程 ----
 (async () => {
 	if (LOCAL) {
@@ -415,6 +452,7 @@ async function testPWA(page) {
 		await testMobile(page);
 		await testMobileBloggers(page);
 		await testPWA(page);
+		await testInstallGuide();
 	} catch (e) {
 		record('FATAL', false, e.message.slice(0, 200));
 	}

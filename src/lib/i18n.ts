@@ -67,6 +67,28 @@ export const UI: Record<string, { zh: string; en: string }> = {
 		en: 'Played via the official YouTube embed. Rights belong to the original creator.',
 	},
 
+	// PWA 添加到主屏幕引导（RIGE-1078）
+	pwa_title: { zh: '把童心湾添加到主屏幕', en: 'Add TinyCove to your Home Screen' },
+	pwa_intro: {
+		zh: '像 App 一样从桌面一键打开，全屏浏览，不用每次找网址。',
+		en: 'Open it like an app from your home screen — full screen, no need to look up the link again.',
+	},
+	pwa_install_btn: { zh: '📲 一键添加到桌面', en: '📲 Install app' },
+	pwa_android_1: { zh: '点击浏览器的菜单按钮（右上角 ⋮ 或底部 ≡）', en: 'Tap the browser menu (⋮ top-right or ≡ at the bottom)' },
+	pwa_android_2: { zh: '选择「添加到主屏幕」「安装应用」或「添加到桌面」', en: 'Choose "Add to Home screen" or "Install app"' },
+	pwa_android_3: { zh: '如提示权限，请允许浏览器「创建桌面快捷方式」', en: 'If asked, allow the browser to create home-screen shortcuts' },
+	pwa_ios_1: { zh: '点击「分享」按钮（底部工具栏，或地址栏旁 ··· 菜单里）', en: 'Tap the Share button (bottom toolbar, or in the ··· menu by the address bar)' },
+	pwa_ios_2: { zh: '在菜单中向下滑，选择「添加到主屏幕」', en: 'Scroll down and choose "Add to Home Screen"' },
+	pwa_ios_3: { zh: '点击右上角「添加」即可', en: 'Tap "Add" in the top-right corner' },
+	pwa_ios_other: {
+		zh: '找不到「添加到主屏幕」？请复制网址，用 Safari 打开后再添加。',
+		en: 'Can\'t find "Add to Home Screen"? Copy the link and open it in Safari.',
+	},
+	pwa_inapp_1: { zh: '点击右上角 ··· 按钮', en: 'Tap the ··· button in the top-right corner' },
+	pwa_inapp_2: { zh: '选择「在浏览器中打开」', en: 'Choose "Open in browser"' },
+	pwa_inapp_3: { zh: '在浏览器里再按提示添加到主屏幕', en: 'Then add it to your home screen from the browser' },
+	pwa_ok: { zh: '知道了', en: 'Got it' },
+	pwa_footer_link: { zh: '📲 添加到主屏幕', en: '📲 Add to Home Screen' },
 };
 
 // 来源名（媒体/社区）的中英对照：英文态用英文媒体名或社区名
