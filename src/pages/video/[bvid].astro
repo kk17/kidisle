@@ -36,9 +36,17 @@ function biliEmbed(bvid: string, aid?: number | null, cid?: number | null, p = 1
 	q.set('danmaku', '0');
 	return `https://player.bilibili.com/player.html?${q}`;
 }
+// 手机端：player.bilibili.com 在移动 UA 下忽略 danmaku=0（弹幕照常显示），
+// B 站自家的 html5mobileplayer 认 danmaku=0。同样必须带 aid+cid（RIGE-1071）。
+function biliMobile(bvid: string, aid?: number | null, cid?: number | null, p = 1) {
+	if (!aid || !cid) return biliEmbed(bvid, aid, cid, p);
+	const q = new URLSearchParams({ aid: String(aid), bvid, cid: String(cid), page: String(p), danmaku: '0' });
+	return `https://www.bilibili.com/blackboard/html5mobileplayer.html?${q}`;
+}
 const embedUrl = isYouTube
 	? `https://www.youtube-nocookie.com/embed/${v.vid}?rel=0`
 	: biliEmbed(v.bvid, v.aid, pages[0]?.cid ?? v.cid, 1);
+const embedUrlMobile = isYouTube ? embedUrl : biliMobile(v.bvid, v.aid, pages[0]?.cid ?? v.cid, 1);
 // 合集（ugc_season）：每集是独立 BV 号，显示整个合集供切换
 type Episode = { bvid: string; aid: number; cid: number; title: string; duration: number };
 const season = (!isYouTube && v.season_id
@@ -72,11 +80,21 @@ const related = (() => {
 				<iframe
 					id="bili-player"
 					src={embedUrl}
+					data-src-m={embedUrlMobile}
 					allowfullscreen
 					scrolling="no"
 					frameborder="0"
 					title={v.title}
 				></iframe>
+				<script is:inline>
+					// 手机/触屏设备立即换成移动端播放器（无弹幕），赶在桌面版 iframe 加载前
+					(function () {
+						var f = document.getElementById('bili-player');
+						var m = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent) || matchMedia('(pointer: coarse)').matches;
+						if (m && f && f.dataset.srcM && f.dataset.srcM !== f.src) f.src = f.dataset.srcM;
+						document.documentElement.dataset.biliMobile = m ? '1' : '';
+					})();
+				</script>
 			</div>
 			{
 				pages.length > 1 && (
@@ -94,6 +112,7 @@ const related = (() => {
 									<button
 										class={`ep${p.page === 1 ? ' active' : ''}`}
 										data-src={biliEmbed(v.bvid, v.aid, p.cid, p.page)}
+										data-src-m={biliMobile(v.bvid, v.aid, p.cid, p.page)}
 									>
 										<span class="ep-title">{p.page}. {p.part || `第 ${p.page} 集`}</span>
 										<span class="ep-dur">{fmtDur(p.duration)}</span>
@@ -117,6 +136,7 @@ const related = (() => {
 									<button
 										class={`ep${e.bvid === v.bvid ? ' active' : ''}`}
 										data-src={biliEmbed(e.bvid, e.aid, e.cid, 1)}
+										data-src-m={biliMobile(e.bvid, e.aid, e.cid, 1)}
 										data-url={`https://www.bilibili.com/video/${e.bvid}`}
 										title={e.title}
 									>
@@ -283,7 +303,7 @@ const related = (() => {
 		panel.addEventListener('click', (e) => {
 			const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('.ep');
 			if (!btn || !player || !btn.dataset.src) return;
-			player.src = btn.dataset.src;
+			player.src = (document.documentElement.dataset.biliMobile && btn.dataset.srcM) || btn.dataset.src;
 			document.querySelectorAll<HTMLButtonElement>('.ep').forEach((b) => b.classList.remove('active'));
 			btn.classList.add('active');
 			// 合集里切到别的 BV 号：「复制链接」「在 B 站打开」跟着指向正在播放的那一集
