@@ -71,14 +71,14 @@ const totalBooks = byYear.reduce((n, [, list]) => n + list.length, 0);
 	:global(html[lang='en']) .aen { display: none; }
 	.aintro { margin: 0.6rem 0 0; line-height: 1.7; max-width: 56em; }
 	.ameta { display: flex; align-items: center; gap: 0.8rem; flex-wrap: wrap; margin-top: 0.7rem; font-size: 0.82rem; color: var(--muted); }
-	.alang { background: var(--sea-soft); color: #0369a1; padding: 0.1rem 0.55rem; border-radius: 999px; }
+	.alang { background: var(--sea-soft); color: var(--sea-ink); padding: 0.1rem 0.55rem; border-radius: 999px; }
 	.aofficial { font-size: 0.82rem; }
 	.yrs-title { max-width: var(--maxw); margin: 1.5rem auto 0.6rem; padding: 0 1rem; font-size: 1.05rem; }
 	.ygroup {
 		max-width: var(--maxw); margin: 0 auto 0.9rem; padding: 0 1rem;
 	}
 	.ygroup details {
-		background: var(--card); border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+		background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow);
 		overflow: hidden;
 	}
 	.ygroup summary {

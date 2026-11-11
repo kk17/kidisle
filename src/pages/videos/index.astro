@@ -10,6 +10,14 @@ const languages = taxonomy.languages;
 const themes = taxonomy.themes;
 ---
 <Base description="童心湾精选的 796 条儿童视频（B站 + YouTube），按年龄段、语言、主题筛选。">
+	<!-- 设计预览 hero（RIGE-1073）：仅在 ?theme= 预览时显示 -->
+	<section class="hero">
+		<div class="hero-inner">
+			<h1 data-zh="给孩子挑好视频，不用再大海捞针" data-en="Good videos for kids, hand-picked">给孩子挑好视频，不用再大海捞针</h1>
+			<p data-zh="从家长社区的口碑推荐里精选，按年龄、语言、主题一键筛选。全部官方播放器，无广告无追踪。" data-en="Curated from parent communities. Filter by age, language and theme. Official players only, no ads, no tracking.">从家长社区的口碑推荐里精选，按年龄、语言、主题一键筛选。全部官方播放器，无广告无追踪。</p>
+			<div class="hero-stats"><span data-zh={`${videos.videos.length} 条精选视频`} data-en={`${videos.videos.length} videos`}>{videos.videos.length} 条精选视频</span><span data-zh="0–12 岁" data-en="Ages 0–12">0–12 岁</span><span data-zh="中文 · English" data-en="中文 · English">中文 · English</span></div>
+		</div>
+	</section>
 	<section class="filters" id="video-filters">
 		<div class="filter-row">
 			<span class="dim" data-i18n="filter_platform">平台</span>
@@ -65,7 +73,7 @@ const themes = taxonomy.themes;
 	<style>
 		.filters {
 			position: sticky; top: 52px; z-index: 10;
-			background: rgba(240, 249, 255, 0.92); backdrop-filter: blur(6px);
+			background: var(--glass); backdrop-filter: blur(6px);
 			border-bottom: 1px solid var(--line);
 			padding: 0.6rem 1rem;
 			display: flex; flex-direction: column; gap: 0.4rem;

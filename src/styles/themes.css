@@ -1,0 +1,226 @@
+/*
+ * 设计预览主题（RIGE-1073）
+ * 用法：任意页面 URL 加 ?theme=cove | storybook | calm 开启（localStorage 记住），?theme=default 退出。
+ * 未开启时 html 上没有 data-theme，本文件除 .hero / .theme-switcher 默认隐藏外不影响现行设计。
+ * 选定方向后：把对应主题的变量与规则并入 Base.astro 的 :root，删除其余主题与切换器。
+ */
+
+/* ---------- 公共：预览专用元素，默认隐藏 ---------- */
+.hero { display: none; }
+.theme-switcher { display: none; }
+html[data-theme] .theme-switcher {
+	display: flex; position: fixed; right: 12px; bottom: 12px; z-index: 50;
+	gap: 4px; padding: 4px; border-radius: 999px;
+	background: rgba(17, 24, 39, 0.86); backdrop-filter: blur(6px);
+	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25); font-size: 0.75rem;
+}
+.theme-switcher a {
+	color: #e5e7eb; text-decoration: none; padding: 0.3rem 0.7rem; border-radius: 999px; white-space: nowrap;
+}
+html[data-theme='cove'] .theme-switcher a[data-t='cove'],
+html[data-theme='storybook'] .theme-switcher a[data-t='storybook'],
+html[data-theme='calm'] .theme-switcher a[data-t='calm'] { background: #fff; color: #111827; font-weight: 600; }
+
+/* 公共：卡片悬停微动效（三个方向都用，减少「死板」感） */
+html[data-theme] .vcard, html[data-theme] .bkcard, html[data-theme] .bcard, html[data-theme] .awardcard {
+	transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+@media (hover: hover) {
+	html[data-theme] .vcard:hover, html[data-theme] .bkcard:hover,
+	html[data-theme] .bcard:hover, html[data-theme] .awardcard:hover { transform: translateY(-3px); }
+}
+html[data-theme] .vcover img, html[data-theme] .bkcover img { transition: transform 0.3s ease; }
+@media (hover: hover) {
+	html[data-theme] .vcard:hover .vcover img { transform: scale(1.04); }
+}
+@media (prefers-reduced-motion: reduce) {
+	html[data-theme] * { transition: none !important; }
+	html[data-theme] .vcard:hover, html[data-theme] .bkcard:hover { transform: none; }
+}
+
+/* 公共：手机端筛选每行横向滑动（现版 4 行筛选会占掉大半屏）。
+ * 需高于 Astro 作用域选择器 .filter-row[data-astro-cid] .options[data-astro-cid] 的优先级 */
+@media (max-width: 640px) {
+	html[data-theme] .filters .filter-row .options { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+	html[data-theme] .filters .filter-row .options::-webkit-scrollbar { display: none; }
+	html[data-theme] .filters .filter-row .options > * { flex-shrink: 0; }
+	html[data-theme] .filters .filter-row { align-items: center; }
+	html[data-theme] .filters .filter-row .dim { padding-top: 0; }
+}
+
+/* 公共：hero 结构（各主题只改配色） */
+html[data-theme] .hero {
+	display: block; max-width: var(--maxw); margin: 1rem auto 0.25rem; padding: 0 1rem;
+}
+.hero-inner {
+	position: relative; overflow: hidden; border-radius: var(--radius);
+	padding: 1.4rem 1.6rem 1.5rem;
+}
+.hero h1 { margin: 0; font-size: 1.55rem; line-height: 1.3; font-family: var(--font-head, inherit); }
+.hero p { margin: 0.4rem 0 0; font-size: 0.92rem; max-width: 36em; line-height: 1.6; }
+.hero .hero-stats { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.8rem; }
+.hero .hero-stats span {
+	font-size: 0.78rem; font-weight: 600; padding: 0.2rem 0.7rem; border-radius: 999px;
+}
+@media (max-width: 640px) {
+	.hero-inner { padding: 1.1rem 1.1rem 1.2rem; }
+	.hero h1 { font-size: 1.25rem; }
+	.hero p { display: none; }
+	.hero .hero-stats { margin-top: 0.55rem; }
+}
+
+/* =====================================================================
+ * 方向 A · cove「海湾清新」——沿用 logo 的天蓝/湖绿/草绿，干净明亮，改动最小
+ * ===================================================================== */
+html[data-theme='cove'] {
+	--ink: #0f2a3a; --muted: #5b7083; --sea: #0891b2; --sea-soft: #e3f6fb; --sea-ink: #0e7490;
+	--card: #ffffff; --bg: #f5fbfd; --line: #d5ecf3;
+	--glass: rgba(255, 255, 255, 0.88);
+	--radius: 16px; --shadow: 0 1px 2px rgba(15, 42, 58, 0.06), 0 4px 14px rgba(15, 42, 58, 0.06);
+	--placeholder: #e3f0f5;
+	--font-head: system-ui, -apple-system, 'PingFang SC', 'Noto Sans SC', sans-serif;
+}
+html[data-theme='cove'] body {
+	background:
+		radial-gradient(1200px 380px at 10% -120px, #d9f3fb 0%, transparent 70%),
+		radial-gradient(900px 320px at 100% -80px, #e6f7e7 0%, transparent 70%),
+		var(--bg);
+	background-repeat: no-repeat;
+}
+html[data-theme='cove'] .site-header { border-bottom-color: transparent; box-shadow: 0 1px 0 var(--line); }
+html[data-theme='cove'] .navtabs a[aria-current='page'],
+html[data-theme='cove'] .bookview-chips .chip[aria-current='page'] {
+	background: linear-gradient(135deg, #22b8d6, #0891b2); box-shadow: 0 2px 8px rgba(8, 145, 178, 0.3);
+}
+html[data-theme='cove'] .filters {
+	margin-top: 0.75rem !important; border: 1px solid var(--line); border-radius: var(--radius);
+	box-shadow: var(--shadow); padding: 0.75rem 1rem;
+}
+@media (min-width: 1px) { html[data-theme='cove'] .filters { max-width: calc(var(--maxw) - 2rem); } }
+html[data-theme='cove'] .chip { border-color: var(--line); transition: background 0.15s, border-color 0.15s; }
+html[data-theme='cove'] .chip:hover { border-color: var(--sea); }
+html[data-theme='cove'] .chip[aria-pressed='true'] { background: var(--sea); border-color: var(--sea); }
+/* 标签按维度着色：年龄=绿、语言=紫、主题=蓝，一眼分清 */
+html[data-theme='cove'] .tag[data-tag-dim='age'] { background: #e7f6e7; color: #2f7d32; }
+html[data-theme='cove'] .tag[data-tag-dim='language'] { background: #efeafd; color: #6d4bc9; }
+html[data-theme='cove'] .tag[data-tag-dim='theme'],
+html[data-theme='cove'] .tag[data-tag-dim='book_theme'] { background: var(--sea-soft); color: var(--sea-ink); }
+html[data-theme='cove'] .vcard:hover, html[data-theme='cove'] .bkcard:hover {
+	box-shadow: 0 2px 4px rgba(15, 42, 58, 0.06), 0 12px 28px rgba(8, 145, 178, 0.16);
+}
+html[data-theme='cove'] .vplat { background: rgba(15, 42, 58, 0.7); border-radius: 999px; padding: 0.08rem 0.55rem; }
+html[data-theme='cove'] .vtitle { font-size: 0.95rem; }
+html[data-theme='cove'] .grid { gap: 1.1rem; }
+html[data-theme='cove'] .hero-inner {
+	background: linear-gradient(120deg, #4cc3f0 0%, #21c3dd 55%, #59bd5c 130%); color: #fff;
+}
+html[data-theme='cove'] .hero p { color: rgba(255, 255, 255, 0.92); }
+html[data-theme='cove'] .hero .hero-stats span { background: rgba(255, 255, 255, 0.22); color: #fff; }
+html[data-theme='cove'] .player { box-shadow: 0 10px 30px rgba(15, 42, 58, 0.18); }
+html[data-theme='cove'] .actions .copy { background: var(--sea); color: #fff; border-color: var(--sea); }
+html[data-theme='cove'] .actions button, html[data-theme='cove'] .actions a { border-radius: 999px; }
+
+/* =====================================================================
+ * 方向 B · storybook「绘本暖阳」——米色纸张 + 珊瑚橙 + 圆体字，像一本绘本
+ * ===================================================================== */
+html[data-theme='storybook'] {
+	--ink: #3a2e29; --muted: #8a776c; --sea: #f0643e; --sea-soft: #ffeadf; --sea-ink: #c2410c;
+	--card: #fffdf8; --bg: #fdf6ea; --line: #f0dfc8;
+	--glass: rgba(253, 246, 234, 0.92);
+	--radius: 20px; --shadow: 0 0 0 1.5px #efdcc3, 4px 5px 0 #f3e3cc;
+	--warm-soft: #fff1c2; --warm-ink: #8a5a00; --placeholder: #f6ead6;
+	--font-head: ui-rounded, 'SF Pro Rounded', 'Hiragino Maru Gothic ProN', 'Yuanti SC', 'YouYuan', 'Varela Round', system-ui, 'PingFang SC', sans-serif;
+}
+html[data-theme='storybook'] body {
+	background-color: var(--bg);
+	background-image: radial-gradient(#f1e2cb 1px, transparent 1.2px);
+	background-size: 18px 18px;
+}
+html[data-theme='storybook'] .logo,
+html[data-theme='storybook'] .vtitle, html[data-theme='storybook'] .bktitle,
+html[data-theme='storybook'] h1, html[data-theme='storybook'] h2, html[data-theme='storybook'] .bname {
+	font-family: var(--font-head); letter-spacing: 0.01em;
+}
+html[data-theme='storybook'] .site-header { border-bottom: 2px dashed var(--line); }
+html[data-theme='storybook'] .navtabs a, html[data-theme='storybook'] .bookview-chips .chip { font-weight: 600; }
+html[data-theme='storybook'] .navtabs a[aria-current='page'],
+html[data-theme='storybook'] .bookview-chips .chip[aria-current='page'] { background: var(--sea); box-shadow: 2px 2px 0 #c94a26; }
+html[data-theme='storybook'] .langtoggle { border-width: 1.5px; color: var(--sea-ink); }
+html[data-theme='storybook'] .filters { border-bottom: 2px dashed var(--line); }
+html[data-theme='storybook'] .chip {
+	border: 1.5px solid var(--line); font-weight: 600; color: var(--ink); background: var(--card);
+}
+html[data-theme='storybook'] .chip[aria-pressed='true'] {
+	background: var(--sea); border-color: #c94a26; color: #fff; box-shadow: 2px 2px 0 #c94a26;
+}
+/* 年龄段用糖果色区分，像书脊贴纸 */
+html[data-theme='storybook'] .tag { font-weight: 600; border-radius: 8px; }
+html[data-theme='storybook'] .tag[data-tag='0-3'] { background: #ffe4ec; color: #be185d; }
+html[data-theme='storybook'] .tag[data-tag='3-6'] { background: #fff1c2; color: #8a5a00; }
+html[data-theme='storybook'] .tag[data-tag='6-9'] { background: #dcf5e3; color: #1f7a3d; }
+html[data-theme='storybook'] .tag[data-tag='9-12'] { background: #e0ecff; color: #1d4ed8; }
+html[data-theme='storybook'] .tag[data-tag-dim='language'] { background: #f3ebff; color: #7c3aed; }
+html[data-theme='storybook'] .tag[data-tag-dim='theme'],
+html[data-theme='storybook'] .tag[data-tag-dim='book_theme'] { background: var(--sea-soft); color: var(--sea-ink); }
+html[data-theme='storybook'] .vcard, html[data-theme='storybook'] .bkcard { padding: 8px; }
+html[data-theme='storybook'] .vcover, html[data-theme='storybook'] .bkcover { border-radius: 14px; overflow: hidden; }
+html[data-theme='storybook'] .vbody, html[data-theme='storybook'] .bkbody { padding: 0.6rem 0.4rem 0.35rem; }
+html[data-theme='storybook'] .vcard:hover, html[data-theme='storybook'] .bkcard:hover {
+	box-shadow: 0 0 0 1.5px var(--sea), 6px 7px 0 #f7c9b6; transform: translateY(-3px) rotate(-0.4deg);
+}
+html[data-theme='storybook'] .vplat { background: #fffdf8; color: var(--ink); border-radius: 999px; padding: 0.08rem 0.55rem; }
+html[data-theme='storybook'] .vdur { border-radius: 999px; }
+html[data-theme='storybook'] .hero-inner {
+	background: #ffe7c7; color: var(--ink); box-shadow: var(--shadow);
+	background-image: radial-gradient(circle at calc(100% - 70px) 50%, #ffd166 0 46px, transparent 47px);
+}
+html[data-theme='storybook'] .hero p { color: #6b574b; }
+@media (max-width: 640px) { html[data-theme='storybook'] .hero-inner { background-image: radial-gradient(circle at calc(100% + 10px) -10px, #ffd166 0 44px, transparent 45px); } }
+html[data-theme='storybook'] .hero .hero-stats span { background: #fffdf8; color: var(--sea-ink); box-shadow: 0 0 0 1.5px #efdcc3; }
+html[data-theme='storybook'] .player { border-radius: var(--radius); box-shadow: 0 0 0 6px #fffdf8, 0 0 0 7.5px #efdcc3, 8px 10px 0 7px #f3e3cc; }
+html[data-theme='storybook'] .actions button, html[data-theme='storybook'] .actions a { border-radius: 999px; font-weight: 600; border-width: 1.5px; }
+html[data-theme='storybook'] .actions .copy { background: var(--sea); color: #fff; border-color: #c94a26; box-shadow: 2px 2px 0 #c94a26; }
+html[data-theme='storybook'] .ep.active { background: var(--sea-soft); }
+
+/* =====================================================================
+ * 方向 C · calm「静读极简」——中性白 + 墨绿点缀，去掉多余色块，信息层级靠字号与留白
+ * ===================================================================== */
+html[data-theme='calm'] {
+	--ink: #18181b; --muted: #71717a; --sea: #166534; --sea-soft: #f0f5f1; --sea-ink: #166534;
+	--card: #ffffff; --bg: #fafaf9; --line: #e7e5e4;
+	--glass: rgba(250, 250, 249, 0.9);
+	--radius: 10px; --shadow: none;
+	--warm-soft: #f5f5f4; --warm-ink: #57534e; --placeholder: #f4f4f5;
+}
+html[data-theme='calm'] body { -webkit-font-smoothing: antialiased; }
+html[data-theme='calm'] .logo { letter-spacing: 0.02em; }
+html[data-theme='calm'] .navtabs a[aria-current='page'],
+html[data-theme='calm'] .bookview-chips .chip[aria-current='page'] {
+	background: transparent; color: var(--ink); font-weight: 700; border-radius: 0;
+	box-shadow: inset 0 -2px 0 var(--ink);
+}
+html[data-theme='calm'] .langtoggle, html[data-theme='calm'] .modebar select { color: var(--ink); }
+html[data-theme='calm'] .chip { border-color: var(--line); color: #3f3f46; }
+html[data-theme='calm'] .chip[aria-pressed='true'] { background: var(--ink); border-color: var(--ink); color: #fff; }
+html[data-theme='calm'] .chip-clear { color: var(--muted); }
+/* 卡片：无阴影，封面独立圆角，标签降为一行灰色小字 */
+html[data-theme='calm'] .vcard, html[data-theme='calm'] .bkcard { background: transparent; border-radius: 0; overflow: visible; }
+html[data-theme='calm'] .vcover, html[data-theme='calm'] .bkcover { border-radius: var(--radius); overflow: hidden; }
+html[data-theme='calm'] .bkcover { background: var(--placeholder); }
+html[data-theme='calm'] .vbody, html[data-theme='calm'] .bkbody { padding: 0.6rem 0.1rem 0; gap: 0.3rem; }
+html[data-theme='calm'] .vtitle, html[data-theme='calm'] .bktitle { font-size: 0.95rem; font-weight: 600; }
+html[data-theme='calm'] .vcard:hover .vtitle, html[data-theme='calm'] .bkcard:hover .bktitle { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
+html[data-theme='calm'] .vcard .tag, html[data-theme='calm'] .bkcard .tag {
+	background: none; padding: 0; color: var(--muted); font-size: 0.74rem; border-radius: 0;
+}
+html[data-theme='calm'] .vcard .tag + .tag::before, html[data-theme='calm'] .bkcard .tag + .tag::before { content: '·'; margin-right: 0.28rem; }
+html[data-theme='calm'] .vtagrow, html[data-theme='calm'] .bkcard .tagrow { gap: 0.28rem; }
+html[data-theme='calm'] .vplat { background: rgba(255, 255, 255, 0.92); color: var(--ink); }
+html[data-theme='calm'] .grid { gap: 1.6rem 1.1rem; }
+html[data-theme='calm'] .vcard:hover, html[data-theme='calm'] .bkcard:hover { transform: none; }
+html[data-theme='calm'] .bcard, html[data-theme='calm'] .awardcard,
+html[data-theme='calm'] .episodes, html[data-theme='calm'] .upcard { border: 1px solid var(--line); }
+html[data-theme='calm'] .wtitle { font-size: 1.4rem; letter-spacing: -0.01em; }
+html[data-theme='calm'] .actions .copy { background: var(--ink); color: #fff; border-color: var(--ink); }
+html[data-theme='calm'] .plat-tag { background: var(--ink); }
+html[data-theme='calm'] .hero { display: none; }

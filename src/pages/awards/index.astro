@@ -44,7 +44,7 @@ import { base } from '../../lib/base.ts';
 	<style>
 		.filters {
 			position: sticky; top: 52px; z-index: 10;
-			background: rgba(240, 249, 255, 0.92); backdrop-filter: blur(6px);
+			background: var(--glass); backdrop-filter: blur(6px);
 			border-bottom: 1px solid var(--line);
 			padding: 0.6rem 1rem;
 			display: flex; flex-direction: column; gap: 0.4rem;
@@ -73,8 +73,8 @@ import { base } from '../../lib/base.ts';
 		}
 		.awardcard {
 			display: flex; flex-direction: column; gap: 0.45rem; height: 100%;
-			background: var(--card); border-radius: 12px; padding: 1rem;
-			box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+			background: var(--card); border-radius: var(--radius); padding: 1rem;
+			box-shadow: var(--shadow);
 			text-decoration: none; color: inherit;
 		}
 		.awardcard:hover { outline: 2px solid var(--sea); }
@@ -85,7 +85,7 @@ import { base } from '../../lib/base.ts';
 		.awardintro { margin: 0; font-size: 0.8rem; color: var(--muted); line-height: 1.5;
 			display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 		.awardmeta { display: flex; gap: 0.5rem; align-items: center; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; }
-		.alangchip { background: var(--sea-soft); color: #0369a1; padding: 0.08rem 0.55rem; border-radius: 999px; }
+		.alangchip { background: var(--sea-soft); color: var(--sea-ink); padding: 0.08rem 0.55rem; border-radius: 999px; }
 		.empty { text-align: center; color: var(--muted); padding: 3rem 1rem; }
 	</style>
 
