@@ -41,6 +41,8 @@ const buildVer = new Date().toISOString().slice(0, 16).replace('T', ' ');
 				--ink: #1f2937; --muted: #6b7280; --sea: #0284c7; --sea-soft: #e0f2fe;
 				--card: #ffffff; --bg: #f0f9ff; --line: #bae6fd;
 				--maxw: 72rem;
+				/* 顶栏高度：吸顶筛选栏的 top。下面脚本按实际高度实时覆盖；这里是首屏前的兜底值 */
+				--header-h: 52px;
 				/* 设计变量（RIGE-1073）：基础值；src/styles/theme.css（海湾清新）在 html[data-theme='cove'] 上覆盖 */
 				--sea-ink: #0369a1; --glass: rgba(240, 249, 255, 0.95);
 				--radius: 12px; --shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
@@ -83,6 +85,7 @@ const buildVer = new Date().toISOString().slice(0, 16).replace('T', ' ');
 			.navtabs { display: flex; gap: 0.25rem; flex: 1; }
 			.navtabs a span, .bookview-chips .chip { white-space: nowrap; }
 			@media (max-width: 640px) {
+				:root { --header-h: 86px; } /* 手机顶栏换成两行 */
 				.site-header-inner { flex-wrap: wrap; row-gap: 0.45rem; }
 				.logo { order: 1; }
 				.modebar { order: 2; } /* 紧靠站名右侧（RIGE-1021 反馈） */
@@ -140,6 +143,18 @@ const buildVer = new Date().toISOString().slice(0, 16).replace('T', ' ');
 				<button class="langtoggle" id="lang-toggle" aria-label="切换语言 / Switch language">EN</button>
 			</div>
 		</header>
+		<script is:inline>
+			// 吸顶筛选栏要贴在顶栏正下方：手机上顶栏换行成两行（约 100px），写死 52px 会让筛选栏
+			// 上半截滑到顶栏底下被遮住（RIGE-1073 家长反馈）。按顶栏实际高度实时更新 --header-h。
+			(function () {
+				var h = document.querySelector('.site-header');
+				if (!h) return;
+				var set = function () { document.documentElement.style.setProperty('--header-h', h.getBoundingClientRect().height + 'px'); };
+				set();
+				if ('ResizeObserver' in window) new ResizeObserver(set).observe(h);
+				else window.addEventListener('resize', set);
+			})();
+		</script>
 		<slot />
 		<footer class="site-footer">
 			童心湾 (tinycove) · <span data-i18n="footer_open_source">独立开源项目</span> · <a href="https://github.com/tinycove/tinycove.github.io">GitHub</a> · MIT · <span data-i18n="footer_rights">视频与图书信息版权归原作者所有</span> · <span class="build-ver">build {buildVer}</span>
