@@ -1,9 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-	<rect width="32" height="32" rx="7" fill="#38bdf8"/>
-	<path d="M20.5 4.5 27 8.25 20.5 12Z" fill="#f59e0b"/>
-	<ellipse cx="16" cy="26.5" rx="13" ry="4.5" fill="#f4e4c1"/>
-	<path d="M15.2 25c.2-5 .5-9 1.6-12.5l1.8.6C17.6 16.5 17.4 20.5 17.2 25Z" fill="#8b5e3c"/>
-	<ellipse cx="12.5" cy="11" rx="4.6" ry="1.9" fill="#10b981" transform="rotate(-28 12.5 11)"/>
-	<ellipse cx="21.5" cy="10.5" rx="4.6" ry="1.9" fill="#10b981" transform="rotate(24 21.5 10.5)"/>
-	<ellipse cx="16.8" cy="8.2" rx="4.8" ry="1.9" fill="#059669" transform="rotate(-4 16.8 8.2)"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+	<!-- 童心湾 TinyCove 图标：C 形绿岸环抱水湾 + 小帆船（船/海水/C形三元素） -->
+	<defs>
+		<clipPath id="bg-clip">
+			<rect x="0" y="0" width="512" height="512" rx="116" ry="116"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#bg-clip)">
+		<!-- 背景：天空蓝 -->
+		<rect x="0" y="0" width="512" height="512" fill="#4cc3f0"/>
+		<!-- 水湾：turquoise 圆 -->
+		<circle cx="256" cy="256" r="118" fill="#21c3dd"/>
+		<!-- C 形绿岸：环，开口在正上方，几何 90°（圆头笔帽后视觉约 64°，RIGE-1021 反馈） -->
+		<path d="M 176.8 176.8
+			A 112 112 0 1 0 335.2 176.8"
+			fill="none" stroke="#59bd5c" stroke-width="52" stroke-linecap="round"/>
+		<!-- 小帆船（白色单形）：帆三角 + 船体弧线相连 -->
+		<g fill="#ffffff">
+			<!-- 帆：左垂直边 + 斜边 -->
+			<path d="M 236 268 L 236 196 L 300 268 Z"/>
+			<!-- 船体：浅弧形，帆底与其相接 -->
+			<path d="M 212 276
+				L 324 276
+				Q 318 302 296 302
+				L 240 302
+				Q 218 302 212 276 Z"/>
+		</g>
+	</g>
 </svg>

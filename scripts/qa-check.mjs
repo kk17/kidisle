@@ -82,6 +82,7 @@ async function testVideosZh(page) {
 			sel: document.getElementById('datatype').value,
 			navtabs: vis('navtabs'), chipsHidden: !vis('bookview-chips'),
 			cur: document.querySelector('#navtabs a[aria-current="page"] span')?.textContent,
+			logomark: Boolean(document.querySelector('.logo img.logomark')),
 			rows: document.querySelectorAll('#video-filters .filter-row').length,
 			cards: document.querySelectorAll('#grid .cell:not([style*="none"])').length,
 			badges: document.querySelectorAll('#grid .vplat').length,
@@ -89,7 +90,7 @@ async function testVideosZh(page) {
 		};
 	});
 	record('D-V-1 下拉=video / tab 可见 / chips 隐藏', s.sel === 'video' && s.navtabs && s.chipsHidden, `sel=${s.sel}`);
-	record('D-V-2 视频 tab aria-current', s.cur === '视频', s.cur);
+	record('D-V-2 视频 tab aria-current + 顶栏 logo 图标', s.cur === '视频' && s.logomark, s.cur);
 	record('D-V-3 四行筛选可见', s.rows === 4, `实际 ${s.rows}`);
 	record('D-V-4 卡片数 = 796 且平台角标齐全', s.cards === 796 && s.badges >= 796, `cards=${s.cards} badges=${s.badges}`);
 	record('D-V-5 计数样式 shown / total', s.count === '796 / 796', s.count);
@@ -167,6 +168,16 @@ async function testAwardsZh(page) {
 	record('D-A-3 仅奖项语言一行筛选', s.dim === '奖项语言', s.dim);
 	record('D-A-4 奖项 10 张卡片', s.awardCards === 10, `实际 ${s.awardCards}`);
 	record('D-A-5 计数样式 shown / total', s.count === '10 / 10', s.count);
+	// 中文态：奖项名中英同显（主标题中文 + 副标题英文）
+	const zhName = await page.evaluate(() => {
+		const card = document.querySelector('#award-grid .awardcell');
+		return {
+			name: card.querySelector('.awardname').textContent.trim(),
+			en: card.querySelector('.awardname-en').textContent.trim(),
+			enVisible: getComputedStyle(card.querySelector('.awardname-en')).display !== 'none',
+		};
+	});
+	record('D-A-8 中文态奖项名中英同显', zhName.name === '凯迪克奖' && zhName.en === 'Caldecott Medal' && zhName.enVisible, `${zhName.name}/${zhName.en}`);
 	// 英文奖项筛选联动
 	const en = await page.evaluate(() => {
 		const chip = [...document.querySelectorAll('#award-filters .chip')].find(c => c.dataset.awardLang === 'en');
@@ -218,6 +229,24 @@ async function testEn(page) {
 		chip: [...document.querySelectorAll('#award-filters .chip')].map(c => c.textContent.trim()),
 	}));
 	record('D-E-6 奖项页筛选英文', aw.dim === 'Award language' && aw.chip.join(',') === 'All,Chinese awards,English awards,International awards', `${aw.dim} ${aw.chip.join(',')}`);
+
+	// 英文态奖项卡：只显示英文名（副标题隐藏），地区英文
+	const awEn = await page.evaluate(() => {
+		const card = document.querySelector('#award-grid .awardcell');
+		return {
+			name: card.querySelector('.awardname').textContent.trim(),
+			enHidden: getComputedStyle(card.querySelector('.awardname-en')).display === 'none',
+			region: card.querySelector('[data-zh][data-en]:not(.awardname):not(.awardintro)').textContent.trim(),
+		};
+	});
+	record('D-E-7 英文态奖项仅英文名 + 地区英文', awEn.name === 'Caldecott Medal' && awEn.enHidden && awEn.region === 'USA', `${awEn.name} hidden=${awEn.enHidden} region=${awEn.region}`);
+
+	// 页脚 i18n
+	await page.goto(`${target}/videos/?v=${Date.now()}`);
+	await page.waitForLoadState('domcontentloaded');
+	await page.waitForTimeout(400);
+	const footer = await page.evaluate(() => document.querySelector('.site-footer').textContent);
+	record('D-E-8 页脚英文（独立开源项目已翻译）', /Independent open-source project/.test(footer) && !/独立开源项目/.test(footer), footer.trim().slice(-80));
 
 	await page.click('#lang-toggle'); // 切回中文
 }
@@ -313,6 +342,21 @@ async function testMobile(page) {
 	record('M-B-1 图书模式 chips 顶栏显示', book.chipsShown);
 	record('M-B-2 tab 隐藏', book.navtabsHidden);
 	record('M-B-3 无横向滚动', book.noHScroll);
+	// 顶栏布局（RIGE-1021 反馈轮）：语言切换贴右上角；下拉紧靠站名右侧
+	await page.goto(`${target}/videos/?v=${Date.now()}`);
+	await page.waitForLoadState('domcontentloaded');
+	await page.waitForTimeout(600);
+	const head = await page.evaluate(() => {
+		const r = (el) => { const b = document.querySelector(el).getBoundingClientRect(); return { left: b.left, right: b.right, top: b.top }; };
+		return {
+			vw: window.innerWidth,
+			toggle: r('#lang-toggle'),
+			logo: r('.logo'),
+			modebar: r('.modebar'),
+		};
+	});
+	record('M-H-1 语言切换贴右上角（与桌面一致）', Math.abs(head.toggle.right - head.vw) <= 24 && head.toggle.top < 60, `right距=${(head.vw - head.toggle.right).toFixed(0)}px`);
+	record('M-H-2 下拉紧靠站名右侧', head.modebar.left - head.logo.right >= -6 && head.modebar.left - head.logo.right < 40, `间距=${(head.modebar.left - head.logo.right).toFixed(0)}px`);
 	await page.setViewportSize({ width: 1280, height: 800 });
 }
 
@@ -330,6 +374,9 @@ async function testMobileBloggers(page) {
 	record('M-C-1 博主页主题行无溢出', m.noHScroll);
 	record('M-C-2 主题 chips 文字不竖排', m.chipCount >= 9 && m.maxChipH > 20 && m.maxChipH < 50, `${m.chipCount} chips max ${m.maxChipH}px`);
 	record('M-C-3 博主页计数样式 shown / total', /^467 \/ 467$/.test(m.count.trim()), m.count);
+	// RIGE-1021 反馈轮：博主页提示行已移除（与其他列表页风格一致）
+	const hasIntro = await page.evaluate(() => document.body.innerText.includes('点进博主'));
+	record('M-C-4 博主页无「点进博主」提示行', !hasIntro, '');
 	await page.setViewportSize({ width: 1280, height: 800 });
 }
 

@@ -15,7 +15,6 @@ export const UI: Record<string, { zh: string; en: string }> = {
 	all: { zh: '全部', en: 'All' },
 	empty_home: { zh: '这个组合下暂时没有视频，换个筛选试试～', en: 'No videos match this combination — try different filters.' },
 	empty_creators: { zh: '这个主题下暂时没有博主～', en: 'No creators under this topic yet.' },
-	creators_hint: { zh: '点进博主查看全部视频。', en: 'Open a creator to browse all their videos.' },
 	source_label: { zh: '来源', en: 'Source' },
 	source_name: { zh: '{name}', en: '{name}' },
 	blogger_reason: { zh: '{reason_zh}', en: '{reason_en}' },
@@ -55,6 +54,7 @@ export const UI: Record<string, { zh: string; en: string }> = {
 	episodes: { zh: '选集', en: 'Episodes' },
 	episodes_total: { zh: '共 {n} 集', en: '{n} episodes' },
 	footer_rights: { zh: '视频版权归原 UP 主所有', en: 'Video rights belong to the original creators' },
+	footer_open_source: { zh: '独立开源项目', en: 'Independent open-source project' },
 	bilibili_home: { zh: '↗ B站主页', en: '↗ Bilibili space' },
 	related: { zh: '相关推荐', en: 'Related' },
 	tip_bili: {

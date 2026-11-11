@@ -8,7 +8,6 @@ const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]
 ---
 <Base title="博主目录 · 童心湾" titleEn="TinyCove · Curated creators" description="童心湾收录的优质儿童向 B 站博主目录，附推荐理由与来源，可按主题筛选。">
 	<main>
-		<p class="intro" data-i18n="creators_hint">点进博主查看全部视频。</p>
 		<div class="themebar" id="platformbar">
 			<span class="dim" data-i18n="filter_platform">平台</span>
 			<button class="chip" data-v="bilibili" data-tag="bilibili" data-tag-dim="platform" aria-pressed="false">B站</button>
@@ -61,10 +60,6 @@ const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]
 </Base>
 
 <style>
-	.intro {
-		max-width: var(--maxw); margin: 0 auto; padding: 1.25rem 1rem 0;
-		color: var(--muted); font-size: 0.9rem;
-	}
 	.themebar {
 		max-width: var(--maxw); margin: 0 auto; padding: 0.6rem 1rem;
 		display: flex; align-items: flex-start; gap: 0.5rem; flex-wrap: wrap;

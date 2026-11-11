@@ -26,12 +26,12 @@ const totalBooks = byYear.reduce((n, [, list]) => n + list.length, 0);
 	<main class="awardpage">
 		<div class="ahead">
 			<div class="ahead-main">
-				<h1>{award.name}</h1>
+				<h1 data-zh={award.name} data-en={award.name_en}>{award.name}</h1>
 				<div class="aen">{award.name_en}</div>
 				<p class="aintro" data-zh={award.intro} data-en={award.intro_en || award.intro}>{award.intro}</p>
 				<div class="ameta">
-					<span class="alang" data-award-lang={award.lang}></span>
-					<span class="aregion">📍 {award.region}</span>
+					<span class="alang" data-i18n={`award_lang_${award.lang}`}>{award.lang === 'zh' ? '中文奖项' : award.lang === 'en' ? '英文奖项' : '国际奖项'}</span>
+					<span class="aregion">📍 <span data-zh={award.region} data-en={award.region_en}>{award.region}</span></span>
 					<span class="acount" data-i18n="award_books_count" data-i18n-var-n={String(totalBooks)}>{totalBooks} 本获奖绘本</span>
 					{award.official_url && <a class="aofficial" href={award.official_url} target="_blank" rel="noopener" data-i18n="award_official">官方网站 ↗</a>}
 				</div>
@@ -67,6 +67,8 @@ const totalBooks = byYear.reduce((n, [, list]) => n + list.length, 0);
 	.ahead { border-bottom: 1px solid var(--line); padding-bottom: 1rem; }
 	.ahead h1 { margin: 0; font-size: 1.5rem; }
 	.aen { color: var(--muted); font-size: 0.9rem; margin-top: 0.15rem; }
+	/* 英文态：主标题已换成英文名，副标题隐藏 */
+	:global(html[lang='en']) .aen { display: none; }
 	.aintro { margin: 0.6rem 0 0; line-height: 1.7; max-width: 56em; }
 	.ameta { display: flex; align-items: center; gap: 0.8rem; flex-wrap: wrap; margin-top: 0.7rem; font-size: 0.82rem; color: var(--muted); }
 	.alang { background: var(--sea-soft); color: #0369a1; padding: 0.1rem 0.55rem; border-radius: 999px; }
@@ -95,16 +97,3 @@ const totalBooks = byYear.reduce((n, [, list]) => n + list.length, 0);
 	}
 	.empty { text-align: center; color: var(--muted); padding: 3rem 1rem; }
 </style>
-
-<script>
-	// 奖项语言徽章双语（data-award-lang → 字典）
-	function syncLangBadge(lang) {
-		const dict = { zh: ['中文奖项', 'Chinese award'], en: ['英文奖项', 'English award'], intl: ['国际奖项', 'International award'] };
-		document.querySelectorAll('[data-award-lang]').forEach((el) => {
-			const e = dict[el.dataset.awardLang];
-			if (e) el.textContent = lang === 'en' ? e[1] : e[0];
-		});
-	}
-	window.addEventListener('tinycove:langchange', (e) => syncLangBadge(e.detail.lang));
-	syncLangBadge(((localStorage.getItem('tinycove-lang') || localStorage.getItem('kidisle-lang')) as 'zh' | 'en') || 'zh');
-</script>

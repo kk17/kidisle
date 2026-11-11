@@ -25,12 +25,12 @@ import { base } from '../../lib/base.ts';
 					<li class="awardcell" data-alang={a.lang}>
 						<a class="awardcard" href={`${base}award/${a.id}/`}>
 							<div class="awardbody">
-								<h2 class="awardname">{a.name}</h2>
+								<h2 class="awardname" data-zh={a.name} data-en={a.name_en}>{a.name}</h2>
 								<div class="awardname-en">{a.name_en}</div>
 								<p class="awardintro" data-zh={a.intro} data-en={a.intro_en || a.intro}>{a.intro}</p>
 								<div class="awardmeta">
 									<span class="alangchip" data-i18n={`award_lang_${a.lang}`}>{a.lang === 'zh' ? '中文奖项' : a.lang === 'en' ? '英文奖项' : '国际奖项'}</span>
-									<span>📍 {a.region}</span>
+									<span>📍 <span data-zh={a.region} data-en={a.region_en}>{a.region}</span></span>
 								</div>
 							</div>
 						</a>
@@ -80,6 +80,8 @@ import { base } from '../../lib/base.ts';
 		.awardcard:hover { outline: 2px solid var(--sea); }
 		.awardname { margin: 0; font-size: 1rem; font-weight: 700; }
 		.awardname-en { font-size: 0.75rem; color: var(--muted); }
+		/* 英文态：主标题已换成英文名，副标题（英文名）隐藏，避免重复 */
+		:global(html[lang='en']) .awardname-en { display: none; }
 		.awardintro { margin: 0; font-size: 0.8rem; color: var(--muted); line-height: 1.5;
 			display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 		.awardmeta { display: flex; gap: 0.5rem; align-items: center; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; }
