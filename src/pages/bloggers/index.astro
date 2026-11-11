@@ -87,8 +87,8 @@ const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]
 	.bcard {
 		position: relative;
 		display: flex; flex-direction: column; gap: 0.5rem; height: 100%;
-		background: var(--card); border-radius: 12px; padding: 1rem;
-		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+		background: var(--card); border-radius: var(--radius); padding: 1rem;
+		box-shadow: var(--shadow);
 	}
 	/* 拉伸链接：主链接铺满卡片，来源徽章独立可点 */
 	.bmain { text-decoration: none; color: inherit; display: flex; flex-direction: column; gap: 0.5rem; }
@@ -112,7 +112,7 @@ const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]
 	.bsrc {
 		position: relative; z-index: 1;
 		align-self: flex-start; font-size: 0.68rem; padding: 0.06rem 0.5rem; border-radius: 999px;
-		background: #fef3c7; color: #92400e; text-decoration: none;
+		background: var(--warm-soft); color: var(--warm-ink); text-decoration: none;
 	}
 	a.bsrc:hover { text-decoration: underline; }
 	.empty { text-align: center; color: var(--muted); padding: 3rem 1rem; }

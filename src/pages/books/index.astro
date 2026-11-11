@@ -10,6 +10,14 @@ const languages = taxonomy.languages;
 const bookThemes = taxonomy.book_themes;
 ---
 <Base title="绘本书单 · 童心湾" titleEn="TinyCove · Picture books" description="童心湾精选的 451 本儿童绘本（中文 + 英文原版），按年龄段、语言、主题筛选，附豆瓣评分与推荐理由。">
+	<!-- 设计预览 hero（RIGE-1073）：仅在 ?theme= 预览时显示 -->
+	<section class="hero">
+		<div class="hero-inner">
+			<h1 data-zh="睡前读什么？这里有答案" data-en="What to read at bedtime?">睡前读什么？这里有答案</h1>
+			<p data-zh="凯迪克、凯特·格林纳威等奖项获奖作品与家长口碑绘本，附豆瓣评分与推荐理由。" data-en="Award winners and parent favourites, with ratings and why they are recommended.">凯迪克、凯特·格林纳威等奖项获奖作品与家长口碑绘本，附豆瓣评分与推荐理由。</p>
+			<div class="hero-stats"><span data-zh={`${books.books.length} 本精选绘本`} data-en={`${books.books.length} picture books`}>{books.books.length} 本精选绘本</span><span data-zh="中文 + 英文原版" data-en="Chinese & English">中文 + 英文原版</span></div>
+		</div>
+	</section>
 	<section class="filters" id="book-filters">
 		<div class="filter-row">
 			<span class="dim" data-i18n="filter_age">年龄段</span>
@@ -56,7 +64,7 @@ const bookThemes = taxonomy.book_themes;
 	<style>
 		.filters {
 			position: sticky; top: 52px; z-index: 10;
-			background: rgba(240, 249, 255, 0.92); backdrop-filter: blur(6px);
+			background: var(--glass); backdrop-filter: blur(6px);
 			border-bottom: 1px solid var(--line);
 			padding: 0.6rem 1rem;
 			display: flex; flex-direction: column; gap: 0.4rem;

@@ -32,14 +32,14 @@ const coverSrc = assetUrl(b.cover);
 
 <style>
 	.bkcard {
-		background: var(--card); border-radius: 12px; overflow: hidden;
-		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+		background: var(--card); border-radius: var(--radius); overflow: hidden;
+		box-shadow: var(--shadow);
 		display: flex; flex-direction: column;
 		text-decoration: none; color: inherit;
 	}
 	.bkcard:hover .bktitle { color: var(--sea); }
 	.bkcover {
-		position: relative; aspect-ratio: 4 / 5; background: #f1f5f9;
+		position: relative; aspect-ratio: 4 / 5; background: var(--placeholder);
 		display: grid; place-items: center;
 	}
 	.bkcover img {
@@ -48,7 +48,7 @@ const coverSrc = assetUrl(b.cover);
 	}
 	.bkrating {
 		position: absolute; left: 6px; top: 6px; z-index: 1;
-		font-size: 0.75rem; font-weight: 700; color: #92400e;
+		font-size: 0.75rem; font-weight: 700; color: var(--warm-ink);
 		background: rgba(255, 251, 235, 0.95); padding: 0.1rem 0.45rem; border-radius: 6px;
 	}
 	.bkbody { padding: 0.7rem 0.9rem 0.9rem; display: flex; flex-direction: column; gap: 0.4rem; flex: 1; }

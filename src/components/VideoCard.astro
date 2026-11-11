@@ -39,12 +39,12 @@ const dur = v.duration_seconds > 0
 <style>
 	.vcard {
 		display: flex; flex-direction: column; text-decoration: none; color: inherit;
-		background: var(--card); border-radius: 12px; overflow: hidden;
-		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+		background: var(--card); border-radius: var(--radius); overflow: hidden;
+		box-shadow: var(--shadow);
 	}
 	.vcard:hover .vtitle { color: var(--sea); }
 	.vcover {
-		position: relative; display: block; aspect-ratio: 16 / 9; background: #e2e8f0;
+		position: relative; display: block; aspect-ratio: 16 / 9; background: var(--placeholder);
 	}
 	.vcover img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 	.vplat {
