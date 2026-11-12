@@ -1,10 +1,13 @@
 ---
-import Base from '../../layouts/Base.astro';
-import { base } from '../../lib/base.ts';
-import taxonomy from '../../data/taxonomy.json';
-import bloggers from '../../data/bloggers.json';
+import { withLangs, pageBase, langOf } from '../../../lib/base.ts';
+import Base from '../../../layouts/Base.astro';
+import { base } from '../../../lib/base.ts';
+import taxonomy from '../../../data/taxonomy.json';
+import bloggers from '../../../data/bloggers.json';
 
 const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]));
+export const getStaticPaths = () => withLangs([{ params: {} }]);
+const lb = pageBase(langOf(Astro.url.pathname)); // 站内链接带当前语言前缀（RIGE-1080）
 ---
 <Base title="博主目录 · 童心湾" titleEn="TinyCove · Curated creators" description="童心湾收录的优质儿童向 B 站博主目录，附推荐理由与来源，可按主题筛选。">
 	<main>
@@ -29,7 +32,7 @@ const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]
 						data-platforms={JSON.stringify(b.platforms ?? ['bilibili'])}
 					>
 						<div class="bcard">
-							<a class="bmain" href={`${base}blogger/${encodeURIComponent(b.up)}/`} aria-label={`查看 ${b.up} 的视频`}>
+							<a class="bmain" href={`${lb}blogger/${encodeURIComponent(b.up)}/`} aria-label={`查看 ${b.up} 的视频`}>
 								<span class="btop">
 									<span class="bavatar">
 										{b.avatar && <img src={b.avatar} loading="lazy" referrerpolicy="no-referrer" alt="" />}

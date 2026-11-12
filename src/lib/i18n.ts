@@ -107,13 +107,29 @@ export const SOURCE_EN: Record<string, string> = {
 	'Action for Healthy Kids': 'Action for Healthy Kids',
 };
 
+// 当前页面的界面语言（RIGE-1080）：以 URL 前缀为准（Base 写在 <html data-url-lang>），
+// 没有前缀时（理论上只有跳转页）退回「手动选择过的偏好 > 浏览器首选语言」
 export function getLang(): Lang {
-	// 旧 key 兜底：改名（kidisle→tinycove）前已存的语言偏好不丢
-	return ((localStorage.getItem('tinycove-lang') || localStorage.getItem('kidisle-lang')) as Lang) || 'zh';
+	const urlLang = document.documentElement.dataset.urlLang;
+	if (urlLang === 'zh' || urlLang === 'en') return urlLang;
+	return preferredLang();
+}
+
+// 手动切换过的偏好优先；否则看浏览器首选语言：中文（zh-*）→ 中文，其余一律英文。
+// 与 src/middleware.ts 里跳转页的内联脚本逻辑保持一致
+export function preferredLang(): Lang {
+	let saved: string | null = null;
+	try {
+		// 旧 key 兜底：改名（kidisle→tinycove）前已存的语言偏好不丢
+		saved = localStorage.getItem('tinycove-lang') || localStorage.getItem('kidisle-lang');
+	} catch { /* 隐私模式 */ }
+	if (saved === 'zh' || saved === 'en') return saved;
+	const nav = (navigator.languages && navigator.languages[0]) || navigator.language || '';
+	return /^zh\b/i.test(nav) ? 'zh' : 'en';
 }
 
 export function setLang(lang: Lang) {
-	localStorage.setItem('tinycove-lang', lang);
+	try { localStorage.setItem('tinycove-lang', lang); } catch { /* 隐私模式 */ }
 }
 
 export function t(key: string, lang: Lang, vars?: Record<string, string | number>): string {

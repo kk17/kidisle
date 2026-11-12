@@ -1,13 +1,16 @@
 ---
+import { withLangs, pageBase, langOf } from '../../../lib/base.ts';
 // 视频片单（RIGE-1021 URL 统一：原首页视频模式迁到 /videos/，根路径 / 重定向至此）
-import Base from '../../layouts/Base.astro';
-import VideoCard from '../../components/VideoCard.astro';
-import taxonomy from '../../data/taxonomy.json';
-import videos from '../../data/videos.json';
+import Base from '../../../layouts/Base.astro';
+import VideoCard from '../../../components/VideoCard.astro';
+import taxonomy from '../../../data/taxonomy.json';
+import videos from '../../../data/videos.json';
 
 const ageBands = taxonomy.age_bands;
 const languages = taxonomy.languages;
 const themes = taxonomy.themes;
+export const getStaticPaths = () => withLangs([{ params: {} }]);
+const lb = pageBase(langOf(Astro.url.pathname)); // 站内链接带当前语言前缀（RIGE-1080）
 ---
 <Base description="童心湾精选的 796 条儿童视频（B站 + YouTube），按年龄段、语言、主题筛选。">
 	<section class="filters" id="video-filters">

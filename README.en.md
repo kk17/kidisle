@@ -28,7 +28,7 @@ An independent open-source project (MIT), not affiliated with any video platform
 
 **Common**
 - 🔁 Top-bar dropdown to switch between Videos / Picture books
-- 🌐 Bilingual UI (Chinese / English) with remembered preference
+- 🌐 Bilingual UI (Chinese / English): URLs carry a language prefix (`/zh/…`, `/en/…`) so shared links keep their language; unprefixed URLs follow the browser language (Chinese → Chinese, otherwise English), and a manual switch is remembered
 - 👨‍👩‍👧 Creator directory: 467 creators with recommendation reasons and sources
 - 🔗 One-click copy link / save to KikiReel
 - 🗣️ One-click issue reporting from every detail page (broken video, unsuitable content, wrong metadata…)
@@ -45,18 +45,22 @@ npm run preview  # preview the build
 
 ## Site structure
 
-One real static page per view (URLs unified as paths, SEO-friendly):
+One real static page per view (URLs unified as paths, SEO-friendly), each under a language prefix `{lang}` = `zh` / `en`
+(the UI language comes from the URL, so shared links keep their language). Unprefixed URLs (e.g. `/video/BV1xx/`, `/`) are tiny
+redirect pages: they pick the language by "language chosen via the toggle > browser's preferred language (zh-* → zh, anything else → en)",
+keeping query/hash, so old links keep working.
 
 ```
-/                       Redirects to /videos/ (meta refresh, noindex)
-/videos/                Video list: platform / age / language / topic filters
-/bloggers/              Creator directory: platform / topic filters
-/books/                 Picture books: age / language / topic filters
-/awards/                Award directory: filter by award language
-/blogger/{up}/          Creator page: avatar, reasons, sources, all videos
-/video/{bvid|vid}/      Watch page: big player + episodes + related + report button
-/book/{id}/             Book detail: cover, recommendation, publication info, links, report button
-/award/{id}/            Award detail: introduction + winning books by year
+/                             Redirects to /zh/videos/ or /en/videos/ by browser language (noindex)
+/{lang}/                      Redirects to /{lang}/videos/
+/{lang}/videos/               Video list: platform / age / language / topic filters
+/{lang}/bloggers/             Creator directory: platform / topic filters
+/{lang}/books/                Picture books: age / language / topic filters
+/{lang}/awards/               Award directory: filter by award language
+/{lang}/blogger/{up}/         Creator page: avatar, reasons, sources, all videos
+/{lang}/video/{bvid|vid}/     Watch page: big player + episodes + related + report button
+/{lang}/book/{id}/            Book detail: cover, recommendation, publication info, links, report button
+/{lang}/award/{id}/           Award detail: introduction + winning books by year
 ```
 
 ## Data pipeline (static snapshot mode)

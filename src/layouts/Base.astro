@@ -7,14 +7,18 @@ interface Props {
 	titleEn?: string;
 	description?: string;
 }
-import { base } from '../lib/base.ts';
+import { base, langOf, pageBase, pathAfterLang } from '../lib/base.ts';
 import taxonomy from '../data/taxonomy.json';
 import '../styles/theme.css';
 import InstallGuide from '../components/InstallGuide.astro';
 const { title = '童心湾 · 精选儿童视频与绘本', titleEn = 'TinyCove · Curated videos & picture books for kids', description = '童心湾：为孩子精选的儿童视频与绘本，按年龄段、语言、主题筛选。' } = Astro.props;
 
+// URL 语言前缀（RIGE-1080）：/zh/... /en/... 固定界面语言；站内链接一律带当前前缀
+const lang = langOf(Astro.url.pathname) ?? 'zh';
+const lb = pageBase(lang);
 // 当前页面归属（服务端即定，无需 JS 同步）：/ 重定向页不经 Base
-const seg = Astro.url.pathname.slice(base.length);
+const seg = pathAfterLang(Astro.url.pathname);
+const altUrl = (l: string) => (Astro.site ? new URL(`${base}${l}${seg}`, Astro.site).href : `${base}${l}${seg}`);
 const onVideos = seg.startsWith('videos') || seg.startsWith('video/');
 const onBloggers = seg.startsWith('bloggers') || seg.startsWith('blogger/');
 const onBooks = seg.startsWith('books') || seg.startsWith('book/');
@@ -25,7 +29,7 @@ const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : un
 const buildVer = new Date().toISOString().slice(0, 16).replace('T', ' ');
 ---
 <!doctype html>
-<html lang="zh-CN" data-theme="cove">
+<html lang={lang === 'en' ? 'en' : 'zh-CN'} data-theme="cove" data-url-lang={lang} data-lang-base={lb} data-lang-rest={seg} class={lang === 'en' ? 'i18n-pending' : undefined}>
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
@@ -34,9 +38,12 @@ const buildVer = new Date().toISOString().slice(0, 16).replace('T', ' ');
 		<meta name="theme-color" content="#ffffff" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="generator" content={Astro.generator} />
-		<meta name="description" content={description} />
+		<meta name="description" content={lang === 'en' ? `${titleEn} — curated videos & picture books for kids` : description} />
 		{canonical && <link rel="canonical" href={canonical} />}
-		<title>{title}</title>
+		<link rel="alternate" hreflang="zh-CN" href={altUrl('zh/')} />
+		<link rel="alternate" hreflang="en" href={altUrl('en/')} />
+		<link rel="alternate" hreflang="x-default" href={altUrl('')} />
+		<title>{lang === 'en' ? titleEn : title}</title>
 		<style is:global>
 			:root {
 				--ink: #1f2937; --muted: #6b7280; --sea: #0284c7; --sea-soft: #e0f2fe;
@@ -50,6 +57,10 @@ const buildVer = new Date().toISOString().slice(0, 16).replace('T', ' ');
 				--warm-soft: #fef3c7; --warm-ink: #92400e; --placeholder: #e2e8f0;
 			}
 			* { box-sizing: border-box; }
+			/* 英文页：服务端渲染的是中文文案，apply() 换成英文前先隐藏，避免闪一下中文（RIGE-1080）。
+			   脚本异常时 1.2s 后自动显示，不会白屏 */
+			html.i18n-pending body { visibility: hidden; animation: i18n-reveal 0s linear 1.2s forwards; }
+			@keyframes i18n-reveal { to { visibility: visible; } }
 			[hidden] { display: none !important; }
 			body {
 				margin: 0;
@@ -126,7 +137,7 @@ const buildVer = new Date().toISOString().slice(0, 16).replace('T', ' ');
 	<body data-title-zh={title} data-title-en={titleEn} data-desc-zh={description} data-desc-en={`${titleEn} — curated videos & picture books for kids`}>
 		<header class="site-header">
 			<div class="site-header-inner">
-				<a class="logo" href={`${base}videos/`}><img class="logomark" src={`${base}favicon.svg`} alt="" width="24" height="24" /> <span data-i18n="brand_name">童心湾</span></a>
+				<a class="logo" href={`${lb}videos/`}><img class="logomark" src={`${base}favicon.svg`} alt="" width="24" height="24" /> <span data-i18n="brand_name">童心湾</span></a>
 				<div class="modebar">
 					<select id="datatype" aria-label="数据类型 / Data type">
 						<option value="video" selected={!isBookMode} data-i18n="mode_video">视频片单</option>
@@ -134,18 +145,18 @@ const buildVer = new Date().toISOString().slice(0, 16).replace('T', ' ');
 					</select>
 				</div>
 				<div class="bookview-chips" id="bookview-chips" hidden={!isBookMode}>
-					<a class="chip" id="bv-books" href={`${base}books/`} aria-current={onBooks ? 'page' : undefined} data-i18n="bookview_books">书目</a>
-					<a class="chip" id="bv-awards" href={`${base}awards/`} aria-current={onAwards ? 'page' : undefined} data-i18n="bookview_awards">奖项</a>
+					<a class="chip" id="bv-books" href={`${lb}books/`} aria-current={onBooks ? 'page' : undefined} data-i18n="bookview_books">书目</a>
+					<a class="chip" id="bv-awards" href={`${lb}awards/`} aria-current={onAwards ? 'page' : undefined} data-i18n="bookview_awards">奖项</a>
 				</div>
 				<nav class="navtabs" id="navtabs" hidden={isBookMode}>
-					<a href={`${base}videos/`} aria-current={onVideos ? 'page' : undefined}>
+					<a href={`${lb}videos/`} aria-current={onVideos ? 'page' : undefined}>
 						<span data-i18n="nav_videos">视频</span>
 					</a>
-					<a href={`${base}bloggers/`} aria-current={onBloggers ? 'page' : undefined}>
+					<a href={`${lb}bloggers/`} aria-current={onBloggers ? 'page' : undefined}>
 						<span data-i18n="nav_creators">博主</span>
 					</a>
 				</nav>
-				<button class="langtoggle" id="lang-toggle" aria-label="切换语言 / Switch language">EN</button>
+				<button class="langtoggle" id="lang-toggle" aria-label="切换语言 / Switch language">{lang === 'en' ? '中文' : 'EN'}</button>
 			</div>
 		</header>
 		<script is:inline>
@@ -195,7 +206,7 @@ const buildVer = new Date().toISOString().slice(0, 16).replace('T', ' ');
 			const initialMode = modeSel?.value;
 			modeSel?.addEventListener('change', () => {
 				if (modeSel.value === initialMode) return;
-				location.href = base + (modeSel.value === 'book' ? 'books/' : 'videos/');
+				location.href = (document.documentElement.dataset.langBase || base) + (modeSel.value === 'book' ? 'books/' : 'videos/');
 			});
 
 			// ---- 中英切换 ----
@@ -241,13 +252,16 @@ const buildVer = new Date().toISOString().slice(0, 16).replace('T', ' ');
 				});
 				const toggle = document.getElementById('lang-toggle');
 				if (toggle) toggle.textContent = lang === 'zh' ? 'EN' : '中文';
+				document.documentElement.classList.remove('i18n-pending');
 				window.dispatchEvent(new CustomEvent('tinycove:langchange', { detail: { lang } }));
 			}
 
+			// 语言由 URL 前缀决定（/zh/ /en/）：切换 = 记住偏好 + 跳到另一语言的同一页面（保留筛选 query/hash），
+			// 这样地址栏与分享出去的链接始终固化当前语言（RIGE-1080）
 			document.getElementById('lang-toggle')?.addEventListener('click', () => {
 				const next = getLang() === 'zh' ? 'en' : 'zh';
 				setLang(next);
-				apply(next);
+				location.href = base + next + '/' + (document.documentElement.dataset.langRest || '') + location.search + location.hash;
 			});
 			apply(getLang());
 		</script>

@@ -1,11 +1,12 @@
 ---
-import Base from '../../layouts/Base.astro';
-import VideoCard from '../../components/VideoCard.astro';
-import videos from '../../data/videos.json';
-import bloggers from '../../data/bloggers.json';
+import { withLangs, pageBase, langOf } from '../../../lib/base.ts';
+import Base from '../../../layouts/Base.astro';
+import VideoCard from '../../../components/VideoCard.astro';
+import videos from '../../../data/videos.json';
+import bloggers from '../../../data/bloggers.json';
 
 export function getStaticPaths() {
-	return bloggers.bloggers.map((b) => ({ params: { up: b.up }, props: { blogger: b } }));
+	return withLangs(bloggers.bloggers.map((b) => ({ params: { up: b.up }, props: { blogger: b } })));
 }
 const { blogger } = Astro.props;
 const list = videos.videos.filter((v) => v.up === blogger.up);

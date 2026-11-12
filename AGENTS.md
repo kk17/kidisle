@@ -42,6 +42,7 @@ npm run qa:local     # QA 状态矩阵（对本地 dist/，自动 build）
 - **`[hidden]` 属性**：全局 `[hidden]{display:none!important}` 已兜底，新增 CSS 不得破坏该语义
 - **i18n**：`data-i18n` key 必须在 `src/lib/i18n.ts` 字典中；双语内容用 `data-zh`/`data-en` 属性
 - **BASE_URL**：拼接路径统一走 `src/lib/base.ts`（禁止直接用 `import.meta.env.BASE_URL`）
+- **URL 语言前缀（RIGE-1080）**：页面都在 `src/pages/[...lang]/` 下，`getStaticPaths` 必须包 `withLangs()`（生成 zh / en / 无前缀三份）；无前缀那份由 `src/middleware.ts` 输出浏览器语言跳转页。站内页面链接一律用 `pageBase(langOf(Astro.url.pathname))`（`lb`）拼，静态资源（封面/图标）仍用 `base`。界面语言以 `<html data-url-lang>` 为准，`getLang()` 已处理；语言切换是跳页而非原地替换
 - **视频主题 ≠ 图书主题**：视频用 `taxonomy.themes`，绘本用 `taxonomy.book_themes`（两套独立枚举）
 - **封面**：豆瓣图床拒绝热链（418），一律用 `public/covers/` 自托管（build_books.py --covers 生成）
 - **数据快照**：`videos.json`/`books.json` 由管线生成，禁止手工编辑

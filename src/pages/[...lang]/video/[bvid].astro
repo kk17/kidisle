@@ -1,24 +1,25 @@
 ---
-import Base from '../../layouts/Base.astro';
-import VideoCard from '../../components/VideoCard.astro';
-import taxonomy from '../../data/taxonomy.json';
-import videos from '../../data/videos.json';
-import bloggers from '../../data/bloggers.json';
-import siteConfig from '../../data/site-config.json';
-import seasonsData from '../../data/seasons.json';
+import { withLangs, pageBase, langOf } from '../../../lib/base.ts';
+import Base from '../../../layouts/Base.astro';
+import VideoCard from '../../../components/VideoCard.astro';
+import taxonomy from '../../../data/taxonomy.json';
+import videos from '../../../data/videos.json';
+import bloggers from '../../../data/bloggers.json';
+import siteConfig from '../../../data/site-config.json';
+import seasonsData from '../../../data/seasons.json';
 
 export function getStaticPaths() {
 	// params.bvid 是通用视频键：B站=bvid，YouTube=vid
-	return videos.videos.map((v) => ({
+	return withLangs(videos.videos.map((v) => ({
 		params: { bvid: v.source === 'youtube' ? v.vid : v.bvid },
 		props: { video: v },
-	}));
+	})));
 }
 const { video: v } = Astro.props;
 const isYouTube = v.source === 'youtube';
 const videoKey = isYouTube ? v.vid : v.bvid;
-import { base } from '../../lib/base.ts';
-import { t, getLang } from '../../lib/i18n.ts';
+import { base } from '../../../lib/base.ts';
+import { t, getLang } from '../../../lib/i18n.ts';
 const ageLabel = Object.fromEntries(taxonomy.age_bands.map((t) => [t.id, t.label]));
 const langLabel = Object.fromEntries(taxonomy.languages.map((t) => [t.id, t.label]));
 const themeLabel = Object.fromEntries(taxonomy.themes.map((t) => [t.id, t.label]));
@@ -72,6 +73,7 @@ const related = (() => {
 	return [...sameUp, ...sameTheme].slice(0, 12);
 })();
 
+const lb = pageBase(langOf(Astro.url.pathname)); // 站内链接带当前语言前缀（RIGE-1080）
 ---
 <Base title={`${v.title} · 童心湾`} titleEn={`${v.title} · TinyCove`} description={`${v.title} — 童心湾精选儿童视频，UP主：${v.up}`}>
 	<main class="watch">
@@ -165,7 +167,7 @@ const related = (() => {
 			</div>
 
 			<div class="upcard">
-				<a class="uplink" href={`${base}blogger/${encodeURIComponent(v.up)}/`}>
+				<a class="uplink" href={`${lb}blogger/${encodeURIComponent(v.up)}/`}>
 					<span class="bavatar">
 						{blogger?.avatar && <img src={blogger.avatar} referrerpolicy="no-referrer" alt="" />}
 						{!blogger?.avatar && (v.up || '?').slice(0, 1)}
@@ -290,7 +292,7 @@ const related = (() => {
 </style>
 
 <script>
-	import { t, getLang } from '../../lib/i18n.ts';
+	import { t, getLang } from '../../../lib/i18n.ts';
 
 	// 选集切换（分 P / 合集）：把播放器 iframe 换成按钮上预生成的官方 embed 地址
 	const player = document.getElementById('bili-player') as HTMLIFrameElement | null;

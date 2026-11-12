@@ -1,4 +1,5 @@
 ---
+import { pageBase, langOf } from '../lib/base.ts';
 // 绘本卡片：整卡链接到详情页（理由/ISBN/来源/外链都在详情页）
 import taxonomy from '../data/taxonomy.json';
 const ageLabel = Object.fromEntries(taxonomy.age_bands.map((t) => [t.id, t.label]));
@@ -10,7 +11,8 @@ interface Props {
 }
 const { book: b } = Astro.props;
 import { base, assetUrl } from '../lib/base.ts';
-const href = `${base}book/${b.id}/`;
+const lb = pageBase(langOf(Astro.url.pathname)); // 站内链接带当前语言前缀（RIGE-1080）
+const href = `${lb}book/${b.id}/`;
 const coverSrc = assetUrl(b.cover);
 ---
 <a class="bkcard" href={href}>

@@ -3,7 +3,7 @@
  * 童心湾 QA 状态矩阵自动化检查（零 LLM token）
  *
  * 维度：页面(videos/books/awards/bloggers/详情页) × 语言(zh/en) × 视口(desktop/mobile)
- * URL 方案（RIGE-1021）：每个视图一张真实静态页（/videos/ /books/ /awards/ /bloggers/），/ 重定向到 /videos/
+ * URL 方案（RIGE-1021 + RIGE-1080）：每个视图一张真实静态页，带语言前缀 /zh/... /en/...；无前缀地址按浏览器语言跳转
  * 用法：
  *   node scripts/qa-check.mjs                # 测线上 https://tinycove.github.io
  *   node scripts/qa-check.mjs --local        # 测 dist/（需先 npm run build，脚本自带静态服务器）
@@ -68,12 +68,12 @@ async function testRootRedirect(page) {
 	await page.waitForLoadState('domcontentloaded');
 	await page.waitForTimeout(1200);
 	const p = await pathName(page);
-	record('R-1 根路径 / 重定向到 /videos/', p === '/videos/', p);
+	record('R-1 根路径 / 按浏览器语言重定向到 /zh/videos/（zh-CN 浏览器）', p === '/zh/videos/', p);
 }
 
 // ---- 视频片单 /videos/（中文桌面）----
 async function testVideosZh(page) {
-	await page.goto(`${target}/videos/?v=${Date.now()}`);
+	await page.goto(`${target}/zh/videos/?v=${Date.now()}`);
 	await page.waitForLoadState('domcontentloaded');
 	await page.waitForTimeout(800);
 	const s = await page.evaluate(() => {
@@ -118,7 +118,7 @@ async function testVideosZh(page) {
 
 // ---- 绘本书单 /books/（中文桌面）----
 async function testBooksZh(page) {
-	await page.goto(`${target}/books/?v=${Date.now()}`);
+	await page.goto(`${target}/zh/books/?v=${Date.now()}`);
 	await page.waitForLoadState('domcontentloaded');
 	await page.waitForTimeout(800);
 	const s = await page.evaluate(() => {
@@ -144,12 +144,12 @@ async function testBooksZh(page) {
 	await page.click('#bv-awards');
 	await page.waitForLoadState('domcontentloaded');
 	const p = await pathName(page);
-	record('D-B-7 顶栏「奖项」chip 跳转 /awards/', p === '/awards/', p);
+	record('D-B-7 顶栏「奖项」chip 跳转 /zh/awards/', p === '/zh/awards/', p);
 }
 
 // ---- 奖项目录 /awards/（中文桌面）----
 async function testAwardsZh(page) {
-	await page.goto(`${target}/awards/?v=${Date.now()}`);
+	await page.goto(`${target}/zh/awards/?v=${Date.now()}`);
 	await page.waitForLoadState('domcontentloaded');
 	await page.waitForTimeout(800);
 	const s = await page.evaluate(() => {
@@ -193,15 +193,19 @@ async function testAwardsZh(page) {
 	await page.click('#bv-books');
 	await page.waitForLoadState('domcontentloaded');
 	const p = await pathName(page);
-	record('D-A-7 顶栏「书目」chip 跳转 /books/', p === '/books/', p);
+	record('D-A-7 顶栏「书目」chip 跳转 /zh/books/', p === '/zh/books/', p);
 }
 
 // ---- 英文态（videos / books / awards）----
 async function testEn(page) {
-	await page.goto(`${target}/videos/?v=${Date.now()}`);
+	await page.goto(`${target}/zh/videos/?v=1#qa`);
 	await page.waitForLoadState('domcontentloaded');
+	// RIGE-1080：切换 = 跳到另一语言前缀的同一页面，保留 query/hash
 	await page.click('#lang-toggle');
+	await page.waitForURL(/\/en\/videos\//);
 	await page.waitForTimeout(400);
+	const u0 = new URL(page.url());
+	record('D-E-0 切换语言跳到 /en/ 同页并保留 query/hash', u0.pathname === '/en/videos/' && u0.search === '?v=1' && u0.hash === '#qa', u0.pathname + u0.search + u0.hash);
 	const en = await page.evaluate(() => ({
 		title: document.title,
 		nav: document.querySelector('[data-i18n="nav_videos"]').textContent,
@@ -213,7 +217,7 @@ async function testEn(page) {
 	record('D-E-3 顶栏无残留中文', en.leak.length === 0, en.leak.join(','));
 	record('D-E-4 品牌名 TinyCove', en.brand.includes('TinyCove'), en.brand);
 
-	await page.goto(`${target}/books/?v=${Date.now()}`);
+	await page.goto(`${target}/en/books/?v=${Date.now()}`);
 	await page.waitForLoadState('domcontentloaded');
 	await page.waitForTimeout(400);
 	const bk = await page.evaluate(() => ({
@@ -221,7 +225,7 @@ async function testEn(page) {
 	}));
 	record('D-E-5 书目页维度英文', bk.dims.join(',') === 'Age,Language,Topic', bk.dims.join(','));
 
-	await page.goto(`${target}/awards/?v=${Date.now()}`);
+	await page.goto(`${target}/en/awards/?v=${Date.now()}`);
 	await page.waitForLoadState('domcontentloaded');
 	await page.waitForTimeout(400);
 	const aw = await page.evaluate(() => ({
@@ -242,18 +246,19 @@ async function testEn(page) {
 	record('D-E-7 英文态奖项仅英文名 + 地区英文', awEn.name === 'Caldecott Medal' && awEn.enHidden && awEn.region === 'USA', `${awEn.name} hidden=${awEn.enHidden} region=${awEn.region}`);
 
 	// 页脚 i18n
-	await page.goto(`${target}/videos/?v=${Date.now()}`);
+	await page.goto(`${target}/en/videos/?v=${Date.now()}`);
 	await page.waitForLoadState('domcontentloaded');
 	await page.waitForTimeout(400);
 	const footer = await page.evaluate(() => document.querySelector('.site-footer').textContent);
 	record('D-E-8 页脚英文（独立开源项目已翻译）', /Independent open-source project/.test(footer) && !/独立开源项目/.test(footer), footer.trim().slice(-80));
 
 	await page.click('#lang-toggle'); // 切回中文
+	await page.waitForURL(/\/zh\/videos\//);
 }
 
 // ---- 详情页 ----
 async function testVideoDetail(page) {
-	await page.goto(`${target}/video/BV11341157Wz/?v=${Date.now()}`);
+	await page.goto(`${target}/zh/video/BV11341157Wz/?v=${Date.now()}`);
 	await page.waitForLoadState('domcontentloaded');
 	await page.waitForTimeout(1000);
 	const d = await page.evaluate(() => {
@@ -276,7 +281,7 @@ async function testVideoDetail(page) {
 }
 
 async function testBookDetail(page) {
-	await page.goto(`${target}/book/bk-2c634c61c964/?v=${Date.now()}`);
+	await page.goto(`${target}/zh/book/bk-2c634c61c964/?v=${Date.now()}`);
 	await page.waitForLoadState('domcontentloaded');
 	await page.waitForTimeout(1000);
 	const d = await page.evaluate(() => {
@@ -301,7 +306,7 @@ async function testBookDetail(page) {
 }
 
 async function testAwardDetail(page) {
-	await page.goto(`${target}/award/caldecott/?v=${Date.now()}`);
+	await page.goto(`${target}/zh/award/caldecott/?v=${Date.now()}`);
 	await page.waitForLoadState('domcontentloaded');
 	await page.waitForTimeout(1000);
 	const d = await page.evaluate(() => ({
@@ -319,7 +324,7 @@ async function testAwardDetail(page) {
 // ---- 移动端 ----
 async function testMobile(page) {
 	await page.setViewportSize({ width: 375, height: 812 });
-	await page.goto(`${target}/videos/?v=${Date.now()}`);
+	await page.goto(`${target}/zh/videos/?v=${Date.now()}`);
 	await page.waitForLoadState('domcontentloaded');
 	await page.waitForTimeout(600);
 	const video = await page.evaluate(() => ({
@@ -338,12 +343,12 @@ async function testMobile(page) {
 		navtabsHidden: getComputedStyle(document.getElementById('navtabs')).display === 'none',
 		noHScroll: document.documentElement.scrollWidth <= window.innerWidth + 1,
 	}));
-	record('M-B-0 下拉切图书跳转 /books/', murl === '/books/', murl);
+	record('M-B-0 下拉切图书跳转 /zh/books/', murl === '/zh/books/', murl);
 	record('M-B-1 图书模式 chips 顶栏显示', book.chipsShown);
 	record('M-B-2 tab 隐藏', book.navtabsHidden);
 	record('M-B-3 无横向滚动', book.noHScroll);
 	// 顶栏布局（RIGE-1021 反馈轮）：语言切换贴右上角；下拉紧靠站名右侧
-	await page.goto(`${target}/videos/?v=${Date.now()}`);
+	await page.goto(`${target}/zh/videos/?v=${Date.now()}`);
 	await page.waitForLoadState('domcontentloaded');
 	await page.waitForTimeout(600);
 	const head = await page.evaluate(() => {
@@ -362,7 +367,7 @@ async function testMobile(page) {
 
 async function testMobileBloggers(page) {
 	await page.setViewportSize({ width: 375, height: 812 });
-	await page.goto(`${target}/bloggers/?v=${Date.now()}`);
+	await page.goto(`${target}/zh/bloggers/?v=${Date.now()}`);
 	await page.waitForLoadState('domcontentloaded');
 	await page.waitForTimeout(600);
 	const m = await page.evaluate(() => {
@@ -382,7 +387,7 @@ async function testMobileBloggers(page) {
 
 async function testPWA(page) {
 	await page.setViewportSize({ width: 1280, height: 800 });
-	await page.goto(`${target}/videos/?v=${Date.now()}`);
+	await page.goto(`${target}/zh/videos/?v=${Date.now()}`);
 	await page.waitForLoadState('domcontentloaded');
 	await page.waitForTimeout(4000);
 	const pwa = await page.evaluate(async () => {
@@ -409,7 +414,7 @@ async function testInstallGuide() {
 	for (const [kind, ua] of Object.entries(UA)) {
 		const ctx = await browser.newContext({ userAgent: ua, viewport: { width: 375, height: 812 }, isMobile: true, hasTouch: true, serviceWorkers: 'block' });
 		const page = await ctx.newPage();
-		await page.goto(`${target}/videos/`);
+		await page.goto(`${target}/zh/videos/`);
 		await page.waitForSelector('#install-guide:not([hidden])', { timeout: 6000 }).catch(() => {});
 		const shown = await visible(page, '#install-guide .ig-sheet');
 		const steps = await visible(page, `#install-guide [data-variant="${kind}"]`);
@@ -426,9 +431,61 @@ async function testInstallGuide() {
 	}
 	const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 }, serviceWorkers: 'block' });
 	const page = await ctx.newPage();
-	await page.goto(`${target}/videos/`);
+	await page.goto(`${target}/zh/videos/`);
 	await page.waitForTimeout(3500);
 	record('I-4 桌面不弹引导、无页脚入口', !(await visible(page, '#install-guide .ig-sheet')) && !(await visible(page, '#pwa-guide-open')));
+	await ctx.close();
+}
+
+// ---- URL 语言前缀 + 浏览器语言自动检测（RIGE-1080）----
+// 无前缀地址按「手动选过的语言 > 浏览器首选语言（中文→zh，其余→en）」跳到 /zh/ 或 /en/；带前缀的地址语言固定
+async function testLangAuto() {
+	const landing = async (locale, path, saved) => {
+		const ctx = await browser.newContext({ locale, viewport: { width: 1280, height: 800 }, serviceWorkers: 'block' });
+		if (saved) await ctx.addInitScript((v) => { try { localStorage.setItem('tinycove-lang', v); } catch {} }, saved);
+		const page = await ctx.newPage();
+		await page.goto(`${target}${path}`);
+		await page.waitForURL(/\/(zh|en)\//, { timeout: 5000 }).catch(() => {});
+		await page.waitForLoadState('domcontentloaded');
+		await page.waitForTimeout(500);
+		const u = new URL(page.url());
+		const info = await page.evaluate(() => ({
+			lang: document.documentElement.lang,
+			nav: document.querySelector('[data-i18n="nav_videos"]')?.textContent,
+			visible: getComputedStyle(document.body).visibility,
+			links: [...document.querySelectorAll('a[href^="/"]')].map((a) => a.getAttribute('href'))
+				.filter((h) => !/\.(png|svg|jpg|webmanifest)$/.test(h)),
+		}));
+		await ctx.close();
+		return { path: u.pathname + u.search + u.hash, ...info };
+	};
+	const a = await landing('zh-CN', '/');
+	record('L-1 中文浏览器访问 / → /zh/videos/', a.path === '/zh/videos/' && a.nav === '视频', `${a.path} nav=${a.nav}`);
+	const b = await landing('en-US', '/');
+	record('L-2 英文浏览器访问 / → /en/videos/（英文界面、已显示）', b.path === '/en/videos/' && b.nav === 'Videos' && b.lang === 'en' && b.visible === 'visible', `${b.path} nav=${b.nav} lang=${b.lang} vis=${b.visible}`);
+	const c = await landing('ja-JP', '/video/BV11341157Wz/?x=1#t');
+	record('L-3 非中文浏览器访问旧详情页地址 → /en/ 同页并保留 query/hash', c.path === '/en/video/BV11341157Wz/?x=1#t', c.path);
+	const d = await landing('zh-TW', '/books/');
+	record('L-4 zh-TW 也算中文 → /zh/books/', d.path === '/zh/books/', d.path);
+	const e = await landing('en-US', '/videos/', 'zh');
+	record('L-5 手动选过中文的偏好优先于浏览器语言', e.path === '/zh/videos/', e.path);
+	const f = await landing('zh-CN', '/en/video/BV11341157Wz/');
+	record('L-6 分享的 /en/ 链接在中文浏览器仍是英文', f.path === '/en/video/BV11341157Wz/' && f.nav === 'Videos', `${f.path} nav=${f.nav}`);
+	const bad = f.links.filter((h) => !h.startsWith('/en/'));
+	record('L-7 /en/ 页面内站内链接全部带 /en/ 前缀', bad.length === 0 && f.links.length > 5, bad.slice(0, 3).join(','));
+
+	// PWA 引导多语言：/en/ 页面手机首访 → 英文文案
+	const ctx = await browser.newContext({ locale: 'en-US', userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1', viewport: { width: 375, height: 812 }, isMobile: true, hasTouch: true, serviceWorkers: 'block' });
+	const page = await ctx.newPage();
+	await page.goto(`${target}/en/videos/`);
+	await page.waitForSelector('#install-guide:not([hidden])', { timeout: 6000 }).catch(() => {});
+	const g = await page.evaluate(() => ({
+		title: document.getElementById('ig-title')?.textContent,
+		ok: document.getElementById('ig-ok')?.textContent,
+		cjk: [...document.querySelectorAll('#install-guide [data-variant="ios"] li, #install-guide .ig-title, #install-guide .ig-intro')]
+			.filter((el) => /[\u4e00-\u9fa5]/.test(el.textContent)).length,
+	}));
+	record('L-8 /en/ 页面 PWA 引导为英文', g.title === 'Add TinyCove to your Home Screen' && g.ok === 'Got it' && g.cjk === 0, `${g.title} / ${g.ok} cjk=${g.cjk}`);
 	await ctx.close();
 }
 
@@ -439,7 +496,7 @@ async function testInstallGuide() {
 		console.log(`本地模式：${target}`);
 	}
 	browser = await chromium.launch();
-	const page = await browser.newPage({ viewport: { width: 1280, height: 800 } });
+	const page = await browser.newPage({ viewport: { width: 1280, height: 800 }, locale: 'zh-CN' });
 	try {
 		await testRootRedirect(page);
 		await testVideosZh(page);
@@ -453,6 +510,7 @@ async function testInstallGuide() {
 		await testMobileBloggers(page);
 		await testPWA(page);
 		await testInstallGuide();
+		await testLangAuto();
 	} catch (e) {
 		record('FATAL', false, e.message.slice(0, 200));
 	}

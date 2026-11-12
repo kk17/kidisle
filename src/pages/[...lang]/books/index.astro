@@ -1,13 +1,16 @@
 ---
+import { withLangs, pageBase, langOf } from '../../../lib/base.ts';
 // 绘本书单（RIGE-1021 URL 统一：原首页图书模式·书目视图迁到 /books/）
-import Base from '../../layouts/Base.astro';
-import BookCard from '../../components/BookCard.astro';
-import taxonomy from '../../data/taxonomy.json';
-import books from '../../data/books.json';
+import Base from '../../../layouts/Base.astro';
+import BookCard from '../../../components/BookCard.astro';
+import taxonomy from '../../../data/taxonomy.json';
+import books from '../../../data/books.json';
 
 const ageBands = taxonomy.age_bands;
 const languages = taxonomy.languages;
 const bookThemes = taxonomy.book_themes;
+export const getStaticPaths = () => withLangs([{ params: {} }]);
+const lb = pageBase(langOf(Astro.url.pathname)); // 站内链接带当前语言前缀（RIGE-1080）
 ---
 <Base title="绘本书单 · 童心湾" titleEn="TinyCove · Picture books" description="童心湾精选的 451 本儿童绘本（中文 + 英文原版），按年龄段、语言、主题筛选，附豆瓣评分与推荐理由。">
 	<section class="filters" id="book-filters">
