@@ -1,10 +1,11 @@
 ---
-import Base from '../../layouts/Base.astro';
-import books from '../../data/books.json';
-import { base, assetUrl } from '../../lib/base.ts';
+import { withLangs, pageBase, langOf } from '../../../lib/base.ts';
+import Base from '../../../layouts/Base.astro';
+import books from '../../../data/books.json';
+import { base, assetUrl } from '../../../lib/base.ts';
 
 export function getStaticPaths() {
-	return books.books.map((b) => ({ params: { id: b.id }, props: { book: b } }));
+	return withLangs(books.books.map((b) => ({ params: { id: b.id }, props: { book: b } })));
 }
 const { book: b } = Astro.props;
 const taxoUrl = `${base}lib/taxonomy-url.json`;

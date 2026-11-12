@@ -1,12 +1,13 @@
 ---
-import Base from '../../layouts/Base.astro';
-import BookCard from '../../components/BookCard.astro';
-import { base, assetUrl } from '../../lib/base.ts';
-import awards from '../../data/awards.json';
-import books from '../../data/books.json';
+import { withLangs, pageBase, langOf } from '../../../lib/base.ts';
+import Base from '../../../layouts/Base.astro';
+import BookCard from '../../../components/BookCard.astro';
+import { base, assetUrl } from '../../../lib/base.ts';
+import awards from '../../../data/awards.json';
+import books from '../../../data/books.json';
 
 export function getStaticPaths() {
-	return awards.awards.map((a) => ({ params: { id: a.id }, props: { award: a } }));
+	return withLangs(awards.awards.map((a) => ({ params: { id: a.id }, props: { award: a } })));
 }
 const { award } = Astro.props;
 // 该奖项的历年获奖书（按年份倒序分组）

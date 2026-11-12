@@ -6,7 +6,7 @@
  * - 其他同源 GET：NetworkFirst
  * 版本号变更时 activate 清理旧缓存
  */
-const VERSION = 'v2026-11-12-r2'; // PWA 添加到主屏幕引导（RIGE-1078）
+const VERSION = 'v2026-11-12-r3'; // URL 语言前缀 /zh/ /en/（RIGE-1080）
 const PAGES_CACHE = `tinycove-pages-${VERSION}`;
 const COVERS_CACHE = `tinycove-covers-${VERSION}`;
 const ASSETS_CACHE = `tinycove-assets-${VERSION}`;
@@ -16,8 +16,8 @@ self.addEventListener('install', (event) => {
 	event.waitUntil((async () => {
 		try {
 			const cache = await caches.open(PAGES_CACHE);
-			// 根路径是重定向页：离线首访时直接落地视频片单（review 2026-11-11 建议）
-			await cache.addAll(['./', './videos/']);
+			// 根路径是按语言跳转的小页面：两种语言的视频片单都预缓存，离线首访也能落地（RIGE-1080）
+			await cache.addAll(['./', './zh/videos/', './en/videos/']);
 		} catch (e) { /* 首屏预缓存失败不阻塞安装 */ }
 		await self.skipWaiting();
 	})());

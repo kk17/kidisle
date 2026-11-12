@@ -1,4 +1,5 @@
 ---
+import { pageBase, langOf } from '../lib/base.ts';
 // 视频卡片：整卡链接到观看页
 import taxonomy from '../data/taxonomy.json';
 const ageLabel = Object.fromEntries(taxonomy.age_bands.map((t) => [t.id, t.label]));
@@ -12,7 +13,8 @@ interface Props {
 const { video: v, compact = false } = Astro.props;
 import { base } from '../lib/base.ts';
 const isYT = v.source === 'youtube';
-const href = `${base}video/${v.source === 'youtube' ? v.vid : v.bvid}/`;
+const lb = pageBase(langOf(Astro.url.pathname)); // 站内链接带当前语言前缀（RIGE-1080）
+const href = `${lb}video/${v.source === 'youtube' ? v.vid : v.bvid}/`;
 const pad = (n: number) => String(n).padStart(2, '0');
 const dur = v.duration_seconds > 0
 	? v.duration_seconds >= 3600

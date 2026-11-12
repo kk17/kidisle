@@ -1,0 +1,26 @@
+---
+// 语言根路径 /zh/、/en/ → 对应语言的视频片单（RIGE-1021 URL 统一 + RIGE-1080 语言前缀）。
+// GitHub Pages 无服务端重写，用 meta refresh + JS 兜底；canonical 指向目标页避免双收录。
+// 站点根 / 不渲染本页：由 src/middleware.ts 输出按浏览器语言跳转的小页面。
+import { withLangs, pageBase, langOf } from '../../lib/base.ts';
+export const getStaticPaths = () => withLangs([{ params: {} }]);
+const lang = langOf(Astro.url.pathname) ?? 'zh';
+const target = `${pageBase(lang)}videos/`;
+const canonical = Astro.site ? new URL(target, Astro.site).href : undefined;
+---
+<!doctype html>
+<html lang={lang === 'en' ? 'en' : 'zh-CN'}>
+	<head>
+		<meta charset="utf-8" />
+		<title>{lang === 'en' ? 'TinyCove · Curated videos & picture books for kids' : '童心湾 · 精选儿童视频与绘本'}</title>
+		{canonical && <link rel="canonical" href={canonical} />}
+		<meta name="robots" content="noindex" />
+		<meta http-equiv="refresh" content={`0;url=${target}`} />
+	</head>
+	<body>
+		<script is:inline set:html={`location.replace(${JSON.stringify(target)});`} />
+		<p style="font-family: system-ui, sans-serif; padding: 2rem; text-align: center;">
+			<a href={target}>{lang === 'en' ? 'Go to videos →' : '进入视频片单 →'}</a>
+		</p>
+	</body>
+</html>
